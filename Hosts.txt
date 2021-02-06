@@ -1,0 +1,42 @@
+## DNS缓存清理命令：ipconfig /flushdns
+##屏蔽名单
+127.0.0.1	xn--4gq2mv6srm3e.xyz	#1024视频
+127.0.0.1	chimei800.xyz		#魑魅魍魉
+127.0.0.1	807.workgreat17.live		#91porn自拍
+127.0.0.1	caoliu6.icu		#草榴视频
+127.0.0.1	xn--efv62gl32a.xyz		#草榴视频
+127.0.0.1	xn--4gq50me4hyv5a.xyz	#秋名山车库
+127.0.0.1	xn--eqr28qburkrixjbu3l.xyz	#秋名山车库
+127.0.0.1	llxz.xyz			#韩三伦理小站
+127.0.0.1	xn--ehq01tnu8a5dv.xyz	#韩三伦理小站
+127.0.0.1	xyg110.xyz		#寻欲宫
+127.0.0.1	xn--3bt1g36oerk2xi.xyz	#寻欲宫
+127.0.0.1	xn--mtst31d.xyz		#猎奇之家
+127.0.0.1	xn--fjqv3st0bfx7b.xyz	#猎奇之家
+127.0.0.1	lieqizz.com		#猎奇之家
+127.0.0.1	e1.zxhgqgp.xyz		#BT7688论坛
+127.0.0.1	xn--ehq091c7jk8qq.com	#国产自拍热
+127.0.0.1	xn--xftw72ctldd8w.com	#就要看
+127.0.0.1	awf28.com		#狼少年
+127.0.0.1	bigjb.xyz			#国产小学生
+127.0.0.1	kanp16.xyz		#性吧
+127.0.0.1	isekai.im			#ISEKAI
+127.0.0.1	m1.lto5.xyz		#2048核基地
+127.0.0.1	xiguax2.xyz		#云搜系统2.0
+127.0.0.1	xiguax5.xyz		#云搜系统2.0
+127.0.0.1	ikanxm.pw		#爱看学妹
+127.0.0.1	xn--wcsw84dcxi8ta.com	#网红精选
+127.0.0.1	xn--wcs69oyudj44b.xyz	#自拍图库
+127.0.0.1	xn--wcsr8yy8y.xyz		#自拍图库
+127.0.0.1	www.ggyy44.cc		#烟雨楼在线
+127.0.0.1	xn--wcs69ow13a.xyz		#50美图库
+127.0.0.1	xn--wcsz0dey2d.xyz		#50美图库
+127.0.0.1	xn--jprx39f24f0ny.com	#第一导航网	
+127.0.0.1	www.ikmjx.com		#爱看买家秀
+127.0.0.1	fanhaoban.com		#番号班级	
+127.0.0.1	bttzyw22.com		#博天堂资源
+
+
+
+
+
