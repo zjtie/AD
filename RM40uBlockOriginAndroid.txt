@@ -1898,3 +1898,40 @@ www.3dsexanime.xyz##.mt-3.comments-section
 999hentai.net##.w-100.align-items-center.flex-column.d-flex.ads-wraper
 999hentai.net##.disqus-comments.loading-wrapper
 
+! 2024-04-02 https://999hentai.net
+999hentai.net##.mt-3.site-bottom-wrapper.info-panel
+999hentai.net##.info-panel.py-5.footer
+999hentai.net##.w-100.align-items-center.flex-column.d-flex.ads-wraper
+999hentai.net##.disqus-comments.loading-wrapper
+
+! 2024-04-02 https://hentaix.io
+hentaix.io##.mh-copyright-wrap
+hentaix.io##.mh-footer
+hentaix.io##[href="https://theporndude.com"]
+
+! 2024-04-02 https://hentaigasm.com
+hentaigasm.com##div.adv
+
+! 2024-04-02 https://slushe.com
+slushe.com##.page-footer
+slushe.com##.comments
+slushe.com##.active.contact
+slushe.com##.about
+slushe.com##.discord
+
+! 2024-04-02 https://www.lolhentai.net
+www.lolhentai.net##footer
+www.lolhentai.net##.hidesm.init-popup.discord
+
+! 2024-04-02 https://www.hentai-foundry.com
+www.hentai-foundry.com###footer
+www.hentai-foundry.com##[href="https://discord.gg/gMtgEcZuk4"]
+
+! 2024-04-02 https://gelbooru.com
+gelbooru.com##a[href^="index.php"]:nth-of-type(11)
+gelbooru.com##footer
+
+! 2024-04-02 https://kemono.su
+kemono.su##.shifted.content-wrapper > [href]
+kemono.su##.stuck-bottom.global-sidebar-entry
+
