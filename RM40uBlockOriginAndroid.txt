@@ -1845,3 +1845,17 @@ jablehk.com##[href="/store"]
 jablehk.com###siteWrapper > .sections
 jablehk.com###yui_3_17_2_2_1711796394211_75
 jablehk.com###block-5d474febc5b958e194ed
+
+! 2024-04-02 https://h-ciyuan.com
+h-ciyuan.com###gridview-footer-blocks
+h-ciyuan.com##.gridview-copyright
+h-ciyuan.com##.comments-area
+h-ciyuan.com##[href="https://theporndude.com/zh"]
+h-ciyuan.com##[href^="https://www.tapfog.io/#/register"]
+h-ciyuan.com###menu-item-19434
+h-ciyuan.com##li.ui-tab.ui-state-default.ui-corner-top.ui-tabs-tab:nth-of-type(2)
+h-ciyuan.com###menu-item-13541 > [href="https://h-ciyuan.com/h-live/"]
+h-ciyuan.com##.gridview-sticky-social-icon-twitter
+h-ciyuan.com##.gridview-sticky-social-icon-telegram
+h-ciyuan.com##.gridview-sticky-social-icon-email
+h-ciyuan.com##.entry-header
