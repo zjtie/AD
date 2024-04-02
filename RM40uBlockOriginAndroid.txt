@@ -1,25 +1,69 @@
 !RM40uBlockOriginAndroid规制
 
-xw.qq.com
+! 2023-06-06 https://shimo.im
+shimo.im##.bOwZFV.Container-sc-2dZnaL
 
-! 2021-12-30 https://www.cupfox.com
-www.cupfox.com##.sidebar.jsx-142170839 > div
-www.cupfox.com##.head-promotion.jsx-1625518580
-www.cupfox.com##.banner.jsx-1625518580
-www.cupfox.com##div.banner-box.jsx-3699602122 > .jsx-3699602122
-www.cupfox.com##.banner-box.jsx-4261417949
+! 2023-06-13 https://fuliba2023.net
+fuliba2023.net##.karbar-rb.karbar
+fuliba2023.net##.widget_links.widget
+fuliba2023.net##div.widget_ui_textorbui.widget.widget-on-phone:nth-of-type(6)
+fuliba2023.net##div.widget_ui_textorbui.widget.widget-on-phone:nth-of-type(7)
+fuliba2023.net##div.widget_ui_textorbui.widget.widget-on-phone:nth-of-type(8)
 
-! 2022-01-01 https://iao.su
+! 2023-06-14 https://www.ximalaya.com
+www.ximalaya.com##.xz_.dl-pc
+www.ximalaya.com##._BH.common-ranking-list
+www.ximalaya.com##.DN_.footer
+www.ximalaya.com##.gX_.album-intro
+www.ximalaya.com##._Ps.p-r-10.p-l-10.bg-white.recommend-list
+www.ximalaya.com##.eY_.clearfix.controls
+
+! 2023-06-25 https://tieba.baidu.com
+tieba.baidu.com##.tbui_aside_float_bar
+
+! 2023-06-26 https://pan.baidu.com
+pan.baidu.com##.wp-s-header__right-item.wp-s-header__nav-tooltip
+pan.baidu.com##.wp-s-header__right-item.gameEntry
+pan.baidu.com##.wp-header-user__tooltip-display.wp-s-header-user__tooltip
+
+
+! 2023-07-14 https://shimo.im
+shimo.im##.nps-survey
+
+! 2023-07-14 https://www.36kr.com
+www.36kr.com##.undefined.assit-wrapper
+
+! 2023-07-24 https://www.aliyundrive.com
+www.aliyundrive.com##.share-list-banner--1E8Jr
+www.aliyundrive.com##.btn-mobile-save--2nXdf
+www.aliyundrive.com##.to-desktop--1IcwT
+www.aliyundrive.com##.text--2buEJ
+
+! 2023-07-24 https://fuliba2023.net
+fuliba2023.net##.footer
+fuliba2023.net##.branding
+fuliba2023.net##.post-actions
+fuliba2023.net##.shares
+fuliba2023.net##div.-roll-top.widget_ui_textorbui.widget.widget-on-phone > .style02
+fuliba2023.net##div.-roll-top.widget_ui_textorbui.widget:nth-of-type(9)
+fuliba2023.net##div.-roll-top.widget_ui_textorbui.widget:nth-of-type(7)
+fuliba2023.net##.no_webshot
+fuliba2023.net##div.widget_ui_textorbui.widget:nth-of-type(7)
+fuliba2023.net##div.widget_ui_textorbui.widget:nth-of-type(9)
+fuliba2023.net##div.widget_ui_textorbui.widget.widget-on-phone:nth-of-type(10)
+fuliba2023.net##.topbar
+
+
+
+
+! 2022-01-01 https://iao.su   不死鸟
 iao.su##[src="https://i.niao.su/Yo9QSPA.jpg"]
 iao.su##[src="https://i.niao.su/Yo9QSPA.jpg"]
 
 ! 2022-01-16 https://freesexgames.app
 freesexgames.app##div.col-12:nth-of-type(4)
 
-! 2022-01-21 https://www.autopiano.cn
-www.autopiano.cn##.align-center.justify-space-around.flex-row.d-flex.py-6.clear-block.section-platform-list.section
-
-! 2022-01-21 https://www.huashi6.com
+! 2022-01-21 https://www.huashi6.com  触站画师
 www.huashi6.com##.chuzhan-app-download
 www.huashi6.com##.c-sidebar
 www.huashi6.com##.c-footer-main
@@ -27,27 +71,18 @@ www.huashi6.com##.c-footer-main
 ! 2022-01-21 https://xn--7m7-pornsuocom-255xc16b0te7x3k3ura.pornyjs.com
 xn--7m7-pornsuocom-255xc16b0te7x3k3ura.pornyjs.com##div.col-12:nth-of-type(1)
 
-! 2022-01-21 https://members.luscious.net
-members.luscious.net##div.o-padding-sides.o-fullwidth:nth-of-type(8)
-||w1680.luscious.net/admin/77444/blonde-1-cropped_01DG1PKQWWMT38QH4SA6EX76M8.1680x0.jpg$image
-
 ! 2022-01-21 http://thatpervert.com
 thatpervert.com###postContainer4984265 > .post-normal.article > .post_top > .uhead > .uhead_share
 
 ! 2022-03-05 https://www.1010dy.vip
 ||dingyue.ws.126.net/2022/0228/f0581fdej00r80h270033d0008c008cp.jpg$image
 
-
-
 ! 2022-08-18 https://www.voflix.com
 www.voflix.com##.popupShow.none.popup-tips.popup
 
 ! 2022-11-20 https://fuliba2023.net 福利吧
-fuliba2023.net##.topbar
-fuliba2023.net##.widget_links.widget
 fuliba2023.net##div.widget_ui_textorbui.widget.widget-on-phone:nth-of-type(4)
 fuliba2023.net##div.widget_ui_textorbui.widget:nth-of-type(5)
-fuliba2023.net##div.widget_ui_textorbui.widget.widget-on-phone:nth-of-type(6)
 fuliba2023.net##.site-navbar.site-nav > .menu-item-49385.menu-item-object-custom.menu-item-type-custom.menu-item
 fuliba2023.net##.site-navbar.site-nav > .menu-item-2299.menu-item-has-children.menu-item-object-category.menu-item-type-taxonomy.menu-item
 fuliba2023.net##.site-navbar.site-nav > .menu-item-77732.menu-item-object-custom.menu-item-type-custom.menu-item
@@ -59,20 +94,14 @@ fuliba2023.net##.brand
 fuliba2023.net##.logo
 fuliba2023.net##.rollbar-rb.rollbar
 fuliba2023.net##.branding-black.branding
-fuliba2023.net##.no_webshot
-fuliba2023.net##.post-actions
-
-! 2022-11-20 https://cupfox.app 茶杯狐
-cupfox.app##.head-guide.jsx-19dd3ea12a275d5b > .border-shadow.card.jsx-2975208096
-cupfox.app##.banner.jsx-ad2e94093baf1e8c
-cupfox.app##li.jsx-1ef33dd0b66cb914:nth-of-type(2)
-cupfox.app##li.jsx-1ef33dd0b66cb914:nth-of-type(1)
-cupfox.app##li.jsx-1ef33dd0b66cb914:nth-of-type(3)
+fuliba2023.net##.excerpts-title.title
+fuliba2023.net##.sidebar
+fuliba2023.net##.header
+fuliba2023.net##.post-copyright
 
 ! 2022-11-20 https://pan.baidu.com 百度云
 pan.baidu.com##.wp-s-header__right-item.web-header-ad-item
 pan.baidu.com##span.wp-s-header__right-item
-pan.baidu.com##.wp-header-user__tooltip-display.wp-s-header-user__tooltip
 pan.baidu.com##.wp-s-header__right-item.feedBack
 pan.baidu.com##a.wp-s-header__right-item > span
 pan.baidu.com##.gOIbzPb
@@ -81,34 +110,1738 @@ pan.baidu.com##.app-user-vip-center
 pan.baidu.com##.app-icon.app-feedback.icon-feedback.icon
 pan.baidu.com##.link-instanted.app-icon.icon-notice.app-notice.icon
 
-! 2022-11-20 https://iui.su 不死鸟论坛
-||i.niao.su/Yo9QSPA.jpg$image
-iui.su##.post-content [src="https://i.niao.su/Yo9QSPA.jpg"]
-
 ! 2022-11-20 http://www.cnu.cc 中国视觉联盟
 ||www.cnu.cc/uploads/banners/UYUHk1dUGEuOlI0L7JgV.jpg$image
 www.cnu.cc##.link-instanted > div
 
+! 2022-11-20 https://animeidhentai.com
+animeidhentai.com##.c-mgt4.mgt2.por.c-pdt4.c-fz16.fz12.pdt2.s30Tx
+animeidhentai.com##.c-fg0.fg1.mgr2.logo
+animeidhentai.com##.mgb4.mgt2
+
+! 2022-11-20 https://nhentai.net
+nhentai.net###comment-post-container
+nhentai.net##li.desktop:nth-of-type(8)
+
+! 2022-11-21 https://www.jianguoyun.com  坚果云
+www.jianguoyun.com##.teaser-container
+www.jianguoyun.com##.isActive.account-type
+www.jianguoyun.com##div.bar-item:nth-of-type(4)
+www.jianguoyun.com##.active.bar-item
+
+! 2022-11-23 https://www.jjpicss.com
+www.jjpicss.com##.swiper-container-horizontal.skiptranslate.swiper-container
+
+! 2022-11-24 https://www.girlonthenet.com
+www.girlonthenet.com##.audio-hub-bottom-of-page.widget-area
+www.girlonthenet.com##.patreon-login-links
+www.girlonthenet.com##.audio-hub-header > p:nth-of-type(3)
+www.girlonthenet.com##.audio-hub-header > p:nth-of-type(1)
+www.girlonthenet.com##.audio-hub-header > h1 > font
+www.girlonthenet.com##p:nth-of-type(2) > font
+www.girlonthenet.com###branding
+www.girlonthenet.com##[href="https://www.girlonthenet.com/sex-toys/"]
+www.girlonthenet.com##[href="https://www.girlonthenet.com/advertising/"]
+www.girlonthenet.com##.menu-item-78.menu-item-object-custom.menu-item-type-custom.menu-item
+www.girlonthenet.com##[href="https://www.girlonthenet.com/books/"]
+
+! 2022-11-26 https://www.coolapk.com
+www.coolapk.com##.download-group
+www.coolapk.com##.main
+
+! 2022-11-29 https://taskerm.com
+taskerm.com##.aside-content
+
+! 2022-11-30 https://b-gift.biligame.com
+b-gift.biligame.com##[href="//b-gift.biligame.com/"]
+
+! 2022-11-21 https://www.artstation.com
+www.artstation.com##.home-subscriptions
+www.artstation.com##.mobile-apps
+www.artstation.com##.chrome-store
+www.artstation.com##.newslttr
+www.artstation.com##.text-center.f-links
+www.artstation.com##div.product-variant-component:nth-of-type(1) > .productPage-group
+www.artstation.com##div.product-variant-component:nth-of-type(2) > .productPage-group
+www.artstation.com##div.product-variant-component:nth-of-type(3) > .productPage-group
+www.artstation.com##.product-variants-component
+www.artstation.com##.product-actions
+www.artstation.com##.mb10.panel-default.panel
+www.artstation.com##.ng-star-inserted > .ng-tns-c1-0
+www.artstation.com##.ng-star-inserted.d-sm-block.d-none
+www.artstation.com##li.bs-d-sm-flex.bs-d-none.main-menu-bar-item:nth-of-type(5) > .menu-item-icon.main-menu-bar-link
+www.artstation.com##.ng-star-inserted.sorting-trending.size-default.ng-tns-c16-3.marketplace-products-line > .ng-tns-c16-3
+www.artstation.com##.js-currency-dropdown.bs-d-sm-flex.bs-d-none.dropdown.main-menu-bar-item > .dropdown-toggle.menu-item-icon.main-menu-bar-link
+www.artstation.com##.ng-star-inserted.sorting-trending.size-default.ng-tns-c16-3.marketplace-products-line
+www.artstation.com##.link-instanted.js-track-event.menu-item-icon.main-menu-bar-link
+
+! 2022-11-30 https://bbs.tianya.cn
+bbs.tianya.cn###barcode_float > [href="http://www.tianya.cn/mobile/"]
+bbs.tianya.cn###foot-new
+bbs.tianya.cn##.scroll-btn
+bbs.tianya.cn##.clearfix.post-div
+groups.tianya.cn###barcode_float > .link-instanted
+groups.tianya.cn##.scroll-btn
+
 ! 2022-11-30 https://www.manhuadb.com
-www.manhuadb.com##.btn-primary.btn
-www.manhuadb.com##.container-xxl.header-wrapper
+www.manhuadb.com##.one-line.mty-1
+www.manhuadb.com##div.d-sm-block.d-none.pt-sm-0.pt-3.pb-3.px-sm-2.px-1.col-xl-2.col-sm-2.col-4 > .mb-sm-0.mb-2.comicbook-index > .one-line.my-1
+www.manhuadb.com##.login-status.justify-content-end.d-flex.align-self-center > .btn-primary.btn
+www.manhuadb.com##[src="/assets/www/img/logo.png"]
 www.manhuadb.com##.mb-2.justify-content-between.d-flex
 www.manhuadb.com##div.p-3.bg-white.comic-toc-section > .m-0.row
 www.manhuadb.com##div.ml-md-3.mt-3.default-wrapper:nth-of-type(2)
-www.manhuadb.com##.comic-title
-www.manhuadb.com##.mb-3.mt-sm-0.mt-3
-www.manhuadb.com##div.d-sm-none.d-block.pt-sm-0.pt-3.pb-3.px-sm-2.px-1.col-xl-2.col-sm-2.col-4 > .mb-sm-0.mb-2.comicbook-index > .one-line.my-1
 
-! 2022-11-30 https://www.pixiv.net
-www.pixiv.net##.premium-lead-new-t-info-home-top
-www.pixiv.net##.premium-lead-t-footer > div > [href]
-www.pixiv.net##.premium-link
-www.pixiv.net##.premium-lead-t-footer
-www.pixiv.net##.premium-lead-t-side-menu-mini-profile
-www.pixiv.net##ul:nth-of-type(11) > li:nth-of-type(2)
-www.pixiv.net##.oshirase
-www.pixiv.net##.message-trigger > svg
-www.pixiv.net##.router-link-active.router-link-exact-active.notify-trigger
-www.pixiv.net##.upload-global-link-container
-www.pixiv.net##[href="/messages.php"]
-www.pixiv.net##[href="/notify_all.php"
+! 2022-12-09 https://www.zhihu.com 知乎
+www.zhihu.com##.Footer
+www.zhihu.com##.GlobalSideBar-copyrightItem.GlobalSideBar-navItem > .link-instanted.Button--plain.GlobalSideBar-navLink.Button
+www.zhihu.com##.GlobalSideBar-help-centerItem.GlobalSideBar-navItem
+www.zhihu.com##.GlobalSideBar-serviceItem.GlobalSideBar-navItem > .link-instanted.Button--plain.GlobalSideBar-navLink.Button
+www.zhihu.com##.GlobalSideBar-couponItem.GlobalSideBar-navItem > .link-instanted.Button--plain.GlobalSideBar-navLink.Button
+www.zhihu.com##.GlobalSideBar-balanceItem.GlobalSideBar-navItem > .link-instanted.Button--plain.GlobalSideBar-navLink.Button
+www.zhihu.com##.GlobalSideBar-inviteItem.GlobalSideBar-navItem > .link-instanted.Button--plain.GlobalSideBar-navLink.Button
+www.zhihu.com##.css-9cqq7d
+
+! 2022-12-12 https://web.vip.miui.com
+web.vip.miui.com##.DownCard_downloadCard__1sLVU
+web.vip.miui.com##.UserProtocol_card__-eD84
+
+! 2022-12-15 https://smailpro.com 临时谷歌邮箱
+smailpro.com##.py-2.order-last.items-center.inline-flex
+
+! 2022-12-26 https://music.163.com 网易云音乐
+music.163.com##.lst
+music.163.com##.m-multi
+music.163.com##li:nth-of-type(4) > span > .link-instanted
+music.163.com##li:nth-of-type(5) > span > .link-instanted
+music.163.com###index-banner > .wrap
+music.163.com##.u-btn2-1.u-btn2
+music.163.com##.enter
+music.163.com##.copy
+
+! 2022-11-20 https://cupfox.app 茶杯狐
+cupfox.app##.head-guide.jsx-19dd3ea12a275d5b > .border-shadow.card.jsx-2975208096
+cupfox.app##.banner.jsx-ad2e94093baf1e8c
+cupfox.app##li.jsx-1ef33dd0b66cb914:nth-of-type(2)
+cupfox.app##li.jsx-1ef33dd0b66cb914:nth-of-type(1)
+cupfox.app##li.jsx-1ef33dd0b66cb914:nth-of-type(3)
+
+! 2022-12-27 https://cupfox.app
+cupfox.app##.model.jsx-1727503293
+cupfox.app##.model.jsx-3532742782
+
+! 2022-01-21 https://www.autopiano.cn   自由钢琴
+www.autopiano.cn##.align-center.justify-space-around.flex-row.d-flex.py-6.clear-block.section-platform-list.section
+www.autopiano.cn##.flex-row.d-flex.social-item-list
+www.autopiano.cn##a.v-tab:nth-of-type(6)
+www.autopiano.cn##.v-tab--active.tab-active.v-tab
+www.autopiano.cn##.menu.align-center.justify-space-between.flex-row.d-flex
+
+! 2022-12-30 https://www.kuaishou.com   快手
+www.kuaishou.com##.swiper-slide-active.swiper-slide > .swiper-feed-content > .player-area.reco-player-container > .kwai-player-rotation-0.kwai-player.kwai-player-container > .kwai-player-container-video > .kwai-player-plugins > .custom-plugin > .right-bar > .feed-sidebar > .more-btn.sidebar-item
+www.kuaishou.com##.swiper-slide-active.swiper-slide > .swiper-feed-content > .player-area.reco-player-container > .kwai-player-rotation-0.kwai-player.kwai-player-container > .kwai-player-container-video > .kwai-player-plugins > .custom-plugin > .right-bar > .feed-switch
+www.kuaishou.com##.toolbar
+www.kuaishou.com##.acfun-item.navbar-list-item > .sub-list > .sub-list-placeholder > .nav-link > .item-info > .item-text
+www.kuaishou.com##.logo
+
+! 2023-01-03 https://download.mokeedev.com
+download.mokeedev.com##.tips-help.row
+
+! 2023-02-06 https://app.raindrop.io
+app.raindrop.io##.upgrade-R9fx
+
+! 2023-02-11 https://up.woozooo.com 蓝奏云盘
+||up.woozooo.com/img/diy-2.gif$image
+up.woozooo.com##.if_top
+up.woozooo.com###f_right
+
+! 2023-02-11 https://www.douban.com 豆瓣
+www.douban.com##.top-nav-doubanapp
+www.douban.com###footer
+
+! 2023-02-11 https://smailpro.com
+smailpro.com##.max-w-screen-lg.mx-auto.container.border-gray-50.border-t.p-2
+smailpro.com##.grecaptcha-badge
+smailpro.com###app > div
+
+! 2023-02-13 https://beeg.com
+beeg.com##.bi.b-icon.bi-camera-video
+beeg.com##.XContentViewer__details__owner-footer
+beeg.com##.GreyFox--right.GreyFox
+
+! 2023-02-13 https://erovoice-ch.com
+erovoice-ch.com##footer
+erovoice-ch.com###headerLine
+erovoice-ch.com###navWrap
+erovoice-ch.com###topContent > .cf.clear
+erovoice-ch.com###commentArea > article
+erovoice-ch.com###custom_html-2
+erovoice-ch.com##[href^="http://twitter.com/share"]
+erovoice-ch.com##.voiceAdd
+erovoice-ch.com###text-2
+erovoice-ch.com###custom_html-10
+erovoice-ch.com##li.w100.pvBox.cf.over200:nth-of-type(1)
+erovoice-ch.com##.custom-html-widget.textwidget > .cf > li.w100.pvBox.cf.over200:nth-of-type(5)
+erovoice-ch.com###postPagers
+
+
+! 2023-02-13 https://www.watchanime.video
+www.watchanime.video##.site-footer
+www.watchanime.video###page > .tags
+www.watchanime.video##.friends
+www.watchanime.video##.title
+
+! 2023-02-13 http://hentaigasm.com
+hentaigasm.com###guest-nav
+hentaigasm.com##.image-branding
+hentaigasm.com###footer
+hentaigasm.com##.center-align
+
+! 2023-02-13 https://www.tsumino.com
+www.tsumino.com##.browse-page > [href="/chat"]
+www.tsumino.com###page-jumper
+
+! 2023-02-13 https://nijifeti.com
+nijifeti.com##.site-footer
+nijifeti.com##.breadcrumbs
+nijifeti.com##.sidelink
+nijifeti.com##.toposu
+nijifeti.com##.pagetopwrap
+nijifeti.com###text-3
+!nijifeti.com###post-368486 > div.osu2
+!nijifeti.com###post-368339 > div.osu2
+
+! 2023-02-13 https://erologz.com
+erologz.com###footer-blocks
+erologz.com##[src="https://erologz.com/pcrss"]
+erologz.com##[src="https://erologz.com/pc-header"]
+erologz.com##.text-111
+erologz.com###custom_html-244
+erologz.com##[src="https://erologz.com/pc-kijisita"]
+erologz.com###custom_html-81 > .custom-html-widget.textwidget
+erologz.com###custom_html-210 > .custom-html-widget.textwidget
+erologz.com##.columns.eleven.clearfix
+erologz.com###footer
+erologz.com##[src="https://erologz.com/matome-rand-pc"]
+
+! 2023-02-13 http://www.erogazo-jp.net
+www.erogazo-jp.net###main-in > div.widget > .textwidget > .link > table
+www.erogazo-jp.net###main-contents > div.widget > .textwidget
+www.erogazo-jp.net##div.widget:nth-of-type(1)
+www.erogazo-jp.net##div.widget:nth-of-type(2)
+www.erogazo-jp.net##div.widget:nth-of-type(3)
+www.erogazo-jp.net##div.widget:nth-of-type(4)
+www.erogazo-jp.net##ul.m20-b.sb:nth-of-type(1)
+www.erogazo-jp.net###main-contents > .contents
+www.erogazo-jp.net##.copyright
+www.erogazo-jp.net##div.widget:nth-of-type(10)
+www.erogazo-jp.net##div.widget:nth-of-type(9)
+www.erogazo-jp.net##div.widget:nth-of-type(8)
+www.erogazo-jp.net##ul.m20-b.sb:nth-of-type(2)
+www.erogazo-jp.net##.clearfix.navigation
+www.erogazo-jp.net###text-199
+www.erogazo-jp.net###text-198
+www.erogazo-jp.net###text-197
+www.erogazo-jp.net###text-190
+www.erogazo-jp.net###text-182
+www.erogazo-jp.net###text-30
+www.erogazo-jp.net###text-180
+www.erogazo-jp.net###header-title > h1
+www.erogazo-jp.net##[href="http://www.erogazo-jp.net/contact.html"]
+
+! 2023-02-14 http://hnalady.com
+hnalady.com###main-left > div.sidemenu_sitelink:nth-of-type(1)
+hnalady.com##div.plugin-freearea:nth-of-type(2)
+hnalady.com##div.plugin-freearea:nth-of-type(3)
+hnalady.com###header
+hnalady.com###sidemenu_right > div.plugin-freearea:nth-of-type(4)
+hnalady.com###main-right > div.plugin-freearea:nth-of-type(4)
+hnalady.com###footer
+hnalady.com##div.page_navi:nth-of-type(6)
+hnalady.com##div.sidemenu_body:nth-of-type(4)
+hnalady.com##div.sidemenu_body:nth-of-type(5)
+
+! 2023-02-14 https://nsfwx.link
+nsfwx.link##.site-info
+nsfwx.link###block-8
+nsfwx.link###menu-item-77 > [href="https://theporndude.com/zh"]
+
+! 2023-05-03 https://femdomhentai.club
+femdomhentai.club##.g1-row-layout-page.g1-row.g1-footer
+femdomhentai.club##.g1-row-layout-page.g1-row.g1-prefooter-3cols.g1-prefooter
+
+! 2023-05-03 https://nikaraw.com
+nikaraw.com##footer
+nikaraw.com##div.row:nth-of-type(5)
+nikaraw.com##div.row:nth-of-type(4)
+
+! 2023-05-03 https://www.tsumino.com
+www.tsumino.com##.tab-content
+www.tsumino.com##.nav-justified.nav-pills.nav.tsumino-pills
+
+! 2023-02-13 https://www.porngo.com
+www.porngo.com##.footer
+www.porngo.com##.report-btn
+www.porngo.com##.spot_link.nav-menu__link
+www.porngo.com##.header__box_actions.header__box > .nav-menu > li.nav-menu__item:nth-of-type(6)
+
+! 2023-02-13 https://xxxshake.com
+xxxshake.com##.footer
+xxxshake.com##[href="https://live.xxxshake.com/"]
+xxxshake.com##.headZ.headD
+xxxshake.com##.block-comments
+xxxshake.com##.tabs-menu > ul
+xxxshake.com##.flexible-container.content > .box
+xxxshake.com##.fluid-custom-buttons
+xxxshake.com##.text
+xxxshake.com##.headZ.headA
+xxxshake.com##.headZ.headB
+
+
+! 2023-05-05 https://javday.tv
+javday.tv###footer
+javday.tv##.header-container
+
+! 2023-05-05 https://mgav1.cc
+mgav1.cc###footer
+mgav1.cc##.row > .row
+mgav1.cc##.link-instanted.\31 00\=0.Item
+
+! 2023-05-05 https://twivideo.net
+twivideo.net###is_w_area
+twivideo.net##.footer
+twivideo.net##div.btn-other:nth-of-type(2)
+twivideo.net##div.btn-other:nth-of-type(3)
+twivideo.net##.explanation
+
+! 2023-02-13 http://eromanga-kong.com
+eromanga-kong.com##footer
+eromanga-kong.com###header_inner
+eromanga-kong.com##nav > ul > li:nth-of-type(4)
+eromanga-kong.com##nav > ul > li:nth-of-type(3)
+eromanga-kong.com##.blogroll.xoxo
+eromanga-kong.com###side_right
+eromanga-kong.com##div.side_col > h3
+eromanga-kong.com##.commentarea
+
+! 2023-05-05 http://eromanga-kong.com
+eromanga-kong.com###out_header
+
+! 2023-02-13 https://www.ho5ho.com
+www.ho5ho.com##.site-header
+www.ho5ho.com##.site-footer
+www.ho5ho.com##.entry-header
+||ho5hocdn1.b-cdn.net/wp-content/themes/madara/images/bg-search.jpg$image
+www.ho5ho.com##.wrapper.manga-discussion
+www.ho5ho.com##.post-status
+www.ho5ho.com##.c-page__content > .font-heading.style-2.c-blog__heading
+www.ho5ho.com##.lazy.c-breadcrumb-wrapper > .container
+
+! 2023-02-13 https://kingke.io
+kingke.io##div.HTML.bubble-element:nth-of-type(5)
+kingke.io##div.relative.bubble-r-container.Group.bubble-element > .Text.bubble-element
+kingke.io##.row.flex.bubble-r-container.CustomElement.bubble-element
+kingke.io##div.HTML.bubble-element:nth-of-type(6)
+kingke.io##div.relative.bubble-r-container.CustomElement.bubble-element:nth-of-type(1)
+
+! 2023-02-13 https://eromitai.com
+||eromitai.com/widget/pickupsite01.html$subdocument
+eromitai.com###pc_text-1
+eromitai.com##.logo-image.logo-header.logo
+eromitai.com##.footer-left
+eromitai.com##.ss-bottom.sbc-hide.bc-brand-color.ss-col-3.sns-share
+eromitai.com##.sf-bottom.fbc-hide.bc-brand-color.sns-follow
+eromitai.com##.website-hide.comment-area
+eromitai.com##.cf.post-navi-square.pager-post-navi
+eromitai.com###pc_text-2
+eromitai.com##.nwa.footer-container.footer
+
+! 2022-12-30 https://www.facebook.com
+www.facebook.com##.x1y1aw1k > div > span > div > .x1n2onr6
+www.facebook.com##.x1a8lsjc.xz9dl7a.x1swvt13.x1pi30zi.x1a02dak.x78zum5.x6s0dn4
+www.facebook.com##.x1ja2u2z.xh8yej3.x1n2onr6.xjkvuk6.x1iorvi4
+www.facebook.com##.x1us19tq.x1iyjqo2.xdt5ytf.x78zum5 > .x1iyjqo2 > div > div
+m.facebook.com##.bg-s6.otf-7060229406546710671.m
+
+! 2023-04-13 https://discord.com
+discord.com##.wrapper-2JEvo0
+
+! 2022-11-20 https://www.youtube.com
+www.youtube.com###guide-links-secondary
+www.youtube.com###guide-links-primary
+
+! 2023-02-11 https://a227h.work
+a227h.work##.footer-wrap
+a227h.work###header
+a227h.work###notice
+a227h.work###cate_thread
+a227h.work##div.t:nth-of-type(3)
+a227h.work###cate_children
+a227h.work##div.z.t:nth-of-type(4) > table > tbody:nth-of-type(1) > tr > .h
+a227h.work##.fr > [href^="post.php"]
+a227h.work##tr.t_one.tr3:nth-of-type(2)
+a227h.work##tr.t_one.tr3:nth-of-type(3)
+a227h.work##tr.t_one.tr3:nth-of-type(4)
+a227h.work##tr.t_one.tr3:nth-of-type(5)
+a227h.work##tr.t_one.tr3:nth-of-type(6)
+a227h.work##tr.t_one.tr3:nth-of-type(7)
+a227h.work##tr.t_one.tr3:nth-of-type(8)
+!彩色字体
+a227h.work##[href="/htmm/wy.html"]
+a227h.work##[href="/htmm/yx2.html"]
+a227h.work##[href="/htmm/d6.html"]
+a227h.work##[href="/htmm/d4.html"]
+a227h.work##[href="/htmm/d1.html"]
+a227h.work##[href="/htmm/d7.html"]
+a227h.work##[href="/htmm/d9.html"]
+a227h.work##[href="/htmm/yx1.html"]
+a227h.work##[href="/htmm/d10.html"]
+a227h.work##[href="/htmm/91p.html"]
+a227h.work##[href="/htmm/d8.html"]
+a227h.work##[href="/htmm/k1.html"]
+a227h.work##[href="/htmm/d5.html"]
+a227h.work##[href="/htmm/d11.html"]
+a227h.work##[href="/htmm/t3.html"]
+a227h.work##[href="/htmm/dw.html"]
+a227h.work##[href="/htmm/t1.html"]
+a227h.work##[href="/htmm/vp.html"]
+a227h.work##[href="/htmm/d2.html"]
+a227h.work##[href="/htmm/d12.html"]
+a227h.work##[href="/htmm/913.html"]
+!a227h.work###main > form
+a227h.work##.user-pic > table > tbody > tr > td > [href]
+a227h.work###footer
+a227h.work##.w.fr
+!复制链接 | 浏览器收藏 | 打印
+a227h.work##tr.f_one.tr3:nth-of-type(3)
+a227h.work##tr.f_one.tr3:nth-of-type(4)
+a227h.work##tr.f_one.tr3:nth-of-type(8)
+
+
+! 2023-05-05 https://tieba.baidu.com
+tieba.baidu.com##.tb-forum-user__join-btn
+tieba.baidu.com##.more-btn-desc
+tieba.baidu.com##.nav-bar-bottom
+tieba.baidu.com##.only-lz
+tieba.baidu.com##.recommend-title-open-app
+tieba.baidu.com##.forum-btn-box
+tieba.baidu.com##div.recommend-list:nth-of-type(1)
+tieba.baidu.com##.no-more
+tieba.baidu.com##.gray-background.feed-warp
+tieba.baidu.com##.more-image-desc
+tieba.baidu.com##.comment-box
+
+! 2023-02-13 https://www.xnxx.com
+www.xnxx.com###footer
+www.xnxx.com##.ntvEf5E1895BAE3F3db8ee4A03dD5A882dC
+www.xnxx.com###mobile-menu .gold-plate
+www.xnxx.com##li:nth-of-type(11) > [href="https://games-auth.xnxx.com"]
+www.xnxx.com##[href="https://forum.xnxx.com"]
+www.xnxx.com##.live-cams
+www.xnxx.com##[href="https://multi.xnxx.com"]
+www.xnxx.com###language-and-version .init-ok.mc-update-infos
+www.xnxx.com##.slogan
+www.xnxx.com###video-ad
+www.xnxx.com###x-home-messages
+www.xnxx.com###content-ad-top-zone-contener
+www.xnxx.com###header-mobile-app-dl
+www.xnxx.com###header-mobile-live-cam
+www.xnxx.com##.link-instanted.gold-plate
+www.xnxx.com##.tab-buttons
+www.xnxx.com##.link-instanted.mobile-hide.btn.bookmark-link
+www.xnxx.com###results-free-or-premium
+
+
+
+
+! 2023-07-26 https://avbebe.com
+avbebe.com##.footer-holder
+avbebe.com##.elementor-section-height-default.elementor-section-boxed.elementor-element-fe4f96a.elementor-element.elementor-top-section.elementor-section
+avbebe.com##.elementor-section-height-default.elementor-section-boxed.elementor-element-85ace64.elementor-element.elementor-top-section.elementor-section
+avbebe.com##.comment-respond
+avbebe.com###menu-item-152006 > [href^="https://accounts.binance.com/zh-TC/register"]
+avbebe.com###menu-item-105716 > .link-instanted
+avbebe.com###menu-item-109248 > .link-instanted
+
+! 2023-07-26 https://pigav.com
+pigav.com##.has-sep.main-sidebar.col-4
+pigav.com##.is-open.detect-modal.ts-modal
+pigav.com##.s-dark.footer-bold.cols-gap-lg.main-footer
+pigav.com###menu-item-286659 > .link-instanted
+pigav.com###menu-item-298936 > .link-instanted
+
+! 2023-07-26 https://wuso.me
+wuso.me##.nex_footer
+wuso.me##.nex_sidetls
+wuso.me##div.nex_index_ads:nth-of-type(1)
+wuso.me##.nex_guanzhu
+wuso.me##.nex_ptptwo_box
+wuso.me##.attach_tips.attach_nopermission
+wuso.me##.bmw.bm.pl
+wuso.me##.nex_dz_guanzhu
+wuso.me##.plm.plc
+wuso.me##.comiis_code
+
+! 2023-07-26 https://dbro.news
+dbro.news###smart-head > .smart-head-row-full.is-light.smart-head-mid.smart-head-row
+dbro.news##.has-sep.main-sidebar.col-4
+dbro.news##.post-share-b4.spc-social-colors.post-share-b.post-share
+dbro.news##.s-post-modern.the-post > .comments
+dbro.news##.s-dark.footer-classic.cols-gap-lg.main-footer
+dbro.news##.post-share-bot
+dbro.news##.show-lg.a-wrap-bg.a-wrap-6.a-wrap-base.a-wrap
+
+! 2023-05-05 https://madou.club
+madou.club##.clearfix.article-actions
+madou.club##.footer
+
+! 2023-05-05 https://www.hentaiasmr.moe
+www.hentaiasmr.moe##center
+www.hentaiasmr.moe##.footer-menu-container
+www.hentaiasmr.moe###custom_html-2
+www.hentaiasmr.moe##.comments-area
+
+! 2023-05-03 https://eromanga-cafe.com
+eromanga-cafe.com###site-info
+eromanga-cafe.com##h1
+||eromanga-cafe.com/wp-content/themes/pc/images/bg_head.png$image
+eromanga-cafe.com##.tit
+eromanga-cafe.com##.pan_block.breadcrumb-category
+eromanga-cafe.com##.comments
+eromanga-cafe.com##.l-footer
+eromanga-cafe.com##.loop-single-widget
+eromanga-cafe.com###display_button_set
+eromanga-cafe.com##.kijibox > .tag_list
+eromanga-cafe.com###comments-thread
+#评论列表
+eromanga-cafe.com###custom_html-7
+eromanga-cafe.com##.relate_dl
+#相关文章
+eromanga-cafe.com##.related-category-posts
+#最新文章
+eromanga-cafe.com###custom_html-6
+#外站
+eromanga-cafe.com###footer
+eromanga-cafe.com###custom_html-3
+eromanga-cafe.com###header
+
+! 2023-07-27 https://apkcombo.com
+apkcombo.com##.is-main.column > .title
+apkcombo.com##.is-desktop-only.widget
+apkcombo.com##.footer
+apkcombo.com##div.widget:nth-of-type(6)
+apkcombo.com###download-result > .widget
+apkcombo.com##.link-instanted.tag
+apkcombo.com##.link-instanted.installer
+apkcombo.com##a.link-instanted.navbar-item:nth-of-type(1)
+
+! 2023-07-27 https://www.yuque.com
+www.yuque.com##.copyright
+
+! 2023-08-18 https://www.zhihu.com
+www.zhihu.com##.css-1vacn7q
+
+! 2023-08-18 https://zh.seexh6.com
+zh.seexh6.com##.yld-pdsp-a.yld-pdsp-b
+
+
+! 2023-08-18 https://zh.xhamstreet.com
+zh.xhamstreet.com##.cookies-modal__wrapper
+
+spankbang.com##.ls > .link-instanted
+spankbang.com##footer
+spankbang.com##.embed
+spankbang.com##.f > .link-instanted
+spankbang.com##li:nth-of-type(7) > .link-instanted
+spankbang.com###comment_box_anchor
+spankbang.com##.tab_comments
+spankbang.com##.us > span:nth-of-type(2)
+spankbang.com##.fl
+spankbang.com##.dl
+spankbang.com##[href="/tv/"]
+spankbang.com##a.ft:nth-of-type(3)
+spankbang.com##.right
+spankbang.com##.live_cam_header_2.hd
+spankbang.com##.ls > [href="#"]
+
+
+
+! 2022-11-20 https://www.bellesa.co
+www.bellesa.co##.gEkoIF.BlastBar__Bar-sc-1qu85kw-0.Structure-sc-122ascm-0
+www.bellesa.co##.link-instanted.eZowPQ.DesktopMenu__Anchor-sc-jlo9dh-2
+www.bellesa.co##.dvdkEm.Structure-sc-122ascm-0
+www.bellesa.co##.doFwmB.Structure-sc-122ascm-0
+www.bellesa.co##a.eZowPQ.DesktopMenu__Anchor-sc-jlo9dh-2:nth-of-type(6)
+www.bellesa.co##.emGYRq.MediaQuery__Query-sc-dh9ch6-0
+www.bellesa.co##.gdnaWk.Structure-sc-122ascm-0
+www.bellesa.co##.beEPvJ.Structure-sc-122ascm-0
+www.bellesa.co##a.eZowPQ.DesktopMenu__Anchor-sc-jlo9dh-2:nth-of-type(5)
+www.bellesa.co##.lsjZm.Structure-sc-122ascm-0
+www.bellesa.co##.ihswwd.Structure-sc-122ascm-0 > .kttcuV.Structure-sc-122ascm-0
+www.bellesa.co##a.eZowPQ.DesktopMenu__Anchor-sc-jlo9dh-2:nth-of-type(7)
+www.bellesa.co##.hPLTzv.MediaQuery__Query-sc-dh9ch6-0 > .boafzU.Display__RatioOuter-sc-1inv20h-0
+www.bellesa.co##.gIyXbo.dCPLzQ.Header__Wrapper-sc-tv72wn-2.Structure-sc-122ascm-0 > .crpkjC.MediaQuery__Query-sc-dh9ch6-0
+www.bellesa.co##.gdPcoV.hWqptM.MobileMenu__Wrapper-sc-451946-2.Structure-sc-122ascm-0 > .link-instanted.kSluJP.MobileMenu__Anchor-sc-451946-0
+www.bellesa.co##a.link-instanted.kSluJP.MobileMenu__Anchor-sc-451946-0:nth-of-type(3)
+www.bellesa.co##.jBAIeC.Shell__Footer-sc-13f0ghz-3
+www.bellesa.co##.hEjOEb.Structure-sc-122ascm-0
+www.bellesa.co##.feuTYo.Structure-sc-122ascm-0 > .dWewhh.Structure-sc-122ascm-0
+www.bellesa.co##.hnVsTj.Structure-sc-122ascm-0
+www.bellesa.co##.iaWvoj.fGdPrk.Notifications__Wrapper-sc-vhnnyu-3.Structure-sc-122ascm-0
+www.bellesa.co##.fQBTqH.Structure-sc-122ascm-0
+
+! 2023-08-20 https://cn.pornhub.com
+cn.pornhub.com###cookieBanner
+cn.pornhub.com###js-abContainterMain
+#禁用 Adblock
+cn.pornhub.com###countryRedirectMessage
+#语言
+cn.pornhub.com###welcome
+cn.pornhub.com##.networkBarWrapper
+#顶部导航
+cn.pornhub.com##.logoWrapper
+#logo
+cn.pornhub.com###topRightProfileMenu
+#登入
+cn.pornhub.com###headerMenuContainer
+#导航
+cn.pornhub.com##.footerContentWrapper
+#页脚
+cn.pornhub.com##.videoViewPage
+#评论
+cn.pornhub.com##.tab-menu-wrapper-table
+#分享
+cn.pornhub.com##.communityNavigation.subMenuTriggerwithLink.menuLink
+#社区
+cn.pornhub.com##.link-instanted.removeAdLink.customUpgradeBtn.menuLink
+#SPICEVIDS 的完全访问权限
+cn.pornhub.com##.link-instanted.js-menuAnalytics.leftItem.halfWidth.menuLink
+cn.pornhub.com##a.link-instanted.js-menuAnalytics.halfWidth.menuLink:nth-of-type(8)
+cn.pornhub.com##a.link-instanted.js-menuAnalytics.halfWidth.menuLink:nth-of-type(10)
+cn.pornhub.com##a.link-instanted.js-menuAnalytics.halfWidth.menuLink:nth-of-type(12)
+
+
+! 2023-08-20 https://www.xvideos.com
+www.xvideos.com###disclaimer_background
+#警告
+www.xvideos.com###cookies-use-alert
+#cookies
+www.xvideos.com###footer
+#footer
+www.xvideos.com###v-actions > .tabs
+#下载评论
+www.xvideos.com###v-actions-overflow-menu
+#下载按钮
+www.xvideos.com##.link-instanted.head__menu-line__main-menu__lvl1
+#导航
+www.xvideos.com###tabComments_bottom_page
+#评论
+www.xvideos.com##.mobile-portrait-show
+#移动端导航
+www.xvideos.com##.chat-hidden
+#聊天框
+
+! 2023-08-20 https://zh.xhamster.com
+zh.xhamster.com##.xh-footer
+zh.xhamster.com##.footer-wrapper
+#footer
+zh.xhamster.com##.desktop-38c41.pinned-38c41
+zh.xhamster.com##.pinned-38c41
+#加入
+zh.xhamster.com##.livesex
+zh.xhamster.com##.displayed-nav-item.live-nav.nav-item.xh-dropdown
+#live
+zh.xhamster.com##li.displayed-nav-item.nav-item:nth-of-type(10)
+#约会
+zh.xhamster.com##.delay.popup.xh-dropdown.upload-section-menu.upload-nav
+#上传
+zh.xhamster.com##.controls > .report-control
+zh.xhamster.com##.report-control.video-actions__control
+#举报
+zh.xhamster.com##.about-control.xh-button
+#关于
+zh.xhamster.com##.share-control.gray.xh-button
+#分享
+zh.xhamster.com###commentToggle
+zh.xhamster.com##.main-wrap > .width-wrap
+zh.xhamster.com##.video-page__layout-comments.comments-section
+#评论
+zh.xhamster.com##aside:nth-of-type(2)
+zh.xhamster.com##.no-ts-initiailize.yld-pd--bottom.yld-pd
+zh.xhamster.com##.no-ts-initiailize.yld-pd--top.yld-pd
+zh.xhamster.com##.big-thumb-block
+zh.xhamster.com##.no-ts-initiailize.yld-pd--middle.yld-pd
+zh.xhamster.com##.yld-pd--bottom.yld-pd
+#空白页
+
+! 2023-08-20 https://www.eporner.com
+www.eporner.com###cookies
+www.eporner.com##footer
+www.eporner.com###headholder > .link-instanted
+#直播
+www.eporner.com###video-info-tags .vit-suggester
+www.eporner.com##.infopopanim
+#建议
+www.eporner.com##.vjs-docker
+#分享
+www.eporner.com##.video-description
+#视频描述
+www.eporner.com##.uvmspn1
+www.eporner.com##.uvmspn4
+www.eporner.com##.uvmspn6
+www.eporner.com##.uvmspn7
+#评论，分享，保存，报告，下载
+www.eporner.com###commentdiv
+#评论
+www.eporner.com###uploadslide
+#上传
+www.eporner.com###adinhead
+#直播
+www.eporner.com##.footer-text
+www.eporner.com###mainBlogPosts
+www.eporner.com##div.toptopbel2:nth-of-type(9)
+
+! 2023-08-20 https://hqporner.com
+hqporner.com##.footer-bg
+hqporner.com##.big_header
+m.hqporner.com##.footerWrapper
+#搜索
+hqporner.com##.page-content.box > header
+m.hqporner.com##.title.main-h1
+m.hqporner.com##.homePageWrapper.pageWrapper > div > span
+#文本
+m.hqporner.com##span.altPlayerButton:nth-of-type(1)
+hqporner.com##.link-instanted.hide_ad_marker.button
+hqporner.com##li:nth-of-type(5)
+m.hqporner.com##.color5
+#直播
+m.hqporner.com##.color2
+#加入
+m.hqporner.com##.color8
+
+
+! 2023-02-13 https://eromanga-kai.com
+eromanga-kai.com##.header-container
+eromanga-kai.com###content-in > .cf.nwa.sidebar
+eromanga-kai.com##.ss-top.sbc-hide.bc-brand-color.ss-high-and-low-lc.ss-col-5.sns-share > .sns-buttons.sns-share-buttons
+eromanga-kai.com##.ss-bottom.sbc-hide.bc-brand-color.ss-high-and-low-lc.ss-col-5.sns-share
+eromanga-kai.com##.website-hide.comment-area
+eromanga-kai.com##.cf.post-navi-square.pager-post-navi
+eromanga-kai.com##.nwa.footer-container.footer
+eromanga-kai.com##.content-top
+eromanga-kai.com##.content-bottom
+
+
+! 2022-11-30 https://weibo.com
+weibo.com##.Nav_links_1ytEi.Links_wrap_mrA8a.woo-box-flex
+weibo.com##.Aria_btn_3caTr
+weibo.com##.wbpro-side-copy
+weibo.com##.Reward_box_27GVq.wrap
+#公益捐赠
+
+! 2023-08-22 https://sspai.com
+sspai.com##.light.footer-container
+sspai.com##.right_bottom
+
+! 2023-02-13 https://ero-mangacafe.com
+ero-mangacafe.com###footer
+ero-mangacafe.com###header
+ero-mangacafe.com##.loop-single-widget
+ero-mangacafe.com###custom_html-7
+ero-mangacafe.com###comments-thread
+ero-mangacafe.com##.wsbl_twitter
+
+! 2022-12-30 https://twitter.com
+twitter.com##.r-kmv1fd.r-1j3t67a.r-uaa2di.r-eqz5dr.r-1habvwh.css-1dbjc4n
+#订阅 Premium
+twitter.com##.r-1j3t67a.r-1w6e6rj.r-18u37iz.css-1dbjc4n
+#隐私政策
+twitter.com##.r-1vvnge1.r-dnmrzs.css-1dbjc4n
+#logo
+twitter.com##.r-e7q0ms.r-vpgt9t.css-1dbjc4n
+#发帖
+twitter.com##a.r-13qz1uu.r-oyd9sg.r-1ny4l3l.r-16y2uox.r-eqz5dr.r-6koalj.r-1loqt21.r-1habvwh.css-1dbjc4n.css-18t94o4.css-4rbku5:nth-of-type(7)
+#已认证
+twitter.com##.r-136ojw6.r-1loqt21.css-1dbjc4n
+#主页
+
+
+! 2023-09-13 https://www.douyin.com
+www.douyin.com##.aLqVEhhA.HQwsRJFy
+#logo
+www.douyin.com##._7gdyuNUv
+#下载
+www.douyin.com##.iqHX00br
+#我的
+www.douyin.com##.q1d3ggoo.NI592qaC
+#广告
+www.douyin.com##footer
+#页脚
+www.douyin.com##.jq65FbDp.X3ZcRwMR
+#业务合作
+www.douyin.com##div.qoKzjoSV.undefined.JtwPigHZ.fuy_wmct:nth-of-type(17)
+#时尚
+www.douyin.com##div.qoKzjoSV.undefined.JtwPigHZ.fuy_wmct:nth-of-type(16)
+#体育
+www.douyin.com##div.qoKzjoSV.undefined.JtwPigHZ.fuy_wmct:nth-of-type(15)
+#美食
+www.douyin.com##div.qoKzjoSV.undefined.JtwPigHZ.fuy_wmct:nth-of-type(12)
+#娱乐
+www.douyin.com##div.qoKzjoSV.undefined.JtwPigHZ.fuy_wmct:nth-of-type(11)
+#游戏
+www.douyin.com##div.qoKzjoSV.undefined.JtwPigHZ.fuy_wmct:nth-of-type(8)
+#放映厅
+live.douyin.com##.WcK6IrkT.N_HNXA04
+#直播侧边栏
+# live.douyin.com##.iqHX00br
+#我的
+live.douyin.com###component-sidebar
+www.douyin.com###douyin-sidebar
+#帮助
+live.douyin.com###component-header
+#导航
+
+! 2023-09-13 https://www.bilibili.com
+www.bilibili.com##.bili-footer
+#页尾
+www.bilibili.com##.palette-button-wrap
+#侧边栏按钮
+www.bilibili.com##.download-client-trigger.download-entry
+#下载
+www.bilibili.com##.vip-wrap
+#大会员
+www.bilibili.com##.right-entry-item--upload.right-entry-item
+#投稿
+www.bilibili.com##li.right-entry-item:nth-of-type(6)
+#创作中心
+
+! 2023-09-13 https://www.t66y.com
+www.t66y.com###header
+#头部
+www.t66y.com###cate_thread
+#公告
+
+! 2023-09-13 https://www.v2ex.com
+www.v2ex.com###Bottom
+#页尾
+
+! 2023-08-20 https://members.luscious.net
+members.luscious.net##.o-padding-all
+#发表评论
+members.luscious.net##footer.footer-module__footer--PE8HV
+members.luscious.net##.picture-control-wrapper
+#图片评论
+members.luscious.net##.o-border--bottom.o-flex-center.site-banner
+members.luscious.net##.o-bgcolor--grey-7.o-clearfix.o-relative
+#欢迎页
+members.luscious.net##.o-bgcolor--grey-7.front-page-call-to-action.o-relative
+members.luscious.net##.o-bgcolor--grey-7.o-padding-top-bottom.o-relative
+#成为社区的一部分！
+members.luscious.net##div > div > .front-page-call-to-action.o-bgcolor--grey-7
+#标签
+members.luscious.net##.o-padding-sides.o-padding-top-bottom
+#评论
+members.luscious.net##nav.o-relative.o-padding-top-bottom
+#底部导航
+||assets.luscious.net/special/robbie-transp.*$image
+#背景图
+members.luscious.net##div.o-padding-sides.flex-grow-1:nth-of-type(2)
+#新用户
+members.luscious.net##ul.secondary_menu-module__menu-bar--ynlnK:nth-of-type(2) > li.secondary_menu-module__menu-item--uFCoF:nth-of-type(5) > .secondary_menu-module__menu-item-link--C0huX.secondary_menu-module__menu-item-link-icon--Blqfw
+members.luscious.net##ul.secondary_menu-module__menu-bar--ynlnK:nth-of-type(2) > li.secondary_menu-module__menu-item--uFCoF:nth-of-type(6) > .secondary_menu-module__menu-item-link--C0huX.secondary_menu-module__menu-item-link-icon--Blqfw
+members.luscious.net##ul.desktop-module__menu--YtnoA:nth-of-type(2) > li.desktop-module__menu-item--ZURZ0:nth-of-type(3) > .desktop-module__menu-item-link--Bfqdd
+members.luscious.net##ul.desktop-module__menu--YtnoA:nth-of-type(2) > li.desktop-module__menu-item--ZURZ0:nth-of-type(2) > .desktop-module__menu-item-link--Bfqdd
+members.luscious.net##div > div > .o-flex--multi-line--align-center
+#精选博客
+members.luscious.net##.video-grid-header.o-h2
+#视频
+members.luscious.net##.o-align--center.o-h1
+#博客
+
+! 2023-09-14 https://rouman5.com
+rouman5.com##.footer_root__6F7g2
+#页尾
+rouman5.com##a.nav-link:nth-of-type(4)
+#福利
+rouman5.com##a.nav-link:nth-of-type(3)
+#APP
+rouman5.com##button.react-share__ShareButton
+#分享
+
+! 2023-09-14 https://www.177pica.com
+www.177pica.com###colophon
+www.177pica.com###footer-widget-box
+#页面尾部
+www.177pica.com###top-header
+#页面头部
+www.177pica.com###scroll
+#浮动窗口
+
+! 2023-09-14 https://oreno-erohon.com
+oreno-erohon.com##.footer
+oreno-erohon.com##.sp_footer
+#页面尾部
+oreno-erohon.com##.blog-title-inner
+oreno-erohon.com##.section-box
+#页面头部
+oreno-erohon.com##.page-title
+#页面头部文本标题
+oreno-erohon.com##.widget_shimi_comment_widget.widget
+#最近评论
+oreno-erohon.com##.column-inner > .widget_text.widget
+#其他网站
+oreno-erohon.com##[href="/contact"]
+#询问
+oreno-erohon.com##[href="/about"]
+oreno-erohon.com##.menu_list > ul > li:nth-of-type(4)
+#关于本站
+oreno-erohon.com###article-options
+oreno-erohon.com##.comment_area
+#评论
+oreno-erohon.com##.sp_head_box
+#广告
+oreno-erohon.com##.menu_list > ul > li:nth-of-type(5)
+oreno-erohon.com##.menu02 > li:nth-of-type(6)
+#RSS
+
+! 2023-09-14 https://nyahentai.re
+nyahentai.re##footer
+#页面尾部
+nyahentai.re##.asmr18
+#ASMR广告
+
+! 2023-09-14 https://18comic.vip
+18comic.vip###billboard-modal
+#确认成年
+18comic.vip##.footer-container
+18comic.vip##.footer-pad
+#页面尾部
+18comic.vip###app_modal
+18comic.vip##[href="#app_modal"]
+18comic.vip##.hidden-md.hidden-sm.hidden-xs.close.float-right-image
+#浮动按钮
+18comic.vip##.user-social.panel-default.panel
+#禁漫官方社群
+18comic.vip##.top-nav
+18comic.vip##li.ph-active:nth-of-type(1)
+18comic.vip##li.ph-active:nth-of-type(4)
+18comic.vip##li.hidden-sm.hidden-xs > .meun-game
+18comic.vip##.navbar-nav-icon.visible-sm.visible-xs
+18comic.vip##li.hidden-sm.hidden-xs.top-menu-link > [href]
+18comic.vip##div.hidden-sm.hidden-xs.pull-right > [href]
+#导航
+18comic.vip##.e8c78e-4_b
+#广告
+18comic.vip##li.m-r-10.navbar-right-block.hidden-sm.hidden-xs.dropdown > [href="https://jm365.work/pXYbfA"]
+#APP
+18comic.vip##.copy-block.visible-sm.visible-xs
+#收藏
+18comic.vip##[href="/static/faq-cn-CS"]
+#社区规范
+18comic.vip##[href="mailto:www18comic@gmail.com"]
+#广告接洽
+18comic.vip##.read-block.p-b-5.p-t-5 > button.btn-primary.btn
+18comic.vip##li.d-inline-block.list-style-none:nth-of-type(3) > .btn-secondary.btn
+#短視頻分享
+
+! 2023-09-14 https://ahri8.top
+ahri8.top##.page-footer
+#页面尾部
+ahri8.top##nav > ul > li:nth-of-type(8)
+#关于网站
+ahri8.top##nav > ul > li:nth-of-type(7)
+#捐赠网站
+ahri8.top##.in.fade.alert-danger.alert
+# 请收藏此发布页!
+ahri8.top##div.col-lg-12:nth-of-type(3)
+ahri8.top##.col-lg-12 > .row
+#空白行
+
+! 2023-09-14 https://asmhentai.com
+asmhentai.com##.atop
+#空白行
+asmhentai.com##.footer_center
+#页面尾部
+asmhentai.com##li.friends > [href="https://hentaiera.com"]
+asmhentai.com##li.friends > [href="https://comicporn.xxx"]
+asmhentai.com##li.friends > [href="https://hentairox.com"]
+asmhentai.com##li.friends > [href="https://hentaiyes.com/"]
+asmhentai.com##li.friends > [href="https://imhentai.xxx"]
+#导航
+
+! 2023-09-14 https://wnacg.com
+wnacg.com##.wrap.footer
+#页面尾部
+wnacg.com##p.result:nth-of-type(1)
+#广告白名单
+wnacg.com##p.result:nth-of-type(2)
+#网站发布地址
+wnacg.com##[src="/themes/weitu/images/bg/shoucang.jpg"]
+#添加收藏
+
+! 2023-09-14 https://ichinuke.com
+ichinuke.com##.nwa.footer-container.footer
+ichinuke.com##.entry-footer.article-footer
+#页面尾部
+ichinuke.com###text-11
+ichinuke.com###text-4
+ichinuke.com##.wrap.content-top-in
+ichinuke.com##.under-entry-content
+#广告
+ichinuke.com##.comment-area
+ichinuke.com##.widget_recent_comments.widget-sidebar-standard.widget-sidebar.widget
+#评论
+
+! 2023-09-14 https://hentai-witch.com
+hentai-witch.com##.header-container
+#页面头部
+hentai-witch.com###footer
+#页面尾部
+hentai-witch.com##.wwa.content-bottom
+hentai-witch.com##.wwa.content-top
+#广告
+hentai-witch.com###pc_ad-28
+hentai-witch.com##.widget_pc_ad.widget-index-top.widget
+hentai-witch.com##.widget_pc_ad.widget-sidebar-standard.widget-sidebar.widget
+hentai-witch.com##.widget_pc_ad.widget-sidebar-scroll.widget-sidebar.widget
+#空白行
+hentai-witch.com##.comment-area
+#评论
+hentai-witch.com###pager-post-navi
+#上一篇/下一篇
+
+! 2023-09-14 https://adaman-ero.com
+adaman-ero.com###header-full
+#页面头部
+adaman-ero.com##.widget_execphp.top-wbox-u
+adaman-ero.com###st_custom_html_ad_widget-25 > .custom-html-widget.textwidget
+adaman-ero.com###st_custom_html_ad_widget-9
+adaman-ero.com###st_custom_html_ad_widget-10
+adaman-ero.com###st_custom_html_ad_widget-20
+adaman-ero.com##.widget_custom_html.st-header-under-widgets.widget_text
+adaman-ero.com##.widget_custom_html.post-widgets-bottom.st-widgets-box.widget_text
+adaman-ero.com##.widget_st_custom_html_ad_widget.post-widgets-bottom.st-widgets-box.widget_text
+adaman-ero.com##.widget_st_custom_html_ad_widget.cat-widgets-top.st-widgets-box.widget_text
+
+
+#广告
+adaman-ero.com###execphp-9
+#空白行
+adaman-ero.com##footer
+#页面尾部
+adaman-ero.com###side
+#侧边栏
+adaman-ero.com##.st-sns-top
+adaman-ero.com##.st-sns-singular.sns
+#分享
+adaman-ero.com##.widget_execphp.post-widgets-top.st-widgets-box
+adaman-ero.com##.entry-content > div.banner
+#FANZA 帐户是免费的
+adaman-ero.com###execphp-13
+#单击此处查看最流行的人工智能生成的同人志
+adaman-ero.com##.comment-respond
+#评论
+adaman-ero.com##.clearfix.p-navi
+#上一页/下一页
+adaman-ero.com##.jp-relatedposts-headline
+#联系
+
+! 2023-09-15 https://kimootoko.net
+kimootoko.net###copyright
+kimootoko.net###footer
+#页面尾部
+kimootoko.net##.widget_custom_html.head-under.widget.widget_text
+kimootoko.net##.clearfix.grid.toc.posts-list-upper-widget
+kimootoko.net##.area-arbitrary.widget-shortcode.widget_custom_html.widget.widget_text
+kimootoko.net###main aside
+kimootoko.net##.clearfix > div > div > [href]
+kimootoko.net##div:nth-of-type(2) > div:nth-of-type(5)
+kimootoko.net##div.fanzakiji
+#广告
+kimootoko.net###side-fixed > .widget_custom_html.widget.widget_text
+#拾取文章介绍
+kimootoko.net###header
+#页面头部
+
+! 2023-09-15 https://moeimg.net
+moeimg.net###header
+moeimg.net###pickup-header_frame
+#页面头部
+moeimg.net###footer
+#页面尾部
+moeimg.net##.pc_only
+moeimg.net##.sp_only.sp_ad_4
+
+#广告
+moeimg.net##.pc_only.widget-area
+moeimg.net##.sp_only
+#侧边栏
+moeimg.net##.share.entryblock
+#分享
+moeimg.net###respond
+moeimg.net##.commentlist
+moeimg.net###comments
+moeimg.net##li.widget-container:nth-of-type(4)
+moeimg.net##.balloon.comments-link
+#评论
+moeimg.net##.nav-below
+#上一篇/下一篇
+moeimg.net##.follow.entryblock
+#关注
+
+! 2023-09-15 https://nijiero-ch.com
+nijiero-ch.com###header
+nijiero-ch.com##footer
+#页面头部尾部
+nijiero-ch.com###leftContent
+nijiero-ch.com###custom_html-17
+#赞助的
+nijiero-ch.com###custom_html-20
+#排名
+nijiero-ch.com###recent_comments-4
+nijiero-ch.com##article
+#评价
+nijiero-ch.com###shareArea
+#分享
+nijiero-ch.com###postPagers
+#上一篇/下一篇
+nijiero-ch.com##.cf.rssArea
+nijiero-ch.com##.w100.cf.rssArea
+#推荐新文章
+
+! 2023-09-15 https://2jiero.net
+2jiero.net###header
+2jiero.net###footer
+#页面头部|页面尾部
+2jiero.net###comments
+#评价
+2jiero.net###pnavi
+#上一篇/下一篇
+2jiero.net###sns-bottoms
+2jiero.net##.snsf-c
+2jiero.net##.sns-msg
+#分享
+2jiero.net##div.s-box
+#图像搜索
+2jiero.net###execphp-20
+2jiero.net###side-scroll
+2jiero.net##aside > .widget_execphp.widget
+#广告
+2jiero.net##.execphpwidget
+#下载
+2jiero.net##.migishita_kotei_all
+#浮窗
+
+! 2023-09-15 https://scrolller.com
+scrolller.com##.header.safe-area
+#页面头部
+scrolller.com##.tabs-wrapper > [href="https://trk.scrolller.com/7af8ab8a-b04f-465a-be84-83351df83e98"]
+scrolller.com##[href="https://trk.scrolller.com/73bb3d8b-b244-411b-8357-d46800cd78cd"]
+#游戏
+scrolller.com##button.eghdGo.sc-epALIP:nth-of-type(3)
+#上传
+scrolller.com##.MyCollectionsPage_premiumViewContainer__2hLnP
+#会员
+scrolller.com##button.eghdGo.sc-epALIP:nth-of-type(5)
+#我的
+
+! 2023-09-15 https://www.redgifs.com
+www.redgifs.com##.fWRajv3F
+#页面头部
+www.redgifs.com##li.SideBar-Item:nth-of-type(5)
+www.redgifs.com##li.SideBar-Item:nth-of-type(6)
+www.redgifs.com##li.SideBar-Item:nth-of-type(7)
+#直播按钮
+www.redgifs.com##.boosted-btn
+#观看完整
+www.redgifs.com##.mainLogo
+#logo
+
+! 2023-09-15 https://ichinuke.com
+ichinuke.com###slide_wrap
+ichinuke.com##.PhoneOnly
+
+! 2023-09-15 https://moeimg.net
+moeimg.net##.searchbyimage
+moeimg.net###sp_ad_entry_middle_frame
+
+! 2023-09-25 https://m.yhdmz.org
+m.yhdmz.org###www_tip_bak
+
+! 2023-09-25 https://apkcombo.com
+apkcombo.com##.apkcombo_desktop_728x90_top.apkcombo_mobile_300x250_top.mb-20.ad-pss-middle.ad-pss
+apkcombo.com##.apkcombo_desktop_728x90_middle.apkcombo_mobile_300x250_middle.mb-20.ad-pss-middle.ad-pss
+apkcombo.com##.apkcombo_desktop_300x250_right.apkcombo_mobile_300x250_bottom.ad-pss-bottom-right.ad-pss
+
+
+18comic.vip##[href="/static/faq-cn-CT"]
+
+! 2023-09-18 https://y.music.163.com
+y.music.163.com##.topfr
+y.music.163.com##.m-homeft
+y.music.163.com##.footer-wrap
+music.163.com##.footer-wrap
+music.163.com##.m-link-bar.m-link
+music.163.com##.f-bd-top.cmt_more_applink
+music.163.com##.active.f-bd.f-fcc.button
+music.163.com##.m-song-friend
+music.163.com##.mbuywin-scale-enter-done.mbuywin-scale-appear-done.m-buywin
+
+! 2023-09-30 https://www.yhdmz.org
+#樱花动漫
+www.yhdmz.org##.foot
+www.yhdmz.org##div.area:nth-of-type(10)
+#站外导航
+www.yhdmz.org##.l.share
+m.yhdmz.org###nav_fr_to_pc
+#电脑端
+m.yhdmz.org##.report-on.tabs
+#报错
+
+! 2023-09-30 https://zhrwx.com
+#风车动漫
+zhrwx.com##.clearfix.myui-foot
+zhrwx.com##.clearfix.myui-panel-bg2.active.myui-panel
+#永久地址
+zhrwx.com##.myui-content__operate
+#播放按钮
+zhrwx.com##.close-box.tips
+#播放器滚动条
+
+! 2023-09-30 https://www.cool18.com
+www.cool18.com###footer_link
+web.6parkbbs.com###footer_link
+web.6parkbbs.com##.gift
+www.cool18.com##.gift
+#礼物
+www.cool18.com##a[href="#postfp"]
+#朋友分享
+www.cool18.com###myform
+web.6parkbbs.com###myform
+#我的回帖
+www.cool18.com##[href="javascript:void(0)"]
+#点赞
+www.cool18.com##div.body_center:nth-of-type(2)
+web.6parkbbs.com##div.body_center:nth-of-type(2)
+
+www.cool18.com##table:nth-of-type(2) > tbody
+#跟贴
+
+! 2023-09-30 https://web.6parkbbs.com
+
+
+! 2023-10-07 https://m.1688.com
+m.1688.com##.failModal
+m.1688.com##.bottomOpen-wrap
+
+! 2023-10-11 https://www.xvideos.com
+www.xvideos.com##.remove-ads
+
+! 2023-10-18 http://www.nicotv.org
+www.nicotv.org##.ff-ads.text-center
+www.nicotv.org##.ff-forum
+www.nicotv.org##.alert-info.alert
+www.nicotv.org##.ff-footer.row
+
+
+! 2023-11-11 http://www.youngpussypic.com
+www.youngpussypic.com###topbar
+www.youngpussypic.com##.pswp--animated-in.pswp--visible.pswp--svg.pswp--css_animation.pswp--touch.pswp--animate_opacity.pswp--open.pswp
+
+! 2023-11-11 https://ahri8.top
+ahri8.top##.float-banner-footer
+
+
+! 2023-11-14 https://cn.pornhub.com
+cn.pornhub.com##.js-mainFooter
+
+! 2023-11-19 https://zh.xhamster.com
+zh.xhamster.com##.container-4caaa
+
+! 2023-11-20 https://zh.xhamster.com
+zh.xhamster.com##.main-wrap > aside
+
+! 2023-11-22 https://orgasmsoundlibrary.com
+orgasmsoundlibrary.com###general_footer
+orgasmsoundlibrary.com##.viewer_item_footer
+orgasmsoundlibrary.com###gallery_header
+
+! 2023-12-11 https://m.930tu.com
+m.930tu.com##.Mb-footer
+m.930tu.com##.mt2.Mb-content
+m.930tu.com##p:nth-of-type(2)
+
+! 2023-12-11 https://www.apexmh.com
+www.apexmh.com##.fenxiang_r
+www.apexmh.com##.footer
+www.apexmh.com##div.boxs:nth-of-type(1)
+www.apexmh.com##div.boxs:nth-of-type(4)
+
+! 2023-12-15 https://m.agedm.org
+m.agedm.org##.video-comments-box.box-common
+m.agedm.org##.hd
+m.agedm.org##.comment-scrolltop.box-common
+m.agedm.org##.go-marketing.box-common
+
+! 2023-12-15 https://www.mddmz.com
+www.mddmz.com###Auto_banner
+||www.mddmz.com/templets/cosmo/images/pload.gif$image
+www.mddmz.com###poster
+www.mddmz.com##.tonzitxt
+www.mddmz.com##.tit3
+www.mddmz.com##.clearfix.mb1.playding
+
+! 2023-12-15 https://www.wenshushu.cn
+www.wenshushu.cn##.g-footer
+www.wenshushu.cn##.g-open_app
+
+! 2023-12-15 https://mobile.fatsecret.cn
+mobile.fatsecret.cn##.footer
+
+! 2023-12-15 https://www.jdlingyu.com
+www.jdlingyu.com##.menu
+www.jdlingyu.com##.footer
+www.jdlingyu.com##.single-top-html
+www.jdlingyu.com##.b2-widget-box
+www.jdlingyu.com###custom_html-4
+www.jdlingyu.com###custom_html-2
+www.jdlingyu.com###b2-widget-html-11
+www.jdlingyu.com###b2-widget-html-20
+www.jdlingyu.com##.comment-form
+www.jdlingyu.com##.b2-radius.box.mg-b.single-bottom-html
+www.jdlingyu.com##.content-ds
+www.jdlingyu.com##fieldset
+www.jdlingyu.com##[src="https://www.jdlingyu.com/img/WXXC.webp"]
+www.jdlingyu.com##.ym-menu
+
+! 2023-12-17 https://cn.vxkk.cc
+cn.vxkk.cc##footer.wp-block-template-part
+cn.vxkk.cc##.has-background.has-border-color.wp-block-group.is-layout-flow > .is-style-default.wp-block-group.is-layout-flow
+cn.vxkk.cc##.has-text-color.has-dark-color.has-text-align-center
+cn.vxkk.cc##.has-text-color.has-dark-color.is-style-default.wp-block-group.wp-container-11.is-layout-flex.is-content-justification-space-between
+cn.vxkk.cc##.wp-block-group.wp-container-16.is-layout-flex.is-nowrap
+cn.vxkk.cc##.has-large-font-size.wp-block-group.wp-container-15.is-layout-flex.is-nowrap > .has-large-font-size
+cn.vxkk.cc##.has-large-font-size.wp-block-group.wp-container-15.is-layout-flex.is-nowrap
+
+! 2023-12-17 https://nijisenmon.work
+nijisenmon.work##footer
+nijisenmon.work##.side-topad
+nijisenmon.work##.sns
+nijisenmon.work##.adbox
+nijisenmon.work##.quads-ad3.quads-location
+nijisenmon.work###st-header-cardlink-wrapper
+nijisenmon.work##.pcnone
+
+! 2023-12-17 https://asiantolick.com
+asiantolick.com##.menssage_favorite
+asiantolick.com##[href="https://asiantolick.com/report/removal"]
+asiantolick.com##[href="https://asiantolick.com/report/DMCA"]
+asiantolick.com##[href="https://asiantolick.com/report/contact-us"]
+asiantolick.com###menu [href="https://theporndude.com/zh"]
+
+! 2023-12-17 https://rule34video.com
+rule34video.com##.panel_header > .theporndude.button_fav
+rule34video.com##.footer
+rule34video.com##.mobile-box.box
+rule34video.com##.thumb.spot-thumb
+
+! 2023-12-17 https://hanime.tv
+hanime.tv##.footer
+hanime.tv##div.nav-drawer-list.list:nth-of-type(6)
+hanime.tv##div.nav-drawer-list.list:nth-of-type(5)
+hanime.tv##span.tooltip--top.tooltip:nth-of-type(5)
+hanime.tv##span.tooltip--top.tooltip:nth-of-type(3)
+hanime.tv##.user_comments__post
+
+! 2023-12-19 https://i.jandan.net
+i.jandan.net###footer
+i.jandan.net###commentform
+
+! 2023-12-21 https://ichinuke.com
+ichinuke.com##.-style-block.-bottom.c-shareBtns
+ichinuke.com##.-comment.l-articleBottom__section
+
+! 2023-12-27 https://xchina.co
+xchina.co##div.slider-ad
+xchina.co##div.banner_ad.article
+xchina.co##div.item
+xchina.co##footer
+xchina.co##.playerMask
+
+! 2024-01-11 https://blog.csdn.net
+blog.csdn.net##.wap-shadowbox.weixin-shadowbox
+blog.csdn.net##.active.openApp
+blog.csdn.net##.feed-Sign-weixin
+blog.csdn.net##.btn_open_app_prompt_div
+blog.csdn.net##.app_abtest_btn_open.open_app_channelCode
+
+! 2024-01-11 https://download.csdn.net
+download.csdn.net##.blind_box
+download.csdn.net##.openApp
+
+! 2024-01-11 https://www.csdn.net
+www.csdn.net##.active.openApp
+www.csdn.net##.m_toolbar_left_app_btn
+
+! 2024-01-11 https://blog.csdn.net
+blog.csdn.net##.openApp
+
+! 2024-01-12 http://www.cnu.cc
+www.cnu.cc##.download
+www.cnu.cc##.pageFooter
+
+! 2024-01-15 https://www.redgifs.com
+www.redgifs.com##.TabLink_isActive.TabLink_isUpload.TabLink
+www.redgifs.com##._burgerButton_pidia_1
+www.redgifs.com##.TabLink_isUpload.TabLink
+
+! 2024-01-15 https://hanime.tv
+hanime.tv##div.nav-drawer-list.list:nth-of-type(4)
+hanime.tv##.user_options__list.list > div:nth-of-type(3)
+hanime.tv##.user_options__list.list > div:nth-of-type(4) > div
+hanime.tv##.user_options__list.list > div:nth-of-type(5)
+
+! 2024-01-15 https://scrolller.com
+scrolller.com##button.cQqUEw.sc-eiQriw:nth-of-type(5)
+scrolller.com##button.cQqUEw.sc-eiQriw:nth-of-type(3)
+scrolller.com##.byvoXL.sc-epRvzc
+scrolller.com##.btRHCw.sc-eKtvVk
+scrolller.com##div.fZabec.sc-gRtvSG:nth-of-type(3)
+scrolller.com##.kpqAiJ.sc-gRtvSG
+
+! 2024-01-17 https://cn.pornhub.com
+cn.pornhub.com###welcomeVideoMsg
+cn.pornhub.com##.clearfix.bottomNav
+
+! 2024-01-17 https://www.xvideos.com
+www.xvideos.com##.btn.live-cams
+
+! 2024-01-17 https://www.xnxx.com
+www.xnxx.com##.gold-plate
+
+! 2024-01-20 https://h2gcz1.ydwzsp.com
+h2gcz1.ydwzsp.com##.bg
+h2gcz1.ydwzsp.com##.bottom-load
+h2gcz1.ydwzsp.com##.swiper-wrapper
+h2gcz1.ydwzsp.com##div.centerMain_info
+h2gcz1.ydwzsp.com##div.ad-layout
+h2gcz1.ydwzsp.com##.share-bg
+h2gcz1.ydwzsp.com##.custom_carousel2.el-carousel--horizontal.el-carousel
+h2gcz1.ydwzsp.com##div.text01
+h2gcz1.ydwzsp.com##a.text01
+
+! 2024-01-20 http://m.sex8.cc
+m.sex8.cc##div.m-3 > .mt-3
+m.sex8.cc##.font-size-12.text-white.px-1.align-items-center.d-flex.fixed-bottom
+
+! 2024-01-20 http://sex8.cc
+sex8.cc##.b_oscar1
+sex8.cc##.b_oscar2
+
+! 2024-01-20 https://hjd2048.com
+hjd2048.com##.show.fade.alert-dismissible.alert-warning.alert
+hjd2048.com##div.px-0.card:nth-of-type(3)
+hjd2048.com##div.px-0.card:nth-of-type(4)
+hjd2048.com##div.px-0.card:nth-of-type(5)
+hjd2048.com##.col-12 > .mb-3
+hjd2048.com##div.tac
+hjd2048.com##.pds
+hjd2048.com##.mb-3
+
+! 2024-01-20 https://18h.animezilla.com
+18h.animezilla.com##span > .shiftnav-toggle-main-block
+18h.animezilla.com###my-video
+18h.animezilla.com###btn-footer
+18h.animezilla.com##.notice.news-box
+18h.animezilla.com##div#btn-swiper
+18h.animezilla.com###btn-wrapper
+18h.animezilla.com##.swiper-wrapper
+18h.animezilla.com###btn-toy
+18h.animezilla.com##.shiftnav-depth-0.menu-item-347.menu-item-object-custom.menu-item-type-custom.menu-item
+18h.animezilla.com###menu-item-4325 > .shiftnav-target
+18h.animezilla.com###menu-item-1956 > .shiftnav-target
+18h.animezilla.com###menu-item-1955 > .shiftnav-target
+18h.animezilla.com###menu-item-2727 > .shiftnav-target
+18h.animezilla.com###menu-item-826 > .shiftnav-target
+18h.animezilla.com###menu-item-2507 > .shiftnav-target
+18h.animezilla.com###menu-item-2406 > .shiftnav-target
+18h.animezilla.com###menu-item-584 > .shiftnav-target
+18h.animezilla.com###menu-item-346 > .shiftnav-target
+18h.animezilla.com##.shiftnav-site-title.shiftnav-menu-title
+
+! 2024-01-20 https://m.huaban.com
+m.huaban.com##.app.item
+m.huaban.com##.desktop.to
+m.huaban.com##.android.app.to
+m.huaban.com##.open-add
+
+! 2024-01-21 https://www.asianude4u.net
+www.asianude4u.net###single-share
+www.asianude4u.net##footer
+www.asianude4u.net##.sidebar
+
+! 2024-01-21 https://www.pornpics.com
+www.pornpics.com###cookie-contract
+www.pornpics.com###fb-button
+www.pornpics.com##.left-nav-sponsor.left-side
+www.pornpics.com##.r-frame-on.adss-mob.r-frame
+www.pornpics.com##.footer
+
+! 2024-01-22 https://zh.yazhouse8.live
+zh.yazhouse8.live##.cookies-reminder
+zh.yazhouse8.live##.header-email-verification-warning
+zh.yazhouse8.live##.footer-container\#jW
+zh.yazhouse8.live##.header-notifications
+
+! 2024-01-22 https://m.yalayi.com
+m.yalayi.com##.swiper-wrapper
+m.yalayi.com##div.bgff.list-box:nth-of-type(7)
+m.yalayi.com##.tishiwenzi
+m.yalayi.com##.bgff.list-box
+m.yalayi.com##[href="/vip.html"]
+
+! 2024-01-22 https://www.asianude4u.net
+www.asianude4u.net##.related-box
+www.asianude4u.net##.home-share
+www.asianude4u.net##li.homeimg.ms-item > span
+
+! 2024-01-22 https://legs.a-hadaka.jp
+legs.a-hadaka.jp##.site-footer
+
+! 2024-01-22 https://a-hadaka.jp
+a-hadaka.jp###head-catch-def
+a-hadaka.jp###pr_dxlive
+a-hadaka.jp###footer
+a-hadaka.jp##address
+a-hadaka.jp##.pr
+a-hadaka.jp###pr_niji
+a-hadaka.jp##.clearfix.amazonpr
+a-hadaka.jp##.clearfix.dmmpr
+a-hadaka.jp###photo_footer
+a-hadaka.jp##.moncontent
+a-hadaka.jp###commentarea
+
+! 2024-01-22 https://www.metarthunter.com
+www.metarthunter.com##.list-triple
+www.metarthunter.com##.text-center.double
+
+! 2024-01-22 https://www.youngpussypic.com
+www.youngpussypic.com##.pop-wrap
+www.youngpussypic.com##.clearfix.related-pic-list
+
+! 2024-01-22 https://www.yuque.com
+www.yuque.com##.like-module_larkLike_zeNuZ
+www.yuque.com##.index-module_openInAppContainer_Vmiru
+
+! 2024-01-22 https://www.yckceo.com
+www.yckceo.com##.footer
+www.yckceo.com##div.layui-hide-md.layui-container > .layui-card
+
+! 2024-01-25 https://ysxs001.com
+ysxs001.com##.fly-footer
+ysxs001.com##.layui-bg-black.fly-header
+ysxs001.com##.layui-col-md4
+
+! 2024-01-26 https://jav468.com
+jav468.com##.clearfix.foot_nav.foot > .container
+
+! 2024-01-26 https://18h.animezilla.com
+18h.animezilla.com##.site-footer
+18h.animezilla.com###related-entries
+18h.animezilla.com##.yarpp-related
+
+! 2024-01-26 https://69story.com
+69story.com##.site-header
+69story.com##.site-footer
+69story.com##.news-col
+69story.com##div.panel-default.panel:nth-of-type(3)
+69story.com###main > div > .btn-18h.btn
+69story.com##.entry-footer > div
+69story.com###post-2835 > div > .btn-18h.btn
+69story.com##.tube-list-icon
+69story.com##.disc-list-icon
+69story.com##.cart-list-icon
+69story.com##.btn-18h.btn
+
+! 2024-01-26 https://18h.animezilla.com
+18h.animezilla.com##.cat-list-icon
+18h.animezilla.com##.tube-list-icon
+18h.animezilla.com##.dvd-list-icon
+18h.animezilla.com##.cart-list-icon
+
+! 2024-01-28 https://eromanga-kong.com
+eromanga-kong.com##[src="https://eromanga-kong.com/wp-content/themes/sp_190115/img/kong_line_sp.png"]
+eromanga-kong.com##.related-box
+eromanga-kong.com###yarpp
+
+! 2024-01-28 https://wnacg.com
+wnacg.com##[href="https://wnacg01.org/"]
+
+! 2024-01-28 https://www.eporner.com
+www.eporner.com###pbwuvp
+www.eporner.com###admobilefoot
+
+! 2024-01-28 https://scrolller.com
+scrolller.com##.popup--zIndex.popup--dark.popup--animate.popup--sticky.popup
+scrolller.com##.bzpgsd.sc-btwKTd
+scrolller.com##div.popup--zIndex.popup--dark.popup--sticky.popup
+scrolller.com##button.joClDB.sc-gcUDKN:nth-of-type(3)
+scrolller.com##.hzYjHM.sc-crhfPb
+scrolller.com##div.popup--zIndex.popup--dark.popup
+scrolller.com##button.joClDB.sc-gcUDKN:nth-of-type(5)
+
+! 2024-01-28 https://h2gcz1.ydwzsp.com
+h2gcz1.ydwzsp.com##.pinglun
+
+! 2024-01-28 https://fuliba2023.net
+fuliba2023.net##.orbui-post-footer
+www.douyin.com##.cdImlWbw
+
+! 2024-01-29 https://www.douyin.com
+www.douyin.com##.AdVRSdga
+
+! 2024-01-29 https://www.mddmx.com
+www.mddmx.com##.am-pc-m
+www.mddmx.com##.tonzitxt
+
+! 2024-01-29 https://www.douyin.com
+www.douyin.com##.LSsAQAbh
+www.douyin.com##.tsIcSauY.seEhooOF
+
+! 2024-01-30 https://wnacg.com
+wnacg.com##[href="https://wnbbs.top/"]
+
+! 2024-01-30 https://ahri8.top
+ahri8.top###logout
+ahri8.top##.header-dropdown-list
+
+! 2024-01-30 https://rouman5.com
+rouman5.com##.position-abolute
+
+! 2024-01-30 https://members.luscious.net
+||assets.luscious.net/special/robbie-transp.*$image
+
+! 2024-01-30 https://18comic.vip
+18comic.vip##.a35c7-1_4_sticky2
+
+! 2024-01-30 https://scrolller.com
+scrolller.com##.ejaLTa.sc-jBeBSR
+scrolller.com##button.ceWNXg.sc-gJCZQp:nth-of-type(3)
+scrolller.com##button.ceWNXg.sc-gJCZQp:nth-of-type(5)
+scrolller.com##.MyCollectionsPage_premiumViewContainer__4CHej
+
+! 2024-01-30 https://www.porngo.com
+www.porngo.com##.underplayer_banner
+www.porngo.com##.spot_footer
+www.porngo.com##.spot_title.video-side__adv_title
+
+! 2024-01-31 https://www.bellesa.co
+www.bellesa.co##.crpkjC.MediaQuery__Query-sc-dh9ch6-0
+www.bellesa.co##.clsZEL.Shell__Header-sc-13f0ghz-1
+www.bellesa.co##.jrDAJu.Shell__Header-sc-13f0ghz-1
+
+! 2024-01-31 https://cn.pornhub.com
+cn.pornhub.com##.active.sideHeader
+cn.pornhub.com###flagVideoBtn
+cn.pornhub.com###playlistModal
+cn.pornhub.com##.fanClubButtons.clearfix.categoryRow
+cn.pornhub.com##.commentLogMessage
+
+! 2024-01-31 https://zh.xhamster.com
+zh.xhamster.com##.container-a3a95
+zh.xhamster.com##.yld-pcpremium-n-overlay
+zh.xhamster.com##.buttons-aef6f
+zh.xhamster.com##.scrollable > li:nth-of-type(2)
+zh.xhamster.com##.scrollable > li:nth-of-type(3)
+
+! 2024-01-31 https://www.xnxx.com
+www.xnxx.com###cookies-use-alert
+www.xnxx.com##.video-ad-support-mobile.video-ad.thumb-block
+www.xnxx.com##[href="https://www.xdating.com/"]
+
+! 2024-01-31 http://hentaigasm.com
+hentaigasm.com##.cf.wrap > div:nth-of-type(5)
+hentaigasm.com##.cf.wrap > div:nth-of-type(6)
+hentaigasm.com###main > .cf.wrap > div:nth-of-type(4)
+hentaigasm.com###respond
+hentaigasm.com##.cf.wrap > div:nth-of-type(3) > div
+
+! 2024-01-31 https://dbro.news
+dbro.news##.comments
+dbro.news##.author-box
+
+! 2024-01-31 https://hjd2048.com
+hjd2048.com##.header_up_sign
+hjd2048.com##.noticebg
+hjd2048.com##tr.mobile_index_1.f_one.tr3:nth-of-type(2)
+hjd2048.com##tr.mobile_index_1.f_one.tr3:nth-of-type(9)
+
+! 2024-01-31 https://www.metart.com
+www.metart.com##.panels.man-ui
+
+! 2024-01-31 https://www.asmr.one
+www.asmr.one##.q-btn--dense.q-btn--wrap.q-hoverable.q-focusable.q-btn--actionable.text-white.bg-grey-8.q-btn--rectangle.q-btn--standard.q-px-sm.q-mx-xs.shadow-4.q-mt-sm.no-outline.non-selectable.q-btn-item.q-btn
+www.asmr.one##.q-btn--dense.q-btn--wrap.q-hoverable.q-focusable.q-btn--actionable.text-white.bg-cyan.q-btn--rectangle.q-btn--standard.q-px-sm.q-mx-xs.shadow-4.q-mt-sm.no-outline.non-selectable.q-btn-item.q-btn
+
+! 2024-02-01 https://www.yuque.com
+www.yuque.com###footer
+
+! 2024-02-02 https://beeg.com
+beeg.com##.sidebar__content-secondary
+
+! 2024-02-02 https://www.4khd.com
+www.4khd.com##.heateor_sss_sharing_ul
+
+! 2024-02-02 https://xnxx.nutaku.net
+xnxx.nutaku.net##.display-down.flx-a-c.js-android-store-notification.cnt-android-store-notification
+xnxx.nutaku.net##footer
+xnxx.nutaku.net##.active.js-sidebar-item.flx-column-j-c.sidebar-icons-item
+xnxx.nutaku.net##div.js-sidebar-item.flx-column-j-c.sidebar-icons-item:nth-of-type(7)
+xnxx.nutaku.net##.js-gold-sidebar.flx-column-j-c.sidebar-icons-item
+xnxx.nutaku.net##div.js-sidebar-item.flx-column-j-c.sidebar-icons-item:nth-of-type(3)
+
+! 2024-02-04 https://cn.pornhub.com
+cn.pornhub.com###headerUserIcon
+cn.pornhub.com##a.js-menuAnalytics.leftItem.halfWidth.menuLink
+cn.pornhub.com##div.halfWidth.menuLink
+cn.pornhub.com##a.js-menuAnalytics.halfWidth.menuLink
+
+! 2024-02-07 https://www.cool18.com
+www.cool18.com##.show_content > center
+www.cool18.com##[href="#postfp2"]
+
+! 2024-02-07 https://club.6parkbbs.com
+club.6parkbbs.com##.gift
+club.6parkbbs.com##tr:nth-of-type(3)
+
+! 2024-02-07 https://www.youngpussypic.com
+www.youngpussypic.com##footer
+
+! 2024-02-22 http://www.wsgmzt.com
+www.wsgmzt.com###divfts
+www.wsgmzt.com###listp
+www.wsgmzt.com###xzappsq
+www.wsgmzt.com###dasoa
+www.wsgmzt.com###apptur
+www.wsgmzt.com###d4a
+www.wsgmzt.com###apic
+www.wsgmzt.com###divpsgx
+www.wsgmzt.com###xtjpp
+www.wsgmzt.com###pic
+www.wsgmzt.com###fwqtz
+
+! 2024-03-27 https://hanime.tv
+hanime.tv##.lazy
+hanime.tv##.site-description
+
+! 2024-03-27 https://shayuapi.com
+shayuapi.com##table
+shayuapi.com##.footer
+
+! 2024-03-30 https://jablehk.com
+jablehk.com##.sqs-announcement-bar-dropzone
+jablehk.com##.header-menu-nav-item--external.header-menu-nav-item.container
+jablehk.com##[href="/store"]
+jablehk.com###siteWrapper > .sections
+jablehk.com###yui_3_17_2_2_1711796394211_75
+jablehk.com###block-5d474febc5b958e194ed
