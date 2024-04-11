@@ -1935,3 +1935,17 @@ gelbooru.com##footer
 kemono.su##.shifted.content-wrapper > [href]
 kemono.su##.stuck-bottom.global-sidebar-entry
 
+
+
+! 2024-04-11 https://simpcity.su
+simpcity.su##.p-header--hasExtraContent.p-header
+simpcity.su##.nav-tpd.p-navEl-link
+simpcity.su##.nav-faze.p-navEl-link
+simpcity.su##.nav-dfake.p-navEl-link
+simpcity.su##.nav-bonga.p-navEl-link
+simpcity.su##.nav-shoosh.p-navEl-link
+simpcity.su##.p-footer-copyrightRow
+simpcity.su##.p-footer-row-opposite
+simpcity.su##.js-quickReply.block
+simpcity.su##.js-notices.notices--isMulti.notices--block.notices
+simpcity.su##.shareButtons--iconic.shareButtons
