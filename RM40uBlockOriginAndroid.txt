@@ -1949,3 +1949,11 @@ simpcity.su##.p-footer-row-opposite
 simpcity.su##.js-quickReply.block
 simpcity.su##.js-notices.notices--isMulti.notices--block.notices
 simpcity.su##.shareButtons--iconic.shareButtons
+
+! 2024-04-13 https://www.reddit.com
+www.reddit.com##.justify-end.flex-col.flex.grow.py-md.visible
+www.reddit.com##nav[aria-label="Reddit resources"]
+www.reddit.com##shreddit-async-loader[bundlename="nsfw_blocking_modal"]
+#登入弹窗
+www.reddit.com##xpromo-top-button
+#APP
