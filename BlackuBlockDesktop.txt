@@ -268,29 +268,6 @@ music.163.com##.u-btn2-1.u-btn2
 music.163.com##.enter
 music.163.com##.copy
 
-! 2022-12-27 https://www.reddit.com
-www.reddit.com##._10wb7d3rGvj56Gcs4IQWL5._1FUNcfOeszr8eruqLxCMcR
-www.reddit.com##._10wb7d3rGvj56Gcs4IQWL5._1FUNcfOeszr8eruqLxCMcR
-www.reddit.com##._10wb7d3rGvj56Gcs4IQWL5._1FUNcfOeszr8eruqLxCMcR
-www.reddit.com##._10wb7d3rGvj56Gcs4IQWL5._1FUNcfOeszr8eruqLxCMcR
-www.reddit.com##._10wb7d3rGvj56Gcs4IQWL5._1FUNcfOeszr8eruqLxCMcR
-www.reddit.com##._1ivoPEQV9lryC0mH-f_uGY._3el1HrJryfAxBUzu4HsIhE.GfthJQJvWCHdUoMi6YjYa
-www.reddit.com##._3VqiDbufgl9_EiV_tk9L6u
-www.reddit.com##._2jJNpBqXMbbyOiGCElTYxZ
-www.reddit.com##._2I12Htze2UzJmmfnrgYJOn._2zZ-KGHbWWqrwGlHWXR90y
-www.reddit.com##span._3dZnYgFFpifT-M_Vs2FAq6
-www.reddit.com##._1PvH4m9c5gT9_kN2ABo2zG
-www.reddit.com##span._2zZ-KGHbWWqrwGlHWXR90y:nth-of-type(2)
-www.reddit.com##._1YWXCINvcuU7nk0ED-bta8
-www.reddit.com##a.NiNJXib52w4C8FUidB5af:nth-of-type(2)
-www.reddit.com##a.GCltVwsXPu5lE-gs4Nucu._3fbofimxVp_hpVM6I1TGMS:nth-of-type(1)
-www.reddit.com##div > button.GCltVwsXPu5lE-gs4Nucu._3fbofimxVp_hpVM6I1TGMS:nth-of-type(4) > .f8nXLisWxOYzMMl1uIAP3
-www.reddit.com##div > button.GCltVwsXPu5lE-gs4Nucu._3fbofimxVp_hpVM6I1TGMS:nth-of-type(3)
-www.reddit.com##a.GCltVwsXPu5lE-gs4Nucu._3fbofimxVp_hpVM6I1TGMS:nth-of-type(5)
-www.reddit.com##a.GCltVwsXPu5lE-gs4Nucu._3fbofimxVp_hpVM6I1TGMS:nth-of-type(4)
-www.reddit.com##._3zu1R6cDitNjrJaFA1VPXj._3fbofimxVp_hpVM6I1TGMS
-www.reddit.com##div > button.GCltVwsXPu5lE-gs4Nucu._3fbofimxVp_hpVM6I1TGMS:nth-of-type(1)
-www.reddit.com##a.GCltVwsXPu5lE-gs4Nucu._3fbofimxVp_hpVM6I1TGMS:nth-of-type(3)
 
 ! 2022-11-20 https://cupfox.app 茶杯狐
 cupfox.app##.head-guide.jsx-19dd3ea12a275d5b > .border-shadow.card.jsx-2975208096
