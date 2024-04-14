@@ -1445,13 +1445,7 @@ rule34video.com##.footer
 rule34video.com##.mobile-box.box
 rule34video.com##.thumb.spot-thumb
 
-! 2023-12-17 https://hanime.tv
-hanime.tv##.footer
-hanime.tv##div.nav-drawer-list.list:nth-of-type(6)
-hanime.tv##div.nav-drawer-list.list:nth-of-type(5)
-hanime.tv##span.tooltip--top.tooltip:nth-of-type(5)
-hanime.tv##span.tooltip--top.tooltip:nth-of-type(3)
-hanime.tv##.user_comments__post
+
 
 ! 2023-12-19 https://i.jandan.net
 i.jandan.net###footer
@@ -1495,11 +1489,7 @@ www.redgifs.com##.TabLink_isActive.TabLink_isUpload.TabLink
 www.redgifs.com##._burgerButton_pidia_1
 www.redgifs.com##.TabLink_isUpload.TabLink
 
-! 2024-01-15 https://hanime.tv
-hanime.tv##div.nav-drawer-list.list:nth-of-type(4)
-hanime.tv##.user_options__list.list > div:nth-of-type(3)
-hanime.tv##.user_options__list.list > div:nth-of-type(4) > div
-hanime.tv##.user_options__list.list > div:nth-of-type(5)
+
 
 ! 2024-01-15 https://scrolller.com
 scrolller.com##button.cQqUEw.sc-eiQriw:nth-of-type(5)
@@ -1830,9 +1820,7 @@ www.wsgmzt.com###xtjpp
 www.wsgmzt.com###pic
 www.wsgmzt.com###fwqtz
 
-! 2024-03-27 https://hanime.tv
-hanime.tv##.lazy
-hanime.tv##.site-description
+
 
 ! 2024-03-27 https://shayuapi.com
 shayuapi.com##table
@@ -1860,8 +1848,6 @@ h-ciyuan.com##.gridview-sticky-social-icon-telegram
 h-ciyuan.com##.gridview-sticky-social-icon-email
 h-ciyuan.com##.entry-header
 
-! 2024-04-02 https://hanime.tv
-hanime.tv##.parallax-content
 
 ! 2024-04-02 https://sfmcompile.club
 sfmcompile.club## [href="https://theporndude.com/"]
@@ -1957,3 +1943,5 @@ www.reddit.com##shreddit-async-loader[bundlename="nsfw_blocking_modal"]
 #登入弹窗
 www.reddit.com##xpromo-top-button
 #APP
+
+
