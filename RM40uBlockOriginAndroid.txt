@@ -1906,3 +1906,104 @@ www.reddit.com##shreddit-async-loader[bundlename="nsfw_blocking_modal"]
 www.reddit.com##xpromo-top-button
 #APP
 
+! 2024-04-14 https://simpcity.su
+simpcity.su##.p-header--hasExtraContent.p-header
+simpcity.su##.nav-tpd.p-navEl-link
+simpcity.su##.nav-faze.p-navEl-link
+simpcity.su##.nav-shoosh.p-navEl-link
+simpcity.su##.p-footer
+simpcity.su##.js-notices.notices--block.notices
+
+! 2024-04-14 https://hanime1.me
+hanime1.me##.hidden-xs.footer-new.row
+hanime1.me##.hidden-xs.no-select.video-show-action-btn
+hanime1.me##.hidden-xl.hidden-lg.hidden-md.hidden-sm.single-icon-outlier.no-select.video-show-action-btn
+#反馈
+hanime1.me###watch-footer
+hanime1.me##.hidden-lg.hidden-md.hidden-sm.footer-new.row
+hanime1.me##.active.comment-tablinks.tablinks
+hanime1.me###mobile-ad
+hanime1.me###home-rows-wrapper > div.hidden-xs:nth-of-type(6)
+hanime1.me##.comment-tablinks.tablinks
+
+! 2024-04-14 https://h-ciyuan.com
+h-ciyuan.com##.sgpb-popup-dialog-main-div-wrapper
+h-ciyuan.com##.gridview-header-inside-container
+
+! 2024-04-14 https://ohentai.org
+ohentai.org##[href^="https://candy.ai"]
+ohentai.org##footer
+ohentai.org##[href="https://discord.gg/UD3fFTj"]
+ohentai.org##div.sidecontainertitle:nth-of-type(1)
+#加入discord
+ohentai.org##.sidebaradlinkcontainer
+#外部推广
+ohentai.org##.reportbutton
+#反馈
+ohentai.org##.detaildiscussionpanel
+#评价
+ohentai.org##footer
+ohentai.org##a[title="menutab_ad"]
+#游戏
+
+
+
+! 2024-04-14 https://hentaigasm.com
+||a.magsrv.com/ad-provider.js
+hentaigasm.com##.rich-content.entry-content > p
+hentaigasm.com##div[style*="width: 300px; height: 250px;"] 
+hentaigasm.com##div[style*="width: 300px; height: 100px;"]
+hentaigasm.com##.center-align
+hentaigasm.com##.btn-pink.likes-page-link.btn
+
+! 2024-04-14 https://studiofow.com
+studiofow.com##.whb-visible-lg.whb-col-center.whb-column
+studiofow.com##.whb-hidden-lg.whb-mobile-center.whb-column
+studiofow.com##.wd-prefooter
+studiofow.com##.color-scheme-light.footer-container
+
+! 2024-04-14 https://999hentai.net
+999hentai.net##.mt-3.site-bottom-wrapper.info-panel
+999hentai.net##.info-panel.py-5.footer
+999hentai.net##[href="/about"]
+999hentai.net##.share-wraper.mt
+999hentai.net##.score-container
+999hentai.net##.disqus-comments.loading-wrapper
+999hentai.net##script[data-cfasync="false"].async:contains(adsbyjuicy)
+999hentai.net##.w-100.align-items-center.flex-column.d-flex.ads-wraper
+
+! 2024-04-14 https://www.3dsexanime.xyz
+www.3dsexanime.xyz##.footer-container
+www.3dsexanime.xyz##.alert-link.alert-dismissable.alert
+www.3dsexanime.xyz###navbarSupportedContent > li
+www.3dsexanime.xyz##.ctrl_d
+www.3dsexanime.xyz##.mt-3.comments-section
+www.3dsexanime.xyz###video_flag
+www.3dsexanime.xyz###AdFrame3
+
+! 2024-04-14 https://xanimu.com
+xanimu.com##.nav-item.menu-item-5901.menu-item-object-custom.menu-item-type-custom.menu-item.link-icon
+xanimu.com##.nav-item.menu-item-5817.menu-item-object-custom.menu-item-type-custom.menu-item.link-icon
+xanimu.com##.nav-item.menu-item-54722.menu-item-object-custom.menu-item-type-custom.menu-item
+xanimu.com###cf_alert_div
+xanimu.com###wrapper-footer
+xanimu.com###page > .hero
+xanimu.com##.ppopp.all-cat
+xanimu.com##div:contains("Please, disable Adblock for better video quality and other features.")
+xanimu.com##.single-video-comments
+xanimu.com##.report-post-custom-link
+xanimu.com##.notranslate.box-sizing.vid-comments
+
+! 2024-04-14 https://porn3dx.com
+porn3dx.com##div.p-6:nth-of-type(5)
+
+! 2024-04-14 https://sfmcompile.club
+sfmcompile.club##.g1-row-layout-page.g1-row.g1-footer
+
+! 2024-04-14 https://www.pixiv.net
+www.pixiv.net##footer
+www.pixiv.net##.premium-lead-t-side-menu-mini-profile
+
+! 2024-04-14 https://www.artstation.com
+www.artstation.com##.js-discount-banner.v1.active-version.bar-pro-increase
+
