@@ -291,11 +291,7 @@ www.watchanime.video###page > .tags
 www.watchanime.video##.friends
 www.watchanime.video##.title
 
-! 2023-02-13 http://hentaigasm.com
-hentaigasm.com###guest-nav
-hentaigasm.com##.image-branding
-hentaigasm.com###footer
-hentaigasm.com##.center-align
+
 
 ! 2023-02-13 https://www.tsumino.com
 www.tsumino.com##.browse-page > [href="/chat"]
@@ -1749,13 +1745,6 @@ www.xnxx.com###cookies-use-alert
 www.xnxx.com##.video-ad-support-mobile.video-ad.thumb-block
 www.xnxx.com##[href="https://www.xdating.com/"]
 
-! 2024-01-31 http://hentaigasm.com
-hentaigasm.com##.cf.wrap > div:nth-of-type(5)
-hentaigasm.com##.cf.wrap > div:nth-of-type(6)
-hentaigasm.com###main > .cf.wrap > div:nth-of-type(4)
-hentaigasm.com###respond
-hentaigasm.com##.cf.wrap > div:nth-of-type(3) > div
-
 ! 2024-01-31 https://dbro.news
 dbro.news##.comments
 dbro.news##.author-box
@@ -1895,8 +1884,7 @@ hentaix.io##.mh-copyright-wrap
 hentaix.io##.mh-footer
 hentaix.io##[href="https://theporndude.com"]
 
-! 2024-04-02 https://hentaigasm.com
-hentaigasm.com##div.adv
+
 
 ! 2024-04-02 https://slushe.com
 slushe.com##.page-footer
@@ -1943,5 +1931,4 @@ www.reddit.com##shreddit-async-loader[bundlename="nsfw_blocking_modal"]
 #登入弹窗
 www.reddit.com##xpromo-top-button
 #APP
-
 
