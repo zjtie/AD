@@ -1867,18 +1867,6 @@ www.3dsexanime.xyz##.footer-container
 www.3dsexanime.xyz##.alert-link.alert-dismissable.alert
 www.3dsexanime.xyz##.mt-3.comments-section
 
-! 2024-04-02 https://999hentai.net
-999hentai.net##.mt-3.site-bottom-wrapper.info-panel
-999hentai.net##.info-panel.py-5.footer
-999hentai.net##.w-100.align-items-center.flex-column.d-flex.ads-wraper
-999hentai.net##.disqus-comments.loading-wrapper
-
-! 2024-04-02 https://999hentai.net
-999hentai.net##.mt-3.site-bottom-wrapper.info-panel
-999hentai.net##.info-panel.py-5.footer
-999hentai.net##.w-100.align-items-center.flex-column.d-flex.ads-wraper
-999hentai.net##.disqus-comments.loading-wrapper
-
 ! 2024-04-02 https://hentaix.io
 hentaix.io##.mh-copyright-wrap
 hentaix.io##.mh-footer
