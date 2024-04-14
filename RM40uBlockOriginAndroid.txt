@@ -1862,11 +1862,6 @@ xanimu.com###menu-item-54722
 xanimu.com###box-txtovka-box
 xanimu.com##.single-video-comments
 
-! 2024-04-02 https://www.3dsexanime.xyz
-www.3dsexanime.xyz##.footer-container
-www.3dsexanime.xyz##.alert-link.alert-dismissable.alert
-www.3dsexanime.xyz##.mt-3.comments-section
-
 ! 2024-04-02 https://hentaix.io
 hentaix.io##.mh-copyright-wrap
 hentaix.io##.mh-footer
