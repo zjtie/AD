@@ -2007,3 +2007,5 @@ www.pixiv.net##.premium-lead-t-side-menu-mini-profile
 ! 2024-04-14 https://www.artstation.com
 www.artstation.com##.js-discount-banner.v1.active-version.bar-pro-increase
 
+! 2024-04-14 https://search.hoothin.com
+search.hoothin.com##.css-0.MuiBox-root
