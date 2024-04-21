@@ -2011,3 +2011,9 @@ www.artstation.com##.js-discount-banner.v1.active-version.bar-pro-increase
 www.deviantart.com##footer
 www.deviantart.com##aside
 
+! 2024年4月21日 https://www.aconvert.com
+www.aconvert.com##.navbar-inverse
+# www.aconvert.com##.container > .field-box
+www.aconvert.com##.container > .field-box:nth-of-type(2)
+www.aconvert.com##.bluebg
+
