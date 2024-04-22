@@ -2017,3 +2017,18 @@ www.aconvert.com##.navbar-inverse
 www.aconvert.com##.container > .field-box:nth-of-type(2)
 www.aconvert.com##.bluebg
 
+! 2024年4月22日 https://multporn.net
+multporn.net###block-block-63 > .content > div
+#分享
+multporn.net###block-block-200
+multporn.net###block-block-207
+multporn.net###user-tag-form
+#创建标签
+multporn.net###user-dis-form
+#提交建议
+multporn.net##.block-commentsblock.block
+#评论
+multporn.net###menu-22120-1
+#AI短信
+multporn.net###menu-17097-1
+#同性恋
