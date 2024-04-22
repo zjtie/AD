@@ -898,17 +898,17 @@ live.douyin.com###component-header
 #导航
 
 ! 2023-09-13 https://www.bilibili.com
-www.bilibili.com##.bili-footer
+*bilibili.com##.bili-footer
 #页尾
-www.bilibili.com##.palette-button-wrap
+*bilibili.com##.palette-button-wrap
 #侧边栏按钮
-www.bilibili.com##.download-client-trigger.download-entry
+*bilibili.com##.download-client-trigger.download-entry
 #下载
-www.bilibili.com##.vip-wrap
+*bilibili.com##.vip-wrap
 #大会员
-www.bilibili.com##.right-entry-item--upload.right-entry-item
+*bilibili.com##.right-entry-item--upload.right-entry-item
 #投稿
-www.bilibili.com##li.right-entry-item:nth-of-type(6)
+*bilibili.com##li.right-entry-item:nth-of-type(6)
 #创作中心
 
 ! 2023-09-13 https://www.t66y.com
