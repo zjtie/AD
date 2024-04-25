@@ -283,7 +283,11 @@ erovoice-ch.com###custom_html-10
 erovoice-ch.com##li.w100.pvBox.cf.over200:nth-of-type(1)
 erovoice-ch.com##.custom-html-widget.textwidget > .cf > li.w100.pvBox.cf.over200:nth-of-type(5)
 erovoice-ch.com###postPagers
-
+erovoice-ch.com##.cf.rectADD
+erovoice-ch.com##div.addWrap.mb10
+erovoice-ch.com###header
+erovoice-ch.com###nav_menu-3
+erovoice-ch.com###nav_menu-4
 
 ! 2023-02-13 https://www.watchanime.video
 www.watchanime.video##.site-footer
@@ -593,9 +597,12 @@ madou.club##.footer
 
 ! 2023-05-05 https://www.hentaiasmr.moe
 www.hentaiasmr.moe##center
-www.hentaiasmr.moe##.footer-menu-container
 www.hentaiasmr.moe###custom_html-2
 www.hentaiasmr.moe##.comments-area
+www.hentaiasmr.moe##footer
+www.hentaiasmr.moe##.archive-description
+www.hentaiasmr.moe##.clear
+www.hentaiasmr.moe###menu-item-56521
 
 ! 2023-05-03 https://eromanga-cafe.com
 eromanga-cafe.com###site-info
@@ -1905,6 +1912,8 @@ www.reddit.com##shreddit-async-loader[bundlename="nsfw_blocking_modal"]
 #登入弹窗
 www.reddit.com##xpromo-top-button
 #APP
+www.reddit.com##shreddit-experience-tree
+
 
 ! 2024-04-14 https://simpcity.su
 simpcity.su##.p-header--hasExtraContent.p-header
@@ -2089,4 +2098,25 @@ scrolller.com##button[data-test-id="discord-button"]
 ! 2024年4月24日 https://www.zhihu.com
 www.zhihu.com##.OpenInAppButton
 www.zhihu.com##.css-rg1dmv
+
+! 2024年4月25日 https://eatasmr.com
+eatasmr.com##footer
+
+! 2024年4月25日 https://japaneseasmr.com
+japaneseasmr.com##[href="https://japaneseasmr.com/request/"]
+japaneseasmr.com###ilovewp-comments
+https://a.magsrv.com/video-slider.js
+japaneseasmr.com##div.code-block
+
+! 2024年4月25日 https://asmr18.fans
+asmr18.fans###menu-link
+creative.xlirdr.com#
+asmr18.fans###main > div:nth-of-type(2)
+asmr18.fans##footer
+asmr18.fans###menu-menu > [href="https://asmr18.fans/contact/"]
+asmr18.fans###comments
+#评论
+asmr18.fans##.book18-post-list
+asmr18.fans##div.home-h:nth-of-type(1)
+asmr18.fans##div.home-h:nth-of-type(3)
 
