@@ -2082,3 +2082,17 @@ web.nicecat.cc###body_nav_menu > div:nth-of-type(7)
 web.nicecat.cc###body_nav_menu > div:nth-of-type(8)
 web.nicecat.cc###body_nav_menu > div:nth-of-type(9)
 
+! 2024年4月29日 https://scrolller.com
+scrolller.com##div[mode="open"] > button:nth-child(3)
+#上传
+scrolller.com##.getPremiumView
+#成为高级会员
+scrolller.com##.app-page > div:first-of-type
+#页头
+scrolller.com##button[aria-label="Download"], button[aria-label="Share"], button[aria-label="Auto Scroll"]
+scrolller.com##button[aria-label="Auto Scroll"] + button
+#按钮
+scrolller.com##button[aria-label="Close fullscreen"] + div
+#按钮的后面一个div元素
+scrolller.com##div.sc-brPLxw > div:first-of-type > div:nth-of-type(3),div.sc-brPLxw > div:first-of-type > div:nth-of-type(4)
+#广告
