@@ -1212,18 +1212,6 @@ nijiero-ch.com##.w100.cf.rssArea
 2jiero.net##.migishita_kotei_all
 #浮窗
 
-! 2023-09-15 https://scrolller.com
-scrolller.com##.header.safe-area
-#页面头部
-scrolller.com##.tabs-wrapper > [href="https://trk.scrolller.com/7af8ab8a-b04f-465a-be84-83351df83e98"]
-scrolller.com##[href="https://trk.scrolller.com/73bb3d8b-b244-411b-8357-d46800cd78cd"]
-#游戏
-scrolller.com##button.eghdGo.sc-epALIP:nth-of-type(3)
-#上传
-scrolller.com##.MyCollectionsPage_premiumViewContainer__2hLnP
-#会员
-scrolller.com##button.eghdGo.sc-epALIP:nth-of-type(5)
-#我的
 
 ! 2023-09-15 https://www.redgifs.com
 www.redgifs.com##.fWRajv3F
@@ -1420,6 +1408,8 @@ nijisenmon.work##.adbox
 nijisenmon.work##.quads-ad3.quads-location
 nijisenmon.work###st-header-cardlink-wrapper
 nijisenmon.work##.pcnone
+nijisenmon.work###side
+
 
 ! 2023-12-17 https://asiantolick.com
 asiantolick.com##.menssage_favorite
@@ -1477,16 +1467,6 @@ www.cnu.cc##.pageFooter
 www.redgifs.com##.TabLink_isActive.TabLink_isUpload.TabLink
 www.redgifs.com##._burgerButton_pidia_1
 www.redgifs.com##.TabLink_isUpload.TabLink
-
-
-
-! 2024-01-15 https://scrolller.com
-scrolller.com##button.cQqUEw.sc-eiQriw:nth-of-type(5)
-scrolller.com##button.cQqUEw.sc-eiQriw:nth-of-type(3)
-scrolller.com##.byvoXL.sc-epRvzc
-scrolller.com##.btRHCw.sc-eKtvVk
-scrolller.com##div.fZabec.sc-gRtvSG:nth-of-type(3)
-scrolller.com##.kpqAiJ.sc-gRtvSG
 
 ! 2024-01-17 https://cn.pornhub.com
 cn.pornhub.com###welcomeVideoMsg
@@ -1671,15 +1651,6 @@ wnacg.com##[href="https://wnacg01.org/"]
 www.eporner.com###pbwuvp
 www.eporner.com###admobilefoot
 
-! 2024-01-28 https://scrolller.com
-scrolller.com##.popup--zIndex.popup--dark.popup--animate.popup--sticky.popup
-scrolller.com##.bzpgsd.sc-btwKTd
-scrolller.com##div.popup--zIndex.popup--dark.popup--sticky.popup
-scrolller.com##button.joClDB.sc-gcUDKN:nth-of-type(3)
-scrolller.com##.hzYjHM.sc-crhfPb
-scrolller.com##div.popup--zIndex.popup--dark.popup
-scrolller.com##button.joClDB.sc-gcUDKN:nth-of-type(5)
-
 ! 2024-01-28 https://h2gcz1.ydwzsp.com
 h2gcz1.ydwzsp.com##.pinglun
 
@@ -1711,11 +1682,6 @@ rouman5.com##.position-abolute
 ! 2024-01-30 https://members.luscious.net
 ||assets.luscious.net/special/robbie-transp.*$image
 
-! 2024-01-30 https://scrolller.com
-scrolller.com##.ejaLTa.sc-jBeBSR
-scrolller.com##button.ceWNXg.sc-gJCZQp:nth-of-type(3)
-scrolller.com##button.ceWNXg.sc-gJCZQp:nth-of-type(5)
-scrolller.com##.MyCollectionsPage_premiumViewContainer__4CHej
 
 ! 2024-01-30 https://www.porngo.com
 www.porngo.com##.underplayer_banner
@@ -2085,9 +2051,6 @@ hentai-witch.com##.ad-wrap
 nijisenmon.work###st-headwide
 nijisenmon.work##div.st-infeed-adunit
 
-! 2024年4月24日 https://scrolller.com
-scrolller.com##button[data-test-id="discord-button"]
-# scrolller.com##button[data-test-id="notification-button"]
 
 ! 2024年4月24日 https://www.zhihu.com
 www.zhihu.com##.OpenInAppButton
