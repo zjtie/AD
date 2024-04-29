@@ -1828,15 +1828,23 @@ hentaix.io##.clearfix.mh-custom-header
 
 
 ! 2024-04-02 https://slushe.com
-slushe.com##.page-footer
 slushe.com##.comments
 slushe.com##.active.contact
 slushe.com##.about
 slushe.com##.discord
+slushe.com###age-verify-overlay
+slushe.com##footer
+slushe.com##.slider-main
+slushe.com##.top
+slushe.com##.myTopButton
+#分享
+slushe.com##[href="https://slushe.com/contact"]
+#接触
 
 ! 2024-04-02 https://www.lolhentai.net
 www.lolhentai.net##footer
 www.lolhentai.net##.hidesm.init-popup.discord
+www.lolhentai.net##[href^="https://heyallie.me/"]
 
 ! 2024-04-02 https://www.hentai-foundry.com
 www.hentai-foundry.com###footer
@@ -1849,8 +1857,7 @@ gelbooru.com##footer
 ! 2024-04-02 https://kemono.su
 kemono.su##.shifted.content-wrapper > [href]
 kemono.su##.stuck-bottom.global-sidebar-entry
-
-
+kemono.su##footer
 
 ! 2024-04-11 https://simpcity.su
 simpcity.su##.p-header--hasExtraContent.p-header
@@ -2096,3 +2103,10 @@ scrolller.com##button[aria-label="Close fullscreen"] + div
 #按钮的后面一个div元素
 scrolller.com##div.sc-brPLxw > div:first-of-type > div:nth-of-type(3),div.sc-brPLxw > div:first-of-type > div:nth-of-type(4)
 #广告
+! 2024年4月30日 https://www.imagefap.com
+www.imagefap.com##center > center > center
+www.imagefap.com###main > center
+beta.imagefap.com##.footerLinks.clear
+
+! 2024年4月30日 https://legs.a-hadaka.jp
+legs.a-hadaka.jp##footer
