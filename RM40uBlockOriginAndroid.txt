@@ -1213,18 +1213,6 @@ nijiero-ch.com##.w100.cf.rssArea
 #浮窗
 
 
-! 2023-09-15 https://www.redgifs.com
-www.redgifs.com##.fWRajv3F
-#页面头部
-www.redgifs.com##li.SideBar-Item:nth-of-type(5)
-www.redgifs.com##li.SideBar-Item:nth-of-type(6)
-www.redgifs.com##li.SideBar-Item:nth-of-type(7)
-#直播按钮
-www.redgifs.com##.boosted-btn
-#观看完整
-www.redgifs.com##.mainLogo
-#logo
-
 ! 2023-09-15 https://ichinuke.com
 ichinuke.com###slide_wrap
 ichinuke.com##.PhoneOnly
@@ -1462,11 +1450,6 @@ blog.csdn.net##.openApp
 ! 2024-01-12 http://www.cnu.cc
 www.cnu.cc##.download
 www.cnu.cc##.pageFooter
-
-! 2024-01-15 https://www.redgifs.com
-www.redgifs.com##.TabLink_isActive.TabLink_isUpload.TabLink
-www.redgifs.com##._burgerButton_pidia_1
-www.redgifs.com##.TabLink_isUpload.TabLink
 
 ! 2024-01-17 https://cn.pornhub.com
 cn.pornhub.com###welcomeVideoMsg
