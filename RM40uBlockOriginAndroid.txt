@@ -1051,9 +1051,6 @@ wnacg.com##[src="/themes/weitu/images/bg/shoucang.jpg"]
 #添加收藏
 
 ! 2023-09-14 https://ichinuke.com
-ichinuke.com##.nwa.footer-container.footer
-ichinuke.com##.entry-footer.article-footer
-#页面尾部
 ichinuke.com###text-11
 ichinuke.com###text-4
 ichinuke.com##.wrap.content-top-in
@@ -1062,6 +1059,18 @@ ichinuke.com##.under-entry-content
 ichinuke.com##.comment-area
 ichinuke.com##.widget_recent_comments.widget-sidebar-standard.widget-sidebar.widget
 #评论
+ichinuke.com##.pc_.l-header__bar
+ichinuke.com##.PhoneOnly
+ichinuke.com##.PcOnly
+ichinuke.com###custom_html-13
+ichinuke.com##.w-beforeRelated.l-articleBottom__section
+ichinuke.com###sp_menu
+ichinuke.com##footer
+ichinuke.com##[href="https://ichinuke.com/feed/"]
+ichinuke.com###g_floating_area1
+ichinuke.com###g_floating_area2
+ichinuke.com###slide_wrap_pc
+
 
 ! 2023-09-14 https://hentai-witch.com
 hentai-witch.com##.header-container
@@ -1352,6 +1361,16 @@ m.agedm.org##.video-comments-box.box-common
 m.agedm.org##.hd
 m.agedm.org##.comment-scrolltop.box-common
 m.agedm.org##.go-marketing.box-common
+m.agedm.org##.age-update-dialog.van-dialog
+m.agedm.org##.van-overlay
+! 2024年4月26日 https://www.agedm.org
+www.agedm.org##.global_notice_wrapper
+www.agedm.org##.foot_content_wrapper
+www.agedm.org##.my-3.col-md-12
+www.agedm.org###notice_box
+www.agedm.org##[href^="https://www.agedm.app"]
+www.agedm.org##.float-end.feedback-popover.video_detail_meta
+www.agedm.org##.comment-box-wrapper
 
 ! 2023-12-15 https://www.mddmz.com
 www.mddmz.com###Auto_banner
@@ -1559,6 +1578,17 @@ m.yalayi.com##div.bgff.list-box:nth-of-type(7)
 m.yalayi.com##.tishiwenzi
 m.yalayi.com##.bgff.list-box
 m.yalayi.com##[href="/vip.html"]
+www.yalayi.com##.footer
+www.yalayi.com##[href="https://www.yalayi.com/app/"]
+www.yalayi.com##.register
+www.yalayi.com##[href="https://www.yalayi.com/vip.html"]
+||img.yalayi.net/ad/end.jpg!pcimg$image
+www.yalayi.com##.tishiwenzi
+www.yalayi.com###dydown
+yipai.yalayi.com##[href="https://www.yalayi.com/app/"]
+yipai.yalayi.com##[href="https://www.yalayi.com/vip.html"]
+yipai.yalayi.com##.footer
+
 
 ! 2024-01-22 https://www.asianude4u.net
 www.asianude4u.net##.related-box
@@ -2083,4 +2113,9 @@ asmr18.fans###comments
 asmr18.fans##.book18-post-list
 asmr18.fans##div.home-h:nth-of-type(1)
 asmr18.fans##div.home-h:nth-of-type(3)
+
+! 2024年4月25日 https://web.nicecat.cc
+web.nicecat.cc###body_nav_menu > div:nth-of-type(7)
+web.nicecat.cc###body_nav_menu > div:nth-of-type(8)
+web.nicecat.cc###body_nav_menu > div:nth-of-type(9)
 
