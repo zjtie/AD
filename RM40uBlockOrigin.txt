@@ -2101,3 +2101,46 @@ www.redgifs.com##.SideBar > li:nth-of-type(7)
 # www.redgifs.com##.SideBar-Item div[class*="live"]
 www.redgifs.com##.SideBar-Item > div._adLiveButton_p1t77_1:upward(li)
 #类名中包含"live"的div元素
+
+! 2024年4月25日 https://18comic.vip
+18comic.vip###billboard-modal
+18comic.vip##.footer-container
+18comic.vip##.footer-pad
+18comic.vip##.float-right-image
+18comic.vip##.float-right-daily
+18comic.vip##div.row[style*="display: flex;"][style*="flex-wrap: wrap;"]
+#内容广告
+18comic.vip##.top-menu-link.hidden-xs
+#导航广告
+18comic.vip##li > a#meun_game
+#屏蔽包含id="meun_game"的<a>标签的上一级li元素
+18comic.vip##li > a[href="/shop"]
+#商店
+18comic.vip##li > a[href="/games"]
+#游戏
+18comic.vip##[href="https://jm365.work/mpSWW7"]
+18comic.vip##[href="mailto:www18comic@gmail.com"]
+18comic.vip##[href="https://jm365.work/dFTN82"]
+18comic.vip##[href="/bonus"]
+18comic.vip##[href="https://jm365.work/pXYbfA"]
+18comic.vip##.well.well-filters > div:nth-of-type(3)
+18comic.vip##.tab-content.m-t-15.m-b-20 + .row
+#封面foot
+18comic.vip##div > #post_comment
+#评论
+18comic.vip##.thewayhome.scramble-page.center
+18comic.vip##.top-nav
+18comic.vip###shunt-modal  + div
+#浮窗
+18comic.vip##li.ph-active:nth-of-type(1)
+#商店
+18comic.vip##li.ph-active:nth-of-type(4)
+#游戏
+18comic.vip##.navbar-nav-icon.visible-sm.visible-xs
+#导航
+18comic.vip##.copy-block.visible-sm.visible-xs
+#导航
+18comic.vip###nb_path
+18comic.vip###ipcountry
+18comic.vip##.user-social.panel-default.panel
+
