@@ -950,16 +950,24 @@ members.luscious.net##nav.o-relative.o-padding-top-bottom
 #背景图
 members.luscious.net##div.o-padding-sides.flex-grow-1:nth-of-type(2)
 #新用户
-members.luscious.net##ul.secondary_menu-module__menu-bar--ynlnK:nth-of-type(2) > li.secondary_menu-module__menu-item--uFCoF:nth-of-type(5) > .secondary_menu-module__menu-item-link--C0huX.secondary_menu-module__menu-item-link-icon--Blqfw
-members.luscious.net##ul.secondary_menu-module__menu-bar--ynlnK:nth-of-type(2) > li.secondary_menu-module__menu-item--uFCoF:nth-of-type(6) > .secondary_menu-module__menu-item-link--C0huX.secondary_menu-module__menu-item-link-icon--Blqfw
-members.luscious.net##ul.desktop-module__menu--YtnoA:nth-of-type(2) > li.desktop-module__menu-item--ZURZ0:nth-of-type(3) > .desktop-module__menu-item-link--Bfqdd
-members.luscious.net##ul.desktop-module__menu--YtnoA:nth-of-type(2) > li.desktop-module__menu-item--ZURZ0:nth-of-type(2) > .desktop-module__menu-item-link--Bfqdd
 members.luscious.net##div > div > .o-flex--multi-line--align-center
 #精选博客
 members.luscious.net##.video-grid-header.o-h2
 #视频
 members.luscious.net##.o-align--center.o-h1
 #博客
+members.luscious.net##footer
+members.luscious.net###master_svg
+members.luscious.net##[id*="theAd"]
+members.luscious.net##.page-footer
+members.luscious.net##.o-clear
+members.luscious.net##div.o-padding-sides.o-fullwidth:nth-of-type(8)
+members.luscious.net##.o-link-no-decoration.o-btn-group
+#报告视频
+members.luscious.net##.o-clear.o-divider.o-divider--large
+members.luscious.net##.o-clear.o-divider.o-divider--large + div
+
+
 
 ! 2023-09-14 https://rouman5.com
 rouman5.com##.footer_root__6F7g2
