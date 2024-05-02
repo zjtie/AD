@@ -2144,3 +2144,19 @@ www.redgifs.com##.SideBar-Item > div._adLiveButton_p1t77_1:upward(li)
 18comic.vip###ipcountry
 18comic.vip##.user-social.panel-default.panel
 
+! 2024年5月2日 https://nyahentai.re
+nyahentai.re##footer
+nyahentai.re##div[style="max-width: 1200px; width: 92%; height: 400px; margin: 0 auto 80px auto; background-color: #fff;"]
+nyahentai.re##div[style="max-width: 1000px; width: 92%; height: 400px; margin: 0 auto 80px auto; background-color: #fff;"]
+nyahentai.re##div[style="width: 300px; height: 250px; margin: 0 auto 40px auto;"]
+nyahentai.re##div[style="width: 300px; height: 250px; margin: -20px auto 30px auto;"]
+nyahentai.re##div[style="max-width: 480px; max-height: 500px; overflow: hidden; margin: 0 auto 30px auto; background-color: #fff;"]
+nyahentai.re##div[style="max-width: 1000px; width: 92%; height: 400px; margin: 0 auto 50px auto; background-color: #fff;"]
+#浮窗
+nyahentai.re##[href="https://nyahentai.re/contact/"]
+#导航
+nyahentai.re##[id*="active_overlay"]
+nyahentai.re###bcon
+nyahentai.re###is_w_area
+nyahentai.re###inview_style
+nyahentai.re###player-container
