@@ -1015,14 +1015,6 @@ oreno-erohon.com##.menu_list > ul > li:nth-of-type(5)
 oreno-erohon.com##.menu02 > li:nth-of-type(6)
 #RSS
 
-! 2023-09-14 https://nyahentai.re
-nyahentai.re##footer
-#页面尾部
-nyahentai.re##.asmr18
-#ASMR广告
-
-
-
 ! 2023-09-14 https://ahri8.top
 ahri8.top##.page-footer
 #页面尾部
