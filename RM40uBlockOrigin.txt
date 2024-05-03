@@ -869,41 +869,6 @@ twitter.com##.r-136ojw6.r-1loqt21.css-1dbjc4n
 #主页
 
 
-! 2023-09-13 https://www.douyin.com
-www.douyin.com##.aLqVEhhA.HQwsRJFy
-#logo
-www.douyin.com##._7gdyuNUv
-#下载
-www.douyin.com##.iqHX00br
-#我的
-www.douyin.com##.q1d3ggoo.NI592qaC
-#广告
-www.douyin.com##footer
-#页脚
-www.douyin.com##.jq65FbDp.X3ZcRwMR
-#业务合作
-www.douyin.com##div.qoKzjoSV.undefined.JtwPigHZ.fuy_wmct:nth-of-type(17)
-#时尚
-www.douyin.com##div.qoKzjoSV.undefined.JtwPigHZ.fuy_wmct:nth-of-type(16)
-#体育
-www.douyin.com##div.qoKzjoSV.undefined.JtwPigHZ.fuy_wmct:nth-of-type(15)
-#美食
-www.douyin.com##div.qoKzjoSV.undefined.JtwPigHZ.fuy_wmct:nth-of-type(12)
-#娱乐
-www.douyin.com##div.qoKzjoSV.undefined.JtwPigHZ.fuy_wmct:nth-of-type(11)
-#游戏
-www.douyin.com##div.qoKzjoSV.undefined.JtwPigHZ.fuy_wmct:nth-of-type(8)
-#放映厅
-live.douyin.com##.WcK6IrkT.N_HNXA04
-#直播侧边栏
-# live.douyin.com##.iqHX00br
-#我的
-live.douyin.com###component-sidebar
-www.douyin.com###douyin-sidebar
-#帮助
-live.douyin.com###component-header
-#导航
-
 ! 2023-09-13 https://www.bilibili.com
 *bilibili.com##.bili-footer
 #页尾
@@ -1102,8 +1067,6 @@ adaman-ero.com##.widget_custom_html.st-header-under-widgets.widget_text
 adaman-ero.com##.widget_custom_html.post-widgets-bottom.st-widgets-box.widget_text
 adaman-ero.com##.widget_st_custom_html_ad_widget.post-widgets-bottom.st-widgets-box.widget_text
 adaman-ero.com##.widget_st_custom_html_ad_widget.cat-widgets-top.st-widgets-box.widget_text
-
-
 #广告
 adaman-ero.com###execphp-9
 #空白行
@@ -1228,8 +1191,6 @@ m.yhdmz.org###www_tip_bak
 apkcombo.com##.apkcombo_desktop_728x90_top.apkcombo_mobile_300x250_top.mb-20.ad-pss-middle.ad-pss
 apkcombo.com##.apkcombo_desktop_728x90_middle.apkcombo_mobile_300x250_middle.mb-20.ad-pss-middle.ad-pss
 apkcombo.com##.apkcombo_desktop_300x250_right.apkcombo_mobile_300x250_bottom.ad-pss-bottom-right.ad-pss
-
-
 
 ! 2023-09-18 https://y.music.163.com
 y.music.163.com##.topfr
@@ -1639,18 +1600,10 @@ h2gcz1.ydwzsp.com##.pinglun
 
 ! 2024-01-28 https://fuliba2023.net
 fuliba2023.net##.orbui-post-footer
-www.douyin.com##.cdImlWbw
-
-! 2024-01-29 https://www.douyin.com
-www.douyin.com##.AdVRSdga
 
 ! 2024-01-29 https://www.mddmx.com
 www.mddmx.com##.am-pc-m
 www.mddmx.com##.tonzitxt
-
-! 2024-01-29 https://www.douyin.com
-www.douyin.com##.LSsAQAbh
-www.douyin.com##.tsIcSauY.seEhooOF
 
 ! 2024-01-30 https://wnacg.com
 wnacg.com##[href="https://wnbbs.top/"]
@@ -1664,7 +1617,6 @@ rouman5.com##.position-abolute
 
 ! 2024-01-30 https://members.luscious.net
 ||assets.luscious.net/special/robbie-transp.*$image
-
 
 ! 2024-01-30 https://www.porngo.com
 www.porngo.com##.underplayer_banner
