@@ -53,9 +53,6 @@ fuliba2023.net##div.widget_ui_textorbui.widget:nth-of-type(9)
 fuliba2023.net##div.widget_ui_textorbui.widget.widget-on-phone:nth-of-type(10)
 fuliba2023.net##.topbar
 
-
-
-
 ! 2022-01-01 https://iao.su   不死鸟
 iao.su##[src="https://i.niao.su/Yo9QSPA.jpg"]
 iao.su##[src="https://i.niao.su/Yo9QSPA.jpg"]
@@ -517,7 +514,6 @@ a227h.work##tr.f_one.tr3:nth-of-type(3)
 a227h.work##tr.f_one.tr3:nth-of-type(4)
 a227h.work##tr.f_one.tr3:nth-of-type(8)
 
-
 ! 2023-05-05 https://tieba.baidu.com
 tieba.baidu.com##.tb-forum-user__join-btn
 tieba.baidu.com##.more-btn-desc
@@ -550,9 +546,6 @@ www.xnxx.com##.link-instanted.gold-plate
 www.xnxx.com##.tab-buttons
 www.xnxx.com##.link-instanted.mobile-hide.btn.bookmark-link
 www.xnxx.com###results-free-or-premium
-
-
-
 
 ! 2023-07-26 https://avbebe.com
 avbebe.com##.footer-holder
@@ -667,8 +660,6 @@ spankbang.com##.right
 spankbang.com##.live_cam_header_2.hd
 spankbang.com##.ls > [href="#"]
 
-
-
 ! 2022-11-20 https://www.bellesa.co
 www.bellesa.co##.gEkoIF.BlastBar__Bar-sc-1qu85kw-0.Structure-sc-122ascm-0
 www.bellesa.co##.link-instanted.eZowPQ.DesktopMenu__Anchor-sc-jlo9dh-2
@@ -722,7 +713,18 @@ cn.pornhub.com##.link-instanted.js-menuAnalytics.leftItem.halfWidth.menuLink
 cn.pornhub.com##a.link-instanted.js-menuAnalytics.halfWidth.menuLink:nth-of-type(8)
 cn.pornhub.com##a.link-instanted.js-menuAnalytics.halfWidth.menuLink:nth-of-type(10)
 cn.pornhub.com##a.link-instanted.js-menuAnalytics.halfWidth.menuLink:nth-of-type(12)
-
+cn.pornhub.com###headerUserIcon
+cn.pornhub.com##a.js-menuAnalytics.leftItem.halfWidth.menuLink
+cn.pornhub.com##div.halfWidth.menuLink
+cn.pornhub.com##a.js-menuAnalytics.halfWidth.menuLink
+cn.pornhub.com##.active.sideHeader
+cn.pornhub.com###flagVideoBtn
+cn.pornhub.com###playlistModal
+cn.pornhub.com##.fanClubButtons.clearfix.categoryRow
+cn.pornhub.com##.commentLogMessage
+cn.pornhub.com###welcomeVideoMsg
+cn.pornhub.com##.clearfix.bottomNav
+cn.pornhub.com##.js-mainFooter
 
 ! 2023-08-20 https://www.xvideos.com
 www.xvideos.com###disclaimer_background
@@ -931,8 +933,6 @@ members.luscious.net##.o-link-no-decoration.o-btn-group
 #报告视频
 members.luscious.net##.o-clear.o-divider.o-divider--large
 members.luscious.net##.o-clear.o-divider.o-divider--large + div
-
-
 
 ! 2023-09-14 https://rouman5.com
 rouman5.com##.footer_root__6F7g2
@@ -1267,10 +1267,6 @@ www.youngpussypic.com##.pswp--animated-in.pswp--visible.pswp--svg.pswp--css_anim
 ! 2023-11-11 https://ahri8.top
 ahri8.top##.float-banner-footer
 
-
-! 2023-11-14 https://cn.pornhub.com
-cn.pornhub.com##.js-mainFooter
-
 ! 2023-11-19 https://zh.xhamster.com
 zh.xhamster.com##.container-4caaa
 
@@ -1411,10 +1407,6 @@ blog.csdn.net##.openApp
 ! 2024-01-12 http://www.cnu.cc
 www.cnu.cc##.download
 www.cnu.cc##.pageFooter
-
-! 2024-01-17 https://cn.pornhub.com
-cn.pornhub.com###welcomeVideoMsg
-cn.pornhub.com##.clearfix.bottomNav
 
 ! 2024-01-17 https://www.xvideos.com
 www.xvideos.com##.btn.live-cams
@@ -1628,13 +1620,6 @@ www.bellesa.co##.crpkjC.MediaQuery__Query-sc-dh9ch6-0
 www.bellesa.co##.clsZEL.Shell__Header-sc-13f0ghz-1
 www.bellesa.co##.jrDAJu.Shell__Header-sc-13f0ghz-1
 
-! 2024-01-31 https://cn.pornhub.com
-cn.pornhub.com##.active.sideHeader
-cn.pornhub.com###flagVideoBtn
-cn.pornhub.com###playlistModal
-cn.pornhub.com##.fanClubButtons.clearfix.categoryRow
-cn.pornhub.com##.commentLogMessage
-
 ! 2024-01-31 https://zh.xhamster.com
 zh.xhamster.com##.container-a3a95
 zh.xhamster.com##.yld-pcpremium-n-overlay
@@ -1680,12 +1665,6 @@ xnxx.nutaku.net##.active.js-sidebar-item.flx-column-j-c.sidebar-icons-item
 xnxx.nutaku.net##div.js-sidebar-item.flx-column-j-c.sidebar-icons-item:nth-of-type(7)
 xnxx.nutaku.net##.js-gold-sidebar.flx-column-j-c.sidebar-icons-item
 xnxx.nutaku.net##div.js-sidebar-item.flx-column-j-c.sidebar-icons-item:nth-of-type(3)
-
-! 2024-02-04 https://cn.pornhub.com
-cn.pornhub.com###headerUserIcon
-cn.pornhub.com##a.js-menuAnalytics.leftItem.halfWidth.menuLink
-cn.pornhub.com##div.halfWidth.menuLink
-cn.pornhub.com##a.js-menuAnalytics.halfWidth.menuLink
 
 ! 2024-02-07 https://www.cool18.com
 www.cool18.com##.show_content > center
@@ -2112,3 +2091,15 @@ nyahentai.re###bcon
 nyahentai.re###is_w_area
 nyahentai.re###inview_style
 nyahentai.re###player-container
+
+! 2024年5月3日 https://www.douyin.com
+www.douyin.com,live.douyin.com##.e5v3_cjW
+www.douyin.com,live.douyin.com##.iqAeEhI1
+#下载
+www.douyin.com,live.douyin.com##footer
+www.douyin.com,live.douyin.com##div.rsgoNBIr.n0rJzjLU:nth-of-type(2) 
+#业务合作
+www.douyin.com,live.douyin.com##.bhNMSJTw
+#问题反馈浮窗
+www.douyin.com,live.douyin.com##.KhphjUgd.anFLc8TW
+
