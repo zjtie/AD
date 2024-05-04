@@ -1836,16 +1836,6 @@ ohentai.org##footer
 ohentai.org##a[title="menutab_ad"]
 #游戏
 
-
-
-! 2024-04-14 https://hentaigasm.com
-||a.magsrv.com/ad-provider.js
-hentaigasm.com##.rich-content.entry-content > p
-hentaigasm.com##div[style*="width: 300px; height: 250px;"] 
-hentaigasm.com##div[style*="width: 300px; height: 100px;"]
-hentaigasm.com##.center-align
-hentaigasm.com##.btn-pink.likes-page-link.btn
-
 ! 2024-04-14 https://studiofow.com
 studiofow.com##.whb-visible-lg.whb-col-center.whb-column
 studiofow.com##.whb-hidden-lg.whb-mobile-center.whb-column
