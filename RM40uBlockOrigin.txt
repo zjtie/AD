@@ -2093,3 +2093,11 @@ www.douyin.com,live.douyin.com##.bhNMSJTw
 #问题反馈浮窗
 www.douyin.com,live.douyin.com##.KhphjUgd.anFLc8TW
 
+hentaigasm.com##.adv
+hentaigasm.com##footer
+hentaigasm.com###respond
+#回复
+hentaigasm.com###comments
+#其他评论
+hentaigasm.com##.widget_text.widget.widget_custom_html
+#广告
