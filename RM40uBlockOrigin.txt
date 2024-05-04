@@ -2119,3 +2119,16 @@ hanime.tv##.htvnad,.htvnad1,
 ! 2024年5月4日 https://hanime.tv
 hanime.tv##.full-page-height.page.general
 #关闭广告
+
+xanimu.com###pcppopp,#mobppopp,noscript,#adsbanner,#adsgoogle,#playlist-container,#report_post-js-extra,#exoscript,#related-boxes-footer-ver2
+xanimu.com###wrapper-footer,.hero
+xanimu.com###comment_link
+#评论
+xanimu.com###before-list-boxes-mobile-singl_tblt,#inside-video-boxes-mobile2_tblt
+xanimu.com###before-list-boxes-mobile-singl,#inside-video-boxes-mobile2,#before-list-boxes-mobile-singl_2,#inside-video-boxes-mobile2_2
+xanimu.com##.mobile-pad-head
+xanimu.com###page > div:nth-of-type(3)
+#AD
+xanimu.com###menu-main-menu > li:last-of-type,#menu-main-menu > li:nth-last-of-type(2),#menu-main-menu > li:nth-last-of-type(3)
+xanimu.com##.mobile-menu-all > ul:nth-of-type(2),.mobile-menu-all > ul:nth-of-type(3),.mobile-menu-all > ul:nth-of-type(4)
+#侧边栏
