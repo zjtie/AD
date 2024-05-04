@@ -1368,7 +1368,11 @@ rule34video.com##.panel_header > .theporndude.button_fav
 rule34video.com##.footer
 rule34video.com##.mobile-box.box
 rule34video.com##.thumb.spot-thumb
-
+rule34video.com##.popup popup_access
+rule34video.com##.footer_holder
+rule34video.com##.serach-info-autocomplete
+rule34video.com##.btn-favourites.tab
+#报告
 
 
 ! 2023-12-19 https://i.jandan.net
@@ -1733,13 +1737,12 @@ porn3dx.com##.p-4.gap-4.items-center.flex-col.flex
 porn3dx.com##div.\32 xl2\:p-8.dark\:bg-gray-800.rounded-lg.bg-gray-200.text-white.p-4:nth-of-type(3)
 porn3dx.com##.dark\:bg-primary-900.bg-primary-50.rounded-lg.p-4
 
-
 ! 2024-04-02 https://hentaix.io
 hentaix.io##.mh-copyright-wrap
 hentaix.io##.mh-footer
 hentaix.io##[href="https://theporndude.com"]
 hentaix.io##.clearfix.mh-custom-header
-
+hentaix.io###asp_hidden_data
 
 ! 2024-04-02 https://slushe.com
 slushe.com##.comments
@@ -1822,8 +1825,8 @@ h-ciyuan.com##.gridview-header-inside-container
 
 ! 2024-04-14 https://ohentai.org
 ohentai.org##[href^="https://candy.ai"]
-ohentai.org##footer
 ohentai.org##[href="https://discord.gg/UD3fFTj"]
+ohentai.org##footer
 ohentai.org##div.sidecontainertitle:nth-of-type(1)
 #加入discord
 ohentai.org##.sidebaradlinkcontainer
@@ -1835,6 +1838,8 @@ ohentai.org##.detaildiscussionpanel
 ohentai.org##footer
 ohentai.org##a[title="menutab_ad"]
 #游戏
+ohentai.org###theAd_slider_gxOAm5ceiC
+
 
 ! 2024-04-14 https://studiofow.com
 studiofow.com##.whb-visible-lg.whb-col-center.whb-column
