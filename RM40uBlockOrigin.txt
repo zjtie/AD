@@ -2090,3 +2090,17 @@ cn.pornhub.com##footer
 #页尾
 cn.pornhub.com##.adContainer,.ad-tabSplit,#adSpot,.topAdContainter
 #广告
+
+! 2024年5月5日 https://spankbang.com
+spankbang.com###body-html > div:first-of-type,#age_check
+#已年满 18 岁吗？
+spankbang.com##.clear-fix,.ft-grad,#shorts-frame,.grid_container
+#不知道什么东西
+spankbang.com##.ft-grad,.ls,.fl,.embed,.right,.top-wrapper,.ads_placement,.s-ad,footer,[href="/tv/"]
+#页尾部按钮 #优惠 #举报 #嵌入这个视频 #侧边栏 #摄像头+优惠 #广告 #广告 #页尾 #TV
+spankbang.com##.live_cam_header_2,.main_content_container.space-y.mt-1
+#live
+spankbang.com###comment_box_anchor,.tab_comments.main_content_container
+#评论
+spankbang.com##.main_content_title > h2:last-of-type,.info > h2,.mt-1.space-y.main_content_container.tab_comments
+#经过验证的创作者 
