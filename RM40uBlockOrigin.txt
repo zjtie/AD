@@ -2090,3 +2090,19 @@ xanimu.com###page > div:nth-of-type(3)
 xanimu.com###menu-main-menu > li:last-of-type,#menu-main-menu > li:nth-last-of-type(2),#menu-main-menu > li:nth-last-of-type(3)
 xanimu.com##.mobile-menu-all > ul:nth-of-type(2),.mobile-menu-all > ul:nth-of-type(3),.mobile-menu-all > ul:nth-of-type(4)
 #侧边栏
+
+! 2024年5月5日 https://cn.pornhub.com
+cn.pornhub.com##.footerContentWrapper,.networkBarWrapper,.uploadBtnContent,.uploadBtnContentSpicevids,.menuLinkDiv,.halfWidth,.likedVideos,.tab-menu-wrapper-row,.userActions,.suggestBtn
+#页尾，页头，上传,会员资格,无关模块,喜欢,添加至，举报,订阅,添加标签
+cn.pornhub.com###countryRedirectMessage,#welcome,#js-abContainterMain,#svgHeaderElements,#menuItem4,#communitySubmenu,#under-player-comments,.cmtPlaylist,#bottomNav 
+#语言显示，禁用Adblock,实时摄像头 ,所有评论,所有评论,实时摄像头
+cn.pornhub.com###headerContainer > div:last-child,#flagVideoBtn,#playlistModal,#tooltip,#headerUserIcon,#comments
+#登入 #手机添加至 #手机举报 #添加至片单 #手机登入 #手机评论
+cn.pornhub.com###mgp_skin_desktop,#infoModal,#signinModal,#mgp_skin_mobile,#backgroundLayer,#jsMobileMenuBackground,#svgTranslationElements
+#未显示,不知道怎么东西
+cn.pornhub.com##.mostPopularComment,.fanClubButtons,.responseWrapper,.profile-sidebar,.userButtons,.logoWrapper,.bottomNav.clearfix
+#手机评论 #手机订阅 #感谢您的建议 #举报用户 #添加好友订阅 #logo #实时摄像头
+cn.pornhub.com##footer
+#页尾
+cn.pornhub.com##.adContainer,.ad-tabSplit,#adSpot,.topAdContainter
+#广告
