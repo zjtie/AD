@@ -684,48 +684,6 @@ www.bellesa.co##.hnVsTj.Structure-sc-122ascm-0
 www.bellesa.co##.iaWvoj.fGdPrk.Notifications__Wrapper-sc-vhnnyu-3.Structure-sc-122ascm-0
 www.bellesa.co##.fQBTqH.Structure-sc-122ascm-0
 
-! 2023-08-20 https://cn.pornhub.com
-cn.pornhub.com###cookieBanner
-cn.pornhub.com###js-abContainterMain
-#禁用 Adblock
-cn.pornhub.com###countryRedirectMessage
-#语言
-cn.pornhub.com###welcome
-cn.pornhub.com##.networkBarWrapper
-#顶部导航
-cn.pornhub.com##.logoWrapper
-#logo
-cn.pornhub.com###topRightProfileMenu
-#登入
-cn.pornhub.com###headerMenuContainer
-#导航
-cn.pornhub.com##.footerContentWrapper
-#页脚
-cn.pornhub.com##.videoViewPage
-#评论
-cn.pornhub.com##.tab-menu-wrapper-table
-#分享
-cn.pornhub.com##.communityNavigation.subMenuTriggerwithLink.menuLink
-#社区
-cn.pornhub.com##.link-instanted.removeAdLink.customUpgradeBtn.menuLink
-#SPICEVIDS 的完全访问权限
-cn.pornhub.com##.link-instanted.js-menuAnalytics.leftItem.halfWidth.menuLink
-cn.pornhub.com##a.link-instanted.js-menuAnalytics.halfWidth.menuLink:nth-of-type(8)
-cn.pornhub.com##a.link-instanted.js-menuAnalytics.halfWidth.menuLink:nth-of-type(10)
-cn.pornhub.com##a.link-instanted.js-menuAnalytics.halfWidth.menuLink:nth-of-type(12)
-cn.pornhub.com###headerUserIcon
-cn.pornhub.com##a.js-menuAnalytics.leftItem.halfWidth.menuLink
-cn.pornhub.com##div.halfWidth.menuLink
-cn.pornhub.com##a.js-menuAnalytics.halfWidth.menuLink
-cn.pornhub.com##.active.sideHeader
-cn.pornhub.com###flagVideoBtn
-cn.pornhub.com###playlistModal
-cn.pornhub.com##.fanClubButtons.clearfix.categoryRow
-cn.pornhub.com##.commentLogMessage
-cn.pornhub.com###welcomeVideoMsg
-cn.pornhub.com##.clearfix.bottomNav
-cn.pornhub.com##.js-mainFooter
-
 ! 2023-08-20 https://www.xvideos.com
 www.xvideos.com###disclaimer_background
 #警告
