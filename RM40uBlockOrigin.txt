@@ -645,57 +645,13 @@ zh.seexh6.com##.yld-pdsp-a.yld-pdsp-b
 zh.xhamstreet.com##.cookies-modal__wrapper
 
 ! 2023-08-20 https://www.xvideos.com
-www.xvideos.com###disclaimer_background
-#警告
-www.xvideos.com###cookies-use-alert
-#cookies
-www.xvideos.com###footer
-#footer
-www.xvideos.com###v-actions > .tabs
-#下载评论
-www.xvideos.com###v-actions-overflow-menu
-#下载按钮
-www.xvideos.com##.link-instanted.head__menu-line__main-menu__lvl1
-#导航
-www.xvideos.com###tabComments_bottom_page
-#评论
-www.xvideos.com##.mobile-portrait-show
-#移动端导航
-www.xvideos.com##.chat-hidden
-#聊天框
-
-! 2023-08-20 https://zh.xhamster.com
-zh.xhamster.com##.xh-footer
-zh.xhamster.com##.footer-wrapper
-#footer
-zh.xhamster.com##.desktop-38c41.pinned-38c41
-zh.xhamster.com##.pinned-38c41
-#加入
-zh.xhamster.com##.livesex
-zh.xhamster.com##.displayed-nav-item.live-nav.nav-item.xh-dropdown
-#live
-zh.xhamster.com##li.displayed-nav-item.nav-item:nth-of-type(10)
-#约会
-zh.xhamster.com##.delay.popup.xh-dropdown.upload-section-menu.upload-nav
-#上传
-zh.xhamster.com##.controls > .report-control
-zh.xhamster.com##.report-control.video-actions__control
-#举报
-zh.xhamster.com##.about-control.xh-button
-#关于
-zh.xhamster.com##.share-control.gray.xh-button
-#分享
-zh.xhamster.com###commentToggle
-zh.xhamster.com##.main-wrap > .width-wrap
-zh.xhamster.com##.video-page__layout-comments.comments-section
-#评论
-zh.xhamster.com##aside:nth-of-type(2)
-zh.xhamster.com##.no-ts-initiailize.yld-pd--bottom.yld-pd
-zh.xhamster.com##.no-ts-initiailize.yld-pd--top.yld-pd
-zh.xhamster.com##.big-thumb-block
-zh.xhamster.com##.no-ts-initiailize.yld-pd--middle.yld-pd
-zh.xhamster.com##.yld-pd--bottom.yld-pd
-#空白页
+! 2024年5月6日 https://www.xvideos.com
+www.xvideos.com###disclaimer_background,#cookies-use-alert,#footer,#v-actions-overflow-menu,#tabComments_bottom_page,.mobile-portrait-show,.chat-hidden
+#警告 #cookies #footer #下载按钮 #评论 #移动端导航 #聊天框
+www.xvideos.com##.ad-profiles,.live-cams,.nutaku-games,.red-ticket,[href="https://www.xdating.com/"],.premium-results-line
+#广告 #直播 #游戏 #会员视频 #约会 #会员视频
+www.xvideos.com###v-actions > .tabs,.link-instanted.head__menu-line__main-menu__lvl1
+#下载评论 #导航
 
 ! 2023-08-20 https://www.eporner.com
 www.eporner.com###cookies
@@ -1185,12 +1141,6 @@ www.youngpussypic.com##.pswp--animated-in.pswp--visible.pswp--svg.pswp--css_anim
 ! 2023-11-11 https://ahri8.top
 ahri8.top##.float-banner-footer
 
-! 2023-11-19 https://zh.xhamster.com
-zh.xhamster.com##.container-4caaa
-
-! 2023-11-20 https://zh.xhamster.com
-zh.xhamster.com##.main-wrap > aside
-
 ! 2023-11-22 https://orgasmsoundlibrary.com
 orgasmsoundlibrary.com###general_footer
 orgasmsoundlibrary.com##.viewer_item_footer
@@ -1542,12 +1492,6 @@ www.bellesa.co##.crpkjC.MediaQuery__Query-sc-dh9ch6-0
 www.bellesa.co##.clsZEL.Shell__Header-sc-13f0ghz-1
 www.bellesa.co##.jrDAJu.Shell__Header-sc-13f0ghz-1
 
-! 2024-01-31 https://zh.xhamster.com
-zh.xhamster.com##.container-a3a95
-zh.xhamster.com##.yld-pcpremium-n-overlay
-zh.xhamster.com##.buttons-aef6f
-zh.xhamster.com##.scrollable > li:nth-of-type(2)
-zh.xhamster.com##.scrollable > li:nth-of-type(3)
 
 ! 2024-01-31 https://www.xnxx.com
 www.xnxx.com###cookies-use-alert
@@ -2085,6 +2029,18 @@ spankbang.com##.main_content_title > h2:last-of-type,.info > h2,.mt-1.space-y.ma
 #作为快乐的主体，而不是征服的对象
 #性应该是有趣的、充满力量的
 ! 2024年5月6日 https://www.bellesa.co
+www.bellesa.co###app > div:first-of-type
+#不知道什么东西
+www.bellesa.co###app > div > header
+www.bellesa.co###app div div.MediaQuery__Query-sc-dh9ch6-0
+#页头
+www.bellesa.co##.bLcZOX,.ifKlPG,.loGkAL,.lgHkqs,footer,.bgKbBU,.fKApKc
+#评论 #更多Bellesa #升级 #页头 #页尾 #页尾 #页尾
+
+! 2022-11-20 https://www.bellesa.co
+! 2024年5月6日 https://www.bellesa.co
+#作为快乐的主体，而不是征服的对象
+#性应该是有趣的、充满力量的
 www.bellesa.co###app > div:first-of-type
 #不知道什么东西
 www.bellesa.co###app > div > header
