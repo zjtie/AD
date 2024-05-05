@@ -654,31 +654,10 @@ www.xvideos.com###v-actions > .tabs,.link-instanted.head__menu-line__main-menu__
 #下载评论 #导航
 
 ! 2023-08-20 https://www.eporner.com
-www.eporner.com###cookies
-www.eporner.com##footer
-www.eporner.com###headholder > .link-instanted
+www.eporner.com###cookies,footer,#commentdiv,#uploadslide,#adinhead,.uvmspn1,.uvmspn4,.uvmspn6,.uvmspn7,.video-description,.vjs-docker,.infopopanim
+#评论 #上传 #直播 #评论，分享，保存，报告，下载 #视频描述 #分享 #建议
+www.eporner.com###headholder > .link-instanted,#video-info-tags .vit-suggester,.footer-text,#mainBlogPosts,div.toptopbel2:nth-of-type(9)
 #直播
-www.eporner.com###video-info-tags .vit-suggester
-www.eporner.com##.infopopanim
-#建议
-www.eporner.com##.vjs-docker
-#分享
-www.eporner.com##.video-description
-#视频描述
-www.eporner.com##.uvmspn1
-www.eporner.com##.uvmspn4
-www.eporner.com##.uvmspn6
-www.eporner.com##.uvmspn7
-#评论，分享，保存，报告，下载
-www.eporner.com###commentdiv
-#评论
-www.eporner.com###uploadslide
-#上传
-www.eporner.com###adinhead
-#直播
-www.eporner.com##.footer-text
-www.eporner.com###mainBlogPosts
-www.eporner.com##div.toptopbel2:nth-of-type(9)
 
 ! 2023-08-20 https://hqporner.com
 hqporner.com##.footer-bg
@@ -2048,3 +2027,12 @@ www.bellesa.co###app div div.MediaQuery__Query-sc-dh9ch6-0
 #页头
 www.bellesa.co##.bLcZOX,.ifKlPG,.loGkAL,.lgHkqs,footer,.bgKbBU,.fKApKc
 #评论 #更多Bellesa #升级 #页头 #页尾 #页尾 #页尾
+
+! 2024年5月6日 https://zh.xhamster.com
+zh.xhamster.com##.tooltip,.f16c0316,.RS-nJmdbpremium-n-overlay,.top-menu__side-group > li:nth-of-type(3) ,.top-menu__side-group > li:nth-of-type(11) 
+#不知道 #会员 #直播 #直播
+zh.xhamster.com##.RS-nJmdb.RS-nJmdbbottom-widget-section,.width-wrap.RS-nJmdbclipstore-bottom,.root-7ae27,.RS-nJmdbno-ts-init
+zh.xhamster.com##.thumb-list-mobile-item--widget.thumb-list-mobile-item--full-width.thumb-list-mobile-item
+#直播
+zh.xhamster.com##.RS-nJmdbno-ts-init.RS-nJmdb--top.RS-nJmdb,div.block-0d76d:nth-of-type(3)
+
