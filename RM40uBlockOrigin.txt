@@ -644,22 +644,6 @@ zh.seexh6.com##.yld-pdsp-a.yld-pdsp-b
 ! 2023-08-18 https://zh.xhamstreet.com
 zh.xhamstreet.com##.cookies-modal__wrapper
 
-spankbang.com##.ls > .link-instanted
-spankbang.com##footer
-spankbang.com##.embed
-spankbang.com##.f > .link-instanted
-spankbang.com##li:nth-of-type(7) > .link-instanted
-spankbang.com###comment_box_anchor
-spankbang.com##.tab_comments
-spankbang.com##.us > span:nth-of-type(2)
-spankbang.com##.fl
-spankbang.com##.dl
-spankbang.com##[href="/tv/"]
-spankbang.com##a.ft:nth-of-type(3)
-spankbang.com##.right
-spankbang.com##.live_cam_header_2.hd
-spankbang.com##.ls > [href="#"]
-
 ! 2022-11-20 https://www.bellesa.co
 www.bellesa.co##.gEkoIF.BlastBar__Bar-sc-1qu85kw-0.Structure-sc-122ascm-0
 www.bellesa.co##.link-instanted.eZowPQ.DesktopMenu__Anchor-sc-jlo9dh-2
