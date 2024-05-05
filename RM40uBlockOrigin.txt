@@ -644,30 +644,6 @@ zh.seexh6.com##.yld-pdsp-a.yld-pdsp-b
 ! 2023-08-18 https://zh.xhamstreet.com
 zh.xhamstreet.com##.cookies-modal__wrapper
 
-! 2022-11-20 https://www.bellesa.co
-www.bellesa.co##.gEkoIF.BlastBar__Bar-sc-1qu85kw-0.Structure-sc-122ascm-0
-www.bellesa.co##.link-instanted.eZowPQ.DesktopMenu__Anchor-sc-jlo9dh-2
-www.bellesa.co##.dvdkEm.Structure-sc-122ascm-0
-www.bellesa.co##.doFwmB.Structure-sc-122ascm-0
-www.bellesa.co##a.eZowPQ.DesktopMenu__Anchor-sc-jlo9dh-2:nth-of-type(6)
-www.bellesa.co##.emGYRq.MediaQuery__Query-sc-dh9ch6-0
-www.bellesa.co##.gdnaWk.Structure-sc-122ascm-0
-www.bellesa.co##.beEPvJ.Structure-sc-122ascm-0
-www.bellesa.co##a.eZowPQ.DesktopMenu__Anchor-sc-jlo9dh-2:nth-of-type(5)
-www.bellesa.co##.lsjZm.Structure-sc-122ascm-0
-www.bellesa.co##.ihswwd.Structure-sc-122ascm-0 > .kttcuV.Structure-sc-122ascm-0
-www.bellesa.co##a.eZowPQ.DesktopMenu__Anchor-sc-jlo9dh-2:nth-of-type(7)
-www.bellesa.co##.hPLTzv.MediaQuery__Query-sc-dh9ch6-0 > .boafzU.Display__RatioOuter-sc-1inv20h-0
-www.bellesa.co##.gIyXbo.dCPLzQ.Header__Wrapper-sc-tv72wn-2.Structure-sc-122ascm-0 > .crpkjC.MediaQuery__Query-sc-dh9ch6-0
-www.bellesa.co##.gdPcoV.hWqptM.MobileMenu__Wrapper-sc-451946-2.Structure-sc-122ascm-0 > .link-instanted.kSluJP.MobileMenu__Anchor-sc-451946-0
-www.bellesa.co##a.link-instanted.kSluJP.MobileMenu__Anchor-sc-451946-0:nth-of-type(3)
-www.bellesa.co##.jBAIeC.Shell__Footer-sc-13f0ghz-3
-www.bellesa.co##.hEjOEb.Structure-sc-122ascm-0
-www.bellesa.co##.feuTYo.Structure-sc-122ascm-0 > .dWewhh.Structure-sc-122ascm-0
-www.bellesa.co##.hnVsTj.Structure-sc-122ascm-0
-www.bellesa.co##.iaWvoj.fGdPrk.Notifications__Wrapper-sc-vhnnyu-3.Structure-sc-122ascm-0
-www.bellesa.co##.fQBTqH.Structure-sc-122ascm-0
-
 ! 2023-08-20 https://www.xvideos.com
 www.xvideos.com###disclaimer_background
 #警告
