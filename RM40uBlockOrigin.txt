@@ -709,12 +709,6 @@ twitter.com##.r-136ojw6.r-1loqt21.css-1dbjc4n
 *bilibili.com##li.right-entry-item:nth-of-type(6)
 #创作中心
 
-! 2023-09-13 https://www.t66y.com
-www.t66y.com###header
-#头部
-www.t66y.com###cate_thread
-#公告
-
 ! 2023-09-13 https://www.v2ex.com
 www.v2ex.com###Bottom
 #页尾
