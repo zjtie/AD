@@ -660,23 +660,8 @@ www.eporner.com###headholder > .link-instanted,#video-info-tags .vit-suggester,.
 #直播
 
 ! 2023-08-20 https://hqporner.com
-hqporner.com##.footer-bg
-hqporner.com##.big_header
-m.hqporner.com##.footerWrapper
-#搜索
-hqporner.com##.page-content.box > header
-m.hqporner.com##.title.main-h1
-m.hqporner.com##.homePageWrapper.pageWrapper > div > span
-#文本
-m.hqporner.com##span.altPlayerButton:nth-of-type(1)
-hqporner.com##.link-instanted.hide_ad_marker.button
-hqporner.com##li:nth-of-type(5)
-m.hqporner.com##.color5
-#直播
-m.hqporner.com##.color2
-#加入
-m.hqporner.com##.color8
-
+hqporner.com##.footer-bg,.big_header,.page-content.box > header,li:nth-of-type(5),.link-instanted.hide_ad_marker.button
+m.hqporner.com##.footerWrapper,.color5,.color2,.color8,.title.main-h1,.homePageWrapper.pageWrapper > div > span,span.altPlayerButton:nth-of-type(1)
 
 ! 2023-02-13 https://eromanga-kai.com
 eromanga-kai.com##.header-container
