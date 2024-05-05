@@ -2080,3 +2080,15 @@ spankbang.com###comment_box_anchor,.tab_comments.main_content_container
 #评论
 spankbang.com##.main_content_title > h2:last-of-type,.info > h2,.mt-1.space-y.main_content_container.tab_comments
 #经过验证的创作者 
+
+! 2022-11-20 https://www.bellesa.co
+#作为快乐的主体，而不是征服的对象
+#性应该是有趣的、充满力量的
+! 2024年5月6日 https://www.bellesa.co
+www.bellesa.co###app > div:first-of-type
+#不知道什么东西
+www.bellesa.co###app > div > header
+www.bellesa.co###app div div.MediaQuery__Query-sc-dh9ch6-0
+#页头
+www.bellesa.co##.bLcZOX,.ifKlPG,.loGkAL,.lgHkqs,footer,.bgKbBU,.fKApKc
+#评论 #更多Bellesa #升级 #页头 #页尾 #页尾 #页尾
