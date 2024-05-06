@@ -1,6 +1,10 @@
 ! Title: RM40 uBlock Android
 ! Homepage: https://github.com/zjtie/AD
 
+
+!社交平台
+www.zhihu.com##footer
+
 ! 2023-06-06 https://shimo.im
 shimo.im##.bOwZFV.Container-sc-2dZnaL
 
