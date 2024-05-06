@@ -1,4 +1,4 @@
-! Title:RM40uBlockOriginAndroid
+! Title: RM40uBlockOriginAndroid
 
 ! 2023-06-06 https://shimo.im
 shimo.im##.bOwZFV.Container-sc-2dZnaL
