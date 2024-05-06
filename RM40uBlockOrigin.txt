@@ -1678,14 +1678,6 @@ www.xvideos.com##.ad-profiles,.live-cams,.nutaku-games,.red-ticket,[href="https:
 www.xvideos.com###v-actions > .tabs,.link-instanted.head__menu-line__main-menu__lvl1,.remove-ads,.btn.live-cams
 #下载评论 #导航
 
-! 2024年5月6日 https://zh.xhamster.com
-zh.xhamster.com##.tooltip,.f16c0316,.RS-nJmdbpremium-n-overlay,.top-menu__side-group > li:nth-of-type(3) ,.top-menu__side-group > li:nth-of-type(11) 
-#不知道 #会员 #直播 #直播
-zh.xhamster.com##.RS-nJmdb.RS-nJmdbbottom-widget-section,.width-wrap.RS-nJmdbclipstore-bottom,.root-7ae27,.RS-nJmdbno-ts-init
-zh.xhamster.com##.thumb-list-mobile-item--widget.thumb-list-mobile-item--full-width.thumb-list-mobile-item
-#直播
-zh.xhamster.com##.RS-nJmdbno-ts-init.RS-nJmdb--top.RS-nJmdb,div.block-0d76d:nth-of-type(3)
-
 ! 2023-08-20 https://hqporner.com
 hqporner.com##.footer-bg,.big_header,.page-content.box > header,li:nth-of-type(5),.link-instanted.hide_ad_marker.button
 m.hqporner.com##.footerWrapper,.color5,.color2,.color8,.title.main-h1,.homePageWrapper.pageWrapper > div > span,span.altPlayerButton:nth-of-type(1)
@@ -1738,6 +1730,13 @@ ogfap.com##a.icon-button.promo-button:nth-of-type(1)
 ogfap.com##a.icon-button.promo-button:nth-of-type(2)
 ogfap.com##.navigation
 ogfap.com##.ad-iframe-wide.ad-iframe
+
+! 2024-05-06 https://zh.xhamster.com
+zh.xhamster.com##.footer-wrapper,.main-wrap > .width-wrap,.main-wrap > div:nth-of-type(2),.top-menu__side-group > li:nth-of-type(10),.report-control,[data-role="video-share-button"]
+#footer #评论 #终极会员50%优惠🎉 #付费视频 #报告 #视频分享
+zh.xhamster.com##.bvNVl-luEpremium-n-overlay,[data-role="bvNVl-luEtop"],.layoutPage aside:nth-of-type(2),[data-role="layout-bottom"] > div:first-of-type
+#live
+
 #======Video===========================================================================
 #======Video===========================================================================
 
