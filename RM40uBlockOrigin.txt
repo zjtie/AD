@@ -412,24 +412,7 @@ tieba.baidu.com##.more-image-desc
 tieba.baidu.com##.comment-box
 
 ! 2023-02-13 https://www.xnxx.com
-www.xnxx.com###footer
-www.xnxx.com##.ntvEf5E1895BAE3F3db8ee4A03dD5A882dC
-www.xnxx.com###mobile-menu .gold-plate
-www.xnxx.com##li:nth-of-type(11) > [href="https://games-auth.xnxx.com"]
-www.xnxx.com##[href="https://forum.xnxx.com"]
-www.xnxx.com##.live-cams
-www.xnxx.com##[href="https://multi.xnxx.com"]
-www.xnxx.com###language-and-version .init-ok.mc-update-infos
-www.xnxx.com##.slogan
-www.xnxx.com###video-ad
-www.xnxx.com###x-home-messages
-www.xnxx.com###content-ad-top-zone-contener
-www.xnxx.com###header-mobile-app-dl
-www.xnxx.com###header-mobile-live-cam
-www.xnxx.com##.link-instanted.gold-plate
-www.xnxx.com##.tab-buttons
-www.xnxx.com##.link-instanted.mobile-hide.btn.bookmark-link
-www.xnxx.com###results-free-or-premium
+
 
 ! 2023-07-26 https://avbebe.com
 avbebe.com##.footer-holder
@@ -748,7 +731,6 @@ hentai-witch.com##.comment-area
 hentai-witch.com###pager-post-navi
 #上一篇/下一篇
 
-! 2023-09-14 https://adaman-ero.com
 
 
 ! 2023-09-15 https://kimootoko.net
@@ -1774,3 +1756,10 @@ erovoice-ch.com##footer,#header,#topContent,.sideContent,.addWrap,#commentArea,#
 ! 2024-04-14 https://999hentai.net
 999hentai.net##.share-wraper.mt,.score-container,.sidebar-bottom.nav-links,.site-bottom-wrapper,.btli,.info-panel.py-5.footer,.mt-3.site-bottom-wrapper.info-panel,.disqus-comments.loading-wrapper
 999hentai.net##script[data-cfasync="false"].async:contains(adsbyjuicy)，.w-100.align-items-center.flex-column.d-flex.ads-wraper,[href="/about"],div.py-2:nth-of-type(5),.comments-box
+
+! 2023-09-14 https://adaman-ero.com
+! 2024-05-06 https://adaman-ero.com
+adaman-ero.com###header-full,footer,.widget_custom_html,#comments,.p-navi,#st-footer-under-widgets-box-wrap,.st-sns-top,.st-sns-singular
+#header #footer  #跳转至页面文章 #评论 #翻页 #share #share
+adaman-ero.com##.banner,#footer-ad-box,#st_custom_html_ad_widget-25,#st_custom_html_ad_widget-9,#st_custom_html_ad_widget-23,.arpw-random-post,#scrollad
+#ad 
