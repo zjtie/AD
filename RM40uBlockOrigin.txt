@@ -278,8 +278,7 @@ www.porngo.com##.spot_link.nav-menu__link
 www.porngo.com##.header__box_actions.header__box > .nav-menu > li.nav-menu__item:nth-of-type(6)
 
 
-! 2023-05-05 https://javday.tv
-javday.tv###footer,.header-container
+
 
 ! 2023-05-05 https://mgav1.cc
 mgav1.cc###footer
@@ -419,9 +418,6 @@ avbebe.com###menu-item-152006 > [href^="https://accounts.binance.com/zh-TC/regis
 avbebe.com###menu-item-105716 > .link-instanted
 avbebe.com###menu-item-109248 > .link-instanted
 
-! 2023-07-26 https://pigav.com
-pigav.com##.has-sep.main-sidebar.col-4,.is-open.detect-modal.ts-modal,.s-dark.footer-bold.cols-gap-lg.main-footer
-pigav.com###menu-item-286659 > .link-instanted,#menu-item-298936 > .link-instanted
 
 ! 2023-07-26 https://wuso.me
 wuso.me##.nex_footer
@@ -444,8 +440,7 @@ dbro.news##.s-dark.footer-classic.cols-gap-lg.main-footer
 dbro.news##.post-share-bot
 dbro.news##.show-lg.a-wrap-bg.a-wrap-6.a-wrap-base.a-wrap
 
-! 2023-05-05 https://madou.club
-madou.club##.clearfix.article-actions,.footer
+
 
 ! 2023-05-05 https://www.hentaiasmr.moe
 www.hentaiasmr.moe##center
@@ -1212,9 +1207,6 @@ eromanga-kong.com###yarpp
 ! 2024-01-28 https://wnacg.com
 wnacg.com##[href="https://wnacg01.org/"]
 
-! 2024-01-28 https://www.eporner.com
-www.eporner.com###pbwuvp
-www.eporner.com###admobilefoot
 
 ! 2024-01-28 https://h2gcz1.ydwzsp.com
 h2gcz1.ydwzsp.com##.pinglun
@@ -1267,9 +1259,6 @@ www.asmr.one##.q-btn--dense.q-btn--wrap.q-hoverable.q-focusable.q-btn--actionabl
 ! 2024-02-01 https://www.yuque.com
 www.yuque.com###footer
 
-! 2024-02-02 https://beeg.com
-beeg.com##.sidebar__content-secondary
-
 ! 2024-02-02 https://www.4khd.com
 www.4khd.com##.heateor_sss_sharing_ul
 
@@ -1297,9 +1286,6 @@ www.wsgmzt.com###divpsgx
 www.wsgmzt.com###xtjpp
 www.wsgmzt.com###pic
 www.wsgmzt.com###fwqtz
-
-! 2024-03-27 https://shayuapi.com
-shayuapi.com##table,.footer,.header.width1200,.mac_comment
 
 ! 2024-03-30 https://jablehk.com
 jablehk.com##.sqs-announcement-bar-dropzone
@@ -1504,24 +1490,6 @@ www.landiannews.com##footer
 www.landiannews.com##.color-border.module-bg.top-bar
 www.landiannews.com##.comments
 
-! 2024年4月24日 https://xxxtik.com
-xxxtik.com##.ng-star-inserted.ad-modal
-xxxtik.com##.ng-star-inserted.new-version
-xxxtik.com##a.bar-link:nth-of-type(5)
-xxxtik.com##a.bar-link:nth-of-type(4)
-xxxtik.com##a.bar-link:nth-of-type(3)
-xxxtik.com##app-popup
-xxxtik.com##a.icon-button.promo-button:nth-of-type(3)
-xxxtik.com##a.icon-button.promo-button:nth-of-type(4)
-xxxtik.com##.upload-button
-
-! 2024年4月24日 https://ogfap.com
-ogfap.com##.svelte-18jied9.modal
-ogfap.com##a.icon-button.promo-button:nth-of-type(1)
-ogfap.com##a.icon-button.promo-button:nth-of-type(2)
-ogfap.com##.navigation
-ogfap.com##.ad-iframe-wide.ad-iframe
-
 ! 2024年4月24日 https://www.4khd.com
 www.4khd.com##footer.wp-block-template-part
 www.4khd.com##.centbtd
@@ -1670,6 +1638,7 @@ www.xnxx.com###header-mobile-live-cam,.premium-results-line,.tab-buttons,[href="
 beeg.com##.bi.b-icon.bi-camera-video
 beeg.com##.XContentViewer__details__owner-footer
 beeg.com##.GreyFox--right.GreyFox
+beeg.com##.sidebar__content-secondary
 
 ! 2024年5月5日 https://cn.pornhub.com
 cn.pornhub.com##.footerContentWrapper,.networkBarWrapper,.uploadBtnContent,.uploadBtnContentSpicevids,.menuLinkDiv,.halfWidth,.likedVideos,.tab-menu-wrapper-row,.userActions,.suggestBtn
@@ -1726,6 +1695,8 @@ www.eporner.com###cookies,footer,#commentdiv,#uploadslide,#adinhead,.uvmspn1,.uv
 #评论 #上传 #直播 #评论，分享，保存，报告，下载 #视频描述 #分享 #建议
 www.eporner.com###headholder > .link-instanted,#video-info-tags .vit-suggester,.footer-text,#mainBlogPosts,div.toptopbel2:nth-of-type(9)
 #直播
+www.eporner.com###pbwuvp
+www.eporner.com###admobilefoot
 
 ! 2023-02-13 https://xxxshake.com
 xxxshake.com##.footer,.text,.headZ.headA,.headZ.headB,.fluid-custom-buttons,.headZ.headD,.block-comments
@@ -1733,6 +1704,40 @@ xxxshake.com##[href="https://live.xxxshake.com/"],.tabs-menu > ul,.flexible-cont
 
 ! 2024年5月6日 https://www.sex.com
 www.sex.com##.bg-footer,.sticky a:nth-last-of-type(1),.sticky a:nth-last-of-type(2),.pt-1.gap-y-4.flex-col.flex > a.cursor-pointer
+
+! 2023-05-05 https://madou.club
+madou.club##.clearfix.article-actions,.footer
+
+
+! 2023-07-26 https://pigav.com
+pigav.com##.has-sep.main-sidebar.col-4,.is-open.detect-modal.ts-modal,.s-dark.footer-bold.cols-gap-lg.main-footer
+pigav.com###menu-item-286659 > .link-instanted,#menu-item-298936 > .link-instanted
+
+! 2023-05-05 https://javday.tv
+javday.tv###footer,.header-container
+
+
+! 2024-03-27 https://shayuapi.com
+shayuapi.com##table,.footer,.header.width1200,.mac_comment
+
+
+! 2024年4月24日 https://xxxtik.com
+xxxtik.com##.ng-star-inserted.ad-modal
+xxxtik.com##.ng-star-inserted.new-version
+xxxtik.com##a.bar-link:nth-of-type(5)
+xxxtik.com##a.bar-link:nth-of-type(4)
+xxxtik.com##a.bar-link:nth-of-type(3)
+xxxtik.com##app-popup
+xxxtik.com##a.icon-button.promo-button:nth-of-type(3)
+xxxtik.com##a.icon-button.promo-button:nth-of-type(4)
+xxxtik.com##.upload-button
+
+! 2024年4月24日 https://ogfap.com
+ogfap.com##.svelte-18jied9.modal
+ogfap.com##a.icon-button.promo-button:nth-of-type(1)
+ogfap.com##a.icon-button.promo-button:nth-of-type(2)
+ogfap.com##.navigation
+ogfap.com##.ad-iframe-wide.ad-iframe
 #======Video===========================================================================
 #======Video===========================================================================
 
