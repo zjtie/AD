@@ -94,19 +94,6 @@ www.jianguoyun.com##.active.bar-item
 ! 2022-11-23 https://www.jjpicss.com
 www.jjpicss.com##.swiper-container-horizontal.skiptranslate.swiper-container
 
-! 2022-11-24 https://www.girlonthenet.com
-www.girlonthenet.com##.audio-hub-bottom-of-page.widget-area
-www.girlonthenet.com##.patreon-login-links
-www.girlonthenet.com##.audio-hub-header > p:nth-of-type(3)
-www.girlonthenet.com##.audio-hub-header > p:nth-of-type(1)
-www.girlonthenet.com##.audio-hub-header > h1 > font
-www.girlonthenet.com##p:nth-of-type(2) > font
-www.girlonthenet.com###branding
-www.girlonthenet.com##[href="https://www.girlonthenet.com/sex-toys/"]
-www.girlonthenet.com##[href="https://www.girlonthenet.com/advertising/"]
-www.girlonthenet.com##.menu-item-78.menu-item-object-custom.menu-item-type-custom.menu-item
-www.girlonthenet.com##[href="https://www.girlonthenet.com/books/"]
-
 ! 2022-11-26 https://www.coolapk.com
 www.coolapk.com##.download-group
 www.coolapk.com##.main
@@ -117,25 +104,6 @@ taskerm.com##.aside-content
 ! 2022-11-30 https://b-gift.biligame.com
 b-gift.biligame.com##[href="//b-gift.biligame.com/"]
 
-! 2022-11-21 https://www.artstation.com
-www.artstation.com##.home-subscriptions
-www.artstation.com##.mobile-apps
-www.artstation.com##.chrome-store
-www.artstation.com##.newslttr
-www.artstation.com##.text-center.f-links
-www.artstation.com##div.product-variant-component:nth-of-type(1) > .productPage-group
-www.artstation.com##div.product-variant-component:nth-of-type(2) > .productPage-group
-www.artstation.com##div.product-variant-component:nth-of-type(3) > .productPage-group
-www.artstation.com##.product-variants-component
-www.artstation.com##.product-actions
-www.artstation.com##.mb10.panel-default.panel
-www.artstation.com##.ng-star-inserted > .ng-tns-c1-0
-www.artstation.com##.ng-star-inserted.d-sm-block.d-none
-www.artstation.com##li.bs-d-sm-flex.bs-d-none.main-menu-bar-item:nth-of-type(5) > .menu-item-icon.main-menu-bar-link
-www.artstation.com##.ng-star-inserted.sorting-trending.size-default.ng-tns-c16-3.marketplace-products-line > .ng-tns-c16-3
-www.artstation.com##.js-currency-dropdown.bs-d-sm-flex.bs-d-none.dropdown.main-menu-bar-item > .dropdown-toggle.menu-item-icon.main-menu-bar-link
-www.artstation.com##.ng-star-inserted.sorting-trending.size-default.ng-tns-c16-3.marketplace-products-line
-www.artstation.com##.link-instanted.js-track-event.menu-item-icon.main-menu-bar-link
 
 ! 2022-11-30 https://bbs.tianya.cn
 bbs.tianya.cn###barcode_float > [href="http://www.tianya.cn/mobile/"]
