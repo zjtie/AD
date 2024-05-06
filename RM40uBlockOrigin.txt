@@ -411,8 +411,6 @@ tieba.baidu.com##.gray-background.feed-warp
 tieba.baidu.com##.more-image-desc
 tieba.baidu.com##.comment-box
 
-! 2023-02-13 https://www.xnxx.com
-
 
 ! 2023-07-26 https://avbebe.com
 avbebe.com##.footer-holder
@@ -1051,9 +1049,6 @@ www.cnu.cc##.pageFooter
 ! 2024-01-17 https://www.xvideos.com
 www.xvideos.com##.btn.live-cams
 
-! 2024-01-17 https://www.xnxx.com
-www.xnxx.com##.gold-plate
-
 ! 2024-01-20 https://h2gcz1.ydwzsp.com
 h2gcz1.ydwzsp.com##.bg
 h2gcz1.ydwzsp.com##.bottom-load
@@ -1261,11 +1256,6 @@ www.bellesa.co##.clsZEL.Shell__Header-sc-13f0ghz-1
 www.bellesa.co##.jrDAJu.Shell__Header-sc-13f0ghz-1
 
 
-! 2024-01-31 https://www.xnxx.com
-www.xnxx.com###cookies-use-alert
-www.xnxx.com##.video-ad-support-mobile.video-ad.thumb-block
-www.xnxx.com##[href="https://www.xdating.com/"]
-
 ! 2024-01-31 https://dbro.news
 dbro.news##.comments
 dbro.news##.author-box
@@ -1292,13 +1282,6 @@ beeg.com##.sidebar__content-secondary
 ! 2024-02-02 https://www.4khd.com
 www.4khd.com##.heateor_sss_sharing_ul
 
-! 2024-02-02 https://xnxx.nutaku.net
-xnxx.nutaku.net##.display-down.flx-a-c.js-android-store-notification.cnt-android-store-notification
-xnxx.nutaku.net##footer
-xnxx.nutaku.net##.active.js-sidebar-item.flx-column-j-c.sidebar-icons-item
-xnxx.nutaku.net##div.js-sidebar-item.flx-column-j-c.sidebar-icons-item:nth-of-type(7)
-xnxx.nutaku.net##.js-gold-sidebar.flx-column-j-c.sidebar-icons-item
-xnxx.nutaku.net##div.js-sidebar-item.flx-column-j-c.sidebar-icons-item:nth-of-type(3)
 
 ! 2024-02-07 https://www.cool18.com
 www.cool18.com##.show_content > center
@@ -1763,3 +1746,14 @@ adaman-ero.com###header-full,footer,.widget_custom_html,#comments,.p-navi,#st-fo
 #header #footer  #跳转至页面文章 #评论 #翻页 #share #share
 adaman-ero.com##.banner,#footer-ad-box,#st_custom_html_ad_widget-25,#st_custom_html_ad_widget-9,#st_custom_html_ad_widget-23,.arpw-random-post,#scrollad
 #ad 
+
+
+! 2024-01-17 https://www.xnxx.com
+! 2024-02-02 https://xnxx.nutaku.net
+! 2023-02-13 https://www.xnxx.com
+! 2024-05-06 https://www.xnxx.com
+www.xnxx.com###footer,.logo-xnxx,.slogan,.live-cams,.nutaku-games,#mobile-menu > ul > li:nth-of-type(7),#mobile-menu > ul > li:nth-of-type(8),.report-search
+#footer #logo #logo #live #game #故事 #论坛 #举报 
+www.xnxx.com###header-mobile-live-cam,.premium-results-line,.tab-buttons,[href="https://forum.xnxx.com"]
+#live #会员 #下载举报
+
