@@ -2,8 +2,18 @@
 ! Homepage: https://github.com/zjtie/AD
 
 
-!社交平台
+!社交平台===========================================================================
 www.zhihu.com##footer
+
+! 2024年5月3日 https://www.douyin.com
+www.douyin.com,live.douyin.com##.e5v3_cjW,.KhphjUgd.anFLc8TW
+www.douyin.com,live.douyin.com##.iqAeEhI1,footer,.bhNMSJTw,div.rsgoNBIr.n0rJzjLU:nth-of-type(2) 
+#下载 #footer #问题反馈浮窗 #业务合作
+
+! 2023-02-11 https://www.douban.com 豆瓣
+www.douban.com##.top-nav-doubanapp
+www.douban.com###footer
+!社交平台===========================================================================
 
 ! 2023-06-06 https://shimo.im
 shimo.im##.bOwZFV.Container-sc-2dZnaL
@@ -160,19 +170,14 @@ app.raindrop.io##.upgrade-R9fx
 up.woozooo.com##.if_top
 up.woozooo.com###f_right
 
-! 2023-02-11 https://www.douban.com 豆瓣
-www.douban.com##.top-nav-doubanapp
-www.douban.com###footer
+
 
 ! 2023-02-11 https://smailpro.com
 smailpro.com##.max-w-screen-lg.mx-auto.container.border-gray-50.border-t.p-2
 smailpro.com##.grecaptcha-badge
 smailpro.com###app > div
 
-! 2023-02-13 https://beeg.com
-beeg.com##.bi.b-icon.bi-camera-video
-beeg.com##.XContentViewer__details__owner-footer
-beeg.com##.GreyFox--right.GreyFox
+
 
 
 
@@ -271,9 +276,6 @@ www.porngo.com##.report-btn
 www.porngo.com##.spot_link.nav-menu__link
 www.porngo.com##.header__box_actions.header__box > .nav-menu > li.nav-menu__item:nth-of-type(6)
 
-! 2023-02-13 https://xxxshake.com
-xxxshake.com##.footer,.text,.headZ.headA,.headZ.headB,.fluid-custom-buttons,.headZ.headD,.block-comments
-xxxshake.com##[href="https://live.xxxshake.com/"],.tabs-menu > ul,.flexible-container.content > .box
 
 ! 2023-05-05 https://javday.tv
 javday.tv###footer,.header-container
@@ -884,8 +886,7 @@ www.cool18.com##table:nth-of-type(2) > tbody
 m.1688.com##.failModal
 m.1688.com##.bottomOpen-wrap
 
-! 2023-10-11 https://www.xvideos.com
-www.xvideos.com##.remove-ads
+
 
 ! 2023-10-18 http://www.nicotv.org
 www.nicotv.org##.ff-ads.text-center
@@ -1039,8 +1040,7 @@ blog.csdn.net##.openApp
 www.cnu.cc##.download
 www.cnu.cc##.pageFooter
 
-! 2024-01-17 https://www.xvideos.com
-www.xvideos.com##.btn.live-cams
+
 
 ! 2024-01-20 https://h2gcz1.ydwzsp.com
 h2gcz1.ydwzsp.com##.bg
@@ -1243,10 +1243,7 @@ www.porngo.com##.underplayer_banner
 www.porngo.com##.spot_footer
 www.porngo.com##.spot_title.video-side__adv_title
 
-! 2024-01-31 https://www.bellesa.co
-www.bellesa.co##.crpkjC.MediaQuery__Query-sc-dh9ch6-0
-www.bellesa.co##.clsZEL.Shell__Header-sc-13f0ghz-1
-www.bellesa.co##.jrDAJu.Shell__Header-sc-13f0ghz-1
+
 
 
 ! 2024-01-31 https://dbro.news
@@ -1613,12 +1610,6 @@ nyahentai.re##div[style="max-width: 1000px; width: 92%; height: 400px; margin: 0
 #浮窗
 
 
-! 2024年5月3日 https://www.douyin.com
-www.douyin.com,live.douyin.com##.e5v3_cjW,.KhphjUgd.anFLc8TW
-www.douyin.com,live.douyin.com##.iqAeEhI1,footer,.bhNMSJTw,div.rsgoNBIr.n0rJzjLU:nth-of-type(2) 
-#下载 #footer #问题反馈浮窗 #业务合作
-
-
 hentaigasm.com###respond,#comments,#footer,.adv,.widget_text.widget.widget_custom_html
 #回复 #其他评论 #footer #广告
 
@@ -1639,53 +1630,6 @@ xanimu.com##.mobile-menu-all > ul:nth-of-type(2),.mobile-menu-all > ul:nth-of-ty
 #侧边栏
 
 
-! 2024年5月5日 https://cn.pornhub.com
-cn.pornhub.com##.footerContentWrapper,.networkBarWrapper,.uploadBtnContent,.uploadBtnContentSpicevids,.menuLinkDiv,.halfWidth,.likedVideos,.tab-menu-wrapper-row,.userActions,.suggestBtn
-#页尾，页头，上传,会员资格,无关模块,喜欢,添加至，举报,订阅,添加标签
-cn.pornhub.com###countryRedirectMessage,#welcome,#js-abContainterMain,#svgHeaderElements,#menuItem4,#communitySubmenu,#under-player-comments,.cmtPlaylist,#bottomNav 
-#语言显示，禁用Adblock,实时摄像头 ,所有评论,所有评论,实时摄像头
-cn.pornhub.com###headerContainer > div:last-child,#flagVideoBtn,#playlistModal,#tooltip,#headerUserIcon,#comments
-#登入 #手机添加至 #手机举报 #添加至片单 #手机登入 #手机评论
-cn.pornhub.com###mgp_skin_desktop,#infoModal,#signinModal,#mgp_skin_mobile,#backgroundLayer,#jsMobileMenuBackground,#svgTranslationElements
-#未显示,不知道怎么东西
-cn.pornhub.com##.mostPopularComment,.fanClubButtons,.responseWrapper,.profile-sidebar,.userButtons,.logoWrapper,.bottomNav.clearfix
-#手机评论 #手机订阅 #感谢您的建议 #举报用户 #添加好友订阅 #logo #实时摄像头
-cn.pornhub.com##footer,.adContainer,.ad-tabSplit,#adSpot,.topAdContainter
-#页尾 #广告
-
-
-! 2024年5月5日 https://spankbang.com
-spankbang.com###body-html > div:first-of-type,#age_check,#comment_box_anchor,.tab_comments.main_content_container
-#已年满 18 岁吗？ #已年满 18 岁吗？ #评论 #评论
-spankbang.com##.clear-fix,.ft-grad,#shorts-frame,.grid_container,.live_cam_header_2,.main_content_container.space-y.mt-1
-#unknow #unknow #unknow #unknow #live #live
-spankbang.com##.ft-grad,.ls,.fl,.embed,.right,.top-wrapper,.ads_placement,.s-ad,footer,[href="/tv/"]
-#页尾部按钮 #优惠 #举报 #嵌入这个视频 #侧边栏 #摄像头+优惠 #广告 #广告 #页尾 #TV
-spankbang.com##.main_content_title > h2:last-of-type,.info > h2,.mt-1.space-y.main_content_container.tab_comments
-#经过验证的创作者 
-
-
-! 2022-11-20 https://www.bellesa.co
-#作为快乐的主体，而不是征服的对象
-#性应该是有趣的、充满力量的
-! 2024年5月6日 https://www.bellesa.co
-www.bellesa.co###app > div > header,#app div div.MediaQuery__Query-sc-dh9ch6-0
-#页头
-www.bellesa.co##.bLcZOX,.ifKlPG,.loGkAL,.lgHkqs,footer,.bgKbBU,.fKApKc,#app > div:first-of-type
-#评论 #更多Bellesa #升级 #页头 #页尾 #页尾 #页尾 #unknow
-
-
-! 2024年5月6日 https://zh.xhamster.com
-zh.xhamster.com##.tooltip,.f16c0316,.RS-nJmdbpremium-n-overlay,.top-menu__side-group > li:nth-of-type(3) ,.top-menu__side-group > li:nth-of-type(11) 
-#不知道 #会员 #直播 #直播
-zh.xhamster.com##.RS-nJmdb.RS-nJmdbbottom-widget-section,.width-wrap.RS-nJmdbclipstore-bottom,.root-7ae27,.RS-nJmdbno-ts-init
-zh.xhamster.com##.thumb-list-mobile-item--widget.thumb-list-mobile-item--full-width.thumb-list-mobile-item
-#直播
-zh.xhamster.com##.RS-nJmdbno-ts-init.RS-nJmdb--top.RS-nJmdb,div.block-0d76d:nth-of-type(3)
-
-
-! 2024年5月6日 https://www.sex.com
-www.sex.com##.bg-footer,.sticky a:nth-last-of-type(1),.sticky a:nth-last-of-type(2),.pt-1.gap-y-4.flex-col.flex > a.cursor-pointer
 
 
 ! 2024年5月6日 https://www.t66y.com
@@ -1694,29 +1638,6 @@ www.t66y.com###main .t.t2:nth-of-type(n+4)
 #所有的class="t t2"的div元素 从第4个开始
 www.t66y.com###ajaxtable > tbody:first-of-type > tr.tr3,#cate_thread
 #公告
-
-
-
-! 2023-08-20 https://www.xvideos.com
-! 2024年5月6日 https://www.xvideos.com
-www.xvideos.com###disclaimer_background,#cookies-use-alert,#footer,#v-actions-overflow-menu,#tabComments_bottom_page,.mobile-portrait-show,.chat-hidden
-#警告 #cookies #footer #下载按钮 #评论 #移动端导航 #聊天框
-www.xvideos.com##.ad-profiles,.live-cams,.nutaku-games,.red-ticket,[href="https://www.xdating.com/"],.premium-results-line
-#广告 #直播 #游戏 #会员视频 #约会 #会员视频
-www.xvideos.com###v-actions > .tabs,.link-instanted.head__menu-line__main-menu__lvl1
-#下载评论 #导航
-
-
-! 2023-08-20 https://www.eporner.com
-www.eporner.com###cookies,footer,#commentdiv,#uploadslide,#adinhead,.uvmspn1,.uvmspn4,.uvmspn6,.uvmspn7,.video-description,.vjs-docker,.infopopanim
-#评论 #上传 #直播 #评论，分享，保存，报告，下载 #视频描述 #分享 #建议
-www.eporner.com###headholder > .link-instanted,#video-info-tags .vit-suggester,.footer-text,#mainBlogPosts,div.toptopbel2:nth-of-type(9)
-#直播
-
-
-! 2023-08-20 https://hqporner.com
-hqporner.com##.footer-bg,.big_header,.page-content.box > header,li:nth-of-type(5),.link-instanted.hide_ad_marker.button
-m.hqporner.com##.footerWrapper,.color5,.color2,.color8,.title.main-h1,.homePageWrapper.pageWrapper > div > span,span.altPlayerButton:nth-of-type(1)
 
 
 ! 2024-05-06 https://erovoice-ch.com
@@ -1736,12 +1657,81 @@ adaman-ero.com##.banner,#footer-ad-box,#st_custom_html_ad_widget-25,#st_custom_h
 #ad 
 
 
-! 2024-01-17 https://www.xnxx.com
-! 2024-02-02 https://xnxx.nutaku.net
+! =========Adu Vieod==================================================================
+! =========Adu Vieod==================================================================
 ! 2023-02-13 https://www.xnxx.com
-! 2024-05-06 https://www.xnxx.com
 www.xnxx.com###footer,.logo-xnxx,.slogan,.live-cams,.nutaku-games,#mobile-menu > ul > li:nth-of-type(7),#mobile-menu > ul > li:nth-of-type(8),.report-search
 #footer #logo #logo #live #game #故事 #论坛 #举报 
 www.xnxx.com###header-mobile-live-cam,.premium-results-line,.tab-buttons,[href="https://forum.xnxx.com"]
 #live #会员 #下载举报
+
+! 2023-02-13 https://beeg.com
+beeg.com##.bi.b-icon.bi-camera-video
+beeg.com##.XContentViewer__details__owner-footer
+beeg.com##.GreyFox--right.GreyFox
+
+! 2024年5月5日 https://cn.pornhub.com
+cn.pornhub.com##.footerContentWrapper,.networkBarWrapper,.uploadBtnContent,.uploadBtnContentSpicevids,.menuLinkDiv,.halfWidth,.likedVideos,.tab-menu-wrapper-row,.userActions,.suggestBtn
+#页尾，页头，上传,会员资格,无关模块,喜欢,添加至，举报,订阅,添加标签
+cn.pornhub.com###countryRedirectMessage,#welcome,#js-abContainterMain,#svgHeaderElements,#menuItem4,#communitySubmenu,#under-player-comments,.cmtPlaylist,#bottomNav 
+#语言显示，禁用Adblock,实时摄像头 ,所有评论,所有评论,实时摄像头
+cn.pornhub.com###headerContainer > div:last-child,#flagVideoBtn,#playlistModal,#tooltip,#headerUserIcon,#comments
+#登入 #手机添加至 #手机举报 #添加至片单 #手机登入 #手机评论
+cn.pornhub.com###mgp_skin_desktop,#infoModal,#signinModal,#mgp_skin_mobile,#backgroundLayer,#jsMobileMenuBackground,#svgTranslationElements
+#未显示,不知道怎么东西
+cn.pornhub.com##.mostPopularComment,.fanClubButtons,.responseWrapper,.profile-sidebar,.userButtons,.logoWrapper,.bottomNav.clearfix
+#手机评论 #手机订阅 #感谢您的建议 #举报用户 #添加好友订阅 #logo #实时摄像头
+cn.pornhub.com##footer,.adContainer,.ad-tabSplit,#adSpot,.topAdContainter
+#页尾 #广告
+
+! 2024年5月5日 https://spankbang.com
+spankbang.com###body-html > div:first-of-type,#age_check,#comment_box_anchor,.tab_comments.main_content_container
+#已年满 18 岁吗？ #已年满 18 岁吗？ #评论 #评论
+spankbang.com##.clear-fix,.ft-grad,#shorts-frame,.grid_container,.live_cam_header_2,.main_content_container.space-y.mt-1
+#unknow #unknow #unknow #unknow #live #live
+spankbang.com##.ft-grad,.ls,.fl,.embed,.right,.top-wrapper,.ads_placement,.s-ad,footer,[href="/tv/"]
+#页尾部按钮 #优惠 #举报 #嵌入这个视频 #侧边栏 #摄像头+优惠 #广告 #广告 #页尾 #TV
+spankbang.com##.main_content_title > h2:last-of-type,.info > h2,.mt-1.space-y.main_content_container.tab_comments
+#经过验证的创作者 
+
+! 2022-11-20 https://www.bellesa.co
+#作为快乐的主体，而不是征服的对象 #性应该是有趣的、充满力量的
+www.bellesa.co###app > div > header,#app div div.MediaQuery__Query-sc-dh9ch6-0,.crpkjC.MediaQuery__Query-sc-dh9ch6-0,.clsZEL.Shell__Header-sc-13f0ghz-1,.jrDAJu.Shell__Header-sc-13f0ghz-1
+www.bellesa.co##.bLcZOX,.ifKlPG,.loGkAL,.lgHkqs,footer,.bgKbBU,.fKApKc,#app > div:first-of-type
+#评论 #更多Bellesa #升级 #页头 #页尾 #页尾 #页尾 #unknow
+
+! 2023-08-20 https://www.xvideos.com
+www.xvideos.com###disclaimer_background,#cookies-use-alert,#footer,#v-actions-overflow-menu,#tabComments_bottom_page,.mobile-portrait-show,.chat-hidden
+#警告 #cookies #footer #下载按钮 #评论 #移动端导航 #聊天框
+www.xvideos.com##.ad-profiles,.live-cams,.nutaku-games,.red-ticket,[href="https://www.xdating.com/"],.premium-results-line
+#广告 #直播 #游戏 #会员视频 #约会 #会员视频
+www.xvideos.com###v-actions > .tabs,.link-instanted.head__menu-line__main-menu__lvl1,.remove-ads,.btn.live-cams
+#下载评论 #导航
+
+! 2024年5月6日 https://zh.xhamster.com
+zh.xhamster.com##.tooltip,.f16c0316,.RS-nJmdbpremium-n-overlay,.top-menu__side-group > li:nth-of-type(3) ,.top-menu__side-group > li:nth-of-type(11) 
+#不知道 #会员 #直播 #直播
+zh.xhamster.com##.RS-nJmdb.RS-nJmdbbottom-widget-section,.width-wrap.RS-nJmdbclipstore-bottom,.root-7ae27,.RS-nJmdbno-ts-init
+zh.xhamster.com##.thumb-list-mobile-item--widget.thumb-list-mobile-item--full-width.thumb-list-mobile-item
+#直播
+zh.xhamster.com##.RS-nJmdbno-ts-init.RS-nJmdb--top.RS-nJmdb,div.block-0d76d:nth-of-type(3)
+
+! 2023-08-20 https://hqporner.com
+hqporner.com##.footer-bg,.big_header,.page-content.box > header,li:nth-of-type(5),.link-instanted.hide_ad_marker.button
+m.hqporner.com##.footerWrapper,.color5,.color2,.color8,.title.main-h1,.homePageWrapper.pageWrapper > div > span,span.altPlayerButton:nth-of-type(1)
+
+! 2023-08-20 https://www.eporner.com
+www.eporner.com###cookies,footer,#commentdiv,#uploadslide,#adinhead,.uvmspn1,.uvmspn4,.uvmspn6,.uvmspn7,.video-description,.vjs-docker,.infopopanim
+#评论 #上传 #直播 #评论，分享，保存，报告，下载 #视频描述 #分享 #建议
+www.eporner.com###headholder > .link-instanted,#video-info-tags .vit-suggester,.footer-text,#mainBlogPosts,div.toptopbel2:nth-of-type(9)
+#直播
+
+! 2023-02-13 https://xxxshake.com
+xxxshake.com##.footer,.text,.headZ.headA,.headZ.headB,.fluid-custom-buttons,.headZ.headD,.block-comments
+xxxshake.com##[href="https://live.xxxshake.com/"],.tabs-menu > ul,.flexible-container.content > .box
+
+! 2024年5月6日 https://www.sex.com
+www.sex.com##.bg-footer,.sticky a:nth-last-of-type(1),.sticky a:nth-last-of-type(2),.pt-1.gap-y-4.flex-col.flex > a.cursor-pointer
+! =========Adu Vieod==================================================================
+! =========Adu Vieod==================================================================
 
