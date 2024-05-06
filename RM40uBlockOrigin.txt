@@ -210,32 +210,13 @@ beeg.com##.bi.b-icon.bi-camera-video
 beeg.com##.XContentViewer__details__owner-footer
 beeg.com##.GreyFox--right.GreyFox
 
-! 2023-02-13 https://erovoice-ch.com
-erovoice-ch.com##footer
-erovoice-ch.com###headerLine
-erovoice-ch.com###navWrap
-erovoice-ch.com###topContent > .cf.clear
-erovoice-ch.com###commentArea > article
-erovoice-ch.com###custom_html-2
-erovoice-ch.com##[href^="http://twitter.com/share"]
-erovoice-ch.com##.voiceAdd
-erovoice-ch.com###text-2
-erovoice-ch.com###custom_html-10
-erovoice-ch.com##li.w100.pvBox.cf.over200:nth-of-type(1)
-erovoice-ch.com##.custom-html-widget.textwidget > .cf > li.w100.pvBox.cf.over200:nth-of-type(5)
-erovoice-ch.com###postPagers
-erovoice-ch.com##.cf.rectADD
-erovoice-ch.com##div.addWrap.mb10
-erovoice-ch.com###header
-erovoice-ch.com###nav_menu-3
-erovoice-ch.com###nav_menu-4
+
 
 ! 2023-02-13 https://www.watchanime.video
 www.watchanime.video##.site-footer
 www.watchanime.video###page > .tags
 www.watchanime.video##.friends
 www.watchanime.video##.title
-
 
 
 ! 2023-02-13 https://www.tsumino.com
