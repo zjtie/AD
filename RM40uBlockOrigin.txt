@@ -1969,3 +1969,5 @@ www.sex.com##.bg-footer,.sticky a:nth-last-of-type(1),.sticky a:nth-last-of-type
 www.t66y.com###footer,form,.t_like,#header,
 www.t66y.com###main .t.t2:nth-of-type(n+4)
 #所有的class="t t2"的div元素 从第4个开始
+www.t66y.com###ajaxtable > tbody:first-of-type > tr.tr3,#cate_thread
+#公告
