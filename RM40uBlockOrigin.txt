@@ -122,15 +122,6 @@ www.manhuadb.com##.mb-2.justify-content-between.d-flex
 www.manhuadb.com##div.p-3.bg-white.comic-toc-section > .m-0.row
 www.manhuadb.com##div.ml-md-3.mt-3.default-wrapper:nth-of-type(2)
 
-! 2022-12-09 https://www.zhihu.com 知乎
-www.zhihu.com##.Footer
-www.zhihu.com##.GlobalSideBar-copyrightItem.GlobalSideBar-navItem > .link-instanted.Button--plain.GlobalSideBar-navLink.Button
-www.zhihu.com##.GlobalSideBar-help-centerItem.GlobalSideBar-navItem
-www.zhihu.com##.GlobalSideBar-serviceItem.GlobalSideBar-navItem > .link-instanted.Button--plain.GlobalSideBar-navLink.Button
-www.zhihu.com##.GlobalSideBar-couponItem.GlobalSideBar-navItem > .link-instanted.Button--plain.GlobalSideBar-navLink.Button
-www.zhihu.com##.GlobalSideBar-balanceItem.GlobalSideBar-navItem > .link-instanted.Button--plain.GlobalSideBar-navLink.Button
-www.zhihu.com##.GlobalSideBar-inviteItem.GlobalSideBar-navItem > .link-instanted.Button--plain.GlobalSideBar-navLink.Button
-www.zhihu.com##.css-9cqq7d
 
 ! 2022-12-12 https://web.vip.miui.com
 web.vip.miui.com##.DownCard_downloadCard__1sLVU
@@ -495,8 +486,6 @@ apkcombo.com##a.link-instanted.navbar-item:nth-of-type(1)
 ! 2023-07-27 https://www.yuque.com
 www.yuque.com##.copyright
 
-! 2023-08-18 https://www.zhihu.com
-www.zhihu.com##.css-1vacn7q
 
 ! 2023-08-18 https://zh.seexh6.com
 zh.seexh6.com##.yld-pdsp-a.yld-pdsp-b
@@ -1547,11 +1536,6 @@ hentai-witch.com##.ad-wrap
 ! 2024年4月24日 https://nijisenmon.work
 nijisenmon.work###st-headwide
 nijisenmon.work##div.st-infeed-adunit
-
-
-! 2024年4月24日 https://www.zhihu.com
-www.zhihu.com##.OpenInAppButton
-www.zhihu.com##.css-rg1dmv
 
 ! 2024年4月25日 https://eatasmr.com
 eatasmr.com##footer
