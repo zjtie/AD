@@ -1867,25 +1867,15 @@ hentaigasm.com###comments
 hentaigasm.com##.widget_text.widget.widget_custom_html
 #广告
 
-hanime.tv##footer
-hanime.tv##.site-description
-hanime.tv##.parallax-content
-#footer
-hanime.tv##.user-options
-#登入
-hanime.tv##.nav-drawer-list > div:last-of-type
+hanime.tv##footer,#.user_comments,#.user-options,#.full-page-height.page.general,#span.tooltip--top.tooltip:nth-of-type(5)
+#页尾 #评论 #登入 #关闭广告 #报告
+hanime.tv##.site-description,#.parallax-content,#.htvnad,.htvnad1,#.nav-drawer-list > div:last-of-type
 hanime.tv##.simplebar-content > div:nth-of-type(3) ,.simplebar-content > div:nth-of-type(4) ,.simplebar-content > div:nth-of-type(5) 
 #侧边栏
-hanime.tv##.user_comments
-#评论
-hanime.tv##span.tooltip--top.tooltip:nth-of-type(5)
-#报告
-hanime.tv##.htvnad,.htvnad1,
-# hanime.tv##.htvad
-#a.adtng.com
-! 2024年5月4日 https://hanime.tv
-hanime.tv##.full-page-height.page.general
-#关闭广告
+
+
+
+
 
 xanimu.com###pcppopp,#mobppopp,noscript,#adsbanner,#adsgoogle,#playlist-container,#report_post-js-extra,#exoscript,#related-boxes-footer-ver2
 xanimu.com###wrapper-footer,.hero
