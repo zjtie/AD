@@ -1964,3 +1964,8 @@ zh.xhamster.com##.RS-nJmdbno-ts-init.RS-nJmdb--top.RS-nJmdb,div.block-0d76d:nth-
 
 ! 2024年5月6日 https://www.sex.com
 www.sex.com##.bg-footer,.sticky a:nth-last-of-type(1),.sticky a:nth-last-of-type(2),.pt-1.gap-y-4.flex-col.flex > a.cursor-pointer
+
+! 2024年5月6日 https://www.t66y.com
+www.t66y.com###footer,form,.t_like,#header,
+www.t66y.com###main .t.t2:nth-of-type(n+4)
+#所有的class="t t2"的div元素 从第4个开始
