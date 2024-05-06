@@ -1,4 +1,4 @@
-! Title: RM40uBlockOriginAndroid
+! Title: RM40 uBlock Android
 ! Homepage: https://github.com/zjtie/AD
 
 ! 2023-06-06 https://shimo.im
