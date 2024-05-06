@@ -1609,6 +1609,17 @@ adaman-ero.com###header-full,footer,.widget_custom_html,#comments,.p-navi,#st-fo
 adaman-ero.com##.banner,#footer-ad-box,#st_custom_html_ad_widget-25,#st_custom_html_ad_widget-9,#st_custom_html_ad_widget-23,.arpw-random-post,#scrollad
 #ad 
 
+#======论坛===========================================================================
+#======论坛===========================================================================
+! 2024-05-06 https://hjd2048.com
+hjd2048.com##.footer-wrap,#footer,.main-wrap .t3 .t,#main form[name="delatc"] > div:nth-of-type(1) ~ div,.MedzAward,.signature 
+#footer #footer #评论 #讨论 #赏 #百万在线影院 支持高清下载 点我前去观摩
+hjd2048.com##.bottom-ad-parent,tr[onmouseover][onmouseout],fieldset,.pds
+hjd2048.com##.new_topbar_right,.header_up_sign,#head,#cate_1 tr:nth-of-type(2),#cate_1 tr:nth-of-type(9)
+#导航广告
+#======论坛===========================================================================
+#======论坛===========================================================================
+
 
 #======Video===========================================================================
 #======Video===========================================================================
