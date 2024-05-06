@@ -1057,16 +1057,6 @@ m.sex8.cc##.font-size-12.text-white.px-1.align-items-center.d-flex.fixed-bottom
 sex8.cc##.b_oscar1
 sex8.cc##.b_oscar2
 
-! 2024-01-20 https://hjd2048.com
-hjd2048.com##.show.fade.alert-dismissible.alert-warning.alert
-hjd2048.com##div.px-0.card:nth-of-type(3)
-hjd2048.com##div.px-0.card:nth-of-type(4)
-hjd2048.com##div.px-0.card:nth-of-type(5)
-hjd2048.com##.col-12 > .mb-3
-hjd2048.com##div.tac
-hjd2048.com##.pds
-hjd2048.com##.mb-3
-
 ! 2024-01-20 https://18h.animezilla.com
 18h.animezilla.com##span > .shiftnav-toggle-main-block
 18h.animezilla.com###my-video
@@ -1242,12 +1232,6 @@ www.porngo.com##.spot_title.video-side__adv_title
 ! 2024-01-31 https://dbro.news
 dbro.news##.comments
 dbro.news##.author-box
-
-! 2024-01-31 https://hjd2048.com
-hjd2048.com##.header_up_sign
-hjd2048.com##.noticebg
-hjd2048.com##tr.mobile_index_1.f_one.tr3:nth-of-type(2)
-hjd2048.com##tr.mobile_index_1.f_one.tr3:nth-of-type(9)
 
 ! 2024-01-31 https://www.metart.com
 www.metart.com##.panels.man-ui
