@@ -4,11 +4,7 @@
 shimo.im##.bOwZFV.Container-sc-2dZnaL
 
 ! 2023-06-13 https://fuliba2023.net
-fuliba2023.net##.karbar-rb.karbar
-fuliba2023.net##.widget_links.widget
-fuliba2023.net##div.widget_ui_textorbui.widget.widget-on-phone:nth-of-type(6)
-fuliba2023.net##div.widget_ui_textorbui.widget.widget-on-phone:nth-of-type(7)
-fuliba2023.net##div.widget_ui_textorbui.widget.widget-on-phone:nth-of-type(8)
+! 2022-11-20 https://fuliba2023.net 
 
 ! 2023-06-14 https://www.ximalaya.com
 www.ximalaya.com##.xz_.dl-pc
@@ -39,19 +35,6 @@ www.aliyundrive.com##.btn-mobile-save--2nXdf
 www.aliyundrive.com##.to-desktop--1IcwT
 www.aliyundrive.com##.text--2buEJ
 
-! 2023-07-24 https://fuliba2023.net
-fuliba2023.net##.footer
-fuliba2023.net##.branding
-fuliba2023.net##.post-actions
-fuliba2023.net##.shares
-fuliba2023.net##div.-roll-top.widget_ui_textorbui.widget.widget-on-phone > .style02
-fuliba2023.net##div.-roll-top.widget_ui_textorbui.widget:nth-of-type(9)
-fuliba2023.net##div.-roll-top.widget_ui_textorbui.widget:nth-of-type(7)
-fuliba2023.net##.no_webshot
-fuliba2023.net##div.widget_ui_textorbui.widget:nth-of-type(7)
-fuliba2023.net##div.widget_ui_textorbui.widget:nth-of-type(9)
-fuliba2023.net##div.widget_ui_textorbui.widget.widget-on-phone:nth-of-type(10)
-fuliba2023.net##.topbar
 
 ! 2022-01-01 https://iao.su   不死鸟
 iao.su##[src="https://i.niao.su/Yo9QSPA.jpg"]
@@ -76,25 +59,6 @@ thatpervert.com###postContainer4984265 > .post-normal.article > .post_top > .uhe
 
 ! 2022-08-18 https://www.voflix.com
 www.voflix.com##.popupShow.none.popup-tips.popup
-
-! 2022-11-20 https://fuliba2023.net 福利吧
-fuliba2023.net##div.widget_ui_textorbui.widget.widget-on-phone:nth-of-type(4)
-fuliba2023.net##div.widget_ui_textorbui.widget:nth-of-type(5)
-fuliba2023.net##.site-navbar.site-nav > .menu-item-49385.menu-item-object-custom.menu-item-type-custom.menu-item
-fuliba2023.net##.site-navbar.site-nav > .menu-item-2299.menu-item-has-children.menu-item-object-category.menu-item-type-taxonomy.menu-item
-fuliba2023.net##.site-navbar.site-nav > .menu-item-77732.menu-item-object-custom.menu-item-type-custom.menu-item
-fuliba2023.net##.site-navbar.site-nav > .menu-item-80656.menu-item-object-custom.menu-item-type-custom.menu-item
-fuliba2023.net##.site-navbar.site-nav > .menu-item-82071.menu-item-object-custom.menu-item-type-custom.menu-item
-fuliba2023.net##.site-navbar.site-nav > .menu-item-69935.menu-item-object-custom.menu-item-type-custom.menu-item
-fuliba2023.net##.site-navbar.site-nav > .menu-item-29.menu-item-has-children.menu-item-object-page.menu-item-type-post_type.menu-item
-fuliba2023.net##.brand
-fuliba2023.net##.logo
-fuliba2023.net##.rollbar-rb.rollbar
-fuliba2023.net##.branding-black.branding
-fuliba2023.net##.excerpts-title.title
-fuliba2023.net##.sidebar
-fuliba2023.net##.header
-fuliba2023.net##.post-copyright
 
 ! 2022-11-20 https://pan.baidu.com 百度云
 pan.baidu.com##.wp-s-header__right-item.web-header-ad-item
@@ -630,25 +594,6 @@ zh.seexh6.com##.yld-pdsp-a.yld-pdsp-b
 ! 2023-08-18 https://zh.xhamstreet.com
 zh.xhamstreet.com##.cookies-modal__wrapper
 
-! 2023-08-20 https://www.xvideos.com
-! 2024年5月6日 https://www.xvideos.com
-www.xvideos.com###disclaimer_background,#cookies-use-alert,#footer,#v-actions-overflow-menu,#tabComments_bottom_page,.mobile-portrait-show,.chat-hidden
-#警告 #cookies #footer #下载按钮 #评论 #移动端导航 #聊天框
-www.xvideos.com##.ad-profiles,.live-cams,.nutaku-games,.red-ticket,[href="https://www.xdating.com/"],.premium-results-line
-#广告 #直播 #游戏 #会员视频 #约会 #会员视频
-www.xvideos.com###v-actions > .tabs,.link-instanted.head__menu-line__main-menu__lvl1
-#下载评论 #导航
-
-! 2023-08-20 https://www.eporner.com
-www.eporner.com###cookies,footer,#commentdiv,#uploadslide,#adinhead,.uvmspn1,.uvmspn4,.uvmspn6,.uvmspn7,.video-description,.vjs-docker,.infopopanim
-#评论 #上传 #直播 #评论，分享，保存，报告，下载 #视频描述 #分享 #建议
-www.eporner.com###headholder > .link-instanted,#video-info-tags .vit-suggester,.footer-text,#mainBlogPosts,div.toptopbel2:nth-of-type(9)
-#直播
-
-! 2023-08-20 https://hqporner.com
-hqporner.com##.footer-bg,.big_header,.page-content.box > header,li:nth-of-type(5),.link-instanted.hide_ad_marker.button
-m.hqporner.com##.footerWrapper,.color5,.color2,.color8,.title.main-h1,.homePageWrapper.pageWrapper > div > span,span.altPlayerButton:nth-of-type(1)
-
 ! 2023-02-13 https://eromanga-kai.com
 eromanga-kai.com##.header-container
 eromanga-kai.com###content-in > .cf.nwa.sidebar
@@ -1063,7 +1008,6 @@ www.cool18.com##table:nth-of-type(2) > tbody
 
 ! 2023-09-30 https://web.6parkbbs.com
 
-
 ! 2023-10-07 https://m.1688.com
 m.1688.com##.failModal
 m.1688.com##.bottomOpen-wrap
@@ -1166,7 +1110,6 @@ nijisenmon.work##.quads-ad3.quads-location
 nijisenmon.work###st-header-cardlink-wrapper
 nijisenmon.work##.pcnone
 nijisenmon.work###side
-
 
 ! 2023-12-17 https://asiantolick.com
 asiantolick.com##.menssage_favorite
@@ -1500,8 +1443,6 @@ www.wsgmzt.com###xtjpp
 www.wsgmzt.com###pic
 www.wsgmzt.com###fwqtz
 
-
-
 ! 2024-03-27 https://shayuapi.com
 shayuapi.com##table,.footer,.header.width1200,.mac_comment
 
@@ -1719,8 +1660,6 @@ multporn.net###menu-17097-1
 ! 2024年4月22日 https://69story.com
 69story.com##.nav-tabs.nav
 
-
-
 ! 2024年4月23日 https://www.landiannews.com
 www.landiannews.com##.aside
 www.landiannews.com##footer
@@ -1873,10 +1812,6 @@ hanime.tv##.site-description,#.parallax-content,#.htvnad,.htvnad1,#.nav-drawer-l
 hanime.tv##.simplebar-content > div:nth-of-type(3) ,.simplebar-content > div:nth-of-type(4) ,.simplebar-content > div:nth-of-type(5) 
 #侧边栏
 
-
-
-
-
 xanimu.com###pcppopp,#mobppopp,noscript,#adsbanner,#adsgoogle,#playlist-container,#report_post-js-extra,#exoscript,#related-boxes-footer-ver2
 xanimu.com###wrapper-footer,.hero
 xanimu.com###comment_link
@@ -1961,3 +1896,22 @@ www.t66y.com###main .t.t2:nth-of-type(n+4)
 #所有的class="t t2"的div元素 从第4个开始
 www.t66y.com###ajaxtable > tbody:first-of-type > tr.tr3,#cate_thread
 #公告
+
+! 2023-08-20 https://www.xvideos.com
+! 2024年5月6日 https://www.xvideos.com
+www.xvideos.com###disclaimer_background,#cookies-use-alert,#footer,#v-actions-overflow-menu,#tabComments_bottom_page,.mobile-portrait-show,.chat-hidden
+#警告 #cookies #footer #下载按钮 #评论 #移动端导航 #聊天框
+www.xvideos.com##.ad-profiles,.live-cams,.nutaku-games,.red-ticket,[href="https://www.xdating.com/"],.premium-results-line
+#广告 #直播 #游戏 #会员视频 #约会 #会员视频
+www.xvideos.com###v-actions > .tabs,.link-instanted.head__menu-line__main-menu__lvl1
+#下载评论 #导航
+
+! 2023-08-20 https://www.eporner.com
+www.eporner.com###cookies,footer,#commentdiv,#uploadslide,#adinhead,.uvmspn1,.uvmspn4,.uvmspn6,.uvmspn7,.video-description,.vjs-docker,.infopopanim
+#评论 #上传 #直播 #评论，分享，保存，报告，下载 #视频描述 #分享 #建议
+www.eporner.com###headholder > .link-instanted,#video-info-tags .vit-suggester,.footer-text,#mainBlogPosts,div.toptopbel2:nth-of-type(9)
+#直播
+
+! 2023-08-20 https://hqporner.com
+hqporner.com##.footer-bg,.big_header,.page-content.box > header,li:nth-of-type(5),.link-instanted.hide_ad_marker.button
+m.hqporner.com##.footerWrapper,.color5,.color2,.color8,.title.main-h1,.homePageWrapper.pageWrapper > div > span,span.altPlayerButton:nth-of-type(1)
