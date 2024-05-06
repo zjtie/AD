@@ -1,6 +1,5 @@
 ! Title: RM40 uBlock Android
 ! Homepage: https://github.com/zjtie/AD
-#======
 
 #======社交平台===========================================================================
 #======社交平台===========================================================================
@@ -1659,8 +1658,8 @@ adaman-ero.com##.banner,#footer-ad-box,#st_custom_html_ad_widget-25,#st_custom_h
 #ad 
 
 
-! =========Adu Vieod==================================================================
-! =========Adu Vieod==================================================================
+#======Video===========================================================================
+#======Video===========================================================================
 ! 2023-02-13 https://www.xnxx.com
 www.xnxx.com###footer,.logo-xnxx,.slogan,.live-cams,.nutaku-games,#mobile-menu > ul > li:nth-of-type(7),#mobile-menu > ul > li:nth-of-type(8),.report-search
 #footer #logo #logo #live #game #故事 #论坛 #举报 
@@ -1734,6 +1733,6 @@ xxxshake.com##[href="https://live.xxxshake.com/"],.tabs-menu > ul,.flexible-cont
 
 ! 2024年5月6日 https://www.sex.com
 www.sex.com##.bg-footer,.sticky a:nth-last-of-type(1),.sticky a:nth-last-of-type(2),.pt-1.gap-y-4.flex-col.flex > a.cursor-pointer
-! =========Adu Vieod==================================================================
-! =========Adu Vieod==================================================================
+#======Video===========================================================================
+#======Video===========================================================================
 
