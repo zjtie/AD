@@ -749,38 +749,7 @@ hentai-witch.com###pager-post-navi
 #上一篇/下一篇
 
 ! 2023-09-14 https://adaman-ero.com
-adaman-ero.com###header-full
-#页面头部
-adaman-ero.com##.widget_execphp.top-wbox-u
-adaman-ero.com###st_custom_html_ad_widget-25 > .custom-html-widget.textwidget
-adaman-ero.com###st_custom_html_ad_widget-9
-adaman-ero.com###st_custom_html_ad_widget-10
-adaman-ero.com###st_custom_html_ad_widget-20
-adaman-ero.com##.widget_custom_html.st-header-under-widgets.widget_text
-adaman-ero.com##.widget_custom_html.post-widgets-bottom.st-widgets-box.widget_text
-adaman-ero.com##.widget_st_custom_html_ad_widget.post-widgets-bottom.st-widgets-box.widget_text
-adaman-ero.com##.widget_st_custom_html_ad_widget.cat-widgets-top.st-widgets-box.widget_text
-#广告
-adaman-ero.com###execphp-9
-#空白行
-adaman-ero.com##footer
-#页面尾部
-adaman-ero.com###side
-#侧边栏
-adaman-ero.com##.st-sns-top
-adaman-ero.com##.st-sns-singular.sns
-#分享
-adaman-ero.com##.widget_execphp.post-widgets-top.st-widgets-box
-adaman-ero.com##.entry-content > div.banner
-#FANZA 帐户是免费的
-adaman-ero.com###execphp-13
-#单击此处查看最流行的人工智能生成的同人志
-adaman-ero.com##.comment-respond
-#评论
-adaman-ero.com##.clearfix.p-navi
-#上一页/下一页
-adaman-ero.com##.jp-relatedposts-headline
-#联系
+
 
 ! 2023-09-15 https://kimootoko.net
 kimootoko.net###copyright
@@ -1523,21 +1492,6 @@ studiofow.com##.whb-hidden-lg.whb-mobile-center.whb-column
 studiofow.com##.wd-prefooter
 studiofow.com##.color-scheme-light.footer-container
 
-! 2024-04-14 https://999hentai.net
-999hentai.net##.mt-3.site-bottom-wrapper.info-panel
-999hentai.net##.info-panel.py-5.footer
-999hentai.net##[href="/about"]
-999hentai.net##.share-wraper.mt
-999hentai.net##.score-container
-999hentai.net##.disqus-comments.loading-wrapper
-999hentai.net##script[data-cfasync="false"].async:contains(adsbyjuicy)
-999hentai.net##.w-100.align-items-center.flex-column.d-flex.ads-wraper
-999hentai.net##.btli
-999hentai.net##.sidebar-bottom.nav-links
-999hentai.net##footer
-999hentai.net##.site-bottom-wrapper
-999hentai.net##div.py-2:nth-of-type(5)
-999hentai.net##.comments-box
 
 ! 2024-04-14 https://www.3dsexanime.xyz
 www.3dsexanime.xyz##.footer-container
@@ -1815,3 +1769,8 @@ m.hqporner.com##.footerWrapper,.color5,.color2,.color8,.title.main-h1,.homePageW
 ! 2024-05-06 https://erovoice-ch.com
 erovoice-ch.com##footer,#header,#topContent,.sideContent,.addWrap,#commentArea,#overlay,.tagList,.tagList + div,#postPagers
 #页尾 #头部 #头部 #侧边栏 #广告 #评论 #postPagers翻页
+
+
+! 2024-04-14 https://999hentai.net
+999hentai.net##.share-wraper.mt,.score-container,.sidebar-bottom.nav-links,.site-bottom-wrapper,.btli,.info-panel.py-5.footer,.mt-3.site-bottom-wrapper.info-panel,.disqus-comments.loading-wrapper
+999hentai.net##script[data-cfasync="false"].async:contains(adsbyjuicy)，.w-100.align-items-center.flex-column.d-flex.ads-wraper,[href="/about"],div.py-2:nth-of-type(5),.comments-box
