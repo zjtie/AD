@@ -37,19 +37,6 @@ www.reddit.com##xpromo-top-button
 #APP
 www.reddit.com##shreddit-experience-tree
 
-! 2022-12-30 https://twitter.com
-twitter.com##.r-kmv1fd.r-1j3t67a.r-uaa2di.r-eqz5dr.r-1habvwh.css-1dbjc4n
-#订阅 Premium
-twitter.com##.r-1j3t67a.r-1w6e6rj.r-18u37iz.css-1dbjc4n
-#隐私政策
-twitter.com##.r-1vvnge1.r-dnmrzs.css-1dbjc4n
-#logo
-twitter.com##.r-e7q0ms.r-vpgt9t.css-1dbjc4n
-#发帖
-twitter.com##a.r-13qz1uu.r-oyd9sg.r-1ny4l3l.r-16y2uox.r-eqz5dr.r-6koalj.r-1loqt21.r-1habvwh.css-1dbjc4n.css-18t94o4.css-4rbku5:nth-of-type(7)
-#已认证
-twitter.com##.r-136ojw6.r-1loqt21.css-1dbjc4n
-#主页
 
 #======社交平台===========================================================================
 #======社交平台===========================================================================
