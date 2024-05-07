@@ -1,0 +1,13 @@
+! Title: RM40 Ublock Telegram
+! Homepage: https://github.com/zjtie/AD
+
+! 2024-05-07 https://web.telegram.org
+# web.telegram.org##span[class="translatable-message"]:nth-ancestor(n)
+web.telegram.org##strong:has-text(GGPoker全球最大德州扑克赛事平台同时在线人数突破45万):nth-ancestor(5):remove()
+web.telegram.org##strong:has-text(玩家游戏注册链接： ):nth-ancestor(5):remove()
+web.telegram.org##strong:has-text(备战欧洲杯 扶持期超级加倍):nth-ancestor(5):remove()
+web.telegram.org##strong:has-text(莆田中高端鞋】直售):nth-ancestor(5):remove()
+web.telegram.org##strong:has-text(来自欧洲享誉盛名的全球性顶级博彩公司):nth-ancestor(5):remove()
+web.telegram.org##strong:has-text(柬埔寨西港):nth-ancestor(5):remove()
+web.telegram.org##strong:has-text(给大伙推荐一个私密约炮平台):nth-ancestor(5):remove()
+web.telegram.org##strong:has-text(柬埔寨西港):nth-ancestor(5):remove()
