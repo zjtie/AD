@@ -1548,8 +1548,7 @@ hjd2048.com##.footer-wrap,.header_up_sign,#head,tr[onmouseover][onmouseout],fiel
 #导航页脚 #heade页头 #页头logo #列表广告 #列表广告 #文章广告 #讨论 #快速回复 #百万在线影院 支持高清下载 点我前去观摩 #赏
 hjd2048.com###cate_1 tr:nth-of-type(2),#cate_1 tr:nth-of-type(9)
 #导航广告1 #导航广告2 #列表公告
-#cate_thread[style]:nth-ancestor(2)
- hjd2048.com###pw_box,#headbase,#menu_userinfomore:nth-ancestor(1),#menu_shortcut,#login_fast :remove()
+hjd2048.com###pw_box,#headbase,#menu_userinfomore:nth-ancestor(1),#menu_shortcut,#login_fast :remove()
 hjd2048.com###pw_box:remove()
 hjd2048.com###headbase:remove()
 hjd2048.com###menu_userinfomore:nth-ancestor(1):remove()
