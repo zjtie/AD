@@ -1531,6 +1531,12 @@ hjd2048.com###menu_userinfomore:nth-ancestor(1):remove()
 hjd2048.com###menu_shortcut:remove()
 hjd2048.com###login_fast:remove()
 
+! 2024-05-07 https://wap.cool18.com
+wap.cool18.com##.article-content > center
+wap.cool18.com##.gift,.comment,.see-more,.list-li,.float-add,.footer-share,body svg:remove()
+#打赏 #评论 #下载客户端 #点赞 #发布
+wap.cool18.com##script[src^="pub/gdpr.js"],script[src^="https://home.6park.com/gift/getlucky"], script[src^="https://home.6park.com/vote/getvote"]:remove()
+
 #======论坛===========================================================================
 #======论坛===========================================================================
 
