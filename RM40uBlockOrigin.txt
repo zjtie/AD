@@ -791,25 +791,6 @@ zhrwx.com##.myui-content__operate
 zhrwx.com##.close-box.tips
 #播放器滚动条
 
-! 2023-09-30 https://www.cool18.com
-www.cool18.com###footer_link
-web.6parkbbs.com###footer_link
-web.6parkbbs.com##.gift
-www.cool18.com##.gift
-#礼物
-www.cool18.com##a[href="#postfp"]
-#朋友分享
-www.cool18.com###myform
-web.6parkbbs.com###myform
-#我的回帖
-www.cool18.com##[href="javascript:void(0)"]
-#点赞
-www.cool18.com##div.body_center:nth-of-type(2)
-web.6parkbbs.com##div.body_center:nth-of-type(2)
-
-www.cool18.com##table:nth-of-type(2) > tbody
-#跟贴
-
 ! 2023-09-30 https://web.6parkbbs.com
 
 ! 2023-10-07 https://m.1688.com
@@ -1179,11 +1160,6 @@ www.yuque.com###footer
 
 ! 2024-02-02 https://www.4khd.com
 www.4khd.com##.heateor_sss_sharing_ul
-
-
-! 2024-02-07 https://www.cool18.com
-www.cool18.com##.show_content > center
-www.cool18.com##[href="#postfp2"]
 
 ! 2024-02-07 https://club.6parkbbs.com
 club.6parkbbs.com##.gift
