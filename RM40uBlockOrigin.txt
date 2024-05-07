@@ -28,6 +28,15 @@ live.bilibili.com,bilibili.com##.right-entry-item--upload.right-entry-item
 live.bilibili.com,bilibili.com##li.right-entry-item:nth-of-type(6)
 #创作中心
 
+! 2024-04-13 https://www.reddit.com
+www.reddit.com##.justify-end.flex-col.flex.grow.py-md.visible
+www.reddit.com##nav[aria-label="Reddit resources"]
+www.reddit.com##shreddit-async-loader[bundlename="nsfw_blocking_modal"]
+#登入弹窗
+www.reddit.com##xpromo-top-button
+#APP
+www.reddit.com##shreddit-experience-tree
+
 ! 2022-12-30 https://twitter.com
 twitter.com##.r-kmv1fd.r-1j3t67a.r-uaa2di.r-eqz5dr.r-1habvwh.css-1dbjc4n
 #订阅 Premium
@@ -354,51 +363,6 @@ www.youtube.com###guide-links-secondary
 www.youtube.com###guide-links-primary
 
 ! 2023-02-11 https://a227h.work
-a227h.work##.footer-wrap
-a227h.work###header
-a227h.work###notice
-a227h.work###cate_thread
-a227h.work##div.t:nth-of-type(3)
-a227h.work###cate_children
-a227h.work##div.z.t:nth-of-type(4) > table > tbody:nth-of-type(1) > tr > .h
-a227h.work##.fr > [href^="post.php"]
-a227h.work##tr.t_one.tr3:nth-of-type(2)
-a227h.work##tr.t_one.tr3:nth-of-type(3)
-a227h.work##tr.t_one.tr3:nth-of-type(4)
-a227h.work##tr.t_one.tr3:nth-of-type(5)
-a227h.work##tr.t_one.tr3:nth-of-type(6)
-a227h.work##tr.t_one.tr3:nth-of-type(7)
-a227h.work##tr.t_one.tr3:nth-of-type(8)
-!彩色字体
-a227h.work##[href="/htmm/wy.html"]
-a227h.work##[href="/htmm/yx2.html"]
-a227h.work##[href="/htmm/d6.html"]
-a227h.work##[href="/htmm/d4.html"]
-a227h.work##[href="/htmm/d1.html"]
-a227h.work##[href="/htmm/d7.html"]
-a227h.work##[href="/htmm/d9.html"]
-a227h.work##[href="/htmm/yx1.html"]
-a227h.work##[href="/htmm/d10.html"]
-a227h.work##[href="/htmm/91p.html"]
-a227h.work##[href="/htmm/d8.html"]
-a227h.work##[href="/htmm/k1.html"]
-a227h.work##[href="/htmm/d5.html"]
-a227h.work##[href="/htmm/d11.html"]
-a227h.work##[href="/htmm/t3.html"]
-a227h.work##[href="/htmm/dw.html"]
-a227h.work##[href="/htmm/t1.html"]
-a227h.work##[href="/htmm/vp.html"]
-a227h.work##[href="/htmm/d2.html"]
-a227h.work##[href="/htmm/d12.html"]
-a227h.work##[href="/htmm/913.html"]
-!a227h.work###main > form
-a227h.work##.user-pic > table > tbody > tr > td > [href]
-a227h.work###footer
-a227h.work##.w.fr
-!复制链接 | 浏览器收藏 | 打印
-a227h.work##tr.f_one.tr3:nth-of-type(3)
-a227h.work##tr.f_one.tr3:nth-of-type(4)
-a227h.work##tr.f_one.tr3:nth-of-type(8)
 
 ! 2023-05-05 https://tieba.baidu.com
 tieba.baidu.com##.tb-forum-user__join-btn
@@ -488,7 +452,6 @@ apkcombo.com##a.link-instanted.navbar-item:nth-of-type(1)
 
 ! 2023-07-27 https://www.yuque.com
 www.yuque.com##.copyright
-
 
 ! 2023-08-18 https://zh.seexh6.com
 zh.seexh6.com##.yld-pdsp-a.yld-pdsp-b
@@ -1330,16 +1293,6 @@ simpcity.su##.p-footer-row-opposite
 simpcity.su##.js-quickReply.block
 simpcity.su##.js-notices.notices--isMulti.notices--block.notices
 simpcity.su##.shareButtons--iconic.shareButtons
-
-! 2024-04-13 https://www.reddit.com
-www.reddit.com##.justify-end.flex-col.flex.grow.py-md.visible
-www.reddit.com##nav[aria-label="Reddit resources"]
-www.reddit.com##shreddit-async-loader[bundlename="nsfw_blocking_modal"]
-#登入弹窗
-www.reddit.com##xpromo-top-button
-#APP
-www.reddit.com##shreddit-experience-tree
-
 
 ! 2024-04-14 https://simpcity.su
 simpcity.su##.p-header--hasExtraContent.p-header
