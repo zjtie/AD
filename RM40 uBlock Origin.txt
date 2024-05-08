@@ -1381,6 +1381,18 @@ hentai-witch.com###linkcat-293,#header-container,#content-top,#content-bottom,#p
 18comic.vip##li > a#meun_game,li > a[href="/shop"],li > a[href="/games"],.well.well-filters > div:nth-of-type(3),div > #post_comment,div.row[style*="display: flex;"][style*="flex-wrap: wrap;"]
 18comic.vip##[href="https://jm365.work/mpSWW7"],[href="mailto:www18comic@gmail.com"],[href="https://jm365.work/dFTN82"],[href="/bonus"],[href="https://jm365.work/pXYbfA"]
 18comic.vip##.tab-content.m-t-15.m-b-20 + .row,.thewayhome.scramble-page.center,li.ph-active:nth-of-type(1),li.ph-active:nth-of-type(4)
+
+! 2024-05-08 https://eromanga-kong.com
+eromanga-kong.com##header,footer,#side_right,.related-box,.commentarea,#yarpp :remove()
+eromanga-kong.com##h3:has-text(エロ同人リンク):nth-ancestor(1)
+
+! 2024-05-08 https://eromanga-select.com
+#eromanga-select.com/tag_list/
+eromanga-select.com##footer,header,.related-box,#respond,#yarpp :remove()
+eromanga-select.com###container > div:nth-of-type(n+1):nth-of-type(-n+8)
+
+! 2024-05-08 https://eromanga-ace.com
+eromanga-ace.com##footer,header,.scroll_link,.related-box,#comment_box,.yarpp :remove()
 #======漫画===========================================================================
 
 #======图片===========================================================================
