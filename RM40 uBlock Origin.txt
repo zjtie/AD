@@ -368,29 +368,6 @@ www.hentaiasmr.moe##.archive-description
 www.hentaiasmr.moe##.clear
 www.hentaiasmr.moe###menu-item-56521
 
-! 2023-05-03 https://eromanga-cafe.com
-eromanga-cafe.com###site-info
-eromanga-cafe.com##h1
-||eromanga-cafe.com/wp-content/themes/pc/images/bg_head.png$image
-eromanga-cafe.com##.tit
-eromanga-cafe.com##.pan_block.breadcrumb-category
-eromanga-cafe.com##.comments
-eromanga-cafe.com##.l-footer
-eromanga-cafe.com##.loop-single-widget
-eromanga-cafe.com###display_button_set
-eromanga-cafe.com##.kijibox > .tag_list
-eromanga-cafe.com###comments-thread
-#评论列表
-eromanga-cafe.com###custom_html-7
-eromanga-cafe.com##.relate_dl
-#相关文章
-eromanga-cafe.com##.related-category-posts
-#最新文章
-eromanga-cafe.com###custom_html-6
-#外站
-eromanga-cafe.com###footer
-eromanga-cafe.com###custom_html-3
-eromanga-cafe.com###header
 
 ! 2023-07-27 https://apkcombo.com
 apkcombo.com##.is-main.column > .title
