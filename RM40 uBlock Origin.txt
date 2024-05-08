@@ -1519,6 +1519,8 @@ eromanga-cafe.com##meta,link,script :remove()
 18h.animezilla.com##footer,#manga-top,#bk1,#text-6,#text-15,#text-10,#text-13,#text-17,#text-16,#text-8,#manga-below,#manga-bottom,.notice,.mega-menu-toggle,#mega-menu-primary li:nth-of-type(n+6):nth-of-type(-n+9) :remove()
 18h.animezilla.com###btn-wrapper,#btn-footer,#btn-toy,#btn-swiper,#menu-menu-main li:nth-of-type(2) ~ li,.shiftnav-main-toggle-content span,.page-header  :remove()
 
+! 2024-05-07 https://nijifeti.com
+nijifeti.com##header,.sidebox > div,.wppwrap,.pagetopwrap,.adbox,.osu2,.comment,#text-2,footer,meta,.posts__item,.morebox,.kline,.kizishitassp :remove()
 
 #======漫画===========================================================================
 #======漫画===========================================================================
