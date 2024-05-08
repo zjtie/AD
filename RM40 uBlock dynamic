@@ -1,2 +1,15 @@
 ! Title: RM40 uBlock dynamic
 ! Homepage: https://github.com/zjtie/AD
+
+eromanga-cafe.com ad-cheers.com * block
+no-large-media: 18h.animezilla.com true
+no-large-media: behind-the-scene false
+eromanga-cafe.com facebook.net * block
+eromanga-cafe.com fam-ad.com * block
+18h.animezilla.com google-analytics.com * block
+nijifeti.com google-analytics.com * block
+eromanga-cafe.com image-ad.jp * block
+eromanga-cafe.com livedoor.net * block
+nijifeti.com livedoor.net * block
+nijifeti.com smac-ad.com * block
+eromanga-cafe.com twitter.com * block
