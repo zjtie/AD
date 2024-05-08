@@ -2,7 +2,6 @@
 ! Homepage: https://github.com/zjtie/AD
 
 #======社交平台===========================================================================
-#======社交平台===========================================================================
 www.zhihu.com##footer
 
 ! 2024年5月3日 https://www.douyin.com
@@ -15,18 +14,9 @@ www.douban.com##.top-nav-doubanapp
 www.douban.com###footer
 
 ! 2023-09-13 https://www.bilibili.com
-live.bilibili.com,bilibili.com##.bili-footer
-#页尾
-live.bilibili.com,bilibili.com##.palette-button-wrap
-#侧边栏按钮
-live.bilibili.com,bilibili.com##.download-client-trigger.download-entry
-#下载
-live.bilibili.com,bilibili.com##.vip-wrap
-#大会员
-live.bilibili.com,bilibili.com##.right-entry-item--upload.right-entry-item
-#投稿
-live.bilibili.com,bilibili.com##li.right-entry-item:nth-of-type(6)
-#创作中心
+live.bilibili.com,bilibili.com##.bili-footer,.palette-button-wrap,.download-client-trigger.download-entry，.vip-wrap，.right-entry-item--upload.right-entry-item，li.right-entry-item:nth-of-type(6)
+#页尾 #侧边栏按钮 #下载 #大会员 #投稿 #创作中心
+
 
 ! 2024-04-13 https://www.reddit.com
 www.reddit.com##.justify-end.flex-col.flex.grow.py-md.visible
@@ -37,8 +27,6 @@ www.reddit.com##xpromo-top-button
 #APP
 www.reddit.com##shreddit-experience-tree
 
-
-#======社交平台===========================================================================
 #======社交平台===========================================================================
 
 ! 2023-06-06 https://shimo.im
