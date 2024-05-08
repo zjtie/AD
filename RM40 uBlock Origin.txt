@@ -285,45 +285,6 @@ sspai.com##.right_bottom
 www.v2ex.com###Bottom
 #页尾
 
-! 2023-08-20 https://members.luscious.net
-members.luscious.net##.o-padding-all
-#发表评论
-members.luscious.net##footer.footer-module__footer--PE8HV
-members.luscious.net##.picture-control-wrapper
-#图片评论
-members.luscious.net##.o-border--bottom.o-flex-center.site-banner
-members.luscious.net##.o-bgcolor--grey-7.o-clearfix.o-relative
-#欢迎页
-members.luscious.net##.o-bgcolor--grey-7.front-page-call-to-action.o-relative
-members.luscious.net##.o-bgcolor--grey-7.o-padding-top-bottom.o-relative
-#成为社区的一部分！
-members.luscious.net##div > div > .front-page-call-to-action.o-bgcolor--grey-7
-#标签
-members.luscious.net##.o-padding-sides.o-padding-top-bottom
-#评论
-members.luscious.net##nav.o-relative.o-padding-top-bottom
-#底部导航
-||assets.luscious.net/special/robbie-transp.*$image
-#背景图
-members.luscious.net##div.o-padding-sides.flex-grow-1:nth-of-type(2)
-#新用户
-members.luscious.net##div > div > .o-flex--multi-line--align-center
-#精选博客
-members.luscious.net##.video-grid-header.o-h2
-#视频
-members.luscious.net##.o-align--center.o-h1
-#博客
-members.luscious.net##footer
-members.luscious.net###master_svg
-members.luscious.net##[id*="theAd"]
-members.luscious.net##.page-footer
-members.luscious.net##.o-clear
-members.luscious.net##div.o-padding-sides.o-fullwidth:nth-of-type(8)
-members.luscious.net##.o-link-no-decoration.o-btn-group
-#报告视频
-members.luscious.net##.o-clear.o-divider.o-divider--large
-members.luscious.net##.o-clear.o-divider.o-divider--large + div
-
 ! 2023-09-14 https://rouman5.com
 rouman5.com##.footer_root__6F7g2
 #页尾
@@ -382,18 +343,6 @@ ahri8.top##.in.fade.alert-danger.alert
 ahri8.top##div.col-lg-12:nth-of-type(3)
 ahri8.top##.col-lg-12 > .row
 #空白行
-
-! 2023-09-14 https://asmhentai.com
-asmhentai.com##.atop
-#空白行
-asmhentai.com##.footer_center
-#页面尾部
-asmhentai.com##li.friends > [href="https://hentaiera.com"]
-asmhentai.com##li.friends > [href="https://comicporn.xxx"]
-asmhentai.com##li.friends > [href="https://hentairox.com"]
-asmhentai.com##li.friends > [href="https://hentaiyes.com/"]
-asmhentai.com##li.friends > [href="https://imhentai.xxx"]
-#导航
 
 ! 2023-09-14 https://wnacg.com
 wnacg.com##.wrap.footer
@@ -841,9 +790,6 @@ ahri8.top##.header-dropdown-list
 
 ! 2024-01-30 https://rouman5.com
 rouman5.com##.position-abolute
-
-! 2024-01-30 https://members.luscious.net
-||assets.luscious.net/special/robbie-transp.*$image
 
 ! 2024-01-30 https://www.porngo.com
 www.porngo.com##.underplayer_banner
@@ -1357,6 +1303,12 @@ eromanga-select.com###container > div:nth-of-type(n+1):nth-of-type(-n+8)
 
 ! 2024-05-08 https://eromanga-ace.com
 eromanga-ace.com##footer,header,.scroll_link,.related-box,#comment_box,.yarpp :remove()
+
+! 2023-09-14 https://asmhentai.com
+asmhentai.com##.atop,.footer_center
+#空白行 #页面尾部
+asmhentai.com##li.friends > [href="https://hentaiera.com"],li.friends > [href="https://comicporn.xxx"],li.friends > [href="https://hentairox.com"],li.friends > [href="https://hentaiyes.com/"],li.friends > [href="https://imhentai.xxx"]
+#导航
 #======漫画===========================================================================
 
 #======图片===========================================================================
