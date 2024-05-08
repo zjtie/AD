@@ -498,27 +498,6 @@ ichinuke.com###g_floating_area1
 ichinuke.com###g_floating_area2
 ichinuke.com###slide_wrap_pc
 
-
-! 2023-09-14 https://hentai-witch.com
-hentai-witch.com##.header-container
-#页面头部
-hentai-witch.com###footer
-#页面尾部
-hentai-witch.com##.wwa.content-bottom
-hentai-witch.com##.wwa.content-top
-#广告
-hentai-witch.com###pc_ad-28
-hentai-witch.com##.widget_pc_ad.widget-index-top.widget
-hentai-witch.com##.widget_pc_ad.widget-sidebar-standard.widget-sidebar.widget
-hentai-witch.com##.widget_pc_ad.widget-sidebar-scroll.widget-sidebar.widget
-#空白行
-hentai-witch.com##.comment-area
-#评论
-hentai-witch.com###pager-post-navi
-#上一篇/下一篇
-
-
-
 ! 2023-09-15 https://kimootoko.net
 kimootoko.net###copyright
 kimootoko.net###footer
