@@ -1126,11 +1126,6 @@ www.imagefap.com##center > center > center
 www.imagefap.com###main > center
 beta.imagefap.com##.footerLinks.clear
 
-! 2024年4月30日 https://www.redgifs.com
-www.redgifs.com##.ApplicationFooter a:nth-of-type(3),.cookieNotice,.topNav-wrap > div:nth-of-type(1),.topNav-wrap > div:nth-of-type(3)
-www.redgifs.com##.SideBar > li:nth-of-type(7),.SideBar-Item > div._adLiveButton_p1t77_1:upward(li)
-#类名中包含"live"的div元素
-
 ! 2024年5月2日 https://nyahentai.re
 nyahentai.re##footer,#bcon,#is_w_area,#inview_style,#player-container,[id*="active_overlay"],[href="https://nyahentai.re/contact/"]
 nyahentai.re##div[style="max-width: 1200px; width: 92%; height: 400px; margin: 0 auto 80px auto; background-color: #fff;"]
@@ -1221,7 +1216,6 @@ wap.cool18.com##script[src^="pub/gdpr.js"],script[src^="https://home.6park.com/g
 
 
 #======Video===========================================================================
-#======Video===========================================================================
 ! 2023-02-13 https://www.xnxx.com
 www.xnxx.com###footer,.logo-xnxx,.slogan,.live-cams,.nutaku-games,#mobile-menu > ul > li:nth-of-type(7),#mobile-menu > ul > li:nth-of-type(8),.report-search
 #footer #logo #logo #live #game #故事 #论坛 #举报 
@@ -1302,21 +1296,8 @@ pigav.com###menu-item-286659 > .link-instanted,#menu-item-298936 > .link-instant
 ! 2023-05-05 https://javday.tv
 javday.tv###footer,.header-container
 
-
 ! 2024-03-27 https://shayuapi.com
 shayuapi.com##table,.footer,.header.width1200,.mac_comment
-
-
-! 2024年4月24日 https://xxxtik.com
-xxxtik.com##.ng-star-inserted.ad-modal
-xxxtik.com##.ng-star-inserted.new-version
-xxxtik.com##a.bar-link:nth-of-type(5)
-xxxtik.com##a.bar-link:nth-of-type(4)
-xxxtik.com##a.bar-link:nth-of-type(3)
-xxxtik.com##app-popup
-xxxtik.com##a.icon-button.promo-button:nth-of-type(3)
-xxxtik.com##a.icon-button.promo-button:nth-of-type(4)
-xxxtik.com##.upload-button
 
 ! 2024年4月24日 https://ogfap.com
 ogfap.com##.svelte-18jied9.modal
@@ -1331,7 +1312,10 @@ zh.xhamster.com##.footer-wrapper,.main-wrap > .width-wrap,.main-wrap > div:nth-o
 zh.xhamster.com##.bvNVl-luEpremium-n-overlay,[data-role="bvNVl-luEtop"],.layoutPage aside:nth-of-type(2),[data-role="layout-bottom"] > div:first-of-type
 #live
 
-#======Video===========================================================================
+! 2024年4月30日 https://www.redgifs.com
+www.redgifs.com##.ApplicationFooter a:nth-of-type(3),.cookieNotice,.topNav-wrap > div:nth-of-type(1),.topNav-wrap > div:nth-of-type(3)
+www.redgifs.com##.SideBar > li:nth-of-type(7),.SideBar-Item > div._adLiveButton_p1t77_1:upward(li)
+#类名中包含"live"的div元素
 #======Video===========================================================================
 
 
