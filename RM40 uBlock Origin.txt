@@ -200,31 +200,6 @@ erologz.com##.columns.eleven.clearfix
 erologz.com###footer
 erologz.com##[src="https://erologz.com/matome-rand-pc"]
 
-! 2023-02-13 http://www.erogazo-jp.net
-www.erogazo-jp.net###main-in > div.widget > .textwidget > .link > table
-www.erogazo-jp.net###main-contents > div.widget > .textwidget
-www.erogazo-jp.net##div.widget:nth-of-type(1)
-www.erogazo-jp.net##div.widget:nth-of-type(2)
-www.erogazo-jp.net##div.widget:nth-of-type(3)
-www.erogazo-jp.net##div.widget:nth-of-type(4)
-www.erogazo-jp.net##ul.m20-b.sb:nth-of-type(1)
-www.erogazo-jp.net###main-contents > .contents
-www.erogazo-jp.net##.copyright
-www.erogazo-jp.net##div.widget:nth-of-type(10)
-www.erogazo-jp.net##div.widget:nth-of-type(9)
-www.erogazo-jp.net##div.widget:nth-of-type(8)
-www.erogazo-jp.net##ul.m20-b.sb:nth-of-type(2)
-www.erogazo-jp.net##.clearfix.navigation
-www.erogazo-jp.net###text-199
-www.erogazo-jp.net###text-198
-www.erogazo-jp.net###text-197
-www.erogazo-jp.net###text-190
-www.erogazo-jp.net###text-182
-www.erogazo-jp.net###text-30
-www.erogazo-jp.net###text-180
-www.erogazo-jp.net###header-title > h1
-www.erogazo-jp.net##[href="http://www.erogazo-jp.net/contact.html"]
-
 ! 2023-02-14 http://hnalady.com
 hnalady.com###main-left > div.sidemenu_sitelink:nth-of-type(1)
 hnalady.com##div.plugin-freearea:nth-of-type(2)
