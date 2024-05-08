@@ -18,14 +18,6 @@ live.bilibili.com,bilibili.com##.bili-footer,.palette-button-wrap,.download-clie
 #页尾 #侧边栏按钮 #下载 #大会员 #投稿 #创作中心
 
 
-! 2024-04-13 https://www.reddit.com
-www.reddit.com##.justify-end.flex-col.flex.grow.py-md.visible
-www.reddit.com##nav[aria-label="Reddit resources"]
-www.reddit.com##shreddit-async-loader[bundlename="nsfw_blocking_modal"]
-#登入弹窗
-www.reddit.com##xpromo-top-button
-#APP
-www.reddit.com##shreddit-experience-tree
 
 #======社交平台===========================================================================
 
