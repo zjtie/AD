@@ -727,16 +727,6 @@ cn.vxkk.cc##.wp-block-group.wp-container-16.is-layout-flex.is-nowrap
 cn.vxkk.cc##.has-large-font-size.wp-block-group.wp-container-15.is-layout-flex.is-nowrap > .has-large-font-size
 cn.vxkk.cc##.has-large-font-size.wp-block-group.wp-container-15.is-layout-flex.is-nowrap
 
-! 2023-12-17 https://nijisenmon.work
-nijisenmon.work##footer
-nijisenmon.work##.side-topad
-nijisenmon.work##.sns
-nijisenmon.work##.adbox
-nijisenmon.work##.quads-ad3.quads-location
-nijisenmon.work###st-header-cardlink-wrapper
-nijisenmon.work##.pcnone
-nijisenmon.work###side
-
 ! 2023-12-17 https://asiantolick.com
 asiantolick.com##.menssage_favorite
 asiantolick.com##[href="https://asiantolick.com/report/removal"]
@@ -1171,10 +1161,6 @@ www.landiannews.com##.comments
 www.4khd.com##footer.wp-block-template-part
 www.4khd.com##.centbtd
 
-! 2024年4月24日 https://nijisenmon.work
-nijisenmon.work###st-headwide
-nijisenmon.work##div.st-infeed-adunit
-
 ! 2024年4月25日 https://eatasmr.com
 eatasmr.com##footer
 
@@ -1427,7 +1413,6 @@ zh.xhamster.com##.bvNVl-luEpremium-n-overlay,[data-role="bvNVl-luEtop"],.layoutP
 
 
 #======漫画===========================================================================
-#======漫画===========================================================================
 eromanga-cafe.com###footer,.tit,#header h1 :remove()
 !#if !env_mobile
 eromanga-cafe.com##meta,link,script :remove()
@@ -1453,6 +1438,12 @@ hentai-witch.com###linkcat-293,#header-container,#content-top,#content-bottom,#p
 18comic.vip##li > a#meun_game,li > a[href="/shop"],li > a[href="/games"],.well.well-filters > div:nth-of-type(3),div > #post_comment,div.row[style*="display: flex;"][style*="flex-wrap: wrap;"]
 18comic.vip##[href="https://jm365.work/mpSWW7"],[href="mailto:www18comic@gmail.com"],[href="https://jm365.work/dFTN82"],[href="/bonus"],[href="https://jm365.work/pXYbfA"]
 18comic.vip##.tab-content.m-t-15.m-b-20 + .row,.thewayhome.scramble-page.center,li.ph-active:nth-of-type(1),li.ph-active:nth-of-type(4)
+#======漫画===========================================================================
 
-#======漫画===========================================================================
-#======漫画===========================================================================
+#======图片===========================================================================
+! 2024-05-08 https://a-hadaka.jp
+a-hadaka.jp###footer,#overlay,#headinfo,#commentarea,#hadakabar,address,header,.amazonpr,.dmmpr,.fancybox  :remove()
+a-hadaka.jp###nav li:nth-of-type(2)
+
+
+#======图片===========================================================================
