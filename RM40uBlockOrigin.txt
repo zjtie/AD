@@ -55,15 +55,6 @@ www.ximalaya.com##.gX_.album-intro
 www.ximalaya.com##._Ps.p-r-10.p-l-10.bg-white.recommend-list
 www.ximalaya.com##.eY_.clearfix.controls
 
-! 2023-06-25 https://tieba.baidu.com
-tieba.baidu.com##.tbui_aside_float_bar
-
-! 2023-06-26 https://pan.baidu.com
-pan.baidu.com##.wp-s-header__right-item.wp-s-header__nav-tooltip
-pan.baidu.com##.wp-s-header__right-item.gameEntry
-pan.baidu.com##.wp-header-user__tooltip-display.wp-s-header-user__tooltip
-
-
 ! 2023-07-14 https://shimo.im
 shimo.im##.nps-survey
 
@@ -100,17 +91,6 @@ thatpervert.com###postContainer4984265 > .post-normal.article > .post_top > .uhe
 
 ! 2022-08-18 https://www.voflix.com
 www.voflix.com##.popupShow.none.popup-tips.popup
-
-! 2022-11-20 https://pan.baidu.com 百度云
-pan.baidu.com##.wp-s-header__right-item.web-header-ad-item
-pan.baidu.com##span.wp-s-header__right-item
-pan.baidu.com##.wp-s-header__right-item.feedBack
-pan.baidu.com##a.wp-s-header__right-item > span
-pan.baidu.com##.gOIbzPb
-pan.baidu.com##.app-download
-pan.baidu.com##.app-user-vip-center
-pan.baidu.com##.app-icon.app-feedback.icon-feedback.icon
-pan.baidu.com##.link-instanted.app-icon.icon-notice.app-notice.icon
 
 ! 2022-11-20 http://www.cnu.cc 中国视觉联盟
 ||www.cnu.cc/uploads/banners/UYUHk1dUGEuOlI0L7JgV.jpg$image
@@ -349,21 +329,6 @@ discord.com##.wrapper-2JEvo0
 www.youtube.com###guide-links-secondary
 www.youtube.com###guide-links-primary
 
-! 2023-02-11 https://a227h.work
-
-! 2023-05-05 https://tieba.baidu.com
-tieba.baidu.com##.tb-forum-user__join-btn
-tieba.baidu.com##.more-btn-desc
-tieba.baidu.com##.nav-bar-bottom
-tieba.baidu.com##.only-lz
-tieba.baidu.com##.recommend-title-open-app
-tieba.baidu.com##.forum-btn-box
-tieba.baidu.com##div.recommend-list:nth-of-type(1)
-tieba.baidu.com##.no-more
-tieba.baidu.com##.gray-background.feed-warp
-tieba.baidu.com##.more-image-desc
-tieba.baidu.com##.comment-box
-
 ! 2023-07-26 https://avbebe.com
 avbebe.com##.footer-holder
 avbebe.com##.elementor-section-height-default.elementor-section-boxed.elementor-element-fe4f96a.elementor-element.elementor-top-section.elementor-section
@@ -467,15 +432,6 @@ weibo.com##.Reward_box_27GVq.wrap
 ! 2023-08-22 https://sspai.com
 sspai.com##.light.footer-container
 sspai.com##.right_bottom
-
-! 2023-02-13 https://ero-mangacafe.com
-ero-mangacafe.com###footer
-ero-mangacafe.com###header
-ero-mangacafe.com##.loop-single-widget
-ero-mangacafe.com###custom_html-7
-ero-mangacafe.com###comments-thread
-ero-mangacafe.com##.wsbl_twitter
-
 
 ! 2023-09-13 https://www.v2ex.com
 www.v2ex.com###Bottom
