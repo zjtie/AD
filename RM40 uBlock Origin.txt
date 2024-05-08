@@ -177,16 +177,6 @@ www.watchanime.video##.title
 www.tsumino.com##.browse-page > [href="/chat"]
 www.tsumino.com###page-jumper
 
-! 2023-02-13 https://nijifeti.com
-nijifeti.com##.site-footer
-nijifeti.com##.breadcrumbs
-nijifeti.com##.sidelink
-nijifeti.com##.toposu
-nijifeti.com##.pagetopwrap
-nijifeti.com###text-3
-!nijifeti.com###post-368486 > div.osu2
-!nijifeti.com###post-368339 > div.osu2
-
 ! 2023-02-13 https://erologz.com
 erologz.com###footer-blocks
 erologz.com##[src="https://erologz.com/pcrss"]
