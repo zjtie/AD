@@ -1208,15 +1208,6 @@ www.landiannews.com##.comments
 www.4khd.com##footer.wp-block-template-part
 www.4khd.com##.centbtd
 
-! 2024年4月24日 https://hentai-witch.com
-hentai-witch.com##.widget_links.widget-sidebar-standard.widget-sidebar.widget
-hentai-witch.com##.widget_pc_text.widget-sidebar-standard.widget-sidebar.widget
-hentai-witch.com##.widget_mobile_text.widget-sidebar-standard.widget-sidebar.widget
-hentai-witch.com##.widget_mobile_ad.widget-index-top.widget
-hentai-witch.com##.widget_mobile_ad.widget-index-bottom.widget
-hentai-witch.com##.ad-label
-hentai-witch.com##.ad-wrap
-
 ! 2024年4月24日 https://nijisenmon.work
 nijisenmon.work###st-headwide
 nijisenmon.work##div.st-infeed-adunit
@@ -1499,6 +1490,11 @@ eromanga-cafe.com##meta,link,script :remove()
 
 ! 2024-05-07 https://nijifeti.com
 nijifeti.com##header,.sidebox > div,.wppwrap,.pagetopwrap,.adbox,.osu2,.comment,#text-2,footer,meta,.posts__item,.morebox,.kline,.kizishitassp :remove()
+
+! 2024-05-07 https://eromanga-kai.com 
+#Erotic Manga no Kai 是一个面向成熟女性、已婚女性以及面向专家的 NTR 类型的漫画网站
+eromanga-kai.com##footer,#go-to-top,#header-container,#content-top,#sidebar,#pager-post-navi,#comment-area,#baguetteBox-overlay,.eye-catch-wrap,.sns-share :remove()
+
 
 #======漫画===========================================================================
 #======漫画===========================================================================
