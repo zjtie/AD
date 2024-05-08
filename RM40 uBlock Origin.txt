@@ -862,22 +862,6 @@ www.asianude4u.net##.related-box
 www.asianude4u.net##.home-share
 www.asianude4u.net##li.homeimg.ms-item > span
 
-! 2024-01-22 https://legs.a-hadaka.jp
-legs.a-hadaka.jp##.site-footer
-
-! 2024-01-22 https://a-hadaka.jp
-a-hadaka.jp###head-catch-def
-a-hadaka.jp###pr_dxlive
-a-hadaka.jp###footer
-a-hadaka.jp##address
-a-hadaka.jp##.pr
-a-hadaka.jp###pr_niji
-a-hadaka.jp##.clearfix.amazonpr
-a-hadaka.jp##.clearfix.dmmpr
-a-hadaka.jp###photo_footer
-a-hadaka.jp##.moncontent
-a-hadaka.jp###commentarea
-
 ! 2024-01-22 https://www.metarthunter.com
 www.metarthunter.com##.list-triple
 www.metarthunter.com##.text-center.double
@@ -1233,24 +1217,10 @@ www.imagefap.com##center > center > center
 www.imagefap.com###main > center
 beta.imagefap.com##.footerLinks.clear
 
-
-! 2024年4月30日 https://legs.a-hadaka.jp
-legs.a-hadaka.jp##footer,.skip-link
-
-
 ! 2024年4月30日 https://www.redgifs.com
 www.redgifs.com##.ApplicationFooter a:nth-of-type(3),.cookieNotice,.topNav-wrap > div:nth-of-type(1),.topNav-wrap > div:nth-of-type(3)
 www.redgifs.com##.SideBar > li:nth-of-type(7),.SideBar-Item > div._adLiveButton_p1t77_1:upward(li)
 #类名中包含"live"的div元素
-
-
-! 2024年4月25日 https://18comic.vip
-18comic.vip###billboard-modal,#shunt-modal  + div,#nb_path,#ipcountry
-18comic.vip##.footer-container,.footer-pad,.float-right-image,.float-right-daily,.top-menu-link.hidden-xs,.top-nav,.user-social.panel-default.panel,.copy-block.visible-sm.visible-xs
-18comic.vip##li > a#meun_game,li > a[href="/shop"],li > a[href="/games"],.well.well-filters > div:nth-of-type(3),div > #post_comment,div.row[style*="display: flex;"][style*="flex-wrap: wrap;"]
-18comic.vip##[href="https://jm365.work/mpSWW7"],[href="mailto:www18comic@gmail.com"],[href="https://jm365.work/dFTN82"],[href="/bonus"],[href="https://jm365.work/pXYbfA"]
-18comic.vip##.tab-content.m-t-15.m-b-20 + .row,.thewayhome.scramble-page.center,li.ph-active:nth-of-type(1),li.ph-active:nth-of-type(4)
-
 
 ! 2024年5月2日 https://nyahentai.re
 nyahentai.re##footer,#bcon,#is_w_area,#inview_style,#player-container,[id*="active_overlay"],[href="https://nyahentai.re/contact/"]
@@ -1474,6 +1444,15 @@ nijifeti.com##header,.sidebox > div,.wppwrap,.pagetopwrap,.adbox,.osu2,.comment,
 #Erotic Manga no Kai 是一个面向成熟女性、已婚女性以及面向专家的 NTR 类型的漫画网站
 eromanga-kai.com##footer,#go-to-top,#header-container,#content-top,#sidebar,#pager-post-navi,#comment-area,#baguetteBox-overlay,.eye-catch-wrap,.sns-share :remove()
 
+! 2024-05-08 https://hentai-witch.com
+hentai-witch.com###linkcat-293,#header-container,#content-top,#content-bottom,#pc_text-2,#baguetteBox-overlay,.recommended,footer  :remove()
+
+! 2024年4月25日 https://18comic.vip
+18comic.vip###billboard-modal,#shunt-modal  + div,#nb_path,#ipcountry
+18comic.vip##.footer-container,.footer-pad,.float-right-image,.float-right-daily,.top-menu-link.hidden-xs,.top-nav,.user-social.panel-default.panel,.copy-block.visible-sm.visible-xs
+18comic.vip##li > a#meun_game,li > a[href="/shop"],li > a[href="/games"],.well.well-filters > div:nth-of-type(3),div > #post_comment,div.row[style*="display: flex;"][style*="flex-wrap: wrap;"]
+18comic.vip##[href="https://jm365.work/mpSWW7"],[href="mailto:www18comic@gmail.com"],[href="https://jm365.work/dFTN82"],[href="/bonus"],[href="https://jm365.work/pXYbfA"]
+18comic.vip##.tab-content.m-t-15.m-b-20 + .row,.thewayhome.scramble-page.center,li.ph-active:nth-of-type(1),li.ph-active:nth-of-type(4)
 
 #======漫画===========================================================================
 #======漫画===========================================================================
