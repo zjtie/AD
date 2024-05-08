@@ -188,9 +188,6 @@ twivideo.net##div.btn-other:nth-of-type(2)
 twivideo.net##div.btn-other:nth-of-type(3)
 twivideo.net##.explanation
 
-! 2023-05-05 http://eromanga-kong.com
-eromanga-kong.com###out_header
-
 ! 2023-02-13 https://www.ho5ho.com
 www.ho5ho.com##.site-header
 www.ho5ho.com##.site-footer
@@ -840,11 +837,6 @@ jav468.com##.clearfix.foot_nav.foot > .container
 69story.com##.disc-list-icon
 69story.com##.cart-list-icon
 69story.com##.btn-18h.btn
-
-! 2024-01-28 https://eromanga-kong.com
-eromanga-kong.com##[src="https://eromanga-kong.com/wp-content/themes/sp_190115/img/kong_line_sp.png"]
-eromanga-kong.com##.related-box
-eromanga-kong.com###yarpp
 
 ! 2024-01-28 https://wnacg.com
 wnacg.com##[href="https://wnacg01.org/"]
