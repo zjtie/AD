@@ -133,23 +133,12 @@ bbs.tianya.cn##.clearfix.post-div
 groups.tianya.cn###barcode_float > .link-instanted
 groups.tianya.cn##.scroll-btn
 
-! 2022-11-30 https://www.manhuadb.com
-www.manhuadb.com##.one-line.mty-1
-www.manhuadb.com##div.d-sm-block.d-none.pt-sm-0.pt-3.pb-3.px-sm-2.px-1.col-xl-2.col-sm-2.col-4 > .mb-sm-0.mb-2.comicbook-index > .one-line.my-1
-www.manhuadb.com##.login-status.justify-content-end.d-flex.align-self-center > .btn-primary.btn
-www.manhuadb.com##[src="/assets/www/img/logo.png"]
-www.manhuadb.com##.mb-2.justify-content-between.d-flex
-www.manhuadb.com##div.p-3.bg-white.comic-toc-section > .m-0.row
-www.manhuadb.com##div.ml-md-3.mt-3.default-wrapper:nth-of-type(2)
-
-
 ! 2022-12-12 https://web.vip.miui.com
 web.vip.miui.com##.DownCard_downloadCard__1sLVU
 web.vip.miui.com##.UserProtocol_card__-eD84
 
 ! 2022-12-15 https://smailpro.com 临时谷歌邮箱
 smailpro.com##.py-2.order-last.items-center.inline-flex
-
 
 ! 2023-01-03 https://download.mokeedev.com
 download.mokeedev.com##.tips-help.row
@@ -352,17 +341,6 @@ zh.seexh6.com##.yld-pdsp-a.yld-pdsp-b
 
 ! 2023-08-18 https://zh.xhamstreet.com
 zh.xhamstreet.com##.cookies-modal__wrapper
-
-! 2023-02-13 https://eromanga-kai.com
-eromanga-kai.com##.header-container
-eromanga-kai.com###content-in > .cf.nwa.sidebar
-eromanga-kai.com##.ss-top.sbc-hide.bc-brand-color.ss-high-and-low-lc.ss-col-5.sns-share > .sns-buttons.sns-share-buttons
-eromanga-kai.com##.ss-bottom.sbc-hide.bc-brand-color.ss-high-and-low-lc.ss-col-5.sns-share
-eromanga-kai.com##.website-hide.comment-area
-eromanga-kai.com##.cf.post-navi-square.pager-post-navi
-eromanga-kai.com##.nwa.footer-container.footer
-eromanga-kai.com##.content-top
-eromanga-kai.com##.content-bottom
 
 ! 2022-11-30 https://weibo.com
 weibo.com##.Nav_links_1ytEi.Links_wrap_mrA8a.woo-box-flex
