@@ -892,26 +892,6 @@ m.sex8.cc##.font-size-12.text-white.px-1.align-items-center.d-flex.fixed-bottom
 sex8.cc##.b_oscar1
 sex8.cc##.b_oscar2
 
-! 2024-01-20 https://18h.animezilla.com
-18h.animezilla.com##span > .shiftnav-toggle-main-block
-18h.animezilla.com###my-video
-18h.animezilla.com###btn-footer
-18h.animezilla.com##.notice.news-box
-18h.animezilla.com##div#btn-swiper
-18h.animezilla.com###btn-wrapper
-18h.animezilla.com##.swiper-wrapper
-18h.animezilla.com###btn-toy
-18h.animezilla.com##.shiftnav-depth-0.menu-item-347.menu-item-object-custom.menu-item-type-custom.menu-item
-18h.animezilla.com###menu-item-4325 > .shiftnav-target
-18h.animezilla.com###menu-item-1956 > .shiftnav-target
-18h.animezilla.com###menu-item-1955 > .shiftnav-target
-18h.animezilla.com###menu-item-2727 > .shiftnav-target
-18h.animezilla.com###menu-item-826 > .shiftnav-target
-18h.animezilla.com###menu-item-2507 > .shiftnav-target
-18h.animezilla.com###menu-item-2406 > .shiftnav-target
-18h.animezilla.com###menu-item-584 > .shiftnav-target
-18h.animezilla.com###menu-item-346 > .shiftnav-target
-18h.animezilla.com##.shiftnav-site-title.shiftnav-menu-title
 
 ! 2024-01-20 https://m.huaban.com
 m.huaban.com##.app.item
@@ -1000,10 +980,6 @@ ysxs001.com##.layui-col-md4
 ! 2024-01-26 https://jav468.com
 jav468.com##.clearfix.foot_nav.foot > .container
 
-! 2024-01-26 https://18h.animezilla.com
-18h.animezilla.com##.site-footer
-18h.animezilla.com###related-entries
-18h.animezilla.com##.yarpp-related
 
 ! 2024-01-26 https://69story.com
 69story.com##.site-header
@@ -1017,12 +993,6 @@ jav468.com##.clearfix.foot_nav.foot > .container
 69story.com##.disc-list-icon
 69story.com##.cart-list-icon
 69story.com##.btn-18h.btn
-
-! 2024-01-26 https://18h.animezilla.com
-18h.animezilla.com##.cat-list-icon
-18h.animezilla.com##.tube-list-icon
-18h.animezilla.com##.dvd-list-icon
-18h.animezilla.com##.cart-list-icon
 
 ! 2024-01-28 https://eromanga-kong.com
 eromanga-kong.com##[src="https://eromanga-kong.com/wp-content/themes/sp_190115/img/kong_line_sp.png"]
@@ -1060,9 +1030,6 @@ rouman5.com##.position-abolute
 www.porngo.com##.underplayer_banner
 www.porngo.com##.spot_footer
 www.porngo.com##.spot_title.video-side__adv_title
-
-
-
 
 ! 2024-01-31 https://dbro.news
 dbro.news##.comments
