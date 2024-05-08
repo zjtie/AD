@@ -1,4 +1,4 @@
-! Title: RM40 uBlock Android
+! Title: RM40 uBlock Origin
 ! Homepage: https://github.com/zjtie/AD
 
 #======社交平台===========================================================================
