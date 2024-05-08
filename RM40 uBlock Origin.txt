@@ -124,15 +124,6 @@ taskerm.com##.aside-content
 ! 2022-11-30 https://b-gift.biligame.com
 b-gift.biligame.com##[href="//b-gift.biligame.com/"]
 
-
-! 2022-11-30 https://bbs.tianya.cn
-bbs.tianya.cn###barcode_float > [href="http://www.tianya.cn/mobile/"]
-bbs.tianya.cn###foot-new
-bbs.tianya.cn##.scroll-btn
-bbs.tianya.cn##.clearfix.post-div
-groups.tianya.cn###barcode_float > .link-instanted
-groups.tianya.cn##.scroll-btn
-
 ! 2022-12-12 https://web.vip.miui.com
 web.vip.miui.com##.DownCard_downloadCard__1sLVU
 web.vip.miui.com##.UserProtocol_card__-eD84
@@ -165,19 +156,6 @@ www.watchanime.video##.title
 ! 2023-02-13 https://www.tsumino.com
 www.tsumino.com##.browse-page > [href="/chat"]
 www.tsumino.com###page-jumper
-
-! 2023-02-13 https://erologz.com
-erologz.com###footer-blocks
-erologz.com##[src="https://erologz.com/pcrss"]
-erologz.com##[src="https://erologz.com/pc-header"]
-erologz.com##.text-111
-erologz.com###custom_html-244
-erologz.com##[src="https://erologz.com/pc-kijisita"]
-erologz.com###custom_html-81 > .custom-html-widget.textwidget
-erologz.com###custom_html-210 > .custom-html-widget.textwidget
-erologz.com##.columns.eleven.clearfix
-erologz.com###footer
-erologz.com##[src="https://erologz.com/matome-rand-pc"]
 
 ! 2023-02-14 http://hnalady.com
 hnalady.com###main-left > div.sidemenu_sitelink:nth-of-type(1)
