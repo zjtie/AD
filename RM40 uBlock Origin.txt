@@ -157,23 +157,6 @@ www.watchanime.video##.title
 www.tsumino.com##.browse-page > [href="/chat"]
 www.tsumino.com###page-jumper
 
-! 2023-02-14 http://hnalady.com
-hnalady.com###main-left > div.sidemenu_sitelink:nth-of-type(1)
-hnalady.com##div.plugin-freearea:nth-of-type(2)
-hnalady.com##div.plugin-freearea:nth-of-type(3)
-hnalady.com###header
-hnalady.com###sidemenu_right > div.plugin-freearea:nth-of-type(4)
-hnalady.com###main-right > div.plugin-freearea:nth-of-type(4)
-hnalady.com###footer
-hnalady.com##div.page_navi:nth-of-type(6)
-hnalady.com##div.sidemenu_body:nth-of-type(4)
-hnalady.com##div.sidemenu_body:nth-of-type(5)
-
-! 2023-02-14 https://nsfwx.link
-nsfwx.link##.site-info
-nsfwx.link###block-8
-nsfwx.link###menu-item-77 > [href="https://theporndude.com/zh"]
-
 ! 2023-05-03 https://femdomhentai.club
 femdomhentai.club##.g1-row-layout-page.g1-row.g1-footer
 femdomhentai.club##.g1-row-layout-page.g1-row.g1-prefooter-3cols.g1-prefooter
@@ -204,16 +187,6 @@ twivideo.net##.footer
 twivideo.net##div.btn-other:nth-of-type(2)
 twivideo.net##div.btn-other:nth-of-type(3)
 twivideo.net##.explanation
-
-! 2023-02-13 http://eromanga-kong.com
-eromanga-kong.com##footer
-eromanga-kong.com###header_inner
-eromanga-kong.com##nav > ul > li:nth-of-type(4)
-eromanga-kong.com##nav > ul > li:nth-of-type(3)
-eromanga-kong.com##.blogroll.xoxo
-eromanga-kong.com###side_right
-eromanga-kong.com##div.side_col > h3
-eromanga-kong.com##.commentarea
 
 ! 2023-05-05 http://eromanga-kong.com
 eromanga-kong.com###out_header
