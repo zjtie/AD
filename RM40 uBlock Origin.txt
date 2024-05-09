@@ -175,12 +175,6 @@ www.ho5ho.com##.post-status
 www.ho5ho.com##.c-page__content > .font-heading.style-2.c-blog__heading
 www.ho5ho.com##.lazy.c-breadcrumb-wrapper > .container
 
-! 2023-02-13 https://kingke.io
-kingke.io##div.HTML.bubble-element:nth-of-type(5)
-kingke.io##div.relative.bubble-r-container.Group.bubble-element > .Text.bubble-element
-kingke.io##.row.flex.bubble-r-container.CustomElement.bubble-element
-kingke.io##div.HTML.bubble-element:nth-of-type(6)
-kingke.io##div.relative.bubble-r-container.CustomElement.bubble-element:nth-of-type(1)
 
 ! 2022-12-30 https://www.facebook.com
 www.facebook.com##.x1y1aw1k > div > span > div > .x1n2onr6
@@ -207,15 +201,6 @@ wuso.me##.bmw.bm.pl
 wuso.me##.nex_dz_guanzhu
 wuso.me##.plm.plc
 wuso.me##.comiis_code
-
-! 2023-07-26 https://dbro.news
-dbro.news###smart-head > .smart-head-row-full.is-light.smart-head-mid.smart-head-row
-dbro.news##.has-sep.main-sidebar.col-4
-dbro.news##.post-share-b4.spc-social-colors.post-share-b.post-share
-dbro.news##.s-post-modern.the-post > .comments
-dbro.news##.s-dark.footer-classic.cols-gap-lg.main-footer
-dbro.news##.post-share-bot
-dbro.news##.show-lg.a-wrap-bg.a-wrap-6.a-wrap-base.a-wrap
 
 ! 2023-07-27 https://apkcombo.com
 apkcombo.com##.is-main.column > .title
