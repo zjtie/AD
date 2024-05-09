@@ -489,18 +489,6 @@ asiantolick.com##[href="https://asiantolick.com/report/DMCA"]
 asiantolick.com##[href="https://asiantolick.com/report/contact-us"]
 asiantolick.com###menu [href="https://theporndude.com/zh"]
 
-! 2023-12-17 https://rule34video.com
-rule34video.com##.panel_header > .theporndude.button_fav
-rule34video.com##.footer
-rule34video.com##.mobile-box.box
-rule34video.com##.thumb.spot-thumb
-rule34video.com##.popup popup_access
-rule34video.com##.footer_holder
-rule34video.com##.serach-info-autocomplete
-rule34video.com##.btn-favourites.tab
-#报告
-
-
 ! 2023-12-19 https://i.jandan.net
 i.jandan.net###footer
 i.jandan.net###commentform
@@ -1156,6 +1144,10 @@ h-ciyuan.com##meta,#gridview-head-content,#menu-item-13541,#menu-item-25315,.ent
 ichinuke.com##footer,#custom_html-47,#custom_html-25,#g_floating_area1,#g_floating_area2,#text-9,#custom_html-46,#custom_html-10,#custom_html-18,#text-4,#text-11,.c-shareBtns,.PcOnly,.w-singleTop,#comments,#custom_html-13,#recent-comments-2 :remove()
 ichinuke.com###slide_wrap_pc,#custom_html-30,.p-fixBtnWrap,#slide_wrap,#fix_bottom_menu,#after_article Div,#after_article section,#header .pc_,div[id*="_ad_"],div[id*="footer"],div[class*="sgpb-main-popup-data"]:remove()
 ichinuke.com##.has-text-align-center
+
+! 2024-05-09 https://oreno-erohon.com
+oreno-erohon.com###article-options,.sp_head_box,#inner-content > h2,#text-57,#shimi_comment_widget-3,.comment_area,.menu02 li:nth-of-type(4) ~ li,#text-20,.page-title + div,.page-title,.header,.sp_footer,.footer,.section-box:remove()
+
 #======漫画===========================================================================
 
 #======图片===========================================================================
