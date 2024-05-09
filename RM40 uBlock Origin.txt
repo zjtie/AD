@@ -288,21 +288,8 @@ www.jdlingyu.com##fieldset
 www.jdlingyu.com##[src="https://www.jdlingyu.com/img/WXXC.webp"]
 www.jdlingyu.com##.ym-menu
 
-! 2023-12-17 https://cn.vxkk.cc
-cn.vxkk.cc##footer.wp-block-template-part
-cn.vxkk.cc##.has-background.has-border-color.wp-block-group.is-layout-flow > .is-style-default.wp-block-group.is-layout-flow
-cn.vxkk.cc##.has-text-color.has-dark-color.has-text-align-center
-cn.vxkk.cc##.has-text-color.has-dark-color.is-style-default.wp-block-group.wp-container-11.is-layout-flex.is-content-justification-space-between
-cn.vxkk.cc##.wp-block-group.wp-container-16.is-layout-flex.is-nowrap
-cn.vxkk.cc##.has-large-font-size.wp-block-group.wp-container-15.is-layout-flex.is-nowrap > .has-large-font-size
-cn.vxkk.cc##.has-large-font-size.wp-block-group.wp-container-15.is-layout-flex.is-nowrap
-
 ! 2023-12-17 https://asiantolick.com
-asiantolick.com##.menssage_favorite
-asiantolick.com##[href="https://asiantolick.com/report/removal"]
-asiantolick.com##[href="https://asiantolick.com/report/DMCA"]
-asiantolick.com##[href="https://asiantolick.com/report/contact-us"]
-asiantolick.com###menu [href="https://theporndude.com/zh"]
+
 
 ! 2023-12-19 https://i.jandan.net
 i.jandan.net###footer
