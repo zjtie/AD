@@ -1228,6 +1228,10 @@ zh.xhamster.com##.bvNVl-luEpremium-n-overlay,[data-role="bvNVl-luEtop"],.layoutP
 www.redgifs.com##.ApplicationFooter a:nth-of-type(3),.cookieNotice,.topNav-wrap > div:nth-of-type(1),.topNav-wrap > div:nth-of-type(3)
 www.redgifs.com##.SideBar > li:nth-of-type(7),.SideBar-Item > div._adLiveButton_p1t77_1:upward(li)
 #类名中包含"live"的div元素
+
+! 2024-05-08 https://avbebe.com
+avbebe.com##.jeg_nav_center,.jeg_ad,.jeg_ad_top,.jnews_header_top_ads,.jnews_comment_container,.relpost-thumb-wrapper,.jnews_author_box_container,.jnews_related_post_container,.jnews_popup_post_container,.jnews_prev_next_container,#post-body-class,.jeg_aside_item  li:nth-of-type(n+13):nth-of-type(-n+18),.jeg_mainmenu_wrap  li:nth-of-type(n+13):nth-of-type(-n+18)  :remove()
+
 #======Video===========================================================================
 
 
