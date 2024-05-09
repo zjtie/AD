@@ -285,27 +285,6 @@ wnacg.com##p.result:nth-of-type(2)
 wnacg.com##[src="/themes/weitu/images/bg/shoucang.jpg"]
 #添加收藏
 
-! 2023-09-14 https://ichinuke.com
-ichinuke.com###text-11
-ichinuke.com###text-4
-ichinuke.com##.wrap.content-top-in
-ichinuke.com##.under-entry-content
-#广告
-ichinuke.com##.comment-area
-ichinuke.com##.widget_recent_comments.widget-sidebar-standard.widget-sidebar.widget
-#评论
-ichinuke.com##.pc_.l-header__bar
-ichinuke.com##.PhoneOnly
-ichinuke.com##.PcOnly
-ichinuke.com###custom_html-13
-ichinuke.com##.w-beforeRelated.l-articleBottom__section
-ichinuke.com###sp_menu
-ichinuke.com##footer
-ichinuke.com##[href="https://ichinuke.com/feed/"]
-ichinuke.com###g_floating_area1
-ichinuke.com###g_floating_area2
-ichinuke.com###slide_wrap_pc
-
 ! 2023-09-15 https://kimootoko.net
 kimootoko.net###copyright
 kimootoko.net###footer
@@ -391,11 +370,6 @@ nijiero-ch.com##.w100.cf.rssArea
 #下载
 2jiero.net##.migishita_kotei_all
 #浮窗
-
-
-! 2023-09-15 https://ichinuke.com
-ichinuke.com###slide_wrap
-ichinuke.com##.PhoneOnly
 
 ! 2023-09-15 https://moeimg.net
 moeimg.net##.searchbyimage
@@ -557,10 +531,6 @@ rule34video.com##.btn-favourites.tab
 ! 2023-12-19 https://i.jandan.net
 i.jandan.net###footer
 i.jandan.net###commentform
-
-! 2023-12-21 https://ichinuke.com
-ichinuke.com##.-style-block.-bottom.c-shareBtns
-ichinuke.com##.-comment.l-articleBottom__section
 
 ! 2023-12-27 https://xchina.co
 xchina.co##div.slider-ad
