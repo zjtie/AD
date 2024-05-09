@@ -249,8 +249,6 @@ m.agedm.org##.go-marketing.box-common
 m.agedm.org##.age-update-dialog.van-dialog
 m.agedm.org##.van-overlay
 ! 2024年4月26日 https://www.agedm.org
-www.agedm.org##.global_notice_wrapper
-www.agedm.org##.foot_content_wrapper
 www.agedm.org##.my-3.col-md-12
 www.agedm.org###notice_box
 www.agedm.org##[href^="https://www.agedm.app"]
@@ -296,11 +294,7 @@ i.jandan.net###footer
 i.jandan.net###commentform
 
 ! 2023-12-27 https://xchina.co
-xchina.co##div.slider-ad
-xchina.co##div.banner_ad.article
-xchina.co##div.item
-xchina.co##footer
-xchina.co##.playerMask
+
 
 ! 2024-01-11 https://blog.csdn.net
 blog.csdn.net##.wap-shadowbox.weixin-shadowbox
@@ -962,7 +956,7 @@ moeimg.net###header,#pickup-header_frame,#footer,.pc_only,.sp_only.sp_ad_4,.pc_o
 #页面头部 #页面头部 #页面尾部 #广告 #广告 #侧边栏 #分享 #上一篇/下一篇 #关注
 
 ! 2024-01-21 https://www.pornpics.com
-www.pornpics.com###cookie-contract,#fb-button,.left-nav-sponsor.left-side,.r-frame-on.adss-mob.r-frame,.footer :remove()
+www.pornpics.com###cookie-contract,#fb-button,.left-nav-sponsor.left-side,.r-frame-on.adss-mob.r-frame,.footer,#fb-button,footer :remove()
 #======图片===========================================================================
 #======ASMR===========================================================================
 ! 2024-05-08 https://www.hentaiasmr.moe
