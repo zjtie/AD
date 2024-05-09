@@ -357,12 +357,6 @@ www.asianude4u.net###single-share
 www.asianude4u.net##footer
 www.asianude4u.net##.sidebar
 
-! 2024-01-21 https://www.pornpics.com
-www.pornpics.com###cookie-contract
-www.pornpics.com###fb-button
-www.pornpics.com##.left-nav-sponsor.left-side
-www.pornpics.com##.r-frame-on.adss-mob.r-frame
-www.pornpics.com##.footer
 
 ! 2024-01-22 https://zh.yazhouse8.live
 zh.yazhouse8.live##.cookies-reminder
@@ -967,6 +961,8 @@ a-hadaka.jp###nav li:nth-of-type(2)
 moeimg.net###header,#pickup-header_frame,#footer,.pc_only,.sp_only.sp_ad_4,.pc_only.widget-area,.sp_only,.sp_only,.share.entryblock,#respond,.commentlist,#comments,.nav-below,.follow.entryblock,.balloon.comments-link,li.widget-container:nth-of-type(4),.searchbyimage,#sp_ad_entry_middle_frame :remove()
 #页面头部 #页面头部 #页面尾部 #广告 #广告 #侧边栏 #分享 #上一篇/下一篇 #关注
 
+! 2024-01-21 https://www.pornpics.com
+www.pornpics.com###cookie-contract,#fb-button,.left-nav-sponsor.left-side,.r-frame-on.adss-mob.r-frame,.footer :remove()
 #======图片===========================================================================
 #======ASMR===========================================================================
 ! 2024-05-08 https://www.hentaiasmr.moe
