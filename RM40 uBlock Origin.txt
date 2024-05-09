@@ -78,8 +78,7 @@ www.cnu.cc##.link-instanted > div
 
 
 ! 2022-11-20 https://nhentai.net
-nhentai.net###comment-post-container
-nhentai.net##li.desktop:nth-of-type(8)
+nhentai.net###comment-post-container,li.desktop:nth-of-type(8) :remove()
 
 ! 2022-11-21 https://www.jianguoyun.com  坚果云
 www.jianguoyun.com##.teaser-container
@@ -180,21 +179,7 @@ wnacg.com##[src="/themes/weitu/images/bg/shoucang.jpg"]
 #添加收藏
 
 ! 2023-09-15 https://kimootoko.net
-kimootoko.net###copyright
-kimootoko.net###footer
-#页面尾部
-kimootoko.net##.widget_custom_html.head-under.widget.widget_text
-kimootoko.net##.clearfix.grid.toc.posts-list-upper-widget
-kimootoko.net##.area-arbitrary.widget-shortcode.widget_custom_html.widget.widget_text
-kimootoko.net###main aside
-kimootoko.net##.clearfix > div > div > [href]
-kimootoko.net##div:nth-of-type(2) > div:nth-of-type(5)
-kimootoko.net##div.fanzakiji
-#广告
-kimootoko.net###side-fixed > .widget_custom_html.widget.widget_text
-#拾取文章介绍
-kimootoko.net###header
-#页面头部
+
 
 ! 2023-09-15 https://moeimg.net
 moeimg.net###header
@@ -1048,6 +1033,8 @@ ahri8.top##.page-footer,nav > ul > li:nth-of-type(8),nav > ul > li:nth-of-type(7
 www.tsumino.com##.tsumino-nav-active,li:nth-of-type(6),[href="/chat"],#liComments :remove()
 #关于 #聊天 #聊天 #评论
 
+! 2022-11-20 https://nhentai.net
+nhentai.net###comment-post-container,li.desktop:nth-of-type(8) :remove()
 
 #======漫画===========================================================================
 
