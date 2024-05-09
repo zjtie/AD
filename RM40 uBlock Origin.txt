@@ -126,16 +126,10 @@ smailpro.com##.grecaptcha-badge
 smailpro.com###app > div
 
 ! 2023-02-13 https://www.tsumino.com
-www.tsumino.com##.browse-page > [href="/chat"]
-www.tsumino.com###page-jumper
 
 ! 2023-05-03 https://femdomhentai.club
 femdomhentai.club##.g1-row-layout-page.g1-row.g1-footer
 femdomhentai.club##.g1-row-layout-page.g1-row.g1-prefooter-3cols.g1-prefooter
-
-! 2023-05-03 https://www.tsumino.com
-www.tsumino.com##.tab-content
-www.tsumino.com##.nav-justified.nav-pills.nav.tsumino-pills
 
 ! 2022-12-30 https://www.facebook.com
 www.facebook.com##.x1y1aw1k > div > span > div > .x1n2onr6
