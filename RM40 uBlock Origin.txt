@@ -1,6 +1,6 @@
 ! Title: RM40 uBlock Origin
 ! Homepage: https://github.com/zjtie/AD
-
+!#include RM40uBlockInclude
 #======解决不了的===========================================================================
 www.porngo.com##footer :remove()
 
