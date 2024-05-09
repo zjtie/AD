@@ -56,9 +56,6 @@ www.aliyundrive.com##.text--2buEJ
 iao.su##[src="https://i.niao.su/Yo9QSPA.jpg"]
 iao.su##[src="https://i.niao.su/Yo9QSPA.jpg"]
 
-! 2022-01-16 https://freesexgames.app
-freesexgames.app##div.col-12:nth-of-type(4)
-
 ! 2022-01-21 https://www.huashi6.com  触站画师
 www.huashi6.com##.chuzhan-app-download
 www.huashi6.com##.c-sidebar
@@ -165,9 +162,6 @@ apkcombo.com##.is-main.column > .title,.is-desktop-only.widget,.footer,div.widge
 ! 2023-07-27 https://www.yuque.com
 www.yuque.com##.copyright,.like-module_larkLike_zeNuZ,.index-module_openInAppContainer_Vmiru,#footer :remove()
 
-! 2023-08-18 https://zh.xhamstreet.com
-zh.xhamstreet.com##.cookies-modal__wrapper
-
 ! 2022-11-30 https://weibo.com
 weibo.com##.Nav_links_1ytEi.Links_wrap_mrA8a.woo-box-flex
 weibo.com##.Aria_btn_3caTr
@@ -183,29 +177,10 @@ sspai.com##.right_bottom
 www.v2ex.com###Bottom
 #页尾
 
-! 2023-09-14 https://rouman5.com
-rouman5.com##.footer_root__6F7g2
-#页尾
-rouman5.com##a.nav-link:nth-of-type(4)
-#福利
-rouman5.com##a.nav-link:nth-of-type(3)
-#APP
-rouman5.com##button.react-share__ShareButton
-#分享
 
 
-! 2023-09-14 https://ahri8.top
-ahri8.top##.page-footer
-#页面尾部
-ahri8.top##nav > ul > li:nth-of-type(8)
-#关于网站
-ahri8.top##nav > ul > li:nth-of-type(7)
-#捐赠网站
-ahri8.top##.in.fade.alert-danger.alert
-# 请收藏此发布页!
-ahri8.top##div.col-lg-12:nth-of-type(3)
-ahri8.top##.col-lg-12 > .row
-#空白行
+
+
 
 ! 2023-09-14 https://wnacg.com
 wnacg.com##.wrap.footer
@@ -1090,7 +1065,14 @@ ichinuke.com##.has-text-align-center
 oreno-erohon.com###article-options,.sp_head_box,#inner-content > h2,#text-57,#shimi_comment_widget-3,.comment_area,.menu02 li:nth-of-type(4) ~ li,#text-20,.page-title + div,.page-title,.header,.sp_footer,.footer,.section-box:remove()
 
 ! 2023-09-14 https://www.177pica.com
+www.177pica.com###text-13,#text-8,footer,#footer-widget-box,.clear,.header-sub,.ad-pc,.ad-site:remove()
 
+! 2023-09-14 https://rouman5.com 
+rouman5.com##.footer_root__6F7g2,a.nav-link:nth-of-type(4),a.nav-link:nth-of-type(3),button.react-share__ShareButton:remove()
+
+! 2023-09-14 https://ahri8.top
+ahri8.top##.page-footer,nav > ul > li:nth-of-type(8),nav > ul > li:nth-of-type(7),.in.fade.alert-danger.alert,div.col-lg-12:nth-of-type(3),.col-lg-12 > .row
+#页面尾部 #关于网站 #捐赠网站 #请收藏此发布页! #空白行
 #======漫画===========================================================================
 
 #======图片===========================================================================
