@@ -32,3 +32,14 @@ eromanga-kong.com wp.com * block
 eromanga-select.com wp.com * block
 
 ichinuke.com * 3p block
+
+hanime1.me addthis.com * block
+hanime1.me cloudflare.com * block
+hanime1.me googlesyndication.com * block
+hanime1.me googletagmanager.com * block
+hanime1.me impactserving.com * block
+hanime1.me jads.co * block
+hanime1.me jquery.com * block
+hanime1.me jsdelivr.net * block
+hanime1.me magsrv.com * block
+hanime1.me mnaspm.com * block
