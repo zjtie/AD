@@ -1090,7 +1090,7 @@ ichinuke.com##.has-text-align-center
 oreno-erohon.com###article-options,.sp_head_box,#inner-content > h2,#text-57,#shimi_comment_widget-3,.comment_area,.menu02 li:nth-of-type(4) ~ li,#text-20,.page-title + div,.page-title,.header,.sp_footer,.footer,.section-box:remove()
 
 ! 2023-09-14 https://www.177pica.com
-www.177pica.com###colophon,#footer-widget-box,#top-header,#scroll :remove()
+
 #======漫画===========================================================================
 
 #======图片===========================================================================
