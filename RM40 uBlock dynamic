@@ -77,3 +77,18 @@ behind-the-scene * 3p-script noop
 behind-the-scene * image noop
 behind-the-scene * inline-script noop
 
+kimootoko.net * 3p block
+www.tsumino.com * 3p block
+wnacg.com * 3p block
+wnacg.com * 3p-frame block
+wnacg.com * 3p-script block
+wnacg.com aicdn.com * block
+wnacg.com vm.aicdn.com * noop
+wnacg.com juicyads.com * block
+wnacg.com adserver.juicyads.com * block
+wnacg.com qy0.ru * block
+wnacg.com img5.qy0.ru * block
+wnacg.com upaiyun.com * noop
+wnacg.com yandex.ru * block	
+moeimg.net * 3p block
+
