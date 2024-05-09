@@ -124,12 +124,6 @@ smailpro.com##.max-w-screen-lg.mx-auto.container.border-gray-50.border-t.p-2
 smailpro.com##.grecaptcha-badge
 smailpro.com###app > div
 
-! 2023-02-13 https://www.watchanime.video
-www.watchanime.video##.site-footer
-www.watchanime.video###page > .tags
-www.watchanime.video##.friends
-www.watchanime.video##.title
-
 ! 2023-02-13 https://www.tsumino.com
 www.tsumino.com##.browse-page > [href="/chat"]
 www.tsumino.com###page-jumper
@@ -1247,4 +1241,7 @@ a-hadaka.jp###nav li:nth-of-type(2)
 www.hentaiasmr.moe##footer,.site-branding,.top-bar,#stckyhdr,#comments,.lazy-ad-container,.aside-cats[style] :remove()
 
 #======ASMR===========================================================================
+#======动漫===========================================================================
+
+#======动漫===========================================================================
 
