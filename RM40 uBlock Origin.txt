@@ -133,11 +133,6 @@ www.tsumino.com###page-jumper
 femdomhentai.club##.g1-row-layout-page.g1-row.g1-footer
 femdomhentai.club##.g1-row-layout-page.g1-row.g1-prefooter-3cols.g1-prefooter
 
-! 2023-05-03 https://nikaraw.com
-nikaraw.com##footer
-nikaraw.com##div.row:nth-of-type(5)
-nikaraw.com##div.row:nth-of-type(4)
-
 ! 2023-05-03 https://www.tsumino.com
 www.tsumino.com##.tab-content
 www.tsumino.com##.nav-justified.nav-pills.nav.tsumino-pills
