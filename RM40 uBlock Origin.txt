@@ -141,12 +141,6 @@ nikaraw.com##div.row:nth-of-type(4)
 www.tsumino.com##.tab-content
 www.tsumino.com##.nav-justified.nav-pills.nav.tsumino-pills
 
-! 2023-02-13 https://www.porngo.com
-www.porngo.com##.footer
-www.porngo.com##.report-btn
-www.porngo.com##.spot_link.nav-menu__link
-www.porngo.com##.header__box_actions.header__box > .nav-menu > li.nav-menu__item:nth-of-type(6)
-
 ! 2023-05-05 https://mgav1.cc
 mgav1.cc###footer
 mgav1.cc##.row > .row
@@ -724,11 +718,6 @@ ahri8.top##.header-dropdown-list
 ! 2024-01-30 https://rouman5.com
 rouman5.com##.position-abolute
 
-! 2024-01-30 https://www.porngo.com
-www.porngo.com##.underplayer_banner
-www.porngo.com##.spot_footer
-www.porngo.com##.spot_title.video-side__adv_title
-
 ! 2024-01-31 https://www.metart.com
 www.metart.com##.panels.man-ui
 
@@ -1242,6 +1231,7 @@ www.hentaiasmr.moe##footer,.site-branding,.top-bar,#stckyhdr,#comments,.lazy-ad-
 
 #======ASMR===========================================================================
 #======动漫===========================================================================
-
+! 2024-05-08 https://www.watchanime.video
+www.watchanime.video##footer :remove()
 #======动漫===========================================================================
 
