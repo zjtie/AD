@@ -236,24 +236,7 @@ moeimg.net##.follow.entryblock
 #关注
 
 ! 2023-09-15 https://nijiero-ch.com
-nijiero-ch.com###header
-nijiero-ch.com##footer
-#页面头部尾部
-nijiero-ch.com###leftContent
-nijiero-ch.com###custom_html-17
-#赞助的
-nijiero-ch.com###custom_html-20
-#排名
-nijiero-ch.com###recent_comments-4
-nijiero-ch.com##article
-#评价
-nijiero-ch.com###shareArea
-#分享
-nijiero-ch.com###postPagers
-#上一篇/下一篇
-nijiero-ch.com##.cf.rssArea
-nijiero-ch.com##.w100.cf.rssArea
-#推荐新文章
+
 
 ! 2023-09-15 https://2jiero.net
 2jiero.net###header
