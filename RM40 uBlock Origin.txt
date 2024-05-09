@@ -122,11 +122,6 @@ smailpro.com##.max-w-screen-lg.mx-auto.container.border-gray-50.border-t.p-2
 smailpro.com##.grecaptcha-badge
 smailpro.com###app > div
 
-! 2023-02-13 https://www.tsumino.com
-
-! 2023-05-03 https://femdomhentai.club
-femdomhentai.club##.g1-row-layout-page.g1-row.g1-footer
-femdomhentai.club##.g1-row-layout-page.g1-row.g1-prefooter-3cols.g1-prefooter
 
 ! 2022-12-30 https://www.facebook.com
 www.facebook.com##.x1y1aw1k > div > span > div > .x1n2onr6
@@ -163,79 +158,10 @@ sspai.com##.right_bottom
 www.v2ex.com###Bottom
 #页尾
 
-
-
-
-
-
-! 2023-09-14 https://wnacg.com
-wnacg.com##.wrap.footer
-#页面尾部
-wnacg.com##p.result:nth-of-type(1)
-#广告白名单
-wnacg.com##p.result:nth-of-type(2)
-#网站发布地址
-wnacg.com##[src="/themes/weitu/images/bg/shoucang.jpg"]
-#添加收藏
-
-! 2023-09-15 https://kimootoko.net
-
-
-! 2023-09-15 https://moeimg.net
-moeimg.net###header
-moeimg.net###pickup-header_frame
-#页面头部
-moeimg.net###footer
-#页面尾部
-moeimg.net##.pc_only
-moeimg.net##.sp_only.sp_ad_4
-
-#广告
-moeimg.net##.pc_only.widget-area
-moeimg.net##.sp_only
-#侧边栏
-moeimg.net##.share.entryblock
-#分享
-moeimg.net###respond
-moeimg.net##.commentlist
-moeimg.net###comments
-moeimg.net##li.widget-container:nth-of-type(4)
-moeimg.net##.balloon.comments-link
-#评论
-moeimg.net##.nav-below
-#上一篇/下一篇
-moeimg.net##.follow.entryblock
-#关注
-
 ! 2023-09-15 https://nijiero-ch.com
 
 
 ! 2023-09-15 https://2jiero.net
-2jiero.net###header
-2jiero.net###footer
-#页面头部|页面尾部
-2jiero.net###comments
-#评价
-2jiero.net###pnavi
-#上一篇/下一篇
-2jiero.net###sns-bottoms
-2jiero.net##.snsf-c
-2jiero.net##.sns-msg
-#分享
-2jiero.net##div.s-box
-#图像搜索
-2jiero.net###execphp-20
-2jiero.net###side-scroll
-2jiero.net##aside > .widget_execphp.widget
-#广告
-2jiero.net##.execphpwidget
-#下载
-2jiero.net##.migishita_kotei_all
-#浮窗
-
-! 2023-09-15 https://moeimg.net
-moeimg.net##.searchbyimage
-moeimg.net###sp_ad_entry_middle_frame
 
 ! 2023-09-25 https://m.yhdmz.org
 m.yhdmz.org###www_tip_bak
@@ -1036,6 +962,13 @@ www.tsumino.com##.tsumino-nav-active,li:nth-of-type(6),[href="/chat"],#liComment
 ! 2022-11-20 https://nhentai.net
 nhentai.net###comment-post-container,li.desktop:nth-of-type(8) :remove()
 
+! 2023-09-15 https://kimootoko.net
+#喜欢被令人毛骨悚然的男人强奸的美丽女主角同人作品
+kimootoko.net###copyright,#footer,#wp-footer,noscript,#header,.posts-list-upper-widget,div[id*="custom_html"] :remove()
+
+! 2023-09-14 https://wnacg.com
+wnacg.com##.wrap.footer,p.result:nth-of-type(1),p.result:nth-of-type(2),[src="/themes/weitu/images/bg/shoucang.jpg"],#head_notify :remove()
+#页面尾部 #广告白名单 #网站发布地址 #添加收藏
 #======漫画===========================================================================
 
 #======图片===========================================================================
@@ -1043,6 +976,9 @@ nhentai.net###comment-post-container,li.desktop:nth-of-type(8) :remove()
 a-hadaka.jp###footer,#overlay,#headinfo,#commentarea,#hadakabar,address,header,.amazonpr,.dmmpr,.fancybox  :remove()
 a-hadaka.jp###nav li:nth-of-type(2)
 
+! 2023-09-15 https://moeimg.net
+moeimg.net###header,#pickup-header_frame,#footer,.pc_only,.sp_only.sp_ad_4,.pc_only.widget-area,.sp_only,.sp_only,.share.entryblock,#respond,.commentlist,#comments,.nav-below,.follow.entryblock,.balloon.comments-link,li.widget-container:nth-of-type(4),.searchbyimage,#sp_ad_entry_middle_frame :remove()
+#页面头部 #页面头部 #页面尾部 #广告 #广告 #侧边栏 #分享 #上一篇/下一篇 #关注
 
 #======图片===========================================================================
 #======ASMR===========================================================================
