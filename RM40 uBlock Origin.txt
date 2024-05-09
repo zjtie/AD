@@ -807,18 +807,6 @@ simpcity.su##.nav-shoosh.p-navEl-link
 simpcity.su##.p-footer
 simpcity.su##.js-notices.notices--block.notices
 
-! 2024-04-14 https://hanime1.me
-hanime1.me##.hidden-xs.footer-new.row
-hanime1.me##.hidden-xs.no-select.video-show-action-btn
-hanime1.me##.hidden-xl.hidden-lg.hidden-md.hidden-sm.single-icon-outlier.no-select.video-show-action-btn
-#反馈
-hanime1.me###watch-footer
-hanime1.me##.hidden-lg.hidden-md.hidden-sm.footer-new.row
-hanime1.me##.active.comment-tablinks.tablinks
-hanime1.me###mobile-ad
-hanime1.me###home-rows-wrapper > div.hidden-xs:nth-of-type(6)
-hanime1.me##.comment-tablinks.tablinks
-
 ! 2024-04-14 https://ohentai.org
 ohentai.org##[href^="https://candy.ai"]
 ohentai.org##[href="https://discord.gg/UD3fFTj"]
@@ -1190,6 +1178,11 @@ asmhentai.com##li.friends > [href="https://hentaiera.com"],li.friends > [href="h
 
 ! 2024-05-08 https://h-ciyuan.com
 h-ciyuan.com##meta,#gridview-head-content,#menu-item-13541,#menu-item-25315,.entry-header,#gridview-wrapper-outside ~ .gridview-outer-wrapper,#comments,.gridview-share-buttons,#gridview-sidebar-two-wrapper,.code-block :remove()
+
+! 2024-05-08 https://ichinuke.com
+ichinuke.com##footer,#custom_html-47,#custom_html-25,#g_floating_area1,#g_floating_area2,#text-9,#custom_html-46,#custom_html-10,#custom_html-18,#text-4,#text-11,.c-shareBtns,.PcOnly,.w-singleTop,#comments,#custom_html-13,#recent-comments-2 :remove()
+ichinuke.com###slide_wrap_pc,#custom_html-30,.p-fixBtnWrap,#slide_wrap,#fix_bottom_menu,#after_article Div,#after_article section,#header .pc_,div[id*="_ad_"],div[id*="footer"],div[class*="sgpb-main-popup-data"]:remove()
+ichinuke.com##.has-text-align-center
 #======漫画===========================================================================
 
 #======图片===========================================================================
