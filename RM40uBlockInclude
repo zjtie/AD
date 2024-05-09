@@ -1,5 +1,6 @@
 ! Title: RM40 uBlock Include
 ! Homepage: https://github.com/zjtie/AD
+! Homepage: https://raw.githubusercontent.com/zjtie/AD/main/RM40uBlockInclude
 
 ! 2024-05-09 https://xchina.co
 xchina.co##.push-bottom,.modalAd,footer,.banner_ad,div.article > .layout-1,.qrcode,.slider-ad,.push-top,.share:remove()
