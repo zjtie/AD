@@ -145,29 +145,6 @@ nikaraw.com##div.row:nth-of-type(4)
 www.tsumino.com##.tab-content
 www.tsumino.com##.nav-justified.nav-pills.nav.tsumino-pills
 
-! 2023-05-05 https://mgav1.cc
-mgav1.cc###footer
-mgav1.cc##.row > .row
-mgav1.cc##.link-instanted.\31 00\=0.Item
-
-! 2023-05-05 https://twivideo.net
-twivideo.net###is_w_area
-twivideo.net##.footer
-twivideo.net##div.btn-other:nth-of-type(2)
-twivideo.net##div.btn-other:nth-of-type(3)
-twivideo.net##.explanation
-
-! 2023-02-13 https://www.ho5ho.com
-www.ho5ho.com##.site-header
-www.ho5ho.com##.site-footer
-www.ho5ho.com##.entry-header
-||ho5hocdn1.b-cdn.net/wp-content/themes/madara/images/bg-search.jpg$image
-www.ho5ho.com##.wrapper.manga-discussion
-www.ho5ho.com##.post-status
-www.ho5ho.com##.c-page__content > .font-heading.style-2.c-blog__heading
-www.ho5ho.com##.lazy.c-breadcrumb-wrapper > .container
-
-
 ! 2022-12-30 https://www.facebook.com
 www.facebook.com##.x1y1aw1k > div > span > div > .x1n2onr6
 www.facebook.com##.x1a8lsjc.xz9dl7a.x1swvt13.x1pi30zi.x1a02dak.x78zum5.x6s0dn4
@@ -183,20 +160,10 @@ www.youtube.com###guide-links-secondary
 www.youtube.com###guide-links-primary
 
 ! 2023-07-27 https://apkcombo.com
-apkcombo.com##.is-main.column > .title
-apkcombo.com##.is-desktop-only.widget
-apkcombo.com##.footer
-apkcombo.com##div.widget:nth-of-type(6)
-apkcombo.com###download-result > .widget
-apkcombo.com##.link-instanted.tag
-apkcombo.com##.link-instanted.installer
-apkcombo.com##a.link-instanted.navbar-item:nth-of-type(1)
+apkcombo.com##.is-main.column > .title,.is-desktop-only.widget,.footer,div.widget:nth-of-type(6),#download-result > .widget,.link-instanted.tag,.link-instanted.installer,a.link-instanted.navbar-item:nth-of-type(1),.navbar-end :remove()
 
 ! 2023-07-27 https://www.yuque.com
-www.yuque.com##.copyright
-
-! 2023-08-18 https://zh.seexh6.com
-zh.seexh6.com##.yld-pdsp-a.yld-pdsp-b
+www.yuque.com##.copyright,.like-module_larkLike_zeNuZ,.index-module_openInAppContainer_Vmiru,#footer :remove()
 
 ! 2023-08-18 https://zh.xhamstreet.com
 zh.xhamstreet.com##.cookies-modal__wrapper
@@ -226,14 +193,6 @@ rouman5.com##a.nav-link:nth-of-type(3)
 rouman5.com##button.react-share__ShareButton
 #分享
 
-! 2023-09-14 https://www.177pica.com
-www.177pica.com###colophon
-www.177pica.com###footer-widget-box
-#页面尾部
-www.177pica.com###top-header
-#页面头部
-www.177pica.com###scroll
-#浮动窗口
 
 ! 2023-09-14 https://ahri8.top
 ahri8.top##.page-footer
@@ -599,10 +558,6 @@ www.metarthunter.com##.text-center.double
 www.youngpussypic.com##.pop-wrap
 www.youngpussypic.com##.clearfix.related-pic-list
 
-! 2024-01-22 https://www.yuque.com
-www.yuque.com##.like-module_larkLike_zeNuZ
-www.yuque.com##.index-module_openInAppContainer_Vmiru
-
 ! 2024-01-22 https://www.yckceo.com
 www.yckceo.com##.footer
 www.yckceo.com##div.layui-hide-md.layui-container > .layui-card
@@ -655,16 +610,6 @@ rouman5.com##.position-abolute
 
 ! 2024-01-31 https://www.metart.com
 www.metart.com##.panels.man-ui
-
-! 2024-01-31 https://www.asmr.one
-www.asmr.one##.q-btn--dense.q-btn--wrap.q-hoverable.q-focusable.q-btn--actionable.text-white.bg-grey-8.q-btn--rectangle.q-btn--standard.q-px-sm.q-mx-xs.shadow-4.q-mt-sm.no-outline.non-selectable.q-btn-item.q-btn
-www.asmr.one##.q-btn--dense.q-btn--wrap.q-hoverable.q-focusable.q-btn--actionable.text-white.bg-cyan.q-btn--rectangle.q-btn--standard.q-px-sm.q-mx-xs.shadow-4.q-mt-sm.no-outline.non-selectable.q-btn-item.q-btn
-
-! 2024-02-01 https://www.yuque.com
-www.yuque.com###footer
-
-! 2024-02-02 https://www.4khd.com
-www.4khd.com##.heateor_sss_sharing_ul
 
 ! 2024-02-07 https://club.6parkbbs.com
 club.6parkbbs.com##.gift
@@ -847,10 +792,6 @@ www.landiannews.com##.aside
 www.landiannews.com##footer
 www.landiannews.com##.color-border.module-bg.top-bar
 www.landiannews.com##.comments
-
-! 2024年4月24日 https://www.4khd.com
-www.4khd.com##footer.wp-block-template-part
-www.4khd.com##.centbtd
 
 ! 2024年4月25日 https://eatasmr.com
 eatasmr.com##footer
@@ -1148,6 +1089,8 @@ ichinuke.com##.has-text-align-center
 ! 2024-05-09 https://oreno-erohon.com
 oreno-erohon.com###article-options,.sp_head_box,#inner-content > h2,#text-57,#shimi_comment_widget-3,.comment_area,.menu02 li:nth-of-type(4) ~ li,#text-20,.page-title + div,.page-title,.header,.sp_footer,.footer,.section-box:remove()
 
+! 2023-09-14 https://www.177pica.com
+www.177pica.com###colophon,#footer-widget-box,#top-header,#scroll :remove()
 #======漫画===========================================================================
 
 #======图片===========================================================================
@@ -1161,6 +1104,12 @@ a-hadaka.jp###nav li:nth-of-type(2)
 ! 2024-05-08 https://www.hentaiasmr.moe
 www.hentaiasmr.moe##footer,.site-branding,.top-bar,#stckyhdr,#comments,.lazy-ad-container,.aside-cats[style] :remove()
 
+! 2024-01-31 https://www.asmr.one
+www.asmr.one##.q-btn--dense.q-btn--wrap.q-hoverable.q-focusable.q-btn--actionable.text-white.bg-grey-8.q-btn--rectangle.q-btn--standard.q-px-sm.q-mx-xs.shadow-4.q-mt-sm.no-outline.non-selectable.q-btn-item.q-btn
+www.asmr.one##.q-btn--dense.q-btn--wrap.q-hoverable.q-focusable.q-btn--actionable.text-white.bg-cyan.q-btn--rectangle.q-btn--standard.q-px-sm.q-mx-xs.shadow-4.q-mt-sm.no-outline.non-selectable.q-btn-item.q-btn
+
+! 2024年4月24日 https://www.4khd.com
+www.4khd.com##footer.wp-block-template-part,.centbtd,.heateor_sss_sharing_ul,.home svg,.post-template-default svg,.fr-floating-search-block,#wpstats,#changeSizeButton :remove()
 #======ASMR===========================================================================
 #======动漫===========================================================================
 ! 2024-05-08 https://www.watchanime.video
@@ -1169,5 +1118,10 @@ www.watchanime.video##footer :remove()
 ! 2024-05-09 https://hanime1.me
 hanime1.me###snackbar,#shareBtn,.footer-new,#home-rows-wrapper + div,#content-div + div,#tablinks-wrapper,#comment-tabcontent-loaded:remove()
 hanime1.me###video-report-btn:nth-ancestor(1)
+
+! 2024-05-09 https://rule34video.com
+rule34video.com##body svg[xmlns],.popup_access,.footer,.active.button_fav.toggle-button,#js-ajax_sort,a.theporndude,#tab_report_rrror,.spot-thumb :remove()
+rule34video.com##a:has-text(rule34comic.party):nth-ancestor(2):remove()
+rule34video.com##a:has-text(Spankurbate):nth-ancestor(2):remove()
 #======动漫===========================================================================
 
