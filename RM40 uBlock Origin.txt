@@ -196,15 +196,6 @@ discord.com##.wrapper-2JEvo0
 www.youtube.com###guide-links-secondary
 www.youtube.com###guide-links-primary
 
-! 2023-07-26 https://avbebe.com
-avbebe.com##.footer-holder
-avbebe.com##.elementor-section-height-default.elementor-section-boxed.elementor-element-fe4f96a.elementor-element.elementor-top-section.elementor-section
-avbebe.com##.elementor-section-height-default.elementor-section-boxed.elementor-element-85ace64.elementor-element.elementor-top-section.elementor-section
-avbebe.com##.comment-respond
-avbebe.com###menu-item-152006 > [href^="https://accounts.binance.com/zh-TC/register"]
-avbebe.com###menu-item-105716 > .link-instanted
-avbebe.com###menu-item-109248 > .link-instanted
-
 ! 2023-07-26 https://wuso.me
 wuso.me##.nex_footer
 wuso.me##.nex_sidetls
