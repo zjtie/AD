@@ -190,18 +190,6 @@ discord.com##.wrapper-2JEvo0
 www.youtube.com###guide-links-secondary
 www.youtube.com###guide-links-primary
 
-! 2023-07-26 https://wuso.me
-wuso.me##.nex_footer
-wuso.me##.nex_sidetls
-wuso.me##div.nex_index_ads:nth-of-type(1)
-wuso.me##.nex_guanzhu
-wuso.me##.nex_ptptwo_box
-wuso.me##.attach_tips.attach_nopermission
-wuso.me##.bmw.bm.pl
-wuso.me##.nex_dz_guanzhu
-wuso.me##.plm.plc
-wuso.me##.comiis_code
-
 ! 2023-07-27 https://apkcombo.com
 apkcombo.com##.is-main.column > .title
 apkcombo.com##.is-desktop-only.widget
@@ -1212,6 +1200,9 @@ www.redgifs.com##.SideBar > li:nth-of-type(7),.SideBar-Item > div._adLiveButton_
 
 ! 2024-05-08 https://avbebe.com
 avbebe.com##.jeg_nav_center,.jeg_ad,.jeg_ad_top,.jnews_header_top_ads,.jnews_comment_container,.relpost-thumb-wrapper,.jnews_author_box_container,.jnews_related_post_container,.jnews_popup_post_container,.jnews_prev_next_container,#post-body-class,.jeg_aside_item  li:nth-of-type(n+13):nth-of-type(-n+18),.jeg_mainmenu_wrap  li:nth-of-type(n+13):nth-of-type(-n+18)  :remove()
+
+! 2024-05-08 https://dbro.news
+dbro.news##footer,aside,.post-share-bot,.post-share,#smart-head .smart-head-mid,#menu-item-709088 ,#menu-item-382966 :remove()
 
 #======Video===========================================================================
 
