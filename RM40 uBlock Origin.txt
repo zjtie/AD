@@ -235,33 +235,6 @@ www.177pica.com###top-header
 www.177pica.com###scroll
 #浮动窗口
 
-! 2023-09-14 https://oreno-erohon.com
-oreno-erohon.com##.footer
-oreno-erohon.com##.sp_footer
-#页面尾部
-oreno-erohon.com##.blog-title-inner
-oreno-erohon.com##.section-box
-#页面头部
-oreno-erohon.com##.page-title
-#页面头部文本标题
-oreno-erohon.com##.widget_shimi_comment_widget.widget
-#最近评论
-oreno-erohon.com##.column-inner > .widget_text.widget
-#其他网站
-oreno-erohon.com##[href="/contact"]
-#询问
-oreno-erohon.com##[href="/about"]
-oreno-erohon.com##.menu_list > ul > li:nth-of-type(4)
-#关于本站
-oreno-erohon.com###article-options
-oreno-erohon.com##.comment_area
-#评论
-oreno-erohon.com##.sp_head_box
-#广告
-oreno-erohon.com##.menu_list > ul > li:nth-of-type(5)
-oreno-erohon.com##.menu02 > li:nth-of-type(6)
-#RSS
-
 ! 2023-09-14 https://ahri8.top
 ahri8.top##.page-footer
 #页面尾部
@@ -1200,5 +1173,9 @@ www.hentaiasmr.moe##footer,.site-branding,.top-bar,#stckyhdr,#comments,.lazy-ad-
 #======动漫===========================================================================
 ! 2024-05-08 https://www.watchanime.video
 www.watchanime.video##footer :remove()
+
+! 2024-05-09 https://hanime1.me
+hanime1.me###snackbar,#shareBtn,.footer-new,#home-rows-wrapper + div,#content-div + div,#tablinks-wrapper,#comment-tabcontent-loaded:remove()
+hanime1.me###video-report-btn:nth-ancestor(1)
 #======动漫===========================================================================
 
