@@ -241,16 +241,6 @@ dbro.news##.s-dark.footer-classic.cols-gap-lg.main-footer
 dbro.news##.post-share-bot
 dbro.news##.show-lg.a-wrap-bg.a-wrap-6.a-wrap-base.a-wrap
 
-! 2023-05-05 https://www.hentaiasmr.moe
-www.hentaiasmr.moe##center
-www.hentaiasmr.moe###custom_html-2
-www.hentaiasmr.moe##.comments-area
-www.hentaiasmr.moe##footer
-www.hentaiasmr.moe##.archive-description
-www.hentaiasmr.moe##.clear
-www.hentaiasmr.moe###menu-item-56521
-
-
 ! 2023-07-27 https://apkcombo.com
 apkcombo.com##.is-main.column > .title
 apkcombo.com##.is-desktop-only.widget
