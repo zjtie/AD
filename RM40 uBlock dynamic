@@ -2,14 +2,31 @@
 ! Homepage: https://github.com/zjtie/AD
 
 eromanga-cafe.com ad-cheers.com * block
+eromanga-kai.com ad-nex.com * block
+nijisenmon.work ad-nex.com * block
 no-large-media: 18h.animezilla.com true
 no-large-media: behind-the-scene false
 eromanga-cafe.com facebook.net * block
 eromanga-cafe.com fam-ad.com * block
+eromanga-kai.com fam-ad.com * block
+nijisenmon.work fam-ad.com * block
 18h.animezilla.com google-analytics.com * block
+eromanga-ace.com google-analytics.com * block
 nijifeti.com google-analytics.com * block
+nijisenmon.work google-analytics.com * block
+eromanga-kai.com google.com * block
+a-hadaka.jp googletagmanager.com * block
+7m7备用域名-pornsuo点com.pornyjs.com fonts.gstatic.com * block
 eromanga-cafe.com image-ad.jp * block
+a-hadaka.jp jsdelivr.net * block
+eromanga-kai.com jsdelivr.net * block
 eromanga-cafe.com livedoor.net * block
 nijifeti.com livedoor.net * block
+nijisenmon.work livedoor.net * block
+dbro.news ad.sizn.cc * block
+wuso.me ad.sizn.cc * block
 nijifeti.com smac-ad.com * block
 eromanga-cafe.com twitter.com * block
+eromanga-kai.com twitter.com * block
+eromanga-kong.com wp.com * block
+eromanga-select.com wp.com * block
