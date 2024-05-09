@@ -60,9 +60,6 @@ www.huashi6.com##.chuzhan-app-download
 www.huashi6.com##.c-sidebar
 www.huashi6.com##.c-footer-main
 
-! 2022-01-21 https://xn--7m7-pornsuocom-255xc16b0te7x3k3ura.pornyjs.com
-xn--7m7-pornsuocom-255xc16b0te7x3k3ura.pornyjs.com##div.col-12:nth-of-type(1)
-
 ! 2022-01-21 http://thatpervert.com
 thatpervert.com###postContainer4984265 > .post-normal.article > .post_top > .uhead > .uhead_share
 
@@ -1308,3 +1305,9 @@ a-hadaka.jp###nav li:nth-of-type(2)
 
 
 #======图片===========================================================================
+#======ASMR===========================================================================
+! 2024-05-08 https://www.hentaiasmr.moe
+www.hentaiasmr.moe##footer,.site-branding,.top-bar,#stckyhdr,#comments,.lazy-ad-container,.aside-cats[style] :remove()
+
+#======ASMR===========================================================================
+
