@@ -182,18 +182,6 @@ kingke.io##.row.flex.bubble-r-container.CustomElement.bubble-element
 kingke.io##div.HTML.bubble-element:nth-of-type(6)
 kingke.io##div.relative.bubble-r-container.CustomElement.bubble-element:nth-of-type(1)
 
-! 2023-02-13 https://eromitai.com
-||eromitai.com/widget/pickupsite01.html$subdocument
-eromitai.com###pc_text-1
-eromitai.com##.logo-image.logo-header.logo
-eromitai.com##.footer-left
-eromitai.com##.ss-bottom.sbc-hide.bc-brand-color.ss-col-3.sns-share
-eromitai.com##.sf-bottom.fbc-hide.bc-brand-color.sns-follow
-eromitai.com##.website-hide.comment-area
-eromitai.com##.cf.post-navi-square.pager-post-navi
-eromitai.com###pc_text-2
-eromitai.com##.nwa.footer-container.footer
-
 ! 2022-12-30 https://www.facebook.com
 www.facebook.com##.x1y1aw1k > div > span > div > .x1n2onr6
 www.facebook.com##.x1a8lsjc.xz9dl7a.x1swvt13.x1pi30zi.x1a02dak.x78zum5.x6s0dn4
