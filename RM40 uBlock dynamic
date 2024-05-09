@@ -47,8 +47,11 @@ hanime1.me mnaspm.com * block
 oreno-erohon.com * 3p block
 
 ahri8.top * 3p-frame block
+
 mgav1.cc * 3p-frame noop
+
 oreno-erohon.com * 3p block
+
 rouman5.com * inline-script block
 rouman5.com googletagmanager.com * block
 rouman5.com gsjln04hd.com * block
@@ -61,8 +64,16 @@ rouman5.com rmcdn3.xyz * block
 rouman5.com rmcdn4.xyz * block
 rouman5.com roucdn3.link * block
 rouman5.com yandex.ru * block
+
 rule34video.com * 3p block
+
 twivideo.net * 3p-frame noop
 
-
+behind-the-scene * * noop
+behind-the-scene * 1p-script noop
+behind-the-scene * 3p noop
+behind-the-scene * 3p-frame noop
+behind-the-scene * 3p-script noop
+behind-the-scene * image noop
+behind-the-scene * inline-script noop
 
