@@ -747,10 +747,6 @@ www.porngo.com##.underplayer_banner
 www.porngo.com##.spot_footer
 www.porngo.com##.spot_title.video-side__adv_title
 
-! 2024-01-31 https://dbro.news
-dbro.news##.comments
-dbro.news##.author-box
-
 ! 2024-01-31 https://www.metart.com
 www.metart.com##.panels.man-ui
 
