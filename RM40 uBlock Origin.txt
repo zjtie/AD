@@ -1230,6 +1230,9 @@ asmhentai.com##.atop,.footer_center
 #空白行 #页面尾部
 asmhentai.com##li.friends > [href="https://hentaiera.com"],li.friends > [href="https://comicporn.xxx"],li.friends > [href="https://hentairox.com"],li.friends > [href="https://hentaiyes.com/"],li.friends > [href="https://imhentai.xxx"]
 #导航
+
+! 2024-05-08 https://h-ciyuan.com
+h-ciyuan.com##meta,#gridview-head-content,#menu-item-13541,#menu-item-25315,.entry-header,#gridview-wrapper-outside ~ .gridview-outer-wrapper,#comments,.gridview-share-buttons,#gridview-sidebar-two-wrapper,.code-block :remove()
 #======漫画===========================================================================
 
 #======图片===========================================================================
