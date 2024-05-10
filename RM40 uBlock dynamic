@@ -1,6 +1,7 @@
 ! Title: RM40 uBlock dynamic
 ! Homepage: https://github.com/zjtie/AD
-
+!#if env_browser
++#if adblock
 eromanga-cafe.com ad-cheers.com * block
 eromanga-kai.com ad-nex.com * block
 nijisenmon.work ad-nex.com * block
@@ -92,3 +93,5 @@ wnacg.com upaiyun.com * noop
 wnacg.com yandex.ru * block	
 moeimg.net * 3p block
 
++#endif
+!#endif
