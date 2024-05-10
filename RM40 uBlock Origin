@@ -926,5 +926,10 @@ hanime1.me###video-report-btn:nth-ancestor(1)
 rule34video.com##body svg[xmlns],.popup_access,.footer,.active.button_fav.toggle-button,#js-ajax_sort,a.theporndude,#tab_report_rrror,.spot-thumb 
 rule34video.com##a:has-text(rule34comic.party):nth-ancestor(2)
 rule34video.com##a:has-text(Spankurbate):nth-ancestor(2)
+
+! 2024-04-02 https://hentaix.io
+hentaix.io##footer,.mh-copyright-wrap,div.mh-container-inner,.elementor-swiper,.page-header,.elementor-75 section:first-of-type
+hentaix.io##.rp4wp-related-posts:nth-ancestor(7)
+hentaix.io##.fa-twitter:nth-ancestor(9)
 #======动漫===========================================================================
 
