@@ -622,6 +622,11 @@ wap.cool18.com##script[src^="pub/gdpr.js"],script[src^="https://home.6park.com/g
 
 ! 2024-05-08 https://wuso.me
 wuso.me###comiis_app_block_13,#comiis_app_block_25,.comiis_rate,.comiis_postlist div:nth-of-type(2) ~ div,.comiis_quote,.comiis_forumlist_top 
+
+! 2024-01-28 https://h2gcz1.ydwzsp.com
+h2gcz1.ydwzsp.com##.tips-p,.infoFlowNav2 div:nth-of-type(5),.tg,#pinglun ~ a,#pinglun ~ p,#pinglun ~ div,.topcenter_left,.text01,.el-carousel--horizontal,.porn_link,.ad-layout,.centerMain_info,.line-layout,.share-bg
+h2gcz1.ydwzsp.com##.bottom-load,.swiper-wrapper,.mtap span:nth-of-type(6),.mlogo,.disflexrow ~ p,.disflexrow ~ div
+
 #======论坛===========================================================================
 
 #======Video===========================================================================
