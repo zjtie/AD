@@ -21,6 +21,10 @@ www.douban.com###footer
 live.bilibili.com,bilibili.com##.bili-footer,.palette-button-wrap,.download-client-trigger.download-entry，.vip-wrap，.right-entry-item--upload.right-entry-item，li.right-entry-item:nth-of-type(6)
 #页尾 #侧边栏按钮 #下载 #大会员 #投稿 #创作中心
 
+! 2022-11-20 https://fuliba2023.net
+fuliba2023.net##.header,.sidebar,.karbar,footer,header,.m-mask,.m-navbar,#tcaptcha_transform_dy,.branding,#respond,.shares,.post-copyright,.post-actions
+
+
 
 
 #======社交平台===========================================================================
