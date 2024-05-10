@@ -93,5 +93,10 @@ wnacg.com upaiyun.com * noop
 wnacg.com yandex.ru * block	
 moeimg.net * 3p block
 
+www.wsgmzt.com * 3p block
+www.wsgmzt.com jpnst.com * noop
+www.wsgmzt.com js.jpnst.com * noop
+www.wsgmzt.com picg.jpnst.com * noop
+
 +#endif
 !#endif
