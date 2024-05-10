@@ -125,5 +125,8 @@ www.3dsexanime.xyz fluidplayer.com * noop
 www.3dsexanime.xyz gstatic.com * block
 www.3dsexanime.xyz lifesexcam.xyz * noop
 
+www.apexmh.com * 3p block
+
+
 +#endif
 !#endif
