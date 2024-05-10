@@ -117,7 +117,13 @@ slushe.com * 3p block
 www.lolhentai.net * 3p block
 www.lolhentai.net * 3p-frame noop
 
-
+www.3dsexanime.xyz * 3p block
+www.3dsexanime.xyz * 3p-script noop
+www.3dsexanime.xyz bootstrapcdn.com * noop
+www.3dsexanime.xyz cloudflare.net * block
+www.3dsexanime.xyz fluidplayer.com * noop
+www.3dsexanime.xyz gstatic.com * block
+www.3dsexanime.xyz lifesexcam.xyz * noop
 
 +#endif
 !#endif
