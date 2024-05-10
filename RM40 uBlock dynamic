@@ -101,5 +101,12 @@ www.wsgmzt.com picg.jpnst.com * noop
 multporn.net * 3p block
 multporn.net * 3p-script noop
 
+hentaix.io * 3p-frame noop
+hentaix.io ads-twitter.com * block
+hentaix.io fonts.googleapis.com * block
+hentaix.io gstatic.com * block
+hentaix.io imasdk.googleapis.com * block
+hentaix.io louisedistanthat.com * block
+
 +#endif
 !#endif
