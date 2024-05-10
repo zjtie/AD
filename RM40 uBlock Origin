@@ -907,6 +907,9 @@ kemono.su##.shifted.content-wrapper > [href],.stuck-bottom.global-sidebar-entry,
 ! 2024-04-02 https://gelbooru.com
 gelbooru.com##a[href^="index.php"]:nth-of-type(11),footer,#myTopnav a:nth-of-type(n+8):nth-of-type(-n+12),.showNoGridSupport,.mainBodyPadding > div:nth-of-type(1)
 
+! 2024-04-02 https://www.hentai-foundry.com
+www.hentai-foundry.com###footer,#comments_box,.boxfooter,#siteNews,#yw1 li:nth-of-type(n+1):nth-of-type(-n+4)
+
 
 #======图片===========================================================================
 #======ASMR===========================================================================
