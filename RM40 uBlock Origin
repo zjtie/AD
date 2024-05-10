@@ -864,6 +864,11 @@ slushe.com##footer,#modal-custom,.discord,.about,.contact,.easy-share,.comments,
 
 ! 2022-11-23 https://www.jjpicss.com
 www.jjpicss.com##footer,.fm-close,.ad,iframe,[href="https://list.jjpicss.com/"],[href="/day/menu"]
+
+! 2022-01-21 http://thatpervert.com
+thatpervert.com###footer,#post_list + div,#tagList,.uhead_share,#header,#joytip,#magnifier
+thatpervert.com###background:style(max-width: 100%;)
+
 #======图片===========================================================================
 #======ASMR===========================================================================
 ! 2024-05-08 https://www.hentaiasmr.moe
