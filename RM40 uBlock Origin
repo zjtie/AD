@@ -910,6 +910,8 @@ gelbooru.com##a[href^="index.php"]:nth-of-type(11),footer,#myTopnav a:nth-of-typ
 ! 2024-04-02 https://www.hentai-foundry.com
 www.hentai-foundry.com###footer,#comments_box,.boxfooter,#siteNews,#yw1 li:nth-of-type(n+1):nth-of-type(-n+4)
 
+! 2024-05-10 https://slushe.com
+slushe.com##footer,#modal-custom,.discord,.about,.contact,.easy-share,.comments,#body_iframe,#noFlag,#list-modal-max,#modal-custom ~ div
 
 #======图片===========================================================================
 #======ASMR===========================================================================
