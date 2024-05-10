@@ -473,45 +473,6 @@ porn3dx.com##.p-4.gap-4.items-center.flex-col.flex
 porn3dx.com##div.\32 xl2\:p-8.dark\:bg-gray-800.rounded-lg.bg-gray-200.text-white.p-4:nth-of-type(3)
 porn3dx.com##.dark\:bg-primary-900.bg-primary-50.rounded-lg.p-4
 
-! 2024-04-02 https://hentaix.io
-hentaix.io##.mh-copyright-wrap
-hentaix.io##.mh-footer
-hentaix.io##[href="https://theporndude.com"]
-hentaix.io##.clearfix.mh-custom-header
-hentaix.io###asp_hidden_data
-
-! 2024-04-02 https://slushe.com
-slushe.com##.comments
-slushe.com##.active.contact
-slushe.com##.about
-slushe.com##.discord
-slushe.com###age-verify-overlay
-slushe.com##footer
-slushe.com##.slider-main
-slushe.com##.top
-slushe.com##.myTopButton
-#分享
-slushe.com##[href="https://slushe.com/contact"]
-#接触
-
-! 2024-04-02 https://www.lolhentai.net
-www.lolhentai.net##footer
-www.lolhentai.net##.hidesm.init-popup.discord
-www.lolhentai.net##[href^="https://heyallie.me/"]
-
-! 2024-04-02 https://www.hentai-foundry.com
-www.hentai-foundry.com###footer
-www.hentai-foundry.com##[href="https://discord.gg/gMtgEcZuk4"]
-
-! 2024-04-02 https://gelbooru.com
-gelbooru.com##a[href^="index.php"]:nth-of-type(11)
-gelbooru.com##footer
-
-! 2024-04-02 https://kemono.su
-kemono.su##.shifted.content-wrapper > [href]
-kemono.su##.stuck-bottom.global-sidebar-entry
-kemono.su##footer
-
 ! 2024-04-11 https://simpcity.su
 simpcity.su##.p-header--hasExtraContent.p-header
 simpcity.su##.nav-tpd.p-navEl-link
@@ -587,9 +548,6 @@ www.aconvert.com##.navbar-inverse
 # www.aconvert.com##.container > .field-box
 www.aconvert.com##.container > .field-box:nth-of-type(2)
 www.aconvert.com##.bluebg
-
-! 2024年4月22日 https://multporn.net
-
 
 ! 2024年4月22日 https://69story.com
 69story.com##.nav-tabs.nav
@@ -920,6 +878,10 @@ kimootoko.net###copyright,#footer,#wp-footer,noscript,#header,.posts-list-upper-
 ! 2023-09-14 https://wnacg.com
 wnacg.com##.wrap.footer,p.result:nth-of-type(1),p.result:nth-of-type(2),[src="/themes/weitu/images/bg/shoucang.jpg"],#head_notify 
 #页面尾部 #广告白名单 #网站发布地址 #添加收藏
+
+! 2024年4月22日 https://multporn.net
+multporn.net###footer-wrapper,#skip-link,#block-views-down-random-hentai-manga-block,.tabs,#menu-22031-1,#menu-22120-1,#menu-17097-1,#menu-1774-1,#page-title 
+multporn.net##[id*="user-"],[id*="block-block-"],[id*="comment"]
 #======漫画===========================================================================
 
 #======图片===========================================================================
