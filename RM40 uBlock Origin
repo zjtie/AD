@@ -904,6 +904,9 @@ www.wsgmzt.com###ztlui3,#d1a,#a163,#bzs3,#bdssy,#dtag,#divpsg,#pcapic,#pcapicb,#
 ! 2024-04-02 https://kemono.su
 kemono.su##.shifted.content-wrapper > [href],.stuck-bottom.global-sidebar-entry,footer
 
+! 2024-04-02 https://gelbooru.com
+gelbooru.com##a[href^="index.php"]:nth-of-type(11),footer,#myTopnav a:nth-of-type(n+8):nth-of-type(-n+12),.showNoGridSupport,.mainBodyPadding > div:nth-of-type(1)
+
 
 #======图片===========================================================================
 #======ASMR===========================================================================
