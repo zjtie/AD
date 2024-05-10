@@ -901,6 +901,9 @@ www.wsgmzt.com##[href*="js.wsgmzt"],[herf*="js.wsgmzt"],[href*="js.prmeinv"],[id
 #二维码 #藏在内容中的广告 #正文广告 #本站地址 
 www.wsgmzt.com###ztlui3,#d1a,#a163,#bzs3,#bdssy,#dtag,#divpsg,#pcapic,#pcapicb,#cpcpc,#d5tig,#d5a,#dtxts,#bzs7,#dbffsm,br
 
+! 2024-04-02 https://kemono.su
+kemono.su##.shifted.content-wrapper > [href],.stuck-bottom.global-sidebar-entry,footer
+
 
 #======图片===========================================================================
 #======ASMR===========================================================================
