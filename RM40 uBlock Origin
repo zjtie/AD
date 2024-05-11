@@ -1,6 +1,8 @@
 ! Title: RM40 uBlock Origin
 ! Homepage: https://github.com/zjtie/AD
 !#include RM40uBlockInclude
+
+# https://dalao.ru/
 #======解决不了的===========================================================================
 www.porngo.com##footer 
 https://porn3dx.com
@@ -8,50 +10,49 @@ https://porn3dx.com
 #======社交平台===========================================================================
 www.zhihu.com##footer
 
-! 2024年5月3日 https://www.douyin.com
-www.douyin.com,live.douyin.com##.e5v3_cjW,.KhphjUgd.anFLc8TW
-www.douyin.com,live.douyin.com##.iqAeEhI1,footer,.bhNMSJTw,div.rsgoNBIr.n0rJzjLU:nth-of-type(2) 
+! 2024年5月3日 https://www.douyin.com 抖音
+www.douyin.com,live.douyin.com##.e5v3_cjW,.KhphjUgd.anFLc8TW,.iqAeEhI1,footer,.bhNMSJTw,div.rsgoNBIr.n0rJzjLU:nth-of-type(2) 
 #下载 #footer #问题反馈浮窗 #业务合作
 
 ! 2023-02-11 https://www.douban.com 豆瓣
-www.douban.com##.top-nav-doubanapp
-www.douban.com###footer
+www.douban.com##.top-nav-doubanapp,#footer
 
-! 2023-09-13 https://www.bilibili.com
+! 2023-09-13 https://www.bilibili.com 哔哩哔哩
 live.bilibili.com,bilibili.com##.bili-footer,.palette-button-wrap,.download-client-trigger.download-entry，.vip-wrap，.right-entry-item--upload.right-entry-item，li.right-entry-item:nth-of-type(6)
 #页尾 #侧边栏按钮 #下载 #大会员 #投稿 #创作中心
 
-! 2022-11-20 https://fuliba2023.net
+! 2022-11-20 https://fuliba2023.net 福利吧
 fuliba2023.net##.header,.sidebar,.karbar,footer,header,.m-mask,.m-navbar,#tcaptcha_transform_dy,.branding,#respond,.shares,.post-copyright,.post-actions
 
-! 2023-12-15 https://www.jdlingyu.com
+! 2023-12-15 https://www.jdlingyu.com 绝对领域
  www.jdlingyu.com##footer,.comments-box,.single-bottom-html,#content-ds,[class*="footer"],#b2-widget-html-11,#b2-widget-html-20,#custom_html-4,#custom_html-2,#home-row-gzh,.single-top-html,#home-row-zmhd,#home-row-xz,#home-row-zn,#home-row-chinajoy,.widget-area,#item-136805,#item-136595,#item-136442,#item-136277,#item-136032,#item-135947,#item-135857,#item-135732,#item-135726,#post-item-ecymt,[class*="download-"],#home-row-ydhd,[href="https://www.jdlingyu.com/shop"]
 
+! 2024-05-11 https://www.36kr.com 36氪
+www.36kr.com##.kr-footer,.undefined,.seek-report-wrap,.seek-report-wrap + div,.station-business,.app-track-card,.relate-articles,.kr-article-commitbox-left-navbar-bottom,.thumb-up-box,.float-app-button-wrp,.article-top-swiper-goapp show,.kr-mobile-footer,.app-track-banner-outer,.article-praise,.article-no-comment,.swiper-wrapper
+
+! 2024-05-11 https://iui.su 不死鸟
+iui.su##footer
 
 #======社交平台===========================================================================
 #======文档工具===========================================================================
-
-
-! 2023-07-27 https://www.yuque.com
-www.yuque.com##.copyright,.like-module_larkLike_zeNuZ,.index-module_openInAppContainer_Vmiru,#footer 
 ! 2023-06-06 https://shimo.im
+shimo.im##.fzubdd,.ivKubu ,.djpIoZ,.owqsf,.dMDzwK.disable
+! 2023-07-27 https://www.yuque.com
+www.yuque.com##.copyright,.like-module_larkLike_zeNuZ,.index-module_openInAppContainer_Vmiru,#footer,.index-module_dropdownTrigger_bAACL 
 
 #======文档工具===========================================================================
+#======图片===========================================================================
+! 2022-01-21 https://www.huashi6.com  触站画师
+www.huashi6.com###popup_0092618116,footer,.chuzhan-app-download,.c-sidebar,.upload,.nav-recharge,.comment-form,[href="/app"]:nth-ancestor(2),[href="/app"],[href="https://www.huashi6.com/aboutus"]
 
-
+! 2022-11-20 http://www.cnu.cc CNU视觉联盟
+www.cnu.cc##.blackBG,.pageFooter,.comment,.work-info 
+#======图片===========================================================================
 
 
 ! 2023-06-14 https://www.ximalaya.com
-www.ximalaya.com##.xz_.dl-pc
-www.ximalaya.com##._BH.common-ranking-list
-www.ximalaya.com##.DN_.footer
-www.ximalaya.com##.gX_.album-intro
-www.ximalaya.com##._Ps.p-r-10.p-l-10.bg-white.recommend-list
-www.ximalaya.com##.eY_.clearfix.controls
 
 
-! 2023-07-14 https://www.36kr.com
-www.36kr.com##.undefined.assit-wrapper
 
 ! 2023-07-24 https://www.aliyundrive.com
 www.aliyundrive.com##.share-list-banner--1E8Jr
@@ -60,18 +61,11 @@ www.aliyundrive.com##.to-desktop--1IcwT
 www.aliyundrive.com##.text--2buEJ
 
 
-! 2022-01-01 https://iao.su   不死鸟
-iao.su##[src="https://i.niao.su/Yo9QSPA.jpg"]
-iao.su##[src="https://i.niao.su/Yo9QSPA.jpg"]
 
-! 2022-01-21 https://www.huashi6.com  触站画师
-www.huashi6.com##.chuzhan-app-download
-www.huashi6.com##.c-sidebar
-www.huashi6.com##.c-footer-main
 
-! 2022-11-20 http://www.cnu.cc 中国视觉联盟
-||www.cnu.cc/uploads/banners/UYUHk1dUGEuOlI0L7JgV.jpg$image
-www.cnu.cc##.link-instanted > div
+
+
+
 
 ! 2022-11-20 https://animeidhentai.com
 
@@ -271,10 +265,6 @@ www.csdn.net##.m_toolbar_left_app_btn
 
 ! 2024-01-11 https://blog.csdn.net
 blog.csdn.net##.openApp
-
-! 2024-01-12 http://www.cnu.cc
-www.cnu.cc##.download
-www.cnu.cc##.pageFooter
 
 ! 2024-01-20 http://m.sex8.cc
 m.sex8.cc##div.m-3 > .mt-3
