@@ -139,5 +139,10 @@ thatpervert.com * 3p block
 thatpervert.com img0.thatpervert.com.cname.w.tools * noop
 thatpervert.com img1.thatpervert.com.cname.w.tools * noop
 
+fuliba2023.net * 3p-frame noop
+
+www.jdlingyu.com * 3p block
+www.jdlingyu.com * 3p-frame noop
+
 +#endif
 !#endif
