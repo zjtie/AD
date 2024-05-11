@@ -409,24 +409,6 @@ simpcity.su##.nav-shoosh.p-navEl-link
 simpcity.su##.p-footer
 simpcity.su##.js-notices.notices--block.notices
 
-! 2024-04-14 https://ohentai.org
-ohentai.org##[href^="https://candy.ai"]
-ohentai.org##[href="https://discord.gg/UD3fFTj"]
-ohentai.org##footer
-ohentai.org##div.sidecontainertitle:nth-of-type(1)
-#加入discord
-ohentai.org##.sidebaradlinkcontainer
-#外部推广
-ohentai.org##.reportbutton
-#反馈
-ohentai.org##.detaildiscussionpanel
-#评价
-ohentai.org##footer
-ohentai.org##a[title="menutab_ad"]
-#游戏
-ohentai.org###theAd_slider_gxOAm5ceiC
-
-
 ! 2024-04-14 https://studiofow.com
 studiofow.com##.whb-visible-lg.whb-col-center.whb-column
 studiofow.com##.whb-hidden-lg.whb-mobile-center.whb-column
