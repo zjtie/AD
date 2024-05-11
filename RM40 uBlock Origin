@@ -203,9 +203,6 @@ www.nicotv.org##.ff-forum
 www.nicotv.org##.alert-info.alert
 www.nicotv.org##.ff-footer.row
 
-! 2023-11-11 https://ahri8.top
-ahri8.top##.float-banner-footer
-
 ! 2023-12-11 https://m.930tu.com
 m.930tu.com##.Mb-footer
 m.930tu.com##.mt2.Mb-content
@@ -265,8 +262,6 @@ www.csdn.net##.m_toolbar_left_app_btn
 
 ! 2024-01-11 https://blog.csdn.net
 blog.csdn.net##.openApp
-
-! 2024-01-20 http://m.sex8.cc
 
 ! 2024-01-20 https://m.huaban.com
 m.huaban.com##.app.item
@@ -353,9 +348,6 @@ www.mddmx.com##.tonzitxt
 ! 2024-01-30 https://wnacg.com
 wnacg.com##[href="https://wnbbs.top/"]
 
-! 2024-01-30 https://ahri8.top
-ahri8.top###logout
-ahri8.top##.header-dropdown-list
 
 ! 2024-01-30 https://rouman5.com
 rouman5.com##.position-abolute
@@ -745,7 +737,12 @@ rouman5.com##.footer_root__6F7g2,a.nav-link:nth-of-type(4),a.nav-link:nth-of-typ
 
 ! 2023-09-14 https://ahri8.top
 ahri8.top##.page-footer,nav > ul > li:nth-of-type(8),nav > ul > li:nth-of-type(7),.in.fade.alert-danger.alert,div.col-lg-12:nth-of-type(3),.col-lg-12 > .row
-#页面尾部 #关于网站 #捐赠网站 #请收藏此发布页! #空白行
+#页面尾部 #关于网站 #捐赠网站 #请收藏此发布页! #空白行 [class*="footer"]
+! 2024-01-30 https://ahri8.top
+ahri8.top###logout
+ahri8.top##.header-dropdown-list
+! 2023-11-11 https://ahri8.top
+ahri8.top##.float-banner-footer
 
 ! 2024-05-09 https://www.tsumino.com
 www.tsumino.com##.tsumino-nav-active,li:nth-of-type(6),[href="/chat"],#liComments 
