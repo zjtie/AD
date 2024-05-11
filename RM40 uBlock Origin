@@ -24,7 +24,8 @@ live.bilibili.com,bilibili.com##.bili-footer,.palette-button-wrap,.download-clie
 ! 2022-11-20 https://fuliba2023.net
 fuliba2023.net##.header,.sidebar,.karbar,footer,header,.m-mask,.m-navbar,#tcaptcha_transform_dy,.branding,#respond,.shares,.post-copyright,.post-actions
 
-
+! 2023-12-15 https://www.jdlingyu.com
+ www.jdlingyu.com##footer,.comments-box,.single-bottom-html,#content-ds,[class*="footer"],#b2-widget-html-11,#b2-widget-html-20,#custom_html-4,#custom_html-2,#home-row-gzh,.single-top-html,#home-row-zmhd,#home-row-xz,#home-row-zn,#home-row-chinajoy,.widget-area,#item-136805,#item-136595,#item-136442,#item-136277,#item-136032,#item-135947,#item-135857,#item-135732,#item-135726,#post-item-ecymt,[class*="download-"],#home-row-ydhd,[href="https://www.jdlingyu.com/shop"]
 
 
 #======社交平台===========================================================================
