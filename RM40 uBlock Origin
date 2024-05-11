@@ -29,9 +29,16 @@ fuliba2023.net##.header,.sidebar,.karbar,footer,header,.m-mask,.m-navbar,#tcaptc
 
 
 #======社交平台===========================================================================
+#======文档工具===========================================================================
 
+
+! 2023-07-27 https://www.yuque.com
+www.yuque.com##.copyright,.like-module_larkLike_zeNuZ,.index-module_openInAppContainer_Vmiru,#footer 
 ! 2023-06-06 https://shimo.im
-shimo.im##.bOwZFV.Container-sc-2dZnaL
+
+#======文档工具===========================================================================
+
+
 
 
 ! 2023-06-14 https://www.ximalaya.com
@@ -42,8 +49,6 @@ www.ximalaya.com##.gX_.album-intro
 www.ximalaya.com##._Ps.p-r-10.p-l-10.bg-white.recommend-list
 www.ximalaya.com##.eY_.clearfix.controls
 
-! 2023-07-14 https://shimo.im
-shimo.im##.nps-survey
 
 ! 2023-07-14 https://www.36kr.com
 www.36kr.com##.undefined.assit-wrapper
@@ -128,8 +133,7 @@ www.youtube.com###guide-links-primary
 ! 2023-07-27 https://apkcombo.com
 apkcombo.com##.is-main.column > .title,.is-desktop-only.widget,.footer,div.widget:nth-of-type(6),#download-result > .widget,.link-instanted.tag,.link-instanted.installer,a.link-instanted.navbar-item:nth-of-type(1),.navbar-end 
 
-! 2023-07-27 https://www.yuque.com
-www.yuque.com##.copyright,.like-module_larkLike_zeNuZ,.index-module_openInAppContainer_Vmiru,#footer 
+
 
 ! 2022-11-30 https://weibo.com
 weibo.com##.Nav_links_1ytEi.Links_wrap_mrA8a.woo-box-flex
