@@ -1,6 +1,5 @@
-! Title: RM40 uBlock dynamic
-! Homepage: https://github.com/zjtie/AD
-
+no-large-media: 18h.animezilla.com true
+no-large-media: behind-the-scene false
 * * 3p-frame block
 www.3dsexanime.xyz * 3p block
 www.3dsexanime.xyz * 3p-script noop
@@ -9,16 +8,16 @@ www.3dsexanime.xyz cloudflare.net * block
 www.3dsexanime.xyz fluidplayer.com * noop
 www.3dsexanime.xyz gstatic.com * block
 www.3dsexanime.xyz lifesexcam.xyz * noop
+69story.com * 3p block
 a-hadaka.jp googletagmanager.com * block
 a-hadaka.jp jsdelivr.net * block
 ahri8.top * 3p block
 ahri8.top ehentai.top * noop
 ahri8.top exosrv.com * noop
 www.analporngallery.com zendplace.pro * block
-no-large-media: 18h.animezilla.com true
 18h.animezilla.com google-analytics.com * block
 www.apexmh.com * 3p block
-no-large-media: behind-the-scene false
+www.asianude4u.net * 3p-frame noop
 behind-the-scene * * noop
 behind-the-scene * 1p-script noop
 behind-the-scene * 3p noop
@@ -121,3 +120,6 @@ www.wsgmzt.com jpnst.com * noop
 www.wsgmzt.com js.jpnst.com * noop
 www.wsgmzt.com picg.jpnst.com * noop
 wuso.me ad.sizn.cc * block
+zh.yazhouse8.live * 1p-script block
+zh.yazhouse8.live cloudflare.com * block
+zh.yazhouse8.live xxxivjmp.com * block
