@@ -1,5 +1,8 @@
 ! Title: RM40 uBlock Origin
 ! Homepage: https://github.com/zjtie/AD
+
+! https://raw.githubusercontent.com/zjtie/AD/main/RM40%20uBlock%20Origin
+
 !#include RM40uBlockInclude
 !#include RM40 uBlock Telegram
 !#include RM40 uBlock dynamic
