@@ -1,6 +1,9 @@
 ! Title: RM40 uBlock Origin
 ! Homepage: https://github.com/zjtie/AD
 !#include RM40uBlockInclude
+!#include RM40 uBlock Telegram
+!#include RM40 uBlock dynamic
+
 https://navzjt.vercel.app/#
 
 # https://dalao.ru/
