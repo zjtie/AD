@@ -233,21 +233,6 @@ m.huaban.com##.desktop.to
 m.huaban.com##.android.app.to
 m.huaban.com##.open-add
 
-! 2024-01-22 https://m.yalayi.com
-m.yalayi.com##.swiper-wrapper
-m.yalayi.com##div.bgff.list-box:nth-of-type(7)
-m.yalayi.com##.tishiwenzi
-m.yalayi.com##.bgff.list-box
-m.yalayi.com##[href="/vip.html"]
-www.yalayi.com##.footer
-www.yalayi.com##[href="https://www.yalayi.com/app/"]
-www.yalayi.com##.register
-www.yalayi.com##[href="https://www.yalayi.com/vip.html"]
-||img.yalayi.net/ad/end.jpg!pcimg$image
-www.yalayi.com##.tishiwenzi
-www.yalayi.com###dydown
-yipai.yalayi.com##[href="https://www.yalayi.com/app/"]
-yipai.yalayi.com##[href="https://www.yalayi.com/vip.html"]
 yipai.yalayi.com##.footer
 
 ! 2024-01-22 https://www.metarthunter.com
@@ -289,14 +274,6 @@ www.metart.com##.panels.man-ui
 ! 2024-02-07 https://club.6parkbbs.com
 club.6parkbbs.com##.gift
 club.6parkbbs.com##tr:nth-of-type(3)
-
-! 2024-03-30 https://jablehk.com
-jablehk.com##.sqs-announcement-bar-dropzone
-jablehk.com##.header-menu-nav-item--external.header-menu-nav-item.container
-jablehk.com##[href="/store"]
-jablehk.com###siteWrapper > .sections
-jablehk.com###yui_3_17_2_2_1711796394211_75
-jablehk.com###block-5d474febc5b958e194ed
 
 ! 2024-04-02 https://sfmcompile.club
 sfmcompile.club## [href="https://theporndude.com/"]
@@ -718,6 +695,15 @@ thatpervert.com###background:style(max-width: 100%;)
 
 ! 2024-05-11 https://www.asianude4u.net :半成品
 www.asianude4u.net##footer,.home-share,.entry-bottom,.related-box,.single-box,.single-728,.entry-img-300,.clear,#single-share,aside.sidebar
+
+! 2024-01-22 https://m.yalayi.com  雅拉伊 - 原创人像摄影作品，有温度的写真集
+m.yalayi.com##.swiper-wrapper,.tishiwenzi,.bgff.list-box,div.bgff.list-box:nth-of-type(7),[href="/vip.html"]
+www.yalayi.com##[href="https://www.yalayi.com/app/"],[href="https://www.yalayi.com/vip.html"],[href="https://www.yalayi.com/app/"],[href="https://www.yalayi.com/vip.html"],.footer,.tishiwenzi,.register
+||img.yalayi.net/ad/end.jpg!pcimg$image
+
+! 2024-05-13 https://jablehk.com Jablehk｜精選J圖及巨乳台妹性感照2024 
+jablehk.com##footer,.header-actions--right,.header-nav-list div:nth-of-type(8) ~ div,#yui3-css-stamp,#sections section:nth-of-type(1),.social-accounts,.header-menu-nav-wrapper div:nth-of-type(8) ~ div
+
 #======图片===========================================================================
 #======ASMR===========================================================================
 ! 2024-05-08 https://www.hentaiasmr.moe
