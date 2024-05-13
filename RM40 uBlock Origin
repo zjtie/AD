@@ -116,8 +116,6 @@ www.youtube.com###guide-links-primary
 ! 2023-07-27 https://apkcombo.com
 apkcombo.com##.is-main.column > .title,.is-desktop-only.widget,.footer,div.widget:nth-of-type(6),#download-result > .widget,.link-instanted.tag,.link-instanted.installer,a.link-instanted.navbar-item:nth-of-type(1),.navbar-end 
 
-
-
 ! 2022-11-30 https://weibo.com
 weibo.com##.Nav_links_1ytEi.Links_wrap_mrA8a.woo-box-flex
 weibo.com##.Aria_btn_3caTr
@@ -134,7 +132,6 @@ www.v2ex.com###Bottom
 #页尾
 
 ! 2023-09-15 https://nijiero-ch.com
-
 
 ! 2023-09-15 https://2jiero.net
 
@@ -157,40 +154,12 @@ music.163.com##.active.f-bd.f-fcc.button
 music.163.com##.m-song-friend
 music.163.com##.mbuywin-scale-enter-done.mbuywin-scale-appear-done.m-buywin
 
-! 2023-09-30 https://www.yhdmz.org
-#樱花动漫
-www.yhdmz.org##.foot
-www.yhdmz.org##div.area:nth-of-type(10)
-#站外导航
-www.yhdmz.org##.l.share
-m.yhdmz.org###nav_fr_to_pc
-#电脑端
-m.yhdmz.org##.report-on.tabs
-#报错
-
-! 2023-09-30 https://zhrwx.com
-#风车动漫
-zhrwx.com##.clearfix.myui-foot
-zhrwx.com##.clearfix.myui-panel-bg2.active.myui-panel
-#永久地址
-zhrwx.com##.myui-content__operate
-#播放按钮
-zhrwx.com##.close-box.tips
-#播放器滚动条
 
 ! 2023-09-30 https://web.6parkbbs.com
 
 ! 2023-10-07 https://m.1688.com
 m.1688.com##.failModal
 m.1688.com##.bottomOpen-wrap
-
-
-
-! 2023-10-18 http://www.nicotv.org
-www.nicotv.org##.ff-ads.text-center
-www.nicotv.org##.ff-forum
-www.nicotv.org##.alert-info.alert
-www.nicotv.org##.ff-footer.row
 
 ! 2023-12-11 https://m.930tu.com
 m.930tu.com##.Mb-footer
@@ -355,7 +324,6 @@ studiofow.com##.whb-hidden-lg.whb-mobile-center.whb-column
 studiofow.com##.wd-prefooter
 studiofow.com##.color-scheme-light.footer-container
 
-
 ! 2024-04-14 https://sfmcompile.club
 sfmcompile.club##.g1-row-layout-page.g1-row.g1-footer
 
@@ -367,12 +335,6 @@ www.pixiv.net##.premium-lead-t-side-menu-mini-profile
 ! 2024年4月17日 https://www.deviantart.com
 www.deviantart.com##footer
 www.deviantart.com##aside
-
-! 2024年4月21日 https://www.aconvert.com
-www.aconvert.com##.navbar-inverse
-# www.aconvert.com##.container > .field-box
-www.aconvert.com##.container > .field-box:nth-of-type(2)
-www.aconvert.com##.bluebg
 
 
 ! 2024年4月23日 https://www.landiannews.com
