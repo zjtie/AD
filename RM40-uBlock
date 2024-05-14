@@ -41,6 +41,11 @@ iui.su##footer
 ! 2023-09-30 https://zhrwx.com 风车动漫
 zhrwx.com##.myui-foot,.myui-panel-bg2,.myui-content__operate li:nth-of-type(2),.myui-player__operate li:nth-of-type(1)
 
+! 2023-12-15 https://m.agedm.org AGE动漫
+m.agedm.org##.video-comments-box.box-common,.hd,.comment-scrolltop.box-common,.go-marketing.box-common,.van-overlay,.age-update-dialog.van-dialog
+www.agedm.org##.global_notice_wrapper,#notice_box,.foot_content_wrapper,.extra-box,.col-md-12,.video_detail_wrapper.mb-3,.feedback-popover,.watch-qrcode-popover,.head-nav > li:nth-of-type(5)
+
+
 #======社交平台===========================================================================
 #======文档工具===========================================================================
 ! 2023-06-06 https://shimo.im
@@ -334,17 +339,6 @@ www.imagefap.com##center > center > center
 www.imagefap.com###main > center
 beta.imagefap.com##.footerLinks.clear
 
-! 2024年5月2日 https://nyahentai.re
-nyahentai.re##footer,#bcon,#is_w_area,#inview_style,#player-container,[id*="active_overlay"],[href="https://nyahentai.re/contact/"]
-nyahentai.re##div[style="max-width: 1200px; width: 92%; height: 400px; margin: 0 auto 80px auto; background-color: #fff;"]
-nyahentai.re##div[style="max-width: 1000px; width: 92%; height: 400px; margin: 0 auto 80px auto; background-color: #fff;"]
-nyahentai.re##div[style="width: 300px; height: 250px; margin: 0 auto 40px auto;"]
-nyahentai.re##div[style="width: 300px; height: 250px; margin: -20px auto 30px auto;"]
-nyahentai.re##div[style="max-width: 480px; max-height: 500px; overflow: hidden; margin: 0 auto 30px auto; background-color: #fff;"]
-nyahentai.re##div[style="max-width: 1000px; width: 92%; height: 400px; margin: 0 auto 50px auto; background-color: #fff;"]
-#浮窗
-
-
 hentaigasm.com###respond,#comments,#footer,.adv,.widget_text.widget.widget_custom_html
 #回复 #其他评论 #footer #广告
 
@@ -618,6 +612,10 @@ www.apexmh.com##.footer,body > div:nth-of-type(4),.return
 
 ! 2024-05-11 https://ahri8.top  松鼠症仓库 
 ahri8.top##nav > ul > li > .apo,nav > ul > li:nth-of-type(6)
+
+! 2024-05-14 https://nyahentai.re  同人誌から商業誌まであらゆるエロ漫画
+ nyahentai.re##footer,div[style],[id*="active_overlay"],.home-h,.autoplay 
+ nyahentai.re##[id*="active_overlay"],#is_w_area,.slick-track:remove()
 #======漫画===========================================================================
 
 #======图片===========================================================================
