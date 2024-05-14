@@ -17,14 +17,12 @@ www.zhihu.com##footer
 
 ! 2024年5月3日 https://www.douyin.com 抖音
 www.douyin.com,live.douyin.com##.e5v3_cjW,.KhphjUgd.anFLc8TW,.iqAeEhI1,footer,.bhNMSJTw,div.rsgoNBIr.n0rJzjLU:nth-of-type(2) 
-#下载 #footer #问题反馈浮窗 #业务合作
 
 ! 2023-02-11 https://www.douban.com 豆瓣
 www.douban.com##.top-nav-doubanapp,#footer
 
 ! 2023-09-13 https://www.bilibili.com 哔哩哔哩
 live.bilibili.com,bilibili.com##.bili-footer,.palette-button-wrap,.download-client-trigger.download-entry，.vip-wrap，.right-entry-item--upload.right-entry-item，li.right-entry-item:nth-of-type(6)
-#页尾 #侧边栏按钮 #下载 #大会员 #投稿 #创作中心
 
 ! 2022-11-20 https://fuliba2023.net 福利吧
 fuliba2023.net##.header,.sidebar,.karbar,footer,header,.m-mask,.m-navbar,#tcaptcha_transform_dy,.branding,#respond,.shares,.post-copyright,.post-actions
@@ -34,13 +32,15 @@ fuliba2023.net##.header,.sidebar,.karbar,footer,header,.m-mask,.m-navbar,#tcaptc
 
 ! 2024-05-11 https://www.36kr.com 36氪
 www.36kr.com##.kr-footer,.undefined,.seek-report-wrap,.seek-report-wrap + div,.station-business,.app-track-card,.relate-articles,.kr-article-commitbox-left-navbar-bottom,.thumb-up-box,.float-app-button-wrp,.article-top-swiper-goapp show,.kr-mobile-footer,.app-track-banner-outer,.article-praise,.article-no-comment,.swiper-wrapper
-
+! 2023-08-22 https://sspai.com 少数派
+sspai.com##.light.footer-container,.right_bottom,footer
 ! 2024-05-11 https://iui.su 不死鸟
 iui.su##footer
+! 2023-09-13 https://www.v2ex.com
+www.v2ex.com###Bottom
 
 ! 2023-09-30 https://zhrwx.com 风车动漫
 zhrwx.com##.myui-foot,.myui-panel-bg2,.myui-content__operate li:nth-of-type(2),.myui-player__operate li:nth-of-type(1)
-
 ! 2023-12-15 https://m.agedm.org AGE动漫
 m.agedm.org##.video-comments-box.box-common,.hd,.comment-scrolltop.box-common,.go-marketing.box-common,.van-overlay,.age-update-dialog.van-dialog
 www.agedm.org##.global_notice_wrapper,#notice_box,.foot_content_wrapper,.extra-box,.col-md-12,.video_detail_wrapper.mb-3,.feedback-popover,.watch-qrcode-popover,.head-nav > li:nth-of-type(5)
@@ -48,10 +48,16 @@ www.agedm.org##.global_notice_wrapper,#notice_box,.foot_content_wrapper,.extra-b
 
 #======社交平台===========================================================================
 #======文档工具===========================================================================
-! 2023-06-06 https://shimo.im
+! 2023-06-06 https://shimo.im 石墨文档
 shimo.im##.fzubdd,.ivKubu ,.djpIoZ,.owqsf,.dMDzwK.disable
-! 2023-07-27 https://www.yuque.com
+! 2023-07-27 https://www.yuque.com 语雀文档
 www.yuque.com##.copyright,.like-module_larkLike_zeNuZ,.index-module_openInAppContainer_Vmiru,#footer,.index-module_dropdownTrigger_bAACL 
+! 2022-11-21 https://www.jianguoyun.com  坚果云盘
+www.jianguoyun.com##.teaser-container,.isActive.account-type,.active.bar-item,div.bar-item:nth-of-type(4)
+! 2023-02-11 https://up.woozooo.com 蓝奏云盘
+up.woozooo.com##.if_top，#f_right
+! 2023-07-27 https://apkcombo.com APP下载
+apkcombo.com##.is-main.column > .title,.is-desktop-only.widget,.footer,div.widget:nth-of-type(6),#download-result > .widget,.link-instanted.tag,.link-instanted.installer,a.link-instanted.navbar-item:nth-of-type(1),.navbar-end 
 
 #======文档工具===========================================================================
 #======图片===========================================================================
@@ -70,11 +76,6 @@ www.aliyundrive.com##.text--2buEJ
 
 ! 2022-11-20 https://animeidhentai.com
 
-! 2022-11-21 https://www.jianguoyun.com  坚果云
-www.jianguoyun.com##.teaser-container
-www.jianguoyun.com##.isActive.account-type
-www.jianguoyun.com##div.bar-item:nth-of-type(4)
-www.jianguoyun.com##.active.bar-item
 
 ! 2022-11-26 https://www.coolapk.com
 www.coolapk.com##.download-group
@@ -96,15 +97,7 @@ download.mokeedev.com##.tips-help.row
 ! 2023-02-06 https://app.raindrop.io
 app.raindrop.io##.upgrade-R9fx
 
-! 2023-02-11 https://up.woozooo.com 蓝奏云盘
-||up.woozooo.com/img/diy-2.gif$image
-up.woozooo.com##.if_top
-up.woozooo.com###f_right
-
 ! 2023-02-11 https://smailpro.com
-smailpro.com##.max-w-screen-lg.mx-auto.container.border-gray-50.border-t.p-2
-smailpro.com##.grecaptcha-badge
-smailpro.com###app > div
 
 
 ! 2022-12-30 https://www.facebook.com
@@ -121,8 +114,6 @@ discord.com##.wrapper-2JEvo0
 www.youtube.com###guide-links-secondary
 www.youtube.com###guide-links-primary
 
-! 2023-07-27 https://apkcombo.com
-apkcombo.com##.is-main.column > .title,.is-desktop-only.widget,.footer,div.widget:nth-of-type(6),#download-result > .widget,.link-instanted.tag,.link-instanted.installer,a.link-instanted.navbar-item:nth-of-type(1),.navbar-end 
 
 ! 2022-11-30 https://weibo.com
 weibo.com##.Nav_links_1ytEi.Links_wrap_mrA8a.woo-box-flex
@@ -131,12 +122,7 @@ weibo.com##.wbpro-side-copy
 weibo.com##.Reward_box_27GVq.wrap
 #公益捐赠
 
-! 2023-08-22 https://sspai.com
-sspai.com##.light.footer-container
-sspai.com##.right_bottom
 
-! 2023-09-13 https://www.v2ex.com
-www.v2ex.com###Bottom
 #页尾
 
 ! 2023-09-15 https://nijiero-ch.com
@@ -168,11 +154,6 @@ music.163.com##.mbuywin-scale-enter-done.mbuywin-scale-appear-done.m-buywin
 ! 2023-10-07 https://m.1688.com
 m.1688.com##.failModal
 m.1688.com##.bottomOpen-wrap
-
-! 2023-12-11 https://m.930tu.com
-m.930tu.com##.Mb-footer
-m.930tu.com##.mt2.Mb-content
-m.930tu.com##p:nth-of-type(2)
 
 
 ! 2023-12-15 https://www.mddmz.com
@@ -667,6 +648,8 @@ www.yalayi.com##[href="https://www.yalayi.com/app/"],[href="https://www.yalayi.c
 
 ! 2024-05-13 https://jablehk.com Jablehk｜精選J圖及巨乳台妹性感照2024 
 jablehk.com##footer,.header-actions--right,.header-nav-list div:nth-of-type(8) ~ div,#yui3-css-stamp,#sections section:nth-of-type(1),.social-accounts,.header-menu-nav-wrapper div:nth-of-type(8) ~ div
+
+! 2023-12-11 https://m.930tu.com 930圖片網 - 性感美女寫真_美女套圖分享_美女圖片大全欣賞
 
 #======图片===========================================================================
 #======ASMR===========================================================================
