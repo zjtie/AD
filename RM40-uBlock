@@ -38,6 +38,9 @@ sspai.com##.light.footer-container,.right_bottom,footer
 iui.su##footer
 ! 2023-09-13 https://www.v2ex.com
 www.v2ex.com###Bottom
+! 2024-01-11 https://blog.csdn.net
+blog.csdn.net##.passport-login-container,[class*="footer"],.blog-nps,.toolbar-btn-vip,.tool-active-list,.sidetool-writeguide-box,#recommendNps,#asideNewNps,#asideWriteGuide,.weixin-shadowbox,.feed-Sign-weixin,.rightmenu,.open_app_channelCode,#recommend,.wap-shadowbox
+
 
 ! 2023-09-30 https://zhrwx.com 风车动漫
 zhrwx.com##.myui-foot,.myui-panel-bg2,.myui-content__operate li:nth-of-type(2),.myui-player__operate li:nth-of-type(1)
@@ -138,17 +141,6 @@ apkcombo.com##.apkcombo_desktop_728x90_middle.apkcombo_mobile_300x250_middle.mb-
 apkcombo.com##.apkcombo_desktop_300x250_right.apkcombo_mobile_300x250_bottom.ad-pss-bottom-right.ad-pss
 
 ! 2023-09-18 https://y.music.163.com
-y.music.163.com##.topfr
-y.music.163.com##.m-homeft
-y.music.163.com##.footer-wrap
-music.163.com##.footer-wrap
-music.163.com##.m-link-bar.m-link
-music.163.com##.f-bd-top.cmt_more_applink
-music.163.com##.active.f-bd.f-fcc.button
-music.163.com##.m-song-friend
-music.163.com##.mbuywin-scale-enter-done.mbuywin-scale-appear-done.m-buywin
-
-
 ! 2023-09-30 https://web.6parkbbs.com
 
 ! 2023-10-07 https://m.1688.com
@@ -179,12 +171,6 @@ i.jandan.net###commentform
 
 ! 2023-12-27 https://xchina.co
 
-! 2024-01-11 https://blog.csdn.net
-blog.csdn.net##.wap-shadowbox.weixin-shadowbox
-blog.csdn.net##.active.openApp
-blog.csdn.net##.feed-Sign-weixin
-blog.csdn.net##.btn_open_app_prompt_div
-blog.csdn.net##.app_abtest_btn_open.open_app_channelCode
 
 ! 2024-01-11 https://download.csdn.net
 download.csdn.net##.blind_box
