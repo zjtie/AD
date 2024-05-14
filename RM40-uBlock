@@ -169,19 +169,6 @@ m.930tu.com##.Mb-footer
 m.930tu.com##.mt2.Mb-content
 m.930tu.com##p:nth-of-type(2)
 
-! 2023-12-15 https://m.agedm.org
-m.agedm.org##.video-comments-box.box-common
-m.agedm.org##.hd
-m.agedm.org##.comment-scrolltop.box-common
-m.agedm.org##.go-marketing.box-common
-m.agedm.org##.age-update-dialog.van-dialog
-m.agedm.org##.van-overlay
-! 2024年4月26日 https://www.agedm.org
-www.agedm.org##.my-3.col-md-12
-www.agedm.org###notice_box
-www.agedm.org##[href^="https://www.agedm.app"]
-www.agedm.org##.float-end.feedback-popover.video_detail_meta
-www.agedm.org##.comment-box-wrapper
 
 ! 2023-12-15 https://www.mddmz.com
 www.mddmz.com###Auto_banner
@@ -714,6 +701,11 @@ japaneseasmr.com###ilovewp-comments,div.code-block,iframe,#site-footer-credit,[c
 ! https://www.teenagepussypic.com/
 ! 2023-11-11 http://www.youngpussypic.com
 
+! 2024年4月25日 https://asmr18.fans  ASMR+18は、声優さんの本格的な同人エロボイス、萌えボイス
+asmr18.fans###menu-link,footer,#comments,.book18-post-list,div.home-h:nth-of-type(1),div.home-h:nth-of-type(3),#main > div:nth-of-type(2),#menu-menu > [href="https://asmr18.fans/contact/"]
+!#if env_mobile
+asmr18.fans###main div:nth-of-type(n+1):nth-of-type(-n+7),#main > div:nth-of-type(1),#main > div:nth-of-type(3),#main > div:nth-of-type(5),div.home-h:nth-of-type(4),div.home-h:nth-of-type(6),#main > div[style],body > div[style]
+!#endif
 
 #======ASMR===========================================================================
 #======动漫===========================================================================
