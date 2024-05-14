@@ -1,6 +1,7 @@
 ! Title: RM40 uBlock Origin
 ! Homepage: https://github.com/zjtie/AD
 
+#：https://raw.githubusercontent.com/zjtie/AD/main/RM40-uBlock
 !#include RM40-uBlock-Telegram
 
 https://navzjt.vercel.app/#
@@ -325,11 +326,7 @@ www.landiannews.com##.comments
 ! 2024年4月25日 https://eatasmr.com
 eatasmr.com##footer
 
-! 2024年4月25日 https://japaneseasmr.com
-japaneseasmr.com##[href="https://japaneseasmr.com/request/"]
-japaneseasmr.com###ilovewp-comments
-https://a.magsrv.com/video-slider.js
-japaneseasmr.com##div.code-block
+
 
 ! 2024年4月25日 https://asmr18.fans
 asmr18.fans###menu-link
