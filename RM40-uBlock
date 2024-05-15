@@ -169,9 +169,6 @@ studiofow.com##.whb-hidden-lg.whb-mobile-center.whb-column
 studiofow.com##.wd-prefooter
 studiofow.com##.color-scheme-light.footer-container
 
-! 2024年4月25日 https://eatasmr.com
-eatasmr.com##footer
-
 ! 2024年4月25日 https://web.nicecat.cc
 web.nicecat.cc###body_nav_menu > div:nth-of-type(7)
 web.nicecat.cc###body_nav_menu > div:nth-of-type(8)
@@ -554,6 +551,8 @@ asmr18.fans###menu-link,footer,#comments,.book18-post-list,div.home-h:nth-of-typ
 asmr18.fans###main div:nth-of-type(n+1):nth-of-type(-n+7),#main > div:nth-of-type(1),#main > div:nth-of-type(3),#main > div:nth-of-type(5),div.home-h:nth-of-type(4),div.home-h:nth-of-type(6),#main > div[style],body > div[style]
 !#endif
 
+! 2024年4月25日 https://eatasmr.com e聆聽, 放鬆身心
+eatasmr.com##footer,.line_2,body>iframe
 #======ASMR===========================================================================
 #======动漫===========================================================================
 ! 2024-05-08 https://www.watchanime.video
