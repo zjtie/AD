@@ -12,6 +12,9 @@ www.zhihu.com##footer
 ! 2022-11-20 https://www.youtube.com
 www.youtube.com###footer
 
+! 2023-04-13 https://discord.com
+discord.com##.wrapper-2JEvo0
+
 ! 2023-12-19 https://i.jandan.net 煎蛋
 jandan.net,i.jandan.net###footer,#commentform,.wechat-hide,.wechat-hide+div,.shang,#footer,.post[style],.social-share,.post[align],.jandan-zan
 
@@ -85,6 +88,9 @@ www.wenshushu.cn##.g-footer,.g-open_app,.footer
 ! 2024-05-15 https://www.alipan.com 阿里云盘
 www.alipan.com##.nav-sub-tab-bottom--mLRLo,.container--T0zFN,.text-secondary--TlI9K
 
+! 2022-12-15 https://smailpro.com/temp-gmail 临时谷歌邮箱
+smailpro.com##footer,.hidden,#a_1,.min-h-menuweb,.mt-4
+
 #======文档工具===========================================================================
 #======图片===========================================================================
 ! 2022-01-21 https://www.huashi6.com  触站画师
@@ -97,32 +103,11 @@ www.cnu.cc##.blackBG,.pageFooter,.comment,.work-info
 huaban.com,m.huaban.com##.app.item,.desktop.to,.android.app.to,.open-add,.ant-modal-root,.LXSm0s3K,.P8_jH2tl
 #======图片===========================================================================
 
-
-! 2022-11-29 https://taskerm.com
-taskerm.com##.aside-content
-
-! 2022-12-12 https://web.vip.miui.com
-web.vip.miui.com##.DownCard_downloadCard__1sLVU
-web.vip.miui.com##.UserProtocol_card__-eD84
-
-! 2022-12-15 https://smailpro.com 临时谷歌邮箱
-smailpro.com##.py-2.order-last.items-center.inline-flex
-
-! 2023-02-11 https://smailpro.com
-
-! 2023-04-13 https://discord.com
-discord.com##.wrapper-2JEvo0
-
-
 ! 2022-11-30 https://weibo.com
 weibo.com##.Nav_links_1ytEi.Links_wrap_mrA8a.woo-box-flex
 weibo.com##.Aria_btn_3caTr
 weibo.com##.wbpro-side-copy
 weibo.com##.Reward_box_27GVq.wrap
-#公益捐赠
-
-
-#页尾
 
 ! 2023-09-15 https://nijiero-ch.com
 
@@ -132,22 +117,7 @@ weibo.com##.Reward_box_27GVq.wrap
 m.yhdmz.org###www_tip_bak
 
 
-! 2023-09-18 https://y.music.163.com
-! 2023-09-30 https://web.6parkbbs.com
-
-! 2023-10-07 https://m.1688.com
-m.1688.com##.failModal
-m.1688.com##.bottomOpen-wrap
-
-! 2023-12-17 https://asiantolick.com
-
-! 2023-12-27 https://xchina.co
-
 yipai.yalayi.com##.footer
-
-! 2024-01-22 https://www.metarthunter.com
-www.metarthunter.com##.list-triple
-www.metarthunter.com##.text-center.double
 
 ! 2024-01-22 https://www.youngpussypic.com
 www.youngpussypic.com##.pop-wrap
@@ -156,36 +126,9 @@ www.youngpussypic.com##.clearfix.related-pic-list
 ! 2024-01-30 https://rouman5.com
 rouman5.com##.position-abolute
 
-! 2024-01-31 https://www.metart.com
-www.metart.com##.panels.man-ui
-
 ! 2024-02-07 https://club.6parkbbs.com
 club.6parkbbs.com##.gift
 club.6parkbbs.com##tr:nth-of-type(3)
-
-! 2024-04-14 https://studiofow.com
-studiofow.com##.whb-visible-lg.whb-col-center.whb-column
-studiofow.com##.whb-hidden-lg.whb-mobile-center.whb-column
-studiofow.com##.wd-prefooter
-studiofow.com##.color-scheme-light.footer-container
-
-! 2024年4月25日 https://web.nicecat.cc
-web.nicecat.cc###body_nav_menu > div:nth-of-type(7)
-web.nicecat.cc###body_nav_menu > div:nth-of-type(8)
-web.nicecat.cc###body_nav_menu > div:nth-of-type(9)
-
-
-! 2024年4月29日 https://scrolller.com
-scrolller.com##div[mode="open"] > button:nth-child(3),.getPremiumView,.app-page > div:first-of-type
-#上传 #成为高级会员 #页头
-scrolller.com##button[aria-label="Download"], button[aria-label="Share"], button[aria-label="Auto Scroll"]
-scrolller.com##button[aria-label="Auto Scroll"] + button,button[aria-label="Close fullscreen"] + div
-#按钮 #按钮的后面一个div元素
-scrolller.com##div.sc-brPLxw > div:first-of-type > div:nth-of-type(3),div.sc-brPLxw > div:first-of-type > div:nth-of-type(4)
-#广告
-
-hentaigasm.com###respond,#comments,#footer,.adv,.widget_text.widget.widget_custom_html
-#回复 #其他评论 #footer #广告
 
 xanimu.com###pcppopp,#mobppopp,noscript,#adsbanner,#adsgoogle,#playlist-container,#report_post-js-extra,#exoscript,#related-boxes-footer-ver2
 xanimu.com###comment_link,#wrapper-footer,.hero,.mobile-pad-head,#page > div:nth-of-type(3)
@@ -254,64 +197,30 @@ h2gcz1.ydwzsp.com##.bottom-load,.swiper-wrapper,.mtap span:nth-of-type(6),.mlogo
 #======论坛===========================================================================
 
 #======Video===========================================================================
-! 2023-02-13 https://www.xnxx.com
-www.xnxx.com###footer,.logo-xnxx,.slogan,.live-cams,.nutaku-games,#mobile-menu > ul > li:nth-of-type(7),#mobile-menu > ul > li:nth-of-type(8),.report-search
-#footer #logo #logo #live #game #故事 #论坛 #举报 
-www.xnxx.com###header-mobile-live-cam,.premium-results-line,.tab-buttons,[href="https://forum.xnxx.com"]
-#live #会员 #下载举报
+! 2023-02-13 https://www.xnxx.com 100% 免費
+www.xnxx.com###footer,.logo-xnxx,.slogan,.live-cams,.nutaku-games,#mobile-menu > ul > li:nth-of-type(7),#mobile-menu > ul > li:nth-of-type(8),.report-search,#header-mobile-live-cam,.premium-results-line,.tab-buttons,[href="https://forum.xnxx.com"]
 
 ! 2023-02-13 https://beeg.com
 beeg.com##[href*="live"],.sidebar__content-secondary
 
 ! 2024年5月5日 https://cn.pornhub.com
-cn.pornhub.com##.footerContentWrapper,.networkBarWrapper,.uploadBtnContent,.uploadBtnContentSpicevids,.menuLinkDiv,.halfWidth,.likedVideos,.tab-menu-wrapper-row,.userActions,.suggestBtn
-#页尾，页头，上传,会员资格,无关模块,喜欢,添加至，举报,订阅,添加标签
-cn.pornhub.com###countryRedirectMessage,#welcome,#js-abContainterMain,#svgHeaderElements,#menuItem4,#communitySubmenu,#under-player-comments,.cmtPlaylist,#bottomNav 
-#语言显示，禁用Adblock,实时摄像头 ,所有评论,所有评论,实时摄像头
-cn.pornhub.com###headerContainer > div:last-child,#flagVideoBtn,#playlistModal,#tooltip,#headerUserIcon,#comments
-#登入 #手机添加至 #手机举报 #添加至片单 #手机登入 #手机评论
-cn.pornhub.com###mgp_skin_desktop,#infoModal,#signinModal,#mgp_skin_mobile,#backgroundLayer,#jsMobileMenuBackground,#svgTranslationElements
-#未显示,不知道怎么东西
-cn.pornhub.com##.mostPopularComment,.fanClubButtons,.responseWrapper,.profile-sidebar,.userButtons,.logoWrapper,.bottomNav.clearfix
-#手机评论 #手机订阅 #感谢您的建议 #举报用户 #添加好友订阅 #logo #实时摄像头
-cn.pornhub.com##footer,.adContainer,.ad-tabSplit,#adSpot,.topAdContainter
-#页尾 #广告
+cn.pornhub.com##.footerContentWrapper,.networkBarWrapper,.uploadBtnContent,.uploadBtnContentSpicevids,.menuLinkDiv,.halfWidth,.likedVideos,.tab-menu-wrapper-row,.userActions,.suggestBtn,#countryRedirectMessage,#welcome,#js-abContainterMain,#svgHeaderElements,#menuItem4,#communitySubmenu,#under-player-comments,.cmtPlaylist,#bottomNav,#headerContainer > div:last-child,#flagVideoBtn,#playlistModal,#tooltip,#headerUserIcon,#comments,#mgp_skin_desktop,#infoModal,#signinModal,#mgp_skin_mobile,#backgroundLayer,#jsMobileMenuBackground,#svgTranslationElements,.mostPopularComment,.fanClubButtons,.responseWrapper,.profile-sidebar,.userButtons,.logoWrapper,.bottomNav.clearfix,footer,.adContainer,.ad-tabSplit,#adSpot,.topAdContainter
 
-! 2024年5月5日 https://spankbang.com
-spankbang.com###body-html > div:first-of-type,#age_check,#comment_box_anchor,.tab_comments.main_content_container
-#已年满 18 岁吗？ #已年满 18 岁吗？ #评论 #评论
-spankbang.com##.clear-fix,.ft-grad,#shorts-frame,.grid_container,.live_cam_header_2,.main_content_container.space-y.mt-1
-#unknow #unknow #unknow #unknow #live #live
-spankbang.com##.ft-grad,.ls,.fl,.embed,.right,.top-wrapper,.ads_placement,.s-ad,footer,[href="/tv/"]
-#页尾部按钮 #优惠 #举报 #嵌入这个视频 #侧边栏 #摄像头+优惠 #广告 #广告 #页尾 #TV
-spankbang.com##.main_content_title > h2:last-of-type,.info > h2,.mt-1.space-y.main_content_container.tab_comments
-#经过验证的创作者 
+! 2024年5月5日 https://spankbang.com 免费和4K
+spankbang.com###body-html > div:first-of-type,#age_check,#comment_box_anchor,.tab_comments.main_content_container,.clear-fix,.ft-grad,#shorts-frame,.grid_container,.live_cam_header_2,.main_content_container.space-y.mt-1,.ft-grad,.ls,.fl,.embed,.right,.top-wrapper,.ads_placement,.s-ad,footer,[href="/tv/"],.main_content_title > h2:last-of-type,.info > h2,.mt-1.space-y.main_content_container.tab_comments
 
-! 2022-11-20 https://www.bellesa.co
-#作为快乐的主体，而不是征服的对象 #性应该是有趣的、充满力量的
-www.bellesa.co###app > div > header,#app div div.MediaQuery__Query-sc-dh9ch6-0,.crpkjC.MediaQuery__Query-sc-dh9ch6-0,.clsZEL.Shell__Header-sc-13f0ghz-1,.jrDAJu.Shell__Header-sc-13f0ghz-1
-www.bellesa.co##.bLcZOX,.ifKlPG,.loGkAL,.lgHkqs,footer,.bgKbBU,.fKApKc,#app > div:first-of-type
-#评论 #更多Bellesa #升级 #页头 #页尾 #页尾 #页尾 #unknow
+! 2022-11-20 https://www.bellesa.co #作为快乐的主体，而不是征服的对象 #性应该是有趣的、充满力量的
+www.bellesa.co###app > div > header,#app div div.MediaQuery__Query-sc-dh9ch6-0,.crpkjC.MediaQuery__Query-sc-dh9ch6-0,.clsZEL.Shell__Header-sc-13f0ghz-1,.jrDAJu.Shell__Header-sc-13f0ghz-1,.bLcZOX,.ifKlPG,.loGkAL,.lgHkqs,footer,.bgKbBU,.fKApKc,#app > div:first-of-type
 
 ! 2023-08-20 https://www.xvideos.com
-www.xvideos.com###disclaimer_background,#cookies-use-alert,#footer,#v-actions-overflow-menu,#tabComments_bottom_page,.mobile-portrait-show,.chat-hidden
-#警告 #cookies #footer #下载按钮 #评论 #移动端导航 #聊天框
-www.xvideos.com##.ad-profiles,.live-cams,.nutaku-games,.red-ticket,[href="https://www.xdating.com/"],.premium-results-line
-#广告 #直播 #游戏 #会员视频 #约会 #会员视频
-www.xvideos.com###v-actions > .tabs,.link-instanted.head__menu-line__main-menu__lvl1,.remove-ads,.btn.live-cams
-#下载评论 #导航
+www.xvideos.com###disclaimer_background,#cookies-use-alert,#footer,#v-actions-overflow-menu,#tabComments_bottom_page,.mobile-portrait-show,.chat-hidden,.ad-profiles,.live-cams,.nutaku-games,.red-ticket,[href="https://www.xdating.com/"],.premium-results-line,#v-actions > .tabs,.link-instanted.head__menu-line__main-menu__lvl1,.remove-ads,.btn.live-cams
 
-! 2023-08-20 https://hqporner.com
+! 2023-08-20 https://hqporner.com 高分辨率高质量
 hqporner.com##.footer-bg,.big_header,.page-content.box > header,li:nth-of-type(5),.link-instanted.hide_ad_marker.button
 m.hqporner.com##.footerWrapper,.color5,.color2,.color8,.title.main-h1,.homePageWrapper.pageWrapper > div > span,span.altPlayerButton:nth-of-type(1)
 
 ! 2023-08-20 https://www.eporner.com
-www.eporner.com###cookies,footer,#commentdiv,#uploadslide,#adinhead,.uvmspn1,.uvmspn4,.uvmspn6,.uvmspn7,.video-description,.vjs-docker,.infopopanim
-#评论 #上传 #直播 #评论，分享，保存，报告，下载 #视频描述 #分享 #建议
-www.eporner.com###headholder > .link-instanted,#video-info-tags .vit-suggester,.footer-text,#mainBlogPosts,div.toptopbel2:nth-of-type(9)
-#直播
-www.eporner.com###pbwuvp
-www.eporner.com###admobilefoot
+www.eporner.com###cookies,footer,#commentdiv,#uploadslide,#adinhead,.uvmspn1,.uvmspn4,.uvmspn6,.uvmspn7,.video-description,.vjs-docker,.infopopanim,#headholder > .link-instanted,#video-info-tags .vit-suggester,.footer-text,#mainBlogPosts,div.toptopbel2:nth-of-type(9),#pbwuvp,#admobilefoot,.clear,
 
 ! 2024年5月6日 https://www.sex.com
 www.sex.com##.bg-footer,.sticky a:nth-last-of-type(1),.sticky a:nth-last-of-type(2),.pt-1.gap-y-4.flex-col.flex > a.cursor-pointer
@@ -319,29 +228,17 @@ www.sex.com##.bg-footer,.sticky a:nth-last-of-type(1),.sticky a:nth-last-of-type
 ! 2023-05-05 https://madou.club
 madou.club##.clearfix.article-actions,.footer
 
-
 ! 2023-07-26 https://pigav.com
-pigav.com##.has-sep.main-sidebar.col-4,.is-open.detect-modal.ts-modal,.s-dark.footer-bold.cols-gap-lg.main-footer
-pigav.com###menu-item-286659 > .link-instanted,#menu-item-298936 > .link-instanted
+pigav.com##.has-sep.main-sidebar.col-4,.is-open.detect-modal.ts-modal,.s-dark.footer-bold.cols-gap-lg.main-footer,#menu-item-286659 > .link-instanted,#menu-item-298936 > .link-instanted
 
-! 2023-05-05 https://javday.tv
+! 2023-05-05 https://javday.tv 麻豆 看到飽
 javday.tv###footer,.header-container
 
 ! 2024-03-27 https://shayuapi.com
 shayuapi.com##table,.footer,.header.width1200,.mac_comment
 
-! 2024年4月24日 https://ogfap.com
-ogfap.com##.svelte-18jied9.modal
-ogfap.com##a.icon-button.promo-button:nth-of-type(1)
-ogfap.com##a.icon-button.promo-button:nth-of-type(2)
-ogfap.com##.navigation
-ogfap.com##.ad-iframe-wide.ad-iframe
-
 ! 2024-05-06 https://zh.xhamster.com
-zh.xhamster.com##.footer-wrapper,.main-wrap > .width-wrap,.main-wrap > div:nth-of-type(2),.top-menu__side-group > li:nth-of-type(10),.report-control,[data-role="video-share-button"]
-#footer #评论 #终极会员50%优惠🎉 #付费视频 #报告 #视频分享
-zh.xhamster.com##.bvNVl-luEpremium-n-overlay,[data-role="bvNVl-luEtop"],.layoutPage aside:nth-of-type(2),[data-role="layout-bottom"] > div:first-of-type
-#live
+zh.xhamster.com##.alert-box,.tooltip,main ~ *,.e595fa33,.footer-wrapper,.footer-wrapper ~ *,.left li:nth-of-type(9) ~ *,.live-nav,.comments-control ~ *,[class*="Jg-wvT"],.thumb-list-mobile-item--widget,#commentToggle ~ *,.my-comment,.list-7ae27 li:nth-of-type(1),.list-7ae27 li:nth-of-type(2),.buttons-aef6f,[class*="cook"],.vpn-geo-picker-container,.desktop-dialog-open,[href*="visible"],.right.top-menu__side-group
 
 ! 2024年4月30日 https://www.redgifs.com
 www.redgifs.com##.ApplicationFooter a:nth-of-type(3),.cookieNotice,.topNav-wrap > div:nth-of-type(1),.topNav-wrap > div:nth-of-type(3)
@@ -359,6 +256,9 @@ zh.yazhouse8.live##[class*="cookies"],#MAIN_FOOTER_ID,.external-link,.lottery,.a
 
 ! 2023-02-13 https://xxxshake.com
 xxxshake.com##.footer,.text,.headZ.headA,.headZ.headB,.fluid-custom-buttons,.headZ.headD,.block-comments,[href="https://live.xxxshake.com/"],.tabs-menu > ul,.flexible-container.content > .box
+
+! 2024年4月29日 https://scrolller.com
+scrolller.com##div[mode="open"] > button:nth-child(3),.getPremiumView,.app-page > div:first-of-type,button[aria-label="Download"], button[aria-label="Share"],button[aria-label="Auto Scroll"],button[aria-label="Auto Scroll"] + button,button[aria-label="Close fullscreen"] + div,div.sc-brPLxw > div:first-of-type > div:nth-of-type(3),div.sc-brPLxw > div:first-of-type > div:nth-of-type(4),.popup--sticky
 
 #======Video===========================================================================
 
@@ -452,6 +352,9 @@ ahri8.top##nav > ul > li > .apo,nav > ul > li:nth-of-type(6)
 ! 2024-05-14 https://nyahentai.re  同人誌から商業誌まであらゆるエロ漫画
  nyahentai.re##footer,div[style],[id*="active_overlay"],.home-h,.autoplay 
  nyahentai.re##[id*="active_overlay"],#is_w_area,.slick-track:remove()
+
+! 2024年4月25日 https://web.nicecat.cc  NiceCat 免费H漫画平台
+web.nicecat.cc###user-agreement-dialog-body,#home-bulletin,.homeBody+div,#body_nav_menu div:nth-of-type(8),#body_nav_menu div:nth-of-type(9)
 #======漫画===========================================================================
 #======图片===========================================================================
 ! 2024-05-08 https://a-hadaka.jp
@@ -513,6 +416,12 @@ pixiv.net,accounts.pixiv.net###js-privacy-policy-banner,footer,.sc-1j6j1zx-3,.sc
 
 ! 2024年4月17日 https://www.deviantart.com 最大的在线技术画廊和社区
 www.deviantart.com##.XN05V,a[rel="noreferrer"],[class="_1qttM"],[class="_1wQC1"],footer,.T1gwu,#comments+div,#outdated_banner,#burger-menu-networkbar li:nth-of-type(1),.reset-link.KzjtR,[class="_2XOk-"]
+
+! 2023-12-17 https://asiantolick.com Asian sexy photos and videos
+asiantolick.com##.menssage_favorite,#links_subhead,.externalLink,#share_download_report
+
+! 2024-01-31 https://www.metart.com 完美之美与艺术的邂逅
+ www.metart.com##.bUJAeN,.dHWthg,.dXDMUK,.eIrCBy,.ktbFdU,.movie-purchase,.gallery-purchase,.gallery-join,.eDUYTh,#modal-root,.toasts-container,#loader,noscript 
 
 #======图片===========================================================================
 #======ASMR===========================================================================
@@ -580,6 +489,13 @@ hanime.tv##footer,.site-description,.nav-drawer-list div:nth-of-type(7),.htvnad,
 
 ! 2024-04-02 https://sfmcompile.club
 sfmcompile.club##.g1-row-layout-page.g1-row.g1-footer,.mashsb-buttons,#secondary,#menu-item-2992,[href="https://theporndude.com/"],[href="https://sfmcompile.club/feedback/"]
+
+hentaigasm.com###respond,#comments,#footer,.adv,.widget_text.widget.widget_custom_html
+
+! 2024-04-14 https://studiofow.com FOW工作室
+studiofow.com##.whb-visible-lg.whb-col-center.whb-column,.whb-hidden-lg.whb-mobile-center.whb-column,.wd-prefooter,.color-scheme-light.footer-container,.avwp-av,.avwp-av-overlay
+
+
 #======动漫===========================================================================
 #======小说===========================================================================
 ! 2024-01-26 https://69story.com
