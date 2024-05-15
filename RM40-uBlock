@@ -61,7 +61,8 @@ www.jianguoyun.com##.teaser-container,.isActive.account-type,.active.bar-item,di
 up.woozooo.com##.if_top，#f_right
 ! 2023-07-27 https://apkcombo.com APP下载
 apkcombo.com##.is-main.column > .title,.is-desktop-only.widget,.footer,div.widget:nth-of-type(6),#download-result > .widget,.link-instanted.tag,.link-instanted.installer,a.link-instanted.navbar-item:nth-of-type(1),.navbar-end 
-
+! 2024-01-22 https://www.yckceo.com 源仓库 阅读APP
+www.yckceo.com##div.layui-hide-md.layui-container > .layui-card,.footer
 #======文档工具===========================================================================
 #======图片===========================================================================
 ! 2022-01-21 https://www.huashi6.com  触站画师
@@ -199,9 +200,6 @@ www.metarthunter.com##.text-center.double
 www.youngpussypic.com##.pop-wrap
 www.youngpussypic.com##.clearfix.related-pic-list
 
-! 2024-01-22 https://www.yckceo.com
-www.yckceo.com##.footer
-www.yckceo.com##div.layui-hide-md.layui-container > .layui-card
 
 ! 2024-01-25 https://ysxs001.com
 ysxs001.com##.fly-footer
@@ -299,12 +297,6 @@ scrolller.com##button[aria-label="Auto Scroll"] + button,button[aria-label="Clos
 #按钮 #按钮的后面一个div元素
 scrolller.com##div.sc-brPLxw > div:first-of-type > div:nth-of-type(3),div.sc-brPLxw > div:first-of-type > div:nth-of-type(4)
 #广告
-
-
-! 2024年4月30日 https://www.imagefap.com
-www.imagefap.com##center > center > center
-www.imagefap.com###main > center
-beta.imagefap.com##.footerLinks.clear
 
 hentaigasm.com###respond,#comments,#footer,.adv,.widget_text.widget.widget_custom_html
 #回复 #其他评论 #footer #广告
@@ -637,6 +629,8 @@ jablehk.com##footer,.header-actions--right,.header-nav-list div:nth-of-type(8) ~
 
 ! 2023-12-11 https://m.930tu.com 930圖片網 - 性感美女寫真_美女套圖分享_美女圖片大全欣賞
 
+! 2024年4月30日 https://www.imagefap.com  
+www.imagefap.com##center>center>center,#top_announce,#gallery+table,.tnaBarBlueWrap
 #======图片===========================================================================
 #======ASMR===========================================================================
 ! 2024-05-08 https://www.hentaiasmr.moe
