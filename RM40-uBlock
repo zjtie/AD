@@ -32,19 +32,28 @@ fuliba2023.net##.header,.sidebar,.karbar,footer,header,.m-mask,.m-navbar,#tcaptc
 
 ! 2024-05-11 https://www.36kr.com 36氪
 www.36kr.com##.kr-footer,.undefined,.seek-report-wrap,.seek-report-wrap + div,.station-business,.app-track-card,.relate-articles,.kr-article-commitbox-left-navbar-bottom,.thumb-up-box,.float-app-button-wrp,.article-top-swiper-goapp show,.kr-mobile-footer,.app-track-banner-outer,.article-praise,.article-no-comment,.swiper-wrapper
+
 ! 2023-08-22 https://sspai.com 少数派
 sspai.com##.light.footer-container,.right_bottom,footer
+
 ! 2024-05-11 https://iui.su 不死鸟
 iui.su##footer
+
 ! 2023-09-13 https://www.v2ex.com
 www.v2ex.com###Bottom
+
 ! 2024-01-11 https://blog.csdn.net
 blog.csdn.net##.passport-login-container,[class*="footer"],.blog-nps,.toolbar-btn-vip,.tool-active-list,.sidetool-writeguide-box,#recommendNps,#asideNewNps,#asideWriteGuide,.weixin-shadowbox,.feed-Sign-weixin,.rightmenu,.open_app_channelCode,#recommend,.wap-shadowbox
+
 ! 2024年4月23日 https://www.landiannews.com 蓝点网 - 给你感兴趣的内容
 www.landiannews.com##.aside,footer,.color-border.module-bg.top-bar,.comments
 
+! 2022-11-26 https://www.coolapk.com 玩数码，真实有趣的数码社区
+www.coolapk.com###sidebar,#footer,#header-developer,.feed-hot-reply,.download-group,.navbar-contact
+
 ! 2023-09-30 https://zhrwx.com 风车动漫
 zhrwx.com##.myui-foot,.myui-panel-bg2,.myui-content__operate li:nth-of-type(2),.myui-player__operate li:nth-of-type(1)
+
 ! 2023-12-15 https://m.agedm.org AGE动漫
 m.agedm.org##.video-comments-box.box-common,.hd,.comment-scrolltop.box-common,.go-marketing.box-common,.van-overlay,.age-update-dialog.van-dialog
 www.agedm.org##.global_notice_wrapper,#notice_box,.foot_content_wrapper,.extra-box,.col-md-12,.video_detail_wrapper.mb-3,.feedback-popover,.watch-qrcode-popover,.head-nav > li:nth-of-type(5)
@@ -54,12 +63,16 @@ www.agedm.org##.global_notice_wrapper,#notice_box,.foot_content_wrapper,.extra-b
 #======文档工具===========================================================================
 ! 2023-06-06 https://shimo.im 石墨文档
 shimo.im##.fzubdd,.ivKubu ,.djpIoZ,.owqsf,.dMDzwK.disable
+
 ! 2023-07-27 https://www.yuque.com 语雀文档
 www.yuque.com##.copyright,.like-module_larkLike_zeNuZ,.index-module_openInAppContainer_Vmiru,#footer,.index-module_dropdownTrigger_bAACL 
+
 ! 2022-11-21 https://www.jianguoyun.com  坚果云盘
 www.jianguoyun.com##.teaser-container,.isActive.account-type,.active.bar-item,div.bar-item:nth-of-type(4)
+
 ! 2023-02-11 https://up.woozooo.com 蓝奏云盘
 up.woozooo.com##.if_top，#f_right
+
 ! 2023-07-27 https://apkcombo.com APP下载
 apkcombo.com##footer,nav,.is-nav,[class*="ad-"]
 
@@ -84,10 +97,6 @@ www.aliyundrive.com##.to-desktop--1IcwT
 www.aliyundrive.com##.text--2buEJ
 
 ! 2022-11-20 https://animeidhentai.com
-
-! 2022-11-26 https://www.coolapk.com
-www.coolapk.com##.download-group
-www.coolapk.com##.main
 
 ! 2022-11-29 https://taskerm.com
 taskerm.com##.aside-content
