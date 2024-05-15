@@ -40,7 +40,8 @@ iui.su##footer
 www.v2ex.com###Bottom
 ! 2024-01-11 https://blog.csdn.net
 blog.csdn.net##.passport-login-container,[class*="footer"],.blog-nps,.toolbar-btn-vip,.tool-active-list,.sidetool-writeguide-box,#recommendNps,#asideNewNps,#asideWriteGuide,.weixin-shadowbox,.feed-Sign-weixin,.rightmenu,.open_app_channelCode,#recommend,.wap-shadowbox
-
+! 2024年4月23日 https://www.landiannews.com 蓝点网 - 给你感兴趣的内容
+www.landiannews.com##.aside,footer,.color-border.module-bg.top-bar,.comments
 
 ! 2023-09-30 https://zhrwx.com 风车动漫
 zhrwx.com##.myui-foot,.myui-panel-bg2,.myui-content__operate li:nth-of-type(2),.myui-player__operate li:nth-of-type(1)
@@ -60,9 +61,13 @@ www.jianguoyun.com##.teaser-container,.isActive.account-type,.active.bar-item,di
 ! 2023-02-11 https://up.woozooo.com 蓝奏云盘
 up.woozooo.com##.if_top，#f_right
 ! 2023-07-27 https://apkcombo.com APP下载
-apkcombo.com##.is-main.column > .title,.is-desktop-only.widget,.footer,div.widget:nth-of-type(6),#download-result > .widget,.link-instanted.tag,.link-instanted.installer,a.link-instanted.navbar-item:nth-of-type(1),.navbar-end 
+apkcombo.com##footer,nav,.is-nav,[class*="ad-"]
+
 ! 2024-01-22 https://www.yckceo.com 源仓库 阅读APP
 www.yckceo.com##div.layui-hide-md.layui-container > .layui-card,.footer
+
+! 2023-12-15 https://www.wenshushu.cn 文叔叔
+www.wenshushu.cn##.g-footer,.g-open_app,.footer
 #======文档工具===========================================================================
 #======图片===========================================================================
 ! 2022-01-21 https://www.huashi6.com  触站画师
@@ -79,7 +84,6 @@ www.aliyundrive.com##.to-desktop--1IcwT
 www.aliyundrive.com##.text--2buEJ
 
 ! 2022-11-20 https://animeidhentai.com
-
 
 ! 2022-11-26 https://www.coolapk.com
 www.coolapk.com##.download-group
@@ -136,10 +140,6 @@ weibo.com##.Reward_box_27GVq.wrap
 ! 2023-09-25 https://m.yhdmz.org
 m.yhdmz.org###www_tip_bak
 
-! 2023-09-25 https://apkcombo.com
-apkcombo.com##.apkcombo_desktop_728x90_top.apkcombo_mobile_300x250_top.mb-20.ad-pss-middle.ad-pss
-apkcombo.com##.apkcombo_desktop_728x90_middle.apkcombo_mobile_300x250_middle.mb-20.ad-pss-middle.ad-pss
-apkcombo.com##.apkcombo_desktop_300x250_right.apkcombo_mobile_300x250_bottom.ad-pss-bottom-right.ad-pss
 
 ! 2023-09-18 https://y.music.163.com
 ! 2023-09-30 https://web.6parkbbs.com
@@ -149,17 +149,6 @@ m.1688.com##.failModal
 m.1688.com##.bottomOpen-wrap
 
 
-! 2023-12-15 https://www.mddmz.com
-www.mddmz.com###Auto_banner
-||www.mddmz.com/templets/cosmo/images/pload.gif$image
-www.mddmz.com###poster
-www.mddmz.com##.tonzitxt
-www.mddmz.com##.tit3
-www.mddmz.com##.clearfix.mb1.playding
-
-! 2023-12-15 https://www.wenshushu.cn
-www.wenshushu.cn##.g-footer
-www.wenshushu.cn##.g-open_app
 
 ! 2023-12-15 https://mobile.fatsecret.cn
 mobile.fatsecret.cn##.footer
@@ -233,28 +222,6 @@ club.6parkbbs.com##tr:nth-of-type(3)
 sfmcompile.club## [href="https://theporndude.com/"]
 sfmcompile.club## [href="https://sfmcompile.club/feedback/"]
 
-
-! 2024-04-11 https://simpcity.su
-simpcity.su##.p-header--hasExtraContent.p-header
-simpcity.su##.nav-tpd.p-navEl-link
-simpcity.su##.nav-faze.p-navEl-link
-simpcity.su##.nav-dfake.p-navEl-link
-simpcity.su##.nav-bonga.p-navEl-link
-simpcity.su##.nav-shoosh.p-navEl-link
-simpcity.su##.p-footer-copyrightRow
-simpcity.su##.p-footer-row-opposite
-simpcity.su##.js-quickReply.block
-simpcity.su##.js-notices.notices--isMulti.notices--block.notices
-simpcity.su##.shareButtons--iconic.shareButtons
-
-! 2024-04-14 https://simpcity.su
-simpcity.su##.p-header--hasExtraContent.p-header
-simpcity.su##.nav-tpd.p-navEl-link
-simpcity.su##.nav-faze.p-navEl-link
-simpcity.su##.nav-shoosh.p-navEl-link
-simpcity.su##.p-footer
-simpcity.su##.js-notices.notices--block.notices
-
 ! 2024-04-14 https://studiofow.com
 studiofow.com##.whb-visible-lg.whb-col-center.whb-column
 studiofow.com##.whb-hidden-lg.whb-mobile-center.whb-column
@@ -267,13 +234,6 @@ sfmcompile.club##.g1-row-layout-page.g1-row.g1-footer
 ! 2024年4月17日 https://www.deviantart.com
 www.deviantart.com##footer
 www.deviantart.com##aside
-
-
-! 2024年4月23日 https://www.landiannews.com
-www.landiannews.com##.aside
-www.landiannews.com##footer
-www.landiannews.com##.color-border.module-bg.top-bar
-www.landiannews.com##.comments
 
 ! 2024年4月25日 https://eatasmr.com
 eatasmr.com##footer
@@ -323,13 +283,8 @@ adaman-ero.com##.banner,#footer-ad-box,#st_custom_html_ad_widget-25,#st_custom_h
 
 #======论坛===========================================================================
 #======论坛===========================================================================
-! 2024年5月6日 https://www.t66y.com
-www.t66y.com###footer,form,.t_like,#header,
-www.t66y.com###main .t.t2:nth-of-type(n+4)
-#所有的class="t t2"的div元素 从第4个开始
-www.t66y.com###ajaxtable > tbody:first-of-type > tr.tr3,#cate_thread
-#公告
-## 去广告等待未完成
+! 2024年5月6日 https://www.t66y.com 達蓋爾的旗幟 | 草榴社區 未完成：广告检测脚本 
+www.t66y.com###footer,form,.t_like,#header,#main .t.t2:nth-of-type(n+4),#ajaxtable > tbody:first-of-type > tr.tr3,#cate_thread
 
 ! 2024-05-07 http://a6rw6i.xyz 
 a6rw6i.xyz##.footer-wrap,#footer,.nav-wrap,#pw_box,#header,#notice,#main > form,.cc.t3 
