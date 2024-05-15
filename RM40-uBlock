@@ -264,11 +264,6 @@ studiofow.com##.color-scheme-light.footer-container
 ! 2024-04-14 https://sfmcompile.club
 sfmcompile.club##.g1-row-layout-page.g1-row.g1-footer
 
-! 2024-04-14 https://www.pixiv.net
-www.pixiv.net##footer
-www.pixiv.net##.premium-lead-t-side-menu-mini-profile
-
-
 ! 2024年4月17日 https://www.deviantart.com
 www.deviantart.com##footer
 www.deviantart.com##aside
@@ -380,10 +375,7 @@ www.xnxx.com###header-mobile-live-cam,.premium-results-line,.tab-buttons,[href="
 #live #会员 #下载举报
 
 ! 2023-02-13 https://beeg.com
-beeg.com##.bi.b-icon.bi-camera-video
-beeg.com##.XContentViewer__details__owner-footer
-beeg.com##.GreyFox--right.GreyFox
-beeg.com##.sidebar__content-secondary
+beeg.com##[href*="live"],.sidebar__content-secondary
 
 ! 2024年5月5日 https://cn.pornhub.com
 cn.pornhub.com##.footerContentWrapper,.networkBarWrapper,.uploadBtnContent,.uploadBtnContentSpicevids,.menuLinkDiv,.halfWidth,.likedVideos,.tab-menu-wrapper-row,.userActions,.suggestBtn
@@ -435,10 +427,6 @@ www.eporner.com###headholder > .link-instanted,#video-info-tags .vit-suggester,.
 www.eporner.com###pbwuvp
 www.eporner.com###admobilefoot
 
-! 2023-02-13 https://xxxshake.com
-xxxshake.com##.footer,.text,.headZ.headA,.headZ.headB,.fluid-custom-buttons,.headZ.headD,.block-comments
-xxxshake.com##[href="https://live.xxxshake.com/"],.tabs-menu > ul,.flexible-container.content > .box
-
 ! 2024年5月6日 https://www.sex.com
 www.sex.com##.bg-footer,.sticky a:nth-last-of-type(1),.sticky a:nth-last-of-type(2),.pt-1.gap-y-4.flex-col.flex > a.cursor-pointer
 
@@ -482,6 +470,10 @@ dbro.news##footer,aside,.post-share-bot,.post-share,#smart-head .smart-head-mid,
 
 ! 2024-01-22 https://zh.yazhouse8.live 亚洲吧直播
 zh.yazhouse8.live##[class*="cookies"],#MAIN_FOOTER_ID,.external-link,.lottery,.app-sidebar-full-content-links,#agreement-root
+
+! 2023-02-13 https://xxxshake.com
+xxxshake.com##.footer,.text,.headZ.headA,.headZ.headB,.fluid-custom-buttons,.headZ.headD,.block-comments,[href="https://live.xxxshake.com/"],.tabs-menu > ul,.flexible-container.content > .box
+
 #======Video===========================================================================
 
 
@@ -631,6 +623,11 @@ jablehk.com##footer,.header-actions--right,.header-nav-list div:nth-of-type(8) ~
 
 ! 2024年4月30日 https://www.imagefap.com  
 www.imagefap.com##center>center>center,#top_announce,#gallery+table,.tnaBarBlueWrap
+
+! 2024-04-14 https://accounts.pixiv.net pixiv是提供插画等作品的投稿、阅览服务的「插画交流网站」
+pixiv.net,accounts.pixiv.net###js-privacy-policy-banner,footer,.sc-1j6j1zx-3,.sc-6ylu6x-3,.sc-4nj1pr-4,.sc-16hmo26-0,.sc-xropq2-0,_,.tooltip-container,[class*="premium"],.wc-menu div:nth-of-type(1),.wc-menu ul:nth-of-type(3),.whitespace-nowrap
+
+
 #======图片===========================================================================
 #======ASMR===========================================================================
 ! 2024-05-08 https://www.hentaiasmr.moe
