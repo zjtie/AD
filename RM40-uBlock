@@ -146,9 +146,7 @@ a6rw6i.xyz##tr:has-text(趙敏)
 
 ! 2024-05-07 https://hjd2048.com
 hjd2048.com##.footer-wrap,.header_up_sign,#head,tr[onmouseover][onmouseout],fieldset,.pds,#main form[name="delatc"] > div:nth-of-type(1) ~ div,#anchor,.signature,.MedzAward 
-#导航页脚 #heade页头 #页头logo #列表广告 #列表广告 #文章广告 #讨论 #快速回复 #百万在线影院 支持高清下载 点我前去观摩 #赏
 hjd2048.com###cate_1 tr:nth-of-type(2),#cate_1 tr:nth-of-type(9)
-#导航广告1 #导航广告2 #列表公告
 hjd2048.com###pw_box,#headbase,#menu_userinfomore:nth-ancestor(1),#menu_shortcut,#login_fast 
 hjd2048.com###pw_box
 hjd2048.com###headbase
@@ -156,11 +154,9 @@ hjd2048.com###menu_userinfomore:nth-ancestor(1)
 hjd2048.com###menu_shortcut
 hjd2048.com###login_fast
 
-! 2024-05-07 https://wap.cool18.com
-wap.cool18.com##.article-content > center
-wap.cool18.com##.gift,.comment,.see-more,.list-li,.float-add,.footer-share,body svg
-#打赏 #评论 #下载客户端 #点赞 #发布
-wap.cool18.com##script[src^="pub/gdpr.js"],script[src^="https://home.6park.com/gift/getlucky"], script[src^="https://home.6park.com/vote/getvote"]
+! 2024-02-07 https://club.6parkbbs.com
+wap.cool18.com##.article-content > center,.gift,.comment,.see-more,.list-li,.float-add,.footer-share,body svg
+club.6parkbbs.com##.gift,.adv-6park
 
 ! 2024-05-08 https://wuso.me
 wuso.me###comiis_app_block_13,#comiis_app_block_25,.comiis_rate,.comiis_postlist div:nth-of-type(2) ~ div,.comiis_quote,.comiis_forumlist_top 
