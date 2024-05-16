@@ -1,26 +1,2 @@
 ! 2024-05-07 https://web.telegram.org
 web.telegram.org###portals,.bottom-marker,.message-select-control,.message-action-buttons
-
-#反差学生
- web.telegram.org##strong:has-text(51成人动漫):nth-ancestor(5)
- web.telegram.org##strong:has-text(抖音成人版):nth-ancestor(5)
- web.telegram.org##strong:has-text(成人版抖音):nth-ancestor(5)
- web.telegram.org##strong:has-text(外围楼凤):nth-ancestor(5)
-#公示榜
- web.telegram.org##strong:has-text(友情互推):nth-ancestor(5)
- web.telegram.org##strong:has-text(敏感内容搜索):nth-ancestor(5)
- web.telegram.org##strong:has-text(TG必备的搜索引擎):nth-ancestor(5) 
-#吃瓜中心 
- web.telegram.org##strong:has-text(优质奖励):nth-ancestor(5)
- web.telegram.org##strong:has-text(免费加盟):nth-ancestor(5)
- web.telegram.org##with-meta.with-meta:has-text(平台福利):nth-ancestor(4) 
- web.telegram.org##strong:has-text(菲律宾):nth-ancestor(5) 
- web.telegram.org##strong:has-text(活动福利):nth-ancestor(5) 
- web.telegram.org##strong:has-text(莆田中高端鞋):nth-ancestor(5)  
- web.telegram.org##strong:has-text(德州扑克):nth-ancestor(5)   
- web.telegram.org##strong:has-text(代理注册):nth-ancestor(5)
-
-
-
-
-
