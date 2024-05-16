@@ -5,7 +5,6 @@ EE! Title: RM40 uBlock Origin
 #======解决不了的===========================================================================
 www.porngo.com##footer 
 https://porn3dx.com
-! 2023-06-14 https://www.ximalaya.com
 
 #======社交平台===========================================================================
 www.zhihu.com##footer
@@ -454,6 +453,11 @@ xanimu.com###before-list-boxes-mobile-singl_tblt,#inside-video-boxes-mobile2_tbl
 xanimu.com###menu-main-menu > li:last-of-type,#menu-main-menu > li:nth-last-of-type(2),#menu-main-menu > li:nth-last-of-type(3)
 xanimu.com##.mobile-menu-all > ul:nth-of-type(2),.mobile-menu-all > ul:nth-of-type(3),.mobile-menu-all > ul:nth-of-type(4)
 #侧边栏
+
+! 2024-05-15 https://porn3dx.com
+ porn3dx.com##[class*="cookie"],#alert-update,#alert-update+div,.pt-5.space-y-2,.marker-app,iframe[src*="-ads"],div.sticky button,div.sticky div.p-4:nth-of-type(3),#aside-scroll .gap-4 .gap-4 div:nth-of-type(5),#aside-scroll .gap-4 .gap-4 div:nth-of-type(6)  
+
+
 #======动漫===========================================================================
 #======小说===========================================================================
 ! 2024-01-26 https://69story.com
