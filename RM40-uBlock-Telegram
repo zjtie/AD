@@ -1,1 +1,29 @@
+web.telegram.org###column-center.no-forwards,#page-chats~*
+
+#xueshengxx
+ web.telegram.org###column-center span:has-text(互推):nth-ancestor(5)  
+ web.telegram.org###column-center span:has-text(互粉):nth-ancestor(5)  
+ web.telegram.org###column-center span:has-text(付费):nth-ancestor(5) 
+ web.telegram.org###column-center span:has-text(付款):nth-ancestor(5) 
+ web.telegram.org###column-center span:has-text(费用):nth-ancestor(5)  
+#cn91o
+ web.telegram.org###column-center span:has-text(TG必备的搜索引擎):nth-ancestor(5)  
+#YGirlPorn
+ web.telegram.org###column-center span:has-text(萝莉呦呦):nth-ancestor(5)  
+#dppsclub
+ web.telegram.org###column-center span:has-text(猫爪云机场):nth-ancestor(5) 
+ web.telegram.org###column-center span:has-text(三国志侵略版):nth-ancestor(5) 
+#TsCdYJS
+ web.telegram.org###column-center span:has-text(内部群):nth-ancestor(5) 
+#Iyvip9770 
+ web.telegram.org###column-center span:has-text(微密圈VIP):nth-ancestor(5) 
+ web.telegram.org###column-center span:has-text(智能搜索):nth-ancestor(5) 
+#chigua9191
+ web.telegram.org###column-center span:has-text(同城约炮):nth-ancestor(5) 
+ web.telegram.org###column-center span:has-text(菲律宾菲妹):nth-ancestor(5) 
+ web.telegram.org###column-center span:has-text(捕鱼):nth-ancestor(5) 
+ web.telegram.org###column-center span:has-text(德州扑克):nth-ancestor(5) 
+ web.telegram.org###column-center span:has-text(游戏注册):nth-ancestor(5) 
+ web.telegram.org###column-center span:has-text(免费加盟):nth-ancestor(5) 
+
 
