@@ -1,4 +1,4 @@
-! Title: RM40 uBlock Origin
+EE! Title: RM40 uBlock Origin
 ! Homepage: https://github.com/zjtie/AD
 
 # https://dalao.ru/
@@ -118,15 +118,11 @@ a6rw6i.xyz##a:has-text(系统消息):nth-ancestor(2)
 a6rw6i.xyz##a:has-text(admin):nth-ancestor(2)
 a6rw6i.xyz##tr:has-text(趙敏)
 
-! 2024-05-07 https://hjd2048.com
-hjd2048.com##.footer-wrap,.header_up_sign,#head,tr[onmouseover][onmouseout],fieldset,.pds,#main form[name="delatc"] > div:nth-of-type(1) ~ div,#anchor,.signature,.MedzAward 
-hjd2048.com###cate_1 tr:nth-of-type(2),#cate_1 tr:nth-of-type(9)
-hjd2048.com###pw_box,#headbase,#menu_userinfomore:nth-ancestor(1),#menu_shortcut,#login_fast 
-hjd2048.com###pw_box
-hjd2048.com###headbase
-hjd2048.com###menu_userinfomore:nth-ancestor(1)
-hjd2048.com###menu_shortcut
-hjd2048.com###login_fast
+! 2024-05-07 hjd2048.com | https://bps.xzjrt.com 2048 未完成：两个元素之间的内容
+bps.xzjrt.com##.mb-3,.footer-wrap,#cate_1 tr:nth-of-type(2),#cate_1 tr:nth-of-type(9),fieldset+.t,.pds,.t5 ~ *,.main-wrap #main+div,form .t5 tr.r_one,#head,#pw_box,#headbase,div.c
+bps.xzjrt.com##a:has-text(匿名):nth-ancestor(2)
+bps.xzjrt.com##a:has-text(admin):nth-ancestor(2)
+bps.xzjrt.com##a:has-text(系統消息):nth-ancestor(2)
 
 ! 2024-02-07 https://club.6parkbbs.com
 wap.cool18.com##.article-content > center,.gift,.comment,.see-more,.list-li,.float-add,.footer-share,body svg
