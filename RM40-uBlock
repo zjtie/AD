@@ -246,10 +246,7 @@ eromanga-select.com###container > div:nth-of-type(n+1):nth-of-type(-n+8)
 eromanga-ace.com##footer,header,.scroll_link,.related-box,#comment_box,.yarpp 
 
 ! 2023-09-14 https://asmhentai.com
-asmhentai.com##.atop,.footer_center
-#空白行 #页面尾部
-asmhentai.com##li.friends > [href="https://hentaiera.com"],li.friends > [href="https://comicporn.xxx"],li.friends > [href="https://hentairox.com"],li.friends > [href="https://hentaiyes.com/"],li.friends > [href="https://imhentai.xxx"]
-#导航
+asmhentai.com##li.friends > [href="https://hentaiera.com"],li.friends > [href="https://comicporn.xxx"],li.friends > [href="https://hentairox.com"],li.friends > [href="https://hentaiyes.com/"],li.friends > [href="https://imhentai.xxx"],.atop,.footer_centera
 
 ! 2024-05-08 https://h-ciyuan.com
 h-ciyuan.com##meta,#gridview-head-content,#menu-item-13541,#menu-item-25315,.entry-header,#gridview-wrapper-outside ~ .gridview-outer-wrapper,#comments,.gridview-share-buttons,#gridview-sidebar-two-wrapper,.code-block 
@@ -283,8 +280,7 @@ kimootoko.net###copyright,#footer,#wp-footer,noscript,#header,.posts-list-upper-
 wnacg.com##.wrap.footer,p.result:nth-of-type(1),p.result:nth-of-type(2),[src="/themes/weitu/images/bg/shoucang.jpg"],#head_notify 
 
 ! 2024年4月22日 https://multporn.net
-multporn.net###footer-wrapper,#skip-link,#block-views-down-random-hentai-manga-block,.tabs,#menu-22031-1,#menu-22120-1,#menu-17097-1,#menu-1774-1,#page-title 
-multporn.net##[id*="user-"],[id*="block-block-"],[id*="comment"]
+multporn.net###footer-wrapper,#skip-link,#block-views-down-random-hentai-manga-block,.tabs,#menu-22031-1,#menu-22120-1,#menu-17097-1,#menu-1774-1,#page-title,[id*="user-"],[id*="block-block-"],[id*="comment"]
 
 ! 2023-12-11 https://www.apexmh.com
 www.apexmh.com##.footer,body > div:nth-of-type(4),.return
@@ -301,8 +297,7 @@ web.nicecat.cc###user-agreement-dialog-body,#home-bulletin,.homeBody+div,#body_n
 #======漫画===========================================================================
 #======图片===========================================================================
 ! 2024-05-08 https://a-hadaka.jp
-a-hadaka.jp###footer,#overlay,#headinfo,#commentarea,#hadakabar,address,header,.amazonpr,.dmmpr,.fancybox  
-a-hadaka.jp###nav li:nth-of-type(2)
+a-hadaka.jp###footer,#overlay,#headinfo,#commentarea,#hadakabar,address,header,.amazonpr,.dmmpr,.fancybox,#nav li:nth-of-type(2)  
 
 ! 2023-09-15 https://moeimg.net
 moeimg.net###header,#pickup-header_frame,#footer,.pc_only,.sp_only.sp_ad_4,.pc_only.widget-area,.sp_only,.sp_only,.share.entryblock,#respond,.commentlist,#comments,.nav-below,.follow.entryblock,.balloon.comments-link,li.widget-container:nth-of-type(4),.searchbyimage,#sp_ad_entry_middle_frame 
@@ -311,10 +306,8 @@ moeimg.net###header,#pickup-header_frame,#footer,.pc_only,.sp_only.sp_ad_4,.pc_o
 ! 2024-01-21 https://www.pornpics.com
 www.pornpics.com###cookie-contract,#fb-button,.left-nav-sponsor.left-side,.r-frame-on.adss-mob.r-frame,.footer,#fb-button,footer 
 
-! 2024-02-22 http://www.wsgmzt.com
-www.wsgmzt.com##[href*="js.wsgmzt"],[herf*="js.wsgmzt"],[href*="js.prmeinv"],[id*="listmt"],[id*="qrcode"],[id*="span_"]
-#二维码 #藏在内容中的广告 #正文广告 #本站地址 
-www.wsgmzt.com###ztlui3,#d1a,#a163,#bzs3,#bdssy,#dtag,#divpsg,#pcapic,#pcapicb,#cpcpc,#d5tig,#d5a,#dtxts,#bzs7,#dbffsm,br
+! 2024-02-22 http://www.wsgmzt.com 无圣光妹子图
+www.wsgmzt.com##[href*="js.wsgmzt"],[herf*="js.wsgmzt"],[href*="js.prmeinv"],[id*="listmt"],[id*="qrcode"],[id*="span_"],#ztlui3,#d1a,#a163,#bzs3,#bdssy,#dtag,#divpsg,#pcapic,#pcapicb,#cpcpc,#d5tig,#d5a,#dtxts,#bzs7,#dbffsm,br
 
 ! 2024-04-02 https://kemono.su
 kemono.su##.shifted.content-wrapper > [href],.stuck-bottom.global-sidebar-entry,footer
@@ -334,7 +327,7 @@ slushe.com##footer,#modal-custom,.discord,.about,.contact,.easy-share,.comments,
 ! 2022-11-23 https://www.jjpicss.com
 www.jjpicss.com##footer,.fm-close,.ad,iframe,[href="https://list.jjpicss.com/"],[href="/day/menu"]
 
-! 2022-01-21 http://thatpervert.com
+! 2022-01-21 http://thatpervert.com :: xxx 文件 
 thatpervert.com###footer,#post_list + div,#tagList,.uhead_share,#header,#joytip,#magnifier
 thatpervert.com###background:style(max-width: 100%;)
 
@@ -444,18 +437,11 @@ hentaigasm.com###respond,#comments,#footer,.adv,.widget_text.widget.widget_custo
 ! 2024-04-14 https://studiofow.com FOW工作室
 studiofow.com##.whb-visible-lg.whb-col-center.whb-column,.whb-hidden-lg.whb-mobile-center.whb-column,.wd-prefooter,.color-scheme-light.footer-container,.avwp-av,.avwp-av-overlay
 
-! 2024-04-14 https://999hentai.net
+! 2024-04-14 https://999hentai.net  无限制的 2D 和 3D 无尽动漫视频
 999hentai.net##.share-wraper.mt,.score-container,.sidebar-bottom.nav-links,.site-bottom-wrapper,.btli,.info-panel.py-5.footer,.mt-3.site-bottom-wrapper.info-panel,.disqus-comments.loading-wrapper
 999hentai.net##script[data-cfasync="false"].async:contains(adsbyjuicy)，.w-100.align-items-center.flex-column.d-flex.ads-wraper,[href="/about"],div.py-2:nth-of-type(5),.comments-box
 
-xanimu.com###pcppopp,#mobppopp,noscript,#adsbanner,#adsgoogle,#playlist-container,#report_post-js-extra,#exoscript,#related-boxes-footer-ver2
-xanimu.com###comment_link,#wrapper-footer,.hero,.mobile-pad-head,#page > div:nth-of-type(3)
-#评论
-xanimu.com###before-list-boxes-mobile-singl,#inside-video-boxes-mobile2,#before-list-boxes-mobile-singl_2,#inside-video-boxes-mobile2_2
-xanimu.com###before-list-boxes-mobile-singl_tblt,#inside-video-boxes-mobile2_tblt
-xanimu.com###menu-main-menu > li:last-of-type,#menu-main-menu > li:nth-last-of-type(2),#menu-main-menu > li:nth-last-of-type(3)
-xanimu.com##.mobile-menu-all > ul:nth-of-type(2),.mobile-menu-all > ul:nth-of-type(3),.mobile-menu-all > ul:nth-of-type(4)
-#侧边栏
+xanimu.com###pcppopp,#mobppopp,noscript,#adsbanner,#adsgoogle,#playlist-container,#report_post-js-extra,#exoscript,#related-boxes-footer-ver2,#comment_link,#wrapper-footer,.hero,.mobile-pad-head,#page > div:nth-of-type(3),#before-list-boxes-mobile-singl,#inside-video-boxes-mobile2,#before-list-boxes-mobile-singl_2,#inside-video-boxes-mobile2_2,#before-list-boxes-mobile-singl_tblt,#inside-video-boxes-mobile2_tblt,#menu-main-menu > li:last-of-type,#menu-main-menu > li:nth-last-of-type(2),#menu-main-menu > li:nth-last-of-type(3),.mobile-menu-all > ul:nth-of-type(2),.mobile-menu-all > ul:nth-of-type(3),.mobile-menu-all > ul:nth-of-type(4),.vid-report
 
 ! 2024-05-15 https://porn3dx.com
  porn3dx.com##[class*="cookie"],#alert-update,#alert-update+div,.pt-5.space-y-2,.marker-app,iframe[src*="-ads"],div.sticky button,div.sticky div.p-4:nth-of-type(3),#aside-scroll .gap-4 .gap-4 div:nth-of-type(5),#aside-scroll .gap-4 .gap-4 div:nth-of-type(6)  
