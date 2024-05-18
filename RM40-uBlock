@@ -1,5 +1,6 @@
 ! Title: RM40 uBlock Origin
 ! Homepage: https://github.com/zjtie/AD
+! 2024-05-17 https://51cg1.com/archives.html  全网更新最快最全的吃瓜网 t.me/s/chiguaa51
 
 #======社交平台===========================================================================
 www.zhihu.com##footer
@@ -132,6 +133,8 @@ wuso.me###comiis_app_block_13,#comiis_app_block_25,.comiis_rate,.comiis_postlist
 h2gcz1.ydwzsp.com##.tips-p,.infoFlowNav2 div:nth-of-type(5),.tg,#pinglun ~ a,#pinglun ~ p,#pinglun ~ div,.topcenter_left,.text01,.el-carousel--horizontal,.porn_link,.ad-layout,.centerMain_info,.line-layout,.share-bg
 h2gcz1.ydwzsp.com##.bottom-load,.swiper-wrapper,.mtap span:nth-of-type(6),.mlogo,.disflexrow ~ p,.disflexrow ~ div
 
+! 2024-05-17 https://51cg1.com/archives.html  全网更新最快最全的吃瓜网 t.me/s/chiguaa51
+51cg1.com##footer,#comments>div,#body-bottom .post-content,.flash,.content-tabs,blockquote,.article-ads-btn,#nav-toolbar,#menu-menu-1 li:nth-of-type(4)~*
 #======论坛===========================================================================
 
 #======Video===========================================================================
