@@ -105,8 +105,12 @@ huaban.com,m.huaban.com##.app.item,.desktop.to,.android.app.to,.open-add,.ant-mo
 #======图片===========================================================================
 
 #======论坛===========================================================================
-! 2024年5月6日 https://www.t66y.com 達蓋爾的旗幟 | 草榴社區 未完成：广告检测脚本 
+! 2024年5月6日 https://www.t66y.com 達蓋爾的旗幟 | 草榴社區 
 www.t66y.com###footer,form,.t_like,#header,#main .t.t2:nth-of-type(n+4),#ajaxtable > tbody:first-of-type > tr.tr3,#cate_thread
+t66y.com##+js(setTimeout-defuser, tpcHt0ml, 1006)
+t66y.com##+js(setTimeout-defuser, adhtml, 10006)
+# setTimeout-defuser：一个内置的 uBlock Origin 工具，用于拦截并取消特定的 setTimeout 调用
+# 作用：这条规则会拦截并取消所有与 adhtml 函数相关的 setTimeout 调用，且延迟时间为 10006 毫秒
 
 ! 2024-05-07 http://a6rw6i.xyz 
 a6rw6i.xyz##.footer-wrap,#footer,.nav-wrap,#pw_box,#header,#notice,#main > form,.cc.t3 
