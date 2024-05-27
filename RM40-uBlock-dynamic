@@ -1,125 +1,78 @@
-no-large-media: 18h.animezilla.com true
-no-large-media: behind-the-scene false
-* * 3p-frame block
-www.3dsexanime.xyz * 3p block
-www.3dsexanime.xyz * 3p-script noop
-www.3dsexanime.xyz bootstrapcdn.com * noop
-www.3dsexanime.xyz cloudflare.net * block
-www.3dsexanime.xyz fluidplayer.com * noop
-www.3dsexanime.xyz gstatic.com * block
-www.3dsexanime.xyz lifesexcam.xyz * noop
-69story.com * 3p block
-a-hadaka.jp googletagmanager.com * block
-a-hadaka.jp jsdelivr.net * block
-ahri8.top * 3p block
-ahri8.top ehentai.top * noop
-ahri8.top exosrv.com * noop
-www.analporngallery.com zendplace.pro * block
-18h.animezilla.com google-analytics.com * block
-www.apexmh.com * 3p block
-www.asianude4u.net * 3p-frame noop
-behind-the-scene * * noop
-behind-the-scene * 1p-script noop
-behind-the-scene * 3p noop
-behind-the-scene * 3p-frame noop
-behind-the-scene * 3p-script noop
-behind-the-scene * image noop
-behind-the-scene * inline-script noop
-dbro.news ad.sizn.cc * block
-eromanga-ace.com google-analytics.com * block
-eromanga-cafe.com ad-cheers.com * block
-eromanga-cafe.com facebook.net * block
-eromanga-cafe.com fam-ad.com * block
-eromanga-cafe.com image-ad.jp * block
-eromanga-cafe.com livedoor.net * block
-eromanga-cafe.com twitter.com * block
-eromanga-kai.com ad-nex.com * block
-eromanga-kai.com fam-ad.com * block
-eromanga-kai.com google.com * block
-eromanga-kai.com jsdelivr.net * block
-eromanga-kai.com twitter.com * block
-eromanga-kong.com wp.com * block
-eromanga-select.com wp.com * block
-fuliba2023.net * 3p-frame noop
-hanime1.me addthis.com * block
-hanime1.me cloudflare.com * block
-hanime1.me googlesyndication.com * block
-hanime1.me googletagmanager.com * block
-hanime1.me impactserving.com * block
-hanime1.me jads.co * block
-hanime1.me jquery.com * block
-hanime1.me jsdelivr.net * block
-hanime1.me magsrv.com * block
-hanime1.me mnaspm.com * block
-www.hentai-foundry.com * 3p block
-hentaix.io * 3p-frame noop
-hentaix.io ads-twitter.com * block
-hentaix.io fonts.googleapis.com * block
-hentaix.io gstatic.com * block
-hentaix.io imasdk.googleapis.com * block
-hentaix.io louisedistanthat.com * block
-ichinuke.com * 3p block
-www.jdlingyu.com * 3p block
-www.jdlingyu.com * 3p-frame noop
-www.jjpicss.com * 3p block
-www.jjpicss.com * 3p-frame noop
-kemono.su * 3p block
-kimootoko.net * 3p block
-www.lolhentai.net * 3p block
-www.lolhentai.net * 3p-frame noop
-members.luscious.net * 3p-frame noop
-mgav1.cc * 3p-frame noop
-moeimg.net * 3p block
-multporn.net * 3p block
-multporn.net * 3p-script noop
-nijiero-ch.com * 3p block
-nijiero-ch.com * 3p-script noop
-nijifeti.com google-analytics.com * block
-nijifeti.com livedoor.net * block
-nijifeti.com smac-ad.com * block
-nijisenmon.work ad-nex.com * block
-nijisenmon.work fam-ad.com * block
-nijisenmon.work google-analytics.com * block
-nijisenmon.work livedoor.net * block
-oreno-erohon.com * 3p block
-orgasmsoundlibrary.com * 3p block
-orgasmsoundlibrary.com * 3p-script noop
-7m7备用域名-pornsuo点com.pornyjs.com fonts.gstatic.com * block
-rouman5.com * inline-script block
-rouman5.com googletagmanager.com * block
-rouman5.com gsjln04hd.com * block
-rouman5.com jads.co * block
-rouman5.com magsrv.com * block
-rouman5.com ra7.xyz * block
-rouman5.com rmcdn1.xyz * block
-rouman5.com rmcdn2.xyz * block
-rouman5.com rmcdn3.xyz * block
-rouman5.com rmcdn4.xyz * block
-rouman5.com roucdn3.link * block
-rouman5.com yandex.ru * block
-rule34video.com * 3p block
-slushe.com * 3p block
-thatpervert.com * 3p block
-thatpervert.com img0.thatpervert.com.cname.w.tools * noop
-thatpervert.com img1.thatpervert.com.cname.w.tools * noop
-www.tsumino.com * 3p block
-twivideo.net * 3p-frame noop
-wnacg.com * 3p block
-wnacg.com * 3p-frame block
-wnacg.com * 3p-script block
-wnacg.com aicdn.com * block
-wnacg.com vm.aicdn.com * noop
-wnacg.com juicyads.com * block
-wnacg.com adserver.juicyads.com * block
-wnacg.com qy0.ru * block
-wnacg.com img5.qy0.ru * block
-wnacg.com upaiyun.com * noop
-wnacg.com yandex.ru * block
-www.wsgmzt.com * 3p block
-www.wsgmzt.com jpnst.com * noop
-www.wsgmzt.com js.jpnst.com * noop
-www.wsgmzt.com picg.jpnst.com * noop
-wuso.me ad.sizn.cc * block
-zh.yazhouse8.live * 1p-script block
-zh.yazhouse8.live cloudflare.com * block
-zh.yazhouse8.live xxxivjmp.com * block
+||www.3dsexanime.xyz^third-party
+||bootstrapcdn.com^third-party
+||cloudflare.net^third-party
+||fluidplayer.com^third-party
+||gstatic.com^third-party
+||lifesexcam.xyz^third-party
+||googletagmanager.com^third-party
+||jsdelivr.net^third-party
+||ehentai.top^third-party
+||exosrv.com^third-party
+||zendplace.pro^third-party
+||google-analytics.com^third-party
+||behind-the-scene^third-party
+||behind-the-scene^script,third-party
+||behind-the-scene^image
+||behind-the-scene^inline-script
+||ad.sizn.cc^third-party
+||ad-cheers.com^third-party
+||facebook.net^third-party
+||fam-ad.com^third-party
+||image-ad.jp^third-party
+||livedoor.net^third-party
+||twitter.com^third-party
+||ad-nex.com^third-party
+||wp.com^third-party
+||addthis.com^third-party
+||cloudflare.com^third-party
+||googlesyndication.com^third-party
+||googletagmanager.com^third-party
+||impactserving.com^third-party
+||jads.co^third-party
+||jquery.com^third-party
+||magsrv.com^third-party
+||mnaspm.com^third-party
+||*.3p^frame
+||ads-twitter.com^third-party
+||fonts.googleapis.com^third-party
+||gstatic.com^third-party
+||imasdk.googleapis.com^third-party
+||louisedistanthat.com^third-party
+||*.3p^frame
+||*.3p^script
+||*.3p^image
+||*.3p^inline-script
+||*.3p^third-party
+||*.3p-frame^third-party
+||*.3p-script^third-party
+||ad.sizn.cc^third-party
+||google-analytics.com^third-party
+||livedoor.net^third-party
+||smac-ad.com^third-party
+||ad-nex.com^third-party
+||google-analytics.com^third-party
+||auth0.openai.com^third-party
+||*.3p^third-party
+||*.3p-script^third-party
+||fonts.gstatic.com^third-party
+||*.3p^block
+||rmcdn2.xyz^third-party
+||rmcdn3.xyz^third-party
+||rmcdn4.xyz^third-party
+||roucdn3.link^third-party
+||*.3p^block
+||*.3p-frame^third-party
+||login.taobao.com^third-party
+||img0.thatpervert.com.cname.w.tools^third-party
+||img1.thatpervert.com.cname.w.tools^third-party
+||*.3p^block
+||*.3p-frame^third-party
+||aicdn.com^third-party
+||vm.aicdn.com^third-party
+||adserver.juicyads.com^third-party
+||img5.qy0.ru^third-party
+||*.3p^block
+||jpnst.com^third-party
+||js.jpnst.com^third-party
+||picg.jpnst.com^third-party
+||ad.sizn.cc^third-party
