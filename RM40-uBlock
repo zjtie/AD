@@ -155,6 +155,7 @@ beeg.com##[href*="live"],.sidebar__content-secondary
 
 ! 2024年5月5日 https://cn.pornhub.com
 cn.pornhub.com##.footerContentWrapper,.networkBarWrapper,.uploadBtnContent,.uploadBtnContentSpicevids,.menuLinkDiv,.halfWidth,.likedVideos,.tab-menu-wrapper-row,.userActions,.suggestBtn,#countryRedirectMessage,#welcome,#js-abContainterMain,#svgHeaderElements,#menuItem4,#communitySubmenu,#under-player-comments,.cmtPlaylist,#bottomNav,#headerContainer > div:last-child,#flagVideoBtn,#playlistModal,#tooltip,#headerUserIcon,#comments,#mgp_skin_desktop,#infoModal,#signinModal,#mgp_skin_mobile,#backgroundLayer,#jsMobileMenuBackground,#svgTranslationElements,.mostPopularComment,.fanClubButtons,.responseWrapper,.profile-sidebar,.userButtons,.logoWrapper,.bottomNav.clearfix,footer,.adContainer,.ad-tabSplit,#adSpot,.topAdContainter
+pornhub.com##+js(pornhub-popup-defuser.js)
 
 ! 2024年5月5日 https://spankbang.com 免费和4K
 spankbang.com###body-html > div:first-of-type,#age_check,#comment_box_anchor,.tab_comments.main_content_container,.clear-fix,.ft-grad,#shorts-frame,.grid_container,.live_cam_header_2,.main_content_container.space-y.mt-1,.ft-grad,.ls,.fl,.embed,.right,.top-wrapper,.ads_placement,.s-ad,footer,[href="/tv/"],.main_content_title > h2:last-of-type,.info > h2,.mt-1.space-y.main_content_container.tab_comments
