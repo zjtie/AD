@@ -1,5 +1,6 @@
   网络安全 Cybersecurity 
 
+```markdown
 # 基本概念：公网IP
 上网，需要通过 ISP（互联网服务提供商）才能接入互联网。不论你用的是宽带（比如：ADSL、有线通、FTTB）还是老式的 Modem 拨号，ISP 都会分配给你一个公网 IP 地址（以下简称“公网 IP”）。
 
@@ -31,8 +32,8 @@
 # weasel.custom.yaml 配置文件示例
 style/horizontal: true
 style/display_tray_icon: true
+```
 
-操作系统使用习惯
 ## 操作系统使用习惯
 1. 很多人为了省事，会让浏览器记住自己登录的网站的用户名/密码。
 2. 有些 Web 网站，会把你的登录名保存到 cookie 中。
