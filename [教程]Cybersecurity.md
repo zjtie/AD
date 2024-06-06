@@ -31,8 +31,8 @@
 # weasel.custom.yaml 配置文件示例
 style/horizontal: true
 style/display_tray_icon: true
-```
 
+操作系统使用习惯
 ## 操作系统使用习惯
 1. 很多人为了省事，会让浏览器记住自己登录的网站的用户名/密码。
 2. 有些 Web 网站，会把你的登录名保存到 cookie 中。
