@@ -283,13 +283,13 @@ m.huaban.com##.P8_jH2tl
 #======图片===========================================================================
 #======论坛===========================================================================
 ! 2024年5月6日 https://www.t66y.com 達蓋爾的旗幟 | 草榴社區 
-www.t66y.com###footer
-www.t66y.com##form
-www.t66y.com##.t_like
-www.t66y.com###header
-www.t66y.com###main .t.t2:nth-of-type(n+4)
-www.t66y.com###ajaxtable > tbody:first-of-type > tr.tr3
-www.t66y.com###cate_thread
+t66y.com###footer
+t66y.com##form
+t66y.com##.t_like
+t66y.com###header
+t66y.com###main .t.t2:nth-of-type(n+4)
+t66y.com###ajaxtable > tbody:first-of-type > tr.tr3
+t66y.com###cate_thread
 t66y.com##+js(setTimeout-defuser, tpcHt0ml, 1006)
 t66y.com##+js(setTimeout-defuser, adhtml, 10006)
 # setTimeout-defuser：一个内置的 uBlock Origin 工具，用于拦截并取消特定的 setTimeout 调用
