@@ -294,6 +294,12 @@ t66y.com##+js(setTimeout-defuser, tpcHt0ml, 1006)
 t66y.com##+js(setTimeout-defuser, adhtml, 10006)
 # setTimeout-defuser：一个内置的 uBlock Origin 工具，用于拦截并取消特定的 setTimeout 调用
 # 作用：这条规则会拦截并取消所有与 adhtml 函数相关的 setTimeout 调用，且延迟时间为 10006 毫秒
+t66y.com##.tpc_cont:contains("版塊公告")
+#contains 是一个 CSS 选择器中的伪类，用于选择包含特定文本内容的元素
+t66y.com###conttpc ~ *
+#正文评价
+t66y.com###ajaxtable ~ :not(.tac):not(.tac ~ *)
+#标题 选择 #ajaxtable 后的所有非 .tac 类元素；排除 .tac 元素后的所有同级元素及其后代元素
 
 
 ! 2024-05-07 http://a6rw6i.xyz 
@@ -956,10 +962,14 @@ web.nicecat.cc##.homeBody + div
 web.nicecat.cc###body_nav_menu div:nth-of-type(8)
 web.nicecat.cc###body_nav_menu div:nth-of-type(9)
 
+! 2024年6月24日 https://members.luscious.net
+members.luscious.net##.o-modal-drawer
+members.luscious.net##.page-footer
 #======漫画===========================================================================
 #======图片===========================================================================
 ! 2024-05-08 https://a-hadaka.jp
-
+legs.a-hadaka.jp##footer
+legs.a-hadaka.jp###comments
 
 ! 2023-09-15 https://moeimg.net
 moeimg.net###header
@@ -1202,6 +1212,10 @@ adaman-ero.com###scrollad
 www.youngpussypic.com##.pop-wrap
 www.youngpussypic.com##.clearfix.related-pic-list
 
+! 2024年6月24日 https://www.metarthunter.com
+www.metarthunter.com##.list-triple
+www.metarthunter.com##.image-banner
+www.metarthunter.com##.form-share ~ *
 #======图片===========================================================================
 #======ASMR===========================================================================
 ! 2024-05-08 https://www.hentaiasmr.moe
