@@ -303,21 +303,21 @@ t66y.com###ajaxtable ~ :not(.tac):not(.tac ~ *)
 
 
 ! 2024-05-07 http://a6rw6i.xyz 
-a6rw6i.xyz##.footer-wrap
-a6rw6i.xyz###footer
-a6rw6i.xyz##.nav-wrap
-a6rw6i.xyz###pw_box
-a6rw6i.xyz###header
-a6rw6i.xyz###notice
-a6rw6i.xyz###main > form
-a6rw6i.xyz##.cc.t3
-a6rw6i.xyz###cate_1 tr:nth-of-type(3)
-a6rw6i.xyz###cate_1 tr:nth-of-type(7)
-a6rw6i.xyz##font[color]:nth-ancestor(1)
-a6rw6i.xyz##a:has-text(自拍核工厂):nth-ancestor(2)
-a6rw6i.xyz##a:has-text(系统消息):nth-ancestor(2)
-a6rw6i.xyz##a:has-text(admin):nth-ancestor(2)
-a6rw6i.xyz##tr:has-text(趙敏)
+*/pw/##.footer-wrap
+*/pw/##footer
+*/pw/##.nav-wrap
+*/pw/##pw_box
+*/pw/##header
+*/pw/##notice
+*/pw/##main > form
+*/pw/##.cc.t3
+*/pw/##cate_1 tr:nth-of-type(3)
+*/pw/##cate_1 tr:nth-of-type(7)
+*/pw/##font[color]:nth-ancestor(1)
+*/pw/##a:has-text(自拍核工厂):nth-ancestor(2)
+*/pw/##a:has-text(系统消息):nth-ancestor(2)
+*/pw/##a:has-text(admin):nth-ancestor(2)
+*/pw/##tr:has-text(趙敏)
 
 ! 2024-05-07 hjd2048.com | https://bps.xzjrt.com 2048 未完成：两个元素之间的内容
 hjd2048.com##.mb-3
