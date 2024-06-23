@@ -234,4 +234,22 @@ avbebe.com###post-body-class
 avbebe.com##.jeg_aside_item li:nth-of-type(n+13):nth-of-type(-n+18)
 avbebe.com##.jeg_mainmenu_wrap li:nth-of-type(n+13):nth-of-type(-n+18)
 
+! 2024-05-08 https://dbro.news
+dbro.news##footer
+dbro.news##aside
+dbro.news##.post-share-bot
+dbro.news##.post-share
+dbro.news###smart-head .smart-head-mid
+dbro.news###menu-item-709088
+dbro.news###menu-item-382966
+
+! 2024-01-22 https://zh.yazhouse8.live 亚洲吧直播
+zh.yazhouse8.live##[class*="cookies"]
+zh.yazhouse8.live###MAIN_FOOTER_ID
+zh.yazhouse8.live##.external-link
+zh.yazhouse8.live##.lottery
+zh.yazhouse8.live##.app-sidebar-full-content-links
+zh.yazhouse8.live###agreement-root
+
+
 
