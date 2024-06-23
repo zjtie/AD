@@ -1,3 +1,398 @@
+! Title: RM40 uBlock Origin
+! Homepage: https://github.com/zjtie/AD
+! 2024-05-17 https://51cg1.com/archives.html  全网更新最快最全的吃瓜网 t.me/s/chiguaa51
+! 2024-05-17 https://kanliao4.com 今日看料
+! https://btbtt18.com/
+#======社交平台=============
+www.zhihu.com##footer
+! 2022-11-20 https://www.youtube.com
+
+www.youtube.com###footer
+
+
+! 2023-04-13 https://discord.com
+discord.com##.wrapper-2JEvo0
+
+! 2023-12-19 https://i.jandan.net 煎蛋
+jandan.net###footer
+jandan.net##commentform
+jandan.net#.wechat-hide
+jandan.net>.wechat-hide+div
+jandan.net#.shang
+jandan.net#footer
+jandan.net .post[style]
+jandan.net .social-share
+jandan.net .post[align]
+jandan.net .jandan-zan
+i.jandan.net###footer
+i.jandan.net##commentform
+i.jandan.net#.wechat-hide
+i.jandan.net>.wechat-hide+div
+i.jandan.net#.shang
+i.jandan.net#footer
+i.jandan.net .post[style]
+i.jandan.net .social-share
+i.jandan.net .post[align]
+i.jandan.net .jandan-zan
+
+! 2024年5月3日 https://www.douyin.com 抖音
+www.douyin.com##.e5v3_cjW
+www.douyin.com##.KhphjUgd.anFLc8TW
+www.douyin.com##.iqAeEhI1
+www.douyin.com##footer
+www.douyin.com##.bhNMSJTw
+live.douyin.com##.e5v3_cjW
+live.douyin.com##.KhphjUgd.anFLc8TW
+live.douyin.com##.iqAeEhI1
+live.douyin.com##footer
+live.douyin.com##.bhNMSJTw
+www.douyin.com div.rsgoNBIr.n0rJzjLU:nth-of-type(2)
+live.douyin.com div.rsgoNBIr.n0rJzjLU:nth-of-type(2)
+
+! 2023-02-11 https://www.douban.com 豆瓣
+www.douban.com##.top-nav-doubanapp
+www.douban.com###footer
+
+! 2023-09-13 https://www.bilibili.com 哔哩哔哩
+live.bilibili.com,bilibili.com##.bili-footer
+live.bilibili.com,bilibili.com##.palette-button-wrap
+live.bilibili.com,bilibili.com##.download-client-trigger.download-entry
+live.bilibili.com,bilibili.com##.vip-wrap
+live.bilibili.com,bilibili.com##.right-entry-item--upload.right-entry-item
+live.bilibili.com,bilibili.com##li.right-entry-item:nth-of-type(6)
+
+! 2022-11-20 https://fuliba2023.net 福利吧
+fuliba2023.net##.header
+fuliba2023.net##.sidebar
+fuliba2023.net##.karbar
+fuliba2023.net##footer
+fuliba2023.net##header
+fuliba2023.net##.m-mask
+fuliba2023.net##.m-navbar
+fuliba2023.net##tcaptcha_transform_dy
+fuliba2023.net##.branding
+fuliba2023.net##respond
+fuliba2023.net##.shares
+fuliba2023.net##.post-copyright
+fuliba2023.net##.post-actions
+
+! 2023-12-15 https://www.jdlingyu.com 绝对领域
+www.jdlingyu.com##footer
+www.jdlingyu.com##.comments-box
+www.jdlingyu.com##.single-bottom-html
+www.jdlingyu.com##content-ds
+www.jdlingyu.com##[class*="footer"]
+www.jdlingyu.com##b2-widget-html-11
+www.jdlingyu.com##b2-widget-html-20
+www.jdlingyu.com##custom_html-4
+www.jdlingyu.com##custom_html-2
+www.jdlingyu.com##home-row-gzh
+www.jdlingyu.com##single-top-html
+www.jdlingyu.com##home-row-zmhd
+www.jdlingyu.com##home-row-xz
+www.jdlingyu.com##home-row-zn
+www.jdlingyu.com##home-row-chinajoy
+www.jdlingyu.com##widget-area
+www.jdlingyu.com##item-136805
+www.jdlingyu.com##item-136595
+www.jdlingyu.com##item-136442
+www.jdlingyu.com##item-136277
+www.jdlingyu.com##item-136032
+www.jdlingyu.com##item-135947
+www.jdlingyu.com##item-135857
+www.jdlingyu.com##item-135732
+www.jdlingyu.com##item-135726
+www.jdlingyu.com##post-item-ecymt
+www.jdlingyu.com##[class*="download-"]
+www.jdlingyu.com##home-row-ydhd
+www.jdlingyu.com [href="https://www.jdlingyu.com/shop"]
+
+! 2024-05-11 https://www.36kr.com 36氪
+www.36kr.com##.kr-footer
+www.36kr.com##.undefined
+www.36kr.com##.seek-report-wrap
+www.36kr.com##.seek-report-wrap + div
+www.36kr.com##.station-business
+www.36kr.com##.app-track-card
+www.36kr.com##.relate-articles
+www.36kr.com##.kr-article-commitbox-left-navbar-bottom
+www.36kr.com##.thumb-up-box
+www.36kr.com##.float-app-button-wrp
+www.36kr.com##.article-top-swiper-goapp.show
+www.36kr.com##.kr-mobile-footer
+www.36kr.com##.app-track-banner-outer
+www.36kr.com##.article-praise
+www.36kr.com##.article-no-comment
+www.36kr.com##.swiper-wrapper
+
+! 2023-08-22 https://sspai.com 少数派
+sspai.com##.light.footer-container
+sspai.com##.right_bottom
+sspai.com##footer
+
+! 2024-05-11 https://iui.su 不死鸟
+iui.su##footer
+
+! 2023-09-13 https://www.v2ex.com
+www.v2ex.com###Bottom
+
+! 2024-01-11 https://blog.csdn.net
+blog.csdn.net##.passport-login-container
+blog.csdn.net##[class*="footer"]
+blog.csdn.net##.blog-nps
+blog.csdn.net##.toolbar-btn-vip
+blog.csdn.net##.tool-active-list
+blog.csdn.net##.sidetool-writeguide-box
+blog.csdn.net###recommendNps
+blog.csdn.net###asideNewNps
+blog.csdn.net###asideWriteGuide
+blog.csdn.net##.weixin-shadowbox
+blog.csdn.net##.feed-Sign-weixin
+blog.csdn.net##.rightmenu
+blog.csdn.net##.open_app_channelCode
+blog.csdn.net###recommend
+blog.csdn.net##.wap-shadowbox
+
+! 2024年4月23日 https://www.landiannews.com 蓝点网 - 给你感兴趣的内容
+www.landiannews.com##.aside
+www.landiannews.com##footer
+www.landiannews.com##.color-border.module-bg.top-bar
+www.landiannews.com##.comments
+
+! 2022-11-26 https://www.coolapk.com 玩数码，真实有趣的数码社区
+www.coolapk.com###sidebar
+www.coolapk.com###footer
+www.coolapk.com###header-developer
+www.coolapk.com##.feed-hot-reply
+www.coolapk.com##.download-group
+www.coolapk.com##.navbar-contact
+
+! 2023-09-30 https://zhrwx.com 风车动漫
+zhrwx.com##.myui-foot
+zhrwx.com##.myui-panel-bg2
+zhrwx.com##.myui-content__operate li:nth-of-type(2)
+zhrwx.com##.myui-player__operate li:nth-of-type(1)
+
+! 2023-12-15 https://m.agedm.org AGE动漫
+m.agedm.org##.video-comments-box.box-common
+m.agedm.org##.hd
+m.agedm.org##.comment-scrolltop.box-common
+m.agedm.org##.go-marketing.box-common
+m.agedm.org##.van-overlay
+m.agedm.org##.age-update-dialog.van-dialog
+www.agedm.org##.global_notice_wrapper
+www.agedm.org###notice_box
+www.agedm.org##.foot_content_wrapper
+www.agedm.org##.extra-box
+www.agedm.org##.col-md-12
+www.agedm.org##.video_detail_wrapper.mb-3
+www.agedm.org##.feedback-popover
+www.agedm.org##.watch-qrcode-popover
+www.agedm.org##.head-nav > li:nth-of-type(5)
+
+
+#======社交平台==========================================================================
+#======文档工具==========================================================================
+! 2023-06-06 https://shimo.im 石墨文档
+shimo.im##.fzubdd
+shimo.im##.ivKubu
+shimo.im##.djpIoZ
+shimo.im##.owqsf
+shimo.im##.dMDzwK.disable
+
+! 2023-07-27 https://www.yuque.com 语雀文档
+www.yuque.com##.copyright
+www.yuque.com##.like-module_larkLike_zeNuZ
+www.yuque.com##.index-module_openInAppContainer_Vmiru
+www.yuque.com###footer
+www.yuque.com##.index-module_dropdownTrigger_bAACL
+
+! 2022-11-21 https://www.jianguoyun.com  坚果云盘
+www.jianguoyun.com##.teaser-container
+www.jianguoyun.com##.isActive.account-type
+www.jianguoyun.com##.active.bar-item
+www.jianguoyun.com##div.bar-item:nth-of-type(4)
+
+! 2023-02-11 https://up.woozooo.com 蓝奏云盘
+up.woozooo.com##if_top
+up.woozooo.com###f_right
+
+! 2023-07-27 https://apkcombo.com APP下载
+apkcombo.com##footer
+apkcombo.com##nav
+apkcombo.com##.is-nav
+apkcombo.com##[class*="ad-"]
+
+! 2024-01-22 https://www.yckceo.com 源仓库 阅读APP
+www.yckceo.com##div.layui-hide-md.layui-container > .layui-card
+www.yckceo.com##.footer
+
+! 2023-12-15 https://www.wenshushu.cn 文叔叔
+www.wenshushu.cn##.g-footer
+www.wenshushu.cn##.g-open_app
+www.wenshushu.cn##.footer
+
+! 2024-05-15 https://www.alipan.com 阿里云盘
+www.alipan.com##.nav-sub-tab-bottom--mLRLo
+www.alipan.com##.container--T0zFN
+www.alipan.com##.text-secondary--TlI9K
+
+! 2022-12-15 https://smailpro.com/temp-gmail 临时谷歌邮箱
+smailpro.com##footer
+smailpro.com##.hidden
+smailpro.com###a_1
+smailpro.com##.min-h-menuweb
+smailpro.com##.mt-4
+
+#======文档工具=======================================================================
+#======图片===========================================================================
+! 2022-01-21 https://www.huashi6.com  触站画师
+www.huashi6.com###popup_0092618116
+www.huashi6.com###footer
+www.huashi6.com##.chuzhan-app-download
+www.huashi6.com##.c-sidebar
+www.huashi6.com##.upload
+www.huashi6.com##.nav-recharge
+www.huashi6.com##.comment-form
+www.huashi6.com##a[href="/app"]:nth-ancestor(2)
+www.huashi6.com##a[href="/app"]
+www.huashi6.com##a[href="https://www.huashi6.com/aboutus"]
+
+! 2022-11-20 http://www.cnu.cc CNU视觉联盟
+www.cnu.cc##.blackBG
+www.cnu.cc##.pageFooter
+www.cnu.cc##.comment
+www.cnu.cc##.work-info
+
+! 2024-01-20 https://m.huaban.com
+huaban.com##.app.item
+huaban.com##.desktop.to
+huaban.com##.android.app.to
+huaban.com##.open-add
+huaban.com##.ant-modal-root
+huaban.com##.LXSm0s3K
+huaban.com##.P8_jH2tl
+m.huaban.com##.app.item
+m.huaban.com##.desktop.to
+m.huaban.com##.android.app.to
+m.huaban.com##.open-add
+m.huaban.com##.ant-modal-root
+m.huaban.com##.LXSm0s3K
+m.huaban.com##.P8_jH2tl
+
+#======图片===========================================================================
+#======论坛===========================================================================
+! 2024年5月6日 https://www.t66y.com 達蓋爾的旗幟 | 草榴社區 
+www.t66y.com###footer
+www.t66y.com##form
+www.t66y.com##.t_like
+www.t66y.com###header
+www.t66y.com###main .t.t2:nth-of-type(n+4)
+www.t66y.com###ajaxtable > tbody:first-of-type > tr.tr3
+www.t66y.com###cate_thread
+t66y.com##+js(setTimeout-defuser, tpcHt0ml, 1006)
+t66y.com##+js(setTimeout-defuser, adhtml, 10006)
+# setTimeout-defuser：一个内置的 uBlock Origin 工具，用于拦截并取消特定的 setTimeout 调用
+# 作用：这条规则会拦截并取消所有与 adhtml 函数相关的 setTimeout 调用，且延迟时间为 10006 毫秒
+
+
+! 2024-05-07 http://a6rw6i.xyz 
+a6rw6i.xyz##.footer-wrap
+a6rw6i.xyz###footer
+a6rw6i.xyz##.nav-wrap
+a6rw6i.xyz###pw_box
+a6rw6i.xyz###header
+a6rw6i.xyz###notice
+a6rw6i.xyz###main > form
+a6rw6i.xyz##.cc.t3
+a6rw6i.xyz###cate_1 tr:nth-of-type(3)
+a6rw6i.xyz###cate_1 tr:nth-of-type(7)
+a6rw6i.xyz##font[color]:nth-ancestor(1)
+a6rw6i.xyz##a:has-text(自拍核工厂):nth-ancestor(2)
+a6rw6i.xyz##a:has-text(系统消息):nth-ancestor(2)
+a6rw6i.xyz##a:has-text(admin):nth-ancestor(2)
+a6rw6i.xyz##tr:has-text(趙敏)
+
+! 2024-05-07 hjd2048.com | https://bps.xzjrt.com 2048 未完成：两个元素之间的内容
+bps.xzjrt.com##.mb-3
+bps.xzjrt.com##.footer-wrap
+bps.xzjrt.com###cate_1 tr:nth-of-type(2)
+bps.xzjrt.com###cate_1 tr:nth-of-type(9)
+bps.xzjrt.com##fieldset + .t
+bps.xzjrt.com##.pds
+bps.xzjrt.com##.t5 ~ *
+bps.xzjrt.com##.main-wrap #main + div
+bps.xzjrt.com##form .t5 tr.r_one
+bps.xzjrt.com###head
+bps.xzjrt.com###pw_box
+bps.xzjrt.com###headbase
+bps.xzjrt.com##div.c
+bps.xzjrt.com##a:has-text(匿名):nth-ancestor(2)
+bps.xzjrt.com##a:has-text(admin):nth-ancestor(2)
+bps.xzjrt.com##a:has-text(系統消息):nth-ancestor(2)
+
+! 2024-02-07 https://club.6parkbbs.com
+wap.cool18.com##.article-content > center
+wap.cool18.com##.gift
+wap.cool18.com##.comment
+wap.cool18.com##.see-more
+wap.cool18.com##.list-li
+wap.cool18.com##.float-add
+wap.cool18.com##.footer-share
+wap.cool18.com##body svg
+club.6parkbbs.com##.gift
+club.6parkbbs.com##.adv-6park
+
+! 2024-05-08 https://wuso.me
+wuso.me###comiis_app_block_13
+wuso.me###comiis_app_block_25
+wuso.me##.comiis_rate
+wuso.me##.comiis_postlist div:nth-of-type(2) ~ div
+wuso.me##.comiis_quote
+wuso.me##.comiis_forumlist_top
+
+! 2024-01-28 https://h2gcz1.ydwzsp.com
+h2gcz1.ydwzsp.com##.tips-p
+h2gcz1.ydwzsp.com##.infoFlowNav2 div:nth-of-type(5)
+h2gcz1.ydwzsp.com##.tg
+h2gcz1.ydwzsp.com###pinglun ~ a
+h2gcz1.ydwzsp.com###pinglun ~ p
+h2gcz1.ydwzsp.com###pinglun ~ div
+h2gcz1.ydwzsp.com##.topcenter_left
+h2gcz1.ydwzsp.com##.text01
+h2gcz1.ydwzsp.com##.el-carousel--horizontal
+h2gcz1.ydwzsp.com##.porn_link
+h2gcz1.ydwzsp.com##.ad-layout
+h2gcz1.ydwzsp.com##.centerMain_info
+h2gcz1.ydwzsp.com##.line-layout
+h2gcz1.ydwzsp.com##.share-bg
+h2gcz1.ydwzsp.com##.bottom-load
+h2gcz1.ydwzsp.com##.swiper-wrapper
+h2gcz1.ydwzsp.com##.mtap span:nth-of-type(6)
+h2gcz1.ydwzsp.com##.mlogo
+h2gcz1.ydwzsp.com##.disflexrow ~ p
+h2gcz1.ydwzsp.com##.disflexrow ~ div
+
+! 2024-05-17 https://51cg1.com/archives.html  全网更新最快最全的吃瓜网 t.me/s/chiguaa51
+51cg1.com##footer
+51cg1.com###comments > div
+51cg1.com###body-bottom .post-content
+51cg1.com##.flash
+51cg1.com##.content-tabs
+51cg1.com##blockquote
+51cg1.com##.article-ads-btn
+51cg1.com###nav-toolbar
+51cg1.com###menu-menu-1 li:nth-of-type(4) ~ *
+
+! 2024-05-17 https://kanliao4.com 今日看料
+kanliao4.com###footer
+kanliao4.com##.blog-notice
+kanliao4.com##[id*="respond-post"]
+kanliao4.com##.hint-info
+kanliao4.com##.content-tabs
+kanliao4.com###loader-wrapper
+kanliao4.com###wrap ~ *
+kanliao4.com##span:has-text(无分类):nth-ancestor(5)
 #======Video===========================================================================
 ! 2023-02-13 https://www.xnxx.com 100% 免費
 www.xnxx.com###footer
