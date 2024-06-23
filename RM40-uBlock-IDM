@@ -251,5 +251,827 @@ zh.yazhouse8.live##.lottery
 zh.yazhouse8.live##.app-sidebar-full-content-links
 zh.yazhouse8.live###agreement-root
 
+! 2023-02-13 https://xxxshake.com
+xxxshake.com##.footer
+xxxshake.com##.text
+xxxshake.com##.headZ.headA
+xxxshake.com##.headZ.headB
+xxxshake.com##.fluid-custom-buttons
+xxxshake.com##.headZ.headD
+xxxshake.com##.block-comments
+xxxshake.com##[href="https://live.xxxshake.com/"]
+xxxshake.com##.tabs-menu > ul
+xxxshake.com##.flexible-container.content > .box
 
+! 2024年4月29日 https://scrolller.com
+scrolller.com##div[mode="open"] > button:nth-child(3)
+scrolller.com##.getPremiumView
+scrolller.com##.app-page > div:first-of-type
+scrolller.com##button[aria-label="Download"]
+scrolller.com##button[aria-label="Share"]
+scrolller.com##button[aria-label="Auto Scroll"]
+scrolller.com##button[aria-label="Auto Scroll"] + button
+scrolller.com##button[aria-label="Close fullscreen"] + div
+scrolller.com##div.sc-brPLxw > div:first-of-type > div:nth-of-type(3)
+scrolller.com##div.sc-brPLxw > div:first-of-type > div:nth-of-type(4)
+scrolller.com##.popup--sticky
+
+porngo.com##.wrapper~
+porngo.com##.nav-menu li:nth-of-type(7)
+porngo.com###player + div
+porngo.com##.report-btn
+
+
+#======漫画===========================================================================
+eromanga-cafe.com###footer
+eromanga-cafe.com##.tit
+eromanga-cafe.com###header h1
+!#if !env_mobile
+eromanga-cafe.com##meta
+eromanga-cafe.com##link
+eromanga-cafe.com##script
+!#endif
+
+! 2024-05-07 https://18h.animezilla.com
+18h.animezilla.com##footer
+18h.animezilla.com###manga-top
+18h.animezilla.com###bk1
+18h.animezilla.com###text-6
+18h.animezilla.com###text-15
+18h.animezilla.com###text-10
+18h.animezilla.com###text-13
+18h.animezilla.com###text-17
+18h.animezilla.com###text-16
+18h.animezilla.com###text-8
+18h.animezilla.com###manga-below
+18h.animezilla.com###manga-bottom
+18h.animezilla.com##.notice
+18h.animezilla.com##.mega-menu-toggle
+18h.animezilla.com###mega-menu-primary li:nth-of-type(n+6):nth-of-type(-n+9)
+18h.animezilla.com###btn-wrapper
+18h.animezilla.com###btn-footer
+18h.animezilla.com###btn-toy
+18h.animezilla.com###btn-swiper
+18h.animezilla.com###menu-menu-main li:nth-of-type(2) ~ li
+18h.animezilla.com##.shiftnav-main-toggle-content span
+18h.animezilla.com##.page-header
+
+! 2024-05-07 https://nijifeti.com
+nijifeti.com##header
+nijifeti.com##.sidebox > div
+nijifeti.com##.wppwrap
+nijifeti.com##.pagetopwrap
+nijifeti.com##.adbox
+nijifeti.com##.osu2
+nijifeti.com##.comment
+nijifeti.com###text-2
+nijifeti.com##footer
+nijifeti.com##meta
+nijifeti.com##.posts__item
+nijifeti.com##.morebox
+nijifeti.com##.kline
+nijifeti.com##.kizishitassp
+
+! 2024-05-07 https://eromanga-kai.com 
+#Erotic Manga no Kai 是一个面向成熟女性、已婚女性以及面向专家的 NTR 类型的漫画网站
+eromanga-kai.com##footer
+eromanga-kai.com###go-to-top
+eromanga-kai.com###header-container
+eromanga-kai.com###content-top
+eromanga-kai.com###sidebar
+eromanga-kai.com###pager-post-navi
+eromanga-kai.com###comment-area
+eromanga-kai.com###baguetteBox-overlay
+eromanga-kai.com##.eye-catch-wrap
+eromanga-kai.com##.sns-share
+
+! 2024-05-08 https://hentai-witch.com
+hentai-witch.com###linkcat-293
+hentai-witch.com###header-container
+hentai-witch.com###content-top
+hentai-witch.com###content-bottom
+hentai-witch.com###pc_text-2
+hentai-witch.com###baguetteBox-overlay
+hentai-witch.com##.recommended
+hentai-witch.com##footer
+
+! 2024年4月25日 https://18comic.vip
+18comic.vip###billboard-modal
+18comic.vip###shunt-modal + div
+18comic.vip###nb_path
+18comic.vip###ipcountry
+18comic.vip##.footer-container
+18comic.vip##.footer-pad
+18comic.vip##.float-right-image
+18comic.vip##.float-right-daily
+18comic.vip##.top-menu-link.hidden-xs
+18comic.vip##.top-nav
+18comic.vip##.user-social.panel-default.panel
+18comic.vip##.copy-block.visible-sm.visible-xs
+18comic.vip##li > a#meun_game
+18comic.vip##li > a[href="/shop"]
+18comic.vip##li > a[href="/games"]
+18comic.vip##.well.well-filters > div:nth-of-type(3)
+18comic.vip##div > #post_comment
+18comic.vip##div.row[style*="display: flex;"][style*="flex-wrap: wrap;"]
+18comic.vip##[href="https://jm365.work/mpSWW7"]
+18comic.vip##[href="mailto:www18comic@gmail.com"]
+18comic.vip##[href="https://jm365.work/dFTN82"]
+18comic.vip##[href="/bonus"]
+18comic.vip##[href="https://jm365.work/pXYbfA"]
+18comic.vip##.tab-content.m-t-15.m-b-20 + .row
+18comic.vip##.thewayhome.scramble-page.center
+18comic.vip##li.ph-active:nth-of-type(1)
+18comic.vip##li.ph-active:nth-of-type(4)
+
+! 2024-05-08 https://eromanga-kong.com
+eromanga-kong.com##header
+eromanga-kong.com##footer
+eromanga-kong.com###side_right
+eromanga-kong.com##.related-box
+eromanga-kong.com##.commentarea
+eromanga-kong.com###yarpp
+eromanga-kong.com##h3:has-text(エロ同人リンク):nth-ancestor(1)
+
+! 2024-05-08 https://eromanga-select.com
+eromanga-select.com##footer
+eromanga-select.com##header
+eromanga-select.com##.related-box
+eromanga-select.com###respond
+eromanga-select.com###yarpp
+eromanga-select.com###container > div:nth-of-type(n+1):nth-of-type(-n+8)
+
+! 2024-05-08 https://eromanga-ace.com
+eromanga-ace.com##footer
+eromanga-ace.com##header
+eromanga-ace.com##.scroll_link
+eromanga-ace.com##.related-box
+eromanga-ace.com###comment_box
+eromanga-ace.com##.yarpp
+
+! 2023-09-14 https://asmhentai.com
+asmhentai.com##li.friends > a[href="https://hentaiera.com"]
+asmhentai.com##li.friends > a[href="https://comicporn.xxx"]
+asmhentai.com##li.friends > a[href="https://hentairox.com"]
+asmhentai.com##li.friends > a[href="https://hentaiyes.com/"]
+asmhentai.com##li.friends > a[href="https://imhentai.xxx"]
+asmhentai.com##.atop
+asmhentai.com##.footer_centera
+
+! 2024-05-08 https://h-ciyuan.com
+h-ciyuan.com##meta
+h-ciyuan.com###gridview-head-content
+h-ciyuan.com###menu-item-13541
+h-ciyuan.com###menu-item-25315
+h-ciyuan.com##.entry-header
+h-ciyuan.com###gridview-wrapper-outside ~ .gridview-outer-wrapper
+h-ciyuan.com###comments
+h-ciyuan.com##.gridview-share-buttons
+h-ciyuan.com###gridview-sidebar-two-wrapper
+h-ciyuan.com##.code-block
+
+! 2024-05-08 https://ichinuke.com
+ichinuke.com###custom_html-10
+ichinuke.com###custom_html-13
+ichinuke.com###custom_html-18
+ichinuke.com###custom_html-25
+ichinuke.com###custom_html-30
+ichinuke.com###custom_html-46
+ichinuke.com###custom_html-47
+ichinuke.com###fix_bottom_menu
+ichinuke.com###g_floating_area1
+ichinuke.com###g_floating_area2
+ichinuke.com###header .pc_
+ichinuke.com###recent-comments-2
+ichinuke.com###slide_wrap
+ichinuke.com###slide_wrap_pc
+ichinuke.com###text-4
+ichinuke.com###text-9
+ichinuke.com###text-11
+ichinuke.com##.c-shareBtns
+ichinuke.com##.PcOnly
+ichinuke.com##.w-singleTop
+ichinuke.com###comments
+ichinuke.com##.after_article Div
+ichinuke.com##.after_article section
+ichinuke.com##div[id*="_ad_"]
+ichinuke.com##div[id*="footer"]
+ichinuke.com##div[class*="sgpb-main-popup-data"]
+ichinuke.com##.has-text-align-center
+ichinuke.com##footer
+
+! 2024-05-09 https://oreno-erohon.com
+oreno-erohon.com###article-options
+oreno-erohon.com##.sp_head_box
+oreno-erohon.com###inner-content > h2
+oreno-erohon.com###text-57
+oreno-erohon.com###shimi_comment_widget-3
+oreno-erohon.com##.comment_area
+oreno-erohon.com##.menu02 li:nth-of-type(4) ~ li
+oreno-erohon.com###text-20
+oreno-erohon.com##.page-title + div
+oreno-erohon.com##.page-title
+oreno-erohon.com##.header
+oreno-erohon.com##.sp_footer
+oreno-erohon.com##.footer
+oreno-erohon.com##.section-box
+
+! 2023-09-14 https://www.177pica.com
+www.177pica.com###text-8
+www.177pica.com###text-13
+www.177pica.com##footer
+www.177pica.com###footer-widget-box
+www.177pica.com##.clear
+www.177pica.com##.header-sub
+www.177pica.com##.ad-pc
+www.177pica.com##.ad-site
+
+! 2023-09-14 https://rouman5.com 
+rouman5.com##.footer_root__6F7g2
+rouman5.com##a.nav-link:nth-of-type(4)
+rouman5.com##a.nav-link:nth-of-type(3)
+rouman5.com##button.react-share__ShareButton
+rouman5.com##.position-absolute
+
+! 2024-05-09 https://www.tsumino.com
+www.tsumino.com##.tsumino-nav-active
+www.tsumino.com##li:nth-of-type(6)
+www.tsumino.com##a[href="/chat"]
+www.tsumino.com###liComments
+#关于 #聊天 #聊天 #评论
+
+! 2022-11-20 https://nhentai.net
+nhentai.net###comment-post-container
+nhentai.net##li.desktop:nth-of-type(8)
+
+! 2023-09-15 https://kimootoko.net
+#喜欢被令人毛骨悚然的男人强奸的美丽女主角同人作品
+kimootoko.net###copyright
+kimootoko.net###footer
+kimootoko.net###wp-footer
+kimootoko.net##noscript
+kimootoko.net###header
+kimootoko.net##.posts-list-upper-widget
+kimootoko.net##div[id*="custom_html"]
+
+! 2023-09-14 https://wnacg.com
+wnacg.com##.wrap.footer
+wnacg.com##p.result:nth-of-type(1)
+wnacg.com##p.result:nth-of-type(2)
+wnacg.com##[src="/themes/weitu/images/bg/shoucang.jpg"]
+wnacg.com###head_notify
+
+! 2024年4月22日 https://multporn.net
+multporn.net###footer-wrapper
+multporn.net###skip-link
+multporn.net###block-views-down-random-hentai-manga-block
+multporn.net##.tabs
+multporn.net###menu-22031-1
+multporn.net###menu-22120-1
+multporn.net###menu-17097-1
+multporn.net###menu-1774-1
+multporn.net###page-title
+multporn.net##[id*="user-"]
+multporn.net##[id*="block-block-"]
+multporn.net##[id*="comment"]
+
+! 2023-12-11 https://www.apexmh.com
+www.apexmh.com##.footer
+www.apexmh.com##body > div:nth-of-type(4)
+www.apexmh.com##.return
+
+! 2024-05-11 https://ahri8.top  松鼠症仓库 
+ahri8.top##nav > ul > li > .apo
+ahri8.top##nav > ul > li:nth-of-type(6)
+
+! 2024-05-14 https://nyahentai.re  同人誌から商業誌まであらゆるエロ漫画
+nyahentai.re##footer
+nyahentai.re##div[style]
+nyahentai.re##[id*="active_overlay"]
+nyahentai.re##.home-h
+nyahentai.re##.autoplay
+nyahentai.re##[id*="active_overlay"]
+nyahentai.re###is_w_area
+nyahentai.re##.slick-track
+
+! 2024年4月25日 https://web.nicecat.cc  NiceCat 免费H漫画平台
+web.nicecat.cc###user-agreement-dialog-body
+web.nicecat.cc###home-bulletin
+web.nicecat.cc##.homeBody + div
+web.nicecat.cc###body_nav_menu div:nth-of-type(8)
+web.nicecat.cc###body_nav_menu div:nth-of-type(9)
+
+#======漫画===========================================================================
+#======图片===========================================================================
+! 2024-05-08 https://a-hadaka.jp
+a-hadaka.jp###footer
+a-hadaka.jp###overlay
+a-hadaka.jp###headinfo
+a-hadaka.jp###commentarea
+a-hadaka.jp###hadakabar
+a-hadaka.jp##address
+a-hadaka.jp##header
+a-hadaka.jp##.amazonpr
+a-hadaka.jp##.dmmpr
+a-hadaka.jp##.fancybox
+a-hadaka.jp###nav li:nth-of-type(2)
+
+! 2023-09-15 https://moeimg.net
+moeimg.net###header
+moeimg.net###pickup-header_frame
+moeimg.net###footer
+moeimg.net##.pc_only
+moeimg.net##.sp_only.sp_ad_4
+moeimg.net##.pc_only.widget-area
+moeimg.net##.sp_only
+moeimg.net##.share.entryblock
+moeimg.net###respond
+moeimg.net##.commentlist
+moeimg.net###comments
+moeimg.net##.nav-below
+moeimg.net##.follow.entryblock
+moeimg.net##.balloon.comments-link
+moeimg.net##li.widget-container:nth-of-type(4)
+moeimg.net##.searchbyimage
+moeimg.net###sp_ad_entry_middle_frame
+
+! 2024-01-21 https://www.pornpics.com
+
+www.pornpics.com###cookie-contract
+www.pornpics.com###fb-button
+www.pornpics.com###left-nav-sponsor.left-side
+www.pornpics.com###r-frame-on.adss-mob.r-frame
+www.pornpics.com###footer
+www.pornpics.com###fb-button
+www.pornpics.com###footer
+
+! 2024-02-22 http://www.wsgmzt.com 无圣光妹子图
+www.wsgmzt.com##[href*="js.wsgmzt"]
+www.wsgmzt.com##[herf*="js.wsgmzt"]
+www.wsgmzt.com##[href*="js.prmeinv"]
+www.wsgmzt.com##[id*="listmt"]
+www.wsgmzt.com##[id*="qrcode"]
+www.wsgmzt.com##[id*="span_"]
+www.wsgmzt.com###ztlui3
+www.wsgmzt.com###d1a
+www.wsgmzt.com###a163
+www.wsgmzt.com###bzs3
+www.wsgmzt.com###bdssy
+www.wsgmzt.com###dtag
+www.wsgmzt.com###divpsg
+www.wsgmzt.com###pcapic
+www.wsgmzt.com###pcapicb
+www.wsgmzt.com###cpcpc
+www.wsgmzt.com###d5tig
+www.wsgmzt.com###d5a
+www.wsgmzt.com###dtxts
+www.wsgmzt.com###bzs7
+www.wsgmzt.com###dbffsm
+www.wsgmzt.com##br
+
+! 2024-04-02 https://kemono.su
+kemono.su##.shifted.content-wrapper > [href]
+kemono.su##.stuck-bottom.global-sidebar-entry
+kemono.su##footer
+
+! 2024-04-02 https://gelbooru.com
+gelbooru.com##a[href^="index.php"]:nth-of-type(11)
+gelbooru.com##footer
+gelbooru.com###myTopnav a:nth-of-type(n+8):nth-of-type(-n+12)
+gelbooru.com##.showNoGridSupport
+gelbooru.com##.mainBodyPadding > div:nth-of-type(1)
+
+! 2024-04-02 https://www.hentai-foundry.com
+www.hentai-foundry.com###footer
+www.hentai-foundry.com###comments_box
+www.hentai-foundry.com##.boxfooter
+www.hentai-foundry.com###siteNews
+www.hentai-foundry.com###yw1 li:nth-of-type(n+1):nth-of-type(-n+4)
+
+! 2024-05-10 https://slushe.com
+slushe.com##footer
+slushe.com###modal-custom
+slushe.com##.discord
+slushe.com##.about
+slushe.com##.contact
+slushe.com##.easy-share
+slushe.com##.comments
+slushe.com###body_iframe
+slushe.com###noFlag
+slushe.com###list-modal-max
+slushe.com###modal-custom ~ div
+
+! 2024-04-02 https://www.lolhentai.net
+www.lolhentai.net##footer
+www.lolhentai.net###floating-iframe-container
+www.lolhentai.net##.left-girl
+www.lolhentai.net##.right-girl
+www.lolhentai.net##.ad-mobile-ksa
+www.lolhentai.net##.full-ads-content
+www.lolhentai.net##.discord
+www.lolhentai.net##.menu li:nth-of-type(n+3):nth-of-type(-n+6)
+www.lolhentai.net##.col-lg-3 aside
+www.lolhentai.net##.ad-con
+www.lolhentai.net##.comment-content
+www.lolhentai.net##.nut-logo
+www.lolhentai.net##.community
+
+! 2022-11-23 https://www.jjpicss.com
+www.jjpicss.com##footer
+www.jjpicss.com##.fm-close
+www.jjpicss.com##.ad
+www.jjpicss.com##iframe
+www.jjpicss.com##a[href="https://list.jjpicss.com/"]
+www.jjpicss.com##a[href="/day/menu"]
+
+! 2022-01-21 http://thatpervert.com :: xxx 文件 
+thatpervert.com###footer
+thatpervert.com###post_list + div
+thatpervert.com###tagList
+thatpervert.com##.uhead_share
+thatpervert.com###header
+thatpervert.com###joytip
+thatpervert.com###magnifier
+thatpervert.com###background:style(max-width: 100%;)
+
+! 2024-05-11 https://www.asianude4u.net :半成品
+www.asianude4u.net##footer
+www.asianude4u.net##.home-share
+www.asianude4u.net##.entry-bottom
+www.asianude4u.net##.related-box
+www.asianude4u.net##.single-box
+www.asianude4u.net##.single-728
+www.asianude4u.net##.entry-img-300
+www.asianude4u.net##.clear
+www.asianude4u.net###single-share
+www.asianude4u.net##aside.sidebar
+
+! 2024-01-22 https://m.yalayi.com  雅拉伊 - 原创人像摄影作品，有温度的写真集
+m.yalayi.com##.swiper-wrapper
+m.yalayi.com##.tishiwenzi
+m.yalayi.com##.bgff.list-box
+m.yalayi.com##div.bgff.list-box:nth-of-type(7)
+m.yalayi.com##a[href="/vip.html"]
+www.yalayi.com##a[href="https://www.yalayi.com/app/"]
+www.yalayi.com##a[href="https://www.yalayi.com/vip.html"]
+www.yalayi.com##.footer
+www.yalayi.com##.tishiwenzi
+www.yalayi.com##.register
+||img.yalayi.net/ad/end.jpg!pcimg$image
+
+! 2024-05-13 https://jablehk.com Jablehk｜精選J圖及巨乳台妹性感照2024 
+jablehk.com##footer
+jablehk.com##.header-actions--right
+jablehk.com##.header-nav-list div:nth-of-type(8) ~ div
+jablehk.com###yui3-css-stamp
+jablehk.com###sections section:nth-of-type(1)
+jablehk.com##.social-accounts
+jablehk.com##.header-menu-nav-wrapper div:nth-of-type(8) ~ div
+
+! 2023-12-11 https://m.930tu.com 930圖片網 - 性感美女寫真_美女套圖分享_美女圖片大全欣賞
+
+! 2024年4月30日 https://www.imagefap.com  
+www.imagefap.com##center > center > center
+www.imagefap.com###top_announce
+www.imagefap.com###gallery + table
+www.imagefap.com##.tnaBarBlueWrap
+
+! 2024-04-14 https://accounts.pixiv.net pixiv是提供插画等作品的投稿、阅览服务的「插画交流网站」
+pixiv.net###js-privacy-policy-banner
+pixiv.net##footer
+pixiv.net##.sc-1j6j1zx-3
+pixiv.net##.sc-6ylu6x-3
+pixiv.net##.sc-4nj1pr-4
+pixiv.net##.sc-16hmo26-0
+pixiv.net##.sc-xropq2-0
+pixiv.net##tooltip-container
+pixiv.net##[class*="premium"]
+pixiv.net##.wc-menu div:nth-of-type(1)
+pixiv.net##.wc-menu ul:nth-of-type(3)
+pixiv.net##.whitespace-nowrap
+accounts.pixiv.net###js-privacy-policy-banner
+accounts.pixiv.net##footer
+accounts.pixiv.net##.sc-1j6j1zx-3
+accounts.pixiv.net##.sc-6ylu6x-3
+accounts.pixiv.net##.sc-4nj1pr-4
+accounts.pixiv.net##.sc-16hmo26-0
+accounts.pixiv.net##.sc-xropq2-0
+accounts.pixiv.net##tooltip-container
+accounts.pixiv.net##[class*="premium"]
+accounts.pixiv.net##.wc-menu div:nth-of-type(1)
+accounts.pixiv.net##.wc-menu ul:nth-of-type(3)
+accounts.pixiv.net##.whitespace-nowrap
+
+! 2024年4月17日 https://www.deviantart.com 最大的在线技术画廊和社区
+www.deviantart.com##.XN05V
+www.deviantart.com##a[rel="noreferrer"]
+www.deviantart.com##[class="_1qttM"]
+www.deviantart.com##[class="_1wQC1"]
+www.deviantart.com##footer
+www.deviantart.com##.T1gwu
+www.deviantart.com###comments + div
+www.deviantart.com###outdated_banner
+www.deviantart.com###burger-menu-networkbar li:nth-of-type(1)
+www.deviantart.com##.reset-link.KzjtR
+www.deviantart.com##[class="_2XOk-"]
+
+! 2023-12-17 https://asiantolick.com Asian sexy photos and videos
+asiantolick.com##.menssage_favorite
+asiantolick.com###links_subhead
+asiantolick.com##.externalLink
+asiantolick.com###share_download_report
+
+! 2024-01-31 https://www.metart.com 完美之美与艺术的邂逅
+www.metart.com##.bUJAeN
+www.metart.com##.dHWthg
+www.metart.com##.dXDMUK
+www.metart.com##.eIrCBy
+www.metart.com##.ktbFdU
+www.metart.com##.movie-purchase
+www.metart.com##.gallery-purchase
+www.metart.com##.gallery-join
+www.metart.com##.eDUYTh
+www.metart.com###modal-root
+www.metart.com##.toasts-container
+www.metart.com###loader
+www.metart.com##noscript
+
+! 2023-09-14 https://adaman-ero.com ホットな秘密の二次元エロ萌画像
+adaman-ero.com###header-full
+adaman-ero.com##footer
+adaman-ero.com##.widget_custom_html
+adaman-ero.com###comments
+adaman-ero.com##.p-navi
+adaman-ero.com###st-footer-under-widgets-box-wrap
+adaman-ero.com##.st-sns-top
+adaman-ero.com##.st-sns-singular
+adaman-ero.com##.banner
+adaman-ero.com###footer-ad-box
+adaman-ero.com###st_custom_html_ad_widget-25
+adaman-ero.com###st_custom_html_ad_widget-9
+adaman-ero.com###st_custom_html_ad_widget-23
+adaman-ero.com##.arpw-random-post
+adaman-ero.com###scrollad
+
+! 2023-11-11 https://www.youngpussypic.com
+www.youngpussypic.com##.pop-wrap
+www.youngpussypic.com##.clearfix.related-pic-list
+
+#======图片===========================================================================
+#======ASMR===========================================================================
+! 2024-05-08 https://www.hentaiasmr.moe
+www.hentaiasmr.moe##footer
+www.hentaiasmr.moe##.site-branding
+www.hentaiasmr.moe##.top-bar
+www.hentaiasmr.moe###stckyhdr
+www.hentaiasmr.moe###comments
+www.hentaiasmr.moe##.lazy-ad-container
+www.hentaiasmr.moe##.aside-cats[style]
+
+! 2024-01-31 https://www.asmr.one
+
+! 2024年4月24日 https://www.4khd.com
+www.4khd.com##footer.wp-block-template-part
+www.4khd.com##.centbtd
+www.4khd.com##.heateor_sss_sharing_ul
+www.4khd.com##.home svg
+www.4khd.com##.post-template-default svg
+www.4khd.com##.fr-floating-search-block
+www.4khd.com###wpstats
+www.4khd.com###changeSizeButton
+
+! 2024-05-10 https://orgasmsoundlibrary.com
+orgasmsoundlibrary.com###general_footer
+orgasmsoundlibrary.com###omnisend-dynamic-container
+orgasmsoundlibrary.com###home_content
+orgasmsoundlibrary.com###gallery_header_content
+orgasmsoundlibrary.com###menu_mobile_social
+orgasmsoundlibrary.com##footer
+orgasmsoundlibrary.com###cookies
+orgasmsoundlibrary.com###omnisend-dynamic-container
+
+! 2024-05-10 https://www.analporngallery.com
+www.analporngallery.com##footer
+www.analporngallery.com##.friends
+www.analporngallery.com###topbar
+
+! 2024-05-11 https://www.asmrgay.com 基佬中心
+www.asmrgay.com##.hope-c-PJLV-ikSuVsl-css.hope-c-PJLV
+www.asmrgay.com##[class*="notification"]
+
+! 2024年4月25日 https://japaneseasmr.com 日本ASMR
+japaneseasmr.com###ilovewp-comments
+japaneseasmr.com##div.code-block
+japaneseasmr.com##iframe
+japaneseasmr.com###site-footer-credit
+japaneseasmr.com##[class*="ai-"]
+japaneseasmr.com##a[href="https://japaneseasmr.com/request/"]
+
+! 2024-05-06 https://erovoice-ch.com
+erovoice-ch.com##footer
+erovoice-ch.com###header
+erovoice-ch.com###topContent
+erovoice-ch.com##.sideContent
+erovoice-ch.com##.addWrap
+erovoice-ch.com###commentArea
+erovoice-ch.com###overlay
+erovoice-ch.com##.tagList
+erovoice-ch.com##.tagList + div
+erovoice-ch.com###postPagers
+
+! 2024年4月25日 https://asmr18.fans  ASMR+18は、声優さんの本格的な同人エロボイス、萌えボイス
+asmr18.fans###menu-link
+asmr18.fans##footer
+asmr18.fans###comments
+asmr18.fans##.book18-post-list
+asmr18.fans##div.home-h:nth-of-type(1)
+asmr18.fans##div.home-h:nth-of-type(3)
+asmr18.fans###main > div:nth-of-type(2)
+asmr18.fans###menu-menu > a[href="https://asmr18.fans/contact/"]
+!#if env_mobile
+asmr18.fans###main div:nth-of-type(n+1):nth-of-type(-n+7)
+asmr18.fans###main > div:nth-of-type(1)
+asmr18.fans###main > div:nth-of-type(3)
+asmr18.fans###main > div:nth-of-type(5)
+asmr18.fans##div.home-h:nth-of-type(4)
+asmr18.fans##div.home-h:nth-of-type(6)
+asmr18.fans###main > div[style]
+asmr18.fans##body > div[style]
+!#endif
+
+! 2024年4月25日 https://eatasmr.com e聆聽, 放鬆身心
+eatasmr.com##footer
+eatasmr.com##.line_2
+eatasmr.com##body > iframe
+
+#======ASMR==========================================================================
+#======动漫===========================================================================
+! 2024-05-08 https://www.watchanime.video
+www.watchanime.video##footer 
+
+! 2024-05-09 https://hanime1.me
+hanime1.me###snackbar
+hanime1.me###shareBtn
+hanime1.me##.footer-new
+hanime1.me###home-rows-wrapper + div
+hanime1.me###content-div + div
+hanime1.me###tablinks-wrapper
+hanime1.me###comment-tabcontent-loaded
+hanime1.me###video-report-btn:nth-ancestor(1)
+
+! 2024-05-09 https://rule34video.com
+rule34video.com##body svg[xmlns]
+rule34video.com##.popup_access
+rule34video.com##.footer
+rule34video.com##.active.button_fav.toggle-button
+rule34video.com###js-ajax_sort
+rule34video.com##a.theporndude
+rule34video.com###tab_report_rrror
+rule34video.com##.spot-thumb
+rule34video.com##a:has-text(rule34comic.party):nth-ancestor(2)
+rule34video.com##a:has-text(Spankurbate):nth-ancestor(2)
+
+! 2024-04-02 https://hentaix.io
+hentaix.io##footer
+hentaix.io##.mh-copyright-wrap
+hentaix.io##div.mh-container-inner
+hentaix.io##.elementor-swiper
+hentaix.io##.page-header
+hentaix.io##.elementor-75 section:first-of-type
+hentaix.io##.rp4wp-related-posts:nth-ancestor(7)
+hentaix.io##.fa-twitter:nth-ancestor(9)
+
+! 2024-04-14 https://www.3dsexanime.xyz
+www.3dsexanime.xyz##.footer-container
+www.3dsexanime.xyz##.alert-link
+www.3dsexanime.xyz##.comments-section
+www.3dsexanime.xyz###video_share
+www.3dsexanime.xyz##.ad-content
+www.3dsexanime.xyz###navbarSupportedContent > li
+www.3dsexanime.xyz###navbarSupportedContent img
+
+! 2024-05-12 https://hanime.tv 最新未经审查的hanime :未完成，广告检测
+hanime.tv##footer
+hanime.tv##.site-description
+hanime.tv##.nav-drawer-list div:nth-of-type(7)
+hanime.tv##.htvnad
+hanime.tv##.htvnad1
+hanime.tv##.htvad
+hanime.tv##.user_comments
+hanime.tv##.dialog__container
+hanime.tv##.parallax-content
+hanime.tv##.navigation-drawer__border
+hanime.tv##.navigation-drawer-scroll-container > div:nth-of-type(3) ~ div
+hanime.tv##.inter
+
+! 2024-04-02 https://sfmcompile.club
+sfmcompile.club##.g1-row-layout-page.g1-row.g1-footer
+sfmcompile.club##.mashsb-buttons
+sfmcompile.club###secondary
+sfmcompile.club###menu-item-2992
+sfmcompile.club##a[href="https://theporndude.com/"]
+sfmcompile.club##a[href="https://sfmcompile.club/feedback/"]
+
+
+hentaigasm.com###respond
+hentaigasm.com###comments
+hentaigasm.com###footer
+hentaigasm.com##.adv
+hentaigasm.com##.widget_text.widget.widget_custom_html
+
+! 2024-04-14 https://studiofow.com FOW工作室
+studiofow.com##.whb-visible-lg.whb-col-center.whb-column
+studiofow.com##.whb-hidden-lg.whb-mobile-center.whb-column
+studiofow.com##.wd-prefooter
+studiofow.com##.color-scheme-light.footer-container
+studiofow.com##.avwp-av
+studiofow.com##.avwp-av-overlay
+
+! 2024-04-14 https://999hentai.net  无限制的 2D 和 3D 无尽动漫视频
+999hentai.net##.share-wraper.mt
+999hentai.net##.score-container
+999hentai.net##.sidebar-bottom.nav-links
+999hentai.net##.site-bottom-wrapper
+999hentai.net##.btli
+999hentai.net##.info-panel.py-5.footer
+999hentai.net##.mt-3.site-bottom-wrapper.info-panel
+999hentai.net##.disqus-comments.loading-wrapper
+999hentai.net##script[data-cfasync="false"].async:contains(adsbyjuicy)
+999hentai.net##.w-100.align-items-center.flex-column.d-flex.ads-wraper
+999hentai.net##a[href="/about"]
+999hentai.net##div.py-2:nth-of-type(5)
+999hentai.net##.comments-box
+
+xanimu.com###pcppopp
+xanimu.com###mobppopp
+xanimu.com##noscript
+xanimu.com###adsbanner
+xanimu.com###adsgoogle
+xanimu.com###playlist-container
+xanimu.com###report_post-js-extra
+xanimu.com###exoscript
+xanimu.com###related-boxes-footer-ver2
+xanimu.com###comment_link
+xanimu.com###wrapper-footer
+xanimu.com##.hero
+xanimu.com##.mobile-pad-head
+xanimu.com###page > div:nth-of-type(3)
+xanimu.com###before-list-boxes-mobile-singl
+xanimu.com###inside-video-boxes-mobile2
+xanimu.com###before-list-boxes-mobile-singl_2
+xanimu.com###inside-video-boxes-mobile2_2
+xanimu.com###before-list-boxes-mobile-singl_tblt
+xanimu.com###inside-video-boxes-mobile2_tblt
+xanimu.com###menu-main-menu > li:last-of-type
+xanimu.com###menu-main-menu > li:nth-last-of-type(2)
+xanimu.com###menu-main-menu > li:nth-last-of-type(3)
+xanimu.com##.mobile-menu-all > ul:nth-of-type(2)
+xanimu.com##.mobile-menu-all > ul:nth-of-type(3)
+xanimu.com##.mobile-menu-all > ul:nth-of-type(4)
+xanimu.com##.vid-report
+
+! 2024-05-15 https://porn3dx.com
+porn3dx.com##[class*="cookie"]
+porn3dx.com###alert-update
+porn3dx.com###alert-update + div
+porn3dx.com##.pt-5.space-y-2
+porn3dx.com##.marker-app
+porn3dx.com##iframe[src*="-ads"]
+porn3dx.com##div.sticky button
+porn3dx.com##div.sticky div.p-4:nth-of-type(3)
+porn3dx.com###aside-scroll .gap-4 .gap-4 div:nth-of-type(5)
+porn3dx.com###aside-scroll .gap-4 .gap-4 div:nth-of-type(6)
+
+
+#======动漫===========================================================================
+#======小说===========================================================================
+! 2024-01-26 https://69story.com
+69story.com###colophon
+69story.com##.panel-primary
+69story.com##.row[style]
+69story.com##.cat-list-icon
+69story.com##.tube-list-icon
+69story.com##.disc-list-icon
+69story.com##.cart-list-icon
+69story.com##.site-branding
+69story.com##tr:not([id])
+69story.com###bkft
+69story.com###primary + div
+69story.com###menu-item-212
+69story.com###menu-item-1197
+69story.com###menu-item-1196
+69story.com##div[style*="margin-bottom"]
+69story.com###bkat
+69story.com###read-more div:nth-of-type(1)
+69story.com##.panel-default + div
+69story.com##[id*="banner"]
+69story.com##div.col-xs-12 > div
+69story.com##a[href="https://g.gaypad.net/"]
+
+
+
+!#include RM40-uBlock-dynamic
+#动态规则
+!#include RM40-uBlock-Telegram
+#Telegram广告
 
