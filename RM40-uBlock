@@ -584,27 +584,7 @@ shayuapi.com##.header.width1200
 shayuapi.com##.mac_comment
 
 ! 2024-05-06 https://zh.xhamster.com
-zh.xhamster.com##.alert-box
-zh.xhamster.com##.tooltip
-zh.xhamster.com##main ~ *
-zh.xhamster.com##.e595fa33
-zh.xhamster.com##.footer-wrapper
-zh.xhamster.com##.footer-wrapper ~
-zh.xhamster.com##.left li:nth-of-type(9) ~
-zh.xhamster.com##.live-nav
-zh.xhamster.com##.comments-control ~
-zh.xhamster.com##[class*="Jg-wvT"]
-zh.xhamster.com##.thumb-list-mobile-item--widget
-zh.xhamster.com###commentToggle ~
-zh.xhamster.com##.my-comment
-zh.xhamster.com##.list-7ae27 li:nth-of-type(1)
-zh.xhamster.com##.list-7ae27 li:nth-of-type(2)
-zh.xhamster.com##.buttons-aef6f
-zh.xhamster.com##[class*="cook"]
-zh.xhamster.com##.vpn-geo-picker-container
-zh.xhamster.com##.desktop-dialog-open
-zh.xhamster.com##[href*="visible"]
-zh.xhamster.com##.right.top-menu__side-group
+
 
 ! 2024年4月30日 https://www.redgifs.com
 www.redgifs.com##.ApplicationFooter a:nth-of-type(3)
