@@ -320,22 +320,22 @@ a6rw6i.xyz##a:has-text(admin):nth-ancestor(2)
 a6rw6i.xyz##tr:has-text(趙敏)
 
 ! 2024-05-07 hjd2048.com | https://bps.xzjrt.com 2048 未完成：两个元素之间的内容
-bps.xzjrt.com##.mb-3
-bps.xzjrt.com##.footer-wrap
-bps.xzjrt.com###cate_1 tr:nth-of-type(2)
-bps.xzjrt.com###cate_1 tr:nth-of-type(9)
-bps.xzjrt.com##fieldset + .t
-bps.xzjrt.com##.pds
-bps.xzjrt.com##.t5 ~ *
-bps.xzjrt.com##.main-wrap #main + div
-bps.xzjrt.com##form .t5 tr.r_one
-bps.xzjrt.com###head
-bps.xzjrt.com###pw_box
-bps.xzjrt.com###headbase
-bps.xzjrt.com##div.c
-bps.xzjrt.com##a:has-text(匿名):nth-ancestor(2)
-bps.xzjrt.com##a:has-text(admin):nth-ancestor(2)
-bps.xzjrt.com##a:has-text(系統消息):nth-ancestor(2)
+hjd2048.com##.mb-3
+hjd2048.com##.footer-wrap
+hjd2048.com###cate_1 tr:nth-of-type(2)
+hjd2048.com###cate_1 tr:nth-of-type(9)
+hjd2048.com##fieldset + .t
+hjd2048.com##.pds
+hjd2048.com##.t5 ~ *
+hjd2048.com##.main-wrap #main + div
+hjd2048.com##form .t5 tr.r_one
+hjd2048.com###head
+hjd2048.com###pw_box
+hjd2048.com###headbase
+hjd2048.com##div.c
+hjd2048.com##a:has-text(匿名):nth-ancestor(2)
+hjd2048.com##a:has-text(admin):nth-ancestor(2)
+hjd2048.com##a:has-text(系統消息):nth-ancestor(2)
 
 ! 2024-02-07 https://club.6parkbbs.com
 wap.cool18.com##.article-content > center
