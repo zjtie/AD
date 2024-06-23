@@ -959,17 +959,7 @@ web.nicecat.cc###body_nav_menu div:nth-of-type(9)
 #======漫画===========================================================================
 #======图片===========================================================================
 ! 2024-05-08 https://a-hadaka.jp
-a-hadaka.jp###footer
-a-hadaka.jp###overlay
-a-hadaka.jp###headinfo
-a-hadaka.jp###commentarea
-a-hadaka.jp###hadakabar
-a-hadaka.jp##address
-a-hadaka.jp##header
-a-hadaka.jp##.amazonpr
-a-hadaka.jp##.dmmpr
-a-hadaka.jp##.fancybox
-a-hadaka.jp###nav li:nth-of-type(2)
+
 
 ! 2023-09-15 https://moeimg.net
 moeimg.net###header
