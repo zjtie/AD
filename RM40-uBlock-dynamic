@@ -44,6 +44,7 @@
 ||baidu.com^$third-party
 ||twitter.com^$third-party
 
-#广告域名，全站屏蔽
+  #广告域名，全站屏蔽
 ||aaacompany.net^
 ||tsyndicate.com^
+  #广告域名，全站屏蔽
