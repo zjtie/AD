@@ -629,6 +629,9 @@ dbro.news##.post-share
 dbro.news###smart-head .smart-head-mid
 dbro.news###menu-item-709088
 dbro.news###menu-item-382966
+dbro.news##div.comments
+dbro.news##.a-wrap-bg
+dbro.news##.author-box
 
 ! 2024-01-22 https://zh.yazhouse8.live 亚洲吧直播
 zh.yazhouse8.live##[class*="cookies"]
