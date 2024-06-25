@@ -344,10 +344,6 @@ hjd2048.com##div.c
 6parkbbs.com,cool18.com##.gift:nth-ancestor(1)
 6parkbbs.com,cool18.com##center:has-text(朋友的这个贴子的话):nth-ancestor(2)
 6parkbbs.com,cool18.com##td:has-text(帖子内容是网友自行贴上分享):nth-ancestor(1)
-6parkbbs.com##.see-more
-#看更多-下载app
-6parkbbs.com##.comment
-#评论
 6parkbbs.com##.list-li
 #点赞
 6parkbbs.com##.pro-text
@@ -356,6 +352,7 @@ hjd2048.com##div.c
 #发布
 6parkbbs.com##.bottom-wrapper
 6parkbbs.com##.bottom-wrapper ~ *
+
 
 ! 2024-05-08 https://wuso.me
 wuso.me###comiis_app_block_13
