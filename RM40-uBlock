@@ -1466,6 +1466,11 @@ ohentai.org##[href^="https://candy.ai"]
 ohentai.org##[title="menutab_ad"]
 *://ohentai.org/*disqus.com/*
 *://ohentai.org/*facebook.net/*
+
+! 2024年6月26日 https://animeh.to
+animeh.to##.site-bottom-wrapper
+animeh.to##.description + div ~ *
+#评论
 #======动漫===========================================================================
 #======小说===========================================================================
 ! 2024-01-26 https://69story.com
