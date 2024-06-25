@@ -1450,7 +1450,22 @@ porn3dx.com##div.sticky div.p-4:nth-of-type(3)
 porn3dx.com###aside-scroll .gap-4 .gap-4 div:nth-of-type(5)
 porn3dx.com###aside-scroll .gap-4 .gap-4 div:nth-of-type(6)
 
-
+! 2024年6月26日 https://ohentai.org
+ohentai.org##footer
+ohentai.org###topleaderboard
+ohentai.org###bottomleaderboard
+ohentai.org##[id*="Ad_"]
+ohentai.org##.adtitle ~ *
+ohentai.org###tagcont > div:first-of-type
+ohentai.org###tagcont > ul:first-of-type
+#导航
+ohentai.org##.viewlabel + a
+#反馈举报
+ohentai.org##.detaildiscussionpanel
+ohentai.org##[href^="https://candy.ai"]
+ohentai.org##[title="menutab_ad"]
+*://ohentai.org/*disqus.com/*
+*://ohentai.org/*facebook.net/*
 #======动漫===========================================================================
 #======小说===========================================================================
 ! 2024-01-26 https://69story.com
