@@ -306,6 +306,32 @@ t66y.com###ajaxtable ~ :not(.tac):not(.tac ~ *)
 
 
 ! 2024-05-07 hjd2048.com | https://bps.xzjrt.com 2048 未完成：两个元素之间的内容
+hjd2048.com##.footer-wrap
+hjd2048.com###head
+#首页-logo
+hjd2048.com###cate_1 tr:nth-of-type(2)
+hjd2048.com###cate_1 tr:nth-of-type(9)
+#首页-广告
+hjd2048.com##.header_up_sign
+#登录
+hjd2048.com##fieldset + * + div.t[style="padding: 0 1px;"]
+#列表-公告 （fieldset后面的第二个元素div）
+hjd2048.com##a:has-text(匿名):nth-ancestor(2)
+hjd2048.com##a:has-text(admin):nth-ancestor(2)
+hjd2048.com##a:has-text(系統消息):nth-ancestor(2)
+#列表-广告
+hjd2048.com###td_post
+#正文-发表
+hjd2048.com##.t5 ~ *
+hjd2048.com##.main-wrap > .t3 > .t
+#正文-讨论
+hjd2048.com###w_tpc ~ *
+hjd2048.com##.pds
+hjd2048.com##.mb-3
+#正文-广告
+hjd2048.com###pw_box
+hjd2048.com###headbase
+hjd2048.com##div.c
 
 
 ! 2024-02-07 https://club.6parkbbs.com
