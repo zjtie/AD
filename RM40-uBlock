@@ -1327,16 +1327,7 @@ hanime1.me###comment-tabcontent-loaded
 hanime1.me###video-report-btn:nth-ancestor(1)
 
 ! 2024-05-09 https://rule34video.com
-rule34video.com##body svg[xmlns]
-rule34video.com##.popup_access
-rule34video.com##.footer
-rule34video.com##.active.button_fav.toggle-button
-rule34video.com###js-ajax_sort
-rule34video.com##a.theporndude
-rule34video.com###tab_report_rrror
-rule34video.com##.spot-thumb
-rule34video.com##a:has-text(rule34comic.party):nth-ancestor(2)
-rule34video.com##a:has-text(Spankurbate):nth-ancestor(2)
+
 
 ! 2024-04-02 https://hentaix.io
 hentaix.io##footer
