@@ -335,16 +335,27 @@ hjd2048.com##div.c
 
 
 ! 2024-02-07 https://club.6parkbbs.com
-wap.cool18.com##.article-content > center
-wap.cool18.com##.gift
-wap.cool18.com##.comment
-wap.cool18.com##.see-more
-wap.cool18.com##.list-li
-wap.cool18.com##.float-add
-wap.cool18.com##.footer-share
-wap.cool18.com##body svg
-club.6parkbbs.com##.gift
-club.6parkbbs.com##.adv-6park
+6parkbbs.com,cool18.com###pub_info + div.body_center
+#首页广告
+6parkbbs.com,cool18.com##hr[size="1"][width="100%"] ~ *
+#正文广告
+6parkbbs.com,cool18.com##[href="#postfp"]
+#分享
+6parkbbs.com,cool18.com##.gift:nth-ancestor(1)
+6parkbbs.com,cool18.com##center:has-text(朋友的这个贴子的话):nth-ancestor(2)
+6parkbbs.com,cool18.com##td:has-text(帖子内容是网友自行贴上分享):nth-ancestor(1)
+6parkbbs.com##.see-more
+#看更多-下载app
+6parkbbs.com##.comment
+#评论
+6parkbbs.com##.list-li
+#点赞
+6parkbbs.com##.pro-text
+#内容来自网络
+6parkbbs.com##.float-add
+#发布
+6parkbbs.com##.bottom-wrapper
+6parkbbs.com##.bottom-wrapper ~ *
 
 ! 2024-05-08 https://wuso.me
 wuso.me###comiis_app_block_13
