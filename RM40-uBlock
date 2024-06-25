@@ -1327,7 +1327,17 @@ hanime1.me###comment-tabcontent-loaded
 hanime1.me###video-report-btn:nth-ancestor(1)
 
 ! 2024-05-09 https://rule34video.com
-
+rule34video.com##.wrapper + * + svg
+#遮罩
+rule34video.com##.footer
+rule34video.com##.video_container + center
+rule34video.com##[id*="_ad_"]
+#视频下方广告
+rule34video.com##.spot-thumb
+#列表广告
+rule34video.com##.theporndude
+rule34video.com##.mobile-box > ul:nth-child(3)
+rule34video.com##.mobile-box > ul:nth-child(4)
 
 ! 2024-04-02 https://hentaix.io
 hentaix.io##footer
