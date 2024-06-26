@@ -985,6 +985,14 @@ web.nicecat.cc###body_nav_menu div:nth-of-type(9)
 ! 2024年6月24日 https://members.luscious.net
 members.luscious.net##.o-modal-drawer
 members.luscious.net##.page-footer
+members.luscious.net##.site-banner
+#上传规则
+members.luscious.net##ul[role="toolbar"] > li:nth-of-type(4)
+members.luscious.net##ul[role="toolbar"] > li:nth-of-type(5)
+members.luscious.net##ul[role="toolbar"] > li:nth-of-type(6)
+#底部导航
+members.luscious.net##ul[role="navigation"] > li:nth-of-type(1)
+#创造
 #======漫画===========================================================================
 #======图片===========================================================================
 ! 2024-05-08 https://a-hadaka.jp
