@@ -929,13 +929,21 @@ nhentai.net##li.desktop:nth-of-type(8)
 
 ! 2023-09-15 https://kimootoko.net
 #喜欢被令人毛骨悚然的男人强奸的美丽女主角同人作品
-kimootoko.net###copyright
-kimootoko.net###footer
-kimootoko.net###wp-footer
+kimootoko.net###footer ~ *
 kimootoko.net##noscript
 kimootoko.net###header
 kimootoko.net##.posts-list-upper-widget
 kimootoko.net##div[id*="custom_html"]
+kimootoko.net###core + aside
+#相关的文章 
+kimootoko.net###main + div
+#文章
+kimootoko.net##.syousai
+#详细信息 
+kimootoko.net##.syousai + hr ~ *
+kimootoko.net##a[data-wpel-link="internal"] ~ hr
+kimootoko.net##a[data-wpel-link="internal"] ~ div
+#文章
 
 ! 2023-09-14 https://wnacg.com
 wnacg.com##.wrap.footer
