@@ -966,6 +966,10 @@ www.apexmh.com##.return
 ! 2024-05-11 https://ahri8.top  松鼠症仓库 
 ahri8.top##nav > ul > li > .apo
 ahri8.top##nav > ul > li:nth-of-type(6)
+ahri8.top###content > div:nth-of-type(1)
+ahri8.top###content > div:nth-of-type(2)
+ahri8.top##.page-footer
+ahri8.top##.page-footer ~ *
 
 ! 2024-05-14 https://nyahentai.re  同人誌から商業誌まであらゆるエロ漫画
 nyahentai.re##footer
