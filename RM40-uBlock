@@ -792,6 +792,18 @@ hentai-witch.com##footer
 18comic.vip##.thewayhome.scramble-page.center
 18comic.vip##li.ph-active:nth-of-type(1)
 18comic.vip##li.ph-active:nth-of-type(4)
+18comic.vip##.navbar-left > li:nth-of-type(1)
+18comic.vip##.navbar-left > li:nth-of-type(2)
+18comic.vip##.navbar-left > div:nth-of-type(1)
+#导航
+18comic.vip###Comic_Top_Nav:remove-class(navbar)
+#移除类navbar
+18comic.vip##.group-notice:nth-ancestor(3)
+#AD
+18comic.vip##.hidden-lg
+18comic.vip##.float_right > div:nth-of-type(1)
+#app浮窗
+
 
 ! 2024-05-08 https://eromanga-kong.com
 eromanga-kong.com##header
