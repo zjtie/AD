@@ -1528,8 +1528,23 @@ animeh.to##.description + div ~ *
 #======动漫===========================================================================
 #======小说===========================================================================
 ! 2024-01-26 https://69story.com
-
-
+69story.com##footer
+69story.com##.site-branding
+69story.com###primary ~ *
+69story.com###menu-mobile-footer-non-article > li:nth-of-type(3)
+69story.com###menu-mobile-footer-non-article > li:nth-of-type(4)
+69story.com###menu-item-212
+#导航
+69story.com###main > table > tbody > tr:not([id]):not([class])
+69story.com##[id*="banner"]
+69story.com##.entry-meta + div
+#空白块
+69story.com###main > div.col-xs-12:nth-of-type(1)
+69story.com###main > div.col-xs-12:style(height: 80px !important;)
+#下一页看不到了
+69story.com###main > article ~ *
+69story.com##.entry-content ~ *
+69story.com###read-more:remove()
 
 
 !#include RM40-uBlock-dynamic
