@@ -993,6 +993,20 @@ members.luscious.net##ul[role="toolbar"] > li:nth-of-type(6)
 #底部导航
 members.luscious.net##ul[role="navigation"] > li:nth-of-type(1)
 #创造
+members.luscious.net##.frontpage-overlay-banner
+members.luscious.net##.o-clearfix > div:remove-class(frontpage-waterfall--fade-bottom)
+#首屏
+members.luscious.net##.o-row-gut-4
+members.luscious.net##.o-row-gut-4 + article
+#提交
+members.luscious.net##div[role="contentinfo"] ~ *
+#反馈
+members.luscious.net##div.o-fullwidth.o-padding-sides
+members.luscious.net##article.o-padding-top-bottom ~ *
+members.luscious.net##.picture-control-wrapper
+#评论 
+members.luscious.net##footer:nth-of-type(1)
+members.luscious.net##footer:nth-of-type(2)
 #======漫画===========================================================================
 #======图片===========================================================================
 ! 2024-05-08 https://a-hadaka.jp
