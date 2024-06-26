@@ -813,6 +813,8 @@ eromanga-kong.com##.related-box
 eromanga-kong.com##.commentarea
 eromanga-kong.com###yarpp
 eromanga-kong.com##h3:has-text(エロ同人リンク):nth-ancestor(1)
+eromanga-kong.com###article > a
+eromanga-kong.com##div[class*="ad"]
 
 ! 2024-05-08 https://eromanga-select.com
 eromanga-select.com##footer
