@@ -15,21 +15,21 @@ discord.com##.wrapper-2JEvo0
 ! 2024年6月27日 https://x.com
 #通过让别人订阅你的每月内容在 X 上谋生
 #通过在你的帖子回复中投放的广告赚取收入
-x.com###layers > div:nth-of-type(1) > div:nth-of-type(1)
 x.com##div[data-testid="sheetDialog"]
 #你的点赞现在是私密的
-x.com##a[data-testid="AppTabBar_Notifications_Link"]
-#通知
-x.com##div[data-testid="inlinePrompt"]:nth-ancestor(4)
-#Premium
-x.com##a[href="/i/premium_sign_up"]:nth-ancestor(1)
-#Premium
-x.com##a[href*="https://ads.x.com"]:nth-ancestor(1)
-#广告
-x.com##a[href="/jobs"]:nth-ancestor(1)
-#工作
-x.com##a[href="/settings/monetization"]:nth-ancestor(1)
-#盈利
+x.com##noscript
+x.com##[data-testid="SideNav_NewTweet_Button"]
+#发贴
+x.com##[aria-label="Premium"]
+x.com##[aria-label="通知"]
+x.com##[aria-label="Grok"]
+x.com##[aria-label="订阅 Premium"]:nth-ancestor(2)
+x.com##[aria-label="页脚"]:nth-ancestor(1)
+x.com##[data-testid="toolBar"]:nth-ancestor(10)
+x.com##[role="dialog"] [href*="premium"]
+x.com##[role="dialog"] [href*="monetization"]
+x.com##[role="dialog"] [href*="ads.x.com"]
+x.com##[data-testid="FloatingActionButtons_Tweet_Button"]:nth-ancestor(2)
 
 ! 2023-12-19 https://i.jandan.net 煎蛋
 jandan.net###footer
