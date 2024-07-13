@@ -303,6 +303,7 @@ m.huaban.com##.P8_jH2tl
 ! 2024年5月6日 https://www.t66y.com 達蓋爾的旗幟 | 草榴社區 
 t66y.com###footer:remove()
 t66y.com##form:remove()
+t66y.com##script:remove()
 t66y.com##.t_like:remove()
 t66y.com###header:remove()
 t66y.com###main .t.t2:nth-of-type(n+4):remove()
