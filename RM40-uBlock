@@ -301,22 +301,22 @@ m.huaban.com##.P8_jH2tl
 #======图片===========================================================================
 #======论坛===========================================================================
 ! 2024年5月6日 https://www.t66y.com 達蓋爾的旗幟 | 草榴社區 
-t66y.com###footer
-t66y.com##form
-t66y.com##.t_like
-t66y.com###header
-t66y.com###main .t.t2:nth-of-type(n+4)
-t66y.com###ajaxtable > tbody:first-of-type > tr.tr3
-t66y.com###cate_thread
+t66y.com###footer:remove()
+t66y.com##form:remove()
+t66y.com##.t_like:remove()
+t66y.com###header:remove()
+t66y.com###main .t.t2:nth-of-type(n+4):remove()
+t66y.com###ajaxtable > tbody:first-of-type > tr.tr3:remove()
+t66y.com###cate_thread:remove()
 t66y.com##+js(setTimeout-defuser, tpcHt0ml, 1006)
 t66y.com##+js(setTimeout-defuser, adhtml, 10006)
 # setTimeout-defuser：一个内置的 uBlock Origin 工具，用于拦截并取消特定的 setTimeout 调用
 # 作用：这条规则会拦截并取消所有与 adhtml 函数相关的 setTimeout 调用，且延迟时间为 10006 毫秒
-t66y.com##.tpc_cont:contains("版塊公告")
+t66y.com##.tpc_cont:contains("版塊公告"):remove()
 #contains 是一个 CSS 选择器中的伪类，用于选择包含特定文本内容的元素
-t66y.com###conttpc ~ *
+t66y.com###conttpc ~ *:remove()
 #正文评价
-t66y.com###ajaxtable ~ :not(.tac):not(.tac ~ *)
+t66y.com###ajaxtable ~ :not(.tac):not(.tac ~ *):remove()
 #标题 选择 #ajaxtable 后的所有非 .tac 类元素；排除 .tac 元素后的所有同级元素及其后代元素
 
 
