@@ -423,6 +423,16 @@ kanliao4.com##.content-tabs
 kanliao4.com###loader-wrapper
 kanliao4.com###wrap ~ *
 kanliao4.com##span:has-text(无分类):nth-ancestor(5)
+
+! 2024-07-20 https://bad.news
+bad.news##script:remove()
+bad.news###disclaimer-background:remove()
+bad.news##.footer-parent ~ *:remove()
+bad.news##.footer-parent:remove()
+bad.news###nologinOprBox ~ *:remove()
+bad.news###nologinOprBox:remove()
+bad.news##[class*="share"]
+bad.news##.article-actions
 #======Video===========================================================================
 ! 2023-02-13 https://www.xnxx.com 100% 免費
 www.xnxx.com###footer
