@@ -357,7 +357,8 @@ hjd2048.com##.mb-3
 hjd2048.com###pw_box
 hjd2048.com###headbase
 hjd2048.com##div.c
-
+hjd2048.com##.main-wrap ~ *:remove()
+hjd2048.com##body > script:remove()
 
 ! 2024-02-07 https://club.6parkbbs.com
 6parkbbs.com,cool18.com###pub_info + div.body_center
