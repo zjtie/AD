@@ -1,4 +1,6 @@
-web.telegram.org###column-center.no-forwards,#page-chats~*
+web.telegram.org##+js(removed-attr, .media-viewer-buttons .btn-icon, class)
+! 移除Telegram网页版视频下载和转发按钮的隐藏属性
+
 
 #xueshengxx
  web.telegram.org###column-center span:has-text(互推):nth-ancestor(5)  
