@@ -729,8 +729,9 @@ scrolller.com##button[aria-label="Close fullscreen"] + div
 scrolller.com##div.sc-brPLxw > div:first-of-type > div:nth-of-type(3)
 scrolller.com##div.sc-brPLxw > div:first-of-type > div:nth-of-type(4)
 scrolller.com##.popup--sticky
+scrolller.com###root ~ *:remove()
 
-porngo.com##.wrapper~
+# porngo.com##.wrapper~
 porngo.com##.nav-menu li:nth-of-type(7)
 porngo.com###player + div
 porngo.com##.report-btn
