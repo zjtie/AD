@@ -461,54 +461,58 @@ beeg.com##[href*="live"]
 beeg.com##.sidebar__content-secondary
 
 ! 2024年5月5日 https://cn.pornhub.com
-cn.pornhub.com##.footerContentWrapper
-cn.pornhub.com##.networkBarWrapper
-cn.pornhub.com##.uploadBtnContent
-cn.pornhub.com##.uploadBtnContentSpicevids
-cn.pornhub.com##.menuLinkDiv
-cn.pornhub.com##.halfWidth
-cn.pornhub.com##.likedVideos
-cn.pornhub.com##.tab-menu-wrapper-row
-cn.pornhub.com##.userActions
-cn.pornhub.com##.suggestBtn
-cn.pornhub.com###countryRedirectMessage
-cn.pornhub.com###welcome
-cn.pornhub.com###js-abContainterMain
-cn.pornhub.com###svgHeaderElements
-cn.pornhub.com###menuItem4
-cn.pornhub.com###communitySubmenu
-cn.pornhub.com###under-player-comments
-cn.pornhub.com##.cmtPlaylist
-cn.pornhub.com###bottomNav
-cn.pornhub.com###headerContainer > div:last-child
-cn.pornhub.com###flagVideoBtn
-cn.pornhub.com###playlistModal
-cn.pornhub.com###tooltip
-cn.pornhub.com###headerUserIcon
-cn.pornhub.com###comments
-cn.pornhub.com###mgp_skin_desktop
-cn.pornhub.com###infoModal
-cn.pornhub.com###signinModal
-cn.pornhub.com###mgp_skin_mobile
-cn.pornhub.com###backgroundLayer
-cn.pornhub.com###jsMobileMenuBackground
-cn.pornhub.com###svgTranslationElements
-cn.pornhub.com##.mostPopularComment
-cn.pornhub.com##.fanClubButtons
-cn.pornhub.com##.responseWrapper
-cn.pornhub.com##.profile-sidebar
-cn.pornhub.com##.userButtons
-cn.pornhub.com##.logoWrapper
-cn.pornhub.com##.bottomNav.clearfix
-cn.pornhub.com##footer
-cn.pornhub.com##.adContainer
-cn.pornhub.com##.ad-tabSplit
-cn.pornhub.com###adSpot
-cn.pornhub.com##.topAdContainter
+pornhub.com##.footerContentWrapper
+pornhub.com##.networkBarWrapper
+pornhub.com##.uploadBtnContent
+pornhub.com##.uploadBtnContentSpicevids
+pornhub.com##.menuLinkDiv
+pornhub.com##.halfWidth
+pornhub.com##.likedVideos
+pornhub.com##.tab-menu-wrapper-row
+pornhub.com##.userActions
+pornhub.com##.suggestBtn
+pornhub.com###countryRedirectMessage
+pornhub.com###welcome
+pornhub.com###js-abContainterMain
+pornhub.com###svgHeaderElements
+pornhub.com###menuItem4
+pornhub.com###communitySubmenu
+pornhub.com###under-player-comments
+pornhub.com##.cmtPlaylist
+pornhub.com###bottomNav
+pornhub.com###headerContainer > div:last-child
+pornhub.com###flagVideoBtn
+pornhub.com###playlistModal
+pornhub.com###tooltip
+pornhub.com###headerUserIcon
+pornhub.com###comments
+pornhub.com###mgp_skin_desktop
+pornhub.com###infoModal
+pornhub.com###signinModal
+pornhub.com###mgp_skin_mobile
+pornhub.com###backgroundLayer
+pornhub.com###jsMobileMenuBackground
+pornhub.com###svgTranslationElements
+pornhub.com##.mostPopularComment
+pornhub.com##.fanClubButtons
+pornhub.com##.responseWrapper
+pornhub.com##.profile-sidebar
+pornhub.com##.userButtons
+pornhub.com##.logoWrapper
+pornhub.com##.bottomNav.clearfix
+pornhub.com##footer
+pornhub.com##.adContainer
+pornhub.com##.ad-tabSplit
+pornhub.com###adSpot
+pornhub.com##.topAdContainter
 pornhub.com##+js(pornhub-popup-defuser.js)
 #弹窗
 pornhub.com##+js(pornhub-sanitizer.js)
 #广告框架
+pornhub.com###mobileContainer ~ *:remove()
+
+pornhub.com##+js(Inject, (function() { var link = document.createElement('link'); link.rel = 'stylesheet'; link.href = 'https://ei.phncdn.com/www-static/css/vmobile/main-non-critical.css?cache=2024072205'; link.type = 'text/css'; link.media = 'all'; link.onload = function() { this.media = 'all'; }; document.body.appendChild(link); })())
+
 
 ! 2024年5月5日 https://spankbang.com 免费和4K
 spankbang.com###body-html > div:first-of-type
