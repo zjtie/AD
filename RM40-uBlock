@@ -655,6 +655,9 @@ zh.wikixh.world,zh.xhamster.com##aside:remove()
 zh.wikixh.world,zh.xhamster.com##main > div:nth-of-type(2)
 zh.wikixh.world,zh.xhamster.com##.thumb-list-mobile-item--widget
 zh.wikixh.world,zh.xhamster.com##.hOAV-ZhQyD
+zh.wikixh.world,zh.xhamster.com##[class*="Pd-vRRe"]:remove()
+zh.wikixh.world,zh.xhamster.com##[class*="hOAV-"]:remove()
+zh.wikixh.world,zh.xhamster.com##[class*="linkButton"]:remove()
 
 
 ! 2024年4月30日 https://www.redgifs.com
