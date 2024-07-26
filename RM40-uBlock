@@ -1,4 +1,4 @@
-! Title: RM40 uBlock Origin
+redgifs.com! Title: RM40 uBlock Origin
 ! Homepage: https://github.com/zjtie/AD
 ! 2024-05-17 https://51cg1.com/archives.html  全网更新最快最全的吃瓜网 t.me/s/chiguaa51
 ! 2024-05-17 https://kanliao4.com 今日看料
@@ -661,12 +661,14 @@ zh.wikixh.world,zh.xhamster.com##[class*="linkButton"]:remove()
 
 
 ! 2024年4月30日 https://www.redgifs.com
-www.redgifs.com##.ApplicationFooter a:nth-of-type(3)
-www.redgifs.com##.cookieNotice
-www.redgifs.com##.topNav-wrap > div:nth-of-type(1)
-www.redgifs.com##.topNav-wrap > div:nth-of-type(3)
-www.redgifs.com##.SideBar > li:nth-of-type(7)
-www.redgifs.com##.SideBar-Item > div._adLiveButton_p1t77_1:upward(li)
+redgifs.com##.ApplicationFooter a:nth-of-type(3)
+redgifs.com##.cookieNotice
+redgifs.com##.topNav-wrap > div:nth-of-type(1)
+redgifs.com##.topNav-wrap > div:nth-of-type(3)
+redgifs.com##.SideBar > li:nth-of-type(7)
+redgifs.com##.SideBar-Item > div._adLiveButton_p1t77_1:upward(li)
+redgifs.com###root ~ *:remove()
+redgifs.com##noscript:remove()
 
 ! 2024-05-08 https://avbebe.com
 avbebe.com##.jeg_nav_center
