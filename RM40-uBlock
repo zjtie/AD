@@ -614,7 +614,7 @@ www.sex.com##.pt-1.gap-y-4.flex-col.flex > a.cursor-pointer
 
 ! 2023-05-05 https://madou.club
 madou.club##.clearfix.article-actions
-madou.club##footer
+madou.club##body > section ~ *:remove()
 
 ! 2023-07-26 https://pigav.com
 pigav.com##.has-sep.main-sidebar.col-4
