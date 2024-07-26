@@ -634,31 +634,31 @@ shayuapi.com##.header.width1200
 shayuapi.com##.mac_comment
 
 ! 2024-05-06 https://zh.xhamster.com
-zh.xhamster.com##main ~ *
-zh.xhamster.com##[class*="cook"]
-zh.xhamster.com##[href*="visible"]
-zh.xhamster.com##[data-item="premium"]
-zh.xhamster.com##[data-item="dating"]
-zh.xhamster.com##[data-role="livesex"] 
-zh.xhamster.com##[data-role="livesex"] + li
-zh.xhamster.com##[data-role="video-share-button"] 
-zh.xhamster.com##[data-role="video-share-button"] ~ *
-zh.xhamster.com##div[data-role="promo-messages-wrapper"]
-zh.xhamster.com##li[eid1="1"]
-zh.xhamster.com##.footer-wrapper
-zh.xhamster.com##.report-control
-zh.xhamster.com##.share
-# zh.xhamster.com##.alert-box
-zh.xhamster.com##.layoutPage > aside:nth-of-type(2)
-zh.xhamster.com##.Lt-PTbQ
-zh.xhamster.com##.Lt-PTbQpremium-n-overlay 
-zh.xhamster.com##.Lt-PTbQunder-player-banner-wrapper
-zh.xhamster.com##.buttons-aef6f
-zh.xhamster.com###commentToggle ~ *
-zh.xhamster.com##.QD-zvno-ts-init
-zh.xhamster.com##.thumb-list-mobile-item--full-width
-zh.xhamster.com##.thumb-list-mobile-item--widget
-zh.xhamster.com##.QD-zvpremium-n-overlay
+zh.wikixh.world,zh.xhamster.com##main ~ *
+zh.wikixh.world,zh.xhamster.com##[class*="cook"]
+zh.wikixh.world,zh.xhamster.com##[href*="visible"]
+zh.wikixh.world,zh.xhamster.com##[data-item="premium"]
+zh.wikixh.world,zh.xhamster.com##[data-item="dating"]
+zh.wikixh.world,zh.xhamster.com##[data-role="livesex"] 
+zh.wikixh.world,zh.xhamster.com##[data-role="livesex"] + li
+zh.wikixh.world,zh.xhamster.com##[data-role="video-share-button"] 
+zh.wikixh.world,zh.xhamster.com##[data-role="video-share-button"] ~ *
+zh.wikixh.world,zh.xhamster.com##div[data-role="promo-messages-wrapper"]
+zh.wikixh.world,zh.xhamster.com##li[eid1="1"]
+zh.wikixh.world,zh.xhamster.com##.footer-wrapper
+zh.wikixh.world,zh.xhamster.com##.report-control
+zh.wikixh.world,zh.xhamster.com##.share
+# zh.wikixh.world,zh.xhamster.com##.alert-box
+zh.wikixh.world,zh.xhamster.com##.layoutPage > aside:nth-of-type(2)
+zh.wikixh.world,zh.xhamster.com##.Lt-PTbQ
+zh.wikixh.world,zh.xhamster.com##.Lt-PTbQpremium-n-overlay 
+zh.wikixh.world,zh.xhamster.com##.Lt-PTbQunder-player-banner-wrapper
+zh.wikixh.world,zh.xhamster.com##.buttons-aef6f
+zh.wikixh.world,zh.xhamster.com###commentToggle ~ *
+zh.wikixh.world,zh.xhamster.com##.QD-zvno-ts-init
+zh.wikixh.world,zh.xhamster.com##.thumb-list-mobile-item--full-width
+zh.wikixh.world,zh.xhamster.com##.thumb-list-mobile-item--widget
+zh.wikixh.world,zh.xhamster.com##.QD-zvpremium-n-overlay
 
 
 ! 2024年4月30日 https://www.redgifs.com
