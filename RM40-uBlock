@@ -693,15 +693,16 @@ zh.yazhouse8.live##.app-sidebar-full-content-links
 zh.yazhouse8.live###agreement-root
 
 ! 2023-02-13 https://xxxshake.com
-xxxshake.com##.footer
-xxxshake.com##.text
-xxxshake.com##.headZ.headA
-xxxshake.com##.headZ.headB
+xxxshake.com##.container ~ *:remove()
+xxxshake.com##.content > p:remove()
+#页面尾部
+xxxshake.com##.block-comments:remove()
 xxxshake.com##.fluid-custom-buttons
-xxxshake.com##.headZ.headD
-xxxshake.com##.block-comments
+#分享
+xxxshake.com##.headZ.headA,.headZ.headB,.headZ.headD:remove()
 xxxshake.com##[href="https://live.xxxshake.com/"]
-xxxshake.com##.tabs-menu > ul
+xxxshake.com##.tabs-menu:remove()
+#反馈，评论
 xxxshake.com##.flexible-container.content > .box
 
 ! 2024年4月29日 https://scrolller.com
