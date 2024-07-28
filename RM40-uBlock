@@ -555,24 +555,14 @@ www.bellesa.co##.fKApKc
 www.bellesa.co###app > div:first-of-type
 
 ! 2023-08-20 https://www.xvideos.com
-www.xvideos.com###disclaimer_background
-www.xvideos.com###cookies-use-alert
-www.xvideos.com###footer
-www.xvideos.com###v-actions-overflow-menu
-www.xvideos.com###tabComments_bottom_page
-www.xvideos.com##.mobile-portrait-show
-www.xvideos.com##.chat-hidden
-www.xvideos.com##.ad-profiles
-www.xvideos.com##.live-cams
-www.xvideos.com##.nutaku-games
-www.xvideos.com##.red-ticket
-www.xvideos.com##[href="https://www.xdating.com/"]
-www.xvideos.com##.premium-results-line
-www.xvideos.com###v-actions > .tabs
-www.xvideos.com##.link-instanted.head__menu-line__main-menu__lvl1
-www.xvideos.com##.remove-ads
-www.xvideos.com##.btn.live-cams
 xvideos.com##+js(xvideos.com.js)
+xvideos.com###main ~ *:remove()
+xvideos.com###page ~ *:remove()
+xvideos.com###v-actions-container + div:remove()
+xvideos.com##[id^="ad-"]:remove()
+xvideos.com##[class^="live-"]:remove()
+xvideos.com##.mobile-slogan-red,.nutaku-games:remove()
+xvideos.com##.head__menu-line__main-menu > li:nth-of-type(5),.head__menu-line__main-menu > li:nth-of-type(6):remove()
 
 ! 2023-08-20 https://hqporner.com 高分辨率高质量
 hqporner.com##.footer-bg
