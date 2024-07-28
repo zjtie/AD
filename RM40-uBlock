@@ -327,7 +327,28 @@ t66y.com###ajaxtable ~ :not(.tac):not(.tac ~ *):remove()
 #标题 选择 #ajaxtable 后的所有非 .tac 类元素；排除 .tac 元素后的所有同级元素及其后代元素
 
 
-! 2024-05-07 http://a6rw6i.xyz 
+! 2024-05-07 论坛1024
+*##body[onkeydown] > .main-wrap > #main .tr3.t_one[onmouseover][onmouseout][align]:remove()
+#列表广告
+*##body[onkeydown] > .main-wrap > #main tbody#cate_1 > tr:not([id]):remove()
+#导航广告 屏蔽没有ID属性的元素
+*###ajaxtable > tbody a:has-text(admin):nth-ancestor(2):remove()
+*###ajaxtable > tbody a:has-text(自拍核工厂):nth-ancestor(2):remove()
+*###ajaxtable > tbody a:has-text(系统消息):nth-ancestor(2):remove()
+#文章列表
+*##body[onkeydown] > #main th#td_tpc > a:remove()
+*##body[onkeydown] > #main div.t5 > table > tbody > tr.r_one
+#内容广告
+# *##body[onkeydown] > #main #menu_read_tpc.tac ~ *:remove()
+#内容页脚
+*##body[onkeydown] > *:not(.main-wrap,#main):remove()
+#首页导航 登入部分 #内容页脚 
+ *##body[onkeydown] > .main-wrap > #main > #notice,body[onkeydown] > .main-wrap > #main > div.t3.cc:remove()
+#首页导航
+*##body[onkeydown] > .main-wrap > #main > table[cellpadding][cellspacing][style] ~ *:remove()
+#文章列表 评论
+*##body[onkeydown] > .main-wrap > #main > div.t a:has-text(版块公告):nth-ancestor(7):remove()
+#文章列表 公告
 
 
 ! 2024-05-07 hjd2048.com | https://bps.xzjrt.com 2048 未完成：两个元素之间的内容
