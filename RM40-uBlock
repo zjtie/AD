@@ -579,26 +579,19 @@ m.hqporner.com##.homePageWrapper.pageWrapper > div > span
 m.hqporner.com##span.altPlayerButton:nth-of-type(1)
 
 ! 2023-08-20 https://www.eporner.com
-www.eporner.com###cookies
-www.eporner.com##footer
-www.eporner.com###commentdiv
-www.eporner.com###uploadslide
-www.eporner.com###adinhead
-www.eporner.com##.uvmspn1
-www.eporner.com##.uvmspn4
-www.eporner.com##.uvmspn6
-www.eporner.com##.uvmspn7
-www.eporner.com##.video-description
-www.eporner.com##.vjs-docker
-www.eporner.com##.infopopanim
-www.eporner.com###headholder > .link-instanted
-www.eporner.com###video-info-tags .vit-suggester
-www.eporner.com##.footer-text
-www.eporner.com###mainBlogPosts
-www.eporner.com##div.toptopbel2:nth-of-type(9)
-www.eporner.com###pbwuvp
-www.eporner.com###admobilefoot
-www.eporner.com##.clear
+eporner.com###div-search-results ~ *:remove()
+eporner.com###content ~ *:remove()
+eporner.com###admobiletop:remove()
+eporner.com##main > div:nth-of-type(1) ~ *:not(#div-search-results):remove()
+#页面尾部
+eporner.com###relateddiv ~ *:remove()
+#评论
+eporner.com##.vjs-docker:remove()
+#分享
+eporner.com###hdp-suggest:remove()
+#其他不知道什么东西
+www.eporner.com##[href="/cams4/"]
+#直播
 
 ! 2024年5月6日 https://www.sex.com
 www.sex.com##.bg-footer
