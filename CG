@@ -21,3 +21,20 @@ www.bellesa.co##.hSAtFP:not(.kaFtZR > .hSAtFP):remove()
 #导航广告
 
 
+
+
+! 2024-07-28 https://xxxshake.com
+xxxshake.com##.container ~ *:remove()
+xxxshake.com##.content > p:remove()
+#页面尾部
+xxxshake.com##.block-comments:remove()
+
+xxxshake.com##.fluid-custom-buttons
+#分享
+xxxshake.com##.headZ.headA,.headZ.headB:remove()
+xxxshake.com##[href="https://live.xxxshake.com/"]
+xxxshake.com##.tabs-menu:remove()
+#反馈，评论
+
+ 
+
