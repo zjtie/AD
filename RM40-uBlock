@@ -325,6 +325,9 @@ t66y.com###conttpc ~ *:remove()
 #正文评价
 t66y.com###ajaxtable ~ :not(.tac):not(.tac ~ *):remove()
 #标题 选择 #ajaxtable 后的所有非 .tac 类元素；排除 .tac 元素后的所有同级元素及其后代元素
+t66y.com###main > div.t b:has-text(版塊公告):nth-ancestor(5):remove()
+t66y.com###main > div.t.t2 div.tiptop:remove()
+#主題 資料 短信 推薦 編輯
 
 
 ! 2024-05-07 论坛1024
