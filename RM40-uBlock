@@ -1459,13 +1459,11 @@ hentaix.io##.rp4wp-related-posts:nth-ancestor(7)
 hentaix.io##.fa-twitter:nth-ancestor(9)
 
 ! 2024-04-14 https://www.3dsexanime.xyz
-www.3dsexanime.xyz##.footer-container
-www.3dsexanime.xyz##.alert-link
-www.3dsexanime.xyz##.comments-section
-www.3dsexanime.xyz###video_share
-www.3dsexanime.xyz##.ad-content
-www.3dsexanime.xyz###navbarSupportedContent > li
-www.3dsexanime.xyz###navbarSupportedContent img
+3dsexanime.xyz##.ad-content
+3dsexanime.xyz###wrapper > .container.mt-3.mb-3 ~ *
+3dsexanime.xyz##body > script
+3dsexanime.xyz##.alert,.comments-section,.video-actions
+3dsexanime.xyz##.collapse > *:not(ul)
 
 ! 2024-05-12 https://hanime.tv 最新未经审查的hanime :未完成，广告检测
 hanime.tv##footer
