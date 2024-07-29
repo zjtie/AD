@@ -1519,33 +1519,22 @@ studiofow.com##.avwp-av-overlay
 999hentai.net##div.py-2:nth-of-type(5)
 999hentai.net##.comments-box
 
-xanimu.com###pcppopp
-xanimu.com###mobppopp
-xanimu.com##noscript
-xanimu.com###adsbanner
-xanimu.com###adsgoogle
-xanimu.com###playlist-container
-xanimu.com###report_post-js-extra
-xanimu.com###exoscript
-xanimu.com###related-boxes-footer-ver2
-xanimu.com###comment_link
+xanimu.com##.actors-footer ~ *
 xanimu.com###wrapper-footer
-xanimu.com##.hero
-xanimu.com##.mobile-pad-head
-xanimu.com###page > div:nth-of-type(3)
-xanimu.com###before-list-boxes-mobile-singl
-xanimu.com###inside-video-boxes-mobile2
-xanimu.com###before-list-boxes-mobile-singl_2
-xanimu.com###inside-video-boxes-mobile2_2
-xanimu.com###before-list-boxes-mobile-singl_tblt
-xanimu.com###inside-video-boxes-mobile2_tblt
-xanimu.com###menu-main-menu > li:last-of-type
-xanimu.com###menu-main-menu > li:nth-last-of-type(2)
-xanimu.com###menu-main-menu > li:nth-last-of-type(3)
-xanimu.com##.mobile-menu-all > ul:nth-of-type(2)
-xanimu.com##.mobile-menu-all > ul:nth-of-type(3)
-xanimu.com##.mobile-menu-all > ul:nth-of-type(4)
-xanimu.com##.vid-report
+xanimu.com###page ~ *
+xanimu.com###exoscript
+#页面尾部
+xanimu.com###wrapper-navbar > nav
+xanimu.com###menu-main-menu > li:nth-of-type(4) ~ *
+xanimu.com##^body > script 
+xanimu.com##body > script
+#页面头部
+xanimu.com###single-wrapper > section ~ *
+xanimu.com###single-wrapper ~  *
+#评论
+xanimu.com##.no-gutters > div[id]
+xanimu.com##div[id^="ads"]
+xanimu.com###pcppopp,#mobppopp
 
 ! 2024-05-15 https://porn3dx.com
 porn3dx.com##[class*="cookie"]
