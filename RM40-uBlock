@@ -897,16 +897,9 @@ asmhentai.com##.atop
 asmhentai.com##.footer_centera
 
 ! 2024-05-08 https://h-ciyuan.com
-h-ciyuan.com##meta
-h-ciyuan.com###gridview-head-content
-h-ciyuan.com###menu-item-13541
-h-ciyuan.com###menu-item-25315
-h-ciyuan.com##.entry-header
-h-ciyuan.com###gridview-wrapper-outside ~ .gridview-outer-wrapper
-h-ciyuan.com###comments
-h-ciyuan.com##.gridview-share-buttons
-h-ciyuan.com###gridview-sidebar-two-wrapper
-h-ciyuan.com##.code-block
+h-ciyuan.com###gridview-wrapper-outside ~ *:remove()
+h-ciyuan.com##nav.navigation ~ *:remove()
+h-ciyuan.com##footer,#menu-item-13541,#menu-item-25315,.entry-header,.gridview-logo:remove()
 
 ! 2024-05-08 https://ichinuke.com
 ichinuke.com###custom_html-10
