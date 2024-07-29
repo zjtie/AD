@@ -642,30 +642,19 @@ shayuapi.com##.header.width1200
 shayuapi.com##.mac_comment
 
 ! 2024-05-06 https://zh.xhamster.com
-zh.wikixh.world,zh.xhamster.com##^responseheader(location)
-zh.wikixh.world,zh.xhamster.com##^responseheader(refresh)
-zh.wikixh.world,zh.xhamster.com##^responseheader(set-cookie)
-zh.wikixh.world,zh.xhamster.com##^responseheader(report-to)
-zh.wikixh.world,zh.xhamster.com##.main-wrap ~ *:remove()
-zh.wikixh.world,zh.xhamster.com##.main-wrap > .video-type-video  ~ *:remove()
-zh.wikixh.world,zh.xhamster.com##.layoutPage ~ *:remove()
-#页尾
-zh.wikixh.world,zh.xhamster.com##.top-menu__side-group li:nth-of-type(3)
-zh.wikixh.world,zh.xhamster.com##.top-menu__side-group li:nth-of-type(10)
-zh.wikixh.world,zh.xhamster.com##.top-menu__side-group li:nth-of-type(11)
-zh.wikixh.world,zh.xhamster.com##.top-menu__side-group li:nth-of-type(12)
-zh.wikixh.world,zh.xhamster.com##.top-menu__side-group.right
-#上传and导航
-zh.wikixh.world,zh.xhamster.com##[data-role="promo-messages-wrapper"]:remove()
-#付费
-zh.wikixh.world,zh.xhamster.com##div[data-role="header"] > nav
-zh.wikixh.world,zh.xhamster.com##aside:remove()
-zh.wikixh.world,zh.xhamster.com##main > div:nth-of-type(2)
-zh.wikixh.world,zh.xhamster.com##.thumb-list-mobile-item--widget
-zh.wikixh.world,zh.xhamster.com##.hOAV-ZhQyD
-zh.wikixh.world,zh.xhamster.com##[class*="Pd-vRRe"]:remove()
-zh.wikixh.world,zh.xhamster.com##[class*="hOAV-"]:remove()
-zh.wikixh.world,zh.xhamster.com##[class*="linkButton"]:remove()
+wikixh.world,xhamster.com##.main-wrap ~ *:remove()
+wikixh.world,xhamster.com##.layoutPage ~ *:remove()
+#页面尾部
+wikixh.world,xhamster.com##.item-container:remove()
+wikixh.world,xhamster.com##[class*="ISodR-"],[class*="LJb-"],.thumb-list-mobile-item--widget,aside.page-15e4c
+#直播  
+wikixh.world,xhamster.com##[data-role="promo-messages-wrapper"]
+wikixh.world,xhamster.com##li[data-item="photos"] ~ *:remove()
+wikixh.world,xhamster.com##[data-statistic-name="Live Sex"]:remove()
+wikixh.world,xhamster.com##.top-menu__side-group.right:remove()
+wikixh.world,xhamster.com##.video-type-video ~ *:remove()
+wikixh.world,xhamster.com##.favorites-control ~ *:remove()
+wikixh.world,xhamster.com##header + nav
 
 
 ! 2024年4月30日 https://www.redgifs.com
