@@ -1487,12 +1487,12 @@ sfmcompile.club##body > script
 sfmcompile.club##aside.g1-more-from ~ *
 sfmcompile.club##.g1-footer,#menu-item-2815,#menu-item-36768
 
-
-hentaigasm.com###respond
-hentaigasm.com###comments
-hentaigasm.com###footer
-hentaigasm.com##.adv
-hentaigasm.com##.widget_text.widget.widget_custom_html
+hentaigasm.com##div[id^="custom_"]
+hentaigasm.com##script
+hentaigasm.com##.adv,#footer
+hentaigasm.com##.section-box.related-posts ~ *
+hentaigasm.com##div[style*="float"]
+hentaigasm.com##.loop-content ~ *:not(.loop-nav)
 
 ! 2024-04-14 https://studiofow.com FOW工作室
 studiofow.com##.whb-visible-lg.whb-col-center.whb-column
