@@ -1537,16 +1537,19 @@ xanimu.com##div[id^="ads"]
 xanimu.com###pcppopp,#mobppopp
 
 ! 2024-05-15 https://porn3dx.com
-porn3dx.com##[class*="cookie"]
-porn3dx.com###alert-update
-porn3dx.com###alert-update + div
-porn3dx.com##.pt-5.space-y-2
+porn3dx.com##.cookie-consent
 porn3dx.com##.marker-app
-porn3dx.com##iframe[src*="-ads"]
-porn3dx.com##div.sticky button
-porn3dx.com##div.sticky div.p-4:nth-of-type(3)
-porn3dx.com###aside-scroll .gap-4 .gap-4 div:nth-of-type(5)
-porn3dx.com###aside-scroll .gap-4 .gap-4 div:nth-of-type(6)
+#浮窗
+porn3dx.com##.antialiased > div > aside > div > .space-y-2 ~ *
+#侧边栏
+porn3dx.com##div[x-ref="postMain"] > iframe
+#正文广告
+porn3dx.com##.flex.items-center.self-stretch.justify-between ~ *
+#发现
+porn3dx.com###mentionMain:nth-ancestor(5)
+#评论
+porn3dx.com###aside-scroll > div > div > button
+#反馈
 
 ! 2024年6月26日 https://ohentai.org
 ohentai.org##footer
