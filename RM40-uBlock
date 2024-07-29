@@ -1482,12 +1482,12 @@ hanime.tv##.navigation-drawer-scroll-container > div:nth-of-type(3) ~ div
 hanime.tv##.inter
 
 ! 2024-04-02 https://sfmcompile.club
-sfmcompile.club##.g1-row-layout-page.g1-row.g1-footer
-sfmcompile.club##.mashsb-buttons
-sfmcompile.club###secondary
-sfmcompile.club###menu-item-2992
-sfmcompile.club##a[href="https://theporndude.com/"]
-sfmcompile.club##a[href="https://sfmcompile.club/feedback/"]
+sfmcompile.club##.page-body ~ *
+sfmcompile.club##aside.mashsb-container
+sfmcompile.club##.g1-body-inner ~ *
+sfmcompile.club##body > script
+sfmcompile.club##aside.g1-more-from ~ *
+sfmcompile.club##.g1-footer,#menu-item-2815,#menu-item-36768
 
 
 hentaigasm.com###respond
