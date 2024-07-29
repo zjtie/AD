@@ -1,13 +1,12 @@
 ! Title: RM40 uBlock Origin
 ! Homepage: https://github.com/zjtie/AD
-! 2024-05-17 https://51cg1.com/archives.html  全网更新最快最全的吃瓜网 t.me/s/chiguaa51
-! 2024-05-17 https://kanliao4.com 今日看料
-! https://btbtt18.com/
+
+#======全网作用=============
 *##+js(fingerprint2.js)
 #FingerprintJS2 是一种第三方库，识别唯一用户。常用于通过收集用户设备的各种信息（如浏览器插件、屏幕分辨率、字体列表等）来生成一个独特的用户指纹，进而用于跟踪用
-
 *##+js(bab-defuser.js)
 #避免广告拦截插件被网站识别
+#======全网作用=============
 
 #======社交平台=============
 www.zhihu.com##footer
