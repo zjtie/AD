@@ -355,34 +355,31 @@ t66y.com###main > div.t.t2 div.tiptop:remove()
 
 
 ! 2024-05-07 hjd2048.com | https://bps.xzjrt.com 2048 未完成：两个元素之间的内容
-hjd2048.com##.footer-wrap
-hjd2048.com###head
-#首页-logo
-hjd2048.com###cate_1 tr:nth-of-type(2)
-hjd2048.com###cate_1 tr:nth-of-type(9)
-#首页-广告
-hjd2048.com##.header_up_sign
-#登录
-hjd2048.com##fieldset + * + div.t[style="padding: 0 1px;"]
-#列表-公告 （fieldset后面的第二个元素div）
-hjd2048.com##a:has-text(匿名):nth-ancestor(2)
-hjd2048.com##a:has-text(admin):nth-ancestor(2)
-hjd2048.com##a:has-text(系統消息):nth-ancestor(2)
-#列表-广告
-hjd2048.com###td_post
-#正文-发表
-hjd2048.com##.t5 ~ *
-hjd2048.com##.main-wrap > .t3 > .t
-#正文-讨论
-hjd2048.com###w_tpc ~ *
-hjd2048.com##.pds
-hjd2048.com##.mb-3
-#正文-广告
-hjd2048.com###pw_box
-hjd2048.com###headbase
-hjd2048.com##div.c
 hjd2048.com##.main-wrap ~ *:remove()
-hjd2048.com##body > script:remove()
+hjd2048.com###pw_box,#headbase,.header_up_sign,.header_down_sign,#nav-login,#menu_shortcut,#login_fast,#head:remove()
+hjd2048.com##body[onkeydown] > script:remove()
+hjd2048.com###cate_1 a:has-text(赌场):nth-ancestor(2):remove()
+hjd2048.com###header,.ad-text:remove()
+#首页
+hjd2048.com##fieldset:remove()
+hjd2048.com##a:has-text(匿名):nth-ancestor(2):remove()
+hjd2048.com##a:has-text(admin):nth-ancestor(2):remove()
+hjd2048.com##a:has-text(系統消息):nth-ancestor(2):remove()
+hjd2048.com###main #tab_t1 a:has-text(版块公告):nth-ancestor(7):remove()
+#列表页广告
+hjd2048.com##.t5 ~ *:remove()
+hjd2048.com##.main-wrap > #main ~ *:remove()
+hjd2048.com##.pds:remove()
+hjd2048.com###td_tpc > *:not(.tpc_content):remove()
+#除了正文 其他全部移除
+hjd2048.com##div.t div.fr.w a:has-text(打印):nth-ancestor(6):remove()
+#复制链接 ┊浏览器收藏┊打印
+hjd2048.com###w_tpc:nth-ancestor(2):remove()
+#百万在线影院 支持高清下载 点我前去观摩
+hjd2048.com##a[title="发表新帖"]:nth-ancestor(1):remove()
+#评论 广告.pds
+hjd2048.com###breadCrumb:style(margin-top: 30px !important;)
+#添加样式 位置下移30PX
 
 ! 2024-02-07 https://club.6parkbbs.com
 6parkbbs.com,cool18.com###pub_info + div.body_center
