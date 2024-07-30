@@ -492,19 +492,17 @@ spankbang.com###inner_content > #video > .tab_similar ~ *
 
 
 ! 2022-11-20 https://www.bellesa.co #作为快乐的主体，而不是征服的对象 #性应该是有趣的、充满力量的
-www.bellesa.co###app > div > header
-www.bellesa.co###app div div.MediaQuery__Query-sc-dh9ch6-0
-www.bellesa.co##.crpkjC.MediaQuery__Query-sc-dh9ch6-0
-www.bellesa.co##.clsZEL.Shell__Header-sc-13f0ghz-1
-www.bellesa.co##.jrDAJu.Shell__Header-sc-13f0ghz-1
-www.bellesa.co##.bLcZOX
-www.bellesa.co##.ifKlPG
-www.bellesa.co##.loGkAL
-www.bellesa.co##.lgHkqs
-www.bellesa.co##footer
-www.bellesa.co##.bgKbBU
-www.bellesa.co##.fKApKc
-www.bellesa.co###app > div:first-of-type
+bellesa.co##footer,.kncNFc,.jOkxqL,.ifKlPG,.iuxAoy,.loGkAL,.bpiwwI,.kBYJiC,.labDRT,.gbmYfk,.geEtfN,.hLzvtQ,.doXkCN
+#页面尾部 #评论 #Shop  #更多    #播放屏蔽 #升级 #logo #logo #加入 #登入 #浮窗加入 #窄屏加入 #播放屏蔽 #窄屏加入
+bellesa.co##[href="/story/all"] ~ *
+#导航 
+bellesa.co##.FQDFl ~ *
+#翻页
+bellesa.co##.ktLaSv:remove-class(ktLaSv)
+#导航边距
+bellesa.co###app ~ *
+bellesa.co##.iYuLMD:not(.djinpG .iYuLMD)
+#播放器吸顶广告 排除侧边导航
 
 ! 2023-08-20 https://www.xvideos.com
 xvideos.com##+js(xvideos.com.js)
