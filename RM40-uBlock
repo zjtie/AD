@@ -491,29 +491,13 @@ pornhub.com##.adContainer,#flagVideoBtn,#shareModal,#playlistModal,.fanClubButto
 pornhub.com###leftMenuScroll > .communityNavigation ~ *
 
 ! 2024年5月5日 https://spankbang.com 免费和4K
-spankbang.com###body-html > div:first-of-type
-spankbang.com###age_check
-spankbang.com###comment_box_anchor
-spankbang.com##.tab_comments.main_content_container
-spankbang.com##.clear-fix
-spankbang.com##.ft-grad
-spankbang.com###shorts-frame
-spankbang.com##.grid_container
-spankbang.com##.live_cam_header_2
-spankbang.com##.main_content_container.space-y.mt-1
-spankbang.com##.ft-grad
-spankbang.com##.ls
-spankbang.com##.fl
-spankbang.com##.embed
-spankbang.com##.right
-spankbang.com##.top-wrapper
-spankbang.com##.ads_placement
-spankbang.com##.s-ad
-spankbang.com##footer
-spankbang.com##[href="/tv/"]
-spankbang.com##.main_content_title > h2:last-of-type
-spankbang.com##.info > h2
-spankbang.com##.mt-1.space-y.main_content_container.tab_comments
+spankbang.com###age_check,li.pornstars
+spankbang.com##.main-container ~ *:not(link)
+spankbang.com###home ~ *
+spankbang.com###video .info > .user_uploads ~ *
+spankbang.com##main.main-container > *:not(.main_content_container,#home,#browse_new,#channels)
+spankbang.com###inner_content > #video > .tab_similar ~ *
+
 
 ! 2022-11-20 https://www.bellesa.co #作为快乐的主体，而不是征服的对象 #性应该是有趣的、充满力量的
 www.bellesa.co###app > div > header
