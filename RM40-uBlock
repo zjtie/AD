@@ -607,13 +607,17 @@ wikixh.world,xhamster.com##header + nav
 
 ! 2024年4月30日 https://www.redgifs.com
 redgifs.com##.ApplicationFooter a:nth-of-type(3)
-redgifs.com##.cookieNotice
+redgifs.com##.cookieNotice,.PulseCircle,noscript
 redgifs.com##.topNav-wrap > div:nth-of-type(1)
 redgifs.com##.topNav-wrap > div:nth-of-type(3)
 redgifs.com##.SideBar > li:nth-of-type(7)
-redgifs.com##.SideBar-Item > div._adLiveButton_p1t77_1:upward(li)
-redgifs.com###root ~ *:remove()
-redgifs.com##noscript:remove()
+redgifs.com###root ~ *
+redgifs.com##[class="_adLiveButton_1lvnn_1"]:nth-ancestor(1)
+redgifs.com##div.Vote-Control:remove-class(Vote-Control)
+redgifs.com##body:remove-attr(style)
+redgifs.com##body:remove-class(class)
+redgifs.com##.itemList > div:nth-of-type(2)
+redgifs.com##.App.nav > *:not([class])
 
 ! 2024-05-08 https://avbebe.com
 avbebe.com##.jeg_nav_center
