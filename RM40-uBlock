@@ -620,19 +620,10 @@ redgifs.com##.itemList > div:nth-of-type(2)
 redgifs.com##.App.nav > *:not([class])
 
 ! 2024-05-08 https://avbebe.com
-avbebe.com##.jeg_nav_center
-avbebe.com##.jeg_ad
-avbebe.com##.jeg_ad_top
-avbebe.com##.jnews_header_top_ads
-avbebe.com##.jnews_comment_container
-avbebe.com##.relpost-thumb-wrapper
-avbebe.com##.jnews_author_box_container
-avbebe.com##.jnews_related_post_container
-avbebe.com##.jnews_popup_post_container
-avbebe.com##.jnews_prev_next_container
-avbebe.com###post-body-class
-avbebe.com##.jeg_aside_item li:nth-of-type(n+13):nth-of-type(-n+18)
-avbebe.com##.jeg_mainmenu_wrap li:nth-of-type(n+13):nth-of-type(-n+18)
+avbebe.com##.jeg_ad,.jnews_comment_container:remove()
+avbebe.com##.post-wrapper:style(margin-top: 30px !important;)
+avbebe.com###jeg_off_canvas ~ *:remove()
+avbebe.com##.jeg_viewport > *:not(.jeg_navbar_mobile_wrapper,.post-wrapper,.jeg_main,.jeg_header_wrapper ):remove()
 
 ! 2024-05-08 https://dbro.news
 dbro.news##footer
