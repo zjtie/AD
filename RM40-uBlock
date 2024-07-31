@@ -834,14 +834,14 @@ h-ciyuan.com##nav.navigation ~ *:remove()
 h-ciyuan.com##footer,#menu-item-13541,#menu-item-25315,.entry-header,.gridview-logo:remove()
 
 ! 2024-05-08 https://ichinuke.com
-ichinuke.com##body > *:not(#body_wrap,.l-scrollObserver)
-ichinuke.com###comments,#after_article,.c-shareBtns,[id*="swell_ad_widget"]
+ichinuke.com##body > *:not(#body_wrap,.l-scrollObserver):remove()
+ichinuke.com###comments,#after_article,.c-shareBtns,[id*="swell_ad_widget"]:remove()
 #评论 #文章排名和相关文章 #分享
-ichinuke.com##.PcOnly:nth-ancestor(2)
-ichinuke.com##.PhoneOnly:nth-ancestor(2)
-ichinuke.com###text-4,#text-11
+ichinuke.com##.PcOnly:nth-ancestor(2):remove()
+ichinuke.com##.PhoneOnly:nth-ancestor(2):remove()
+ichinuke.com###text-4,#text-11:remove()
 #站外
-ichinuke.com###content ~ *:not(#fix_bottom_menu)
+ichinuke.com###content ~ *:not(#fix_bottom_menu):remove()
 
 ! 2024-05-09 https://oreno-erohon.com
 oreno-erohon.com###article-options
