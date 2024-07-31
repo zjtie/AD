@@ -626,16 +626,16 @@ avbebe.com###jeg_off_canvas ~ *:remove()
 avbebe.com##.jeg_viewport > *:not(.jeg_navbar_mobile_wrapper,.post-wrapper,.jeg_main,.jeg_header_wrapper ):remove()
 
 ! 2024-05-08 https://dbro.news
-dbro.news##footer
-dbro.news##aside
-dbro.news##.post-share-bot
-dbro.news##.post-share
-dbro.news###smart-head .smart-head-mid
-dbro.news###menu-item-709088
-dbro.news###menu-item-382966
-dbro.news##div.comments
-dbro.news##.a-wrap-bg
-dbro.news##.author-box
+dbro.news##body > *:not(.main-wrap,style)
+#网页脚本 #排除主要内容 排除样式
+dbro.news##.main ~ *
+#页面尾部
+dbro.news###smart-head > .smart-head-mid
+#PC端logo
+dbro.news##.comments,.post-share-bot,.author-box,.post-share,#menu-item-382966,#menu-item-781700
+#评论 #分享 #作者 #分享
+dbro.news##.post-content-wrap > .post-content > .a-wrap-bg
+#播放器下方
 
 ! 2024-01-22 https://zh.yazhouse8.live 亚洲吧直播
 zh.yazhouse8.live##[class*="cookies"]
