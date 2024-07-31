@@ -834,34 +834,14 @@ h-ciyuan.com##nav.navigation ~ *:remove()
 h-ciyuan.com##footer,#menu-item-13541,#menu-item-25315,.entry-header,.gridview-logo:remove()
 
 ! 2024-05-08 https://ichinuke.com
-ichinuke.com###custom_html-10
-ichinuke.com###custom_html-13
-ichinuke.com###custom_html-18
-ichinuke.com###custom_html-25
-ichinuke.com###custom_html-30
-ichinuke.com###custom_html-46
-ichinuke.com###custom_html-47
-ichinuke.com###fix_bottom_menu
-ichinuke.com###g_floating_area1
-ichinuke.com###g_floating_area2
-ichinuke.com###header .pc_
-ichinuke.com###recent-comments-2
-ichinuke.com###slide_wrap
-ichinuke.com###slide_wrap_pc
-ichinuke.com###text-4
-ichinuke.com###text-9
-ichinuke.com###text-11
-ichinuke.com##.c-shareBtns
-ichinuke.com##.PcOnly
-ichinuke.com##.w-singleTop
-ichinuke.com###comments
-ichinuke.com##.after_article Div
-ichinuke.com##.after_article section
-ichinuke.com##div[id*="_ad_"]
-ichinuke.com##div[id*="footer"]
-ichinuke.com##div[class*="sgpb-main-popup-data"]
-ichinuke.com##.has-text-align-center
-ichinuke.com##footer
+ichinuke.com##body > *:not(#body_wrap,.l-scrollObserver)
+ichinuke.com###comments,#after_article,.c-shareBtns,[id*="swell_ad_widget"]
+#评论 #文章排名和相关文章 #分享
+ichinuke.com##.PcOnly:nth-ancestor(2)
+ichinuke.com##.PhoneOnly:nth-ancestor(2)
+ichinuke.com###text-4,#text-11
+#站外
+ichinuke.com###content ~ *:not(#fix_bottom_menu)
 
 ! 2024-05-09 https://oreno-erohon.com
 oreno-erohon.com###article-options
