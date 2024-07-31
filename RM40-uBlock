@@ -36,6 +36,23 @@ x.com##[role="dialog"] [href*="monetization"]
 x.com##[role="dialog"] [href*="ads.x.com"]
 x.com##[data-testid="FloatingActionButtons_Tweet_Button"]:nth-ancestor(2)
 
+reddit.com##span[data-part="secondary"][class="contents"],span[data-part="advertise"][class="contents"],create-post-entry-point-wrapper
+#下载app #广告 #上传
+reddit.com###RESOURCES > *:not([noun="communities_menu"],[noun="rereddit_menu"],[noun="topics_menu"])
+#侧边栏
+reddit.com##shreddit-async-loader[bundlename="app_selector"][paint-group="xpromo"]
+#打开app
+# reddit.com##shreddit-app ~ *
+reddit.com##body > *:not(shreddit-app)
+ reddit.com##shreddit-app > *:not(reddit-header-small,.grid-container,reddit-header-large)
+#页面尾部
+reddit.com##body:remove-attr(style)
+#不让页面滑动
+reddit.com##faceplate-img:remove-attr(style)
+#模糊样式
+reddit.com##shreddit-pubsub-publisher + div
+#蒙版样式
+
 ! 2023-12-19 https://i.jandan.net 煎蛋
 jandan.net###footer
 jandan.net##commentform
