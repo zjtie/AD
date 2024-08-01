@@ -706,20 +706,19 @@ eromanga-cafe.com##script
 18h.animezilla.com##.page-header
 
 ! 2024-05-07 https://nijifeti.com
-nijifeti.com##header
-nijifeti.com##.sidebox > div
-nijifeti.com##.wppwrap
-nijifeti.com##.pagetopwrap
-nijifeti.com##.adbox
-nijifeti.com##.osu2
-nijifeti.com##.comment
-nijifeti.com###text-2
-nijifeti.com##footer
-nijifeti.com##meta
-nijifeti.com##.posts__item
-nijifeti.com##.morebox
-nijifeti.com##.kline
-nijifeti.com##.kizishitassp
+nijifeti.com##body > *:not(nav,.site-main,#dynamic-to-top,header,#tokimeki-css,link[rel="stylesheet"]):remove()
+nijifeti.com##.sidebox > div:remove()
+nijifeti.com##footer ~ *:remove()
+nijifeti.com##.sitemenu,.osu2,.morebox,footer,script:remove()
+#关于 #站外 #站外
+nijifeti.com###main-content > div:remove()
+#站外
+# nijifeti.com###archives-4 + .ts10box:remove()
+nijifeti.com###main > .wppwrap ~ *:remove()
+nijifeti.com##.ts10box > .wppwrap ~ *:remove()
+#评价
+nijifeti.com##.ts10box a:not([href^="https://nijifeti.com"]):nth-ancestor(2)
+#手机站外
 
 ! 2024-05-07 https://eromanga-kai.com 
 #Erotic Manga no Kai 是一个面向成熟女性、已婚女性以及面向专家的 NTR 类型的漫画网站
