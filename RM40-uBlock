@@ -722,16 +722,12 @@ nijifeti.com##.ts10box a:not([href^="https://nijifeti.com"]):nth-ancestor(2)
 
 ! 2024-05-07 https://eromanga-kai.com 
 #Erotic Manga no Kai 是一个面向成熟女性、已婚女性以及面向专家的 NTR 类型的漫画网站
-eromanga-kai.com##footer
-eromanga-kai.com###go-to-top
-eromanga-kai.com###header-container
-eromanga-kai.com###content-top
-eromanga-kai.com###sidebar
-eromanga-kai.com###pager-post-navi
-eromanga-kai.com###comment-area
-eromanga-kai.com###baguetteBox-overlay
-eromanga-kai.com##.eye-catch-wrap
-eromanga-kai.com##.sns-share
+eromanga-kai.com##.mobile-menu-buttons ~ *:remove()
+#页面尾部
+eromanga-kai.com##footer,#header-container,.sns-share,#comment-area,.content-top:remove()
+#页脚 #页面头部 #分享 #评论 #页面头部
+eromanga-kai.com###search-2 ~ *:remove()
+#侧边栏评论
 
 ! 2024-05-08 https://hentai-witch.com
 hentai-witch.com###linkcat-293
