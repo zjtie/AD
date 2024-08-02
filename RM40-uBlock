@@ -730,14 +730,10 @@ eromanga-kai.com###search-2 ~ *:remove()
 #侧边栏评论
 
 ! 2024-05-08 https://hentai-witch.com
-hentai-witch.com###linkcat-293
-hentai-witch.com###header-container
-hentai-witch.com###content-top
-hentai-witch.com###content-bottom
-hentai-witch.com###pc_text-2
-hentai-witch.com###baguetteBox-overlay
-hentai-witch.com##.recommended
-hentai-witch.com##footer
+#提供游戏和动漫人物
+hentai-witch.com###container > *:not(#go-to-top,.recommended ,#content,ul[id]):remove()
+hentai-witch.com##[id*="_ad-"],[id*="linkcat-"],[id*="_text-2"],#comment-area:remove()
+
 
 ! 2024年4月25日 https://18comic.vip
 18comic.vip###billboard-modal
