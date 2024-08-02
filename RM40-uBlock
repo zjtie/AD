@@ -967,8 +967,12 @@ twhentai.com##.navbar-header
 #======漫画===========================================================================
 #======图片===========================================================================
 ! 2024-05-08 https://a-hadaka.jp
-legs.a-hadaka.jp##footer
-legs.a-hadaka.jp###comments
+a-hadaka.jp###hadakabar ~ *:remove()
+a-hadaka.jp##address ~ *:remove()
+a-hadaka.jp###singlepage > #wrapper ~ *:remove()
+a-hadaka.jp###overlay,.fancybox,footer,address,#headinfo,.dpr,.amazonpr,.dmmpr,.info :remove()
+a-hadaka.jp###nav > li:nth-of-type(2)
+a-hadaka.jp###nav > li:nth-of-type(7)
 
 ! 2023-09-15 https://moeimg.net
 moeimg.net##body > *:not(#page):remove()
