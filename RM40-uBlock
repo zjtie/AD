@@ -1019,9 +1019,7 @@ www.wsgmzt.com###dbffsm
 www.wsgmzt.com##br
 
 ! 2024-04-02 https://kemono.su
-kemono.su##.shifted.content-wrapper > [href]
-kemono.su##.stuck-bottom.global-sidebar-entry
-kemono.su##footer
+kemono.su##.stuck-bottom,footer,#xr,script:remove()
 
 ! 2024-04-02 https://gelbooru.com
 gelbooru.com##a[href^="index.php"]:nth-of-type(11)
@@ -1029,6 +1027,8 @@ gelbooru.com##footer
 gelbooru.com###myTopnav a:nth-of-type(n+8):nth-of-type(-n+12)
 gelbooru.com##.showNoGridSupport
 gelbooru.com##.mainBodyPadding > div:nth-of-type(1)
+gelbooru.com##body > *:not(#container):remove()
+gelbooru.com##footer,script,[href="redeemCode.php"]:remove()
 
 ! 2024-04-02 https://www.hentai-foundry.com
 www.hentai-foundry.com###footer
