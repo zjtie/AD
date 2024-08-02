@@ -1022,7 +1022,8 @@ www.wsgmzt.com##br
 kemono.su##.stuck-bottom,footer,#xr,script:remove()
 
 ! 2024-04-02 https://gelbooru.com
-
+gelbooru.com##script,.ui-menu,.ui-helper-hidden-accessible,footer:remove()
+gelbooru.com##[href*="conversation"],[href*="moneygrubbingwhore"],[href*="tracker"]:remove()
 
 ! 2024-04-02 https://www.hentai-foundry.com
 hentai-foundry.com###yw14 li:nth-of-type(n+1):nth-of-type(-n+4)
