@@ -975,31 +975,15 @@ a-hadaka.jp###nav > li:nth-of-type(2)
 a-hadaka.jp###nav > li:nth-of-type(7)
 
 ! 2023-09-15 https://moeimg.net
-moeimg.net##body > *:not(#page):remove()
-moeimg.net##[class*="sp_ad"],[class*="pc_ad"]:remove()
-moeimg.net###pickup-header_frame,.filter-nav,#page-pickup-link_frame,.pickup-random-header:remove()
-#站外 #站外 #站外 #站外
+moeimg.net##body > *:not(#page,.page-top):remove()
+moeimg.net##[class*="_ad"],[id*="_ad_"],[id*="j-ad-"],.sp_only,.pc_only,#header:remove()
+moeimg.net###footer,.share,[id*="pickup-"],#side-2,script:remove()
+#头部站外 #站外 #站外 #站外 #未知
 moeimg.net###side > div:remove()
-moeimg.net###side .pc_only:remove()
+moeimg.net###side > ul > li:nth-of-type(4)
 #侧边栏
-
-moeimg.net###header
-moeimg.net###pickup-header_frame
-moeimg.net###footer
-moeimg.net##.pc_only
-moeimg.net##.sp_only.sp_ad_4
-moeimg.net##.pc_only.widget-area
-moeimg.net##.sp_only
-moeimg.net##.share.entryblock
-moeimg.net###respond
-moeimg.net##.commentlist
-moeimg.net###comments
-moeimg.net##.nav-below
-moeimg.net##.follow.entryblock
-moeimg.net##.balloon.comments-link
-moeimg.net##li.widget-container:nth-of-type(4)
-moeimg.net##.searchbyimage
-moeimg.net###sp_ad_entry_middle_frame
+moeimg.net##.post-single > .entry-footer ~ *:remove()
+#正文广告
 
 ! 2024-01-21 https://www.pornpics.com
 www.pornpics.com###cookie-contract
