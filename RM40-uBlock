@@ -1326,44 +1326,17 @@ sfmcompile.club##body > script
 sfmcompile.club##aside.g1-more-from ~ *
 sfmcompile.club##.g1-footer,#menu-item-2815,#menu-item-36768
 
-hentaigasm.com##div[id^="custom_"]
-hentaigasm.com##script
-hentaigasm.com##.adv,#footer
+hentaigasm.com##div[id^="custom_"],.adv,#footer,script,div[style*="float"],script:remove()
 hentaigasm.com##.section-box.related-posts ~ *
-hentaigasm.com##div[style*="float"]
 hentaigasm.com##.loop-content ~ *:not(.loop-nav)
 
-! 2024-04-14 https://studiofow.com FOW工作室
-studiofow.com##.whb-visible-lg.whb-col-center.whb-column
-studiofow.com##.whb-hidden-lg.whb-mobile-center.whb-column
-studiofow.com##.wd-prefooter
-studiofow.com##.color-scheme-light.footer-container
-studiofow.com##.avwp-av
-studiofow.com##.avwp-av-overlay
-
-! 2024-04-14 https://999hentai.net  无限制的 2D 和 3D 无尽动漫视频
-
-xanimu.com##.actors-footer ~ *
-xanimu.com###wrapper-footer
-xanimu.com###page ~ *
-xanimu.com###exoscript
-#页面尾部
-xanimu.com###wrapper-navbar > nav
-xanimu.com###menu-main-menu > li:nth-of-type(4) ~ *
-xanimu.com##^body > script 
-xanimu.com##body > script
-#页面头部
-xanimu.com###single-wrapper > section ~ *
-xanimu.com###single-wrapper ~  *
-#评论
-xanimu.com##.no-gutters > div[id]
-xanimu.com##div[id^="ads"]
-xanimu.com###pcppopp,#mobppopp
+xanimu.com##body > *:not(#page):remove()
+xanimu.com###page > *:not(#wrapper-navbar,#single-wrapper,.header,#content):remove()
+xanimu.com###comment_link,.hero,[ID*="-boxes-mobile"],.vid-report,meta,script:remove()
 
 ! 2024-05-15 https://porn3dx.com
-porn3dx.com##.cookie-consent
-porn3dx.com##.marker-app
-#浮窗
+porn3dx.com##body > *:not(.antialiased ):remove()
+porn3dx.com##script:remove()
 porn3dx.com##.antialiased > div > aside > div > .space-y-2 ~ *
 #侧边栏
 porn3dx.com##div[x-ref="postMain"] > iframe
@@ -1376,26 +1349,14 @@ porn3dx.com###aside-scroll > div > div > button
 #反馈
 
 ! 2024年6月26日 https://ohentai.org
-ohentai.org##footer
-ohentai.org###topleaderboard
-ohentai.org###bottomleaderboard
-ohentai.org##[id*="Ad_"]
-ohentai.org##.adtitle ~ *
-ohentai.org###tagcont > div:first-of-type
-ohentai.org###tagcont > ul:first-of-type
-#导航
-ohentai.org##.viewlabel + a
-#反馈举报
-ohentai.org##.detaildiscussionpanel
-ohentai.org##[href^="https://candy.ai"]
-ohentai.org##[title="menutab_ad"]
-*://ohentai.org/*disqus.com/*
-*://ohentai.org/*facebook.net/*
+ohentai.org##.hometitle,footer,script,.sortadtext,.sidecontainertitle,.adtitle,.sidebaradlinkcontainer,#topleaderboard,.detailsortadtext,.reportbutton:remove()
+ohentai.org###tagcont > ul:nth-of-type(1)
+ohentai.org##[href="https://porngameshub.com/hentai"]
 
 ! 2024年6月26日 https://animeh.to
-animeh.to##.site-bottom-wrapper
-animeh.to##.description + div ~ *
-#评论
+animeh.to##footer,script,meta,.site-bottom-wrapper,link:not([rel="stylesheet"]):remove()
+animeh.to##.parax-wraper
+
 #======动漫===========================================================================
 #======小说===========================================================================
 ! 2024-01-26 https://69story.com
