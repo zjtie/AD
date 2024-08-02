@@ -1045,34 +1045,20 @@ lolhentai.net##.menu li:nth-of-type(n+3):nth-of-type(-n+6)
 lolhentai.net##li.picture ~ *:remove()
 
 ! 2022-11-23 https://www.jjpicss.com
-www.jjpicss.com##footer
-www.jjpicss.com##.fm-close
-www.jjpicss.com##.ad
-www.jjpicss.com##iframe
-www.jjpicss.com##a[href="https://list.jjpicss.com/"]
-www.jjpicss.com##a[href="/day/menu"]
+jjpicss.com##body > *:not(style,nav,.mobile-menu,#fm-ajax-body):remove()
+jjpicss.com##.ad:remove()
 
 ! 2022-01-21 http://thatpervert.com :: xxx 文件 
-thatpervert.com###footer
-thatpervert.com###post_list + div
-thatpervert.com###tagList
-thatpervert.com##.uhead_share
-thatpervert.com###header
-thatpervert.com###joytip
-thatpervert.com###magnifier
-thatpervert.com###background:style(max-width: 100%;)
+thatpervert.com###magnifier,#tagList,#joytip,#header,.user-awards,meta,script:remove()
+thatpervert.com###sidebar > .sidebarContent ,#sidebar > ins,#sidebar >h2:remove()
+#thatpervert.com###background:style(max-width: 100%;)
 
 ! 2024-05-11 https://www.asianude4u.net :半成品
-www.asianude4u.net##footer
-www.asianude4u.net##.home-share
-www.asianude4u.net##.entry-bottom
-www.asianude4u.net##.related-box
-www.asianude4u.net##.single-box
-www.asianude4u.net##.single-728
-www.asianude4u.net##.entry-img-300
-www.asianude4u.net##.clear
-www.asianude4u.net###single-share
-www.asianude4u.net##aside.sidebar
+asianude4u.net##body > .home-fullwidth ~ *:not(button,.rmp-container):remove()
+asianude4u.net##body > .wrap-fullwidth ~ *:not(button,.rmp-container):remove()
+asianude4u.net###infinite-articles > .ms-item.homeimg:remove()
+asianude4u.net##.single-content >  *:not(.meta-wrap,.entry-top,article):remove()
+asianude4u.net##.whatsapp,.emailbutton,script,.home-share,.sidebar:remove()
 
 ! 2024-01-22 https://m.yalayi.com  雅拉伊 - 原创人像摄影作品，有温度的写真集
 m.yalayi.com##.swiper-wrapper
