@@ -1031,39 +1031,23 @@ gelbooru.com##body > *:not(#container):remove()
 gelbooru.com##footer,script,[href="redeemCode.php"]:remove()
 
 ! 2024-04-02 https://www.hentai-foundry.com
-www.hentai-foundry.com###footer
-www.hentai-foundry.com###comments_box
-www.hentai-foundry.com##.boxfooter
-www.hentai-foundry.com###siteNews
-www.hentai-foundry.com###yw1 li:nth-of-type(n+1):nth-of-type(-n+4)
+hentai-foundry.com###yw14 li:nth-of-type(n+1):nth-of-type(-n+4)
+hentai-foundry.com###footer,script,#siteNews,#comments_box,.boxfooter:remove()
+#页脚 #脚本 #本站新闻 #评论 #报告
 
 ! 2024-05-10 https://slushe.com
-slushe.com##footer
-slushe.com###modal-custom
-slushe.com##.discord
-slushe.com##.about
-slushe.com##.contact
-slushe.com##.easy-share
-slushe.com##.comments
-slushe.com###body_iframe
-slushe.com###noFlag
-slushe.com###list-modal-max
-slushe.com###modal-custom ~ div
+slushe.com##body > *:not(.page-body,.page-header,.wrapper,#sprite-plyr):remove()
+slushe.com##.reportPost,.comments,.slider-main,.items-basic,.discord,.about,.contact,script,meta:remove()
+#反馈 #评论 #滚动屏幕 #滚动屏幕 #discord #about #contact
 
 ! 2024-04-02 https://www.lolhentai.net
-www.lolhentai.net##footer
-www.lolhentai.net###floating-iframe-container
-www.lolhentai.net##.left-girl
-www.lolhentai.net##.right-girl
-www.lolhentai.net##.ad-mobile-ksa
-www.lolhentai.net##.full-ads-content
-www.lolhentai.net##.discord
-www.lolhentai.net##.menu li:nth-of-type(n+3):nth-of-type(-n+6)
-www.lolhentai.net##.col-lg-3 aside
-www.lolhentai.net##.ad-con
-www.lolhentai.net##.comment-content
-www.lolhentai.net##.nut-logo
-www.lolhentai.net##.community
+lolhentai.net##body > *:not(header,main):remove()
+lolhentai.net##section > .container > .row >.col-lg-3:remove()
+#侧边栏
+lolhentai.net##.comment-content,.discord :remove()
+#评价
+lolhentai.net##.menu li:nth-of-type(n+3):nth-of-type(-n+6)
+lolhentai.net##li.picture ~ *:remove()
 
 ! 2022-11-23 https://www.jjpicss.com
 www.jjpicss.com##footer
