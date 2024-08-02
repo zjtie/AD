@@ -975,6 +975,14 @@ legs.a-hadaka.jp##footer
 legs.a-hadaka.jp###comments
 
 ! 2023-09-15 https://moeimg.net
+moeimg.net##body > *:not(#page):remove()
+moeimg.net##[class*="sp_ad"],[class*="pc_ad"]:remove()
+moeimg.net###pickup-header_frame,.filter-nav,#page-pickup-link_frame,.pickup-random-header:remove()
+#站外 #站外 #站外 #站外
+moeimg.net###side > div:remove()
+moeimg.net###side .pc_only:remove()
+#侧边栏
+
 moeimg.net###header
 moeimg.net###pickup-header_frame
 moeimg.net###footer
