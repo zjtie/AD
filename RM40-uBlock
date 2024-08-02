@@ -1151,21 +1151,8 @@ www.metart.com###loader
 www.metart.com##noscript
 
 ! 2023-09-14 https://adaman-ero.com ホットな秘密の二次元エロ萌画像
-adaman-ero.com###header-full
-adaman-ero.com##footer
-adaman-ero.com##.widget_custom_html
-adaman-ero.com###comments
-adaman-ero.com##.p-navi
-adaman-ero.com###st-footer-under-widgets-box-wrap
-adaman-ero.com##.st-sns-top
-adaman-ero.com##.st-sns-singular
-adaman-ero.com##.banner
-adaman-ero.com###footer-ad-box
-adaman-ero.com###st_custom_html_ad_widget-25
-adaman-ero.com###st_custom_html_ad_widget-9
-adaman-ero.com###st_custom_html_ad_widget-23
-adaman-ero.com##.arpw-random-post
-adaman-ero.com###scrollad
+adaman-ero.com##script,#footer-ad-box,footer,.side-topad,#scrollad,#custom_html-6,.banner,.sns,#comments,[id*="_ad_"],meta:remove()
+adaman-ero.com###nocopy ~ *:remove()
 
 ! 2023-11-11 https://www.youngpussypic.com
 www.youngpussypic.com##.pop-wrap
@@ -1238,24 +1225,11 @@ erovoice-ch.com##.tagList + div
 erovoice-ch.com###postPagers
 
 ! 2024年4月25日 https://asmr18.fans  ASMR+18は、声優さんの本格的な同人エロボイス、萌えボイス
-asmr18.fans###menu-link
-asmr18.fans##footer
-asmr18.fans###comments
-asmr18.fans##.book18-post-list
-asmr18.fans##div.home-h:nth-of-type(1)
-asmr18.fans##div.home-h:nth-of-type(3)
-asmr18.fans###main > div:nth-of-type(2)
-asmr18.fans###menu-menu > a[href="https://asmr18.fans/contact/"]
-!#if env_mobile
-asmr18.fans###main div:nth-of-type(n+1):nth-of-type(-n+7)
-asmr18.fans###main > div:nth-of-type(1)
-asmr18.fans###main > div:nth-of-type(3)
-asmr18.fans###main > div:nth-of-type(5)
-asmr18.fans##div.home-h:nth-of-type(4)
-asmr18.fans##div.home-h:nth-of-type(6)
+asmr18.fans##body > *:not(#header,#top-slider,#container,#post-data):remove()
+asmr18.fans###main > :nth-child(-n+4)
 asmr18.fans###main > div[style]
-asmr18.fans##body > div[style]
-!#endif
+asmr18.fans###comments,#menu-link,script,.book18-post-list
+asmr18.fans##[href="https://book18.fans/"]:nth-ancestor(1)
 
 ! 2024年4月25日 https://eatasmr.com e聆聽, 放鬆身心
 eatasmr.com##footer
