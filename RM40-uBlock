@@ -876,22 +876,15 @@ nhentai.net###comment-post-container
 nhentai.net##li.desktop:nth-of-type(8)
 
 ! 2023-09-15 https://kimootoko.net
-#喜欢被令人毛骨悚然的男人强奸的美丽女主角同人作品
-kimootoko.net###footer ~ *
-kimootoko.net##noscript
-kimootoko.net###header
-kimootoko.net##.posts-list-upper-widget
-kimootoko.net##div[id*="custom_html"]
-kimootoko.net###core + aside
-#相关的文章 
-kimootoko.net###main + div
-#文章
-kimootoko.net##.syousai
-#详细信息 
-kimootoko.net##.syousai + hr ~ *
-kimootoko.net##a[data-wpel-link="internal"] ~ hr
-kimootoko.net##a[data-wpel-link="internal"] ~ div
-#文章
+# 喜欢被令人毛骨悚然的男人强奸的美丽女主角同人作品
+# 作者：nya-fu 2011年开设Kimo Man Rape Doujindo。
+# 她是一个看护人，喜欢一个乐观的美少女女主角被一个懦弱顺从、令人作呕的男人打败并受到羞辱的情况
+kimootoko.net##body > *:not(.container):remove()
+kimootoko.net##header,.widget_text,.posts-list-upper-widget:remove()
+#页面头部 #站外 #文章头部站外
+kimootoko.net###core .clearfix > div[align="center"] > div[align="center"]:remove()
+kimootoko.net###core .clearfix > div[align="center"] > hr:remove()
+#正文站外
 
 ! 2023-09-14 https://wnacg.com
 wnacg.com##.wrap.footer
