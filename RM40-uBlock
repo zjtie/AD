@@ -986,14 +986,13 @@ moeimg.net##.post-single > .entry-footer ~ *:remove()
 #正文广告
 
 ! 2024-01-21 https://www.pornpics.com
-www.pornpics.com###cookie-contract
-www.pornpics.com###fb-button
-www.pornpics.com###left-nav-sponsor.left-side
-www.pornpics.com###r-frame-on.adss-mob.r-frame
-www.pornpics.com###footer
-www.pornpics.com###fb-button
-www.pornpics.com###footer
-www.pornpics.com##.left-nav-sponsor
+pornpics.com###wrapper ~ *:not(link):remove()
+#年龄确认
+pornpics.com##img:remove-class(img-bluring)
+#模糊蒙蔽
+pornpics.com##.sponsor-section-button,.vjs-spot-line,[class*="comm"],.r-bottom:remove()
+#加入 #视频加入 #评论 #手机端视频下方空白
+pornpics.com##ul[class*="-side"]:remove()
 
 ! 2024-02-22 http://www.wsgmzt.com 无圣光妹子图
 www.wsgmzt.com##[href*="js.wsgmzt"]
