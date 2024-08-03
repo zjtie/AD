@@ -679,45 +679,31 @@ hentai-witch.com##[id*="_ad-"],[id*="linkcat-"],[id*="_text-2"],#comment-area:re
 
 
 ! 2024年4月25日 https://18comic.vip
-18comic.vip###billboard-modal
-18comic.vip###shunt-modal + div
-18comic.vip###nb_path
-18comic.vip###ipcountry
-18comic.vip##.footer-container
-18comic.vip##.footer-pad
-18comic.vip##.float-right-image
-18comic.vip##.float-right-daily
-18comic.vip##.top-menu-link.hidden-xs
-18comic.vip##.top-nav
-18comic.vip##.user-social.panel-default.panel
-18comic.vip##.copy-block.visible-sm.visible-xs
-18comic.vip##li > a#meun_game
-18comic.vip##li > a[href="/shop"]
-18comic.vip##li > a[href="/games"]
-18comic.vip##.well.well-filters > div:nth-of-type(3)
-18comic.vip##div > #post_comment
-18comic.vip##div.row[style*="display: flex;"][style*="flex-wrap: wrap;"]
-18comic.vip##[href="https://jm365.work/mpSWW7"]
-18comic.vip##[href="mailto:www18comic@gmail.com"]
-18comic.vip##[href="https://jm365.work/dFTN82"]
-18comic.vip##[href="/bonus"]
-18comic.vip##[href="https://jm365.work/pXYbfA"]
-18comic.vip##.tab-content.m-t-15.m-b-20 + .row
-18comic.vip##.thewayhome.scramble-page.center
-18comic.vip##li.ph-active:nth-of-type(1)
-18comic.vip##li.ph-active:nth-of-type(4)
-18comic.vip##.navbar-left > li:nth-of-type(1)
-18comic.vip##.navbar-left > li:nth-of-type(2)
-18comic.vip##.navbar-left > div:nth-of-type(1)
-#导航
+18comic.vip##[href="#headelikes_modal"]:nth-ancestor(5)
 18comic.vip###Comic_Top_Nav:remove-class(navbar)
-#移除类navbar
-18comic.vip##.group-notice:nth-ancestor(3)
-#AD
-18comic.vip##.hidden-lg
+#顶部广告 
+18comic.vip##.navbar-brand:remove()
+#logo
+18comic.vip###Comic_Top_Nav ul.navbar-left > *:not(.adult-class-main):remove()
+18comic.vip##[href="/bonus"],.adult-class-main + div:remove()
+18comic.vip###wrapper > .div-bf-pv :remove()
+18comic.vip##[class^="footer"]
+#页面头部滚动屏幕  同级别页脚
 18comic.vip##.float_right > div:nth-of-type(1)
-#app浮窗
-
+18comic.vip###wrapper >.hidden-lg:remove()
+18comic.vip##.container >.hidden-lg:remove()
+#浮窗APP下载 
+18comic.vip###sns:remove()
+18comic.vip##.ph-bottom li:nth-of-type(4)
+#底部导航
+18comic.vip##.col-lg-3.col-md-3.col-sm-3.col-xs-6 .group-notice:nth-ancestor(3)
+#正文下的广告
+18comic.vip##.well.well-sm a[href^="https://jm365.work"]:nth-ancestor(3):remove()
+#底部导航 小电影广告
+18comic.vip##.tips-overlay:remove()
+18comic.vip##body:remove-attr(style)
+#我的
+18comic.vip##meta,[src*="ads."]:remove()
 
 ! 2024-05-08 https://eromanga-kong.com
 eromanga-kong.com##header
