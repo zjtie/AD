@@ -364,7 +364,6 @@ t66y.com###main[style] .tiptop,#main[style] .tips:remove()
 *##body[onkeydown] > .main-wrap > #main > div.t a:has-text(版块公告):nth-ancestor(7):remove()
 #文章列表 公告
 
-
 ! 2024-05-07 hjd2048.com | https://bps.xzjrt.com 2048 未完成：两个元素之间的内容
 hjd2048.com##.main-wrap ~ *:remove()
 hjd2048.com###pw_box,#headbase,.header_up_sign,.header_down_sign,#nav-login,#menu_shortcut,#login_fast,#head:remove()
@@ -392,37 +391,23 @@ hjd2048.com##a[title="发表新帖"]:nth-ancestor(1):remove()
 hjd2048.com###breadCrumb:style(margin-top: 30px !important;)
 #添加样式 位置下移30PX
 
-! 2024-01-28 https://h2gcz1.ydwzsp.com
-h2gcz1.ydwzsp.com##.tips-p
-h2gcz1.ydwzsp.com##.infoFlowNav2 div:nth-of-type(5)
-h2gcz1.ydwzsp.com##.tg
-h2gcz1.ydwzsp.com###pinglun ~ a
-h2gcz1.ydwzsp.com###pinglun ~ p
-h2gcz1.ydwzsp.com###pinglun ~ div
-h2gcz1.ydwzsp.com##.topcenter_left
-h2gcz1.ydwzsp.com##.text01
-h2gcz1.ydwzsp.com##.el-carousel--horizontal
-h2gcz1.ydwzsp.com##.porn_link
-h2gcz1.ydwzsp.com##.ad-layout
-h2gcz1.ydwzsp.com##.centerMain_info
-h2gcz1.ydwzsp.com##.line-layout
-h2gcz1.ydwzsp.com##.share-bg
-h2gcz1.ydwzsp.com##.bottom-load
-h2gcz1.ydwzsp.com##.swiper-wrapper
-h2gcz1.ydwzsp.com##.mtap span:nth-of-type(6)
-h2gcz1.ydwzsp.com##.mlogo
-h2gcz1.ydwzsp.com##.disflexrow ~ p
-h2gcz1.ydwzsp.com##.disflexrow ~ div
+! 2024-01-28 https://h2gcz1.ydwzsp.com 海角社区
+h2gcz1.ydwzsp.com##^meta,title,script:remove()
+h2gcz1.ydwzsp.com##div.bg,.el-carousel__container,.el-carousel--horizontal,.porn_link:remove()
+h2gcz1.ydwzsp.com##.topcenter_left,.tg,.text01,.ad-layout,.centerMain_info,.share-bg,.line-layout:remove()
+#logo #TG #APP下载 #正文广告 #正文APP下载 #分享 #虚线
+h2gcz1.ydwzsp.com###pinglun ~ *:remove()
+h2gcz1.ydwzsp.com##.details1  ~ *:remove()
+#评论
+h2gcz1.ydwzsp.com##.bottom-load,.swiper-wrapper,.mlogo,.title.hover:remove()
+#下载 #滚屏 #logo #公告
 
 ! 2024-05-17 https://51cg1.com/archives.html  全网更新最快最全的吃瓜网 t.me/s/chiguaa51
-51cg1.com##footer
-51cg1.com###comments > div
-51cg1.com###body-bottom .post-content
-51cg1.com##.flash
-51cg1.com##.content-tabs
-51cg1.com##blockquote
-51cg1.com##.article-ads-btn
-51cg1.com###nav-toolbar
+51cg1.com##meta,script,footer,link:not([rel="stylesheet"]):remove()
+51cg1.com##.txt-apps,.line,.display-none,blockquote,.content-tabs:remove()
+#app下载 #下划线 #正文标题占位符 #正文公告 #官方公告
+51cg1.com##.container > .post-near ~ *:remove()
+#评论
 51cg1.com###menu-menu-1 li:nth-of-type(4) ~ *
 
 ! 2024-07-20 https://bad.news
