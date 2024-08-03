@@ -739,20 +739,10 @@ ichinuke.com###text-4,#text-11:remove()
 ichinuke.com###content ~ *:not(#fix_bottom_menu):remove()
 
 ! 2024-05-09 https://oreno-erohon.com
-oreno-erohon.com###article-options
-oreno-erohon.com##.sp_head_box
-oreno-erohon.com###inner-content > h2
-oreno-erohon.com###text-57
-oreno-erohon.com###shimi_comment_widget-3
-oreno-erohon.com##.comment_area
-oreno-erohon.com##.menu02 li:nth-of-type(4) ~ li
-oreno-erohon.com###text-20
-oreno-erohon.com##.page-title + div
-oreno-erohon.com##.page-title
-oreno-erohon.com##.header
-oreno-erohon.com##.sp_footer
-oreno-erohon.com##.footer
-oreno-erohon.com##.section-box
+oreno-erohon.com##.page-title,.blog-title-inner,#article-options,#text-20,footer:remove()
+oreno-erohon.com##.menu02 > li:nth-of-type(4) ~ *:remove()
+oreno-erohon.com##script,header,.sp_head_box,.sp_footer,.archive-title,.comment_area:remove()
+oreno-erohon.com##.menu_list  li:nth-of-type(3) ~ *:remove()
 
 ! 2023-09-14 https://www.177pica.com
 www.177pica.com###text-8
