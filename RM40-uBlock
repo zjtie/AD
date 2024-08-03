@@ -322,7 +322,7 @@ m.huaban.com##.P8_jH2tl
 
 #======图片===========================================================================
 #======论坛===========================================================================
-! 2024年5月6日 https://www.t66y.com 達蓋爾的旗幟 | 草榴社區 
+! 2024年5月6日 https://www.t66y.com 【草榴社區】 
 t66y.com##+js(setTimeout-defuser, tpcHt0ml, 1006)
 t66y.com##+js(setTimeout-defuser, adhtml, 10006)
 # setTimeout-defuser：一个内置的 uBlock Origin 工具，用于拦截并取消特定的 setTimeout 调用
@@ -340,8 +340,7 @@ t66y.com###main[style] > *:not(div[class][style]):remove()
 t66y.com##div.t_like[onclick]:remove()
 t66y.com###main[style] .tiptop,#main[style] .tips:remove()
 
-
-! 2024-05-07 论坛1024
+! 2024-05-07 http://a6rw6i.xyz 【1024社区】
 *##body[onkeydown] > .main-wrap > #main .tr3.t_one[onmouseover][onmouseout][align]:remove()
 #列表广告
 *##body[onkeydown] > .main-wrap > #main tbody#cate_1 > tr:not([id]):remove()
@@ -364,7 +363,7 @@ t66y.com###main[style] .tiptop,#main[style] .tips:remove()
 *##body[onkeydown] > .main-wrap > #main > div.t a:has-text(版块公告):nth-ancestor(7):remove()
 #文章列表 公告
 
-! 2024-05-07 hjd2048.com | https://bps.xzjrt.com 2048 未完成：两个元素之间的内容
+! 2024-05-07 hjd2048.com 【2048社区】
 hjd2048.com##.main-wrap ~ *:remove()
 hjd2048.com###pw_box,#headbase,.header_up_sign,.header_down_sign,#nav-login,#menu_shortcut,#login_fast,#head:remove()
 hjd2048.com##body[onkeydown] > script:remove()
@@ -391,7 +390,7 @@ hjd2048.com##a[title="发表新帖"]:nth-ancestor(1):remove()
 hjd2048.com###breadCrumb:style(margin-top: 30px !important;)
 #添加样式 位置下移30PX
 
-! 2024-01-28 https://h2gcz1.ydwzsp.com 海角社区
+! 2024-01-28 https://h2gcz1.ydwzsp.com 【海角社区】
 h2gcz1.ydwzsp.com##^meta,title,script:remove()
 h2gcz1.ydwzsp.com##div.bg,.el-carousel__container,.el-carousel--horizontal,.porn_link:remove()
 h2gcz1.ydwzsp.com##.topcenter_left,.tg,.text01,.ad-layout,.centerMain_info,.share-bg,.line-layout:remove()
@@ -402,7 +401,7 @@ h2gcz1.ydwzsp.com##.details1  ~ *:remove()
 h2gcz1.ydwzsp.com##.bottom-load,.swiper-wrapper,.mlogo,.title.hover:remove()
 #下载 #滚屏 #logo #公告
 
-! 2024-05-17 https://51cg1.com/archives.html  全网更新最快最全的吃瓜网 t.me/s/chiguaa51
+! 2024-05-17 https://51cg1.com/archives.html  【51吃瓜】
 51cg1.com##meta,script,footer,link:not([rel="stylesheet"]):remove()
 51cg1.com##.txt-apps,.line,.display-none,blockquote,.content-tabs:remove()
 #app下载 #下划线 #正文标题占位符 #正文公告 #官方公告
@@ -410,7 +409,7 @@ h2gcz1.ydwzsp.com##.bottom-load,.swiper-wrapper,.mlogo,.title.hover:remove()
 #评论
 51cg1.com###menu-menu-1 li:nth-of-type(4) ~ *
 
-! 2024-07-20 https://bad.news
+! 2024-07-20 https://bad.news  【bad.news】
 bad.news##script:remove()
 bad.news###disclaimer-background:remove()
 bad.news##.footer-parent ~ *:remove()
