@@ -1213,16 +1213,8 @@ japaneseasmr.com##[class*="ai-"]
 japaneseasmr.com##a[href="https://japaneseasmr.com/request/"]
 
 ! 2024-05-06 https://erovoice-ch.com
-erovoice-ch.com##footer
-erovoice-ch.com###header
-erovoice-ch.com###topContent
-erovoice-ch.com##.sideContent
-erovoice-ch.com##.addWrap
-erovoice-ch.com###commentArea
-erovoice-ch.com###overlay
-erovoice-ch.com##.tagList
-erovoice-ch.com##.tagList + div
-erovoice-ch.com###postPagers
+erovoice-ch.com###contents ~ *:remove()
+erovoice-ch.com##script,.addWrap,#nav_menu-3,#text-2,#custom_html-2,#recent_comments-2,#commentArea,#custom_html-10:remove()
 
 ! 2024年4月25日 https://asmr18.fans  ASMR+18は、声優さんの本格的な同人エロボイス、萌えボイス
 asmr18.fans##body > *:not(#header,#top-slider,#container,#post-data):remove()
