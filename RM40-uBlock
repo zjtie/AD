@@ -392,34 +392,6 @@ hjd2048.com##a[title="发表新帖"]:nth-ancestor(1):remove()
 hjd2048.com###breadCrumb:style(margin-top: 30px !important;)
 #添加样式 位置下移30PX
 
-! 2024-02-07 https://club.6parkbbs.com
-6parkbbs.com,cool18.com###pub_info + div.body_center
-#首页广告
-6parkbbs.com,cool18.com##hr[size="1"][width="100%"] ~ *
-#正文广告
-6parkbbs.com,cool18.com##[href="#postfp"]
-#分享
-6parkbbs.com,cool18.com##.gift:nth-ancestor(1)
-6parkbbs.com,cool18.com##center:has-text(朋友的这个贴子的话):nth-ancestor(2)
-6parkbbs.com,cool18.com##td:has-text(帖子内容是网友自行贴上分享):nth-ancestor(1)
-6parkbbs.com##.list-li
-#点赞
-6parkbbs.com##.pro-text
-#内容来自网络
-6parkbbs.com##.float-add
-#发布
-6parkbbs.com##.bottom-wrapper
-6parkbbs.com##.bottom-wrapper ~ *
-
-
-! 2024-05-08 https://wuso.me
-wuso.me###comiis_app_block_13
-wuso.me###comiis_app_block_25
-wuso.me##.comiis_rate
-wuso.me##.comiis_postlist div:nth-of-type(2) ~ div
-wuso.me##.comiis_quote
-wuso.me##.comiis_forumlist_top
-
 ! 2024-01-28 https://h2gcz1.ydwzsp.com
 h2gcz1.ydwzsp.com##.tips-p
 h2gcz1.ydwzsp.com##.infoFlowNav2 div:nth-of-type(5)
