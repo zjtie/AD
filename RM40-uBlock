@@ -625,28 +625,10 @@ eromanga-cafe.com##script
 !#endif
 
 ! 2024-05-07 https://18h.animezilla.com
-18h.animezilla.com##footer
-18h.animezilla.com###manga-top
-18h.animezilla.com###bk1
-18h.animezilla.com###text-6
-18h.animezilla.com###text-15
-18h.animezilla.com###text-10
-18h.animezilla.com###text-13
-18h.animezilla.com###text-17
-18h.animezilla.com###text-16
-18h.animezilla.com###text-8
-18h.animezilla.com###manga-below
-18h.animezilla.com###manga-bottom
-18h.animezilla.com##.notice
-18h.animezilla.com##.mega-menu-toggle
-18h.animezilla.com###mega-menu-primary li:nth-of-type(n+6):nth-of-type(-n+9)
-18h.animezilla.com###btn-wrapper
-18h.animezilla.com###btn-footer
-18h.animezilla.com###btn-toy
-18h.animezilla.com###btn-swiper
-18h.animezilla.com###menu-menu-main li:nth-of-type(2) ~ li
-18h.animezilla.com##.shiftnav-main-toggle-content span
-18h.animezilla.com##.page-header
+18h.animezilla.com##script,style,#manga-top,.notice,#latest-update,#bk1,footer,#manga-below,[id*="btn-"]:remove()
+18h.animezilla.com###mega-menu-item-338 ~ *:remove()
+18h.animezilla.com###menu-item-114 ~ *:remove()
+18h.animezilla.com##.shiftnav-main-toggle-content > span:remove()
 
 ! 2024-05-07 https://nijifeti.com
 nijifeti.com##body > *:not(nav,.site-main,#dynamic-to-top,header,#tokimeki-css,link[rel="stylesheet"]):remove()
