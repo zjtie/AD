@@ -425,16 +425,6 @@ h2gcz1.ydwzsp.com##.disflexrow ~ div
 51cg1.com###nav-toolbar
 51cg1.com###menu-menu-1 li:nth-of-type(4) ~ *
 
-! 2024-05-17 https://kanliao4.com 今日看料
-kanliao4.com###footer
-kanliao4.com##.blog-notice
-kanliao4.com##[id*="respond-post"]
-kanliao4.com##.hint-info
-kanliao4.com##.content-tabs
-kanliao4.com###loader-wrapper
-kanliao4.com###wrap ~ *
-kanliao4.com##span:has-text(无分类):nth-ancestor(5)
-
 ! 2024-07-20 https://bad.news
 bad.news##script:remove()
 bad.news###disclaimer-background:remove()
