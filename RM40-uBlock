@@ -1334,23 +1334,16 @@ animeh.to##.parax-wraper
 #======动漫===========================================================================
 #======小说===========================================================================
 ! 2024-01-26 https://69story.com
-69story.com##footer
-69story.com##.site-branding
-69story.com###primary ~ *
-69story.com###menu-mobile-footer-non-article > li:nth-of-type(3)
-69story.com###menu-mobile-footer-non-article > li:nth-of-type(4)
-69story.com###menu-item-212
-#导航
-69story.com###main > table > tbody > tr:not([id]):not([class])
-69story.com##[id*="banner"]
-69story.com##.entry-meta + div
-#空白块
-69story.com###main > div.col-xs-12:nth-of-type(1)
-69story.com###main > div.col-xs-12:style(height: 80px !important;)
-#下一页看不到了
-69story.com###main > article ~ *
-69story.com##.entry-content ~ *
-69story.com###read-more:remove()
+69story.com##script,meta,footer,.site-branding,#bkat,#bkft,#menu-item-1196,#menu-item-1197,#menu-item-212,#read-more,[id^="banner"],[href="https://g.gaypad.net/"],link:not([rel="stylesheet"]):remove()
+69story.com###main.site-main > .panel + div:remove()
+69story.com##li.active[role="presentation"] ~ *:remove()
+69story.com##tr:not([id]):remove()
+69story.com###content > #primary ~ *:not(#secondary):remove()
+69story.com###primary > #main > .col-xs-12:nth-of-type(1)
+69story.com###primary .col-xs-12:style(margin-bottom: 60px !important;)
+69story.com###main > article[id] > div[style]
+69story.com##a[href="https://69vj.com/"]:nth-ancestor(2):remove()
+69story.com##header.page-header + div[style]:remove()
 
 
 !#include RM40-uBlock-dynamic
