@@ -410,14 +410,10 @@ h2gcz1.ydwzsp.com##.bottom-load,.swiper-wrapper,.mlogo,.title.hover:remove()
 51cg1.com###menu-menu-1 li:nth-of-type(4) ~ *
 
 ! 2024-07-20 https://bad.news  【bad.news】
-bad.news##script:remove()
-bad.news###disclaimer-background:remove()
-bad.news##.footer-parent ~ *:remove()
-bad.news##.footer-parent:remove()
-bad.news###nologinOprBox ~ *:remove()
-bad.news###nologinOprBox:remove()
-bad.news##[class*="share"]
-bad.news##.article-actions
+bad.news###disclaimer-background,footer,meta,script,noscript,style:remove()
+bad.news##.footer-parent,.login-popup,#Div_float_area,.commentarea:remove()
+bad.news##.oWrap ~ *:remove()
+
 #======Video===========================================================================
 ! 2023-02-13 https://www.xnxx.com 
 xnxx.com###content ~ *:not(div.x-popup)
