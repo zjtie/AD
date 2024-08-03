@@ -449,7 +449,8 @@ spankbang.com##main.main-container > *:not(.main_content_container,#home,#browse
 spankbang.com###inner_content > #video > .tab_similar ~ *
 
 
-! 2022-11-20 https://www.bellesa.co #作为快乐的主体，而不是征服的对象 #性应该是有趣的、充满力量的
+! 2022-11-20 https://www.bellesa.co 
+#作为快乐的主体，而不是征服的对象 #性应该是有趣的、充满力量的
 bellesa.co##footer,.kncNFc,.jOkxqL,.ifKlPG,.iuxAoy,.loGkAL,.bpiwwI,.kBYJiC,.labDRT,.gbmYfk,.geEtfN,.hLzvtQ,.doXkCN
 #页面尾部 #评论 #Shop  #更多    #播放屏蔽 #升级 #logo #logo #加入 #登入 #浮窗加入 #窄屏加入 #播放屏蔽 #窄屏加入
 bellesa.co##[href="/story/all"] ~ *
@@ -1282,7 +1283,6 @@ animeh.to##.parax-wraper
 69story.com###main > article[id] > div[style]
 69story.com##a[href="https://69vj.com/"]:nth-ancestor(2):remove()
 69story.com##header.page-header + div[style]:remove()
-
 
 !#include RM40-uBlock-dynamic
 #动态规则
