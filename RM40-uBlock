@@ -117,35 +117,14 @@ fuliba2023.net##.post-copyright
 fuliba2023.net##.post-actions
 
 ! 2023-12-15 https://www.jdlingyu.com 绝对领域
-www.jdlingyu.com##footer
-www.jdlingyu.com##.comments-box
-www.jdlingyu.com##.single-bottom-html
-www.jdlingyu.com##content-ds
-www.jdlingyu.com##[class*="footer"]
-www.jdlingyu.com##b2-widget-html-11
-www.jdlingyu.com##b2-widget-html-20
-www.jdlingyu.com##custom_html-4
-www.jdlingyu.com##custom_html-2
-www.jdlingyu.com##home-row-gzh
-www.jdlingyu.com##single-top-html
-www.jdlingyu.com##home-row-zmhd
-www.jdlingyu.com##home-row-xz
-www.jdlingyu.com##home-row-zn
-www.jdlingyu.com##home-row-chinajoy
-www.jdlingyu.com##widget-area
-www.jdlingyu.com##item-136805
-www.jdlingyu.com##item-136595
-www.jdlingyu.com##item-136442
-www.jdlingyu.com##item-136277
-www.jdlingyu.com##item-136032
-www.jdlingyu.com##item-135947
-www.jdlingyu.com##item-135857
-www.jdlingyu.com##item-135732
-www.jdlingyu.com##item-135726
-www.jdlingyu.com##post-item-ecymt
-www.jdlingyu.com##[class*="download-"]
-www.jdlingyu.com##home-row-ydhd
-www.jdlingyu.com [href="https://www.jdlingyu.com/shop"]
+jdlingyu.com##body > *:not(#page):remove()
+jdlingyu.com###content ~ *:remove()
+jdlingyu.com###primary-home ~ *:remove()
+jdlingyu.com###home-row-gzh,#home-row-xz,#home-row-zn,#home-row-chinajoy,#b2-widget-html-4,#b2-widget-html-12,#menu-item-79724,.top-submit,.single-top-html,.single-button-download,.download-box,#content-ds,.single-bottom-html,.comments-box,#home-row-ydhd,#home-row-zmhd:remove()
+#加微信 #新站 #加微信 #飞机杯 #加入书签 #关注微信 #升级会员 #投稿 #飞机杯 #下载 #下载 #点赞 #正文页脚 #加微信 评论
+jdlingyu.com###b2-widget-html-21:nth-ancestor(1):remove()
+#侧边栏
+jdlingyu.com##[href="https://www.jdlingyu.com/shop"]:nth-ancestor(1):remove()
 
 ! 2024-05-11 https://www.36kr.com 36氪
 www.36kr.com##.kr-footer
