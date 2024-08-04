@@ -36,6 +36,7 @@ x.com##[role="dialog"] [href*="monetization"]
 x.com##[role="dialog"] [href*="ads.x.com"]
 x.com##[data-testid="FloatingActionButtons_Tweet_Button"]:nth-ancestor(2)
 
+! 2024-08-03 https://www.reddit.com
 reddit.com##span[data-part="secondary"][class="contents"],span[data-part="advertise"][class="contents"],create-post-entry-point-wrapper
 #下载app #广告 #上传
 reddit.com###RESOURCES > *:not([noun="communities_menu"],[noun="rereddit_menu"],[noun="topics_menu"])
@@ -102,19 +103,10 @@ live.bilibili.com,bilibili.com##.right-entry-item--upload.right-entry-item
 live.bilibili.com,bilibili.com##li.right-entry-item:nth-of-type(6)
 
 ! 2022-11-20 https://fuliba2023.net 福利吧
-fuliba2023.net##.header
-fuliba2023.net##.sidebar
-fuliba2023.net##.karbar
-fuliba2023.net##footer
-fuliba2023.net##header
-fuliba2023.net##.m-mask
-fuliba2023.net##.m-navbar
-fuliba2023.net##tcaptcha_transform_dy
-fuliba2023.net##.branding
-fuliba2023.net##respond
-fuliba2023.net##.shares
-fuliba2023.net##.post-copyright
-fuliba2023.net##.post-actions
+fuliba2023.net##body > *:not(section):remove()
+fuliba2023.net##div.sidebar > *:not(.widget_ui_posts,.widget_ui_comments,.widget_ui_tags):remove()
+fuliba2023.net##.post-actions,.post-copyright,.shares,#respond,.more:remove()
+fuliba2023.net##article a[title^="每日淘宝优惠"]:nth-ancestor(3):remove()
 
 ! 2023-12-15 https://www.jdlingyu.com 绝对领域
 jdlingyu.com##body > *:not(#page):remove()
