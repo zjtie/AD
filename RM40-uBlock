@@ -578,14 +578,18 @@ porngo.com##footer,#adsense,.underplayer_banner,.spot_footers,script,[href="http
 porngo.com##li.active ~ *
 
 #======漫画===========================================================================
+! 2024年8月4日 https://eromanga-cafe.com
 eromanga-cafe.com###footer
-eromanga-cafe.com##.tit
-eromanga-cafe.com###header h1
-!#if !env_mobile
-eromanga-cafe.com##meta
-eromanga-cafe.com##link
-eromanga-cafe.com##script
+eromanga-cafe.com##script,meta,#breadcrumb:remove()
+eromanga-cafe.com##head *:not(title,#wpfp-css,link[href*="icon.min.css"],link[href*="style.min.css"]):remove()
+eromanga-cafe.com###comments-thread,.loop-single-widget,.title_low_category,#container+li:remove()
+#评论 #正文头部空白 #正文头部评论数 #站外广告
+!#if env_mobile
+eromanga-cafe.com##body:has(.favorite_in) > *:not(header,.resetcounter):remove()
 !#endif
+eromanga-cafe.com##.resetcounter:has(.favorite_in) > *:not(style,ul,.l-wrapper,footer):remove()
+eromanga-cafe.com##main.l-main:has(.favorite_in) > div > .eyecatch:remove()
+eromanga-cafe.com##.dividerBottom:has(.favorite_in) > center:remove()
 
 ! 2024-05-07 https://18h.animezilla.com
 18h.animezilla.com##script,style,#manga-top,.notice,#latest-update,#bk1,footer,#manga-below,[id*="btn-"]:remove()
