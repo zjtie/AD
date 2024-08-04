@@ -660,20 +660,12 @@ eromanga-kong.com###article ~ *:remove()
 #[导航，导航，站外，footer][正文尾部广告和推荐]
 
 ! 2024-05-08 https://eromanga-select.com
-eromanga-select.com##footer
-eromanga-select.com##header
-eromanga-select.com##.related-box
-eromanga-select.com###respond
-eromanga-select.com###yarpp
-eromanga-select.com###container > div:nth-of-type(n+1):nth-of-type(-n+8)
-
-! 2024-05-08 https://eromanga-ace.com
-eromanga-ace.com##footer
-eromanga-ace.com##header
-eromanga-ace.com##.scroll_link
-eromanga-ace.com##.related-box
-eromanga-ace.com###comment_box
-eromanga-ace.com##.yarpp
+eromanga-select.com##script,.related-box,.commentform,#respond:remove()
+eromanga-select.com###container > *:not(header,#wrap):remove()
+eromanga-select.com##body > div[class]:remove()
+eromanga-select.com###sidebar > div:nth-of-type(n+3):nth-of-type(-n+5)
+eromanga-select.com###sidebar > h3,#sidebar > a
+eromanga-select.com##nav li:nth-of-type(1)
 
 ! 2023-09-14 https://asmhentai.com
 asmhentai.com##li.friends > a[href="https://hentaiera.com"]
