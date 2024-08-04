@@ -400,9 +400,8 @@ beeg.com##.sidebar__content-secondary
 
 ! 2024年5月5日 https://cn.pornhub.com
 pornhub.com##+js(pornhub-popup-defuser.js)
-#弹窗
 pornhub.com##+js(pornhub-sanitizer.js)
-#广告框架
+#弹窗 #广告框架
 pornhub.com##body > *:not(header,.wrapper,link,#mobileContainer,#leftMenu,#searchSection)
 pornhub.com##.abAlertShown,#countryRedirectMessage,#welcome,.networkBarWrapper,#under-player-comments,#video_flag,#jsShare,#menuItem4,.adContainer
 pornhub.com##.adContainer,#flagVideoBtn,#shareModal,#playlistModal,.fanClubButtons,.mostPopularComment,#headerUserIcon
@@ -415,7 +414,6 @@ spankbang.com###home ~ *
 spankbang.com###video .info > .user_uploads ~ *
 spankbang.com##main.main-container > *:not(.main_content_container,#home,#browse_new,#channels)
 spankbang.com###inner_content > #video > .tab_similar ~ *
-
 
 ! 2022-11-20 https://www.bellesa.co 
 #作为快乐的主体，而不是征服的对象 #性应该是有趣的、充满力量的
@@ -463,12 +461,8 @@ eporner.com##main > div:nth-of-type(1) ~ *:not(#div-search-results):remove()
 #页面尾部
 eporner.com###relateddiv ~ *:remove()
 #评论
-eporner.com##.vjs-docker:remove()
-#分享
-eporner.com###hdp-suggest:remove()
-#其他不知道什么东西
-www.eporner.com##[href="/cams4/"]
-#直播
+eporner.com##.vjs-docker,#hdp-suggest,[href="/cams4/"]:remove()
+#分享 #其他不知道什么东西 #直播
 
 ! 2024年5月6日 https://www.sex.com
 sex.com##body > *:not(.min-h-screen-dvh,#container)
@@ -493,11 +487,8 @@ pigav.com###menu-item-298936 > .link-instanted
 javday.tv###footer
 javday.tv##.header-container
 
-! 2024-03-27 https://shayuapi.com
-shayuapi.com##table
-shayuapi.com##.footer
-shayuapi.com##.header.width1200
-shayuapi.com##.mac_comment
+! 2024-03-27 https://shayuapi.com 鲨鱼资源
+shayuapi.com##table,.footer,.header.width1200,.mac_comment
 
 ! 2024-05-06 https://zh.xhamster.com
 wikixh.world,xhamster.com##.main-wrap ~ *:remove()
@@ -630,7 +621,6 @@ eromanga-kai.com###search-2 ~ *:remove()
 #提供游戏和动漫人物
 hentai-witch.com###container > *:not(#go-to-top,.recommended ,#content,ul[id]):remove()
 hentai-witch.com##[id*="_ad-"],[id*="linkcat-"],[id*="_text-2"],#comment-area:remove()
-
 
 ! 2024年4月25日 https://18comic.vip
 18comic.vip##[href="#headelikes_modal"]:nth-ancestor(5)
