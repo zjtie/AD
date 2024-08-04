@@ -654,15 +654,10 @@ hentai-witch.com##[id*="_ad-"],[id*="linkcat-"],[id*="_text-2"],#comment-area:re
 18comic.vip##meta,[src*="ads."]:remove()
 
 ! 2024-05-08 https://eromanga-kong.com
-eromanga-kong.com##header
-eromanga-kong.com##footer
-eromanga-kong.com###side_right
-eromanga-kong.com##.related-box
-eromanga-kong.com##.commentarea
-eromanga-kong.com###yarpp
-eromanga-kong.com##h3:has-text(エロ同人リンク):nth-ancestor(1)
-eromanga-kong.com###article > a
-eromanga-kong.com##div[class*="ad"]
+eromanga-kong.com##body > *:not(header,#wrap):remove()
+eromanga-kong.com##[href$="about"],[href$="お問い合わせ"],.side_col,footer,#article>a:remove()
+eromanga-kong.com###article ~ *:remove()
+#[导航，导航，站外，footer][正文尾部广告和推荐]
 
 ! 2024-05-08 https://eromanga-select.com
 eromanga-select.com##footer
