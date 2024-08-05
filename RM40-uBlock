@@ -291,9 +291,13 @@ m.huaban.com##.ant-modal-root
 m.huaban.com##.LXSm0s3K
 m.huaban.com##.P8_jH2tl
 
-! 2024年8月6日 https://www.soutushenqi.com
+! 2024年8月6日 https://www.soutushenqi.com 搜图神器
 soutushenqi.com##script,style,link[rel="modulepreload"],.ant-modal-root,[class*="_download_"],[class*="_community_"],#footerWrap:remove()
 soutushenqi.com###root > .Home-module_tabs_wrap_fSeSw ~ *:remove()
+
+! 2024年8月6日 https://www.artstation.com
+artstation.com##.ad,script,.productPage-description-col,.report-section,.share-grid,.project-comments-form,#fb-root,iframe:remove()
+
 
 #======图片===========================================================================
 #======论坛===========================================================================
