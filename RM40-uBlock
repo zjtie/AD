@@ -12,8 +12,7 @@
 #======社交平台=============
 www.zhihu.com##footer
 ! 2022-11-20 https://www.youtube.com
-
-www.youtube.com###footer
+youtube.com###ads-info-button,#ad-state,#footer:remove()
 
 ! 2023-04-13 https://discord.com
 discord.com##.wrapper-2JEvo0
