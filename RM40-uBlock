@@ -597,7 +597,7 @@ eromanga-cafe.com##.dividerBottom:has(.favorite_in) > center:remove()
 18h.animezilla.com###menu-item-114 ~ *:remove()
 18h.animezilla.com##.shiftnav-main-toggle-content > span:remove()
 
-! 2024-05-07 https://nijifeti.com
+! 2024-05-07 https://nijifeti.com [图片]
 nijifeti.com##body > *:not(nav,.site-main,#dynamic-to-top,header,#tokimeki-css,link[rel="stylesheet"]):remove()
 nijifeti.com##.sidebox > div:remove()
 nijifeti.com##footer ~ *:remove()
