@@ -23,7 +23,7 @@ discord.com##.wrapper-2JEvo0
 #通过在你的帖子回复中投放的广告赚取收入
 x.com##div[data-testid="sheetDialog"]
 #你的点赞现在是私密的
-x.com##noscript
+x.com##script,[href*="abs."],noscript:remove()
 x.com##[data-testid="SideNav_NewTweet_Button"]
 #发贴
 x.com##[aria-label="Premium"]
@@ -34,10 +34,10 @@ x.com##[aria-label="页脚"]:nth-ancestor(1)
 x.com##[data-testid="toolBar"]:nth-ancestor(10)
 x.com##[role="dialog"] [href*="premium"]
 x.com##[role="dialog"] [href*="monetization"]
-x.com##[role="dialog"] [href*="ads.x.com"]
 x.com##[data-testid="FloatingActionButtons_Tweet_Button"]:nth-ancestor(2)
 
 ! 2024-08-03 https://www.reddit.com
+reddit.com##script:remove()
 reddit.com##span[data-part="secondary"][class="contents"],span[data-part="advertise"][class="contents"],create-post-entry-point-wrapper
 #下载app #广告 #上传
 reddit.com###RESOURCES > *:not([noun="communities_menu"],[noun="rereddit_menu"],[noun="topics_menu"])
