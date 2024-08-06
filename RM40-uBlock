@@ -1189,7 +1189,7 @@ animeh.to##.parax-wraper
 69story.com##a[href="https://69vj.com/"]:nth-ancestor(2):remove()
 69story.com##header.page-header + div[style]:remove()
 
-!#include RM40-uBlock-dynamic
+# !#include RM40-uBlock-dynamic
 #动态规则
 !#include RM40-uBlock-Telegram
 #Telegram广告
