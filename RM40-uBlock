@@ -7,8 +7,6 @@
 #常用于通过收集用户设备的各种信息（如浏览器插件、屏幕分辨率、字体列表等）来生成一个独特的用户指纹
 #避免广告拦截插件被网站识别
 
-
-
 #======社交平台=============
 www.zhihu.com##footer
 ! 2022-11-20 https://www.youtube.com
@@ -45,7 +43,7 @@ reddit.com##shreddit-async-loader[bundlename="app_selector"][paint-group="xpromo
 #打开app
 # reddit.com##shreddit-app ~ *
 reddit.com##body > *:not(shreddit-app)
- reddit.com##shreddit-app > *:not(reddit-header-small,.grid-container,reddit-header-large)
+reddit.com##shreddit-app > *:not(reddit-header-small,.grid-container,reddit-header-large)
 #页面尾部
 reddit.com##body:remove-attr(style)
 #不让页面滑动
@@ -200,9 +198,6 @@ www.agedm.org##.video_detail_wrapper.mb-3
 www.agedm.org##.feedback-popover
 www.agedm.org##.watch-qrcode-popover
 www.agedm.org##.head-nav > li:nth-of-type(5)
-
-
-#======社交平台==========================================================================
 #======文档工具==========================================================================
 ! 2023-06-06 https://shimo.im 石墨文档
 shimo.im##.fzubdd
@@ -255,7 +250,21 @@ smailpro.com###a_1
 smailpro.com##.min-h-menuweb
 smailpro.com##.mt-4
 
-#======文档工具=======================================================================
+! 2024年8月6日 https://poe.com 
+poe.com##[class^="Banner_root"]:remove()
+poe.com##menu[class^="MainLeftSidebar_sidebar"] > section:nth-of-type(4):remove()
+
+! 2024年8月6日 https://rebang.today 资讯热榜
+rebang.today##footer
+rebang.today##.space-y-4 > div:nth-of-type(5)
+rebang.today##.space-y-4 > div:nth-of-type(4)
+
+! 2024年8月6日 https://tophub.today 今日热榜
+tophub.today##.open-in-app
+
+! 2024年8月6日 https://www.207788.xyz 好资源不私藏
+207788.xyz##.alignnone 
+
 #======图片===========================================================================
 ! 2022-01-21 https://www.huashi6.com  触站画师
 www.huashi6.com###popup_0092618116
