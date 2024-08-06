@@ -370,7 +370,7 @@ hjd2048.com###breadCrumb:style(margin-top: 30px !important;)
 #添加样式 位置下移30PX
 
 ! 2024-01-28 https://h2gcz1.ydwzsp.com 【海角社区】
-h2gcz1.ydwzsp.com##^meta,title,script:remove()
+h2gcz1.ydwzsp.com##meta,title,script:remove()
 h2gcz1.ydwzsp.com##div.bg,.el-carousel__container,.el-carousel--horizontal,.porn_link:remove()
 h2gcz1.ydwzsp.com##.topcenter_left,.tg,.text01,.ad-layout,.centerMain_info,.share-bg,.line-layout:remove()
 #logo #TG #APP下载 #正文广告 #正文APP下载 #分享 #虚线
@@ -1189,7 +1189,7 @@ animeh.to##.parax-wraper
 69story.com##a[href="https://69vj.com/"]:nth-ancestor(2):remove()
 69story.com##header.page-header + div[style]:remove()
 
-# !#include RM40-uBlock-dynamic
+!#include RM40-uBlock-dynamic
 #动态规则
 !#include RM40-uBlock-Telegram
 #Telegram广告
