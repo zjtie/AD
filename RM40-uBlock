@@ -526,18 +526,21 @@ wikixh.world,xhamster.com##header + nav
 
 
 ! 2024年4月30日 https://www.redgifs.com
-redgifs.com##.ApplicationFooter a:nth-of-type(3)
-redgifs.com##.cookieNotice,.PulseCircle,noscript
-redgifs.com##.topNav-wrap > div:nth-of-type(1)
-redgifs.com##.topNav-wrap > div:nth-of-type(3)
-redgifs.com##.SideBar > li:nth-of-type(7)
-redgifs.com###root ~ *
-redgifs.com##[class="_adLiveButton_1lvnn_1"]:nth-ancestor(1)
-redgifs.com##div.Vote-Control:remove-class(Vote-Control)
-redgifs.com##body:remove-attr(style)
-redgifs.com##body:remove-class(class)
-redgifs.com##.itemList > div:nth-of-type(2)
-redgifs.com##.App.nav > *:not([class])
+redgifs.com##html:remove-attr(translate)
+#自动翻译限制
+redgifs.com##meta,head script,noscript:remove()
+redgifs.com##link:not([rel="stylesheet"]):remove()
+#开始
+redgifs.com##iframe,#portal-root,.cookieNotice,script + div:remove()
+#body
+redgifs.com##.topNav-wrap > *:not(.SearchInput):remove()
+redgifs.com##.TabLink_isUpload,.TabLink_isProfile,.mainLogo:remove()
+#导航
+redgifs.com##.side:remove()
+redgifs.com##._adLiveButton_1lvnn_1:nth-ancestor(1):remove()
+redgifs.com##[class^="_adBox_"]:nth-ancestor(1):remove()
+redgifs.com##button.MoreRoundButton:nth-ancestor(1):remove()
+#正文
 
 ! 2024-05-08 https://avbebe.com
 avbebe.com##.jeg_ad,.jnews_comment_container:remove()
