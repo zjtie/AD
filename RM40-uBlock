@@ -527,19 +527,21 @@ wikixh.world,xhamster.com##header + nav
 
 ! 2024年4月30日 https://www.redgifs.com
 redgifs.com##html:remove-attr(translate)
+redgifs.com##body:remove-attr(class)
+redgifs.com##body:remove-attr(style)
 #自动翻译限制
-redgifs.com##meta,head script,noscript:remove()
-redgifs.com##link:not([rel="stylesheet"]):remove()
+redgifs.com##meta,head script,noscript
+redgifs.com##link:not([rel="stylesheet"])
 #开始
-redgifs.com##iframe,#portal-root,.cookieNotice,script + div:remove()
-#body
-redgifs.com##.topNav-wrap > *:not(.SearchInput):remove()
-redgifs.com##.TabLink_isUpload,.TabLink_isProfile,.mainLogo:remove()
+redgifs.com##iframe,#portal-root,.cookieNotice,script + div
+#body3
+redgifs.com##.topNav-wrap > *:not(.SearchInput)
+redgifs.com##.TabLink_isUpload,.TabLink_isProfile
 #导航
-redgifs.com##.side:remove()
-redgifs.com##._adLiveButton_1lvnn_1:nth-ancestor(1):remove()
-redgifs.com##[class^="_adBox_"]:nth-ancestor(1):remove()
-redgifs.com##button.MoreRoundButton:nth-ancestor(1):remove()
+redgifs.com##.side,.PulseCircle
+redgifs.com##._adLiveButton_1lvnn_1:nth-ancestor(1)
+redgifs.com##[class^="_adBox_"]:nth-ancestor(1)
+redgifs.com##button.MoreRoundButton:nth-ancestor(1)
 #正文
 
 ! 2024-05-08 https://avbebe.com
