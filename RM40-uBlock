@@ -23,6 +23,7 @@ x.com##div[data-testid="sheetDialog"]
 x.com##script,[href*="abs."],noscript:remove()
 x.com##[data-testid="SideNav_NewTweet_Button"]
 #发贴
+x.com##[aria-label="认证组织"]
 x.com##[aria-label="Premium"]
 x.com##[aria-label="通知"]
 x.com##[aria-label="Grok"]
@@ -32,6 +33,9 @@ x.com##[data-testid="toolBar"]:nth-ancestor(10)
 x.com##[role="dialog"] [href*="premium"]
 x.com##[role="dialog"] [href*="monetization"]
 x.com##[data-testid="FloatingActionButtons_Tweet_Button"]:nth-ancestor(2)
+x.com##div > [href*="verified-orgs"]:nth-ancestor(1)
+x.com##[href*="ads.x.com"]:nth-ancestor(1)
+x.com##[data-testid="tweetText"] > span:has-text(赌博):nth-ancestor(10)
 
 ! 2024-08-03 https://www.reddit.com
 reddit.com##script:remove()
