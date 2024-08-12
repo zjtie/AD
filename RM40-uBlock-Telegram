@@ -1,6 +1,6 @@
 telegram.org##.popup-premium,meta:remove()
 #开会员
-telegram.org##.btn-icon:remove-class(hide)
+telegram.org##.hide:remove-class(hide)
 #移除下载按钮隐藏
 telegram.org###portals + script:remove()
 #在页面加载时检查浏览器是否支持一系列现代 Web 特性 [compatTest.js]
