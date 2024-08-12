@@ -353,6 +353,19 @@ t66y.com###main[style] .tiptop,#main[style] .tips:remove()
 #文章列表 评论
 *##body[onkeydown] > .main-wrap > #main > div.t a:has-text(版块公告):nth-ancestor(7):remove()
 #文章列表 公告
+*##body[onkeydown] > #main > #menu_read_tpc ~ .t5:remove()
+#正文 评论
+*##body[onkeydown] > #main > .t5 th.r_two:remove()
+*##body[onkeydown] > #main > .t :has(a[onclick^="Addtoie"]):remove()
+#正文  复制链接 | 浏览器收藏 | 打印 
+*##body[onkeydown] > #main > .t3 > #readlog:remove()
+#正文 版块浏览记录 
+*##body[onkeydown] > #main > .t3 > #threadlog:remove()
+#正文 帖子浏览记录
+*##body[onkeydown] > #main > .t3 :has(a[href^="post.php"]):remove()
+#正文 回复发表
+*##body[onkeydown] > #main > .t5 th#td_tpc > *:not(.tiptop,.tpc_content):remove()
+#正文 重复标题
 
 ! 2024-05-07 hjd2048.com 【2048社区】
 hjd2048.com##.main-wrap ~ *:remove()
