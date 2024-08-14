@@ -431,13 +431,25 @@ beeg.com##[href*="live"]
 beeg.com##.sidebar__content-secondary
 
 ! 2024年5月5日 https://cn.pornhub.com
+#成年确认 暂时无法解决
+pornhub.com##meta,script,link:not(link[rel="stylesheet"]):remove()
+pornhub.com##body > *:not(aside#leftMenu,aside#rightMenu,aside#searchSection,header#mobileHeader,div#mobileContainer,div.wrapper,link[rel="stylesheet"]):remove()
+#基本操作
+pornhub.com###rightTopMenuSection,.logoWrapper,.abAlertShown,.phLogoWrapper,.phLogoWrap:remove()
+#导航注册登入 #LOGO #Adblock #LOGO #LOGO
+pornhub.com##.communityNavigation ~ *:remove()
+pornhub.com##.rightMenu > *:not([for="locationMenu"]):remove()
+#导航
+pornhub.com###gateway-modal,#premium-modal,#positionBox,#countryRedirectMessage,#welcome:remove()
+#页头
+pornhub.com###under-player-comments,.tab-menu-wrapper-row:remove()
+pornhub.com###rateWrapper ~ *:remove()
+#视频评论 #添加快进举报分享
+pornhub.com##.fanClubButtons,.mostPopularComment,.adContainer,.userActions,.livesex:remove()
+#视频订阅 #视频评论 #广告 #视频订阅 #直播
+pornhub.com###mobileContainer:style(margin-top: 60px !important;)
 pornhub.com##+js(pornhub-popup-defuser.js)
 pornhub.com##+js(pornhub-sanitizer.js)
-#弹窗 #广告框架
-pornhub.com##body > *:not(header,.wrapper,link,#mobileContainer,#leftMenu,#searchSection)
-pornhub.com##.abAlertShown,#countryRedirectMessage,#welcome,.networkBarWrapper,#under-player-comments,#video_flag,#jsShare,#menuItem4,.adContainer
-pornhub.com##.adContainer,#flagVideoBtn,#shareModal,#playlistModal,.fanClubButtons,.mostPopularComment,#headerUserIcon
-pornhub.com###leftMenuScroll > .communityNavigation ~ *
 
 ! 2024年5月5日 https://spankbang.com 免费和4K
 spankbang.com###age_check,li.pornstars
