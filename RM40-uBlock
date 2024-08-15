@@ -96,12 +96,12 @@ www.douban.com##.top-nav-doubanapp
 www.douban.com###footer
 
 ! 2023-09-13 https://www.bilibili.com 哔哩哔哩
-live.bilibili.com,bilibili.com##.bili-footer
-live.bilibili.com,bilibili.com##.palette-button-wrap
-live.bilibili.com,bilibili.com##.download-client-trigger.download-entry
-live.bilibili.com,bilibili.com##.vip-wrap
-live.bilibili.com,bilibili.com##.right-entry-item--upload.right-entry-item
-live.bilibili.com,bilibili.com##li.right-entry-item:nth-of-type(6)
+bilibili.com##.adblock-tips,[class*="download"],[class*="vip"],.right-entry-item,.right-entry-item--upload:remove()
+#下载 #VIP #创作中心 #投稿
+bilibili.com##li.v-popover-wrap [href*="ttps://show."]:nth-ancestor(1):remove()
+#会员购
+bilibili.com##li.v-popover-wrap [href*="https://game."]:nth-ancestor(1):remove()
+#游戏
 
 ! 2022-11-20 https://fuliba2023.net 福利吧
 fuliba2023.net##body > *:not(section):remove()
