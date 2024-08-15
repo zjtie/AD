@@ -994,30 +994,43 @@ www.imagefap.com###gallery + table
 www.imagefap.com##.tnaBarBlueWrap
 
 ! 2024-04-14 https://accounts.pixiv.net pixiv是提供插画等作品的投稿、阅览服务的「插画交流网站」
-pixiv.net###js-privacy-policy-banner
-pixiv.net##footer
-pixiv.net##.sc-1j6j1zx-3
-pixiv.net##.sc-6ylu6x-3
-pixiv.net##.sc-4nj1pr-4
-pixiv.net##.sc-16hmo26-0
-pixiv.net##.sc-xropq2-0
-pixiv.net##tooltip-container
-pixiv.net##[class*="premium"]
-pixiv.net##.wc-menu div:nth-of-type(1)
-pixiv.net##.wc-menu ul:nth-of-type(3)
-pixiv.net##.whitespace-nowrap
-accounts.pixiv.net###js-privacy-policy-banner
-accounts.pixiv.net##footer
-accounts.pixiv.net##.sc-1j6j1zx-3
-accounts.pixiv.net##.sc-6ylu6x-3
-accounts.pixiv.net##.sc-4nj1pr-4
-accounts.pixiv.net##.sc-16hmo26-0
-accounts.pixiv.net##.sc-xropq2-0
-accounts.pixiv.net##tooltip-container
-accounts.pixiv.net##[class*="premium"]
-accounts.pixiv.net##.wc-menu div:nth-of-type(1)
-accounts.pixiv.net##.wc-menu ul:nth-of-type(3)
-accounts.pixiv.net##.whitespace-nowrap
+pixiv.net##iframe,noscript,footer:remove()
+! 手机
+pixiv.net##a[href*="privacy_policy"]:nth-ancestor(2):remove()
+! 侧边栏隐私
+pixiv.net##.pb-16:remove()
+pixiv.net##.wc-menu > div:remove()
+! 侧边栏公告
+pixiv.net##img[src*="icon-arrow-up"]:nth-ancestor(3):remove()
+pixiv.net##.upload-button-blue:nth-ancestor(2):remove()
+! 侧边栏投稿
+pixiv.net##[href="/event.php"]:nth-ancestor(2):remove()
+! 侧边栏活动
+!#if env_mobile
+pixiv.net##[href="/user_event.php"]:nth-ancestor(2):remove()
+!#endif
+! 侧边栏用户企划
+pixiv.net##[href="/settings.php?mode=ads"]:nth-ancestor(1):remove()
+pixiv.net##.premium-icon-after:nth-ancestor(1):remove()
+! 侧边栏隐藏广告
+pixiv.net##[href="/mute/settings.php"]:nth-ancestor(1):remove()
+pixiv.net##[href="/settings/viewing/mute"]:nth-ancestor(1):remove()
+! 侧边栏屏蔽设置
+pixiv.net##[href*="pixiv.help/hc"]:nth-ancestor(1):remove()
+! 侧边栏帮助
+pixiv.net##[href^="/logout.php"]:nth-ancestor(2):remove()
+! 侧边栏退出登入
+pixiv.net###gtm-var-theme-kind + div > span:remove()
+! 顶部隐私通知
+pixiv.net##[href*="privacy_policy.html#revision_history"]:nth-ancestor(4):remove()
+! PC 隐私政策。更新记录
+pixiv.net##nav[data-ga4-label="nav_bar"] + div
+! 欢迎来到新首页
+pixiv.net##[href^="/premium"]:remove()
+! 成为高级会员
+pixiv.net##[href*="adsystem.com"]:remove()
+pixiv.net##[src*="adsystem.com"]:remove()
+pixiv.net##[class*="ads"]:remove()
 
 ! 2024年4月17日 https://www.deviantart.com 最大的在线技术画廊和社区
 www.deviantart.com##.XN05V
