@@ -138,12 +138,12 @@ www.36kr.com##.article-no-comment
 www.36kr.com##.swiper-wrapper
 
 ! 2023-08-22 https://sspai.com 少数派
-sspai.com##.light.footer-container
-sspai.com##.right_bottom
-sspai.com##footer
+sspai.com##script,footer:remove()
 
 ! 2024-05-11 https://iui.su 不死鸟
-iui.su##footer
+iui.su##footer,script:remove()
+iui.su##[data-title="广告"] ~ *:remove()
+iui.su##img[data-action="zoom"]:remove()
 
 ! 2023-09-13 https://www.v2ex.com
 www.v2ex.com###Bottom
