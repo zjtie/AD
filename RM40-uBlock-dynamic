@@ -1,3 +1,5 @@
+! Title: uBlock-dynamic
+
 #广告域名，全站屏蔽
 ||51.la^
 ||aaacompany.net^
