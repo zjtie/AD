@@ -1,3 +1,4 @@
+! Title: uBlock-Telegram
 telegram.org##.popup-premium,meta:remove()
 #开会员
 telegram.org##.btn-icon:remove-class(hide)
