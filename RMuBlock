@@ -16,26 +16,25 @@ youtube.com###ads-info-button,#ad-state,#footer:remove()
 discord.com##.wrapper-2JEvo0
 
 ! 2024年6月27日 https://x.com
-#通过让别人订阅你的每月内容在 X 上谋生
-#通过在你的帖子回复中投放的广告赚取收入
-x.com##div[data-testid="sheetDialog"]
-#你的点赞现在是私密的
-x.com##script,[href*="abs."],noscript:remove()
-x.com##[data-testid="SideNav_NewTweet_Button"]
-#发贴
-x.com##[aria-label="认证组织"]
-x.com##[aria-label="Premium"]
-x.com##[aria-label="通知"]
-x.com##[aria-label="Grok"]
-x.com##[aria-label="订阅 Premium"]:nth-ancestor(2)
-x.com##[aria-label="页脚"]:nth-ancestor(1)
-x.com##[data-testid="toolBar"]:nth-ancestor(10)
-x.com##[role="dialog"] [href*="premium"]
-x.com##[role="dialog"] [href*="monetization"]
-x.com##[data-testid="FloatingActionButtons_Tweet_Button"]:nth-ancestor(2)
-x.com##div > [href*="verified-orgs"]:nth-ancestor(1)
-x.com##[href*="ads.x.com"]:nth-ancestor(1)
-x.com##[data-testid="tweetText"] > span:has-text(赌博):nth-ancestor(10)
+x.com##nav > a[href="/i/grok"][aria-label="Grok"]:remove()
+! 导航 Grok
+x.com##a[href="/jobs"]:remove()
+! 导航工作
+x.com##a[href="/i/premium_sign_up"]:remove()
+x.com##[data-testid="sidebarColumn"] aside[aria-label="订阅 Premium"]:nth-ancestor(2):remove()
+! 导航premium
+x.com##a[href="/i/verified-orgs-signup"]:remove()
+! 导航认证组织
+x.com##a[href="/compose/post"][data-testid="SideNav_NewTweet_Button"]:remove()
+x.com##a[href="/compose/post"][data-testid="FloatingActionButtons_Tweet_Button"]:nth-ancestor(4):remove()
+x.com##div[role="progressbar"] + div:remove()
+! 导航发帖
+x.com##a[href="/i/monetization"]:remove()
+! 导航盈利 
+x.com##a[href^="https://ads.x.com"]:remove()
+! 导航广告
+x.com###react-root ~ *:remove()
+x.com##noscript:remove()
 
 ! 2024-08-03 https://www.reddit.com
 reddit.com##script,meta,link:remove()
