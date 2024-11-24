@@ -344,40 +344,44 @@ t66y.com###main .tr1.do_not_catch + tr:remove()
 
 
 ! ! 2024-05-07 http://a6rw6i.xyz 【1024社区】
-! *##body[onkeydown] > .main-wrap > #main .tr3.t_one[onmouseover][onmouseout][align]:remove()
-! #列表广告
-! *##body[onkeydown] > .main-wrap > #main tbody#cate_1 > tr:not([id]):remove()
-! #导航广告 屏蔽没有ID属性的元素
-! *###ajaxtable > tbody a:has-text(admin):nth-ancestor(2):remove()
-! *###ajaxtable > tbody a:has-text(自拍核工厂):nth-ancestor(2):remove()
-! *###ajaxtable > tbody a:has-text(系统消息):nth-ancestor(2):remove()
-! #文章列表
-! *##body[onkeydown] > #main th#td_tpc > a:remove()
-! *##body[onkeydown] > #main div.t5 > table > tbody > tr.r_one
-! #内容广告
-! # *##body[onkeydown] > #main #menu_read_tpc.tac ~ *:remove()
-! #内容页脚
-! *##body[onkeydown] > *:not(.main-wrap,#main):remove()
-! #首页导航 登入部分 #内容页脚 
-!  *##body[onkeydown] > .main-wrap > #main > #notice,body[onkeydown] > .main-wrap > #main > div.t3.cc:remove()
-! #首页导航
-! *##body[onkeydown] > .main-wrap > #main > table[cellpadding][cellspacing][style] ~ *:remove()
-! #文章列表 评论
-! *##body[onkeydown] > .main-wrap > #main > div.t a:has-text(版块公告):nth-ancestor(7):remove()
-! #文章列表 公告
-! *##body[onkeydown] > #main > #menu_read_tpc ~ .t5:remove()
-! #正文 评论
-! *##body[onkeydown] > #main > .t5 th.r_two:remove()
-! *##body[onkeydown] > #main > .t :has(a[onclick^="Addtoie"]):remove()
-! #正文  复制链接 | 浏览器收藏 | 打印 
-! *##body[onkeydown] > #main > .t3 > #readlog:remove()
-! #正文 版块浏览记录 
-! *##body[onkeydown] > #main > .t3 > #threadlog:remove()
-! #正文 帖子浏览记录
-! *##body[onkeydown] > #main > .t3 :has(a[href^="post.php"]):remove()
-! #正文 回复发表
-! *##body[onkeydown] > #main > .t5 th#td_tpc > *:not(.tiptop,.tpc_content):remove()
-! #正文 重复标题
+!#if env_mobile
+
+!#else
+*###menu_shortcut.menu.menu-post.cc + div.main-wrap ~ *:remove()
+! 首页的页脚
+*###pw_box[style] ~ div#header.cc:remove()
+! 首页的页头 列表的页头
+*###pw_box[style] + div.main-wrap > div#main > #notice:remove()
+! 首页更新版地址发布器
+*###pw_box[style] + div.main-wrap > div#main > .t3.cc:remove()
+! 首页标记已读 | 精华区 | 最新帖子
+*###pw_box[style] + div.main-wrap > div#main > div#content tbody#cate_1 > tr:not([id]):remove()
+! 首页导航广告
+*###pw_box[style] ~ div.main-wrap > div#main  table#ajaxtable  tr[onmouseover][onmouseout]:remove() 
+! 列表广告
+*###pw_box[style] ~ div.main-wrap > div#main > div#breadCrumb + div.c:remove()
+*###pw_box[style] ~ div.main-wrap > div#main > div#breadCrumb + div.t:remove()
+*###pw_box[style] ~ div.main-wrap > div#main > div#breadCrumb ~ div.t.z[style="margin-top:8px;margin-bottom:0px;"]:remove()
+*###pw_box[style] ~ div.main-wrap > div#main  table#ajaxtable > tbody[style] > tr.tr2:nth-of-type(1) + tr.tr3:remove()
+! 列表公告
+*###pw_box[style] + div#main > div.t5[style] ~ *:remove()
+! 正文评价
+*###pw_box[style] + div#main > div.t5[style] th.r_two:remove()
+! 正文楼主信息
+*###pw_box[style] + div#main > div.t5[style] tr.r_one:remove()
+*###pw_box[style] ~ div#bottom ~ *:remove()
+! 正文页尾广告
+*###pw_box[style] + div#main > div.t5[style] th#td_tpc > a:remove()
+*###pw_box[style] + div#main > div.t5[style] th#td_tpc > div.c:remove()
+*###pw_box[style] + div#main > div#breadCrumb ~ div.c:remove()
+*###pw_box[style] + div#main > div#breadCrumb ~ div.t:remove()
+! 正文页头广告
+*###pw_box[style] ~ div[id^="menu"]:remove()
+*###pw_box[style] ~ div [id^="menu"]:remove()
+! 移动端导航
+!#endif
+
+
 
 ! 2024-05-07 hjd2048.com 【2048社区】
 hjd2048.com##body > *:not(.main-wrap,[rel="stylesheet"],header,main):remove()
@@ -422,16 +426,36 @@ ydwzsp.com##.van-nav-bar__left,a[href^="https://t.me"]
 #评论
 51cg1.com###menu-menu-1 li:nth-of-type(4) ~ *
 51cg1.com##.post-card-ads:nth-ancestor(3):remove()
+51cg1.com###post-card-151553:nth-ancestor(2):remove()
+! 获取最新地址
+51cg1.com###post-card-151554:nth-ancestor(2):remove()
+! 下载APP
+51cg1.com##li.navbar-search-container ~ *:remove()
+! 站外社交平台
 
 
 
 
 
+! 2024-07-20 https://bad.news  
+bad.news##.wrap-content ~ *:remove()
+! 页尾
+bad.news##a[href="/oauth2"]:nth-ancestor(1):remove()
+! 登入
+bad.news##a[href="/submit/blog"]:nth-ancestor(3):remove()
+! 分享一个链接
+bad.news##a[href="https://twitter.com/good_news_bad"]:nth-ancestor(1):remove()
+! 关注推特
+bad.news##a[href="https://t.me/lvv2com_chat"]:nth-ancestor(1):remove()
+! 收听电报
+bad.news##a[href="/app"]:nth-ancestor(1):remove()
+! 下载app
+bad.news##.top-bar,.share-a:remove()
+! 移动端LOGO 分享
+bad.news###top ~ *:remove()
+! 移动端页尾
 
-! 2024-07-20 https://bad.news  【bad.news】
-! bad.news###disclaimer-background,footer,meta,script,noscript,style:remove()
-! bad.news##.footer-parent,.login-popup,#Div_float_area,.commentarea:remove()
-! bad.news##.oWrap ~ *:remove()
+
 
 #======Video===========================================================================
 ! 2023-02-13 https://www.xnxx.com 
@@ -595,16 +619,15 @@ avbebe.com###jeg_off_canvas ~ *:remove()
 avbebe.com##.jeg_viewport > *:not(.jeg_navbar_mobile_wrapper,.post-wrapper,.jeg_main,.jeg_header_wrapper ):remove()
 
 ! 2024-05-08 https://dbro.news
-dbro.news##body > *:not(.main-wrap,style)
-#网页脚本 #排除主要内容 排除样式
-dbro.news##.main ~ *
-#页面尾部
-dbro.news###smart-head > .smart-head-mid
-#PC端logo
-dbro.news##.comments,.post-share-bot,.author-box,.post-share,#menu-item-382966,#menu-item-781700
-#评论 #分享 #作者 #分享
-dbro.news##.post-content-wrap > .post-content > .a-wrap-bg
-#播放器下方
+dbro.news##.sidebar-wrapper[data-sticky][style]:remove()
+! 侧边栏
+dbro.news##main ~ *:not(.off-canvas):remove()
+! 页面尾部
+dbro.news##.site-addswarp,.col-auto:remove()
+! 你好~聯絡我時 分享收藏点赞
+dbro.news###header-navbar a:has-text(站務):nth-ancestor(1):remove()
+dbro.news###header-navbar a:has-text(娛樂城):nth-ancestor(1):remove()
+dbro.news###header-navbar a:has-text(推薦):nth-ancestor(1):remove()
 
 ! 2024-01-22 https://zh.yazhouse8.live 亚洲吧直播
 zh.yazhouse8.live##[class*="cookies"]
