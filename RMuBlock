@@ -37,22 +37,13 @@ x.com###react-root ~ *:remove()
 x.com##noscript:remove()
 
 ! 2024-08-03 https://www.reddit.com
-reddit.com##script,meta,link:remove()
-reddit.com##body > *:not(shreddit-app):remove()
-reddit.com##shreddit-app > *:not(div,reddit-header-small,reddit-header-large):remove()
-# reddit-header-small 头部导航
-# reddit-header-large 头部导航
-reddit.com##create-post-entry-point-wrapper,[data-part="advertise"]:remove()
-#导航栏功能净化：发布，做广告
-reddit.com##div#RESOURCES > *:not([noun="communities_menu"],[noun="rereddit_menu"],[noun="topics_menu"]):remove()
-reddit.com##nav[aria-label="Reddit resources"] ~ *:remove()
-#侧边栏
-reddit.com##body:remove-attr(style)
-#不让页面滑动
-reddit.com##faceplate-img:remove-attr(style)
-#模糊样式
-reddit.com##shreddit-pubsub-publisher + div
-#蒙版样式
+reddit.com###RESOURCES > *:not([noun="communities_menu"],[noun="rereddit_menu"],[noun="topics_menu"]):remove()
+! 导航
+reddit.com##[data-part="advertise"],[data-part="create"],create-post-entry-point-wrapper:remove()
+! 创作
+reddit.com##img.object-cover:remove-attr(style)
+! 移除模糊样式
+
 
 ! 2023-12-19 https://i.jandan.net 煎蛋
 jandan.net###footer
