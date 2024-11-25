@@ -1016,43 +1016,52 @@ www.imagefap.com###gallery + table
 www.imagefap.com##.tnaBarBlueWrap
 
 ! 2024-04-14 https://accounts.pixiv.net pixiv是提供插画等作品的投稿、阅览服务的「插画交流网站」
-pixiv.net##iframe,noscript,footer:remove()
-! 手机
-pixiv.net##a[href*="privacy_policy"]:nth-ancestor(2):remove()
-! 侧边栏隐私
-pixiv.net##.pb-16:remove()
-pixiv.net##.wc-menu > div:remove()
-! 侧边栏公告
-pixiv.net##img[src*="icon-arrow-up"]:nth-ancestor(3):remove()
-pixiv.net##.upload-button-blue:nth-ancestor(2):remove()
-! 侧边栏投稿
-pixiv.net##[href="/event.php"]:nth-ancestor(2):remove()
-! 侧边栏活动
-!#if env_mobile
-pixiv.net##[href="/user_event.php"]:nth-ancestor(2):remove()
-!#endif
-! 侧边栏用户企划
-pixiv.net##[href="/settings.php?mode=ads"]:nth-ancestor(1):remove()
-pixiv.net##.premium-icon-after:nth-ancestor(1):remove()
-! 侧边栏隐藏广告
-pixiv.net##[href="/mute/settings.php"]:nth-ancestor(1):remove()
-pixiv.net##[href="/settings/viewing/mute"]:nth-ancestor(1):remove()
-! 侧边栏屏蔽设置
-pixiv.net##[href*="pixiv.help/hc"]:nth-ancestor(1):remove()
-! 侧边栏帮助
-pixiv.net##[href^="/logout.php"]:nth-ancestor(2):remove()
-! 侧边栏退出登入
-pixiv.net###gtm-var-theme-kind + div > span:remove()
-! 顶部隐私通知
-pixiv.net##[href*="privacy_policy.html#revision_history"]:nth-ancestor(4):remove()
-! PC 隐私政策。更新记录
-pixiv.net##nav[data-ga4-label="nav_bar"] + div
-! 欢迎来到新首页
-pixiv.net##[href^="/premium"]:remove()
-! 成为高级会员
-pixiv.net##[href*="adsystem.com"]:remove()
-pixiv.net##[src*="adsystem.com"]:remove()
-pixiv.net##[class*="ads"]:remove()
+pixiv.net##body > *:not(div[id],div[role="presentation"]):remove()
+! 排除侧边导航栏
+pixiv.net##div[role="presentation"] div[class^="py-"]:remove()
+pixiv.net##div[role="presentation"] div[class^="bg-"]:remove()
+pixiv.net##div[role="presentation"] div[class^="px-"]:remove()
+! 移动端 侧边导航栏精简1
+pixiv.net###__next + [role="presentation"] [href="/user_event.php"]:nth-ancestor(2):remove()
+! ! 用户企划
+pixiv.net###__next + [role="presentation"] [href^="/manage/request/sales/"]:nth-ancestor(2):remove()
+! 金钱管理
+pixiv.net###__next + [role="presentation"] [href="/howto"]:nth-ancestor(2):remove()
+! 绘画方法
+pixiv.net###__next + [role="presentation"] [href="/idea"]:nth-ancestor(2):remove()
+! 创作点子
+pixiv.net###__next + [role="presentation"] [href="/dashboard"]:nth-ancestor(2):remove()
+! 数据分析 我的作品 约稿管理
+pixiv.net###__next + [role="presentation"] [href="/request"]:nth-ancestor(1):remove()
+! 约稿 
+! pixiv.net###__next + [role="presentation"] [href="/event.php"]:nth-ancestor(2):remove()
+! 活动 
+pixiv.net###__next + [role="presentation"] [href="/settings.php?mode=ads"]:nth-ancestor(1):remove()
+! 隐藏广告
+pixiv.net###__next + [role="presentation"] [href="https://www.pixiv.help/hc/"]:nth-ancestor(1):remove()
+! 帮助 
+! 移动端 侧边导航栏精简2
+
+pixiv.net##ul > div[size="40"]:remove()
+pixiv.net##li > a[href="/request"]:nth-ancestor(1):remove()
+! 约稿
+pixiv.net##li > a[href="/user_event.php"]:nth-ancestor(1):remove()
+! 用户企划
+pixiv.net##li > a[href="/howto"]:nth-ancestor(1):remove()
+! 绘图方法
+pixiv.net##li > button[label="隐藏"]:nth-ancestor(1):remove()
+! 隐藏
+pixiv.net##ul + div > div > a[href="/ads/"]:nth-ancestor(2):remove()
+! 公告
+pixiv.net##p + div > a[href^="/info.php?id="]:nth-ancestor(3):remove()
+! 公告
+pixiv.net##iframe + a[href^="/premium/"]:nth-ancestor(1):remove()
+! 加入pixiv高级会员
+pixiv.net##span:has-text(投稿作品):nth-ancestor(3):remove()
+pixiv.net##h1 + a[href="/"]:nth-ancestor(2):remove()
+! pixiv.net##div:has-text(成为pixiv高级会员，可以马):nth-ancestor(1):remove()
+! pc端
+
 
 ! 2024年4月17日 https://www.deviantart.com 最大的在线技术画廊和社区
 www.deviantart.com##.XN05V
