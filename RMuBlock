@@ -82,6 +82,11 @@ douyin.com##footer:remove()
 ! douyin.com###douyin-header-menuCt *:not(ul):remove()
 douyin.com##body > script:remove()
 douyin.com##[data-e2e="video-player-report"],[data-e2e="video-player-shoret-cut"]:remove()
+douyin.com###douyin-header-menuCt p:has-text(充钻石):nth-ancestor(6):remove()
+
+
+
+
 
 ! 2023-02-11 https://www.douban.com 豆瓣
 www.douban.com##.top-nav-doubanapp
@@ -560,9 +565,6 @@ pigav.com###menu-item-298936 > .link-instanted
 javday.tv###footer
 javday.tv##.header-container
 
-! 2024-03-27 https://shayuapi.com 鲨鱼资源
-shayuapi.com##table,.footer,.header.width1200,.mac_comment
-
 ! 2024-05-06 https://zh.xhamster.com
 wikixh.world,xhamster.com##.main-wrap ~ *:remove()
 wikixh.world,xhamster.com##.layoutPage ~ *:remove()
@@ -698,31 +700,53 @@ hentai-witch.com###container > *:not(#go-to-top,.recommended ,#content,ul[id]):r
 hentai-witch.com##[id*="_ad-"],[id*="linkcat-"],[id*="_text-2"],#comment-area:remove()
 
 ! 2024年4月25日 https://18comic.vip
-18comic.vip##[href="#headelikes_modal"]:nth-ancestor(5)
-18comic.vip###Comic_Top_Nav:remove-class(navbar)
-#顶部广告 
-18comic.vip##.navbar-brand:remove()
-#logo
-18comic.vip###Comic_Top_Nav ul.navbar-left > *:not(.adult-class-main):remove()
-18comic.vip##[href="/bonus"],.adult-class-main + div:remove()
-18comic.vip###wrapper > .div-bf-pv :remove()
-18comic.vip##[class^="footer"]
-#页面头部滚动屏幕  同级别页脚
-18comic.vip##.float_right > div:nth-of-type(1)
-18comic.vip###wrapper >.hidden-lg:remove()
-18comic.vip##.container >.hidden-lg:remove()
-#浮窗APP下载 
-18comic.vip###sns:remove()
-18comic.vip##.ph-bottom li:nth-of-type(4)
-#底部导航
-18comic.vip##.col-lg-3.col-md-3.col-sm-3.col-xs-6 .group-notice:nth-ancestor(3)
-#正文下的广告
-18comic.vip##.well.well-sm a[href^="https://jm365.work"]:nth-ancestor(3):remove()
-#底部导航 小电影广告
-18comic.vip##.tips-overlay:remove()
-18comic.vip##body:remove-attr(style)
-#我的
-18comic.vip##meta,[src*="ads."]:remove()
+18comic.vip###billboard-modal,div.top-nav,div[class^="float-right-"],div[class^="footer-"]:remove()
+! 18USC免责声明 顶部广告 页面尾部 正文页尾广告
+18comic.vip##div.float_right:remove()
+! 浮窗APP
+18comic.vip##div[id] ~ div.group-notice:nth-ancestor(3):remove()
+18comic.vip##.row div[id] + div.group-notice:nth-ancestor(3):remove()
+! 中間和页尾廣告
+18comic.vip###album_photo_cover + div > div.read-block ~*:remove()
+18comic.vip##p + div.group-notice[style]:nth-ancestor(2):remove()
+18comic.vip##p + div.group-notice:nth-ancestor(1):remove()
+! 作品简介页面广告
+
+
+
+18comic.vip###wrapper > .container > .hidden-xs ~ *:remove()
+! 页面数量后面多余部分
+
+
+
+
+
+
+! 18comic.vip##[href="#headelikes_modal"]:nth-ancestor(5)
+! 18comic.vip###Comic_Top_Nav:remove-class(navbar)
+! #顶部广告 
+! 18comic.vip##.navbar-brand:remove()
+! #logo
+! 18comic.vip###Comic_Top_Nav ul.navbar-left > *:not(.adult-class-main):remove()
+! 18comic.vip##[href="/bonus"],.adult-class-main + div:remove()
+! 18comic.vip###wrapper > .div-bf-pv :remove()
+! 18comic.vip##[class^="footer"]
+! #页面头部滚动屏幕  同级别页脚
+! 18comic.vip##.float_right > div:nth-of-type(1)
+! 18comic.vip###wrapper >.hidden-lg:remove()
+! 18comic.vip##.container >.hidden-lg:remove()
+! #浮窗APP下载 
+! 18comic.vip###sns:remove()
+! 18comic.vip##.ph-bottom li:nth-of-type(4)
+! #底部导航
+! 18comic.vip##.col-lg-3.col-md-3.col-sm-3.col-xs-6 .group-notice:nth-ancestor(3)
+! #正文下的广告
+! 18comic.vip##.well.well-sm a[href^="https://jm365.work"]:nth-ancestor(3):remove()
+! #底部导航 小电影广告
+! 18comic.vip##.tips-overlay:remove()
+! 18comic.vip##body:remove-attr(style)
+! #我的
+! 18comic.vip##meta,[src*="ads."]:remove()
 
 ! 2024-05-08 https://eromanga-kong.com
 eromanga-kong.com##body > *:not(header,#wrap):remove()
@@ -749,8 +773,16 @@ asmhentai.com##.footer_centera
 
 ! 2024-05-08 https://h-ciyuan.com
 h-ciyuan.com###gridview-wrapper-outside ~ *:remove()
-h-ciyuan.com##nav.navigation ~ *:remove()
-h-ciyuan.com##footer,#menu-item-13541,#menu-item-25315,.entry-header,.gridview-logo:remove()
+! 页面尾部
+h-ciyuan.com###gridview-header,.skip-link,#gridview-search-overlay-wrap,#gridview-header-end:remove()
+h-ciyuan.com##.gridview-featured-posts-area > .widget_media_image:remove()
+h-ciyuan.com##header.entry-header:remove()
+! 页面头部
+h-ciyuan.com###gridview-posts-wrapper > nav.navigation ~ *:remove()
+h-ciyuan.com##.gridview-share-buttons:remove()
+h-ciyuan.com##article[id] > div > div > div ~ *:remove()
+! 正文
+
 
 ! 2024-05-08 https://ichinuke.com
 ichinuke.com##body > *:not(#body_wrap,.l-scrollObserver):remove()
@@ -1191,10 +1223,9 @@ hanime1.me###tablinks-wrapper
 hanime1.me###comment-tabcontent-loaded
 hanime1.me###video-report-btn:nth-ancestor(1)
 
-! 2024-05-09 https://rule34video.com
-rule34video.com##body:remove-class(popAccess)
-rule34video.com##.main ~ *:remove()
-rule34video.com##a[rel="nofollow"]:remove()
+! 2024-05-09 https://rule34video.co
+rule34video.com##.footer,.theporndude,li.btn-favourites,.mobile-box,.logo:remove()
+
 
 
 ! 2024-04-02 https://hentaix.io
@@ -1231,6 +1262,7 @@ sfmcompile.club##.g1-body-inner ~ *
 sfmcompile.club##body > script
 sfmcompile.club##aside.g1-more-from ~ *
 sfmcompile.club##.g1-footer,#menu-item-2815,#menu-item-36768
+
 
 hentaigasm.com##div[id^="custom_"],.adv,#footer,script,div[style*="float"],script:remove()
 hentaigasm.com##.section-box.related-posts ~ *
@@ -1300,4 +1332,49 @@ telegram.org##.bubbles-group span:has-text(自助付費進群):nth-ancestor(4)
 telegram.org##.bubbles-group span:has-text(一次付费永久):nth-ancestor(4)
 telegram.org##.bubbles-group span:has-text(蓝字自动发卡连结):nth-ancestor(1)
 ! ======Telegram ===========================================================================
+
+! 2024年11月27日 https://www.hanime.xyz  动漫：H動漫網
+hanime.xyz##body > *:not(.container-fluid[style="overflow: hidden"]):remove()
+hanime.xyz##.no-gutters:remove()
+hanime.xyz##div.fullwidth > div[id] > h1.title ~ *:remove()
+
+! 2024年11月27日 https://cf1.h18ani6.vip 动漫：H二次元动画
+h18ani6.vip##body > .container ~ *:remove()
+h18ani6.vip##body > .container > *:not(div.vod_row.tit_up):remove()
+h18ani6.vip##.link_row,.link_text,.my_domains:remove()
+! 友情連結 
+h18ani6.vip###play_page > .container ~ *:remove()
+
+! 2024年11月27日 https://www.underhentai.net 动漫：UnderHentai
+underhentai.net###main ~ *:remove()
+underhentai.net##.sidebar,#disqus_thread:remove()
+
+! 2024年11月27日 https://miohentai.com 动漫：MioHentai
+miohentai.com###main ~ *:remove()
+miohentai.com##[class^="header-intr"],[class*="-ad-"],.description-container,.visits,#comment-area:remove()
+
+! 2024年11月27日 https://hentaifreak.org 动漫：VG无尽
+hentaifreak.org###container ~ *:remove()
+hentaifreak.org###content ~ *:remove()
+hentaifreak.org###comments,.navbar,.adsbyexoclick:remove()
+! 评论 外站 广告
+
+! 2024年11月27日 https://www.the-joi-database.com 动漫：JOI Database
+the-joi-database.com###report-video,footer,.advertisement :remove()
+
+! 抖音
+tik.porn##a[href="/create-an-account"]:remove()
+tik.porn##[class^="MultiplayerNav_appLogo"],#h1ForcedTitle
+xfree.com##.aside-block,.tag-extra-desktop,footer,.navigation :remove()
+
+
+faphouse.com###VideoPlayerPage_1 + div:remove()
+faphouse.com##.video__comments,.g-navbar__row_top:remove()
+faphouse.com##.page__content-wrapper ~ *:remove()
+faphouse.com##.video-info-details__actions-access:remove()
+! 获取完整视频
+
+! 2024年11月27日 https://porcore.com 3D
+porcore.com##body > *:not(#center_container):remove()
+! porcore.com##.navbar-static-top:remove()
 
