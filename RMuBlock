@@ -542,13 +542,6 @@ eporner.com###relateddiv ~ *:remove()
 eporner.com##.vjs-docker,#hdp-suggest,[href="/cams4/"]:remove()
 #分享 #其他不知道什么东西 #直播
 
-! 2024年5月6日 https://www.sex.com
-sex.com##body > *:not(.min-h-screen-dvh,#container)
-sex.com###container > *:not(#masonry_container)
-sex.com##body:remove-attr(style)
-sex.com##.min-h-screen-dvh > .flex ~ *:not(.sticky )
-sex.com##.min-h-screen-dvh > div:nth-of-type(2):not(.sticky )
-sex.com##a[href*="livesex"],a[href="https://creators.sex.com"],.footer_description,a[rel="sponsored"]
 
 ! 2023-05-05 https://madou.club
 madou.club##.clearfix.article-actions
