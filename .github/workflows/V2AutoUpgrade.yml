@@ -9,48 +9,48 @@ jobs:
   merge-files:
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v2
+      - name: Checkout repository
+        uses: actions/checkout@v2
 
-    - name: Generate dates and file URLs
-      id: dates
-      run: |
-        YEAR=$(date +%Y)
-        MONTH=$(printf "%02d" $(date +%m))
-        DAY=$(printf "%02d" $(date +%d))
-        FILE_DATE="${YEAR}${MONTH}${DAY}"
-        FILE1="https://nodedog.githubrowcontent.com/${YEAR}/${MONTH}/${FILE_DATE}.txt"
-        FILE2="https://clashnode.cc/uploads/${YEAR}/${MONTH}/0-${FILE_DATE}.txt"
-        FILE3="https://www.miluonode.com/node/${FILE_DATE}-v2ray.txt"
-        echo "FILE1=${FILE1}" >> $GITHUB_ENV
-        echo "FILE2=${FILE2}" >> $GITHUB_ENV
-        echo "FILE3=${FILE3}" >> $GITHUB_ENV
-        echo "Generated URLs: $FILE1, $FILE2, $FILE3"
+      - name: Generate dates and file URLs
+        id: dates
+        run: |
+          YEAR=$(date +%Y)
+          MONTH=$(printf "%02d" $(date +%m))
+          DAY=$(printf "%02d" $(date +%d))
+          FILE_DATE="${YEAR}${MONTH}${DAY}"
+          FILE1="https://nodedog.githubrowcontent.com/${YEAR}/${MONTH}/${FILE_DATE}.txt"
+          FILE2="https://clashnode.cc/uploads/${YEAR}/${MONTH}/0-${FILE_DATE}.txt"
+          FILE3="https://www.miluonode.com/node/${FILE_DATE}-v2ray.txt"
+          echo "FILE1=${FILE1}" >> $GITHUB_ENV
+          echo "FILE2=${FILE2}" >> $GITHUB_ENV
+          echo "FILE3=${FILE3}" >> $GITHUB_ENV
+          echo "Generated URLs: $FILE1, $FILE2, $FILE3"
 
-    - name: Download and merge files
-      run: |
-        # 确保合并文件为空
-        > combined.txt
+      - name: Download and merge files
+        run: |
+          # 确保合并文件为空
+          > combined.txt
 
-        # 下载文件并合并
-        for FILE_URL in "$FILE1" "$FILE2" "$FILE3"; do
-          echo "Processing $FILE_URL"
-          if curl -s --fail "$FILE_URL" >> combined.txt; then
-            echo "Successfully downloaded $FILE_URL"
+          # 下载文件并合并
+          for FILE_URL in "$FILE1" "$FILE2" "$FILE3"; do
+            echo "Processing $FILE_URL"
+            if curl -s --fail "$FILE_URL" >> combined.txt; then
+              echo "Successfully downloaded $FILE_URL"
+            else
+              echo "Warning: Failed to download $FILE_URL" >&2
+            fi
+          done
+
+      - name: Commit and push changes
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if [ -s combined.txt ]; then
+            git config --local user.email "1402394430@qq.com"
+            git config --local user.name "zjtie"
+            git add combined.txt
+            git commit -m "Update combined file for $(date +%Y-%m-%d)" || echo "No changes to commit"
+            git push
           else
-            echo "Warning: Failed to download $FILE_URL" >&2
-          fi
-        done
-
-    - name: Commit and push changes
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      run: |
-        if [ -s combined.txt ]; then
-          git config --local user.email "1402394430@qq.com"
-          git config --local user.name "zjtie"
-          git add combined.txt
-          git commit -m "Update combined file for $(date +%Y-%m-%d)" || echo "No changes to commit"
-          git push
-        else
-          echo "No content to commit, skipping push."
+            echo "No content to commit, skipping push."
