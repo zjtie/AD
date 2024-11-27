@@ -495,17 +495,16 @@ spankbang.com###inner_content > #video > .tab_similar ~ *
 
 ! 2022-11-20 https://www.bellesa.co 
 #作为快乐的主体，而不是征服的对象 #性应该是有趣的、充满力量的
-bellesa.co##footer,.kncNFc,.jOkxqL,.ifKlPG,.iuxAoy,.loGkAL,.bpiwwI,.kBYJiC,.labDRT,.gbmYfk,.geEtfN,.hLzvtQ,.doXkCN
-#页面尾部 #评论 #Shop  #更多    #播放屏蔽 #升级 #logo #logo #加入 #登入 #浮窗加入 #窄屏加入 #播放屏蔽 #窄屏加入
-bellesa.co##[href="/story/all"] ~ *
-#导航 
-bellesa.co##.FQDFl ~ *
-#翻页
-bellesa.co##.ktLaSv:remove-class(ktLaSv)
-#导航边距
-bellesa.co###app ~ *
-bellesa.co##.iYuLMD:not(.djinpG .iYuLMD)
-#播放器吸顶广告 排除侧边导航
+bellesa.co###app ~ *:remove()
+! 页面净化
+bellesa.co##[class*="Header__Wrapper"] > *:not(div[display][width]):remove()
+! 店性玩具通过Bellesa 
+bellesa.co##[class*="DesktopMenu__Link"] + [class*="DesktopMenu__Link"] ~ *:remove()
+! 玩具 加入 直播
+bellesa.co##[class*="_VideoAd-"]:nth-ancestor(7):remove()
+! VideoAd
+bellesa.co##footer > div > [display]:remove()
+! Bellesa. 保留所有权利
 
 ! 2023-08-20 https://www.xvideos.com
 xvideos.com##+js(xvideos.com.js)
@@ -516,6 +515,12 @@ xvideos.com##[id^="ad-"]:remove()
 xvideos.com##[class^="live-"]:remove()
 xvideos.com##.mobile-slogan-red,.nutaku-games:remove()
 xvideos.com##.head__menu-line__main-menu > li:nth-of-type(5),.head__menu-line__main-menu > li:nth-of-type(6):remove()
+xvideos.com###content a[href^="https://cams.xvideos"]:nth-ancestor(1):remove()
+! 视频旁边直播
+xvideos.com##body > script:remove()
+! 页面净化
+xvideos.com###mobile-header-links,.p-red,[class*="ad-"]:remove()
+! 约会 会员
 
 ! 2023-08-20 https://hqporner.com 高分辨率高质量
 hqporner.com##.footer-bg
@@ -1220,7 +1225,6 @@ hanime1.me###video-report-btn:nth-ancestor(1)
 rule34video.com##.footer,.theporndude,li.btn-favourites,.mobile-box,.logo:remove()
 
 
-
 ! 2024-04-02 https://hentaix.io
 hentaix.io##footer,.mh-copyright-wrap,div.mh-container-inner,.elementor-swiper,.page-header
 hentaix.io##.elementor-75 section:first-of-type
@@ -1370,4 +1374,3 @@ faphouse.com##.video-info-details__actions-access:remove()
 ! 2024年11月27日 https://porcore.com 3D
 porcore.com##body > *:not(#center_container):remove()
 ! porcore.com##.navbar-static-top:remove()
-
