@@ -1393,3 +1393,7 @@ porcore.com##.navbar,[class*="-block"],[rel*="-icon"],meta,[rel="icon"]:remove()
 ! 页面头部
 
 
+canovel.com###wrapper ~ *:remove()
+canovel.com##footer,#nav-topbar + div,[href*="dfjav.com"],.sidebar-top,#custom_html-5,#custom_html-3,#nav_menu-3:remove()
+canovel.com##.entry-inner > div,.entry-inner > p > a :remove()
+
