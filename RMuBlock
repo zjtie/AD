@@ -698,53 +698,37 @@ hentai-witch.com###container > *:not(#go-to-top,.recommended ,#content,ul[id]):r
 hentai-witch.com##[id*="_ad-"],[id*="linkcat-"],[id*="_text-2"],#comment-area:remove()
 
 ! 2024年4月25日 https://18comic.vip
-18comic.vip###billboard-modal,div.top-nav,div[class^="float-right-"],div[class^="footer-"]:remove()
-! 18USC免责声明 顶部广告 页面尾部 正文页尾广告
-18comic.vip##div.float_right:remove()
+18comic.vip###billboard-modal,.modal-backdrop:remove()
+18comic.vip##body:remove-attr(style)
+! 我18岁，让我进去
+18comic.vip##script,meta:remove()
+18comic.vip##.top-nav,#guide-modal,.tips-overlay,.footer:remove()
+18comic.vip##a[href="#app_modal"]:nth-ancestor(1):remove()
+18comic.vip###bouns-popup + .hidden-lg:remove()
+18comic.vip##[href="#series_list"]:nth-ancestor(1):remove()
 ! 浮窗APP
-18comic.vip##div[id] ~ div.group-notice:nth-ancestor(3):remove()
-18comic.vip##.row div[id] + div.group-notice:nth-ancestor(3):remove()
-! 中間和页尾廣告
-18comic.vip###album_photo_cover + div > div.read-block ~*:remove()
-18comic.vip##p + div.group-notice[style]:nth-ancestor(2):remove()
-18comic.vip##p + div.group-notice:nth-ancestor(1):remove()
-! 作品简介页面广告
-
-
-
-18comic.vip###wrapper > .container > .hidden-xs ~ *:remove()
-! 页面数量后面多余部分
-
-
-
-
-
-
-! 18comic.vip##[href="#headelikes_modal"]:nth-ancestor(5)
-! 18comic.vip###Comic_Top_Nav:remove-class(navbar)
-! #顶部广告 
-! 18comic.vip##.navbar-brand:remove()
-! #logo
-! 18comic.vip###Comic_Top_Nav ul.navbar-left > *:not(.adult-class-main):remove()
-! 18comic.vip##[href="/bonus"],.adult-class-main + div:remove()
-! 18comic.vip###wrapper > .div-bf-pv :remove()
-! 18comic.vip##[class^="footer"]
-! #页面头部滚动屏幕  同级别页脚
-! 18comic.vip##.float_right > div:nth-of-type(1)
-! 18comic.vip###wrapper >.hidden-lg:remove()
-! 18comic.vip##.container >.hidden-lg:remove()
-! #浮窗APP下载 
-! 18comic.vip###sns:remove()
-! 18comic.vip##.ph-bottom li:nth-of-type(4)
-! #底部导航
-! 18comic.vip##.col-lg-3.col-md-3.col-sm-3.col-xs-6 .group-notice:nth-ancestor(3)
-! #正文下的广告
-! 18comic.vip##.well.well-sm a[href^="https://jm365.work"]:nth-ancestor(3):remove()
-! #底部导航 小电影广告
-! 18comic.vip##.tips-overlay:remove()
-! 18comic.vip##body:remove-attr(style)
-! #我的
-! 18comic.vip##meta,[src*="ads."]:remove()
+18comic.vip##body > [id*="moda"]:remove()
+18comic.vip##[href="/video_cosav"]:nth-ancestor(2):remove()
+18comic.vip##.href_cosav_z1:nth-ancestor(3):remove()
+! 视频-下载app
+18comic.vip##.meun-game:nth-ancestor(1):remove()
+18comic.vip###sns:remove()
+! 移动端底部导航栏
+18comic.vip##[href*="hxp32.top"]:nth-ancestor(1):remove()
+!视频
+18comic.vip##[data-group="photo_center_games_1"]:remove()
+18comic.vip##.center.scramble-page.thewayhome:remove()
+18comic.vip##.tab-content.m-b-20.m-t-15 + div.row:remove()
+18comic.vip##canvas[width="960"][height="1350"][style="width: 412px; display: block;"]:remove()
+! 正文广告
+18comic.vip###coinbuycomic-modal + div.container > *:not(.row,.nav,.tab-content):remove()
+18comic.vip###coinbuycomic-modal + div.container > .tab-content + .row:remove()
+! 简介广告
+18comic.vip##[data-group^="all_bottom"]:nth-ancestor(2):remove()
+18comic.vip##[data-group^="list"]:nth-ancestor(2):remove()
+! 导航广告
+18comic.vip###nb_path,#ipcountry,#search-board,#search-Modalimg,#outsidenoticeModal,.black-back:remove()
+! other
 
 ! 2024-05-08 https://eromanga-kong.com
 eromanga-kong.com##body > *:not(header,#wrap):remove()
@@ -761,13 +745,10 @@ eromanga-select.com###sidebar > h3,#sidebar > a
 eromanga-select.com##nav li:nth-of-type(1)
 
 ! 2023-09-14 https://asmhentai.com
-asmhentai.com##li.friends > a[href="https://hentaiera.com"]
-asmhentai.com##li.friends > a[href="https://comicporn.xxx"]
-asmhentai.com##li.friends > a[href="https://hentairox.com"]
-asmhentai.com##li.friends > a[href="https://hentaiyes.com/"]
-asmhentai.com##li.friends > a[href="https://imhentai.xxx"]
-asmhentai.com##.atop
-asmhentai.com##.footer_centera
+asmhentai.com###content ~ *:remove()
+asmhentai.com##.atop,[class*="ads"],script,meta:remove()
+asmhentai.com##.nav  > ul > li[class]:remove()
+asmhentai.com##.navbar_links li:nth-of-type(8) ~ *:remove()
 
 ! 2024-05-08 https://h-ciyuan.com
 h-ciyuan.com###gridview-wrapper-outside ~ *:remove()
