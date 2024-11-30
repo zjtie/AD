@@ -933,28 +933,11 @@ pornpics.com##.sponsor-section-button,.vjs-spot-line,[class*="comm"],.r-bottom:r
 pornpics.com##ul[class*="-side"]:remove()
 
 ! 2024-02-22 http://www.wsgmzt.com 无圣光妹子图
-www.wsgmzt.com##[href*="js.wsgmzt"]
-www.wsgmzt.com##[herf*="js.wsgmzt"]
-www.wsgmzt.com##[href*="js.prmeinv"]
-www.wsgmzt.com##[id*="listmt"]
-www.wsgmzt.com##[id*="qrcode"]
-www.wsgmzt.com##[id*="span_"]
-www.wsgmzt.com###ztlui3
-www.wsgmzt.com###d1a
-www.wsgmzt.com###a163
-www.wsgmzt.com###bzs3
-www.wsgmzt.com###bdssy
-www.wsgmzt.com###dtag
-www.wsgmzt.com###divpsg
-www.wsgmzt.com###pcapic
-www.wsgmzt.com###pcapicb
-www.wsgmzt.com###cpcpc
-www.wsgmzt.com###d5tig
-www.wsgmzt.com###d5a
-www.wsgmzt.com###dtxts
-www.wsgmzt.com###bzs7
-www.wsgmzt.com###dbffsm
-www.wsgmzt.com##br
+wsgmzt.com##script:remove()
+wsgmzt.com##.interestline + .nav ~ *:remove()
+wsgmzt.com##span,#d5tig,#divpsg,[id^="xtjp"],#divpsgx,li[id^="list"]:remove()
+wsgmzt.com###picg ~ *:remove()
+
 
 ! 2024-04-02 https://kemono.su
 kemono.su##.stuck-bottom,footer,#xr,script:remove()
@@ -1378,3 +1361,33 @@ canovel.com###wrapper ~ *:remove()
 canovel.com##footer,#nav-topbar + div,[href*="dfjav.com"],.sidebar-top,#custom_html-5,#custom_html-3,#nav_menu-3:remove()
 canovel.com##.entry-inner > div,.entry-inner > p > a :remove()
 
+! 2024年11月30日 https://bbs.crtslt.com 论坛SM：潮人國際
+bbs.crtslt.com###wp ~ *:remove()
+! 页面尾部
+bbs.crtslt.com##.twpx_disclaimer:remove()
+! 潮人國際特别提醒
+bbs.crtslt.com##.sign,script:remove()
+! 欢迎您的光临
+! 论坛:杏吧
+sex8.cc###nv_forum > *:not(#hd,#wp):remove()
+sex8.cc##script,iframe:remove()
+sex8.cc##[class*="float"]:remove()
+sex8.cc###fixed-bottom-modal,.bottom,.qd-top,.uk-footer,#append_parent,#ajaxwaitid,[class*="b_oscar"],#zhq,#bc,[href^="/dasp.php"],.newsbanner,.uk-block3-list3 + div,.area-s8-domain,[class^="hot-news"],.text-ada,#yb + div,#ft:remove()
+sex8.cc##.uk-header-left,#qmenu_menu,#j-oscar,.ad:remove()
+sex8.cc##.uk-wrapper ~ *:not(#location_list):remove()
+sex8.cc##a[href="/books.html"] ~ *:remove()
+sex8.cc##[class*="ads"]:remove()
+! 首页
+sex8.cc###mn_N1921 ~ *:remove()
+sex8.cc###nv ~ *:not(#scbar,style):remove()
+sex8.cc##.hdc > h2:remove()
+sex8.cc###mn_N7ae4,a[url="xb"],a[href^="/plugin.php"]:remove()
+sex8.cc###carousel1,.chitu-logo,.tag-outter-wrapper > strong,.j-index_domain,.trioCarousel:remove()
+sex8.cc##.bm_h.cl > span[style]:remove()
+sex8.cc###ct a[href="forum.php?gid=354"]:nth-ancestor(3):remove()
+! 导航
+sex8.cc##.pcb td[id^="postmessage_"] > *:not(ignore_js_op,#my_video_1,br):remove()
+sex8.cc##.logo-link,.vipswitch,.show_img,.js-share-button:remove()
+! 正文
+sex8.cc##.y.mtw:remove()
+! 搜索
