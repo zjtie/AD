@@ -2,58 +2,63 @@ name: V2AutoUpgrade
 
 on:
   schedule:
-    - cron: '0 9 * * *' # 每天早上 9 点运行
-  workflow_dispatch: # 允许手动触发
+    - cron: '0 9 * * *' # 每天 9 点运行
+  workflow_dispatch: # 允许手动触发工作流
 
 jobs:
   merge-files:
     runs-on: ubuntu-latest
     steps:
-      # 检出代码仓库
+      # 检出仓库
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      # 生成当前日期和所有文件 URL
-      - name: Generate file URLs
+      # 生成文件日期和 URL
+      - name: Generate dates and file URLs
         id: generate_urls
-run: |
-  YEAR=$(date +%Y)
-  MONTH=$(printf "%02d" $(date +%m))
-  DAY=$(printf "%02d" $(date +%d))
-  FILE_DATE="${YEAR}${MONTH}${DAY}"
+        run: |
+          YEAR=$(date +%Y)
+          MONTH=$(printf "%02d" $(date +%m))
+          DAY=$(printf "%02d" $(date +%d))
+          FILE_DATE="${YEAR}${MONTH}${DAY}"
 
-  FILE1="https://nodedog.githubrowcontent.com/${YEAR}/${MONTH}/${FILE_DATE}.txt"
-  FILE2="https://clashnode.cc/uploads/${YEAR}/${MONTH}/0-${FILE_DATE}.txt"
-  FILE3="https://www.miluonode.com/node/${FILE_DATE}-v2ray.txt"
-  FILE4="https://www.freeclashnode.com/uploads/${YEAR}/${MONTH}/0-${FILE_DATE}.txt"
-  FILE5="https://nodefree.githubrowcontent.com/${YEAR}/${MONTH}/${FILE_DATE}.txt"
-  FILE6="https://v2rayshare.githubrowcontent.com/${YEAR}/${MONTH}/${FILE_DATE}.txt"
+          FILE1="https://nodedog.githubrowcontent.com/${YEAR}/${MONTH}/${FILE_DATE}.txt"
+          FILE2="https://clashnode.cc/uploads/${YEAR}/${MONTH}/0-${FILE_DATE}.txt"
+          FILE3="https://www.miluonode.com/node/${FILE_DATE}-v2ray.txt"
+          FILE4="https://www.freeclashnode.com/uploads/${YEAR}/${MONTH}/0-${FILE_DATE}.txt"
+          FILE5="https://nodefree.githubrowcontent.com/${YEAR}/${MONTH}/${FILE_DATE}.txt"
+          FILE6="https://v2rayshare.githubrowcontent.com/${YEAR}/${MONTH}/${FILE_DATE}.txt"
 
-  echo "FILE1=${FILE1}" >> $GITHUB_ENV
-  echo "FILE2=${FILE2}" >> $GITHUB_ENV
-  echo "FILE3=${FILE3}" >> $GITHUB_ENV
-  echo "FILE4=${FILE4}" >> $GITHUB_ENV
-  echo "FILE5=${FILE5}" >> $GITHUB_ENV
-  echo "FILE6=${FILE6}" >> $GITHUB_ENV
+          echo "FILE1=${FILE1}" >> $GITHUB_ENV
+          echo "FILE2=${FILE2}" >> $GITHUB_ENV
+          echo "FILE3=${FILE3}" >> $GITHUB_ENV
+          echo "FILE4=${FILE4}" >> $GITHUB_ENV
+          echo "FILE5=${FILE5}" >> $GITHUB_ENV
+          echo "FILE6=${FILE6}" >> $GITHUB_ENV
 
-      # 下载文件并合并
+      # 下载并合并文件
       - name: Download and merge files
         run: |
-          # 确保目标文件为空
+          # 初始化 v2.txt 文件
           > v2.txt
 
-          # 下载每个文件并合并
-          for FILE_URL in "$FILE1" "$FILE2" "$FILE3" "$FILE4" "$FILE5" "$FILE6"; do
-            echo "Processing $FILE_URL"
-            if curl -s --fail "$FILE_URL" >> v2.txt; then
-              echo "Successfully downloaded $FILE_URL"
+          # 定义文件 URL 数组
+          URLS=("$FILE1" "$FILE2" "$FILE3" "$FILE4" "$FILE5" "$FILE6")
+
+          # 遍历每个 URL 并尝试下载
+          for URL in "${URLS[@]}"; do
+            echo "Processing $URL"
+            if curl -s --fail "$URL" >> v2.txt; then
+              echo "Successfully downloaded $URL"
             else
-              echo "Warning: Failed to download $FILE_URL, appending empty line." >&2
-              echo "" >> v2.txt
+              echo "Warning: Failed to download $URL" >&2
             fi
           done
 
-      # 提交并推送更改
+          # 确保文件末尾有一个空行
+          echo "" >> v2.txt
+
+      # 提交和推送更改
       - name: Commit and push changes
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
