@@ -1269,18 +1269,22 @@ animeh.to##.parax-wraper
 
 #======动漫===========================================================================
 #======小说===========================================================================
-! 2024-01-26 https://69story.com
-69story.com##script,meta,footer,.site-branding,#bkat,#bkft,#menu-item-1196,#menu-item-1197,#menu-item-212,#read-more,[id^="banner"],[href="https://g.gaypad.net/"],link:not([rel="stylesheet"]):remove()
-69story.com###main.site-main > .panel + div:remove()
-69story.com##li.active[role="presentation"] ~ *:remove()
-69story.com##tr:not([id]):remove()
-69story.com###content > #primary ~ *:not(#secondary):remove()
-69story.com###primary > #main > .col-xs-12:nth-of-type(1)
-69story.com###primary .col-xs-12:style(margin-bottom: 60px !important;)
-69story.com###main > article[id] > div[style]
-69story.com##a[href="https://69vj.com/"]:nth-ancestor(2):remove()
-69story.com##header.page-header + div[style]:remove()
-
+69story.com##script,footer,#secondary > #text-2,.nav-tabs,#masthead > div:remove()
+69story.com##table:remove-class(table)
+! 页面清洗
+69story.com##.panel-primary + .panel-primary,[href="https://g.gaypad.net/"],[href="https://69vj.com/"]:remove()
+69story.com##.panel-default + div:remove()
+! 同志文学
+69story.com##.news-col:nth-ancestor(2)
+! 首页广告
+69story.com###primary ~ *:not(aside):remove()
+69story.com##article > .entry-content ~ *:remove()
+69story.com###main tr:not([id]):remove()
+69story.com###primary:style(margin-bottom:100px !important;)
+69story.com###read-more,[id^="banner"]:remove()
+69story.com###menu-item-1197,#menu-item-1196,#menu-item-212
+69story.com##header.entry-header > div
+! 移动端导航
 
 ! ======Telegram ===========================================================================
 telegram.org##.popup-premium,meta:remove()
@@ -1368,26 +1372,82 @@ bbs.crtslt.com##.twpx_disclaimer:remove()
 ! 潮人國際特别提醒
 bbs.crtslt.com##.sign,script:remove()
 ! 欢迎您的光临
+
 ! 论坛:杏吧
-sex8.cc###nv_forum > *:not(#hd,#wp):remove()
+sex8.cc###nv_forum > *:not(#hd,#wp)
 sex8.cc##script,iframe:remove()
-sex8.cc##[class*="float"]:remove()
-sex8.cc###fixed-bottom-modal,.bottom,.qd-top,.uk-footer,#append_parent,#ajaxwaitid,[class*="b_oscar"],#zhq,#bc,[href^="/dasp.php"],.newsbanner,.uk-block3-list3 + div,.area-s8-domain,[class^="hot-news"],.text-ada,#yb + div,#ft:remove()
-sex8.cc##.uk-header-left,#qmenu_menu,#j-oscar,.ad:remove()
-sex8.cc##.uk-wrapper ~ *:not(#location_list):remove()
-sex8.cc##a[href="/books.html"] ~ *:remove()
-sex8.cc##[class*="ads"]:remove()
+sex8.cc##[class*="float"]
+sex8.cc###fixed-bottom-modal,.bottom,.qd-top,.uk-footer,#append_parent,#ajaxwaitid,[class*="b_oscar"],#zhq,#bc,[href^="/dasp.php"],.newsbanner,.uk-block3-list3 + div,.area-s8-domain,[class^="hot-news"],.text-ada,#yb + div,#ft
+sex8.cc##.uk-header-left,#qmenu_menu,#j-oscar,.ad
+sex8.cc##.uk-wrapper ~ *:not(#location_list)
+sex8.cc##a[href="/books.html"] ~ *
+sex8.cc##[class*="ads"]
 ! 首页
-sex8.cc###mn_N1921 ~ *:remove()
-sex8.cc###nv ~ *:not(#scbar,style):remove()
-sex8.cc##.hdc > h2:remove()
-sex8.cc###mn_N7ae4,a[url="xb"],a[href^="/plugin.php"]:remove()
-sex8.cc###carousel1,.chitu-logo,.tag-outter-wrapper > strong,.j-index_domain,.trioCarousel:remove()
-sex8.cc##.bm_h.cl > span[style]:remove()
-sex8.cc###ct a[href="forum.php?gid=354"]:nth-ancestor(3):remove()
+sex8.cc###mn_N1921 ~ *
+sex8.cc###nv ~ *:not(#scbar,style)
+sex8.cc##.hdc > h2
+sex8.cc###mn_N7ae4,a[url="xb"],a[href^="/plugin.php"]
+sex8.cc###carousel1,.chitu-logo,.tag-outter-wrapper > strong,.j-index_domain,.trioCarousel
+sex8.cc##.bm_h.cl > span[style]
+sex8.cc###ct a[href="forum.php?gid=354"]:nth-ancestor(3)
+sex8.cc##[href="https://xn--10-rm6cv95j.com"],[href="/address.zip"],[href^="/misc.php"]
+! [银杏APP]优惠购买VIP, 下载杏吧地址发布器, 最新中文免梯子网址
+
 ! 导航
-sex8.cc##.pcb td[id^="postmessage_"] > *:not(ignore_js_op,#my_video_1,br):remove()
-sex8.cc##.logo-link,.vipswitch,.show_img,.js-share-button:remove()
+sex8.cc##.pcb td[id^="postmessage_"] > *:not(ignore_js_op,#my_video_1,br)
+sex8.cc##.logo-link,.vipswitch,.show_img,.js-share-button
 ! 正文
-sex8.cc##.y.mtw:remove()
-! 搜索
+sex8.cc##.y.mtw
+
+! 2024年12月1日 https://oreno3d.com 3D:iwara导航
+oreno3d.com##footer,.material-icons,[class^="ad-"],script:remove()
+oreno3d.com##figure > .pop_separate + div:remove()
+oreno3d.com##body > *:not(.container)
+oreno3d.com##figure + p,[href^="https://go.rmhfrtnd.com"]
+iwara.tv###modal-root,noscript,footer,.shareButton:remove()
+
+91porn.com###videodetails > div:not([class]):remove()
+91porn.com###useraction ~ *
+91porn.com##script,#footer-container,ins,iframe,#clear,#videodetails-content:remove()
+91porn.com##[class^="vjs-"]:not(video):remove()
+91porn.com##+js(set-attr, video, controls, true)
+
+sehuatang.net###append_parent,#ajaxwaitid,#toptb,#ft,#qmenu_menu,#scrolltop,script,[class^="show-text"]:remove()
+! 页面清洗
+sehuatang.net###f_pst,#newspecial,#newspecialtmp:remove()
+sehuatang.net##[href="forum.php?mod=post&action=newthread&fid=41&mobile=2"]:remove()
+! 发帖
+
+
+xbookcn.net##script,footer:remove()
+xbookcn.net##body:remove-attr(style)
+
+
+javtiful.com###navList,.video-comments,script:remove()
+javtiful.com##[href^="https://r.trackwilltrk.com"]:nth-ancestor(2)
+
+manyvids.com##[class^="navBannerContainer_nav"] + div:remove()
+manyvids.com##[class^="navBannerContainer_nav"],[class^="bigSideBar_footer"],[class^="VideoPriceState_videoPriceState"]:remove()
+
+player.soundon.fm##.so-footer,.so-app-download-button,.so-podcast-header__listen-on-apps,[rel="apple-touch-startup-image"],[rel="apple-touch-icon"]:remove()
+
+fikfap.com##.justify-evenly,#slide-up,#dialog-popup,script,iframe,noscript:remove()
+! app
+fikfap.com##nav > div:nth-of-type(3)
+
+
+
+! OnlyFans:法佩洛
+! OnlyFans:EroThots 
+erothots.co##script,noscript,iframe,.iframe,.info-section,.magic-sites,.new,.mb-0.title + div,[href="https://simpshub.com/"]:remove()
+
+bitchesgirls.com##.footer,script,.buttonContainer,.social-links:remove()
+bitchesgirls.com##.navbar-grid > *:not(.nav-categories):remove()
+
+internetchicks.com##script,.title-area,.live-cams,.tpd-link-desktop,.footer-widgets:remove()
+
+nsfwr34.com###site-footer,script,[id^="share_box"],.button-group-share,.button-group-report,.comments-list-lg,#menu-item-38436:remove()
+nsfwr34.com###menu-item-34 ~ *:remove()
+
+3dporndude.com##footer,script,.header-links,.asside-link,.link-offer,[href^="https://faphouse.com"],[href="#tab3"],[href="#tab5"]:remove()
+
