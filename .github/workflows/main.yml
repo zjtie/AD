@@ -16,25 +16,25 @@ jobs:
       # 生成当前日期和所有文件 URL
       - name: Generate file URLs
         id: generate_urls
-        run: |
-          YEAR=$(date +%Y)
-          MONTH=$(printf "%02d" $(date +%m))
-          DAY=$(printf "%02d" $(date +%d))
-          FILE_DATE="${YEAR}${MONTH}${DAY}"
+run: |
+  YEAR=$(date +%Y)
+  MONTH=$(printf "%02d" $(date +%m))
+  DAY=$(printf "%02d" $(date +%d))
+  FILE_DATE="${YEAR}${MONTH}${DAY}"
 
-          FILE1="https://nodedog.githubrowcontent.com/${YEAR}/${MONTH}/${FILE_DATE}.txt"
-          FILE2="https://clashnode.cc/uploads/${YEAR}/${MONTH}/0-${FILE_DATE}.txt"
-          FILE3="https://www.miluonode.com/node/${FILE_DATE}-v2ray.txt"
-          FILE4="https://www.freeclashnode.com/uploads/${YEAR}/${MONTH}/0-${FILE_DATE}.txt"
-          FILE5="https://nodefree.githubrowcontent.com/${YEAR}/${MONTH}/${FILE_DATE}.txt"
-          FILE6="https://v2rayshare.githubrowcontent.com/${YEAR}/${MONTH}/${FILE_DATE}.txt"
+  FILE1="https://nodedog.githubrowcontent.com/${YEAR}/${MONTH}/${FILE_DATE}.txt"
+  FILE2="https://clashnode.cc/uploads/${YEAR}/${MONTH}/0-${FILE_DATE}.txt"
+  FILE3="https://www.miluonode.com/node/${FILE_DATE}-v2ray.txt"
+  FILE4="https://www.freeclashnode.com/uploads/${YEAR}/${MONTH}/0-${FILE_DATE}.txt"
+  FILE5="https://nodefree.githubrowcontent.com/${YEAR}/${MONTH}/${FILE_DATE}.txt"
+  FILE6="https://v2rayshare.githubrowcontent.com/${YEAR}/${MONTH}/${FILE_DATE}.txt"
 
-          echo "FILE1=${FILE1}" >> $GITHUB_ENV
-          echo "FILE2=${FILE2}" >> $GITHUB_ENV
-          echo "FILE3=${FILE3}" >> $GITHUB_ENV
-          echo "FILE4=${FILE4}" >> $GITHUB_ENV
-          echo "FILE5=${FILE5}" >> $GITHUB_ENV
-          echo "FILE6=${FILE6}" >> $GITHUB_ENV
+  echo "FILE1=${FILE1}" >> $GITHUB_ENV
+  echo "FILE2=${FILE2}" >> $GITHUB_ENV
+  echo "FILE3=${FILE3}" >> $GITHUB_ENV
+  echo "FILE4=${FILE4}" >> $GITHUB_ENV
+  echo "FILE5=${FILE5}" >> $GITHUB_ENV
+  echo "FILE6=${FILE6}" >> $GITHUB_ENV
 
       # 下载文件并合并
       - name: Download and merge files
