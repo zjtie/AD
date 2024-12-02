@@ -30,3 +30,22 @@ jobs:
       run: |
         echo "Checking FILE2: $FILE2"
         curl -I "$FILE2" || echo "FILE2 无效或不可访问"
+- name: 验证 FILE1 是否有效
+  run: |
+    echo "正在检查 FILE1: $FILE1"
+    HTTP_CODE=$(curl -s -o /dev/null -w "%{http_code}\n" "$FILE1")
+    if [ "$HTTP_CODE" -eq 200 ]; then
+      echo "FILE1 是有效的"
+    else
+      echo "FILE1 无效或不可访问，HTTP 状态码: $HTTP_CODE"
+    fi
+
+- name: 验证 FILE2 是否有效
+  run: |
+    echo "正在检查 FILE2: $FILE2"
+    HTTP_CODE=$(curl -s -o /dev/null -w "%{http_code}\n" "$FILE2")
+    if [ "$HTTP_CODE" -eq 200 ]; then
+      echo "FILE2 是有效的"
+    else
+      echo "FILE2 无效或不可访问，HTTP 状态码: $HTTP_CODE"
+    fi
