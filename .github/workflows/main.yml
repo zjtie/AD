@@ -63,11 +63,9 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          if [ -s v2.txt ]; then
             git config --local user.email "1402394430@qq.com"
             git config --local user.name "zjtie"
             git add v2.txt
             git commit -m "Update v2.txt for $(date +%Y-%m-%d)" || echo "No changes to commit"
             git push
-          else
-            echo "No content to commit, skipping push."
+
