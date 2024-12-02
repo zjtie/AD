@@ -33,8 +33,10 @@ x.com##a[href="/i/monetization"]:remove()
 ! 导航盈利 
 x.com##a[href^="https://ads.x.com"]:remove()
 ! 导航广告
-x.com###react-root ~ *:remove()
-x.com##noscript:remove()
+x.com##[href="/i/verified-get-verified"]
+! 升级premium下载视频
+! x.com###react-root ~ *:remove()
+x.com##noscript,meta,[rel*="icon"]:remove()
 
 ! 2024-08-03 https://www.reddit.com
 reddit.com###RESOURCES > *:not([noun="communities_menu"],[noun="rereddit_menu"],[noun="topics_menu"]):remove()
