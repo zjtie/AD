@@ -38,6 +38,7 @@ x.com##[href="/i/verified-get-verified"]
 ! x.com###react-root ~ *:remove()
 x.com##noscript,meta,[rel*="icon"]:remove()
 
+
 ! 2024-08-03 https://www.reddit.com
 reddit.com###RESOURCES > *:not([noun="communities_menu"],[noun="rereddit_menu"],[noun="topics_menu"]):remove()
 ! 导航
@@ -1289,30 +1290,43 @@ animeh.to##.parax-wraper
 ! 移动端导航
 
 ! ======Telegram ===========================================================================
-telegram.org##.popup-premium,meta:remove()
-#开会员
-telegram.org##.btn-icon:remove-class(hide)
-#移除下载按钮隐藏
-telegram.org###portals + script:remove()
-#在页面加载时检查浏览器是否支持一系列现代 Web 特性 [compatTest.js]
-telegram.org##button#new-menu
-! 创建按钮
-telegram.org##.media-viewer-whole > .overlays:remove()
-! 视频播放时，取消背景模糊
-telegram.org##[rel*="icon"]:remove()
+telegram.org##title,[rel*="icon"]:remove()
+telegram.org##+js(set-attribute, div.progress-line__filled, style, width: 100%;)
+! 音量设置100%
+! telegram.org##.toasts-container
+! telegram.org##.popup-premium,meta:remove()
+! #开会员
+! telegram.org##.btn-icon:remove-class(hide)
+! #移除下载按钮隐藏
+! telegram.org###portals + script:remove()
+! #在页面加载时检查浏览器是否支持一系列现代 Web 特性 [compatTest.js]
+! telegram.org##button#new-menu
+! ! 创建按钮
+! telegram.org##.media-viewer-whole > .overlays:remove()
+! ! 视频播放时，取消背景模糊
+! telegram.org##[rel*="icon"]:remove()
+telegram.org##.bubbles-group span:has-text(棋牌):nth-ancestor(4)
+telegram.org##.bubbles-group span:has-text(赌场):nth-ancestor(4)
+telegram.org##.bubbles-group span:has-text(游戏):nth-ancestor(4)
+telegram.org##.bubbles-group span:has-text(莆田):nth-ancestor(4)
 
-telegram.org##.bubbles-group span:has-text(万能直播app):nth-ancestor(4)
-telegram.org##.bubbles-group span:has-text(即投即返):nth-ancestor(4)
-telegram.org##.bubbles-group span:has-text(TG必备的搜索引擎):nth-ancestor(4)
-telegram.org##.bubbles-group span:has-text(OnlyFans高级会员):nth-ancestor(4)
-telegram.org##.bubbles-group span:has-text(免费):nth-ancestor(4)
-telegram.org##.bubbles-group span:has-text(SOSO机器):nth-ancestor(4)
-telegram.org##.bubbles-group span:has-text(惊喜好礼):nth-ancestor(4)
-telegram.org##.bubbles-group span:has-text(真人娱乐):nth-ancestor(4)
-telegram.org##.bubbles-group span:has-text(莆田中高端鞋):nth-ancestor(4)
-telegram.org##.bubbles-group span:has-text(自助付費進群):nth-ancestor(4)
-telegram.org##.bubbles-group span:has-text(一次付费永久):nth-ancestor(4)
-telegram.org##.bubbles-group span:has-text(蓝字自动发卡连结):nth-ancestor(1)
+! telegram.org##.bubbles-group span:has-text(爱爱游戏):nth-ancestor(4)
+! telegram.org##.bubbles-group span:has-text(《世界OL》):nth-ancestor(4)
+! telegram.org##.bubbles-group span:has-text(百万流量):nth-ancestor(4)
+
+
+! telegram.org##.bubbles-group span:has-text(万能直播app):nth-ancestor(4)
+! telegram.org##.bubbles-group span:has-text(即投即返):nth-ancestor(4)
+! telegram.org##.bubbles-group span:has-text(TG必备的搜索引擎):nth-ancestor(4)
+! telegram.org##.bubbles-group span:has-text(OnlyFans高级会员):nth-ancestor(4)
+! telegram.org##.bubbles-group span:has-text(免费):nth-ancestor(4)
+! telegram.org##.bubbles-group span:has-text(SOSO机器):nth-ancestor(4)
+! telegram.org##.bubbles-group span:has-text(惊喜好礼):nth-ancestor(4)
+! telegram.org##.bubbles-group span:has-text(真人娱乐):nth-ancestor(4)
+! telegram.org##.bubbles-group span:has-text(莆田中高端鞋):nth-ancestor(4)
+! telegram.org##.bubbles-group span:has-text(自助付費進群):nth-ancestor(4)
+! telegram.org##.bubbles-group span:has-text(一次付费永久):nth-ancestor(4)
+! telegram.org##.bubbles-group span:has-text(蓝字自动发卡连结):nth-ancestor(1)
 ! ======Telegram ===========================================================================
 
 ! 2024年11月27日 https://www.hanime.xyz  动漫：H動漫網
