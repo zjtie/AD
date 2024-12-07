@@ -7,6 +7,9 @@
 #常用于通过收集用户设备的各种信息（如浏览器插件、屏幕分辨率、字体列表等）来生成一个独特的用户指纹
 #避免广告拦截插件被网站识别
 
+||google-analytics.com^$third-party
+! 阻止Google Analytics 相关的资源请求，屏蔽这些请求可能会影响页面的某些行为或服务
+
 #======社交平台=============
 www.zhihu.com##footer
 ! 2022-11-20 https://www.youtube.com
@@ -465,7 +468,6 @@ xnxx.com###results-free-or-premium,.report-search,.premium-results-line,#content
 
 ! 2023-02-13 https://beeg.com
 beeg.com##[href*="live"]
-beeg.com##.sidebar__content-secondary
 
 ! 2024年5月5日 https://cn.pornhub.com
 #成年确认 暂时无法解决
@@ -670,6 +672,8 @@ eromanga-cafe.com##.dividerBottom:has(.favorite_in) > center:remove()
 18h.animezilla.com###mega-menu-item-338 ~ *:remove()
 18h.animezilla.com###menu-item-114 ~ *:remove()
 18h.animezilla.com##.shiftnav-main-toggle-content > span:remove()
+! 18h.animezilla.com##script:remove()
+
 
 ! 2024-05-07 https://nijifeti.com [图片]
 nijifeti.com##body > *:not(nav,.site-main,#dynamic-to-top,header,#tokimeki-css,link[rel="stylesheet"]):remove()
@@ -777,6 +781,9 @@ ichinuke.com##.PhoneOnly:nth-ancestor(2):remove()
 ichinuke.com###text-4,#text-11:remove()
 #站外
 ichinuke.com###content ~ *:not(#fix_bottom_menu):remove()
+ichinuke.com##script,[rel="icon"],noscript:remove()
+
+
 
 ! 2024-05-09 https://oreno-erohon.com
 oreno-erohon.com##.page-title,.blog-title-inner,#article-options,#text-20,footer:remove()
@@ -854,8 +861,9 @@ ahri8.top##nav > ul > li > .apo
 ahri8.top##nav > ul > li:nth-of-type(6)
 ahri8.top###content > div:nth-of-type(1)
 ahri8.top###content > div:nth-of-type(2)
-ahri8.top##.page-footer
 ahri8.top##.page-footer ~ *
+ahri8.top##.page-footer,script,[rel*="icon"]:remove()
+
 
 ! 2024-05-14 https://nyahentai.re  同人誌から商業誌まであらゆるエロ漫画
 nyahentai.re##footer
@@ -911,9 +919,10 @@ twhentai.com##.navbar-header
 a-hadaka.jp###hadakabar ~ *:remove()
 a-hadaka.jp##address ~ *:remove()
 a-hadaka.jp###singlepage > #wrapper ~ *:remove()
-a-hadaka.jp###overlay,.fancybox,footer,address,#headinfo,.dpr,.amazonpr,.dmmpr,.info :remove()
+a-hadaka.jp###overlay,.fancybox,footer,address,#headinfo,.dpr,.amazonpr,.dmmpr,.info,script,#comments,[rel="alternate"] :remove()
 a-hadaka.jp###nav > li:nth-of-type(2)
 a-hadaka.jp###nav > li:nth-of-type(7)
+
 
 ! 2023-09-15 https://moeimg.net
 moeimg.net##body > *:not(#page,.page-top):remove()
@@ -933,7 +942,7 @@ pornpics.com##img:remove-class(img-bluring)
 #模糊蒙蔽
 pornpics.com##.sponsor-section-button,.vjs-spot-line,[class*="comm"],.r-bottom:remove()
 #加入 #视频加入 #评论 #手机端视频下方空白
-pornpics.com##ul[class*="-side"]:remove()
+pornpics.com##ul[class*="-side"],[rel*="icon"],script,.footer-push,#loader-css:remove()
 
 ! 2024-02-22 http://www.wsgmzt.com 无圣光妹子图
 wsgmzt.com##script:remove()
@@ -949,21 +958,16 @@ kemono.su##.stuck-bottom,footer,#xr,script:remove()
 gelbooru.com##script,.ui-menu,.ui-helper-hidden-accessible,footer:remove()
 gelbooru.com##[href*="conversation"],[href*="moneygrubbingwhore"],[href*="tracker"]:remove()
 
-! 2024-04-02 https://www.hentai-foundry.com
-hentai-foundry.com###yw14 li:nth-of-type(n+1):nth-of-type(-n+4)
-hentai-foundry.com###footer,script,#siteNews,#comments_box,.boxfooter:remove()
-#页脚 #脚本 #本站新闻 #评论 #报告
-
 ! 2024-05-10 https://slushe.com
 slushe.com##body > *:not(.page-body,.page-header,.wrapper,#sprite-plyr):remove()
-slushe.com##.reportPost,.comments,.slider-main,.items-basic,.discord,.about,.contact,script,meta:remove()
+slushe.com##.reportPost,.comments,.slider-main,.items-basic,.discord,.about,.contact,script,meta,#noFlag,.easy-share,#sendMessage:remove()
 #反馈 #评论 #滚动屏幕 #滚动屏幕 #discord #about #contact
 
 ! 2024-04-02 https://www.lolhentai.net
 lolhentai.net##body > *:not(header,main):remove()
 lolhentai.net##section > .container > .row >.col-lg-3:remove()
 #侧边栏
-lolhentai.net##.comment-content,.discord :remove()
+lolhentai.net##.comment-content,.discord,script:remove()
 #评价
 lolhentai.net##.menu li:nth-of-type(n+3):nth-of-type(-n+6)
 lolhentai.net##li.picture ~ *:remove()
@@ -973,40 +977,35 @@ jjpicss.com##body > *:not(style,nav,.mobile-menu,#fm-ajax-body):remove()
 jjpicss.com##.ad:remove()
 
 ! 2022-01-21 http://thatpervert.com :: xxx 文件 
-thatpervert.com###magnifier,#tagList,#joytip,#header,.user-awards,meta,script:remove()
+thatpervert.com###magnifier,#tagList,#joytip,#header,.user-awards,meta,script,[rel*="icon"],#footer,.share_buttons,#single-share:remove()
 thatpervert.com###sidebar > .sidebarContent ,#sidebar > ins,#sidebar >h2:remove()
-! #thatpervert.com###background:style(max-width: 100%;)
+thatpervert.com###background:style(max-width: 100%;)
 
 ! 2024-05-11 https://www.asianude4u.net :半成品
 asianude4u.net##body > .home-fullwidth ~ *:not(button,.rmp-container):remove()
 asianude4u.net##body > .wrap-fullwidth ~ *:not(button,.rmp-container):remove()
 asianude4u.net###infinite-articles > .ms-item.homeimg:remove()
 asianude4u.net##.single-content >  *:not(.meta-wrap,.entry-top,article):remove()
-asianude4u.net##.whatsapp,.emailbutton,script,.home-share,.sidebar:remove()
+asianude4u.net##.whatsapp,.emailbutton,script,.home-share,.sidebar,#single-share,[rel*="icon"]:remove()
 
 ! 2024-01-22 https://m.yalayi.com  雅拉伊 - 原创人像摄影作品，有温度的写真集
-m.yalayi.com##.swiper-wrapper
-m.yalayi.com##.tishiwenzi
-m.yalayi.com##.bgff.list-box
-m.yalayi.com##div.bgff.list-box:nth-of-type(7)
-m.yalayi.com##a[href="/vip.html"]
-www.yalayi.com##a[href="https://www.yalayi.com/app/"]
-www.yalayi.com##a[href="https://www.yalayi.com/vip.html"]
-www.yalayi.com##.footer
-www.yalayi.com##.tishiwenzi
-www.yalayi.com##.register
-||img.yalayi.net/ad/end.jpg!pcimg$image
+yalayi.com##.swiper-wrapper,.tishiwenzi,.bgff.list-box,a[href="/vip.html"],script:remove()
+yalayi.com##div.bgff.list-box:nth-of-type(7)
 
 ! 2024-05-13 https://jablehk.com Jablehk｜精選J圖及巨乳台妹性感照2024 
-jablehk.com##footer
-jablehk.com##.header-actions--right
-jablehk.com##.header-nav-list div:nth-of-type(8) ~ div
-jablehk.com###yui3-css-stamp
-jablehk.com###sections section:nth-of-type(1)
-jablehk.com##.social-accounts
-jablehk.com##.header-menu-nav-wrapper div:nth-of-type(8) ~ div
+jablehk.com##footer,script,svg,.yui3-css-stamp,.header-actions,[rel*="icon"],[href*="theporndude"],[href="/store"],[href*="jablelive"]:remove()
+jablehk.com##span:has-text(會員計劃現已推出):upward(10)
+
+header-nav-item--active
+! jablehk.com##.header-actions--right
+! jablehk.com##.header-nav-list div:nth-of-type(8) ~ div
+! jablehk.com###yui3-css-stamp
+! jablehk.com###sections section:nth-of-type(1)
+! jablehk.com##.social-accounts
+! jablehk.com##.header-menu-nav-wrapper div:nth-of-type(8) ~ div
 
 ! 2023-12-11 https://m.930tu.com 930圖片網 - 性感美女寫真_美女套圖分享_美女圖片大全欣賞
+930tu.com##script,.footer,.return:remove()
 
 ! 2024年4月30日 https://www.imagefap.com  
 www.imagefap.com##center > center > center
@@ -1076,37 +1075,25 @@ www.deviantart.com##.reset-link.KzjtR
 www.deviantart.com##[class="_2XOk-"]
 
 ! 2023-12-17 https://asiantolick.com Asian sexy photos and videos
-asiantolick.com##.menssage_favorite
-asiantolick.com###links_subhead
-asiantolick.com##.externalLink
-asiantolick.com###share_download_report
-
+! asiantolick.com##.menssage_favorite
+! asiantolick.com###links_subhead
+! asiantolick.com##.externalLink
+! asiantolick.com###share_download_report
+asiantolick.com##script,#links_subhead,.menssage_favorite,[src*="theporndude"],#share_download_report,[href*="report"]:remove()
+asiantolick.com##span:has-text(ThePornDude)
 ! 2024-01-31 https://www.metart.com 完美之美与艺术的邂逅
-www.metart.com##.bUJAeN
-www.metart.com##.dHWthg
-www.metart.com##.dXDMUK
-www.metart.com##.eIrCBy
-www.metart.com##.ktbFdU
-www.metart.com##.movie-purchase
-www.metart.com##.gallery-purchase
-www.metart.com##.gallery-join
-www.metart.com##.eDUYTh
-www.metart.com###modal-root
-www.metart.com##.toasts-container
-www.metart.com###loader
-www.metart.com##noscript
+metart.com##noscript,script,[rel*="icon"],iframe,#modal-root,.toasts-container,.email-signup-section,.hero-slider,.Lalib,[href*="metart.com/join?"],.movie-purchase:remove()
+metart.com##.iycrvY,.jsEMeo +div.hMGTse,.bUJAeN,.sc-932b8t-0.hFpPgG:remove()
 
 ! 2023-09-14 https://adaman-ero.com ホットな秘密の二次元エロ萌画像
 adaman-ero.com##script,#footer-ad-box,footer,.side-topad,#scrollad,#custom_html-6,.banner,.sns,#comments,[id*="_ad_"],meta:remove()
 adaman-ero.com###nocopy ~ *:remove()
 
 ! 2023-11-11 https://www.youngpussypic.com
-www.youngpussypic.com##.pop-wrap
-www.youngpussypic.com##.clearfix.related-pic-list
+youngpussypic.com##.pop-wrap,.clearfix.related-pic-list,footer,body>.collapse :remove()
 
 ! 2024年6月24日 https://www.metarthunter.com
-www.metarthunter.com##.list-triple
-www.metarthunter.com##.image-banner
+www.metarthunter.com##.list-triple,.image-banner,script,[rel*="icon"],[rel="preconnect"]:remove()
 www.metarthunter.com##.form-share ~ *
 #======图片===========================================================================
 #======ASMR===========================================================================
@@ -1122,14 +1109,8 @@ www.hentaiasmr.moe##.aside-cats[style]
 ! 2024-01-31 https://www.asmr.one
 
 ! 2024年4月24日 https://www.4khd.com
-www.4khd.com##footer.wp-block-template-part
-www.4khd.com##.centbtd
-www.4khd.com##.heateor_sss_sharing_ul
-www.4khd.com##.home svg
-www.4khd.com##.post-template-default svg
-www.4khd.com##.fr-floating-search-block
-www.4khd.com###wpstats
-www.4khd.com###changeSizeButton
+4khd.com##script,.centbtd,footer:remove()
+4khd.com##body>*:not(.wp-site-blocks,style):remove()
 
 ! 2024-05-10 https://orgasmsoundlibrary.com
 orgasmsoundlibrary.com###general_footer
@@ -1453,17 +1434,38 @@ fikfap.com##nav > div:nth-of-type(3)
 
 
 
-! OnlyFans:法佩洛
-! OnlyFans:EroThots 
-erothots.co##script,noscript,iframe,.iframe,.info-section,.magic-sites,.new,.mb-0.title + div,[href="https://simpshub.com/"]:remove()
+! ===OnlyFans===================================================
+fapello.com##script,style,[rel*="icon"],.wbar,.items-center.space-x-4+div,[href*="undress"],form[method]
+fapello.com##header:remove-attr(style)
+
+thothub.to##style,script,[rel="icon"],.top-links,.footer,.links2,[rel="nofollow"],.tabs-menu li~*
+
+internetchicks.com##script,.title-area,.live-cams,.tpd-link-desktop,.footer-widgets,footer,.menu-toggle:remove()
+
+
+! ===OnlyFans===================================================
+
+
+erothots.co##script,noscript,iframe,.iframe,.info-section,.magic-sites,.new,.mb-0.title + div,.list-btn-box,[rel="alternate"],[rel*="icon"],[href*="simpshub.com"]
 
 bitchesgirls.com##.footer,script,.buttonContainer,.social-links:remove()
 bitchesgirls.com##.navbar-grid > *:not(.nav-categories):remove()
 
-internetchicks.com##script,.title-area,.live-cams,.tpd-link-desktop,.footer-widgets:remove()
 
 nsfwr34.com###site-footer,script,[id^="share_box"],.button-group-share,.button-group-report,.comments-list-lg,#menu-item-38436:remove()
 nsfwr34.com###menu-item-34 ~ *:remove()
 
 3dporndude.com##footer,script,.header-links,.asside-link,.link-offer,[href^="https://faphouse.com"],[href="#tab3"],[href="#tab5"]:remove()
+
+
+! ===广告网址===================================================
+
+||ad-nex.com^
+||adapf.com^
+||assistads.net^
+||crs.adapf.com^
+||livedoor.net^
+
+
+! ===广告网址===================================================
 
