@@ -40,6 +40,7 @@ x.com##[href="/i/verified-get-verified"]
 ! 升级premium下载视频
 ! x.com###react-root ~ *:remove()
 x.com##noscript,meta,[rel*="icon"]:remove()
+x.com##^.errorContainer,noscript,.errorFooter
 
 
 ! 2024-08-03 https://www.reddit.com
@@ -409,14 +410,8 @@ hjd2048.com##.main-wrap > #main ~ *:remove()
 
 
 ! 2024-01-28 https://h2gcz1.ydwzsp.com 【海角社区】
-ydwzsp.com##body > *:not(#xqbj-container):remove()
-ydwzsp.com##meta,title,script:remove()
-ydwzsp.com##.banner,.van-grid,.navbar-brand,.bubble-group-round,#allcomment,.comment-wrap,.sign:remove()
-ydwzsp.com##.ad_img,.tags-group,.text-wrap,.text-share:remove()
-! 网页端UI
-ydwzsp.com##.van-nav-bar__left,a[href^="https://t.me"]
-
-
+ydwzsp.com##^.banner,.van-grid,.bubble-group-round,.sign,.menubtn,.van-nav-bar__left_area,#POPUP-WINDOW-GG,.tags-group,.ad_img,.text-wrap,.text-share,.comment-enter,#allcomment,meta,title,.xqbj-icon-tg
+ydwzsp.com##script:remove()
 
 
 ! 2024-05-17 https://51cg1.com/archives.html  【51吃瓜】
@@ -471,24 +466,10 @@ beeg.com##[href*="live"]
 
 ! 2024年5月5日 https://cn.pornhub.com
 #成年确认 暂时无法解决
-pornhub.com##meta,script,link:not(link[rel="stylesheet"]):remove()
-pornhub.com##body > *:not(aside#leftMenu,aside#rightMenu,aside#searchSection,header#mobileHeader,div#mobileContainer,div.wrapper,link[rel="stylesheet"]):remove()
-#基本操作
-pornhub.com###rightTopMenuSection,.logoWrapper,.abAlertShown,.phLogoWrapper,.phLogoWrap:remove()
-#导航注册登入 #LOGO #Adblock #LOGO #LOGO
-pornhub.com##.communityNavigation ~ *:remove()
-pornhub.com##.rightMenu > *:not([for="locationMenu"]):remove()
-#导航
-pornhub.com###gateway-modal,#premium-modal,#positionBox,#countryRedirectMessage,#welcome:remove()
-#页头
-pornhub.com###under-player-comments,.tab-menu-wrapper-row:remove()
-pornhub.com###rateWrapper ~ *:remove()
-#视频评论 #添加快进举报分享
-pornhub.com##.fanClubButtons,.mostPopularComment,.adContainer,.userActions,.livesex:remove()
-#视频订阅 #视频评论 #广告 #视频订阅 #直播
-pornhub.com###mobileContainer:style(margin-top: 60px !important;)
 pornhub.com##+js(pornhub-popup-defuser.js)
 pornhub.com##+js(pornhub-sanitizer.js)
+! pornhub.com###mobileContainer:style(margin-top: 60px !important;)
+pornhub.com##^noscript,.footerContentWrapper,#countryRedirectMessage,#under-player-comments,.userActions,#jsShare,#video_flag,#menuItem4,.adsbytrafficjunky,#leftMenuScroll>[href="/albums"]~*
 
 ! 2024年5月5日 https://spankbang.com 免费和4K
 spankbang.com###age_check,li.pornstars
@@ -668,12 +649,8 @@ eromanga-cafe.com##main.l-main:has(.favorite_in) > div > .eyecatch:remove()
 eromanga-cafe.com##.dividerBottom:has(.favorite_in) > center:remove()
 
 ! 2024-05-07 https://18h.animezilla.com
-18h.animezilla.com##script,style,#manga-top,.notice,#latest-update,#bk1,footer,#manga-below,[id*="btn-"]:remove()
-18h.animezilla.com###mega-menu-item-338 ~ *:remove()
-18h.animezilla.com###menu-item-114 ~ *:remove()
-18h.animezilla.com##.shiftnav-main-toggle-content > span:remove()
-! 18h.animezilla.com##script:remove()
-
+18h.animezilla.com##^#manga-top,footer,#manga-bottom,#latest-update,#bk1,.notice
+18h.animezilla.com###manga-below,#my-video,#btn-footer,#btn-swiper,.swiper-container,.shiftnav-main-toggle-content>span,#menu-item-114~*,#mega-menu-item-338~*,#btn-toy,#btn-wrapper
 
 ! 2024-05-07 https://nijifeti.com [图片]
 nijifeti.com##body > *:not(nav,.site-main,#dynamic-to-top,header,#tokimeki-css,link[rel="stylesheet"]):remove()
@@ -699,43 +676,57 @@ eromanga-kai.com##footer,#header-container,.sns-share,#comment-area,.content-top
 eromanga-kai.com###search-2 ~ *:remove()
 #侧边栏评论
 
-! 2024-05-08 https://hentai-witch.com
-#提供游戏和动漫人物
-hentai-witch.com###container > *:not(#go-to-top,.recommended ,#content,ul[id]):remove()
-hentai-witch.com##[id*="_ad-"],[id*="linkcat-"],[id*="_text-2"],#comment-area:remove()
+! 2024-05-08 https://hentai-witch.com 提供游戏和动漫人物
+hentai-witch.com##^meta,#header-container,[id*="_ad-"],#content-top,#content~*,#pc_text-2,#linkcat-293,#comment-area
+
+nijisenmon.work##^.ad,footer,#menu-item-71060,#menu-item-71094,#headbox-bg,#interstitialAd,#video_inst_area,.adbox
 
 ! 2024年4月25日 https://18comic.vip
-18comic.vip###billboard-modal,.modal-backdrop:remove()
-18comic.vip##body:remove-attr(style)
-! 我18岁，让我进去
-18comic.vip##script,meta:remove()
-18comic.vip##.top-nav,#guide-modal,.tips-overlay,.footer:remove()
-18comic.vip##a[href="#app_modal"]:nth-ancestor(1):remove()
-18comic.vip###bouns-popup + .hidden-lg:remove()
-18comic.vip##[href="#series_list"]:nth-ancestor(1):remove()
-! 浮窗APP
-18comic.vip##body > [id*="moda"]:remove()
-18comic.vip##[href="/video_cosav"]:nth-ancestor(2):remove()
-18comic.vip##.href_cosav_z1:nth-ancestor(3):remove()
-! 视频-下载app
-18comic.vip##.meun-game:nth-ancestor(1):remove()
-18comic.vip###sns:remove()
-! 移动端底部导航栏
-18comic.vip##[href*="hxp32.top"]:nth-ancestor(1):remove()
-!视频
-18comic.vip##[data-group="photo_center_games_1"]:remove()
-18comic.vip##.center.scramble-page.thewayhome:remove()
-18comic.vip##.tab-content.m-b-20.m-t-15 + div.row:remove()
-18comic.vip##canvas[width="960"][height="1350"][style="width: 412px; display: block;"]:remove()
-! 正文广告
-18comic.vip###coinbuycomic-modal + div.container > *:not(.row,.nav,.tab-content):remove()
-18comic.vip###coinbuycomic-modal + div.container > .tab-content + .row:remove()
-! 简介广告
-18comic.vip##[data-group^="all_bottom"]:nth-ancestor(2):remove()
-18comic.vip##[data-group^="list"]:nth-ancestor(2):remove()
-! 导航广告
-18comic.vip###nb_path,#ipcountry,#search-board,#search-Modalimg,#outsidenoticeModal,.black-back:remove()
+! 18comic.vip###billboard-modal,.modal-backdrop:remove()
+! 18comic.vip##body:remove-attr(style)
+! ! 我18岁，让我进去
+! 18comic.vip##script,meta:remove()
+! 18comic.vip##.top-nav,#guide-modal,.tips-overlay,.footer:remove()
+! 18comic.vip##a[href="#app_modal"]:nth-ancestor(1):remove()
+! 18comic.vip###bouns-popup + .hidden-lg:remove()
+! 18comic.vip##[href="#series_list"]:nth-ancestor(1):remove()
+! ! 浮窗APP
+! 18comic.vip##body > [id*="moda"]:remove()
+! 18comic.vip##[href="/video_cosav"]:nth-ancestor(2):remove()
+! 18comic.vip##.href_cosav_z1:nth-ancestor(3):remove()
+! ! 视频-下载app
+! 18comic.vip##.meun-game:nth-ancestor(1):remove()
+! 18comic.vip###sns:remove()
+! ! 移动端底部导航栏
+! 18comic.vip##[href*="hxp32.top"]:nth-ancestor(1):remove()
+! !视频
+! 18comic.vip##[data-group="photo_center_games_1"]:remove()
+! 18comic.vip##.center.scramble-page.thewayhome:remove()
+! 18comic.vip##.tab-content.m-b-20.m-t-15 + div.row:remove()
+! 18comic.vip##canvas[width="960"][height="1350"][style="width: 412px; display: block;"]:remove()
+! ! 正文广告
+! 18comic.vip###coinbuycomic-modal + div.container > *:not(.row,.nav,.tab-content):remove()
+! 18comic.vip###coinbuycomic-modal + div.container > .tab-content + .row:remove()
+! ! 简介广告
+! 18comic.vip##[data-group^="all_bottom"]:nth-ancestor(2):remove()
+! 18comic.vip##[data-group^="list"]:nth-ancestor(2):remove()
+! ! 导航广告
+! 18comic.vip###nb_path,#ipcountry,#search-board,#search-Modalimg,#outsidenoticeModal,.black-back:remove()
 ! other
+18comic.vip##^.copy-block,.navbar-nav-icon,#sns,.meun-game,.tips-overlay,.top-nav
+18comic.vip##^[rel*="icon"],meta,[src*="/ad-"],[class*="footer"],.thewayhome,[class^="float-right"],.adsbyexoclick,#is_hanman+div~*,#response_message+div~*
+18comic.vip##^[src*="td_ga_tracker.js"],[src*="emojionearea.js"],[src*="jquery.forum.js"],[src*="jquery.voting-album-0.1.js"],[src*="jquery.uploadfile.min.js"],[src*="33_a1e.js"],[src*="email"]
+! Analytics（GA）跟踪，  响应式轮播插件$,  del输入框中添加表情，  论坛评价，  评分或点赞,  文件上传， 广告
+18comic.vip##^script:has-text(AdProvider)
+18comic.vip##^script:has-text(idzone)
+! 页面清洗
+18comic.vip##^#wrapper>div.container[style] [id^="33_a1e_"]:upward(3)
+18comic.vip##^#coinbuycomic-modal+div.container [id^="33_a1e_"]:upward(2)
+18comic.vip##^.moviemenu-sub [title="COS片"]:upward(2)
+18comic.vip##^[class^="c835e-33_e"]
+18comic.vip##^script:has-text(isMobileDevice)
+
+
 
 ! 2024-05-08 https://eromanga-kong.com
 eromanga-kong.com##body > *:not(header,#wrap):remove()
@@ -752,10 +743,8 @@ eromanga-select.com###sidebar > h3,#sidebar > a
 eromanga-select.com##nav li:nth-of-type(1)
 
 ! 2023-09-14 https://asmhentai.com
-asmhentai.com###content ~ *:remove()
-asmhentai.com##.atop,[class*="ads"],script,meta:remove()
-asmhentai.com##.nav  > ul > li[class]:remove()
-asmhentai.com##.navbar_links li:nth-of-type(8) ~ *:remove()
+asmhentai.com##^.atop,.footer_center,.friends
+asmhentai.com##.navbar_links li:nth-of-type(8)~*
 
 ! 2024-05-08 https://h-ciyuan.com
 h-ciyuan.com###gridview-wrapper-outside ~ *:remove()
@@ -773,16 +762,12 @@ h-ciyuan.com##.code-block:remove()
 
 
 ! 2024-05-08 https://ichinuke.com
-ichinuke.com##body > *:not(#body_wrap,.l-scrollObserver):remove()
-ichinuke.com###comments,#after_article,.c-shareBtns,[id*="swell_ad_widget"]:remove()
-#评论 #文章排名和相关文章 #分享
-ichinuke.com##.PcOnly:nth-ancestor(2):remove()
-ichinuke.com##.PhoneOnly:nth-ancestor(2):remove()
-ichinuke.com###text-4,#text-11:remove()
-#站外
-ichinuke.com###content ~ *:not(#fix_bottom_menu):remove()
-ichinuke.com##script,[rel="icon"],noscript:remove()
-
+ichinuke.com##^meta,noscript,[id*="_ad_"],[class*="_ad_"],[id^="g_floating"],body>div[style],.l-scrollObserver,.afc_popup,footer
+ichinuke.com##^.l-header__bar.pc_,#text-9,#custom_html-10,#custom_html-18,#custom_html-47,#custom_html-25,#text-4,#text-11,#recent-comments-2
+ichinuke.com##^[class^="c-shareBtns"],.w-beforeRelated,#comments,.w-afterRelated>div+div
+ichinuke.com##^#custom_html-48,#text-13,#custom_html-59,#custom_html-56
+ichinuke.com##script,[rel="icon"]:remove()
+ichinuke.com##ul.wpp-list:remove-class(wpp-list)
 
 
 ! 2024-05-09 https://oreno-erohon.com
@@ -792,21 +777,11 @@ oreno-erohon.com##script,header,.sp_head_box,.sp_footer,.archive-title,.comment_
 oreno-erohon.com##.menu_list  li:nth-of-type(3) ~ *:remove()
 
 ! 2023-09-14 https://www.177pica.com
-www.177pica.com###text-8
-www.177pica.com###text-13
-www.177pica.com##footer
-www.177pica.com###footer-widget-box
-www.177pica.com##.clear
-www.177pica.com##.header-sub
-www.177pica.com##.ad-pc
-www.177pica.com##.ad-site
+177pica.com##^#content~*,.header-sub,aside[id^="text-"],#top-header,[class^="ad-"],noscript
 
 ! 2023-09-14 https://rouman5.com 
-rouman5.com##.footer_root__6F7g2
-rouman5.com##a.nav-link:nth-of-type(4)
-rouman5.com##a.nav-link:nth-of-type(3)
-rouman5.com##button.react-share__ShareButton
-rouman5.com##.position-absolute
+rouman5.com##footer,script[src*="ad"],[href="/app-download"],[href="/games"],.bg-gray-200,next-route-announcer+div,ins
+rouman5.com##+js(nowoif)
 
 ! 2024-05-09 https://www.tsumino.com
 www.tsumino.com##.tsumino-nav-active
@@ -831,25 +806,12 @@ kimootoko.net###core .clearfix > div[align="center"] > hr:remove()
 #正文站外
 
 ! 2023-09-14 https://wnacg.com
-wnacg.com##.wrap.footer
-wnacg.com##p.result:nth-of-type(1)
-wnacg.com##p.result:nth-of-type(2)
-wnacg.com##[src="/themes/weitu/images/bg/shoucang.jpg"]
-wnacg.com###head_notify
+wnacg.com##^.footer,.result,#head_notify
+wnacg.com##^script:has-text(tips)
 
 ! 2024年4月22日 https://multporn.net
-multporn.net###footer-wrapper
-multporn.net###skip-link
-multporn.net###block-views-down-random-hentai-manga-block
-multporn.net##.tabs
-multporn.net###menu-22031-1
-multporn.net###menu-22120-1
-multporn.net###menu-17097-1
-multporn.net###menu-1774-1
-multporn.net###page-title
-multporn.net##[id*="user-"]
-multporn.net##[id*="block-block-"]
-multporn.net##[id*="comment"]
+multporn.net##^#footer-wrapper,#skip-link,[id*="comment"],[id*="block-block-"],#menu-17097-1,#menu-22120-1,form
+
 
 ! 2023-12-11 https://www.apexmh.com
 www.apexmh.com##.footer
@@ -857,13 +819,7 @@ www.apexmh.com##body > div:nth-of-type(4)
 www.apexmh.com##.return
 
 ! 2024-05-11 https://ahri8.top  松鼠症仓库 
-ahri8.top##nav > ul > li > .apo
-ahri8.top##nav > ul > li:nth-of-type(6)
-ahri8.top###content > div:nth-of-type(1)
-ahri8.top###content > div:nth-of-type(2)
-ahri8.top##.page-footer ~ *
-ahri8.top##.page-footer,script,[rel*="icon"]:remove()
-
+ahri8.top##^[src*="ads"],#gallery+div~*,.page-footer,#content>.col-lg-12,#widget-grid~*,[rel*="icon"]
 
 ! 2024-05-14 https://nyahentai.re  同人誌から商業誌まであらゆるエロ漫画
 nyahentai.re##footer
@@ -883,30 +839,32 @@ web.nicecat.cc###body_nav_menu div:nth-of-type(8)
 web.nicecat.cc###body_nav_menu div:nth-of-type(9)
 
 ! 2024年6月24日 https://members.luscious.net
-members.luscious.net##.o-modal-drawer
-members.luscious.net##.page-footer
-members.luscious.net##.site-banner
-#上传规则
-members.luscious.net##ul[role="toolbar"] > li:nth-of-type(4)
-members.luscious.net##ul[role="toolbar"] > li:nth-of-type(5)
-members.luscious.net##ul[role="toolbar"] > li:nth-of-type(6)
-#底部导航
-members.luscious.net##ul[role="navigation"] > li:nth-of-type(1)
-#创造
-members.luscious.net##.frontpage-overlay-banner
-members.luscious.net##.o-clearfix > div:remove-class(frontpage-waterfall--fade-bottom)
-#首屏
-members.luscious.net##.o-row-gut-4
-members.luscious.net##.o-row-gut-4 + article
-#提交
-members.luscious.net##div[role="contentinfo"] ~ *
-#反馈
-members.luscious.net##div.o-fullwidth.o-padding-sides
-members.luscious.net##article.o-padding-top-bottom ~ *
-members.luscious.net##.picture-control-wrapper
-#评论 
-members.luscious.net##footer:nth-of-type(1)
-members.luscious.net##footer:nth-of-type(2)
+! members.luscious.net##.o-modal-drawer
+! members.luscious.net##.page-footer
+! members.luscious.net##.site-banner
+! #上传规则
+! members.luscious.net##ul[role="toolbar"] > li:nth-of-type(4)
+! members.luscious.net##ul[role="toolbar"] > li:nth-of-type(5)
+! members.luscious.net##ul[role="toolbar"] > li:nth-of-type(6)
+! #底部导航
+! members.luscious.net##ul[role="navigation"] > li:nth-of-type(1)
+! #创造
+! members.luscious.net##.frontpage-overlay-banner
+! members.luscious.net##.o-clearfix > div:remove-class(frontpage-waterfall--fade-bottom)
+! #首屏
+! members.luscious.net##.o-row-gut-4
+! members.luscious.net##.o-row-gut-4 + article
+! #提交
+! members.luscious.net##div[role="contentinfo"] ~ *
+! #反馈
+! members.luscious.net##div.o-fullwidth.o-padding-sides
+! members.luscious.net##article.o-padding-top-bottom ~ *
+! members.luscious.net##.picture-control-wrapper
+! #评论 
+! members.luscious.net##footer:nth-of-type(1)
+! members.luscious.net##footer:nth-of-type(2)
+members.luscious.net##^#modal-root,#root
+members.luscious.net##.site-banner,[class^="load"]:remove()
 
 ! 2024年6月26日 https://twhentai.com
 twhentai.com##.file
@@ -925,15 +883,20 @@ a-hadaka.jp###nav > li:nth-of-type(7)
 
 
 ! 2023-09-15 https://moeimg.net
-moeimg.net##body > *:not(#page,.page-top):remove()
-moeimg.net##[class*="_ad"],[id*="_ad_"],[id*="j-ad-"],.sp_only,.pc_only,#header:remove()
-moeimg.net###footer,.share,[id*="pickup-"],#side-2,script:remove()
-#头部站外 #站外 #站外 #站外 #未知
-moeimg.net###side > div:remove()
-moeimg.net###side > ul > li:nth-of-type(4)
-#侧边栏
-moeimg.net##.post-single > .entry-footer ~ *:remove()
-#正文广告
+! moeimg.net##body > *:not(#page,.page-top):remove()
+! moeimg.net##[class*="_ad"],[id*="_ad_"],[id*="j-ad-"],.sp_only,.pc_only,#header:remove()
+! moeimg.net###footer,.share,[id*="pickup-"],#side-2,script:remove()
+! #头部站外 #站外 #站外 #站外 #未知
+! moeimg.net###side > div:remove()
+! moeimg.net###side > ul > li:nth-of-type(4)
+! #侧边栏
+! moeimg.net##.post-single > .entry-footer ~ *:remove()
+! #正文广告
+moeimg.net##^meta,[rel="icon"],[id*="_ad_"],[id*="-ad-"],[class*="_ad_"],#header,.intro,#pickup-header_frame,.news_footer,[id*="footer"],#side-2,.pc_only,.share,.entry-footer~*,
+moeimg.net##.searchbyimage,br
+
+
+
 
 ! 2024-01-21 https://www.pornpics.com
 pornpics.com###wrapper ~ *:not(link):remove()
@@ -1086,8 +1049,7 @@ metart.com##noscript,script,[rel*="icon"],iframe,#modal-root,.toasts-container,.
 metart.com##.iycrvY,.jsEMeo +div.hMGTse,.bUJAeN,.sc-932b8t-0.hFpPgG:remove()
 
 ! 2023-09-14 https://adaman-ero.com ホットな秘密の二次元エロ萌画像
-adaman-ero.com##script,#footer-ad-box,footer,.side-topad,#scrollad,#custom_html-6,.banner,.sns,#comments,[id*="_ad_"],meta:remove()
-adaman-ero.com###nocopy ~ *:remove()
+adaman-ero.com##^meta,footer,[rel*="icon"],.execphpwidget,.banner,.st-sns-top,.random_post,#nocopy~*,.sns,.tagst+aside,#custom_html-6,#scrollad,#header-full,.side-topad,#st-header-under-widgets-box>*:not(#search-5,#custom_html-21,#execphp-8)
 
 ! 2023-11-11 https://www.youngpussypic.com
 youngpussypic.com##.pop-wrap,.clearfix.related-pic-list,footer,body>.collapse :remove()
@@ -1128,8 +1090,8 @@ www.analporngallery.com##.friends
 www.analporngallery.com###topbar
 
 ! 2024-05-11 https://www.asmrgay.com 基佬中心
-www.asmrgay.com##.hope-c-PJLV-ikSuVsl-css.hope-c-PJLV
-www.asmrgay.com##[class*="notification"]
+asmrgay.com##.footer,.markdown 
+! asmrgay.com##.body>.hope-c-PJLV+div
 
 ! 2024年4月25日 https://japaneseasmr.com 日本ASMR
 japaneseasmr.com###ilovewp-comments
@@ -1189,6 +1151,8 @@ hentaix.io##.fa-twitter:nth-ancestor(9)
 ! 导航栏PornDude-- 
 3dsexanime.xyz##.row > .content-right:remove()
 ! 首页广告
+3dsexanime.xyz###fluid_video_wrapper_my-video:remove-attr(style)
+
 
 ! 2024-05-12 https://hanime.tv 最新未经审查的hanime :未完成，广告检测
 hanime.tv##.nav-drawer-list ~ *:remove()
@@ -1290,6 +1254,9 @@ telegram.org##.bubbles-group span:has-text(棋牌):nth-ancestor(4)
 telegram.org##.bubbles-group span:has-text(赌场):nth-ancestor(4)
 telegram.org##.bubbles-group span:has-text(游戏):nth-ancestor(4)
 telegram.org##.bubbles-group span:has-text(莆田):nth-ancestor(4)
+telegram.org##.bubbles-group span:has-text(支付):nth-ancestor(4)
+telegram.org##.bubbles-group span:has-text(立即体验):nth-ancestor(4)
+
 
 ! telegram.org##.bubbles-group span:has-text(爱爱游戏):nth-ancestor(4)
 ! telegram.org##.bubbles-group span:has-text(《世界OL》):nth-ancestor(4)
@@ -1354,7 +1321,7 @@ faphouse.com##.video-info-details__actions-access:remove()
 porcore.com##body > *:not(#center_container):remove()
 porcore.com###login-now ~ *:remove()
 ! 页面尾部
-porcore.com##.navbar,[class*="-block"],[rel*="-icon"],meta,[rel="icon"]:remove()
+porcore.com##.navbar,[class*="-block"],[rel*="-icon"],meta,[rel="icon"],[href^="https://join.cityofsin3d.com"]:remove()
 ! 页面头部
 
 
@@ -1403,11 +1370,12 @@ oreno3d.com##body > *:not(.container)
 oreno3d.com##figure + p,[href^="https://go.rmhfrtnd.com"]
 iwara.tv###modal-root,noscript,footer,.shareButton:remove()
 
-91porn.com###videodetails > div:not([class]):remove()
-91porn.com###useraction ~ *
-91porn.com##script,#footer-container,ins,iframe,#clear,#videodetails-content:remove()
-91porn.com##[class^="vjs-"]:not(video):remove()
+! 91porn.com###videodetails > div:not([class]):remove()
+! 91porn.com###useraction ~ *
+! 91porn.com##script,#footer-container,ins,iframe,#clear,#videodetails-content:remove()
+! 91porn.com##[class^="vjs-"]:not(video):remove()
 91porn.com##+js(set-attr, video, controls, true)
+91porn.com##^#footer-container,.top-nav,.navbar+div
 
 sehuatang.net###append_parent,#ajaxwaitid,#toptb,#ft,#qmenu_menu,#scrolltop,script,[class^="show-text"]:remove()
 ! 页面清洗
@@ -1455,17 +1423,28 @@ bitchesgirls.com##.navbar-grid > *:not(.nav-categories):remove()
 nsfwr34.com###site-footer,script,[id^="share_box"],.button-group-share,.button-group-report,.comments-list-lg,#menu-item-38436:remove()
 nsfwr34.com###menu-item-34 ~ *:remove()
 
-3dporndude.com##footer,script,.header-links,.asside-link,.link-offer,[href^="https://faphouse.com"],[href="#tab3"],[href="#tab5"]:remove()
-
+3dporndude.com##footer,script,.header-links,.asside-link,.link-offer,[href^="https://faphouse.com"],[href="#tab3"],[href="#tab5"],.block-tabs,div.second,.spot,.col-asside,#list_videos_related_videos:remove()
 
 ! ===广告网址===================================================
 
 ||ad-nex.com^
 ||adapf.com^
+||jads.co^
 ||assistads.net^
 ||crs.adapf.com^
 ||livedoor.net^
-
+||juicyads.com^
 
 ! ===广告网址===================================================
+
+! 恋足癖色情网
+xfeet.xyz##^[rel*="icon"],#page~div,footer,[id*="shortcode"],.video-player+div[style],.video-player~div[align="right"],#menu-item-445~*,.clear,.happy-header-mobile
+xfeet.xyz###simple-banner
+
+cosporn.site##^.g1-body-inner~*,[class*="footer"],#menu-item-40821~*,.g1-drop-create,.code-block
+cosporn.site###simple-banner,#secondary
+
+! 5F自拍网
+porn5f.com##^meta,[rel*="icon"],[href*="ads"],.colse-ad,.mobframe,[id^="comments"],#dprecommend,.footer-container,.alb_320x250,#main_video_block>div~*,.top_slider,.pull-right,.position_fix_top,.navbar-right>.active~*,.top-nav,[href="/videos/jpkr"]~*
+porn5f.com##script,#gotoNext,.vjs-control-bar~*,#wrapper~*,.loc:remove()
 
