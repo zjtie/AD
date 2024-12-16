@@ -51,21 +51,15 @@ reddit.com##img.object-cover:remove-attr(style)
 ! 2023-12-19 https://i.jandan.net 煎蛋
 
 ! 2024年5月3日 https://www.douyin.com 抖音
-douyin.com###douyin-web-recommend-guide-mask
-! 滚动“鼠标”或点按“键盘上下键”查看更多推荐视频
-douyin.com###douyin-sidebar:remove()
-douyin.com###douyin-temp-sidebar:remove()
-! 浮窗 常见问题/反馈
+douyin.com##[rel*="icon"],#douyin-web-recommend-guide-mask,[data-e2e="douyin-navigation"]>div[class],#douyin-sidebar
+! #ICON,  #我知道了,  #备案信息,  #常见问题
 douyin.com###a11y-open-btn,#a11y-live-assertive:remove()
-! 开启读屏标签/读屏标签已关闭
-douyin.com###douyin-navigation pace-island[id]:remove()
-! 设置/业务合作
-douyin.com##footer:remove()
-! 广播电视节目制作经营许可证
-! douyin.com###douyin-header-menuCt *:not(ul):remove()
-douyin.com##body > script:remove()
-douyin.com##[data-e2e="video-player-report"],[data-e2e="video-player-shoret-cut"]:remove()
-douyin.com###douyin-header-menuCt p:has-text(充钻石):nth-ancestor(6):remove()
+! 读屏
+douyin.com##pace-island[id]>div>div[class][style]
+douyin.com##[data-e2e="something-button"]:has-text(充钻石):upward(3)
+douyin.com##[data-e2e="something-button"]:has-text(快捷访问):upward(3)
+douyin.com##[data-e2e="something-button"]:has-text(投稿):upward(3)
+douyin.com##div[class][style]:has-text(下载电脑客户端)
 
 ! 2023-02-11 https://www.douban.com 豆瓣
 www.douban.com##.top-nav-doubanapp
@@ -83,10 +77,11 @@ bilibili.com##^script:has-text(browser-tip)
 bilibili.com##iframe:remove()
 
 ! 2022-11-20 https://fuliba2023.net 福利吧
-fuliba2023.net##body > *:not(section):remove()
-fuliba2023.net##div.sidebar > *:not(.widget_ui_posts,.widget_ui_comments,.widget_ui_tags):remove()
-fuliba2023.net##.post-actions,.post-copyright,.shares,#respond,.more:remove()
-fuliba2023.net##article a[title^="每日淘宝优惠"]:nth-ancestor(3):remove()
+! fuliba2023.net##body > *:not(section):remove()
+! fuliba2023.net##div.sidebar > *:not(.widget_ui_posts,.widget_ui_comments,.widget_ui_tags):remove()
+! fuliba2023.net##.post-actions,.post-copyright,.shares,#respond,.more:remove()
+! fuliba2023.net##article a[title^="每日淘宝优惠"]:nth-ancestor(3):remove()
+fuliba2023.net##^meta,[rel*="icon"],body>*:not(section),.sidebar,div.title,.shares,.post-actions,#respond
 
 ! 2023-12-15 https://www.jdlingyu.com 绝对领域
 jdlingyu.com##body > *:not(#page):remove()
@@ -262,10 +257,7 @@ www.huashi6.com##a[href="/app"]
 www.huashi6.com##a[href="https://www.huashi6.com/aboutus"]
 
 ! 2022-11-20 http://www.cnu.cc CNU视觉联盟
-www.cnu.cc##.blackBG
-www.cnu.cc##.pageFooter
-www.cnu.cc##.comment
-www.cnu.cc##.work-info
+cnu.cc##^meta,[rel*="icon"],.pageFooter,.blackBG
 
 ! 2024-01-20 https://m.huaban.com
 huaban.com##.app.item
@@ -289,9 +281,6 @@ soutushenqi.com###root > .Home-module_tabs_wrap_fSeSw ~ *:remove()
 
 ! 2024年8月6日 https://www.artstation.com
 artstation.com##.ad,script,.productPage-description-col,.report-section,.share-grid,.project-comments-form,#fb-root,iframe:remove()
-
-
-#======图片===========================================================================
 #======论坛===========================================================================
 ! ! 2024年5月6日 https://www.t66y.com 【草榴社區】 $$$$$ 
 ! t66y.com##+js(setTimeout-defuser, tpcHt0ml, 1006)
@@ -340,7 +329,6 @@ hjd2048.com##^.nav-container,.movie-banner,#read_tpc>br
 ! 2024-01-28 https://h2gcz1.ydwzsp.com 【海角社区】
 ydwzsp.com##^.banner,.van-grid,.bubble-group-round,.sign,.menubtn,.van-nav-bar__left_area,#POPUP-WINDOW-GG,.tags-group,.ad_img,.text-wrap,.text-share,.comment-enter,#allcomment,meta,title,.xqbj-icon-tg
 ydwzsp.com##script:remove()
-
 
 ! 2024-05-17 https://51cg1.com/archives.html  【51吃瓜】  $$$$$
 51cg1.com##^meta,[rel*="icon"],footer,[src*="mirages"],.horizontal-banner,.post-card-ads,.warning-container,.addbox,.van-overlay
@@ -391,7 +379,6 @@ xvideos.com##^meta,[rel*="icon"],[id*="footer"],[class*="ads"],#tabComments_bott
 xvideos.com##^.red-ticket,.live-cams,.nutaku-games:upward(1)
 xvideos.com##.head__menu-line__main-menu .ignore-popunder
 xvideos.com###chat-window:remove()
-
 
 ! 2023-08-20 https://hqporner.com 高分辨率高质量  $$$$$
 hqporner.com##^meta,[rel*="icon"],noscript,footer,.footer-bg,.color8,.color2,.footerWrapper
