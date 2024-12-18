@@ -69,7 +69,7 @@ douban.com##^script:has-text(global)
 ! 2023-09-13 https://www.bilibili.com 哔哩哔哩
 bilibili.com##^[rel*="icon"],[class*="footer"],[class*="download"]
 bilibili.com##^script:has-text(browser-tip)
-bilibili.com##iframe,[class*="download"]:remove()
+bilibili.com##iframe,[class*="download"],.launch-app-btn:remove()
 
 ! 2022-11-20 https://fuliba2023.net 福利吧
 fuliba2023.net##^meta,[rel*="icon"],body>*:not(section),.sidebar,div.title,.shares,.post-actions,#respond
@@ -78,43 +78,17 @@ fuliba2023.net##^meta,[rel*="icon"],body>*:not(section),.sidebar,div.title,.shar
 jdlingyu.com##^footer,.aside-container,section#b2-widget-html-11,section#b2-widget-html-20,.comments-box,.single-top-html,.single-bottom-html,#b2-widget-user-3,#b2-widget-html-10
 jdlingyu.com##^.top-submit,#ym-menu,#top-menu-ul>li:nth-of-type(7),#home-row-gzh,#home-row-wzq .widget-area,#home-row-chinajoy,#b2-widget-html-4,#b2-widget-html-12
 
-! 2024-05-11 https://www.36kr.com 36氪
-36kr.com##[rel*="icon"],.assit-wrapper,.kr-footer,.app-track-card,.float-app-button-wrp,.kr-mobile-footer
-36kr.com##^script:has-text(统计代码)
-
-! 2023-08-22 https://sspai.com 少数派
-sspai.com##script,footer:remove()
-
 ! 2024-05-11 https://iui.su 不死鸟
-iui.su##footer,script:remove()
-iui.su##[data-title="广告"] ~ *:remove()
-iui.su##img[data-action="zoom"]:remove()
-
+iui.su##^footer,[data-title="广告"]~*
 ! 2023-09-13 https://www.v2ex.com
 www.v2ex.com###Bottom
 
 ! 2024-01-11 https://blog.csdn.net
-blog.csdn.net##.passport-login-container
-blog.csdn.net##[class*="footer"]
-blog.csdn.net##.blog-nps
-blog.csdn.net##.toolbar-btn-vip
-blog.csdn.net##.tool-active-list
-blog.csdn.net##.sidetool-writeguide-box
-blog.csdn.net###recommendNps
-blog.csdn.net###asideNewNps
-blog.csdn.net###asideWriteGuide
-blog.csdn.net##.weixin-shadowbox
-blog.csdn.net##.feed-Sign-weixin
-blog.csdn.net##.rightmenu
-blog.csdn.net##.open_app_channelCode
-blog.csdn.net###recommend
-blog.csdn.net##.wap-shadowbox
+csdn.net##.openApp,.m_toolbar_left_app_btn,.passport-login-container,.weixin-shadowbox,.feed-Sign-weixin,.app_abtest_btn_open,.blind_box
 
 ! 2024年4月23日 https://www.landiannews.com 蓝点网 - 给你感兴趣的内容
-www.landiannews.com##.aside
-www.landiannews.com##footer
-www.landiannews.com##.color-border.module-bg.top-bar
-www.landiannews.com##.comments
+landiannews.com##^.top-bar.module-bg,footer
+landiannews.com##.comment-respond
 
 ! 2022-11-26 https://www.coolapk.com 玩数码，真实有趣的数码社区
 www.coolapk.com###sidebar
@@ -125,10 +99,7 @@ www.coolapk.com##.download-group
 www.coolapk.com##.navbar-contact
 
 ! 2023-09-30 https://zhrwx.com 风车动漫
-zhrwx.com##.myui-foot
-zhrwx.com##.myui-panel-bg2
-zhrwx.com##.myui-content__operate li:nth-of-type(2)
-zhrwx.com##.myui-player__operate li:nth-of-type(1)
+woiso.com##^.myui-foot
 
 ! 2023-12-15 https://m.agedm.org AGE动漫
 agedm.org##^[rel*="icon"],.modal-footer,#notice_box,.extra-box,.foot_content_wrapper,.col-md-12,.nav-download-link,.comment-box-wrapper
@@ -171,20 +142,25 @@ www.alipan.com##.container--T0zFN
 www.alipan.com##.text-secondary--TlI9K
 
 ! 2022-12-15 https://smailpro.com/temp-gmail 临时谷歌邮箱
-smailpro.com##footer
-smailpro.com##.hidden
-smailpro.com###a_1
-smailpro.com##.min-h-menuweb
-smailpro.com##.mt-4
+smailpro.com##footer,.hidden,#a_1,.min-h-menuweb,.mt-4
 
 ! 2024年8月6日 https://poe.com 
 poe.com##[class^="Banner_root"]:remove()
 poe.com##menu[class^="MainLeftSidebar_sidebar"] > section:nth-of-type(4):remove()
 
 ! 2024年8月6日 https://rebang.today 资讯热榜
-rebang.today##footer
-rebang.today##.space-y-4 > div:nth-of-type(5)
-rebang.today##.space-y-4 > div:nth-of-type(4)
+rebang.today##^footer,noscript
+rebang.today##footer,aside>div>.border.border-border-100 
+zhihu.com##.Button--primary,.MobileModal-wrapper
+ithome.com##.open-app,.ruanmei-footer
+hupu.com##.tabs-component-search-app
+huxiu.com##.btn-open,.bottom-open-app-btn,.qr_code_pc,footer
+sspai.com##^script,footer,.btn-call-app,script[src*="open"]
+163.com##section>a.js-open-newsapp,.logoBottom.js-bottom-container,.s-top>.s-btn,.comment-footer
+thepaper.cn###moblink_header,[class^="index_footer_banner__"],footer
+36kr.com##[rel*="icon"],.assit-wrapper,.kr-footer,.app-track-card,.float-app-button-wrp,.kr-mobile-footer
+36kr.com##^script:has-text(统计代码)
+smzdm.com##.footer-banner-wrap,.logo-download,.btn-open-app
 
 ! 2024年8月6日 https://tophub.today 今日热榜
 tophub.today##.open-in-app
@@ -209,20 +185,7 @@ www.huashi6.com##a[href="https://www.huashi6.com/aboutus"]
 cnu.cc##^meta,[rel*="icon"],.pageFooter,.blackBG
 
 ! 2024-01-20 https://m.huaban.com
-huaban.com##.app.item
-huaban.com##.desktop.to
-huaban.com##.android.app.to
-huaban.com##.open-add
-huaban.com##.ant-modal-root
-huaban.com##.LXSm0s3K
-huaban.com##.P8_jH2tl
-m.huaban.com##.app.item
-m.huaban.com##.desktop.to
-m.huaban.com##.android.app.to
-m.huaban.com##.open-add
-m.huaban.com##.ant-modal-root
-m.huaban.com##.LXSm0s3K
-m.huaban.com##.P8_jH2tl
+huaban.com##.ant-modal-root,[class^="ant-tooltip"],[href="#buyVip-personal"],[data-content-source="导航_企业VIP"],.item.app,.open-add
 
 ! 2024年8月6日 https://www.soutushenqi.com 搜图神器
 soutushenqi.com##script,style,link[rel="modulepreload"],.ant-modal-root,[class*="_download_"],[class*="_community_"],#footerWrap:remove()
@@ -265,7 +228,6 @@ t66y.com##^#ajaxtable>tbody>.tr2.tac~*
 *##^body[onkeydown="try{keyCodes(event);}catch(e){}"] .t5 th#td_tpc>*:not(.tpc_content,.tiptop,.b)
 *##^body[onkeydown="try{keyCodes(event);}catch(e){}"] .t5 tr.tr1.r_one
 *##^body[onkeydown="try{keyCodes(event);}catch(e){}"] .fr.w:upward(5)
-
 
 ! 2024-05-07 hjd2048.com 【2048社区】  $$$$$
 hjd2048.com##^#headbase,.header_up_sign,#header,#cate_1>tr[name],#footer,.header_down_sign,#nav-login,#login_fast
