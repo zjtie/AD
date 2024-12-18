@@ -62,54 +62,25 @@ douyin.com##[data-e2e="something-button"]:has-text(投稿):upward(3)
 douyin.com##div[class][style]:has-text(下载电脑客户端)
 
 ! 2023-02-11 https://www.douban.com 豆瓣
-www.douban.com##.top-nav-doubanapp
-www.douban.com###footer
+douban.com##.nav-open-app,.talion-nav-footer,.download-app
+douban.com##^[rel*="icon"],#footer,.lnk-doubanapp
+douban.com##^script:has-text(global)
 
 ! 2023-09-13 https://www.bilibili.com 哔哩哔哩
-bilibili.com##.adblock-tips,[class*="download"],[class*="vip"],.right-entry-item,.right-entry-item--upload:remove()
-#下载 #VIP #创作中心 #投稿
-bilibili.com##li.v-popover-wrap [href*="ttps://show."]:nth-ancestor(1):remove()
-#会员购
-bilibili.com##li.v-popover-wrap [href*="https://game."]:nth-ancestor(1):remove()
-#游戏
-bilibili.com##^[rel*="icon"]
+bilibili.com##^[rel*="icon"],[class*="footer"],[class*="download"]
 bilibili.com##^script:has-text(browser-tip)
-bilibili.com##iframe:remove()
+bilibili.com##iframe,[class*="download"]:remove()
 
 ! 2022-11-20 https://fuliba2023.net 福利吧
-! fuliba2023.net##body > *:not(section):remove()
-! fuliba2023.net##div.sidebar > *:not(.widget_ui_posts,.widget_ui_comments,.widget_ui_tags):remove()
-! fuliba2023.net##.post-actions,.post-copyright,.shares,#respond,.more:remove()
-! fuliba2023.net##article a[title^="每日淘宝优惠"]:nth-ancestor(3):remove()
 fuliba2023.net##^meta,[rel*="icon"],body>*:not(section),.sidebar,div.title,.shares,.post-actions,#respond
 
 ! 2023-12-15 https://www.jdlingyu.com 绝对领域
-jdlingyu.com##body > *:not(#page):remove()
-jdlingyu.com###content ~ *:remove()
-jdlingyu.com###primary-home ~ *:remove()
-jdlingyu.com###home-row-gzh,#home-row-xz,#home-row-zn,#home-row-chinajoy,#b2-widget-html-4,#b2-widget-html-12,#menu-item-79724,.top-submit,.single-top-html,.single-button-download,.download-box,#content-ds,.single-bottom-html,.comments-box,#home-row-ydhd,#home-row-zmhd:remove()
-#加微信 #新站 #加微信 #飞机杯 #加入书签 #关注微信 #升级会员 #投稿 #飞机杯 #下载 #下载 #点赞 #正文页脚 #加微信 评论
-jdlingyu.com###b2-widget-html-21:nth-ancestor(1):remove()
-#侧边栏
-jdlingyu.com##[href="https://www.jdlingyu.com/shop"]:nth-ancestor(1):remove()
+jdlingyu.com##^footer,.aside-container,section#b2-widget-html-11,section#b2-widget-html-20,.comments-box,.single-top-html,.single-bottom-html,#b2-widget-user-3,#b2-widget-html-10
+jdlingyu.com##^.top-submit,#ym-menu,#top-menu-ul>li:nth-of-type(7),#home-row-gzh,#home-row-wzq .widget-area,#home-row-chinajoy,#b2-widget-html-4,#b2-widget-html-12
 
 ! 2024-05-11 https://www.36kr.com 36氪
-www.36kr.com##.kr-footer
-www.36kr.com##.undefined
-www.36kr.com##.seek-report-wrap
-www.36kr.com##.seek-report-wrap + div
-www.36kr.com##.station-business
-www.36kr.com##.app-track-card
-www.36kr.com##.relate-articles
-www.36kr.com##.kr-article-commitbox-left-navbar-bottom
-www.36kr.com##.thumb-up-box
-www.36kr.com##.float-app-button-wrp
-www.36kr.com##.article-top-swiper-goapp.show
-www.36kr.com##.kr-mobile-footer
-www.36kr.com##.app-track-banner-outer
-www.36kr.com##.article-praise
-www.36kr.com##.article-no-comment
-www.36kr.com##.swiper-wrapper
+36kr.com##[rel*="icon"],.assit-wrapper,.kr-footer,.app-track-card,.float-app-button-wrp,.kr-mobile-footer
+36kr.com##^script:has-text(统计代码)
 
 ! 2023-08-22 https://sspai.com 少数派
 sspai.com##script,footer:remove()
@@ -160,42 +131,20 @@ zhrwx.com##.myui-content__operate li:nth-of-type(2)
 zhrwx.com##.myui-player__operate li:nth-of-type(1)
 
 ! 2023-12-15 https://m.agedm.org AGE动漫
-m.agedm.org##.video-comments-box.box-common
-m.agedm.org##.hd
-m.agedm.org##.comment-scrolltop.box-common
-m.agedm.org##.go-marketing.box-common
-m.agedm.org##.van-overlay
-m.agedm.org##.age-update-dialog.van-dialog
-www.agedm.org##.global_notice_wrapper
-www.agedm.org###notice_box
-www.agedm.org##.foot_content_wrapper
-www.agedm.org##.extra-box
-www.agedm.org##.col-md-12
-www.agedm.org##.video_detail_wrapper.mb-3
-www.agedm.org##.feedback-popover
-www.agedm.org##.watch-qrcode-popover
-www.agedm.org##.head-nav > li:nth-of-type(5)
+agedm.org##^[rel*="icon"],.modal-footer,#notice_box,.extra-box,.foot_content_wrapper,.col-md-12,.nav-download-link,.comment-box-wrapper
+agedm.org##.global_notice_wrapper,.video-comments-box,.van-dialog:remove()
+agedm.org##.van-overlay:remove-class(van-overlay)
+
 #======文档工具==========================================================================
 ! 2023-06-06 https://shimo.im 石墨文档
-shimo.im##.fzubdd
-shimo.im##.ivKubu
-shimo.im##.djpIoZ
-shimo.im##.owqsf
-shimo.im##.dMDzwK.disable
+shimo.im##[class*="StyledUpgradeEntrance"],[class*="StyledTipTooltip"]
 
 ! 2023-07-27 https://www.yuque.com 语雀文档
-yuque.com##[class^="CornerBubble-module_"]
-! 点赞浮窗
-yuque.com###siteTipGuide
-! 客服浮窗
-yuque.com##.dashboard-sidebar-scrollbar + div
-!广告： uniCloud云资源7折优惠
+yuque.com##^script:has-text(error)
+yuque.com###footer,[class^="like-module_"],#siteTipGuide,.dashboard-sidebar-scrollbar+div
 
 ! 2022-11-21 https://www.jianguoyun.com  坚果云盘
-www.jianguoyun.com##.teaser-container
-www.jianguoyun.com##.isActive.account-type
-www.jianguoyun.com##.active.bar-item
-www.jianguoyun.com##div.bar-item:nth-of-type(4)
+jianguoyun.com##.teaser-container,.isActive.account-type,.active.bar-item,div.bar-item:nth-of-type(4)
 
 ! 2023-02-11 https://up.woozooo.com 蓝奏云盘
 up.woozooo.com##if_top
@@ -1058,3 +1007,4 @@ cosporn.site###simple-banner,#secondary
 ! 5F自拍网
 porn5f.com##^meta,[rel*="icon"],[href*="ads"],.colse-ad,.mobframe,[id^="comments"],#dprecommend,.footer-container,.alb_320x250,#main_video_block>div~*,.top_slider,.pull-right,.position_fix_top,.navbar-right>.active~*,.top-nav,[href="/videos/jpkr"]~*
 porn5f.com##script,#gotoNext,.vjs-control-bar~*,#wrapper~*,.loc:remove()
+
