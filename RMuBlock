@@ -8,11 +8,22 @@
 
 ||google-analytics.com^$third-party
 ! 阻止Google Analytics 相关的资源请求，屏蔽这些请求可能会影响页面的某些行为或服务
-#======社交平台=============
+
+
+
+#======国内社交平台=====================================================================================================
+lofter.com##^#appdownloadbanner4noAppLogin,.m-side-download-tip,#j-tagser-app-down,#m-bottom-banner2
+lofter.com##[href*="com/app?"],#application~*:remove()
+lofter.com##button:has-text(打开 App)
+lofter.com##html:remove-attr(class)
+
+xiaohongshu.com##.login-container
+
 www.zhihu.com##^footer
 ! 2022-11-20 https://www.youtube.com
 youtube.com###ads-info-button,#ad-state,#footer:remove()
 
+#======社交平台=====================================================================================================
 ! 2023-04-13 https://discord.com
 discord.com##.wrapper-2JEvo0
 
@@ -148,7 +159,15 @@ smailpro.com##footer,.hidden,#a_1,.min-h-menuweb,.mt-4
 poe.com##[class^="Banner_root"]:remove()
 poe.com##menu[class^="MainLeftSidebar_sidebar"] > section:nth-of-type(4):remove()
 
-! 2024年8月6日 https://rebang.today 资讯热榜
+! AI工具：视频总结
+bibigpt.co##[data-sidebar="footer"]
+
+rsshub.app##.VPCarbonAds,.VPDocAsideCarbonAds
+
+apkmirror.com##^.footer,noscript,.adslot,.adsbygoogle
+apkmirror.com##^script:has-text(adsbygoogle.js)
+#======文档工具==========================================================================
+! 2024年8月6日 https://rebang.today 新闻资讯热榜
 rebang.today##^footer,noscript
 rebang.today##footer,aside>div>.border.border-border-100 
 zhihu.com##.Button--primary,.MobileModal-wrapper
@@ -167,7 +186,6 @@ tophub.today##.open-in-app
 
 ! 2024年8月6日 https://www.207788.xyz 好资源不私藏
 207788.xyz##.alignnone 
-
 #======图片===========================================================================
 ! 2022-01-21 https://www.huashi6.com  触站画师
 www.huashi6.com###popup_0092618116
@@ -193,6 +211,13 @@ soutushenqi.com###root > .Home-module_tabs_wrap_fSeSw ~ *:remove()
 
 ! 2024年8月6日 https://www.artstation.com
 artstation.com##.ad,script,.productPage-description-col,.report-section,.share-grid,.project-comments-form,#fb-root,iframe:remove()
+
+! 图片:角色萝莉
+cosporn.site##^.g1-body-inner~*,[class*="footer"],#menu-item-40821~*,.g1-drop-create,.code-block
+cosporn.site###simple-banner,#secondary
+
+#======图片===========================================================================
+
 #======论坛===========================================================================
 ! ! 2024年5月6日 https://www.t66y.com 【草榴社區】 $$$$$ 
 ! t66y.com##+js(setTimeout-defuser, tpcHt0ml, 1006)
@@ -253,12 +278,20 @@ ydwzsp.com##script:remove()
 ! 2024-07-20 https://bad.news   $$$$$
 bad.news##^meta,[rel*="icon"],.footer-parent,.login-popup,.sidebox,[href="/app"],.top-bar,.download-app-fixed,iframe,#nologinOprBox,#Div_float_area,footer,[class*="share"],[data-tid="5519269"],noscript,.expando[style],.replys,.commentarea,.usertext-edit,[id*="comment"]
 
-#======Video===========================================================================
+#======视频===========================================================================
+! 2023-08-20 https://www.xvideos.com  $$$$$
+xvideos.com##+js(xvideos.com.js)
+xvideos.com##^meta,[rel*="icon"],[id*="footer"],[class*="ads"],#tabComments_bottom_page,.share,#tabComments,.comments,#v-actions-overflow-menu
+xvideos.com##^.red-ticket,.live-cams,.nutaku-games:upward(1)
+xvideos.com##.head__menu-line__main-menu .ignore-popunder
+xvideos.com###chat-window:remove()
+
+! 2024-05-06 https://zh.xhamster.com
+wikixh.world,xhamster.com##^[rel*="icon"],noscript,.footer-wrapper,[data-role="promo-messages-wrapper"]
+wikixh.world,xhamster.com##[data-nav-item-id="cams"],[data-item="flirtify"],[data-item="premium"],[data-item="dating"],[data-item="ai-jerk-off"],.top-menu__side-group,[video-share-button],.about-control,[data-role="report-button"]
+
 ! 2023-02-13 https://www.xnxx.com   $$$$$
 xnxx.com##^meta,[rel*="icon"],#footer,.live-cams,.nutaku-games,.gold-plate,.logo-xnxx,.slogan,#header-mobile-live-cam,[id*="premium"],[href*="zlinkp.com"],[href*="sexstories"],[href*="forum.xnxx"],[id^="ad-"]
-
-! 2023-02-13 https://beeg.com
-beeg.com##^noscript
 
 ! 2024年5月5日 https://cn.pornhub.com   $$$$$
 pornhub.com##+js(pornhub-popup-defuser.js)
@@ -267,6 +300,33 @@ pornhub.com##^noscript,.footerContentWrapper,#countryRedirectMessage,#under-play
 pornhub.com##^[id*="premium"],[src*="ads"],[rel*="icon"],#js-underageModal,#signinModal
 pornhub.com##^script:has-text(loadAds)
 pornhub.com##^script:has-text(showUnderAgeModal)
+
+redtube.com##^#footer_wrapper,[src*="ads"],[href*="ads"],.js_show_live_cam
+redtube.com##^script:has-text(getAd)
+
+youporn.com##^footer,.adsbytrafficjunky,#category-menu~.js_paidTab,#videoFlagPopButton
+youporn.com##^script:has-text(AdsError)
+
+! 2023-02-13 https://beeg.com
+beeg.com##^noscript
+
+anysex.com##^#footer,.topmenu,.mainmenu>.no_pop
+
+pornmd.com##^[rel*="icon"],.footer-container
+
+! 5F自拍网
+porn5f.com##^meta,[rel*="icon"],[href*="ads"],.colse-ad,.mobframe,[id^="comments"],#dprecommend,.footer-container,.alb_320x250,#main_video_block>div~*,.top_slider,.pull-right,.position_fix_top,.navbar-right>.active~*,.top-nav,[href="/videos/jpkr"]~*
+porn5f.com##script,#gotoNext,.vjs-control-bar~*,#wrapper~*,.loc:remove()
+
+! 恋足癖色情网
+xfeet.xyz##^[rel*="icon"],#page~div,footer,[id*="shortcode"],.video-player+div[style],.video-player~div[align="right"],#menu-item-445~*,.clear,.happy-header-mobile
+xfeet.xyz###simple-banner
+
+! OnlyFans
+bitchesgirls.com##.footer,script,.buttonContainer,.social-links:remove()
+bitchesgirls.com##.navbar-grid > *:not(.nav-categories):remove()
+
+#======视频===========================================================================
 
 ! 2024年5月5日 https://spankbang.com 免费和4K   $$$$$
 spankbang.com##^meta,[rel*="icon"],noscript,[src*="liver"],footer,.live_cam_header_2,[href="/tv/"],li.ls
@@ -284,13 +344,6 @@ bellesa.co##[class*="_VideoAd-"]:nth-ancestor(7):remove()
 ! VideoAd
 bellesa.co##footer > div > [display]:remove()
 ! Bellesa. 保留所有权利
-
-! 2023-08-20 https://www.xvideos.com  $$$$$
-xvideos.com##+js(xvideos.com.js)
-xvideos.com##^meta,[rel*="icon"],[id*="footer"],[class*="ads"],#tabComments_bottom_page,.share,#tabComments,.comments,#v-actions-overflow-menu
-xvideos.com##^.red-ticket,.live-cams,.nutaku-games:upward(1)
-xvideos.com##.head__menu-line__main-menu .ignore-popunder
-xvideos.com###chat-window:remove()
 
 ! 2023-08-20 https://hqporner.com 高分辨率高质量  $$$$$
 hqporner.com##^meta,[rel*="icon"],noscript,footer,.footer-bg,.color8,.color2,.footerWrapper
@@ -310,10 +363,6 @@ pigav.com##^[rel="alternate"],[rel="icon"],footer,#menu-item-541808~*
 
 ! 2023-05-05 https://javday.tv 麻豆 看到飽  $$$$$
 javday.tv##^#footer,[rel*="icon"]
-
-! 2024-05-06 https://zh.xhamster.com
-wikixh.world,xhamster.com##^[rel*="icon"],noscript,.footer-wrapper,[data-role="promo-messages-wrapper"]
-wikixh.world,xhamster.com##[data-nav-item-id="cams"],[data-item="flirtify"],[data-item="premium"],[data-item="dating"],[data-item="ai-jerk-off"],.top-menu__side-group,[video-share-button],.about-control,[data-role="report-button"]
 
 ! 2024年4月30日 https://www.redgifs.com  $$$$$
 redgifs.com##^meta,[rel*="icon"],[href*="-ads-"],noscript,
@@ -484,9 +533,16 @@ members.luscious.net##footer,.page-footer,.front-page-call-to-action,.o-bgcolor-
 twhentai.com##.file
 twhentai.com##.navbar-header
 #======漫画===========================================================================
+
 #======图片===========================================================================
+#### Hentai 画廊 ####
+e-hentai.org##^[src*="jads"],.dp
+
+#### Hentai 画廊 ####
+loibus505.top##script,.v-snack,.v-dialog__content,.col-md-2.col-12.align-self-center,footer:remove()
+
 ! 2024-05-08 https://a-hadaka.jp
-a-hadaka.jp##^meta,footer,#comments
+a-hadaka.jp##^meta,footer,#comments,#overlay,address,[href^="https://www.amazon"],#commentarea,.amazonpr,.dmmpr
 a-hadaka.jp##script:remove()
 
 ! 2023-09-15 https://moeimg.net
@@ -496,6 +552,7 @@ moeimg.net##.searchbyimage,br
 ! 2024-01-21 https://www.pornpics.com
 pornpics.com##^meta,[rel*="icon"],footer,.footer-push,.left-nav-sponsor,.share-main,.comm-from-section,.comments,.gall-info-report,.gall-info-share,.gall-info-comments
 pornpics.com###wrapper~*:remove()
+pornpics.com##.img-bluring:remove-attr(class)
 
 ! 2024-02-22 http://www.wsgmzt.com 无圣光妹子图
 wsgmzt.com##script:remove()
@@ -533,10 +590,8 @@ asianude4u.net##.single-content >  *:not(.meta-wrap,.entry-top,article):remove()
 asianude4u.net##.whatsapp,.emailbutton,script,.home-share,.sidebar,#single-share,[rel*="icon"]:remove()
 
 ! 2024-05-13 https://jablehk.com Jablehk｜精選J圖及巨乳台妹性感照2024 
-jablehk.com##^meta,#floatingCart,[data-section-theme="black-bold"],footer,.header-actions--right
-
-! 2023-12-11 https://m.930tu.com 930圖片網 - 性感美女寫真_美女套圖分享_美女圖片大全欣賞
-930tu.com##script,.footer,.return:remove()
+jablehk.com##^meta,#floatingCart,[data-section-theme="black-bold"],footer,.header-actions--right,[rel*="icon"],svg
+jablehk.com##.yui-popup-container-node:remove()
 
 ! 2024-04-14 https://accounts.pixiv.net pixiv是提供插画等作品的投稿、阅览服务的「插画交流网站」
 pixiv.net##.khrVhz[href="/info.php"]:upward(2)
@@ -607,6 +662,8 @@ youngpussypic.com##^meta,[rel="alternate"],.last-searches+div
 ! 2024年6月24日 https://www.metarthunter.com
 metarthunter.com##^meta,[rel*="icon"],.list-triple,.rating-a~*,.link-d,figure
 
+
+
 #======图片===========================================================================
 #======ASMR===========================================================================
 ! 2024-05-08 https://www.hentaiasmr.moe
@@ -623,6 +680,7 @@ www.hentaiasmr.moe##.aside-cats[style]
 ! 2024年4月24日 https://www.4khd.com
 4khd.com##script,.centbtd,footer:remove()
 4khd.com##body>*:not(.wp-site-blocks,style):remove()
+4khd.com##^script:has-text(targetStrings)
 
 ! 2024-05-10 https://orgasmsoundlibrary.com
 orgasmsoundlibrary.com###general_footer
@@ -693,6 +751,11 @@ hentaigasm.com##div[id^="custom_"],.adv,#footer,script,div[style*="float"],scrip
 hentaigasm.com##.section-box.related-posts ~ *
 hentaigasm.com##.loop-content ~ *:not(.loop-nav)
 
+hentaigasm.com##^[src*="ad-provider"],[rel*="icon"]
+hentaigasm.com##^script:has-text(AdProvider)
+hentaigasm.com##^script:has-text(ad_chrome)
+
+
 xanimu.com##body > *:not(#page):remove()
 xanimu.com###page > *:not(#wrapper-navbar,#single-wrapper,.header,#content):remove()
 xanimu.com###comment_link,.hero,[ID*="-boxes-mobile"],.vid-report,meta,script,#box-txtovka-con:remove()
@@ -724,6 +787,13 @@ ohentai.org##[href="https://porngameshub.com/hentai"]
 animeh.to##footer,script,meta,.site-bottom-wrapper,link:not([rel="stylesheet"]):remove()
 animeh.to##.parax-wraper
 
+! 3D Dude
+3dporndude.com##footer,script,.header-links,.asside-link,.link-offer,[href^="https://faphouse.com"],[href="#tab3"],[href="#tab5"],.block-tabs,div.second,.spot,.col-asside,#list_videos_related_videos:remove()
+
+! Nsfw 34
+nsfwr34.com###site-footer,script,[id^="share_box"],.button-group-share,.button-group-report,.comments-list-lg,#menu-item-38436:remove()
+nsfwr34.com###menu-item-34 ~ *:remove()
+
 #======动漫===========================================================================
 #======小说===========================================================================
 69story.com##table:remove-class(table)
@@ -732,13 +802,16 @@ animeh.to##.parax-wraper
 69story.com##^#read-more,main#main>article~*,.entry-title~*,main#main>article>.entry-content~*,#menu-item-212,td[colspan="2"],#menu-item-1189~*,#primary>#main>table+div,[href="https://g.gaypad.net/"]
 69story.com##^#primary.content-area.col-xs-12~*,#banner5
 ! ======Telegram ===========================================================================
-telegram.org##title,[rel*="icon"]:remove()
+telegram.org##^[rel*="icon"],meta[name],meta[property]
 telegram.org##+js(set-attribute, div.progress-line__filled, style, width: 100%;)
 ! 音量设置100%
+! telegram.org##+js(set-attribute, .media-viewer-buttons, style, display:flex;justify-content:center;align-items:center;)
+telegram.org##+js(set-interval, .media-viewer-buttons, 'display: flex; justify-content: center; align-items: center;', 500)
+
 ! telegram.org##.toasts-container
 ! telegram.org##.popup-premium,meta:remove()
 ! #开会员
-! telegram.org##.btn-icon:remove-class(hide)
+telegram.org##.btn-icon:remove-class(hide)
 ! #移除下载按钮隐藏
 ! telegram.org###portals + script:remove()
 ! #在页面加载时检查浏览器是否支持一系列现代 Web 特性 [compatTest.js]
@@ -747,6 +820,8 @@ telegram.org##+js(set-attribute, div.progress-line__filled, style, width: 100%;)
 ! telegram.org##.media-viewer-whole > .overlays:remove()
 ! ! 视频播放时，取消背景模糊
 ! telegram.org##[rel*="icon"]:remove()
+telegram.org##.bubbles-group span:has-text(扑克):nth-ancestor(4)
+telegram.org##.bubbles-group span:has-text(广告):nth-ancestor(4)
 telegram.org##.bubbles-group span:has-text(棋牌):nth-ancestor(4)
 telegram.org##.bubbles-group span:has-text(赌场):nth-ancestor(4)
 telegram.org##.bubbles-group span:has-text(游戏):nth-ancestor(4)
@@ -872,13 +947,6 @@ internetchicks.com##script,.title-area,.live-cams,.tpd-link-desktop,.footer-widg
 ! ===OnlyFans===================================================
 erothots.co##script,noscript,iframe,.iframe,.info-section,.magic-sites,.new,.mb-0.title + div,.list-btn-box,[rel="alternate"],[rel*="icon"],[href*="simpshub.com"]
 
-bitchesgirls.com##.footer,script,.buttonContainer,.social-links:remove()
-bitchesgirls.com##.navbar-grid > *:not(.nav-categories):remove()
-
-nsfwr34.com###site-footer,script,[id^="share_box"],.button-group-share,.button-group-report,.comments-list-lg,#menu-item-38436:remove()
-nsfwr34.com###menu-item-34 ~ *:remove()
-
-3dporndude.com##footer,script,.header-links,.asside-link,.link-offer,[href^="https://faphouse.com"],[href="#tab3"],[href="#tab5"],.block-tabs,div.second,.spot,.col-asside,#list_videos_related_videos:remove()
 ! ===广告网址===================================================
 ||ad-nex.com^
 ||adapf.com^
@@ -889,13 +957,3 @@ nsfwr34.com###menu-item-34 ~ *:remove()
 ||livedoor.net^
 ||juicyads.com^
 ! ===广告网址===================================================
-! 恋足癖色情网
-xfeet.xyz##^[rel*="icon"],#page~div,footer,[id*="shortcode"],.video-player+div[style],.video-player~div[align="right"],#menu-item-445~*,.clear,.happy-header-mobile
-xfeet.xyz###simple-banner
-
-cosporn.site##^.g1-body-inner~*,[class*="footer"],#menu-item-40821~*,.g1-drop-create,.code-block
-cosporn.site###simple-banner,#secondary
-
-! 5F自拍网
-porn5f.com##^meta,[rel*="icon"],[href*="ads"],.colse-ad,.mobframe,[id^="comments"],#dprecommend,.footer-container,.alb_320x250,#main_video_block>div~*,.top_slider,.pull-right,.position_fix_top,.navbar-right>.active~*,.top-nav,[href="/videos/jpkr"]~*
-porn5f.com##script,#gotoNext,.vjs-control-bar~*,#wrapper~*,.loc:remove()
