@@ -24,6 +24,8 @@ www.zhihu.com##^footer
 youtube.com###ads-info-button,#ad-state,#footer:remove()
 
 #======社交平台=====================================================================================================
+
+
 ! 2023-04-13 https://discord.com
 discord.com##.wrapper-2JEvo0
 
@@ -71,6 +73,10 @@ douyin.com##[data-e2e="something-button"]:has-text(充钻石):upward(3)
 douyin.com##[data-e2e="something-button"]:has-text(快捷访问):upward(3)
 douyin.com##[data-e2e="something-button"]:has-text(投稿):upward(3)
 douyin.com##div[class][style]:has-text(下载电脑客户端)
+
+kuaishou.com##^[src*="/pc-vision/js/NewReco"],#app~div,footer
+kuaishou.com###app~div,.toolbar,footer,.guide-widget:remove()
+
 
 ! 2023-02-11 https://www.douban.com 豆瓣
 douban.com##.nav-open-app,.talion-nav-footer,.download-app
@@ -166,7 +172,10 @@ rsshub.app##.VPCarbonAds,.VPDocAsideCarbonAds
 
 apkmirror.com##^.footer,noscript,.adslot,.adsbygoogle
 apkmirror.com##^script:has-text(adsbygoogle.js)
+apkmirror.com##body:remove-attr(style)
 #======文档工具==========================================================================
+
+
 ! 2024年8月6日 https://rebang.today 新闻资讯热榜
 rebang.today##^footer,noscript
 rebang.today##footer,aside>div>.border.border-border-100 
@@ -186,6 +195,7 @@ tophub.today##.open-in-app
 
 ! 2024年8月6日 https://www.207788.xyz 好资源不私藏
 207788.xyz##.alignnone 
+
 #======图片===========================================================================
 ! 2022-01-21 https://www.huashi6.com  触站画师
 www.huashi6.com###popup_0092618116
@@ -345,6 +355,8 @@ bellesa.co##[class*="_VideoAd-"]:nth-ancestor(7):remove()
 bellesa.co##footer > div > [display]:remove()
 ! Bellesa. 保留所有权利
 
+
+
 ! 2023-08-20 https://hqporner.com 高分辨率高质量  $$$$$
 hqporner.com##^meta,[rel*="icon"],noscript,footer,.footer-bg,.color8,.color2,.footerWrapper
 
@@ -363,6 +375,8 @@ pigav.com##^[rel="alternate"],[rel="icon"],footer,#menu-item-541808~*
 
 ! 2023-05-05 https://javday.tv 麻豆 看到飽  $$$$$
 javday.tv##^#footer,[rel*="icon"]
+
+
 
 ! 2024年4月30日 https://www.redgifs.com  $$$$$
 redgifs.com##^meta,[rel*="icon"],[href*="-ads-"],noscript,
@@ -727,6 +741,8 @@ eatasmr.com##body > iframe
 
 #======ASMR==========================================================================
 #======动漫===========================================================================
+acgmhb.com##^.links,.footer,.adbox,.other,script[data-admpid]
+
 ! 2024-05-09 https://rule34video.co
 rule34video.com##^[rel*="icon"],.logo+div,body>.fancybox-overlay,.footer,.mobile-box
 
@@ -947,6 +963,10 @@ internetchicks.com##script,.title-area,.live-cams,.tpd-link-desktop,.footer-widg
 ! ===OnlyFans===================================================
 erothots.co##script,noscript,iframe,.iframe,.info-section,.magic-sites,.new,.mb-0.title + div,.list-btn-box,[rel="alternate"],[rel*="icon"],[href*="simpshub.com"]
 
+
+
+
+
 ! ===广告网址===================================================
 ||ad-nex.com^
 ||adapf.com^
@@ -956,4 +976,6 @@ erothots.co##script,noscript,iframe,.iframe,.info-section,.magic-sites,.new,.mb-
 ||crs.adapf.com^
 ||livedoor.net^
 ||juicyads.com^
+
 ! ===广告网址===================================================
+
