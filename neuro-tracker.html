@@ -76,6 +76,19 @@
             color: #666;
             font-size: 0.9em;
         }
+        /* 新增样式 */
+        .range-value {
+            display: inline-block;
+            min-width: 20px;
+            text-align: center;
+        }
+        td button {
+            margin: 2px;
+            padding: 4px 8px;
+        }
+        .thoughts-cell {
+            white-space: pre-line;
+        }
     </style>
 </head>
 <body>
@@ -89,8 +102,8 @@
         <h2>非睡眠深度休息记录</h2>
         <div class="grid">
             <div>
-                <label>日期</label>
-                <input type="date" id="date" required>
+                <label>日期时间</label>
+                <input type="datetime-local" id="date" required>
             </div>
             <div>
                 <label>放松时长（分钟）</label>
@@ -111,10 +124,12 @@
             <div>
                 <label>愉悦程度 (1-10)</label>
                 <input type="range" id="pleasure" min="1" max="10" value="5">
+                <span class="range-value" id="pleasureValue">5</span>
             </div>
             <div>
                 <label>满足感 (1-10)</label>
                 <input type="range" id="satisfaction" min="1" max="10" value="5">
+                <span class="range-value" id="satisfactionValue">5</span>
             </div>
             <div>
                 <label>心率值 (bpm)</label>
@@ -136,6 +151,7 @@
                     <th>愉悦</th>
                     <th>满足</th>
                     <th>心率</th>
+                    <th>操作</th>
                 </tr>
             </thead>
             <tbody id="recordsBody"></tbody>
@@ -274,15 +290,19 @@ function getUpgradedAction(name) {
 // 界面更新
 function renderRecords() {
     const tbody = document.getElementById('recordsBody');
-    tbody.innerHTML = nsdrRecords.map(record => `
+    tbody.innerHTML = nsdrRecords.map((record, index) => `
         <tr>
             <td>${record.date}</td>
             <td>${record.duration}分钟</td>
             <td>${record.distractions}次</td>
-            <td>${record.thoughts}</td>
+            <td class="thoughts-cell">${record.thoughts}</td>
             <td>${record.pleasure}</td>
             <td>${record.satisfaction}</td>
             <td>${record.heartRate}</td>
+            <td>
+                <button onclick="editRecord(${index})">编辑</button>
+                <button onclick="deleteRecord(${index})">删除</button>
+            </td>
         </tr>
     `).join('');
 }
@@ -304,14 +324,14 @@ function formatAction(action) {
 
 // 工具函数
 function exportCSV() {
-    const csvContent = "data:text/csv;charset=utf-8," 
-        + "日期,时长,分心次数,念头清单,愉悦,满足,心率\n"
+    const csvContent = "\ufeff日期,时长,分心次数,念头清单,愉悦,满足,心率\n" 
         + nsdrRecords.map(r => 
-            `${r.date},${r.duration},${r.distractions},"${r.thoughts}",${r.pleasure},${r.satisfaction},${r.heartRate}`
+            `${r.date},${r.duration},${r.distractions},"${r.thoughts.replace(/"/g, '""')}",${r.pleasure},${r.satisfaction},${r.heartRate}`
         ).join("\n");
     
+    const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
     const link = document.createElement('a');
-    link.href = encodeURI(csvContent);
+    link.href = URL.createObjectURL(blob);
     link.download = `nsdr记录_${new Date().toISOString().slice(0,10)}.csv`;
     link.click();
 }
@@ -336,9 +356,65 @@ function resetUsage() {
     updateUsage();
 }
 
+// 新增记录操作功能
+function deleteRecord(index) {
+    if (confirm('确定删除此记录吗？')) {
+        nsdrRecords.splice(index, 1);
+        localStorage.setItem('nsdrRecords', JSON.stringify(nsdrRecords));
+        renderRecords();
+    }
+}
+
+function editRecord(index) {
+    const record = nsdrRecords[index];
+    // 填充表单数据
+    document.getElementById('date').value = record.date;
+    document.getElementById('duration').value = record.duration;
+    document.getElementById('distractions').value = record.distractions;
+    document.getElementById('thoughts').value = record.thoughts;
+    document.getElementById('pleasure').value = record.pleasure;
+    document.getElementById('satisfaction').value = record.satisfaction;
+    document.getElementById('heartRate').value = record.heartRate;
+    
+    // 更新滑动条显示
+    document.getElementById('pleasureValue').textContent = record.pleasure;
+    document.getElementById('satisfactionValue').textContent = record.satisfaction;
+
+    // 修改保存按钮功能
+    const saveBtn = document.querySelector('button[onclick="saveNSDR()"]');
+    saveBtn.onclick = function() {
+        updateRecord(index);
+    };
+}
+
+function updateRecord(index) {
+    const record = {
+        date: document.getElementById('date').value,
+        duration: parseInt(document.getElementById('duration').value),
+        distractions: parseInt(document.getElementById('distractions').value),
+        thoughts: document.getElementById('thoughts').value,
+        pleasure: parseInt(document.getElementById('pleasure').value),
+        satisfaction: parseInt(document.getElementById('satisfaction').value),
+        heartRate: parseInt(document.getElementById('heartRate').value)
+    };
+    
+    nsdrRecords[index] = record;
+    localStorage.setItem('nsdrRecords', JSON.stringify(nsdrRecords));
+    renderRecords();
+    alert('记录更新成功！');
+}
+
 // 初始化
-document.getElementById('date').valueAsDate = new Date();
+document.getElementById('date').value = new Date().toISOString().slice(0, 16);
 document.getElementById('dailyUsage').textContent = dailyUsage;
+
+// 滑动条数值显示逻辑
+document.getElementById('pleasure').addEventListener('input', function() {
+    document.getElementById('pleasureValue').textContent = this.value;
+});
+document.getElementById('satisfaction').addEventListener('input', function() {
+    document.getElementById('satisfactionValue').textContent = this.value;
+});
 
 // 事件绑定
 document.querySelectorAll('.tab-btn').forEach(btn => {
