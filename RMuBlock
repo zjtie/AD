@@ -30,7 +30,21 @@ youtube.com###ads-info-button,#ad-state,#footer:remove()
 discord.com##.wrapper-2JEvo0
 
 ! 2024年6月27日 https://x.com
-
+$removeparam=refsrc,domain=twitter.com|x.com
+$removeparam=ref_src,domain=twitter.com|x.com
+$removeparam=ref_url,domain=twitter.com|x.com
+$removeparam=cxt,domain=twitter.com|x.com
+$removeparam=s,domain=twitter.com|x.com
+! 移除URL中的特定参数，以防止用户被跟踪
+twitter.com,x.com##[data-testid="primaryColumn"] [data-testid="cellInnerDiv"] > div:has([data-testid$="-impression-pixel"]):remove()
+twitter.com,x.com,~platform.twitter.com##+js(json-prune-xhr-response, data.home.home_timeline_urt.instructions.[].entries.[-].content.itemContent.promotedMetadata, , propsToMatch, url:/Home)
+twitter.com,x.com,~platform.twitter.com##+js(json-prune-xhr-response, data.search_by_raw_query.search_timeline.timeline.instructions.[].entries.[-].content.itemContent.promotedMetadata, , propsToMatch, url:/SearchTimeline)
+twitter.com,x.com,~platform.twitter.com##+js(json-prune-xhr-response, data.threaded_conversation_with_injections_v2.instructions.[].entries.[-].content.items.[].item.itemContent.promotedMetadata, , propsToMatch, url:/TweetDetail)
+twitter.com,x.com,~platform.twitter.com##+js(json-prune-xhr-response, data.user.result.timeline_v2.timeline.instructions.[].entries.[-].content.itemContent.promotedMetadata, , propsToMatch, url:/UserTweets)
+twitter.com,x.com,~platform.twitter.com##+js(json-prune-xhr-response, data.immersiveMedia.timeline.instructions.[].entries.[-].content.itemContent.promotedMetadata, , propsToMatch, url:/ImmersiveMedia)
+! 移除响应中的推广内容来确保用户看到的内容不包含广告
+x.com##div[data-testid="tweetText"]:has-text(关闭VPN):upward(9)
+! 屏蔽帖子，只要含有某个关键词
 
 ! 2024-08-03 https://www.reddit.com
 reddit.com###RESOURCES > *:not([noun="communities_menu"],[noun="rereddit_menu"],[noun="topics_menu"]):remove()
