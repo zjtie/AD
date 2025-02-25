@@ -30,28 +30,7 @@ youtube.com###ads-info-button,#ad-state,#footer:remove()
 discord.com##.wrapper-2JEvo0
 
 ! 2024年6月27日 https://x.com
-x.com##nav > a[href="/i/grok"][aria-label="Grok"]:remove()
-! 导航 Grok
-x.com##a[href="/jobs"]:remove()
-! 导航工作
-x.com##a[href="/i/premium_sign_up"]:remove()
-x.com##[data-testid="sidebarColumn"] aside[aria-label="订阅 Premium"]:nth-ancestor(2):remove()
-! 导航premium
-x.com##a[href="/i/verified-orgs-signup"]:remove()
-! 导航认证组织
-x.com##a[href="/compose/post"][data-testid="SideNav_NewTweet_Button"]:remove()
-x.com##a[href="/compose/post"][data-testid="FloatingActionButtons_Tweet_Button"]:nth-ancestor(4):remove()
-x.com##div[role="progressbar"] + div:remove()
-! 导航发帖
-x.com##a[href="/i/monetization"]:remove()
-! 导航盈利 
-x.com##a[href^="https://ads.x.com"]:remove()
-! 导航广告
-x.com##[href="/i/verified-get-verified"]
-! 升级premium下载视频
-! x.com###react-root ~ *:remove()
-x.com##noscript,meta,[rel*="icon"]:remove()
-x.com##^.errorContainer,noscript,.errorFooter
+
 
 ! 2024-08-03 https://www.reddit.com
 reddit.com###RESOURCES > *:not([noun="communities_menu"],[noun="rereddit_menu"],[noun="topics_menu"]):remove()
