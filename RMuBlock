@@ -22,6 +22,50 @@ xiaohongshu.com##.login-container
 www.zhihu.com##^footer
 ! 2022-11-20 https://www.youtube.com
 youtube.com###ads-info-button,#ad-state,#footer:remove()
+! 屏蔽 YouTube 广告
+www.youtube.com##+js(json-prune-fetch-response, playerAds adPlacements adSlots no_ads playerResponse.playerAds playerResponse.adPlacements playerResponse.adSlots playerResponse.no_ads, , propsToMatch, /\/(player|get_watch)\?/)
+www.youtube.com##+js(json-prune-fetch-response, playerAds adPlacements adSlots no_ads playerResponse.playerAds playerResponse.adPlacements playerResponse.adSlots playerResponse.no_ads, , propsToMatch, /playlist?)
+www.youtube.com##+js(json-prune-xhr-response, playerAds adPlacements adSlots no_ads playerResponse.playerAds playerResponse.adPlacements playerResponse.adSlots playerResponse.no_ads [].playerResponse.adPlacements [].playerResponse.playerAds [].playerResponse.adSlots [].playerResponse.no_ads, , propsToMatch, /\/player(?:\?.+)?$/)
+tv.youtube.com##+js(trusted-replace-xhr-response, '"adPlacements"', '"no_ads"', /playlist\?list=|\/player(?:\?.+)?$|watch\?[tv]=/)
+!#if !cap_html_filtering
+www.youtube.com##+js(trusted-replace-xhr-response, /"adPlacements.*?([A-Z]"\}|"\}{2\,4})\}\]\,/, , /playlist\?list=|\/player(?:\?.+)?$|watch\?[tv]=/)
+www.youtube.com##+js(trusted-replace-xhr-response, /"adPlacements.*?("adSlots"|"adBreakHeartbeatParams")/gms, $1, /\/player(?:\?.+)?$/)
+www.youtube.com##+js(trusted-replace-fetch-response, '"adPlacements"', '"no_ads"', player?)
+www.youtube.com##+js(trusted-replace-fetch-response, '"adSlots"', '"no_ads"', player?)
+!#else
+||www.youtube.com/playlist?list=$xhr,1p,replace=/"adPlacements"/"no_ads"/
+||www.youtube.com/playlist?list=$xhr,1p,replace=/"adSlots"/"no_ads"/
+||www.youtube.com/watch?$xhr,1p,replace=/"adPlacements"/"no_ads"/
+||www.youtube.com/watch?$xhr,1p,replace=/"adSlots"/"no_ads"/
+||www.youtube.com/youtubei/v1/player?$xhr,1p,replace=/"adPlacements"/"no_ads"/
+||www.youtube.com/youtubei/v1/player?$xhr,1p,replace=/"adSlots"/"no_ads"/
+||youtube.com/youtubei/v1/get_watch?$xhr,1p,replace=/"adPlacements"/"no_ads"/
+||youtube.com/youtubei/v1/get_watch?$xhr,1p,replace=/"adSlots"/"no_ads"/
+!#endif
+www.youtube.com##+js(trusted-prevent-dom-bypass, Node.prototype.appendChild, fetch)
+
+! 屏蔽与 YouTube 相关的恶意网站
+||youtube.com/@Tesla.debate_live2024^$doc
+||youtube.com/@TheCryptoLarkCrypto^$doc
+||youtube.com/@tesla24official^$doc
+||youtube.com/@tesla.Iive.officiaI.24^$doc
+||youtube.com/@jesseeckel5^$doc
+
+! 修复被 Peter Lowe's 过滤器阻止的 adssettings.google.com
+||ads.youtube.com^$badfilter
+||ads.youtube.com^$domain=~ads.youtube.com
+
+! 移除 YouTube URL 参数
+||youtube.com^$removeparam=pp
+||youtu.be^$removeparam=si
+
+! 解除被 EasyList 和 French List 误封的规则
+*$script,1p,domain=up-load.io,badfilter
+*$xhr,domain=up-load.io,badfilter
+
+
+
+
 
 #======社交平台=====================================================================================================
 
@@ -401,6 +445,10 @@ javday.tv##^#footer,[rel*="icon"]
 redgifs.com##^meta,[rel*="icon"],[href*="-ads-"],noscript,
 redgifs.com##.topNav-wrap>*:not(.SearchInput):remove()
 redgifs.com##iframe,.TabLink_isUpload:remove()
+redgifs.com##+js(json-prune, gifs.[-].cta)
+! 用 json-prune 过滤器来移除GIF用饲料中的广告调用
+redgifs.com##[href*="Tooltip"],[class*="Tooltip"]:remove()
+! 浮窗提示
 
 ! 2024-05-08 https://avbebe.com  $$$$$
 avbebe.com##^#footer,#menu-item-141367~*,.jnews_comment_container,.item_main .menu-item-141367~*
@@ -863,7 +911,24 @@ telegram.org##.bubbles-group span:has-text(游戏):nth-ancestor(4)
 telegram.org##.bubbles-group span:has-text(莆田):nth-ancestor(4)
 telegram.org##.bubbles-group span:has-text(支付):nth-ancestor(4)
 telegram.org##.bubbles-group span:has-text(立即体验):nth-ancestor(4)
-
+telegram.org##.bubbles-group span:has-text(现金):nth-ancestor(4)
+telegram.org##.bubbles-group span:has-text(神秘通道):nth-ancestor(4)
+! 屏蔽与 Telegram 相关的恶意网站
+||telegramhcn.com^$all
+||brawllstars.ru^$all
+||telegremapp.me^$all
+||telegerasm.work^$all
+||telegeram.work^$all
+||webtelegram.eu.org^$all
+||telaagam.maxisl.vip^$all
+||zhongwen-telegram.com^$all
+||telergaom.top^$all
+||telergctm.vip^$all
+||teiegram.work^$all
+||telegrambotsolution.pages.dev^$all
+/^https:\/\/www\.telegram[a-z]{2}\.com\//$doc,to=com|~telegram.org
+||telegram-*.com/login/index.html^$all
+||telezelm-*.icu^$doc
 ! ======Telegram ===========================================================================
 ! 2024年11月27日 https://www.hanime.xyz  动漫：H動漫網
 hanime.xyz##^[rel*="icon"],.container-fluid[style="background:#000;height:40px;"],#safariModal,#chromeModal,#collapsibleNavbar,footer,#reportModal,.row.no-gutters,#top-ads,.row.p-1,.row.links
