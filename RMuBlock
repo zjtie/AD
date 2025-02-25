@@ -54,12 +54,31 @@ x.com##div nav[aria-label="页脚"]
 ! 屏蔽按钮
 
 ! 2024-08-03 https://www.reddit.com
-reddit.com###RESOURCES > *:not([noun="communities_menu"],[noun="rereddit_menu"],[noun="topics_menu"]):remove()
 ! 导航
-reddit.com##[data-part="advertise"],[data-part="create"],create-post-entry-point-wrapper:remove()
+reddit.com###RESOURCES > *:not([noun="communities_menu"],[noun="rereddit_menu"],[noun="topics_menu"]):remove()
 ! 创作
-reddit.com##img.object-cover:remove-attr(style)
+reddit.com##[data-part="advertise"],[data-part="create"],create-post-entry-point-wrapper:remove()
 ! 移除模糊样式
+reddit.com##img.object-cover:remove-attr(style)
+! 屏蔽推广链接和广告
+reddit.com##.promotedlink,.promoted,.ad-container,.ad,.ad-placeholder,.promoted-content
+! 屏蔽特定的广告元素
+reddit.com##.ad-banner,.ad-sidebar,.ad-footer,.ad-top,.ad-bottom
+! 屏蔽赞助帖子
+reddit.com##.sponsored-post,.sponsored-link,.sponsored-content
+! 屏蔽其他与广告相关的元素
+reddit.com##.ad-slot,.ad-unit,.ad-wrapper,.ad-box,.ad-item
+! 屏蔽推广的用户内容
+reddit.com##.promoted-user-content,.promoted-user-post,.promoted-user-link
+! 屏蔽视频广告
+reddit.com##.video-ad,.video-promoted
+! 屏蔽广告跟踪脚本
+||reddit.com/ads/*
+||redditmedia.com/ads/*
+||redditstatic.com/ads/*
+||reddit.com/track/*
+||redditmedia.com/track/*
+||redditstatic.com/track/*
 
 ! 2023-12-19 https://i.jandan.net 煎蛋
 
