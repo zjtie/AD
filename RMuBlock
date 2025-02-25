@@ -410,6 +410,14 @@ bitchesgirls.com##.navbar-grid > *:not(.nav-categories):remove()
 spankbang.com##^meta,[rel*="icon"],noscript,[src*="liver"],footer,.live_cam_header_2,[href="/tv/"],li.ls
 spankbang.com##^.info>.user_uploads~*
 
+spankbang.name##+js(aopr, document.dispatchEvent)
+spankbang.cc##+js(acis, decodeURI, decodeURIComponent)
+spankbang.cc##+js(aopr, AaDetector)
+spankbang.cc##+js(nostif, _0x)
+||madsips.com^$3p
+mmtv01.xyz,spankbang.mov###pop.div_pop
+! 屏蔽 SpankBang 广告和内容
+
 ! 2022-11-20 https://www.bellesa.co 
 #作为快乐的主体，而不是征服的对象 #性应该是有趣的、充满力量的
 bellesa.co###app ~ *:remove()
