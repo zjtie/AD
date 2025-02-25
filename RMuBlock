@@ -360,8 +360,9 @@ xvideos.com##.head__menu-line__main-menu .ignore-popunder
 xvideos.com###chat-window:remove()
 
 ! 2024-05-06 https://zh.xhamster.com
-wikixh.world,xhamster.com##^[rel*="icon"],noscript,.footer-wrapper,[data-role="promo-messages-wrapper"]
+wikixh.world,xhamster.com##[rel*="icon"],noscript,.footer-wrapper,[data-role="promo-messages-wrapper"]
 wikixh.world,xhamster.com##[data-nav-item-id="cams"],[data-item="flirtify"],[data-item="premium"],[data-item="dating"],[data-item="ai-jerk-off"],.top-menu__side-group,[video-share-button],.about-control,[data-role="report-button"]
+wikixh.world,xhamster.com##div[data-role="promo-messages-wrapper"]
 
 ! 2023-02-13 https://www.xnxx.com   $$$$$
 xnxx.com##^meta,[rel*="icon"],#footer,.live-cams,.nutaku-games,.gold-plate,.logo-xnxx,.slogan,#header-mobile-live-cam,[id*="premium"],[href*="zlinkp.com"],[href*="sexstories"],[href*="forum.xnxx"],[id^="ad-"]
