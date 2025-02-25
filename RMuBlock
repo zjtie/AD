@@ -374,6 +374,7 @@ pornhub.com##^[id*="premium"],[src*="ads"],[rel*="icon"],#js-underageModal,#sign
 pornhub.com##^script:has-text(loadAds)
 pornhub.com##^script:has-text(showUnderAgeModal)
 
+
 redtube.com##^#footer_wrapper,[src*="ads"],[href*="ads"],.js_show_live_cam
 redtube.com##^script:has-text(getAd)
 
