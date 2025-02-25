@@ -45,6 +45,13 @@ twitter.com,x.com,~platform.twitter.com##+js(json-prune-xhr-response, data.immer
 ! 移除响应中的推广内容来确保用户看到的内容不包含广告
 x.com##div[data-testid="tweetText"]:has-text(关闭VPN):upward(9)
 ! 屏蔽帖子，只要含有某个关键词
+x.com##aside[aria-label="订阅 Premium"]:upward(2)
+x.com##a[href="/i/premium_sign_up"][role="link"]
+x.com##a[href="/i/verified-orgs-signup"][role="link"]
+x.com##a[href="/compose/post"][role="link"]
+x.com##aside[aria-label="撰写帖子"]
+x.com##div nav[aria-label="页脚"]
+! 屏蔽按钮
 
 ! 2024-08-03 https://www.reddit.com
 reddit.com###RESOURCES > *:not([noun="communities_menu"],[noun="rereddit_menu"],[noun="topics_menu"]):remove()
