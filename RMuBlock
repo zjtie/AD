@@ -369,11 +369,15 @@ xnxx.com##^meta,[rel*="icon"],#footer,.live-cams,.nutaku-games,.gold-plate,.logo
 ! 2024年5月5日 https://cn.pornhub.com   $$$$$
 pornhub.com##+js(pornhub-popup-defuser.js)
 pornhub.com##+js(pornhub-sanitizer.js)
-pornhub.com##^noscript,.footerContentWrapper,#countryRedirectMessage,#under-player-comments,.userActions,#jsShare,#video_flag,#menuItem4,.adsbytrafficjunky,#leftMenuScroll>[href="/albums"]~*,#welcome,.logoWrapper
+pornhub.com##noscript,.footerContentWrapper,#countryRedirectMessage,#under-player-comments,.userActions,#jsShare,#video_flag,#menuItem4,.adsbytrafficjunky,#leftMenuScroll>[href="/albums"]~*,#welcome,.logoWrapper
 pornhub.com##^[id*="premium"],[src*="ads"],[rel*="icon"],#js-underageModal,#signinModal
 pornhub.com##^script:has-text(loadAds)
 pornhub.com##^script:has-text(showUnderAgeModal)
-
+pornhub.com##[name*="ads"],[href*="ads"],[src*="ads"],[class*="ads"]:remove()
+@@||phncdn.com/www-static/js/amateur/amateur-signup.js$script,domain=www.pornhub.com
+! 允许特定脚本加载
+pornhub.com##+js(abort-on-property-read.js, userABMessage)
+! 屏蔽特定脚本读取
 
 redtube.com##^#footer_wrapper,[src*="ads"],[href*="ads"],.js_show_live_cam
 redtube.com##^script:has-text(getAd)
