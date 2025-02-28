@@ -689,7 +689,13 @@ jablehk.com##meta,#floatingCart,[data-section-theme="black-bold"],footer,.header
 jablehk.com##.yui-popup-container-node:remove()
 
 ! 2024-04-14 https://accounts.pixiv.net pixiv是提供插画等作品的投稿、阅览服务的「插画交流网站」
-
+pixiv.net##noscript,iframe,next-route-announcer:remove()
+pixiv.net##+js(nosiif)
+pixiv.net##script:has-text(createElement):remove()
+pixiv.net##script:has-text(googletagmanager):remove()
+pixiv.net##[data-nscript="afterInteractive"]:remove()
+||www.pixiv.net^$removeparam=/^(utm_|st_|ref=|via=)/
+! 追踪参数清除
 
 ! 2024年4月17日 https://www.deviantart.com 最大的在线技术画廊和社区
 
