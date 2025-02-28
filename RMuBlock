@@ -689,53 +689,7 @@ jablehk.com##meta,#floatingCart,[data-section-theme="black-bold"],footer,.header
 jablehk.com##.yui-popup-container-node:remove()
 
 ! 2024-04-14 https://accounts.pixiv.net pixiv是提供插画等作品的投稿、阅览服务的「插画交流网站」
-pixiv.net##.khrVhz[href="/info.php"]:upward(2)
-pixiv.net##.ihsIkl[href="/info.php"]:upward(2)
-pixiv.net##body > *:not(div[id],div[role="presentation"]):remove()
-! 排除侧边导航栏
-pixiv.net##div[role="presentation"] div[class^="py-"]:remove()
-pixiv.net##div[role="presentation"] div[class^="bg-"]:remove()
-pixiv.net##div[role="presentation"] div[class^="px-"]:remove()
-! 移动端 侧边导航栏精简1
-pixiv.net###__next + [role="presentation"] [href="/user_event.php"]:nth-ancestor(2):remove()
-! ! 用户企划
-pixiv.net###__next + [role="presentation"] [href^="/manage/request/sales/"]:nth-ancestor(2):remove()
-! 金钱管理
-pixiv.net###__next + [role="presentation"] [href="/howto"]:nth-ancestor(2):remove()
-! 绘画方法
-pixiv.net###__next + [role="presentation"] [href="/idea"]:nth-ancestor(2):remove()
-! 创作点子
-pixiv.net###__next + [role="presentation"] [href="/dashboard"]:nth-ancestor(2):remove()
-! 数据分析 我的作品 约稿管理
-pixiv.net###__next + [role="presentation"] [href="/request"]:nth-ancestor(1):remove()
-! 约稿 
-! pixiv.net###__next + [role="presentation"] [href="/event.php"]:nth-ancestor(2):remove()
-! 活动 
-pixiv.net###__next + [role="presentation"] [href="/settings.php?mode=ads"]:nth-ancestor(1):remove()
-! 隐藏广告
-pixiv.net###__next + [role="presentation"] [href="https://www.pixiv.help/hc/"]:nth-ancestor(1):remove()
-! 帮助 
-! 移动端 侧边导航栏精简2
 
-pixiv.net##ul > div[size="40"]:remove()
-pixiv.net##li > a[href="/request"]:nth-ancestor(1):remove()
-! 约稿
-pixiv.net##li > a[href="/user_event.php"]:nth-ancestor(1):remove()
-! 用户企划
-pixiv.net##li > a[href="/howto"]:nth-ancestor(1):remove()
-! 绘图方法
-pixiv.net##li > button[label="隐藏"]:nth-ancestor(1):remove()
-! 隐藏
-pixiv.net##ul + div > div > a[href="/ads/"]:nth-ancestor(2):remove()
-! 公告
-pixiv.net##p + div > a[href^="/info.php?id="]:nth-ancestor(3):remove()
-! 公告
-pixiv.net##iframe + a[href^="/premium/"]:nth-ancestor(1):remove()
-! 加入pixiv高级会员
-pixiv.net##span:has-text(投稿作品):nth-ancestor(3):remove()
-pixiv.net##h1 + a[href="/"]:nth-ancestor(2):remove()
-! pixiv.net##div:has-text(成为pixiv高级会员，可以马):nth-ancestor(1):remove()
-! pc端
 
 ! 2024年4月17日 https://www.deviantart.com 最大的在线技术画廊和社区
 
