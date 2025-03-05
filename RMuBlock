@@ -300,12 +300,12 @@ cosporn.site###simple-banner,#secondary
 ! t66y.com##+js(setTimeout-defuser, adhtml, 10006)
 ! # setTimeout-defuser：一个内置的 uBlock Origin 工具，用于拦截并取消特定的 setTimeout 调用
 ! # 作用：这条规则会拦截并取消所有与 adhtml 函数相关的 setTimeout 调用，且延迟时间为 10006 毫秒
-t66y.com##center.gray,#header,#footer,form,.tips,.tiptop,.tipad,#main>div.t3+div.t,a[name="#tpc"]+div~*,tr.do_not_catch>th[rowspan="2"],#conttpc~*,[rel*="icon"],[href="post.php?fid=7"]:remove()
-t66y.com##.tpc_cont:not([id])
-! 公告
-t66y.com###ajaxtable ~ *:not(.tac[style] ~ *)
-t66y.com###ajaxtable>tbody>.tr2.tac~*
-! 置顶帖子
+t66y.com##center.gray,#header,#footer,form,.tips,.tiptop,.tipad,#main>div.t3+div.t,a[name="#tpc"]+div~*,tr.do_not_catch>th[rowspan="2"],#conttpc~*,[rel*="icon"],[href="post.php?fid=7"],.ftad-ct:remove()
+t66y.com##.tpc_cont:not([id]):remove()
+! ! 公告
+t66y.com###ajaxtable ~ *:not(.tac[style] ~ *):remove()
+t66y.com###ajaxtable>tbody>.tr2.tac~*:remove()
+! ! 置顶帖子
 
 ! ! 2024-05-07 http://a6rw6i.xyz 【1024社区】  $$$$$
 ! 首页开始
