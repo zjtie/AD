@@ -88,6 +88,9 @@ twitter.com,x.com,~platform.twitter.com##+js(json-prune-xhr-response, data.user.
 twitter.com,x.com,~platform.twitter.com##+js(json-prune-xhr-response, data.immersiveMedia.timeline.instructions.[].entries.[-].content.itemContent.promotedMetadata, , propsToMatch, url:/ImmersiveMedia)
 ! 移除响应中的推广内容来确保用户看到的内容不包含广告
 x.com##div[data-testid="tweetText"]:has-text(关闭VPN):upward(9)
+x.com##div[data-testid="tweetText"]:has-text(关VPN):upward(9)
+x.com##div[data-testid="tweetText"]:has-text(互换):upward(9)
+x.com##div[data-testid="tweetText"] img[title="门"]:upward(9)
 ! 屏蔽帖子，只要含有某个关键词
 x.com##aside[aria-label="订阅 Premium"]:upward(2)
 x.com##a[href="/i/premium_sign_up"][role="link"]
@@ -1034,6 +1037,20 @@ erothots.co##script,noscript,iframe,.iframe,.info-section,.magic-sites,.new,.mb-
 ||crs.adapf.com^
 ||livedoor.net^
 ||juicyads.com^
-
 ! ===广告网址===================================================
 
+!==URL净化===跟踪参数=============================================================
+||www.xiaohongshu.com/*$removeparam=app_platform
+||www.xiaohongshu.com/*$removeparam=ignoreEngage
+||www.xiaohongshu.com/*$removeparam=app_version
+||www.xiaohongshu.com/*$removeparam=share_from_user_hidden
+||www.xiaohongshu.com/*$removeparam=xsec_source
+||www.xiaohongshu.com/*$removeparam=type
+||www.xiaohongshu.com/*$removeparam=author_share
+||www.xiaohongshu.com/*$removeparam=xhsshare
+||www.xiaohongshu.com/*$removeparam=shareRedId
+||www.xiaohongshu.com/*$removeparam=apptime
+||www.xiaohongshu.com/*$removeparam=share_id
+||www.xiaohongshu.com/*$removeparam=appuid
+||weixin.qq.com*$removeparam=scene
+!==URL净化===跟踪参数=============================================================
