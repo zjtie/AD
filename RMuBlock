@@ -1,7 +1,6 @@
 ! Title: RM40 uBlock Origin
 ! Homepage: https://github.com/zjtie/AD
 *##+js(fingerprint2.js)
-*##+js(bab-defuser.js)
 #FingerprintJS2 是一种第三方库，识别唯一用户。独特的用户指纹，进而用于跟踪用
 #常用于通过收集用户设备的各种信息（如浏览器插件、屏幕分辨率、字体列表等）来生成一个独特的用户指纹
 #避免广告拦截插件被网站识别
@@ -55,30 +54,18 @@ www.youtube.com##+js(trusted-prevent-dom-bypass, Node.prototype.appendChild, fet
 ||ads.youtube.com^$badfilter
 ||ads.youtube.com^$domain=~ads.youtube.com
 
-! 移除 YouTube URL 参数
-||youtube.com^$removeparam=pp
-||youtu.be^$removeparam=si
+
 
 ! 解除被 EasyList 和 French List 误封的规则
 *$script,1p,domain=up-load.io,badfilter
 *$xhr,domain=up-load.io,badfilter
 
-
-
-
-
 #======社交平台=====================================================================================================
-
 
 ! 2023-04-13 https://discord.com
 discord.com##.wrapper-2JEvo0
 
 ! 2024年6月27日 https://x.com
-$removeparam=refsrc,domain=twitter.com|x.com
-$removeparam=ref_src,domain=twitter.com|x.com
-$removeparam=ref_url,domain=twitter.com|x.com
-$removeparam=cxt,domain=twitter.com|x.com
-$removeparam=s,domain=twitter.com|x.com
 ! 移除URL中的特定参数，以防止用户被跟踪
 twitter.com,x.com##[data-testid="primaryColumn"] [data-testid="cellInnerDiv"] > div:has([data-testid$="-impression-pixel"]):remove()
 twitter.com,x.com,~platform.twitter.com##+js(json-prune-xhr-response, data.home.home_timeline_urt.instructions.[].entries.[-].content.itemContent.promotedMetadata, , propsToMatch, url:/Home)
@@ -87,9 +74,7 @@ twitter.com,x.com,~platform.twitter.com##+js(json-prune-xhr-response, data.threa
 twitter.com,x.com,~platform.twitter.com##+js(json-prune-xhr-response, data.user.result.timeline_v2.timeline.instructions.[].entries.[-].content.itemContent.promotedMetadata, , propsToMatch, url:/UserTweets)
 twitter.com,x.com,~platform.twitter.com##+js(json-prune-xhr-response, data.immersiveMedia.timeline.instructions.[].entries.[-].content.itemContent.promotedMetadata, , propsToMatch, url:/ImmersiveMedia)
 ! 移除响应中的推广内容来确保用户看到的内容不包含广告
-x.com##div[data-testid="tweetText"]:has-text(关闭VPN):upward(9)
-x.com##div[data-testid="tweetText"]:has-text(关VPN):upward(9)
-x.com##div[data-testid="tweetText"]:has-text(互换):upward(9)
+x.com##div[data-testid="tweetText"]:has-text(/关闭VPN|关VPN|互换/):upward(9)
 x.com##div[data-testid="tweetText"] img[title="门"]:upward(9)
 ! 屏蔽帖子，只要含有某个关键词
 x.com##aside[aria-label="订阅 Premium"]:upward(2)
@@ -110,15 +95,15 @@ reddit.com##img.object-cover:remove-attr(style)
 ! 屏蔽推广链接和广告
 reddit.com##.promotedlink,.promoted,.ad-container,.ad,.ad-placeholder,.promoted-content
 ! 屏蔽特定的广告元素
-reddit.com##.ad-banner,.ad-sidebar,.ad-footer,.ad-top,.ad-bottom
+reddit.com##.ad-banner,.ad-sidebar,.ad-footer,.ad-top,.ad-bottom:remove()
 ! 屏蔽赞助帖子
-reddit.com##.sponsored-post,.sponsored-link,.sponsored-content
+reddit.com##.sponsored-post,.sponsored-link,.sponsored-content:remove()
 ! 屏蔽其他与广告相关的元素
-reddit.com##.ad-slot,.ad-unit,.ad-wrapper,.ad-box,.ad-item
+reddit.com##.ad-slot,.ad-unit,.ad-wrapper,.ad-box,.ad-item:remove()
 ! 屏蔽推广的用户内容
-reddit.com##.promoted-user-content,.promoted-user-post,.promoted-user-link
+reddit.com##.promoted-user-content,.promoted-user-post,.promoted-user-link:remove()
 ! 屏蔽视频广告
-reddit.com##.video-ad,.video-promoted
+reddit.com##.video-ad,.video-promoted:remove()
 ! 屏蔽广告跟踪脚本
 ||reddit.com/ads/*
 ||redditmedia.com/ads/*
@@ -135,11 +120,8 @@ douyin.com##[rel*="icon"],#douyin-web-recommend-guide-mask,[data-e2e="douyin-nav
 douyin.com###a11y-open-btn,#a11y-live-assertive:remove()
 ! 读屏
 douyin.com##pace-island[id]>div>div[class][style]
-douyin.com##[data-e2e="something-button"]:has-text(充钻石):upward(3)
-douyin.com##[data-e2e="something-button"]:has-text(快捷访问):upward(3)
-douyin.com##[data-e2e="something-button"]:has-text(投稿):upward(3)
+douyin.com##[data-e2e="something-button"]:has-text(/充钻石|快捷访问|投稿/):upward(3)
 douyin.com##div[class][style]:has-text(下载电脑客户端)
-
 kuaishou.com##[src*="/pc-vision/js/NewReco"],#app~div,footer
 kuaishou.com###app~div,.toolbar,footer,.guide-widget:remove()
 
@@ -307,65 +289,57 @@ t66y.com###ajaxtable ~ *:not(.tac[style] ~ *):remove()
 t66y.com###ajaxtable>tbody>.tr2.tac~*:remove()
 ! ! 置顶帖子
 
-! ! 2024-05-07 http://a6rw6i.xyz 【1024社区】  $$$$$
-! 首页开始
-*##body[onkeydown="try{keyCodes(event);}catch(e){}"]>#header.cc
-*##body[onkeydown="try{keyCodes(event);}catch(e){}"]>#menu_forumlist.menu[style]
-*##body[onkeydown="try{keyCodes(event);}catch(e){}"]>#menu_hack.menu-post[style]
-*##body[onkeydown="try{keyCodes(event);}catch(e){}"]>#menu_skin.menu-post[style]
-*##body[onkeydown="try{keyCodes(event);}catch(e){}"]>#menu_shortcut.menu-post[style]
-*##body[onkeydown="try{keyCodes(event);}catch(e){}"]>.footer-wrap
-*##body[onkeydown="try{keyCodes(event);}catch(e){}"]>#footer
-*##body[onkeydown="try{keyCodes(event);}catch(e){}"] #main>#notice
-*##body[onkeydown="try{keyCodes(event);}catch(e){}"] #main>.t3.cc
-*##body[onkeydown="try{keyCodes(event);}catch(e){}"] #main>#content #t_1 #cate_1>tr:not([id])
-! 列表开始
-*##body[onkeydown="try{keyCodes(event);}catch(e){}"] form[name="FORM"]
-*##body[onkeydown="try{keyCodes(event);}catch(e){}"] #ajaxtable tr.tr3.t_one[onmouseover][onmouseout][align]
-*##body[onkeydown="try{keyCodes(event);}catch(e){}"] #ajaxtable tr~*:not(.tr3+.tr2~*)
-! 正文开始
-*##body[onkeydown="try{keyCodes(event);}catch(e){}"] span.fr
-*##body[onkeydown="try{keyCodes(event);}catch(e){}"] .t5 th.r_two[style]
-*##body[onkeydown="try{keyCodes(event);}catch(e){}"] .t5 th#td_tpc>*:not(.tpc_content,.tiptop,.b)
-*##body[onkeydown="try{keyCodes(event);}catch(e){}"] .t5 tr.tr1.r_one
-*##body[onkeydown="try{keyCodes(event);}catch(e){}"] .fr.w:upward(5)
-
-
-! 2024-05-07 hjd2048.com 【2048社区】  $$$$$
-hjd2048.com###headbase,.header_up_sign,#header,#cate_1>tr[name],#footer,.header_down_sign,#nav-login,#login_fast
+! !2025-3-10 【1024社区】  http://a6rw6i.xyz 
+*##:matches-path(/pw/) meta,span.fr,.tips,tr.r_one :remove()
+*##:matches-path(/pw/) #cate_1>tr:not([id]):remove()
+*##:matches-path(/pw/) .main-wrap:others():remove()
+*##:matches-path(/pw/) script:has-text(/colors|qrcodeContainer|bbsNoticePlay/):remove()
 ! 首页
-hjd2048.com##.promo-container,.forum-notice
+*##:matches-path(/pw/thread) [onmouseover]:remove()
+*##:matches-path(/pw/thread) .t3,.t.z[style="margin:auto"]:others():remove()
+*##:matches-path(/pw/thread) tr:has-text(/admin|自拍核工厂|系统消息/):remove()
 ! 列表
-hjd2048.com##.nav-container,.movie-banner,#read_tpc>br
-! 正文
+*##:matches-path(/pw/read) .t:remove()
+! ! 正文-保存网页开关
+! *##:matches-path(/pw/read) form:others():remove()
+! *##:matches-path(/pw/read) [class="r_two"],.tiptop:remove()
 
-! 2024-01-28 https://h2gcz1.ydwzsp.com 【海角社区】
-ydwzsp.com##.banner,.van-grid,.bubble-group-round,.sign,.menubtn,.van-nav-bar__left_area,#POPUP-WINDOW-GG,.tags-group,.ad_img,.text-wrap,.text-share,.comment-enter,#allcomment,meta,title,.xqbj-icon-tg
-ydwzsp.com##script:remove()
 
-! 2024-05-17 https://51cg1.com/archives.html  【51吃瓜】  $$$$$
-51cg1.com##meta,[rel*="icon"],footer,[src*="mirages"],.horizontal-banner,.post-card-ads,.warning-container,.addbox,.van-overlay
-51cg1.com##article a[href="/archives/151553/"],a[href="/archives/151554/"]:upward(1)
-51cg1.com##.txt-apps,.line,blockquote,.content-tabs,.flash,#comments,#body-bottom .post-content,.navbar-search-container~*
-51cg1.com###navbarCollapse>.mr-auto>li:not(.category-parent)
-51cg1.com##script:has-text(getRootDomain)
-51cg1.com##script:has-text(adspop)
+! 2025-3-10 【2048社区】 
+hjd2048.com##.main-wrap:others():remove()
+hjd2048.com##[name="temp_ad_adcontrol"],[class="post_new"]:remove()
+hjd2048.com##:matches-path(/2048/thread) .t.z,.t3,#breadCrumb:others():remove()
+hjd2048.com##:matches-path(/2048/thread)  tr:has-text(/匿名|A大|系統消息/):remove()
+hjd2048.com##:matches-path(/2048/read) #main~*,.t5~*,tr.r_one,.promo-container:remove()
+! ! 正文-保存网页开关
+! hjd2048.com##:matches-path(/2048/read) body script,#main > [id], #main > [class],.r_two,.tiptop :remove()
+
+
+! 2024-05-17 https://51cg1.com/archives.html  【51吃瓜】 
+51cg1.com##meta,[class*="ads"],#body~*,footer,[async],.txt-apps,blockquote,.content-tabs,.flash,.line,.respond:remove() { display: none !important; }
+51cg1.com##.navbar-search-container~*,.dropdown,[href="/nav.html"],nav-toolbar,ol~*:remove()
+51cg1.com##.post-card-info:matches-css(height: 0px):upward(2):remove() { display: none !important; }
+
+! 海角
+vfdpvzzi.cc##meta,script,#POPUP-WINDOW-JP,[class$="footer"],.is-desktop1,.tags-group,.text-wrap,.link-wrapper,.comment-enter,[href="#allcomment"]+a,[href="#allcomment"]:remove()  { display: none !important; }
+vfdpvzzi.cc##.xqbj-list-rows-placard:upward(1):remove()
+vfdpvzzi.cc##.xqbj-list-rows-texts:upward(1):remove()
 
 ! 2024-07-20 https://bad.news   $$$$$
-bad.news##meta,[rel*="icon"],.footer-parent,.login-popup,.sidebox,[href="/app"],.top-bar,.download-app-fixed,iframe,#nologinOprBox,#Div_float_area,footer,[class*="share"],[data-tid="5519269"],noscript,.expando[style],.replys,.commentarea,.usertext-edit,[id*="comment"]
+bad.news##meta,[rel*="icon"],.footer-parent,.login-popup,.sidebox,[href="/app"],.top-bar,.download-app-fixed,iframe,#nologinOprBox,#Div_float_area,footer,[class*="share"],[data-tid="5519269"],noscript,.expando[style],.replys,.commentarea,.usertext-edit,[id*="comment"]:remove()
 
 #======视频===========================================================================
 ! 2023-08-20 https://www.xvideos.com  $$$$$
-xvideos.com##+js(xvideos.com.js)
-xvideos.com##meta,[rel*="icon"],[id*="footer"],[class*="ads"],#tabComments_bottom_page,.share,#tabComments,.comments,#v-actions-overflow-menu
-xvideos.com##.red-ticket,.live-cams,.nutaku-games:upward(1)
-xvideos.com##.head__menu-line__main-menu .ignore-popunder
-xvideos.com###chat-window:remove()
+
 
 ! 2024-05-06 https://zh.xhamster.com
-wikixh.world,xhamster.com##[rel*="icon"],noscript,.footer-wrapper,[data-role="promo-messages-wrapper"]
-wikixh.world,xhamster.com##[data-nav-item-id="cams"],[data-item="flirtify"],[data-item="premium"],[data-item="dating"],[data-item="ai-jerk-off"],.top-menu__side-group,[video-share-button],.about-control,[data-role="report-button"]
-wikixh.world,xhamster.com##div[data-role="promo-messages-wrapper"]
+wikixh.world,xhamster.com##.main-wrap:others():remove()
+wikixh.world,xhamster.com##[data-role="header"],[data-role="layoutPage"]:others():remove()
+wikixh.world,xhamster.com##[data-nav-item-id]:has-text(/现场|聊天|约会|VPN|AI|独家|Game/)
+wikixh.world,xhamster.com##nav li:has-text(/现场|聊天|约会|VPN|AI|独家|Game/)
+wikixh.world,xhamster.com##.video-actions li:has-text(/评论|分享|报告/)
+wikixh.world,xhamster.com##[class^="WLTeD"],.thumb-list-mobile-item--widget,ul.right
+
 
 ! 2023-02-13 https://www.xnxx.com   $$$$$
 xnxx.com##meta,[rel*="icon"],#footer,.live-cams,.nutaku-games,.gold-plate,.logo-xnxx,.slogan,#header-mobile-live-cam,[id*="premium"],[href*="zlinkp.com"],[href*="sexstories"],[href*="forum.xnxx"],[id^="ad-"]
@@ -375,8 +349,7 @@ pornhub.com##+js(pornhub-popup-defuser.js)
 pornhub.com##+js(pornhub-sanitizer.js)
 pornhub.com##noscript,.footerContentWrapper,#countryRedirectMessage,#under-player-comments,.userActions,#jsShare,#video_flag,#menuItem4,.adsbytrafficjunky,#leftMenuScroll>[href="/albums"]~*,#welcome,.logoWrapper
 pornhub.com##[id*="premium"],[src*="ads"],[rel*="icon"],#js-underageModal,#signinModal
-pornhub.com##script:has-text(loadAds)
-pornhub.com##script:has-text(showUnderAgeModal)
+pornhub.com##script:has-text(/loadAds|showUnderAgeModal/)
 pornhub.com##[name*="ads"],[href*="ads"],[src*="ads"],[class*="ads"]:remove()
 @@||phncdn.com/www-static/js/amateur/amateur-signup.js$script,domain=www.pornhub.com
 ! 允许特定脚本加载
@@ -396,13 +369,18 @@ anysex.com###footer,.topmenu,.mainmenu>.no_pop
 
 pornmd.com##[rel*="icon"],.footer-container
 
-! 5F自拍网
-porn5f.com##meta,[rel*="icon"],[href*="ads"],.colse-ad,.mobframe,[id^="comments"],#dprecommend,.footer-container,.alb_320x250,#main_video_block>div~*,.top_slider,.pull-right,.position_fix_top,.navbar-right>.active~*,.top-nav,[href="/videos/jpkr"]~*
-porn5f.com##script,#gotoNext,.vjs-control-bar~*,#wrapper~*,.loc:remove()
+! 5F自拍网 2025-3-9
+porn5f.com##+js(window.name-defuser)
+porn5f.com##.navbar:remove-attr(style)
+porn5f.com##script,meta,[rel*="icon"],.top-nav,[class*="footer"],[class="position_fix_top"],[id="mGames"],[href="/shop"],[href="/blogs"],input,#login-modal:remove()
+porn5f.com##body>link,[href*="aii.life"],[rel="canonical"],[href*="fontawesome"],[class*="sticky"],video~*,[href="/games"],.fix-right-bottom,#wrapper>.container[style]:remove()
+porn5f.com##.ad-body:upward(1):remove()
+porn5f.com##+js(set-attr, video, controls, true)
 
-! 恋足癖色情网
-xfeet.xyz##[rel*="icon"],#page~div,footer,[id*="shortcode"],.video-player+div[style],.video-player~div[align="right"],#menu-item-445~*,.clear,.happy-header-mobile
-xfeet.xyz###simple-banner
+! 恋足癖色情网 2025-3-9
+xfeet.xyz##meta,noscript,[rel="dns-prefetch"],[rel*="icon"],title~script,footer,[id^="shortcode"],#menu-item-445~*,#simple-banner:remove()
+xfeet.xyz##.video-player~*:not(.title-block):remove()
+xfeet.xyz###page~*:not(script):remove()
 
 ! OnlyFans
 bitchesgirls.com##.footer,script,.buttonContainer,.social-links:remove()
@@ -414,27 +392,19 @@ bitchesgirls.com##.navbar-grid > *:not(.nav-categories):remove()
 spankbang.com##meta,[rel*="icon"],noscript,[src*="liver"],footer,.live_cam_header_2,[href="/tv/"],li.ls
 spankbang.com##.info>.user_uploads~*
 
-spankbang.name##+js(aopr, document.dispatchEvent)
-spankbang.cc##+js(acis, decodeURI, decodeURIComponent)
-spankbang.cc##+js(aopr, AaDetector)
-spankbang.cc##+js(nostif, _0x)
-||madsips.com^$3p
-mmtv01.xyz,spankbang.mov###pop.div_pop
-! 屏蔽 SpankBang 广告和内容
 
 ! 2022-11-20 https://www.bellesa.co 
 #作为快乐的主体，而不是征服的对象 #性应该是有趣的、充满力量的
-bellesa.co###app ~ *:remove()
-! 页面净化
-bellesa.co##[class*="Header__Wrapper"] > *:not(div[display][width]):remove()
-! 店性玩具通过Bellesa 
-bellesa.co##[class*="DesktopMenu__Link"] + [class*="DesktopMenu__Link"] ~ *:remove()
-! 玩具 加入 直播
-bellesa.co##[class*="_VideoAd-"]:nth-ancestor(7):remove()
-! VideoAd
-bellesa.co##footer > div > [display]:remove()
-! Bellesa. 保留所有权利
-
+bellesa.co##.Structure-sc-122ascm-0>a:has-text(/Bellesa Toys|Up to 88% off toys|Join Bellesa Plus|Live Cams/):remove()
+bellesa.co##a:has-text(Shop Sex Toys by Bellesa):upward(4):remove()
+bellesa.co##main h2:has-text(Searching for Bellesa Sex Toys?):upward(5):remove()
+bellesa.co##footer span:has-text(All rights reserved):upward(2):remove()
+bellesa.co##h3:has-text(A porn company run by women):upward(4):remove()
+bellesa.co##[class^="Structure-sc-"] div[data-label="Footer"]:upward(2):remove()
+bellesa.co##[class*="VideoAd"]:remove()
+bellesa.co##[class^="MediaQuery__Query-sc"] span:has-text(Bellesa Plus):upward(4):remove()
+bellesa.co##h2[class^="Heading__"]:has-text(Comments):upward(2):remove()
+bellesa.co##div[class^="Structure"]>h2[class^="Heading__"]:has-text(Up Next):upward(3):remove()
 
 
 ! 2023-08-20 https://hqporner.com 高分辨率高质量  $$$$$
@@ -445,10 +415,8 @@ eporner.com##meta,[rel*="icon"],footer,noscript,#cookies,#admobiletop,#logo,[hre
 eporner.com##.vit-suggester,#commentdiv,.uvmspn4,.uvmspn6,.uvmspn7,#uploadslide
 eporner.com##.vjs-docker:remove()
 
-! 2023-05-05 https://madou.club  $$$$$
-madou.club##[rel*="icon"],[src*="ad-provider"],footer,.article-actions
-madou.club##script:has-text(AdProvider)
-madou.club##script:has-text(adConfig)
+! 2023-05-05 https://madou.club 2025-3-9
+madou.club##meta,ins,script,footer,#shareimage,.clearfix:remove()
 
 ! 2023-07-26 https://pigav.com  $$$$$
 pigav.com##[rel="alternate"],[rel="icon"],footer,#menu-item-541808~*
@@ -457,37 +425,53 @@ pigav.com##[rel="alternate"],[rel="icon"],footer,#menu-item-541808~*
 javday.tv###footer,[rel*="icon"]
 
 
-
-! 2024年4月30日 https://www.redgifs.com  $$$$$
-redgifs.com##meta,[rel*="icon"],[href*="-ads-"],noscript,
-redgifs.com##.topNav-wrap>*:not(.SearchInput):remove()
-redgifs.com##iframe,.TabLink_isUpload:remove()
+! 2024年4月30日 https://www.redgifs.com 
 redgifs.com##+js(json-prune, gifs.[-].cta)
 ! 用 json-prune 过滤器来移除GIF用饲料中的广告调用
 redgifs.com##[href*="Tooltip"],[class*="Tooltip"]:remove()
 ! 浮窗提示
+redgifs.com##html:remove-attr(translate)
+! 移除翻译限制
+redgifs.com##[rel="apple-touch-startup-image"],[rel*="icon"],[rel="preconnect"],head>script,meta:remove()
+! head标签
+redgifs.com##noscript,iframe,#portal-root,[aria-label="Upload"],.Player-OverLayer,.MetaInfo-LiveButton:remove()
+redgifs.com##.topNav-wrap>*:not(.globalSearch):remove()
+! body标签
+redgifs.com##div.left.side,div.right.side
+! AI提示词
+! 用Violentmonkey编写一个脚本。目标网站是www.redgifs.com，
+! 要求是在，所有类目为previewFeed的div元素下的子元素div，且子元素DIV一定要拥有ID属性，旁边都要有一个可访问新元素按钮，
+! 新元素 的作用是点击下载，按钮的名称叫视频下载。
+! 复制链接的内容在img(类名为Player-Poster)中src的属性值，这个值需要处理，要把最后的.jpg格式换成.m4s。
+! 不需要添加按钮的情况，当复制链接的内容img有属性名为ImageGif-Thumbnail时，这个这个DIV不用添加按钮。
+! 确保元素的位置正确，这个元素样式要明显，方便我确认是否创建成功。
+! 脚本的名称叫RedGifs Video Download
+
 
 ! 2024-05-08 https://avbebe.com  $$$$$
 avbebe.com###footer,#menu-item-141367~*,.jnews_comment_container,.item_main .menu-item-141367~*
 avbebe.com##[class*="_ad"]:remove()
 
 ! 2024-05-08 https://dbro.news  $$$$$
-dbro.news##meta,[rel*="icon"],footer,.sidebar-wrapper,.site-addswarp,ul.actions>li:nth-of-type(3)~*,.m-navbar li:nth-of-type(4),#ri_home_catpost_widget-3
-dbro.news###header-navbar>.menu-item:has-text(站務)
-dbro.news###header-navbar>.menu-item:has-text(娛樂城)
-dbro.news###header-navbar>.menu-item:has-text(推薦)
-dbro.news##.single-content-nav:remove()
+dbro.news##meta,footer,.smart-head-mid,.show-lg,.comments:remove()
+dbro.news##section:has-text(優選品牌):remove() { display: none !important; }
+dbro.news##li[id]:has-text(/站務|娛樂城|推薦/):remove() { display: none !important; }
 
-! 2024-01-22 https://zh.yazhouse8.live 亚洲吧直播
 
 ! 2023-02-13 https://xxxshake.com   $$$$$
 xxxshake.com##meta,[rel*="icon"],.block-comments,.footer-wrap,iframe,#headA,#headB,.right-menu,.tabs-menu
 xxxshake.com##.fluid-custom-buttons
 
 ! 2024年4月29日 https://scrolller.com  $$$$$
-scrolller.com##[rel*="icon"],noscript,.sc-hRJfrW
-scrolller.com##.popup,.sc-hRJfrW,.gzcFeB~*,[mode="open"]>button:nth-of-type(3),[mode="open"]>button:nth-of-type(5)>div,[data-test-id="my-collection-tabs"]+div,.hBgoJb,.fPKpOS
-scrolller.com##[aria-label="Close fullscreen"]~*,.jOHfJq
+scrolller.com##meta,[rel*="icon"],[href*="popup"],[class*="popup"],[as="script"],[async],noscript:remove()
+scrolller.com##.app-page>[class^="sc"]>div+div+div
+scrolller.com##[data-test-id="my-collection-tabs"]+div
+scrolller.com##[viewBox="0 0 28 28"][viewBox="0 0 28 28"]:upward(2)
+scrolller.com##[aria-label="Auto Scroll"]+button
+scrolller.com##mian>div>div>[class^="sc-"]
+
+! scrolller.com##.popup,.sc-hRJfrW,.gzcFeB~*,[mode="open"]>button:nth-of-type(3),[mode="open"]>button:nth-of-type(5)>div,[data-test-id="my-collection-tabs"]+div,.hBgoJb,.fPKpOS
+! scrolller.com##[aria-label="Close fullscreen"]~*,.jOHfJq
 
 porngo.com##meta,[rel*="icon"],.footer,.underplayer_banner,.report-btn,[href="https://theporndude.com/"]
 
@@ -511,49 +495,20 @@ hentai-witch.com##meta,#header-container,[id*="_ad-"],#content-top,#content~*,#p
 nijisenmon.work##.ad,footer,#menu-item-71060,#menu-item-71094,#headbox-bg,#interstitialAd,#video_inst_area,.adbox
 
 ! 2024年4月25日 https://18comic.vip
-! 18comic.vip###billboard-modal,.modal-backdrop:remove()
-! 18comic.vip##body:remove-attr(style)
-! ! 我18岁，让我进去
-! 18comic.vip##script,meta:remove()
-! 18comic.vip##.top-nav,#guide-modal,.tips-overlay,.footer:remove()
-! 18comic.vip##a[href="#app_modal"]:nth-ancestor(1):remove()
-! 18comic.vip###bouns-popup + .hidden-lg:remove()
-! 18comic.vip##[href="#series_list"]:nth-ancestor(1):remove()
-! ! 浮窗APP
-! 18comic.vip##body > [id*="moda"]:remove()
-! 18comic.vip##[href="/video_cosav"]:nth-ancestor(2):remove()
-! 18comic.vip##.href_cosav_z1:nth-ancestor(3):remove()
-! ! 视频-下载app
-! 18comic.vip##.meun-game:nth-ancestor(1):remove()
-! 18comic.vip###sns:remove()
-! ! 移动端底部导航栏
-! 18comic.vip##[href*="hxp32.top"]:nth-ancestor(1):remove()
-! !视频
-! 18comic.vip##[data-group="photo_center_games_1"]:remove()
-! 18comic.vip##.center.scramble-page.thewayhome:remove()
-! 18comic.vip##.tab-content.m-b-20.m-t-15 + div.row:remove()
-! 18comic.vip##canvas[width="960"][height="1350"][style="width: 412px; display: block;"]:remove()
-! ! 正文广告
-! 18comic.vip###coinbuycomic-modal + div.container > *:not(.row,.nav,.tab-content):remove()
-! 18comic.vip###coinbuycomic-modal + div.container > .tab-content + .row:remove()
-! ! 简介广告
-! 18comic.vip##[data-group^="all_bottom"]:nth-ancestor(2):remove()
-! 18comic.vip##[data-group^="list"]:nth-ancestor(2):remove()
-! ! 导航广告
-! 18comic.vip###nb_path,#ipcountry,#search-board,#search-Modalimg,#outsidenoticeModal,.black-back:remove()
-! other
-18comic.vip##.copy-block,.navbar-nav-icon,#sns,.meun-game,.tips-overlay,.top-nav
-18comic.vip##[rel*="icon"],meta,[src*="/ad-"],[class*="footer"],.thewayhome,[class^="float-right"],.adsbyexoclick,#is_hanman+div~*,#response_message+div~*
-18comic.vip##[src*="td_ga_tracker.js"],[src*="emojionearea.js"],[src*="jquery.forum.js"],[src*="jquery.voting-album-0.1.js"],[src*="jquery.uploadfile.min.js"],[src*="33_a1e.js"],[src*="email"]
-! Analytics（GA）跟踪，  响应式轮播插件$,  del输入框中添加表情，  论坛评价，  评分或点赞,  文件上传， 广告
-18comic.vip##script:has-text(AdProvider)
-18comic.vip##script:has-text(idzone)
-! 页面清洗
-18comic.vip###wrapper>div.container[style] [id^="33_a1e_"]:upward(3)
-18comic.vip###coinbuycomic-modal+div.container [id^="33_a1e_"]:upward(2)
-18comic.vip##.moviemenu-sub [title="COS片"]:upward(2)
-18comic.vip##[class^="c835e-33_e"]
-18comic.vip##script:has-text(isMobileDevice)
+18comic.vip##meta,#billboard-modal,.top-nav,script,[class^="float-"]:remove() { display: none !important; }
+18comic.vip##[href="/veteran"],[href="/games"],[href="/forum/"],[rel^="nofollow"],[href^="mailto"]:remove() { display: none !important; }
+18comic.vip###Comic_Top_Nav:remove-class(navbar)
+! 导航
+18comic.vip##.panel-heading + div:not([class]),.panel-body~*:remove() { display: none !important; }
+18comic.vip##:matches-path("/theme/") .row>div:remove() { display: none !important; }
+18comic.vip##:matches-path("/albums/") .container>.hidden-xs~*:remove() { display: none !important; }
+18comic.vip##.spnotice,.footer-pad,.footer-container:remove() { display: none !important; }
+! Over
+18comic.vip##:matches-path("/photo/") link[href*="bootstrap.css"]~*:remove()
+18comic.vip##:matches-path("/photo/") body>*:not(#wrapper):remove()
+18comic.vip##:matches-path("/photo/") #Comic_Top_Nav,#is_hanman+div~*,.container.phpage-bottom:remove()
+18comic.vip##:matches-path("/photo/") #wrapper>*:not(.container):remove()
+18comic.vip##:matches-path("/photo/") div[id$=".webp"]:remove-attr(style)
 
 eromanga-kong.com##meta,#header_inner,footer,.tagcloud+div+div,#side_right>div+div,.related-box,.commentarea,[src*="img.ad-"],[href^="https://line.me"],.xoxo 
 
@@ -623,8 +578,7 @@ web.nicecat.cc###body_nav_menu div:nth-of-type(9)
 
 ! 2024年6月24日 https://members.luscious.net
 members.luscious.net##meta,[rel*="icon"],.loading_text,.extra_text
-members.luscious.net##script:has-text(SliderAdConfig)
-members.luscious.net##script:has-text(adMoxyCtrl)
+members.luscious.net##script:has-text(/SliderAdConfig|adMoxyCtrl/)
 members.luscious.net##footer,.page-footer,.front-page-call-to-action,.o-bgcolor--grey-7,div.o-padding-top-bottom,div.o-border--bottom:remove()
 
 ! 2024年6月26日 https://twhentai.com
@@ -694,10 +648,9 @@ jablehk.com##.yui-popup-container-node:remove()
 ! 2024-04-14 https://accounts.pixiv.net pixiv是提供插画等作品的投稿、阅览服务的「插画交流网站」
 pixiv.net##noscript,iframe,next-route-announcer:remove()
 pixiv.net##+js(nosiif)
-pixiv.net##script:has-text(createElement):remove()
-pixiv.net##script:has-text(googletagmanager):remove()
+pixiv.net##script:has-text(/createElement|googletagmanager/):remove()
 pixiv.net##[data-nscript="afterInteractive"]:remove()
-||www.pixiv.net^$removeparam=/^(utm_|st_|ref=|via=)/
+
 ! 追踪参数清除
 
 ! 2024年4月17日 https://www.deviantart.com 最大的在线技术画廊和社区
@@ -785,7 +738,8 @@ eatasmr.com##body > iframe
 
 #======ASMR==========================================================================
 #======动漫===========================================================================
-acgmhb.com##.links,.footer,.adbox,.other,script[data-admpid]
+! 2024-05-06
+acgmhb.com##.links,.footer,.adbox,.other,script[data-admpid],meta,[rel="nofollow"]:remove()
 
 ! 2024-05-09 https://rule34video.co
 rule34video.com##[rel*="icon"],.logo+div,body>.fancybox-overlay,.footer,.mobile-box
@@ -807,13 +761,10 @@ hanime.tv##[rel*="icon"],script
 sfmcompile.club##[rel='dns-prefetch'],[rel="preconnect"],[as="font"],noscript
 sfmcompile.club##aside.mashsb-container,.g1-body-inner ~ *,body > script,aside.g1-more-from ~ *,.g1-footer,#menu-item-2815,#menu-item-36768
 
-hentaigasm.com##div[id^="custom_"],.adv,#footer,script,div[style*="float"],script,#guest-nav:remove()
-hentaigasm.com##.section-box.related-posts ~ *
-hentaigasm.com##.loop-content ~ *:not(.loop-nav)
-
-hentaigasm.com##[src*="ad-provider"],[rel*="icon"]
-hentaigasm.com##script:has-text(AdProvider)
-hentaigasm.com##script:has-text(ad_chrome)
+! 2025-3-10
+hentaigasm.com * * block
+@@||hentaigasm.com^$domain=hentaigasm.com
+hentaigasm.com##meta,script,[rel="pingback"],[rel="alternate"],ins,footer,.adv,[id^="custom_htm"],[style^="float"],#guest-nav,.section-box~*:remove()
 
 
 xanimu.com##body > *:not(#page):remove()
@@ -851,7 +802,7 @@ animeh.to##.parax-wraper
 3dporndude.com##footer,script,.header-links,.asside-link,.link-offer,[href^="https://faphouse.com"],[href="#tab3"],[href="#tab5"],.block-tabs,div.second,.spot,.col-asside,#list_videos_related_videos:remove()
 
 ! Nsfw 34
-nsfwr34.com###site-footer,script,[id^="share_box"],.button-group-share,.button-group-report,.comments-list-lg,#menu-item-38436:remove()
+nsfwr34.com##meta,#site-footer,script,[id^="share_box"],.button-group-share,.button-group-report,.comments-list-lg,#menu-item-38436:remove()
 nsfwr34.com###menu-item-34 ~ *:remove()
 
 #======动漫===========================================================================
@@ -880,37 +831,13 @@ telegram.org##.btn-icon:remove-class(hide)
 ! telegram.org##.media-viewer-whole > .overlays:remove()
 ! ! 视频播放时，取消背景模糊
 ! telegram.org##[rel*="icon"]:remove()
-telegram.org##.bubbles-group span:has-text(扑克):nth-ancestor(4)
-telegram.org##.bubbles-group span:has-text(广告):nth-ancestor(4)
-telegram.org##.bubbles-group span:has-text(棋牌):nth-ancestor(4)
-telegram.org##.bubbles-group span:has-text(赌场):nth-ancestor(4)
-telegram.org##.bubbles-group span:has-text(游戏):nth-ancestor(4)
-telegram.org##.bubbles-group span:has-text(莆田):nth-ancestor(4)
-telegram.org##.bubbles-group span:has-text(支付):nth-ancestor(4)
-telegram.org##.bubbles-group span:has-text(立即体验):nth-ancestor(4)
-telegram.org##.bubbles-group span:has-text(现金):nth-ancestor(4)
-telegram.org##.bubbles-group span:has-text(神秘通道):nth-ancestor(4)
-! 屏蔽与 Telegram 相关的恶意网站
-||telegramhcn.com^$all
-||brawllstars.ru^$all
-||telegremapp.me^$all
-||telegerasm.work^$all
-||telegeram.work^$all
-||webtelegram.eu.org^$all
-||telaagam.maxisl.vip^$all
-||zhongwen-telegram.com^$all
-||telergaom.top^$all
-||telergctm.vip^$all
-||teiegram.work^$all
-||telegrambotsolution.pages.dev^$all
-/^https:\/\/www\.telegram[a-z]{2}\.com\//$doc,to=com|~telegram.org
-||telegram-*.com/login/index.html^$all
-||telezelm-*.icu^$doc
+telegram.org##.bubbles-group span:has-text(/扑克|广告|棋牌|赌场|游戏|莆田|支付|立即体验|现金|神秘通道/):nth-ancestor(4)
+
+
 ! ======Telegram ===========================================================================
 ! 2024年11月27日 https://www.hanime.xyz  动漫：H動漫網
 hanime.xyz##[rel*="icon"],.container-fluid[style="background:#000;height:40px;"],#safariModal,#chromeModal,#collapsibleNavbar,footer,#reportModal,.row.no-gutters,#top-ads,.row.p-1,.row.links
-hanime.xyz##script:has-text(addEventListener)
-hanime.xyz##script:has-text(userAgent)
+hanime.xyz##script:has-text(/addEventListener|userAgent/)
 
 ! 2024年11月27日 https://cf1.h18ani6.vip 动漫：H二次元动画
 h18ani6.vip##body > .container ~ *:remove()
@@ -965,19 +892,23 @@ bbs.crtslt.com##.twpx_disclaimer:remove()
 bbs.crtslt.com##.sign,script:remove()
 ! 欢迎您的光临
 
+
 ! 论坛:杏吧
-sex8.cc###loginasx,#member-order-notice-modal,#member-order-notice-loading,script[src*="antiblock"],.divScroll,script[src*="app.js"],script[src*="googletagmanager"],#top,[id^="logincon0"],#foot,meta,#inspectletjs
-#广告开始,  #會員通知訊息用,  #會員通知訊息的遮罩用,  #广告拦截检测脚本,  #成人内容网站的免责声明,  #移动设备上动态创建广告
-sex8.cc###fixed-bottom-modal,.bottom,.uk-footer,.qd-top,.uk-wrapper~div[class],#yb+div,.gd-list,.text-ada,[class^="hot-news-"],.header,.uk-block3-list1>*,.uk-block3-list3,.uk-block1-list1>*,.uk-block1-list3,.area-s8-domain,#bc,[data-id="bc"],.j-oscar
-! #浮窗广告,  #bottom空内容,  #footer,  #侧边栏签到,  #Footer,  #友情链接,  #杏彩,  #列表内容广告  #列表内容APP,  #页头
-sex8.cc##script:has-text(ad_)
-! #浮窗广告1
-sex8.cc##base,#toptb,.V-video-float,.b_mu,#nv>div,.hdc>h2,iframe,br,.ad,#wp.wp~div,.b_pr,.a_oscar,[id^="postmessage"]>div[style],[id^="postmessage"]>div[style]+div
-sex8.cc###mn_N7ae4,#mn_Ne83e,#mn_N9b46,#mn_Nfc3d~*,#newspecial,#post_reply
-! #加入VIP,  #广告合作,  #APP下载
-sex8.cc##script:has-text(V-video-float)
-sex8.cc###pt>.z~*,.b_sxc,.bm_h>span,[id^="forum_rules"],[href*="_ad"]
-sex8.cc##.bm_h:has-text(杏博):upward(1)
+sex8.cc##+js(noop, /google/)
+sex8.cc##script,.ad  {display: none !important; }
+sex8.cc##[id^="container"] [class^="ifocus_"],[id^="container"] .row2 >td+td+td:remove()
+sex8.cc##.trioCarousel,.bm_h>span[style="float:right;"],#location_list,.j-index_domain:remove()
+sex8.cc##.header,.uk-wrapper,#location_list,.title-content,.pic-nav,.margin-top.border-blue,[id^="container"],#wp:others():remove()
+sex8.cc##.site-guide>a:has-text(/杏博门户|加入VIP|杏吧APP|杏彩体育|欧洲足球赛|美国NBA|后宮導航|影吧下载/):remove()
+sex8.cc##[data-id="bc"],#bc,.uk-header,[class^="hot-news"],.area-s8-domain,.zxy,.newsbanner,#ifocus+div,#ifocus:remove()
+sex8.cc##[data-id="bc"],#ft,.ad,#foot,meta,script:remove()
+sex8.cc##:matches-path("/thread") #wp>*:not(#pt,#ct):remove()
+sex8.cc##:matches-path("/thread") #ct>*:not(#postlist):remove()
+sex8.cc##[id^="post_"]~*,#share-modal,#postlist>link,.plhin tr~*,[id^="postmessage"]>div:remove()
+sex8.cc##.uk-margin-small+div,#toAppPage,.ap_app,div.uk-alert,#share-button~*,#share-button,[onclick^="showWindow"]:remove()
+! ! ! 保存单网页开关
+! sex8.cc##:matches-path("/thread") #pt,.pls[rowspan="2"],.pi:remove()
+
 
 ! 2024年12月1日 https://oreno3d.com 3D:iwara导航
 oreno3d.com##footer,.material-icons,[class^="ad-"],script:remove()
@@ -986,31 +917,36 @@ oreno3d.com##body > *:not(.container)
 oreno3d.com##figure + p,[href^="https://go.rmhfrtnd.com"]
 iwara.tv###modal-root,noscript,footer,.shareButton:remove()
 
-91porn.com###videodetails+#videodetails,#videodetails-content>.title>div,#linkForm2
+! 2025-3-9
 91porn.com##+js(set-attr, video, controls, true)
-91porn.com###footer-container,.top-nav,.navbar+div,[src*="jads"],ins,#useraction>#videodetails-content,.ad_img
-91porn.com##script:has-text(adsbyjuicy)
-91porn.com##videodetails>*:not(h4,.video-container):remove()
+91porn.com##^meta,script,[rel="alternate"],.top-nav,.cont6,#clear,.vjs-big-play-button~*,.boxPart+.boxPart~*,#useraction~*,#footer-container:remove()
+91porn.com##meta,script,[rel="alternate"],.top-nav,.cont6,#clear,.vjs-big-play-button~*,.boxPart+.boxPart~*,#useraction~*,#footer-container:remove()
+91porn.com###videodetails > *:not(div[class],link):remove()
+91porn.com###row>*:not(.well ):remove()
+91porn.com##+js(set-attr, video, controls, true)
+
 
 sehuatang.net###append_parent,#ajaxwaitid,#toptb,#ft,#qmenu_menu,#scrolltop,script,[class^="show-text"]:remove()
-! 页面清洗
 sehuatang.net###f_pst,#newspecial,#newspecialtmp:remove()
 sehuatang.net##[href="forum.php?mod=post&action=newthread&fid=41&mobile=2"]:remove()
-! 发帖
+
 
 xbookcn.net##script,footer:remove()
 xbookcn.net##body:remove-attr(style)
 
-javtiful.com###navList,.video-comments,script:remove()
+
+javtiful.com###navList,.video-comments,script,#header-info,.offer-box:remove()
 javtiful.com##[href^="https://r.trackwilltrk.com"]:nth-ancestor(2)
+
 
 manyvids.com##[class^="navBannerContainer_nav"] + div:remove()
 manyvids.com##[class^="navBannerContainer_nav"],[class^="bigSideBar_footer"],[class^="VideoPriceState_videoPriceState"]:remove()
 
+
 player.soundon.fm##.so-footer,.so-app-download-button,.so-podcast-header__listen-on-apps,[rel="apple-touch-startup-image"],[rel="apple-touch-icon"]:remove()
 
+
 fikfap.com##.justify-evenly,#slide-up,#dialog-popup,script,iframe,noscript:remove()
-! app
 fikfap.com##nav > div:nth-of-type(3)
 
 ! ===OnlyFans===================================================
@@ -1025,9 +961,6 @@ internetchicks.com##script,.title-area,.live-cams,.tpd-link-desktop,.footer-widg
 erothots.co##script,noscript,iframe,.iframe,.info-section,.magic-sites,.new,.mb-0.title + div,.list-btn-box,[rel="alternate"],[rel*="icon"],[href*="simpshub.com"]
 
 
-
-
-
 ! ===广告网址===================================================
 ||ad-nex.com^
 ||adapf.com^
@@ -1040,17 +973,70 @@ erothots.co##script,noscript,iframe,.iframe,.info-section,.magic-sites,.new,.mb-
 ! ===广告网址===================================================
 
 !==URL净化===跟踪参数=============================================================
-||www.xiaohongshu.com/*$removeparam=app_platform
-||www.xiaohongshu.com/*$removeparam=ignoreEngage
-||www.xiaohongshu.com/*$removeparam=app_version
-||www.xiaohongshu.com/*$removeparam=share_from_user_hidden
-||www.xiaohongshu.com/*$removeparam=xsec_source
-||www.xiaohongshu.com/*$removeparam=type
-||www.xiaohongshu.com/*$removeparam=author_share
-||www.xiaohongshu.com/*$removeparam=xhsshare
-||www.xiaohongshu.com/*$removeparam=shareRedId
-||www.xiaohongshu.com/*$removeparam=apptime
-||www.xiaohongshu.com/*$removeparam=share_id
-||www.xiaohongshu.com/*$removeparam=appuid
+||www.xiaohongshu.com/*$removeparam=/^(app_platform|ignoreEngage|app_version|share_from_user_hidden|xsec_source|type|author_share|xhsshare|shareRedId|apptime|share_id|appuid)/
 ||weixin.qq.com*$removeparam=scene
+||youtube.com^$removeparam=/^(pp|si)/
+||www.pixiv.net^$removeparam=/^(utm_|st_|ref=|via=)/
 !==URL净化===跟踪参数=============================================================
+
+
+
+!==学习=====操作符需要JavaScript 执行，因此性能开销比原生 CSS 选择器更高==========
+
+! 包含CSS 样式属性
+! :matches-css(arg)  
+! :matches-css-before(arg)
+! :matches-css-after(arg)
+! facet.wp.pl##div[class^="_"]:matches-css(background-image: /^url\("data:image/png;base64,/)
+facet.wp.pl###ads:matches-css(background-image: )
+
+! 媒体查询
+example.com###target-1 > .target-2:matches-media((min-width: 800px))
+! 宽度至少为 800 像素时，隐藏 .target-2 元素
+example.com###target-3 > .target-4:matches-media((min-width: 1920px) and (min-height: 930px)):style(color: red !important)
+! 宽度至少为 1920 像素且高度至少为 930 像素时，将元素的文本颜色设置为红色。
+github.com##pre:matches-media(print):style(white-space:pre-line !important)
+! 仅在打印模式下，将 white-space 属性设置为 pre-line，禁用打印时的滚动条
+
+
+! 匹配网页路径
+! :matches-path
+example.com##:matches-path(/shop) p
+example.com##:matches-path(/^\/$/) p
+example.com##:matches-path(\?param=value) p
+! 匹配路径   仅匹配主页   匹配特定查询参数
+
+! 元素的最小文本长度
+! :min-text-length(n)
+quoka.de##^script:min-text-length(35000)
+
+
+! 反向选择
+! :others()
+! :is()
+example.com##:matches-path(/^/home/) [data-testid="primaryColumn"]:others()
+example.com##:matches-path(/^/articles//) :is(.c-breadcrumbs,.c-article-main-column):others()
+
+
+! 动态监视
+! :watch-attr(arg)
+example.com###testdiv:watch-attr(id):has(p)
+example.com##.j-mini-player[class]:watch-attr(class):remove-attr(class)
+
+
+! 阻止网页中的某些 JavaScript 代码通过 addEventListener 方法绑定事件监听器。
+! 用于防止广告、跟踪代码或其他不需要的功能在网页中执行。
+example.com##+js(prevent-addEventListener, click, handlerFunction)
+
+
+! 阻止网页中某些链接在新标签页中打开
+example.com##+js(disable-newtab-links)
+
+
+! 用于清理和阻止网页中可能包含恶意代码或不安全链接的 href 属性
+example.com##+js(href-sanitizer, "javascript:")
+! 指定清理或阻止包含 javascript: 的链接
+
+
+!==学习=====操作符需要JavaScript 执行，因此性能开销比原生 CSS 选择器更高==========
+
