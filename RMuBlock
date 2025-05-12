@@ -145,9 +145,9 @@ douban.com##[rel*="icon"],#footer,.lnk-doubanapp
 douban.com##script:has-text(global)
 
 ! 2023-09-13 https://www.bilibili.com 哔哩哔哩
-bilibili.com##[rel*="icon"],[class*="footer"],[class*="download"]
-bilibili.com##script:has-text(browser-tip)
-bilibili.com##iframe,[class*="download"],.launch-app-btn:remove()
+! ! bilibili.com##[rel*="icon"],[class*="footer"],[class*="download"]
+! bilibili.com##script:has-text(browser-tip)
+! bilibili.com##iframe,[class*="download"],.launch-app-btn:remove()
 bilibili.com##body:remove-attr(style)
 
 ! 2022-11-20 https://fuliba2023.net 福利吧
@@ -264,6 +264,8 @@ huashi6.com##footer,.chuzhan-app-download,[id^="popup_"],.c-sidebar,.p-home-swip
 
 ! 2022-11-20 http://www.cnu.cc CNU视觉联盟
 cnu.cc##meta,[rel*="icon"],.pageFooter,.blackBG
+cnu.cc##a[href="http://www.cnu.cc/mobile.html"]
+
 
 ! 2024-01-20 https://m.huaban.com
 huaban.com##.ant-modal-root,[class^="ant-tooltip"],[href="#buyVip-personal"],[data-content-source="导航_企业VIP"],.item.app,.open-add
@@ -335,7 +337,8 @@ haijiaolove.xyz##+js(noop.js)
 haijiaolove.xyz##+js(window.open-defuser.js)
 haijiaolove.xyz##+js(window.name-defuser)
 ||abs.twimg.com^$xhr
-
+! HTMLPageDown
+haijiaolove.xyz###masthead,head.entry-header:remove()
 
 ! 海角
 edfe8.vfdpvzzi.cc##.xqbj-footer,div.is-desktop1,div.tags-group,div.text-wrap,div.link-wrapper,.comment-enter,.novel-info>div,.bubble-group-round:remove()
@@ -345,10 +348,31 @@ edfe8.vfdpvzzi.cc##.xqbj-list-rows:has-text(/77直播|电子棋牌|大发娱乐/
 ! 2024-07-20 https://bad.news   $$$$$
 bad.news##meta,[rel*="icon"],.footer-parent,.login-popup,.sidebox,[href="/app"],.top-bar,.download-app-fixed,iframe,#nologinOprBox,#Div_float_area,footer,[class*="share"],[data-tid="5519269"],noscript,.expando[style],.replys,.commentarea,.usertext-edit,[id*="comment"]:remove()
 
-#======视频===========================================================================
-! 2023-08-20 https://www.xvideos.com  $$$$$
+#======新片场视频===========================================================================
+apple.com,skypixel.com,vimeo.com,cnu.cc##body:remove-attr(style)
 
 
+! 2025年3月28日 https://www.xinpianchang.com
+! ||oss-xpc0.xpccdn.com/Upload/
+xinpianchang.com##footer,.space-x-6.h-full,.new-sidebar,.justify-end+div,.justify-between.items-end
+xinpianchang.com##.header-user-menu>div:has-text(/会员|上传/)
+xinpianchang.com##.relative>div.mx-4.mt-4.relative
+xinpianchang.com##div.relative.w-full.h-full.p-4.text-primary-200:has-text(查看更多作品)
+
+vimeo.com##.css-dzwbth,.css-17cyd2c
+
+nowness.cn##footer,[data-loaded="loaded[3]"]
+
+apple.com##.global-footer,#footer-upsell-banner-hole:remove()
+
+#======新片场视频===========================================================================
+#======播客===========================================================================
+
+spotify.com##[class="main-view-container__mh-footer-container"],button[data-encore-id="buttonPrimary"],[href="/download"]
+podcasts.apple.com##.inline-modal,footer
+castbox.fm##.footer-wrapper 
+
+#======播客===========================================================================
 ! 2024-05-06 https://zh.xhamster.com
 wikixh.world,xhamster.com##.main-wrap:others():remove()
 wikixh.world,xhamster.com##[data-role="header"],[data-role="layoutPage"]:others():remove()
@@ -367,7 +391,7 @@ pornhub.com##+js(abort-on-property-read.js, userABMessage)
 pornhub.com###cookieBanner:remove()
 pornhub.com##script:has-text(/tjPreloadAds|tjEmbeddedAdsDuration|a.adtng.com|adsbytrafficjunky|modalWrapMTubes|embeddedads|showAdsLink|embeddedads|ads_batch/):remove()
 pornhub.com##.votes-fav-wrap~*,#js-shareData,.userActions,.tooltipTrig.suggestBtn.preventDropdown,[class^="upload"],#topRightProfileMenu,.communityNavigation~*,[href="/gayporn"],.sideAds:remove()
-pornhub.com##body>.wrapper:others():remove()
+pornhub.com##body>.wrapper:others()
 pornhub.com###mobileContainer~*:not(script,link),.watchpageAd,#favoriteBtn~*,.fanClubButtons,#headerUserIcon,.logoWrapper,.eudsaLink:remove()
 
 
@@ -526,11 +550,11 @@ nijisenmon.work##.ad,footer,#menu-item-71060,#menu-item-71094,#headbox-bg,#inter
 18comic.vip##:matches-path("/albums/") .container>.hidden-xs~*:remove() { display: none !important; }
 18comic.vip##.spnotice,.footer-pad,.footer-container:remove() { display: none !important; }
 ! Over
-18comic.vip##:matches-path("/photo/") link[href*="bootstrap.css"]~*:remove()
-18comic.vip##:matches-path("/photo/") body>*:not(#wrapper):remove()
-18comic.vip##:matches-path("/photo/") #Comic_Top_Nav,#is_hanman+div~*,.container.phpage-bottom:remove()
-18comic.vip##:matches-path("/photo/") #wrapper>*:not(.container):remove()
-18comic.vip##:matches-path("/photo/") div[id$=".webp"]:remove-attr(style)
+! 18comic.vip##:matches-path("/photo/") link[href*="bootstrap.css"]~*:remove()
+! 18comic.vip##:matches-path("/photo/") body>*:not(#wrapper):remove()
+! 18comic.vip##:matches-path("/photo/") #Comic_Top_Nav,#is_hanman+div~*,.container.phpage-bottom:remove()
+! 18comic.vip##:matches-path("/photo/") #wrapper>*:not(.container):remove()
+! 18comic.vip##:matches-path("/photo/") div[id$=".webp"]:remove-attr(style)
 
 ! 屏蔽广告联盟的脚本和 iframe
 ||juicyads.com^$subdocument
@@ -539,11 +563,11 @@ nijisenmon.work##.ad,footer,#menu-item-71060,#menu-item-71094,#headbox-bg,#inter
 ||18comic.vip/ajax/ad_check^
 
 18comic.vip##.e8c78e-4_b
-18comic.vip##+js(acis, clarity, script)
+! 18comic.vip##+js(acis, clarity, script)
 18comic.vip##^script:has-text(clarity)
-18comic.vip##+js(acis, outsidenotice, script)
+! 18comic.vip##+js(acis, outsidenotice, script)
 18comic.vip##^script:has-text(outsidenotice)
-18comic.vip##+js(acis, signDaily, script)
+! 18comic.vip##+js(acis, signDaily, script)
 18comic.vip##^script:has-text(signDaily)
 
 
@@ -1035,6 +1059,8 @@ internetchicks.com##script,.title-area,.live-cams,.tpd-link-desktop,.footer-widg
 ||youtube.com^$removeparam=/^(pp|si)/
 ||www.pixiv.net^$removeparam=/^(utm_|st_|ref=|via=)/
 ||douyinpic.com^$removeparam=/^(from)/
+! ||bilibili.com$removeparam=/^(bvid)/
+
 !==URL净化===跟踪参数================================================================================-******************
 
 
@@ -3152,35 +3178,11 @@ streamtape.*##+js(abort-current-script, document.documentElement, break;case $.)
 !www.google.*##+js(trusted-set-cookie, SOCS, CAESHAgBEhJnd3NfMjAyMzA2MTItMF9SQzIaAmZpIAEaBgiAzK6kBg, 1year)
 ||adforcast.com^
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ! END
+
+! 2025年5月2日 https://ddys.pro 低端影视
+ddys.pro###sajdhfbjwhe
+
+! 2025年5月2日 https://www.agefans.la ACG动漫
+www.agefans.la##.global_notice_wrapper,.foot_content_wrapper,#notice_box
 
