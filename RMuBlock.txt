@@ -101,6 +101,11 @@ x.com##a[href="/compose/post"][role="link"]
 x.com##aside[aria-label="撰写帖子"]
 x.com##div nav[aria-label="页脚"]
 ! 屏蔽按钮
+x.com##:matches-path(/home) :xpath(/html/body/div[1]/div/div/div[2]/main/div/div/div/div[1]/div/div[3])
+! 发布内容框
+x.com##:matches-path(/home):xpath(/html/body/div[1]/div/div/div[2]/main/div/div/div/div[2]/div/div[2]/div/div/div/div/div[3])
+! 订阅 Premium
+
 
 ! 2024-08-03 https://www.reddit.com
 ! 导航
@@ -131,10 +136,7 @@ reddit.com##.video-ad,.video-promoted:remove()
 
 ! 2024年5月3日 https://www.douyin.com 抖音
 douyin.com###douyin-header-menuCt pace-island > div > *:has-text(/充钻石|快捷访问|投稿|客户端|壁纸/)
-
 douyin.com##.prlW7G_5 span:has-text(/放映厅|短剧/):upward(5)
-
-
 douyin.com##footer
 
 
@@ -374,11 +376,9 @@ castbox.fm##.footer-wrapper
 
 #======播客===========================================================================
 ! 2024-05-06 https://zh.xhamster.com
-wikixh.world,xhamster.com##.main-wrap:others():remove()
-wikixh.world,xhamster.com##[data-role="header"],[data-role="layoutPage"]:others():remove()
-wikixh.world,xhamster.com##[data-nav-item-id]:has-text(/现场|聊天|约会|VPN|AI|独家|Game/)
-wikixh.world,xhamster.com##nav li:has-text(/现场|聊天|约会|VPN|AI|独家|Game/)
-wikixh.world,xhamster.com##.video-actions li:has-text(/评论|分享|报告/)
+wikixh.world,xhamster.com##[data-nav-item-id="cams"],[data-nav-item-id="premium"],[data-nav-item-id="flirtify"],[data-nav-item-id="dating"],[data-nav-item-id="priority-vpn"],[data-nav-item-id="lusty-heroes"],[data-nav-item-id="ai-friend"],[data-role="promo-messages-wrapper"],header+nav
+wikixh.world,xhamster.com##[data-role="footer"],[data-role="layoutPage"]>aside+aside
+wikixh.world,xhamster.com##.middle-mobile-horizontal,.xgJs-hJC--bottom,[data-role="xgJs-hJCtop"],.xgJs-hJCpremium-n-overlay
 wikixh.world,xhamster.com##[class^="WLTeD"],.thumb-list-mobile-item--widget,ul.right
 ||static-ah.xhcdn.com/xh-shared/$domain=static-ah.xhcdn.com
 ||static-nss.xhcdn.com^
@@ -442,16 +442,21 @@ spankbang.com##.info>.user_uploads~*
 
 ! 2022-11-20 https://www.bellesa.co 
 #作为快乐的主体，而不是征服的对象 #性应该是有趣的、充满力量的
-bellesa.co##.Structure-sc-122ascm-0>a:has-text(/Bellesa Toys|Up to 88% off toys|Join Bellesa Plus|Live Cams/):remove()
-bellesa.co##a:has-text(Shop Sex Toys by Bellesa):upward(4):remove()
-bellesa.co##main h2:has-text(Searching for Bellesa Sex Toys?):upward(5):remove()
-bellesa.co##footer span:has-text(All rights reserved):upward(2):remove()
-bellesa.co##h3:has-text(A porn company run by women):upward(4):remove()
-bellesa.co##[class^="Structure-sc-"] div[data-label="Footer"]:upward(2):remove()
-bellesa.co##[class*="VideoAd"]:remove()
-bellesa.co##[class^="MediaQuery__Query-sc"] span:has-text(Bellesa Plus):upward(4):remove()
-bellesa.co##h2[class^="Heading__"]:has-text(Comments):upward(2):remove()
-bellesa.co##div[class^="Structure"]>h2[class^="Heading__"]:has-text(Up Next):upward(3):remove()
+bellesa.co##:xpath(/html/body/div[1]/div/header/div[2]/div[1])
+bellesa.co##:xpath(/html/body/div[1]/div/main/div/div/div[1])
+bellesa.co##:xpath(/html/body/div[1]/div/header/div[2]/div[2]/div[2]/div/div[1]/a[3]):remove()
+bellesa.co##:xpath(/html/body/div[1]/div/main/div/div/div[4]/div[1]/div/div/div[2])
+bellesa.co##:xpath(/html/body/div[1]/div/main/div/div/div[4]/div[9])
+bellesa.co##:xpath(/html/body/div[1]/div/footer/div/div[2])
+bellesa.co##:xpath(/html/body/div[1]/div/main/div/div/div[2]/div[3]/div[2])
+bellesa.co##:xpath(/html/body/div[1]/div/main/div/div/div[2]/div[2]/div[1])
+bellesa.co##:xpath(/html/body/div[1]/div/main/div/div/div[2]/div[1]/div/div[1]/div[2])
+bellesa.co##:xpath(/html/body/div[1]/div/main/div/div/div[2]/div[1]/div/div[2]/div[3])
+bellesa.co##:xpath(/html/body/div[1]/div/main/div/div/div[2]/div[1]/div/div[1]/div[1])
+bellesa.co##:xpath(/html/body/div[1]/div/header/div[2]/div[3]/div)
+bellesa.co##:xpath(/html/body/div[1]/div/main/div/div/div[2]/div[1]/div/div[1]/div[4])
+bellesa.co##:xpath(/html/body/div[1]/div/header/div[2]/div[2]/div[3]/div/div/a[1]):remove()
+
 
 
 ! 2023-08-20 https://hqporner.com 高分辨率高质量  $$$$$
@@ -466,34 +471,9 @@ eporner.com##.vjs-docker:remove()
 madou.club##meta,ins,script,footer,#shareimage,.clearfix:remove()
 
 
-
-
-
-
 ! 2024年4月30日 https://www.redgifs.com 
-redgifs.com##+js(json-prune, gifs.[-].cta)
-! 用 json-prune 过滤器来移除GIF用饲料中的广告调用
-redgifs.com##[href*="Tooltip"],[class*="Tooltip"]:remove()
-! 浮窗提示
-redgifs.com##html:remove-attr(translate)
-! 移除翻译限制
-redgifs.com##[rel="apple-touch-startup-image"],[rel*="icon"],[rel="preconnect"],head>script,meta:remove()
-! head标签
-redgifs.com##noscript,iframe,#portal-root,[aria-label="Upload"],.Player-OverLayer,.MetaInfo-LiveButton:remove()
-redgifs.com##.topNav-wrap>*:not(.globalSearch):remove()
-! body标签
-redgifs.com##div.left.side,div.right.side
-! AI提示词
-! 用Violentmonkey编写一个脚本。目标网站是www.redgifs.com，
-! 要求是在，所有类目为previewFeed的div元素下的子元素div，且子元素DIV一定要拥有ID属性，旁边都要有一个可访问新元素按钮，
-! 新元素 的作用是点击下载，按钮的名称叫视频下载。
-! 复制链接的内容在img(类名为Player-Poster)中src的属性值，这个值需要处理，要把最后的.jpg格式换成.m4s。
-! 不需要添加按钮的情况，当复制链接的内容img有属性名为ImageGif-Thumbnail时，这个这个DIV不用添加按钮。
-! 确保元素的位置正确，这个元素样式要明显，方便我确认是否创建成功。
-! 脚本的名称叫RedGifs Video Download
-
-
-
+redgifs.com##.globalSearch~*,[aria-label="Upload"],.left.side,.right.side:remove()
+redgifs.com##:xpath(/html/body/div[1]/div/div[1]/div/div[1])
 
 ! 2024-05-08 https://dbro.news 
 dbro.news##meta,footer,.smart-head-mid,.show-lg,.comments,aside.has-sep:remove()
@@ -508,6 +488,9 @@ xxxshake.com##.fluid-custom-buttons
 ! 2024年4月29日 https://scrolller.com  $$$$$
 scrolller.com##[href^="/assets/Popup"],[src$="ad-provider.js"],[href^="/assets/NsfwWarning"],noscript,.sc-cmaqmh,div.popup--sticky,[aria-label="Favorite"]~*:remove()
 scrolller.com##button:has-text(Upload):remove()
+scrolller.com##:xpath(/html/body/div[1]/div/div[2]/div[2]/div/div[1]/div/div[3]):remove()
+scrolller.com##:xpath(/html/body/div[1]/div/div[2]/div[1]/div[3]):remove()
+
 
 
 #======漫画===========================================================================
@@ -581,8 +564,7 @@ asmhentai.com##.atop,.footer_center,.friends
 asmhentai.com##.navbar_links li:nth-of-type(8)~*
 
 ! 2024-05-08 https://h-ciyuan.com  
-h-ciyuan.com##meta,[rel="alternate"],[rel*="icon"],#gridview-wrapper-outside~.gridview-outer-wrapper,.gridview-featured-posts-area>*:not(#block-56),#gridview-posts-wrapper header,#gridview-header
-h-ciyuan.com###gridview-sidebar-two-wrapper,#comments,.gridview-share-buttons,#gridview-posts-wrapper .code-block,#gridview-posts-wrapper h1
+h-ciyuan.com###wp-custom-css,#gridview-header-end,#gridview-header,.gridview-top-wrapper-outer,#floating-ad,#comments,[id^="block-"],#menu-item-55765,#menu-item-25315:remove()
 
 ! 2024-05-08 https://ichinuke.com
 ichinuke.com##meta,noscript,[id*="_ad_"],[class*="_ad_"],[id^="g_floating"],body>div[style],.l-scrollObserver,.afc_popup,footer
@@ -617,7 +599,10 @@ rouman5.com##script:has-text(/肉漫屋是免费的在线阅读网站|code.js|ja
 tsumino.com##meta,[href="/chat"]
 
 ! 2022-11-20 https://nhentai.net
-nhentai.net##meta,#comment-post-container
+nhentai.net##meta,#comment-post-container,.active~*
+nhentai.net##li.desktop:nth-of-type(8)
+nhentai.net##li.desktop:nth-of-type(9)
+
 
 ! 2023-09-15 https://kimootoko.net 被一个懦弱顺从、令人作呕的男人打败并受到羞辱的情况,女主角同人作品
 kimootoko.net##meta,noscript,footer,header,[rel*="icon"],#header-below-widget-area,.w-frontTop,.widget_text,.pickup,.kugirisen,.bigkugirisen
@@ -671,7 +656,8 @@ members.luscious.net##h2:has-text(Leave a comment):upward(2)
 jmdw6.org##header+center,footer,.logo:remove()
 
 ||ikanwzd.cc/static/js/comment.js
-ikanwzd.cc##.index-friendship~*,.footer,.manga-list,.view-comment-main,.sr-qrcode:remove()
+ikanwzd.cc##.manga-list[style],.footer,.view-comment-main,.index-friendship 
+! ikanwzd.cc##.index-friendship~*,.footer,.manga-list,.view-comment-main,.sr-qrcode:remove()
 
 #======漫画===========================================================================
 
@@ -691,9 +677,7 @@ moeimg.net##meta,[rel="icon"],[id*="_ad_"],[id*="-ad-"],[class*="_ad_"],#header,
 moeimg.net##.searchbyimage,br
 
 ! 2024-01-21 https://www.pornpics.com
-pornpics.com##meta,[rel*="icon"],footer,.footer-push,.left-nav-sponsor,.share-main,.comm-from-section,.comments,.gall-info-report,.gall-info-share,.gall-info-comments
-pornpics.com###wrapper~*:remove()
-pornpics.com##.img-bluring:remove-attr(class)
+pornpics.com##footer,.footer-push,.gallery-buttons,.comm-from-section,#sBottomLine,.vjs-spot-line,.r-container-mob,.left-nav-sponsor,#fb-button,.site-lang~*
 
 ! 2024-02-22 http://www.wsgmzt.com 无圣光妹子图
 wsgmzt.com##script:remove()
@@ -773,8 +757,6 @@ www.hentaiasmr.moe###comments
 www.hentaiasmr.moe##.lazy-ad-container
 www.hentaiasmr.moe##.aside-cats[style]
 
-! 2024-01-31 https://www.asmr.one
-
 ! 2024年4月24日 https://www.4khd.com
 4khd.com##script,.centbtd,footer:remove()
 4khd.com##body>*:not(.wp-site-blocks,style):remove()
@@ -812,11 +794,12 @@ erovoice-ch.com###contents ~ *:remove()
 erovoice-ch.com##script,.addWrap,#nav_menu-3,#text-2,#custom_html-2,#recent_comments-2,#commentArea,#custom_html-10:remove()
 
 ! 2024年4月25日 https://asmr18.fans  ASMR+18は、声優さんの本格的な同人エロボイス、萌えボイス
-asmr18.fans##body > *:not(#header,#top-slider,#container,#post-data):remove()
-asmr18.fans###main > :nth-child(-n+4)
-asmr18.fans###main > div[style]
-asmr18.fans###comments,#menu-link,script,.book18-post-list
-asmr18.fans##[href="https://book18.fans/"]:nth-ancestor(1)
+asmr18.fans##footer,.book18-post-list,[style*="width: 92%"],[style*="width: 300px"],#comments,#menu-link:remove()
+asmr18.fans##.home-h:has-text(/オンライン|エロ漫画/):remove()
+asmr18.fans##[href="https://asmr18.fans/contact/"]:remove()
+asmr18.fans##script:has-text(StripchatSpot):remove()
+
+
 
 ! 2024年4月25日 https://eatasmr.com e聆聽, 放鬆身心
 eatasmr.com##footer
@@ -1022,6 +1005,7 @@ iwara.tv###modal-root,noscript,footer,.shareButton:remove()
 91porn.com##a[href^="view_video_hd.php?"]~*,.clear,[src*="poweredby.jads.co"],[data-cfasync="false"],ins[id],iframe:remove()
 91porn.com###wrapper~*,[class^="footer"]:remove()
 91porn.com##script:has-text(/adsbyjuicy|jads.js|beforeunload/)
+91porn.com##[href="ad.html"]:upward(1)
 ! 91porn.com##+js(set-attr, video, controls, true)
 
 
@@ -1062,6 +1046,9 @@ internetchicks.com##script,.title-area,.live-cams,.tpd-link-desktop,.footer-widg
 ! ||bilibili.com$removeparam=/^(bvid)/
 
 !==URL净化===跟踪参数================================================================================-******************
+91porn.com##+js(set-attr, video, controls, true)
+
+!==显示视频控件================================================================================-******************
 
 
 ||https://yorg.io/ads.js
@@ -1079,4 +1066,9 @@ ddys.pro###sajdhfbjwhe
 
 ! 2025年5月2日 https://www.agefans.la ACG动漫
 www.agefans.la##.global_notice_wrapper,.foot_content_wrapper,#notice_box
+
+
+
+#=====================================
+0.0.0.0 kdurkkur254.com
 
