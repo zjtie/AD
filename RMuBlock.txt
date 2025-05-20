@@ -93,18 +93,37 @@ twitter.com,x.com,~platform.twitter.com##+js(json-prune-xhr-response, data.immer
 ! 移除响应中的推广内容来确保用户看到的内容不包含广告
 x.com##div[data-testid="tweetText"]:has-text(/关闭VPN|关VPN|互换/):upward(9)
 x.com##div[data-testid="tweetText"] img[title="门"]:upward(9)
-! 屏蔽帖子，只要含有某个关键词
-x.com##aside[aria-label="订阅 Premium"]:upward(2)
-x.com##a[href="/i/premium_sign_up"][role="link"]
-x.com##a[href="/i/verified-orgs-signup"][role="link"]
-x.com##a[href="/compose/post"][role="link"]
-x.com##aside[aria-label="撰写帖子"]
-x.com##div nav[aria-label="页脚"]
-! 屏蔽按钮
-x.com##:matches-path(/home) :xpath(/html/body/div[1]/div/div/div[2]/main/div/div/div/div[1]/div/div[3])
-! 发布内容框
-x.com##:matches-path(/home):xpath(/html/body/div[1]/div/div/div[2]/main/div/div/div/div[2]/div/div[2]/div/div/div/div/div[3])
-! 订阅 Premium
+
+
+! #=====宽屏设备
+! x.com##:xpath(/html/body/div[1]/div/div/div[2]/header/div/div/div/div[1]/div[1])
+! x.com##:xpath(/html/body/div[1]/div/div/div[2]/header/div/div/div/div[1]/div[3])
+! x.com##[data-testid="premium-signup-tab"],[data-testid="vo-signup-tab"],[data-testid="jobs-tab-item"]
+! x.com##:xpath(/html/body/div[1]/div/div/div[1]/div[2]/div/div/div/div[2]/div/div[3]/div/div/div/div/div[2])
+! x.com##:xpath(/html/body/div[1]/div/div/div[1]/div[2]/div/div/div/div[2]/div/div[3]/div/div/div/div/div[3])
+! x.com##:xpath(/html/body/div[1]/div/div/div[1]/div[2]/div/div/div/div[2]/div/div[3]/div/div/div/div/div[1])
+! x.com##:matches-path(/home) :xpath(/html/body/div[1]/div/div/div[2]/main/div/div/div/div[1]/div/div[3])
+! x.com##:matches-path(/home) :xpath(/html/body/div[1]/div/div/div[2]/main/div/div/div/div/div/div[3])
+! ! 发布内容框
+! #=====宽屏设备
+
+
+
+
+! ! 屏蔽帖子，只要含有某个关键词
+! x.com##aside[aria-label="订阅 Premium"]:upward(2)
+! x.com##a[href="/i/premium_sign_up"][role="link"]
+! x.com##a[href="/i/verified-orgs-signup"][role="link"]
+! x.com##a[href="/compose/post"][role="link"]
+! x.com##aside[aria-label="撰写帖子"]
+! x.com##div nav[aria-label="页脚"]
+! ! 屏蔽按钮
+
+
+
+
+
+
 
 
 ! 2024-08-03 https://www.reddit.com
@@ -1090,6 +1109,4 @@ www.agefans.la##.global_notice_wrapper,.foot_content_wrapper,#notice_box
 
 ! 2025年5月20日 https://cn.gamcore.com
 gamcore.com##.cc_banner-wrapper,#middleCntr~*,#carousel+div
-
-
 
