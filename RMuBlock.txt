@@ -223,7 +223,9 @@ www.alipan.com##.container--T0zFN
 www.alipan.com##.text-secondary--TlI9K
 
 ! 2022-12-15 https://smailpro.com/temp-gmail 临时谷歌邮箱
-smailpro.com##footer,.hidden,#a_1,.min-h-menuweb,.mt-4
+smailpro.com##[x-data="TemporaryEmail()"]:others():remove()
+
+
 
 ! 2024年8月6日 https://poe.com 
 poe.com##[class^="Banner_root"]:remove()
@@ -340,11 +342,15 @@ haijiaolove.xyz##+js(window.open-defuser.js)
 haijiaolove.xyz##+js(window.name-defuser)
 ||abs.twimg.com^$xhr
 ! HTMLPageDown
-haijiaolove.xyz###masthead,head.entry-header:remove()
+haijiaolove.xyz##.custom-logo-link
+haijiaolove.xyz##.uael-toc-heading:remove-attr(class)
+
+
 
 ! 海角
-edfe8.vfdpvzzi.cc##.xqbj-footer,div.is-desktop1,div.tags-group,div.text-wrap,div.link-wrapper,.comment-enter,.novel-info>div,.bubble-group-round:remove()
-edfe8.vfdpvzzi.cc##.xqbj-list-rows:has-text(/77直播|电子棋牌|大发娱乐/):remove()
+edfe8.vfdpvzzi.cc##.xqbj-component-advertises,.xqbj-footer,.is-desktop1,.tags-group,.text-wrap,.link-wrapper,.comment-enter:remove()
+edfe8.vfdpvzzi.cc##.xqbj-list-rows-placard:upward(1)
+
 
 
 ! 2024-07-20 https://bad.news   $$$$$
@@ -370,14 +376,15 @@ apple.com##.global-footer,#footer-upsell-banner-hole:remove()
 #======新片场视频===========================================================================
 #======播客===========================================================================
 
-spotify.com##[class="main-view-container__mh-footer-container"],button[data-encore-id="buttonPrimary"],[href="/download"]
+spotify.com##[data-testid="upgrade-button"],[data-encore-id="buttonTertiary"][href="/download"],.main-view-container__mh-footer-container
+spotify.com##[data-testid="download-button"],[data-testid="masthead-footer"],[data-testid="home-banner"]
 podcasts.apple.com##.inline-modal,footer
 castbox.fm##.footer-wrapper 
 
 #======播客===========================================================================
 ! 2024-05-06 https://zh.xhamster.com
 wikixh.world,xhamster.com##[data-nav-item-id="cams"],[data-nav-item-id="premium"],[data-nav-item-id="flirtify"],[data-nav-item-id="dating"],[data-nav-item-id="priority-vpn"],[data-nav-item-id="lusty-heroes"],[data-nav-item-id="ai-friend"],[data-role="promo-messages-wrapper"],header+nav
-wikixh.world,xhamster.com##[data-role="footer"],[data-role="layoutPage"]>aside+aside
+wikixh.world,xhamster.com##[data-role="footer"],[data-role="layoutPage"]>aside+aside,[data-role="ZBL-QVadbottom"],[data-role="ZBL-QVadtop"],[data-role="fp_link_dynamic"],[data-role="promo-messages-unpin"]
 wikixh.world,xhamster.com##.middle-mobile-horizontal,.xgJs-hJC--bottom,[data-role="xgJs-hJCtop"],.xgJs-hJCpremium-n-overlay
 wikixh.world,xhamster.com##[class^="WLTeD"],.thumb-list-mobile-item--widget,ul.right
 ||static-ah.xhcdn.com/xh-shared/$domain=static-ah.xhcdn.com
@@ -416,6 +423,18 @@ xfeet.xyz###page~*:not(script):remove()
 ! OnlyFans
 bitchesgirls.com##.footer,script,.buttonContainer,.social-links:remove()
 bitchesgirls.com##.navbar-grid > *:not(.nav-categories):remove()
+
+! 2025年5月20日 https://www.xvideos.com
+xvideos.com###page>#main~*:remove()
+xvideos.com##:xpath(/html/body/div[2]/div/div/nav/ul/li[5]):remove()
+xvideos.com###tabReport,#tabShareAndEmbed,.share,.report,[data-style="desktop-text-red"],#mobile-header-links,[data-is-premium="1"],.full-video-link
+
+
+! 惩罚世界
+punishworld.com##.actors-footer~*,#wrapper-footer,li.tag-icon~*,#comment_link,[href="/donate/"],.mobile-menu-all>ul~*,[id*="-boxes-mobile"],.vid-report:remove()
+
+thumbzilla.com###barContainer,.footer,#js-flagBtn
+
 
 #======日本视频===========================================================================
 ! 2023-07-26 https://pigav.com  
@@ -637,9 +656,6 @@ web.nicecat.cc###home-bulletin
 web.nicecat.cc##.homeBody + div
 web.nicecat.cc###body_nav_menu div:nth-of-type(8)
 web.nicecat.cc###body_nav_menu div:nth-of-type(9)
-
-
-
 
 ! 2024年6月24日 https://members.luscious.net
 ||fonts.googleapis.com^$domain=luscious.net
@@ -1071,4 +1087,9 @@ www.agefans.la##.global_notice_wrapper,.foot_content_wrapper,#notice_box
 
 #=====================================
 0.0.0.0 kdurkkur254.com
+
+! 2025年5月20日 https://cn.gamcore.com
+gamcore.com##.cc_banner-wrapper,#middleCntr~*,#carousel+div
+
+
 
