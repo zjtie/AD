@@ -107,51 +107,30 @@ x.com##div[data-testid="tweetText"] img[title="门"]:upward(9)
 ! ! 发布内容框
 ! #=====宽屏设备
 
-
-
-
-! ! 屏蔽帖子，只要含有某个关键词
-! x.com##aside[aria-label="订阅 Premium"]:upward(2)
-! x.com##a[href="/i/premium_sign_up"][role="link"]
-! x.com##a[href="/i/verified-orgs-signup"][role="link"]
-! x.com##a[href="/compose/post"][role="link"]
-! x.com##aside[aria-label="撰写帖子"]
-! x.com##div nav[aria-label="页脚"]
-! ! 屏蔽按钮
-
-
-
-
-
-
+! ! #=====网页设备
+! x.com##[data-testid="premium-signup-tab"],[data-testid="vo-signup-tab"],[data-testid="jobs-tab-item"]
+! x.com##:xpath(/html/body/div[1]/div/div/div[2]/header/div/div/div/div[1]/div[3])
+! x.com##:matches-path(/home) :xpath(/html/body/div[1]/div/div/div[2]/main/div/div/div/div[2]/div/div[2]/div/div/div/div/div[3])
+! x.com##:matches-path(/home) :xpath(/html/body/div[1]/div/div/div[2]/main/div/div/div/div[1]/div/div[3])
+! ! #=====网页设备
 
 
 ! 2024-08-03 https://www.reddit.com
-! 导航
-reddit.com###RESOURCES > *:not([noun="communities_menu"],[noun="rereddit_menu"],[noun="topics_menu"]):remove()
-! 创作
-reddit.com##[data-part="advertise"],[data-part="create"],create-post-entry-point-wrapper:remove()
-! 移除模糊样式
-reddit.com##img.object-cover:remove-attr(style)
-! 屏蔽推广链接和广告
-reddit.com##.promotedlink,.promoted,.ad-container,.ad,.ad-placeholder,.promoted-content
-! 屏蔽特定的广告元素
-reddit.com##.ad-banner,.ad-sidebar,.ad-footer,.ad-top,.ad-bottom:remove()
-! 屏蔽赞助帖子
-reddit.com##.sponsored-post,.sponsored-link,.sponsored-content:remove()
-! 屏蔽其他与广告相关的元素
-reddit.com##.ad-slot,.ad-unit,.ad-wrapper,.ad-box,.ad-item:remove()
-! 屏蔽推广的用户内容
-reddit.com##.promoted-user-content,.promoted-user-post,.promoted-user-link:remove()
-! 屏蔽视频广告
-reddit.com##.video-ad,.video-promoted:remove()
-! 屏蔽广告跟踪脚本
 ||reddit.com/ads/*
 ||redditmedia.com/ads/*
 ||redditstatic.com/ads/*
 ||reddit.com/track/*
 ||redditmedia.com/track/*
 ||redditstatic.com/track/*
+reddit.com###xpromo-bottom-sheet,create-post-entry-point-wrapper,shreddit-comments-page-ad,shreddit-comment-tree-ad,[data-part="advertise"]:remove()
+! APP中打开，发布内容
+reddit.com##.block.w-100.h-100+div:remove()
+reddit.com##img[loading="lazy"]:remove-attr(style)
+ ! 移除模糊样式
+reddit.com##:xpath(/html/body/shreddit-app/div[5]/reddit-sidebar-nav/nav/nav/faceplate-expandable-section-helper/details/faceplate-auto-height-animator/div/faceplate-tracker[position() <= 7])
+reddit.com##:xpath(/html/body/shreddit-app/div[5]/reddit-sidebar-nav/nav/nav/faceplate-expandable-section-helper/details/faceplate-auto-height-animator/div/faceplate-tracker[position() >= 11 and position() <= 13])
+reddit.com##script:remove()
+
 
 ! 2024年5月3日 https://www.douyin.com 抖音
 douyin.com###douyin-header-menuCt pace-island > div > *:has-text(/充钻石|快捷访问|投稿|客户端|壁纸/)
