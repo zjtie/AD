@@ -90,30 +90,17 @@ twitter.com,x.com,~platform.twitter.com##+js(json-prune-xhr-response, data.searc
 twitter.com,x.com,~platform.twitter.com##+js(json-prune-xhr-response, data.threaded_conversation_with_injections_v2.instructions.[].entries.[-].content.items.[].item.itemContent.promotedMetadata, , propsToMatch, url:/TweetDetail)
 twitter.com,x.com,~platform.twitter.com##+js(json-prune-xhr-response, data.user.result.timeline_v2.timeline.instructions.[].entries.[-].content.itemContent.promotedMetadata, , propsToMatch, url:/UserTweets)
 twitter.com,x.com,~platform.twitter.com##+js(json-prune-xhr-response, data.immersiveMedia.timeline.instructions.[].entries.[-].content.itemContent.promotedMetadata, , propsToMatch, url:/ImmersiveMedia)
-! 移除响应中的推广内容来确保用户看到的内容不包含广告
-x.com##div[data-testid="tweetText"]:has-text(/关闭VPN|关VPN|互换/):upward(9)
-x.com##div[data-testid="tweetText"] img[title="门"]:upward(9)
 
-
-! #=====宽屏设备
-! x.com##:xpath(/html/body/div[1]/div/div/div[2]/header/div/div/div/div[1]/div[1])
-! x.com##:xpath(/html/body/div[1]/div/div/div[2]/header/div/div/div/div[1]/div[3])
-! x.com##[data-testid="premium-signup-tab"],[data-testid="vo-signup-tab"],[data-testid="jobs-tab-item"]
-! x.com##:xpath(/html/body/div[1]/div/div/div[1]/div[2]/div/div/div/div[2]/div/div[3]/div/div/div/div/div[2])
-! x.com##:xpath(/html/body/div[1]/div/div/div[1]/div[2]/div/div/div/div[2]/div/div[3]/div/div/div/div/div[3])
-! x.com##:xpath(/html/body/div[1]/div/div/div[1]/div[2]/div/div/div/div[2]/div/div[3]/div/div/div/div/div[1])
-! x.com##:matches-path(/home) :xpath(/html/body/div[1]/div/div/div[2]/main/div/div/div/div[1]/div/div[3])
-! x.com##:matches-path(/home) :xpath(/html/body/div[1]/div/div/div[2]/main/div/div/div/div/div/div[3])
-! ! 发布内容框
-! #=====宽屏设备
-
-! ! #=====网页设备
-! x.com##[data-testid="premium-signup-tab"],[data-testid="vo-signup-tab"],[data-testid="jobs-tab-item"]
-! x.com##:xpath(/html/body/div[1]/div/div/div[2]/header/div/div/div/div[1]/div[3])
-! x.com##:matches-path(/home) :xpath(/html/body/div[1]/div/div/div[2]/main/div/div/div/div[2]/div/div[2]/div/div/div/div/div[3])
-! x.com##:matches-path(/home) :xpath(/html/body/div[1]/div/div/div[2]/main/div/div/div/div[1]/div/div[3])
-! ! #=====网页设备
-
+x.com##script:has-text(/block/):remove()
+x.com##noscript,#nonce-csp,.errorContainer:remove()
+x.com##.r-1h8ys4a,[data-testid="super-upsell-UpsellCardRenderProperties"],[aria-label="页脚"],____,[data-testid="jobs-tab-item"],[data-testid="premium-signup-tab"],[data-testid="vo-signup-tab"],___,[href="/i/monetization"],[href*="twitter-ads-rweb"]:remove()
+! 发现新鲜事情，订阅Premium，页脚_____,工作,premium,认证组织,----盈利，广告
+x.com##:xpath(/html/body/div[1]/div/div/div[2]/header/div/div/div/div[1]/div[1])
+x.com##:xpath(/html/body/div[1]/div/div/div[2]/header/div/div/div/div[1]/div[3])
+! logo，发布，其他
+x.com##:xpath(/html/body/div[1]/div/div/div[2]/main/div/div/div/div[1]/div/div[3]/div/div/div[2]/nav/div/div[2]/div/div[position()=3 or position()=4])
+x.com##:xpath(/html/body/div[1]/div/div/div[2]/main/div/div/div/div[1]/div/div[3]/div/div/div[1]/div[2])
+! 亮点，文章，你尚未通过认证
 
 ! 2024-08-03 https://www.reddit.com
 ||reddit.com/ads/*
@@ -234,9 +221,8 @@ bibigpt.co##[data-sidebar="footer"]
 
 rsshub.app##.VPCarbonAds,.VPDocAsideCarbonAds
 
-apkmirror.com##.footer,noscript,.adslot,.adsbygoogle
-apkmirror.com##script:has-text(adsbygoogle.js)
-apkmirror.com##body:remove-attr(style)
+apkmirror.com###bottom-slider,.footer,.desktopTitle 
+
 #======文档工具==========================================================================
 
 
@@ -338,7 +324,6 @@ haijiaolove.xyz##body>*:not(#page),footer:remove()
 haijiaolove.xyz##+js(noop.js)
 haijiaolove.xyz##+js(window.open-defuser.js)
 haijiaolove.xyz##+js(window.name-defuser)
-||abs.twimg.com^$xhr
 ! HTMLPageDown
 haijiaolove.xyz##.custom-logo-link
 haijiaolove.xyz##.uael-toc-heading:remove-attr(class)
@@ -540,35 +525,35 @@ nijisenmon.work##.ad,footer,#menu-item-71060,#menu-item-71094,#headbox-bg,#inter
 ||ads.exoclick.com^
 ||a.magsrv.com/ad-provider.js
 ||www.google-analytics.com^$domain=18comic.vip
-18comic.vip##script:has-text(/#Comic_Top_Nav/):remove()
-18comic.vip##meta,#billboard-modal,.top-nav,script,[class^="float-"]:remove() { display: none !important; }
-18comic.vip##[href="/veteran"],[href="/games"],[href="/forum/"],[rel^="nofollow"],[href^="mailto"]:remove() { display: none !important; }
+18comic.vip###guide-modal,#billboard-modal,div.hidden-lg[style],[class^="float"],.footer-container,li#sns,[title="AI chat"],.top-nav:remove()
+18comic.vip##:xpath(/html/body/div[10]/div[1]/ul/li[4])
+! 底部导航栏-游戏
+18comic.vip##ul.navbar-nav.navbar-left>*:not(#accordion-menu)
+! 导航栏浮窗
 18comic.vip###Comic_Top_Nav:remove-class(navbar)
-! 导航
-18comic.vip##.panel-heading + div:not([class]),.panel-body~*:remove() { display: none !important; }
-18comic.vip##:matches-path("/theme/") .row>div:remove() { display: none !important; }
-18comic.vip##:matches-path("/albums/") .container>.hidden-xs~*:remove() { display: none !important; }
-18comic.vip##.spnotice,.footer-pad,.footer-container:remove() { display: none !important; }
-! Over
-! 18comic.vip##:matches-path("/photo/") link[href*="bootstrap.css"]~*:remove()
-! 18comic.vip##:matches-path("/photo/") body>*:not(#wrapper):remove()
-! 18comic.vip##:matches-path("/photo/") #Comic_Top_Nav,#is_hanman+div~*,.container.phpage-bottom:remove()
-! 18comic.vip##:matches-path("/photo/") #wrapper>*:not(.container):remove()
-! 18comic.vip##:matches-path("/photo/") div[id$=".webp"]:remove-attr(style)
-
+! 去除顶部空白部分的移除
+18comic.vip##.down .col-lg-6.col-md-6.col-sm-6 {display: block !important;}
+! 下载免等待
+18comic.vip##.sear-phone+li,#post_comment
+18comic.vip##:matches-path("/theme/"):xpath(/html/body/div[10]/div[5]/div[4])
+18comic.vip##:matches-path("/theme/"):xpath(/html/body/div[10]/div[5]/div[9])
+18comic.vip##:matches-path("/search/photos?search_query="):xpath(/html/body/div[10]/div[4]/div[6])
+18comic.vip##:matches-path("/blog_library"):xpath(/html/body/div[10]/div[5]/div[1]/div[1])
+18comic.vip##:matches-path("/library/"):xpath(/html/body/div[10]/div[5]/div[4])
+18comic.vip##:matches-path("/video") .inner-block > div:first-of-type,.inner-block >.anime-text-container
+18comic.vip##:matches-path("/movie/"):xpath(/html/body/div[10]/div[5]/div[3])
+18comic.vip##:matches-path("/movie/") .m-t-5~a
+18comic.vip##:matches-path("/movie/"):xpath(/html/body/div[10]/div[5]/div[4])
+18comic.vip##:matches-path("/movie/"):xpath(/html/body/div[10]/div[5]/div[6])
+===移动端==========================================
+18comic.vip##:xpath(/html/body/div[10]/div[7]/div[12])
 ! 屏蔽广告联盟的脚本和 iframe
 ||juicyads.com^$subdocument
 ||exosrv.com^$subdocument
 ! 可选：阻止广告检测的 AJAX 请求
 ||18comic.vip/ajax/ad_check^
 
-18comic.vip##.e8c78e-4_b
-! 18comic.vip##+js(acis, clarity, script)
-18comic.vip##^script:has-text(clarity)
-! 18comic.vip##+js(acis, outsidenotice, script)
-18comic.vip##^script:has-text(outsidenotice)
-! 18comic.vip##+js(acis, signDaily, script)
-18comic.vip##^script:has-text(signDaily)
+
 
 
 eromanga-kong.com##meta,#header_inner,footer,.tagcloud+div+div,#side_right>div+div,.related-box,.commentarea,[src*="img.ad-"],[href^="https://line.me"],.xoxo 
@@ -670,8 +655,7 @@ members.luscious.net##h2:has-text(Leave a comment):upward(2)
 jmdw6.org##header+center,footer,.logo:remove()
 
 ||ikanwzd.cc/static/js/comment.js
-ikanwzd.cc##.manga-list[style],.footer,.view-comment-main,.index-friendship 
-! ikanwzd.cc##.index-friendship~*,.footer,.manga-list,.view-comment-main,.sr-qrcode:remove()
+ikanwzd.cc##:xpath(/html/body/div[2])
 
 #======漫画===========================================================================
 
@@ -737,8 +721,24 @@ jablehk.com##.yui-popup-container-node:remove()
 ! 2024-04-14 https://accounts.pixiv.net pixiv是提供插画等作品的投稿、阅览服务的「插画交流网站」
 pixiv.net##noscript,iframe,next-route-announcer:remove()
 pixiv.net##+js(nosiif)
-pixiv.net##script:has-text(/createElement|googletagmanager/):remove()
-pixiv.net##[data-nscript="afterInteractive"]:remove()
+!======================网页端
+pixiv.net##:xpath(/html/body/div[1]/div/div[2]/div[3]/div/div[1]/div/div[3]/div[1]/div[1])
+pixiv.net##[class*="grid-rows-"],.sticky.bottom-0,.gamwqe,.charcoal-token,.premium-lead-t-footer:remove()
+!======================网页端
+pixiv.net##:xpath(/html/body/div[5]/div/div/div[2]/div/div/div[1]/a[2])
+pixiv.net##:xpath(/html/body/div[5]/div/div/div[2]/div/div/div[3]/div)
+pixiv.net##:xpath(/html/body/div[5]/div/div/div[2]/div/div/div[3]/ul[3])
+pixiv.net##:xpath(/html/body/div[5]/div/div/div[2]/div/div/div[3]/ul[9])
+pixiv.net##:xpath(/html/body/div[5]/div/div/div[2]/div/div/div[3]/ul[10])
+pixiv.net##:xpath(/html/body/div[5]/div/div/div[2]/div/div/div[3]/ul[11]/li[2])
+pixiv.net##:xpath(/html/body/div[5]/div/div/div[2]/div/div/div[3]/ul[11]/li[5])
+pixiv.net##:xpath(/html/body/div[5]/div/div/div[2]/div/div/div[3]/ul[12])
+pixiv.net##:xpath(/html/body/div[5]/div/div/div[2]/div/div/div[3]/ul[11]/li[3])
+!======================移动端
+
+
+
+
 
 ! 2024年4月17日 https://www.deviantart.com 最大的在线技术画廊和社区
 
@@ -913,22 +913,8 @@ nsfwr34.com###menu-item-34 ~ *:remove()
 telegram.org##[rel*="icon"],meta[name],meta[property]
 telegram.org##+js(set-attribute, div.progress-line__filled, style, width: 100%;)
 ! 音量设置100%
-! telegram.org##+js(set-attribute, .media-viewer-buttons, style, display:flex;justify-content:center;align-items:center;)
 telegram.org##+js(set-interval, .media-viewer-buttons, 'display: flex; justify-content: center; align-items: center;', 500)
-
-! telegram.org##.toasts-container
-! telegram.org##.popup-premium,meta:remove()
-! #开会员
-telegram.org##.btn-icon:remove-class(hide)
-! #移除下载按钮隐藏
-! telegram.org###portals + script:remove()
-! #在页面加载时检查浏览器是否支持一系列现代 Web 特性 [compatTest.js]
-! telegram.org##button#new-menu
-! ! 创建按钮
-! telegram.org##.media-viewer-whole > .overlays:remove()
-! ! 视频播放时，取消背景模糊
-! telegram.org##[rel*="icon"]:remove()
-telegram.org##.bubbles-group span:has-text(/扑克|广告|棋牌|赌场|游戏|莆田|支付|立即体验|现金|神秘通道/):nth-ancestor(4)
+telegram.org##.bubbles-group span:has-text(/扑克|广告|棋牌|赌场|游戏|莆田|支付|立即体验|现金|神秘通道|博彩平台|奈奈的酒馆AI|AI伴侣|信誉商家/):nth-ancestor(4)
 
 
 ! ======Telegram ===========================================================================
