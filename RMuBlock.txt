@@ -910,10 +910,18 @@ nsfwr34.com###menu-item-34 ~ *:remove()
 69story.com###read-more,main#main>article~*,.entry-title~*,main#main>article>.entry-content~*,#menu-item-212,td[colspan="2"],#menu-item-1189~*,#primary>#main>table+div,[href="https://g.gaypad.net/"]
 69story.com###primary.content-area.col-xs-12~*,#banner5
 ! ======Telegram ===========================================================================
-telegram.org##[rel*="icon"],meta[name],meta[property]
+t.me##.tgme_head_right_btn
+! 下载APP
+telegram.org##.hide:remove-class(hide)
+telegram.org##.popup-premium,.pinned-translation,.btn-primary,.pinned-audio-close,div.pinned-requests.pinned-container
+! 订阅会员，会员功能-翻译，公告会员按钮，关闭声音按钮，关闭弹窗,日期重复,.is-fake
+telegram.org##.media-viewer-buttons:style(display: flex !important; justify-content: flex-end !important; align-items: center !important; position: fixed !important; right: 20px !important; top: 40px !important;)
+! 视频播放按钮改为Flexbox浮动，固定在屏幕距离
+! telegram.org##:xpath(/html/body/div[2]/div/div[4]/div/div[2]/div[2]/div[2]):style(display: flex !important; justify-content: flex-end !important; align-items: center !important; position: fixed !important; right: 20px !important; top: 40px !important;)
+! 音频播放按钮改为Flexbox浮动，固定在屏幕距离
 telegram.org##+js(set-attribute, div.progress-line__filled, style, width: 100%;)
 ! 音量设置100%
-telegram.org##+js(set-interval, .media-viewer-buttons, 'display: flex; justify-content: center; align-items: center;', 500)
+
 telegram.org##.bubbles-group span:has-text(/扑克|广告|棋牌|赌场|游戏|莆田|支付|立即体验|现金|神秘通道|博彩平台|奈奈的酒馆AI|AI伴侣|信誉商家/):nth-ancestor(4)
 
 
@@ -1074,4 +1082,13 @@ www.agefans.la##.global_notice_wrapper,.foot_content_wrapper,#notice_box
 
 ! 2025年5月20日 https://cn.gamcore.com
 gamcore.com##.cc_banner-wrapper,#middleCntr~*,#carousel+div
+
+kimi.com##.download-button
+chat.deepseek.com##:xpath(/html/body/div[1]/div/div/div[2]/div[3]/div/div/div[1]/div[2]/div[2])
+chat.deepseek.com##:xpath(/html/body/div[1]/div/div/div[2]/div[1]/div/div[4]/div[1])
+chat.deepseek.com##:xpath(/html/body/div[1]/div/div/div[2]/div[3]/div/div[1]/div[2]/div[2])
+beta.dopple.ai##nav+div.cursor-pointer,noscript,footer
+crushon.ai##.-bottom-px,li.flex-col.gap-3
+metaso.cn##[class^="SystemMessage_container"]
+
 
