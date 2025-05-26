@@ -120,8 +120,8 @@ reddit.com##script:remove()
 
 
 ! 2024年5月3日 https://www.douyin.com 抖音
-||douyin.com^$header=user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.7103.48 Safari/537.36
-douyin.com##script[crossorigin="anonymous"]:remove()
+douyin.com^$header=user-agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.7103.48 Safari/537.36
+douyin.com##script[crossorigin="anonymous"],script[nonce]:remove()
 douyin.com##script:has-text(/mark|_reactRetry|insertBefore|TeaAnalytics/):remove()
 ! mark 函数，用于 性能标记（Performance Mark），帮助开发者分析网页性能
 douyin.com##script:has-text(/setPageViewLog|getMultiWindowLogInfo/):remove()
@@ -152,9 +152,9 @@ douyin.com##:xpath(/html/body/div[2]/div[1]/div[3]/div/div[2]/div/div/pace-islan
 douyin.com##:xpath(/html/body/div[2]/div[1]/div[4]/div[1]/div[1]/header/div/div/div[2]/div/pace-island/div/div[position() <= 3])
 douyin.com##:xpath(/html/body/div[2]/div[1]/div[4]/div[1]/div[1]/header/div/div/div[2]/div/pace-island/div/div[4])
 !关于抖音， 充钻石|快捷访问|投稿|客户端|壁纸
+douyin.com##body:style(height: 70vh !important; overflow: hidden !important)
 douyin.com##html:style(height: 70vh !important; overflow: hidden !important)
 ! 强制页面高度变为 70%
-
 
 
 
