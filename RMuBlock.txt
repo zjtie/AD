@@ -120,10 +120,38 @@ reddit.com##script:remove()
 
 
 ! 2024年5月3日 https://www.douyin.com 抖音
-douyin.com###douyin-header-menuCt pace-island > div > *:has-text(/充钻石|快捷访问|投稿|客户端|壁纸/)
-douyin.com##.prlW7G_5 span:has-text(/放映厅|短剧/):upward(5)
-douyin.com##footer
-
+||douyin.com^$header=user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.7103.48 Safari/537.36
+douyin.com##script[crossorigin="anonymous"]:remove()
+douyin.com##script:has-text(/mark|_reactRetry|insertBefore|TeaAnalytics/):remove()
+! mark 函数，用于 性能标记（Performance Mark），帮助开发者分析网页性能
+douyin.com##script:has-text(/setPageViewLog|getMultiWindowLogInfo/):remove()
+! 网页数据收集、优化浏览体验 和 用户行为分析，可能涉及 埋点监测、页面日志记录和 Cookie 处理
+douyin.com##script:has-text(/unhandledrejection/):remove()
+! 主要用于 性能监控、错误收集和数据埋点，可能涉及 页面性能分析、错误追踪和长任务检测。
+douyin.com##script:has-text(/Slardar/):remove()
+! 用户反馈系统，它会在页面加载后 延迟 9 秒 添加一个 反馈按钮
+douyin.com##script:has-text(/SdkGlueInit/):remove()
+! ✅API 请求监控：拦截特定 API 请求，可能用于 反作弊或数据分析。
+! ✅ 验证码处理：动态加载验证码 SDK，确保安全验证机制正常运行。 
+! ✅ 设备适配：根据 CPU 线程数和设备内存 调整参数，优化低端设备体验。 如果 CPU 线程数 ≤ 4 且 设备内存 ≤ 2GB
+! ✅ 安全验证：加载 bdms.js 进行 数据加密、签名校验或反爬虫
+douyin.com##script:has-text(/sdk-glue/):remove()
+! ✅ SDK 加载监控：跟踪 SDK 是否正确加载，检测 sdk-glue 相关脚本是否报错。 
+! ✅ 错误收集：监听 error 事件，捕获 JavaScript 运行时错误，并上报到监控服务器。 
+! ✅ 数据埋点：记录 window.location.href、timestamp 等信息，可能用于 用户行为分析。 
+! ✅ 采样控制：通过 Math.random() 设定 数据采集比例，避免过多上报影响性能。
+douyin.com##script:has-text(/window.pageLog/):remove()
+! ✅ 页面性能监测：收集 Largest Contentful Paint（LCP） 数据，优化页面加载速度。 
+! ✅ 用户行为分析：监听 点击、按键、页面可见性变化，分析用户交互模式。 
+! ✅ 数据埋点：存储 window.pageLog，可能用于 日志分析或 A/B 测试。 
+! ✅ 优化 Web Vitals：LCP 是 Google 推荐的 Web Vitals 指标，影响 SEO 和用户体验
+||lf-security.bytegoofy.com/obj/security-secsdk-gray/runtime_bundler_34.js
+||lf3-cdn-tos.bytescm.com/obj/static/log-sdk/
+! 字节跳动（ByteDance） 的 日志收集 SDK，用于 数据埋点、用户行为分析和错误监控
+douyin.com##:xpath(/html/body/div[2]/div[1]/div[3]/div/div[2]/div/div/pace-island)
+douyin.com##:xpath(/html/body/div[2]/div[1]/div[4]/div[1]/div[1]/header/div/div/div[2]/div/pace-island/div/div[position() <= 3])
+douyin.com##:xpath(/html/body/div[2]/div[1]/div[4]/div[1]/div[1]/header/div/div/div[2]/div/pace-island/div/div[4])
+!关于抖音， 充钻石|快捷访问|投稿|客户端|壁纸
 
 
 ! 2023-02-11 https://www.douban.com 豆瓣
@@ -188,10 +216,10 @@ up.woozooo.com##if_top
 up.woozooo.com###f_right
 
 ! 2023-07-27 https://apkcombo.com APP下载
-apkcombo.com##footer
-apkcombo.com##nav
-apkcombo.com##.is-nav
-apkcombo.com##[class*="ad-"]
+apkcombo.com##footer,nav,.is-nav,[class*="ad-"]
+apkpure.com###policy-info,.chrome-install-pop,.footer_new,#nav_download_management,.aegon-down-item
+apkpure.com##script:has-text(/adsense/):remove()
+
 
 ! 2024-01-22 https://www.yckceo.com 源仓库 阅读APP
 www.yckceo.com##div.layui-hide-md.layui-container > .layui-card
@@ -324,16 +352,55 @@ haijiaolove.xyz##body>*:not(#page),footer:remove()
 haijiaolove.xyz##+js(noop.js)
 haijiaolove.xyz##+js(window.open-defuser.js)
 haijiaolove.xyz##+js(window.name-defuser)
-! HTMLPageDown
-haijiaolove.xyz##.custom-logo-link
-haijiaolove.xyz##.uael-toc-heading:remove-attr(class)
+edfe8.vfdpvzzi.cc##.xqbj-component-advertises,.xqbj-footer,.is-desktop1,.tags-group,.text-wrap,.link-wrapper,.comment-enter:remove()
+edfe8.vfdpvzzi.cc##.xqbj-list-rows-placard:upward(1)
+
+
+
+
+
+||https://haijiao.com/css/topic.93ae5e08.css
+||haijiao.com^$header=user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+! 伪装成网页端，APP要登陆
+! haijiao.com###app:style(width: 100vw !important; max-width: 1200px !important; margin: 0 auto !important)
+! ! 自适应屏幕宽度
+! haijiao.com###hj-main-content:style(position: fixed !important; top: 0 !important; width: 100% !important; z-index: 9999 !important)
+
+
+
+haijiao.com##.custom_carousel:remove()
+! PC轮播广告
+haijiao.com##.hj-logo,.hj-slot:remove()
+
+
+
+aijiao.com##[href^="/css/topic."]:remove()
+
+
+
+
+aijiao.com##.hj-search:others():remove()
+
+
+rank-box
+! ||haijiao.com/css/topic.93ae5e08.css
+! ||haijiao.com/css/chunk-vendors.af29054e.css
+
+
+
+! ||code.tidio.co^$domain=haijiao.com,important
+! Tidio JavaScript 代码 主要用于集成 Tidio Live Chat，一个用于网站的即时客服聊天工具
+! haijiao.com##iframe,noscript,#editor,#bbs_float_menu,[role="dialog"],.containeradvertising,.action-tyf,.overflow-hidden,.url-box,.addbox,.mheader-seach~*,.topbanmer,.bannerliststyle  :remove()
+! 评论，浮窗，提示,广告，分享,举报,网址,添加到主屏幕,下载APP,轮播广告,列表内的广告
+
+
 
 
 
 ! 海角
-edfe8.vfdpvzzi.cc##.xqbj-component-advertises,.xqbj-footer,.is-desktop1,.tags-group,.text-wrap,.link-wrapper,.comment-enter:remove()
-edfe8.vfdpvzzi.cc##.xqbj-list-rows-placard:upward(1)
-
+! HTMLPageDown
+haijiaolove.xyz##.custom-logo-link
+haijiaolove.xyz##.uael-toc-heading:remove-attr(class)
 
 
 ! 2024-07-20 https://bad.news   $$$$$
@@ -413,8 +480,11 @@ xvideos.com##:xpath(/html/body/div[2]/div/div/nav/ul/li[5]):remove()
 xvideos.com###tabReport,#tabShareAndEmbed,.share,.report,[data-style="desktop-text-red"],#mobile-header-links,[data-is-premium="1"],.full-video-link
 
 
-! 惩罚世界
+! 惩罚世界、
+||https://a.magsrv.com/ad-provider.js
 punishworld.com##.actors-footer~*,#wrapper-footer,li.tag-icon~*,#comment_link,[href="/donate/"],.mobile-menu-all>ul~*,[id*="-boxes-mobile"],.vid-report:remove()
+punishworld.com##.vid-comments.box-sizing,[id^="ads"],noscript,#exoscript,.donmen:remove()
+
 
 thumbzilla.com###barContainer,.footer,#js-flagBtn
 
@@ -792,8 +862,8 @@ www.analporngallery.com##.friends
 www.analporngallery.com###topbar
 
 ! 2024-05-11 https://www.asmrgay.com 基佬中心
-asmrgay.com##.footer,.markdown 
-! asmrgay.com##.body>.hope-c-PJLV+div
+asmrgay.com##.hope-c-PJLV.hope-c-PJLV-ikSuVsl-css,.hope-notification__list
+
 
 ! 2024年4月25日 https://japaneseasmr.com 日本ASMR
 japaneseasmr.com###ilovewp-comments
@@ -912,17 +982,17 @@ nsfwr34.com###menu-item-34 ~ *:remove()
 ! ======Telegram ===========================================================================
 t.me##.tgme_head_right_btn
 ! 下载APP
-telegram.org##.hide:remove-class(hide)
-telegram.org##.popup-premium,.pinned-translation,.btn-primary,.pinned-audio-close,div.pinned-requests.pinned-container
-! 订阅会员，会员功能-翻译，公告会员按钮，关闭声音按钮，关闭弹窗,日期重复,.is-fake
+telegram.org##button.chat-join,div.popup-send-gift,.popup-premium,.is-centering-to-control:remove()
+! 加入,送礼,加入频道
+telegram.org##.media-viewer-buttons .hide:remove-class(hide)
 telegram.org##.media-viewer-buttons:style(display: flex !important; justify-content: flex-end !important; align-items: center !important; position: fixed !important; right: 20px !important; top: 40px !important;)
-! 视频播放按钮改为Flexbox浮动，固定在屏幕距离
-! telegram.org##:xpath(/html/body/div[2]/div/div[4]/div/div[2]/div[2]/div[2]):style(display: flex !important; justify-content: flex-end !important; align-items: center !important; position: fixed !important; right: 20px !important; top: 40px !important;)
-! 音频播放按钮改为Flexbox浮动，固定在屏幕距离
+! 移除视频控件的隐藏；再之后移动端不显示，视频播放按钮改为Flexbox浮动，固定在屏幕距离
+telegram.org##.animated-super.pinned-message-media-container~div:remove()
+! 公告，固定消息部分的隐藏
 telegram.org##+js(set-attribute, div.progress-line__filled, style, width: 100%;)
 ! 音量设置100%
-
-telegram.org##.bubbles-group span:has-text(/扑克|广告|棋牌|赌场|游戏|莆田|支付|立即体验|现金|神秘通道|博彩平台|奈奈的酒馆AI|AI伴侣|信誉商家/):nth-ancestor(4)
+telegram.org##.message span:has-text(/OverWall加速器|酒馆AI|绅士玩具屋|樱川爱|特价|支付|新用户|信誉|USDT|免费|SoulAI|游玩|体育/):nth-ancestor(4)
+telegram.org##blockquote:has-text(/付费/):remove()
 
 
 ! ======Telegram ===========================================================================
@@ -1090,5 +1160,5 @@ chat.deepseek.com##:xpath(/html/body/div[1]/div/div/div[2]/div[3]/div/div[1]/div
 beta.dopple.ai##nav+div.cursor-pointer,noscript,footer
 crushon.ai##.-bottom-px,li.flex-col.gap-3
 metaso.cn##[class^="SystemMessage_container"]
-
+relay.firefox.com##[class^="CornerNotification"],footer,[class^="profile_banners-wrapper"]
 
