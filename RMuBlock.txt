@@ -152,6 +152,10 @@ douyin.com##:xpath(/html/body/div[2]/div[1]/div[3]/div/div[2]/div/div/pace-islan
 douyin.com##:xpath(/html/body/div[2]/div[1]/div[4]/div[1]/div[1]/header/div/div/div[2]/div/pace-island/div/div[position() <= 3])
 douyin.com##:xpath(/html/body/div[2]/div[1]/div[4]/div[1]/div[1]/header/div/div/div[2]/div/pace-island/div/div[4])
 !关于抖音， 充钻石|快捷访问|投稿|客户端|壁纸
+douyin.com##html:style(height: 70vh !important; overflow: hidden !important)
+! 强制页面高度变为 70%
+
+
 
 
 ! 2023-02-11 https://www.douban.com 豆瓣
