@@ -1153,3 +1153,16 @@ relay.firefox.com##[class^="CornerNotification"],footer,[class^="profile_banners
 xdaforums.com##.uix_extendedFooter
 mail.proton.me##[role="alert"],.topnav-listItem--noCollapse,noscript,.shrink-0.flex.flex-column:remove()
 ! 提示，升级，升级
+
+! 2025年5月27日 https://keepv.id
+keepv.id###btnAdd,.footer
+
+! 2025年5月27日 https://www.shidianguji.com
+www.shidianguji.com##[class^="footer"],[class^="link-container"]
+
+! 2025年5月27日 https://zh.z-lib.fm
+zh.z-lib.fm###footer,z-comments
+
+! 2025年5月27日 https://tweeload.com
+tweeload.com##.mobile__apps,footer
+
