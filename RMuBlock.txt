@@ -240,9 +240,9 @@ www.alipan.com##.container--T0zFN
 www.alipan.com##.text-secondary--TlI9K
 
 ! 2022-12-15 https://smailpro.com/temp-gmail 临时谷歌邮箱
-smailpro.com##[x-data="TemporaryEmail()"]:others():remove()
-
-
+smailpro.com##scrcpy:has-text(/getAdConfig/):remove()
+smailpro.com##[src*="adsbygoogle"],[src*="analytics"]:remove()
+smailpro.com###menu,footer,main>[x-data]~*:remove()
 
 ! 2024年8月6日 https://poe.com 
 poe.com##[class^="Banner_root"]:remove()
@@ -360,47 +360,31 @@ edfe8.vfdpvzzi.cc##.xqbj-component-advertises,.xqbj-footer,.is-desktop1,.tags-gr
 edfe8.vfdpvzzi.cc##.xqbj-list-rows-placard:upward(1)
 
 
-
-
-
-||https://haijiao.com/css/topic.93ae5e08.css
-||haijiao.com^$header=user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+! ||haijiao.com^$header=user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
 ! 伪装成网页端，APP要登陆
-! haijiao.com###app:style(width: 100vw !important; max-width: 1200px !important; margin: 0 auto !important)
-! ! 自适应屏幕宽度
-! haijiao.com###hj-main-content:style(position: fixed !important; top: 0 !important; width: 100% !important; z-index: 9999 !important)
-
-
-
-haijiao.com##.custom_carousel:remove()
-! PC轮播广告
-haijiao.com##.hj-logo,.hj-slot:remove()
-
-
-
-aijiao.com##[href^="/css/topic."]:remove()
-
-
-
-
-aijiao.com##.hj-search:others():remove()
-
-
-rank-box
-! ||haijiao.com/css/topic.93ae5e08.css
-! ||haijiao.com/css/chunk-vendors.af29054e.css
-
-
-
-! ||code.tidio.co^$domain=haijiao.com,important
+||code.tidio.co^$domain=haijiao.com,important
 ! Tidio JavaScript 代码 主要用于集成 Tidio Live Chat，一个用于网站的即时客服聊天工具
-! haijiao.com##iframe,noscript,#editor,#bbs_float_menu,[role="dialog"],.containeradvertising,.action-tyf,.overflow-hidden,.url-box,.addbox,.mheader-seach~*,.topbanmer,.bannerliststyle  :remove()
-! 评论，浮窗，提示,广告，分享,举报,网址,添加到主屏幕,下载APP,轮播广告,列表内的广告
+||haijiao.com/js/hls.min.js
+||haijiao.com/js/webuploader.min.js
+! 现代文件上传组件
+haijiao.com##.el-message-box__wrapper,#bbs_float_menu,.ql-editor~*,.overflow-hidden,.newpages[style]~*:remove()
+! 您的登录令牌已过期，是否重新登录？，分析收藏打赏,正文底部广告，举报丨打寞「评论，评论
+haijiao.com##.tab-bbs-list tr:has-text(/海角管理|海角小助手|海角mingL/):remove()
+! ---------
+! 【未完成】按钮元素动态生成，自动点击；
+! 【未完成】 自动获取元素data-url的值到剪切板；
+haijiao.com##.mheader-logo,.send-topic-btn,.download-btn,.mheader-user,.btnbox,.addbox,.topbanmer,.bannerliststyle:remove()
+haijiao.com##.html-box:remove-class(ishide)
+haijiao.com##.html-bottom-box,.setreward-btn,.floor-bottom,.commentbox,.sell-btn:remove()
+haijiao.com##:xpath(/html/body/div[1]/div/div[1]/div/div[3]/div[1]/div/div/div/div[4])
+haijiao.com##:xpath(/html/body/div[1]/div/div[1]/div/div[3]/div[1]/div/div/div/div[7])
+haijiao.com##:xpath(/html/body/div[1]/div/div[1]/div/div[3]/div[1]/div/div/div/div[16]):remove()
 
 
 
-
-
+haijiao.com##noscript,.stics,meta,[src*="tidio"],script,#hj-right-aside,.custom_carousel,.hj-logo,.hj-slot:remove()
+haijiao.com##script:has-text(/dataLayer/):remove()
+! Google Analytics (GA4) 的跟踪功能
 ! 海角
 ! HTMLPageDown
 haijiaolove.xyz##.custom-logo-link
@@ -1156,13 +1140,16 @@ www.agefans.la##.global_notice_wrapper,.foot_content_wrapper,#notice_box
 
 ! 2025年5月20日 https://cn.gamcore.com
 gamcore.com##.cc_banner-wrapper,#middleCntr~*,#carousel+div
+chat.deepseek.com##:xpath(/html/body/div[1]/div/div/div[2]/div[1]/div/div[4]/div[1])
+chat.deepseek.com##:xpath(/html/body/div[1]/div/div/div[2]/div[3]/div/div/div[1]/div[2]/div[2])
 
 kimi.com##.download-button
-chat.deepseek.com##:xpath(/html/body/div[1]/div/div/div[2]/div[3]/div/div/div[1]/div[2]/div[2])
-chat.deepseek.com##:xpath(/html/body/div[1]/div/div/div[2]/div[1]/div/div[4]/div[1])
-chat.deepseek.com##:xpath(/html/body/div[1]/div/div/div[2]/div[3]/div/div[1]/div[2]/div[2])
+
 beta.dopple.ai##nav+div.cursor-pointer,noscript,footer
 crushon.ai##.-bottom-px,li.flex-col.gap-3
 metaso.cn##[class^="SystemMessage_container"]
-relay.firefox.com##[class^="CornerNotification"],footer,[class^="profile_banners-wrapper"]
+relay.firefox.com##[class^="CornerNotification"],footer,[class^="profile_banners-wrapper"],[class^="profile_subdomain"],[class^="profile_user-details"],[class^="WhatsNewMenu_trigger"]
 
+xdaforums.com##.uix_extendedFooter
+mail.proton.me##[role="alert"],.topnav-listItem--noCollapse,noscript,.shrink-0.flex.flex-column:remove()
+! 提示，升级，升级
