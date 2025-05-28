@@ -93,7 +93,8 @@ twitter.com,x.com,~platform.twitter.com##+js(json-prune-xhr-response, data.immer
 
 x.com##script:has-text(/block/):remove()
 x.com##noscript,#nonce-csp,.errorContainer:remove()
-x.com##.r-1h8ys4a,[data-testid="super-upsell-UpsellCardRenderProperties"],[aria-label="页脚"],____,[data-testid="jobs-tab-item"],[data-testid="premium-signup-tab"],[data-testid="vo-signup-tab"],___,[href="/i/monetization"],[href*="twitter-ads-rweb"]:remove()
+x.com##[data-testid="super-upsell-UpsellCardRenderProperties"],[aria-label="页脚"],____,[data-testid="jobs-tab-item"],[data-testid="premium-signup-tab"],[data-testid="vo-signup-tab"],___,[href="/i/monetization"],[href*="twitter-ads-rweb"]:remove()
+x.com##:matches-path(/home) .r-1h8ys4a
 ! 发现新鲜事情，订阅Premium，页脚_____,工作,premium,认证组织,----盈利，广告
 x.com##:xpath(/html/body/div[1]/div/div/div[2]/header/div/div/div/div[1]/div[1])
 x.com##:xpath(/html/body/div[1]/div/div/div[2]/header/div/div/div/div[1]/div[3])
@@ -488,6 +489,9 @@ javday.tv###footer,[rel*="icon"]
 avbebe.com###footer,#menu-item-141367~*,.jnews_comment_container,.item_main .menu-item-141367~*
 avbebe.com##[class*="_ad"]:remove()
 
+
+
+
 javtiful.com###navList,.video-comments,script,#header-info,.offer-box:remove()
 javtiful.com##[href^="https://r.trackwilltrk.com"]:nth-ancestor(2)
 
@@ -532,8 +536,12 @@ madou.club##meta,ins,script,footer,#shareimage,.clearfix:remove()
 
 
 ! 2024年4月30日 https://www.redgifs.com 
-redgifs.com##.globalSearch~*,[aria-label="Upload"],.left.side,.right.side:remove()
+redgifs.com##.globalSearch~*,[aria-label="Upload"],.left.side,.right.side
 redgifs.com##:xpath(/html/body/div[1]/div/div[1]/div/div[1])
+redgifs.com##script:has-text(/notifications /):remove()
+redgifs.com##html:remove-attr(translate)
+
+
 
 ! 2024-05-08 https://dbro.news 
 dbro.news##meta,footer,.smart-head-mid,.show-lg,.comments,aside.has-sep:remove()
@@ -954,7 +962,13 @@ animeh.to##footer,script,meta,.site-bottom-wrapper,link:not([rel="stylesheet"]):
 animeh.to##.parax-wraper
 
 ! 3D Dude
-3dporndude.com##footer,script,.header-links,.asside-link,.link-offer,[href^="https://faphouse.com"],[href="#tab3"],[href="#tab5"],.block-tabs,div.second,.spot,.col-asside,#list_videos_related_videos:remove()
+3dporndude.com##footer,#list_videos_most_recent_videos~*,.header-links,.logo,.upload-btn,[href*="tsyndicate.com"],[href*="faphouse.com"],.fp-logo,.fp-brand,.asside-link,.btn-holder+div.btn-holder~*,li.spot:remove()
+3dporndude.com##script:has-text(/AdProvider|FapHouse|fapcash-videos|creatives /):remove()
+||cdn-fc.com/creatives/$domain=3dporndude.com
+||https://a.magsrv.com/ad-provider.js
+||www.googletagmanager.com^$important
+
+
 
 ! Nsfw 34
 nsfwr34.com##meta,#site-footer,script,[id^="share_box"],.button-group-share,.button-group-report,.comments-list-lg,#menu-item-38436:remove()
@@ -1060,7 +1074,10 @@ oreno3d.com##footer,.material-icons,[class^="ad-"],script:remove()
 oreno3d.com##figure > .pop_separate + div:remove()
 oreno3d.com##body > *:not(.container)
 oreno3d.com##figure + p,[href^="https://go.rmhfrtnd.com"]
-iwara.tv###modal-root,noscript,footer,.shareButton:remove()
+iwara.tv###modal-root,noscript,footer,.shareButton,section.content>div>.justify-content-center:remove()
+iwara.tv##[href="/page/links"],[href="/account/premium"],[href="/dashboard"],[href="/page/faq"]
+
+
 
 ! 2025-3-9
 ||fans.91selfie.com^$domain=91porn.com
@@ -1140,8 +1157,6 @@ www.agefans.la##.global_notice_wrapper,.foot_content_wrapper,#notice_box
 
 ! 2025年5月20日 https://cn.gamcore.com
 gamcore.com##.cc_banner-wrapper,#middleCntr~*,#carousel+div
-chat.deepseek.com##:xpath(/html/body/div[1]/div/div/div[2]/div[1]/div/div[4]/div[1])
-chat.deepseek.com##:xpath(/html/body/div[1]/div/div/div[2]/div[3]/div/div/div[1]/div[2]/div[2])
 
 kimi.com##.download-button
 
