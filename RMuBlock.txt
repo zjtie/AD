@@ -10,20 +10,13 @@
 ||pcdn*.com^$important
 全局拦截PCDN
 ||szbdyd.com^$important
-! 节点之家
-! https://itdong.me/bilibili_pcdn/
-! 使用CDN/PCDN 内容交付/分发网络
-
+! 使用CDN/PCDN 内容交付/分发网络 https://itdong.me/bilibili_pcdn/
 
 
 
 *##+js(fingerprint2.js)
 #FingerprintJS2 是一种第三方库，识别唯一用户。独特的用户指纹，进而用于跟踪用
 #常用于通过收集用户设备的各种信息（如浏览器插件、屏幕分辨率、字体列表等）来生成一个独特的用户指纹
-#避免广告拦截插件被网站识别
-
-||google-analytics.com^$third-party
-! 阻止Google Analytics 相关的资源请求，屏蔽这些请求可能会影响页面的某些行为或服务
 
 
 
@@ -604,8 +597,15 @@ hentai-witch.com##meta,#header-container,[id*="_ad-"],#content-top,#content~*,#p
 
 nijisenmon.work##.ad,footer,#menu-item-71060,#menu-item-71094,#headbox-bg,#interstitialAd,#video_inst_area,.adbox
 
-! 2024年4月25日 https://18comic.vip
-||ads.exoclick.com^
+! ! 2024年4月25日 https://18comic.vip
+18comic.vip##[data-group^="all_albums"]:remove()
+18comic.vip##[data-group^="list"]:remove()
+18comic.vip##[data-group^="all_bottom"]:remove()
+||18comic.vip/templates/frontend/airav/js/jquery.avs-0.2.js$important
+
+
+
+
 ||a.magsrv.com/ad-provider.js
 ||www.google-analytics.com^$domain=18comic.vip
 18comic.vip###guide-modal,#billboard-modal,div.hidden-lg[style],[class^="float"],.footer-container,li#sns,[title="AI chat"],.top-nav:remove()
@@ -635,6 +635,7 @@ nijisenmon.work##.ad,footer,#menu-item-71060,#menu-item-71094,#headbox-bg,#inter
 ||exosrv.com^$subdocument
 ! 可选：阻止广告检测的 AJAX 请求
 ||18comic.vip/ajax/ad_check^
+
 
 
 
@@ -983,7 +984,7 @@ animeh.to##.parax-wraper
 3dporndude.com##script:has-text(/AdProvider|FapHouse|fapcash-videos|creatives /):remove()
 ||cdn-fc.com/creatives/$domain=3dporndude.com
 ||https://a.magsrv.com/ad-provider.js
-||www.googletagmanager.com^$important
+
 
 
 
@@ -1200,7 +1201,4 @@ tweeload.com##.mobile__apps,footer
 
 ! 2025年6月1日 https://account.microsoft.com
 account.microsoft.com###uhf-footer
-
-
-
 
