@@ -1,0 +1,33 @@
+no-csp-reports: * true
+no-large-media: behind-the-scene false
+no-large-media: www.xvideos.com true
+no-popups: haijiao.com true
+no-popups: hentaigasm.com true
+no-popups: www.huashi6.com true
+no-remote-fonts: www.douyin.com true
+* clarity.ms * block
+* google-analytics.com * block
+* googletagmanager.com * block
+* jads.co * block
+* juicyads.com * block
+behind-the-scene * * noop
+behind-the-scene * 1p-script noop
+behind-the-scene * 3p noop
+behind-the-scene * 3p-frame noop
+behind-the-scene * 3p-script noop
+behind-the-scene * image noop
+behind-the-scene * inline-script noop
+docs.rsshub.app * 3p block
+h5.xinpianchang.com qq.com * block
+mp.weixin.qq.com * 3p block
+rouman5.com * 3p-script block
+theporndude.com * 1p-script block
+theporndude.com * 3p-frame block
+theporndude.com * 3p-script noop
+www.haijiaolove.xyz fonts.googleapis.com * block
+www.haijiaolove.xyz google-analytics.com * block
+www.porn5f.com * image block
+www.xinpianchang.com baidu.com * block
+www.xvideos.com * image block
+www.yszzq.com * image block
+yorg.io adinplay.com * block
