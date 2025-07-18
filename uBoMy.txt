@@ -125,9 +125,10 @@ reddit.com###xpromo-bottom-sheet,create-post-entry-point-wrapper,shreddit-commen
 reddit.com##.block.w-100.h-100+div:remove()
 reddit.com##img[loading="lazy"]:remove-attr(style)
  ! 移除模糊样式
-reddit.com##:xpath(/html/body/shreddit-app/div[5]/reddit-sidebar-nav/nav/nav/faceplate-expandable-section-helper/details/faceplate-auto-height-animator/div/faceplate-tracker[position() <= 7])
-reddit.com##:xpath(/html/body/shreddit-app/div[5]/reddit-sidebar-nav/nav/nav/faceplate-expandable-section-helper/details/faceplate-auto-height-animator/div/faceplate-tracker[position() >= 11 and position() <= 13])
 reddit.com##script:remove()
+reddit.com##[noun="about_reddit_menu"],[noun="advertise_menu"],[noun="reddit_pro_menu"],[noun="help_menu"],[noun="blog_menu"],[noun="careers_menu"],[noun="press_menu"]:remove()
+reddit.com##[noun="content_policy_menu"],[noun="privacy_policy_menu"],[noun="user_agreement_menu"],[noun="accessibility_menu"]:remove()
+reddit.com##[noun="advertise"],[noun="try_reddit_pro"],[noun="entrypoint"]:remove()
 
 
 ! 2024年5月3日 https://www.douyin.com 抖音
