@@ -26,7 +26,9 @@ lofter.com##[href*="com/app?"],#application~*:remove()
 lofter.com##button:has-text(打开 App)
 lofter.com##html:remove-attr(class)
 
-xiaohongshu.com##.login-container
+xiaohongshu.com##.login-container:remove()
+xiaohongshu.com##.with-side-bar.main-content:remove-attr(class)
+xiaohongshu.com##.side-bar>*:remove()
 ||picasso-static.xiaohongshu.com/fe-platform/$xhr,domain=www.xiaohongshu.com
 ||edith.xiaohongshu.com/api/sns/web/unread_count$xhr,1p
 
