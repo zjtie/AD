@@ -584,7 +584,9 @@ scrolller.com##[class^="QuickAccessButtons_container"]
 scrolller.com##[aria-label="Comment"],[aria-label="Share"],[aria-label="Download"],[aria-label="More options"]+button,[aria-label="More options"]
 ! 播放菜单按钮
 
-
+huannengxny.com###fullPageModal,.no-gutters,footer,.auto-hide-show,aside.control-sidebar,#w1,#w2:remove()
+huannengxny.com###w3:has-text(/抖阴免费版/):remove()
+huannengxny.com##script:has-text(/fullPageAds/):remove()
 
 #======漫画===========================================================================
 ! 2024年8月4日 https://eromanga-cafe.com
