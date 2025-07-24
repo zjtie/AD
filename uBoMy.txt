@@ -568,11 +568,13 @@ dbro.news##li[id]:has-text(/站務|娛樂城|推薦/):remove() { display: none !
 xxxshake.com##meta,[rel*="icon"],.block-comments,.footer-wrap,iframe,#headA,#headB,.right-menu,.tabs-menu
 xxxshake.com##.fluid-custom-buttons
 
-! 2024年4月29日 https://scrolller.com  $$$$$
-scrolller.com##[href^="/assets/Popup"],[src$="ad-provider.js"],[href^="/assets/NsfwWarning"],noscript,.sc-cmaqmh,div.popup--sticky,[aria-label="Favorite"]~*:remove()
-scrolller.com##button:has-text(Upload):remove()
-scrolller.com##:xpath(/html/body/div[1]/div/div[2]/div[2]/div/div[1]/div/div[3]):remove()
-scrolller.com##:xpath(/html/body/div[1]/div/div[2]/div[1]/div[3]):remove()
+! 2024年4月29日 https://scrolller.com  
+scrolller.com##[href="/upload-content"],[class^="Header_buttonsContainer"],[data-test-id="search-banner"],.popup--dark,[class^="CTAHandler_container"]
+! 上传,加入社区,搜索广告,弹出广告,广告
+scrolller.com##[class^="QuickAccessButtons_container"]
+! 浮动菜单
+scrolller.com##[aria-label="Comment"],[aria-label="Share"],[aria-label="Download"],[aria-label="More options"]+button,[aria-label="More options"]
+! 播放菜单按钮
 
 
 
