@@ -1113,16 +1113,18 @@ iwara.tv##[href="/page/links"],[href="/account/premium"],[href="/dashboard"],[hr
 
 
 ! 2025-3-9
-||fans.91selfie.com^$domain=91porn.com
+91porn.com##body>div>div[align="center"],.top-nav:remove()
+91porn.com##.navbar:remove-class(navbar)
+91porn.com##.navbar-right li:has-text(/上传|美女视频|电影中心|VIP会员/)
+! 首页：广告，导航，样式
+||fans.91selfie.com^
 ||poweredby.jads.co^
-91porn.com##[role="navigation"]+div,#cont3,.clear,#linkForm2,#videodetails-content span.title>div
-91porn.com##.main_comment:upward(2)
-91porn.com##[href="https://dxp86.top/"]:upward(1)
-91porn.com##a[href^="view_video_hd.php?"]~*,.clear,[src*="poweredby.jads.co"],[data-cfasync="false"],ins[id],iframe:remove()
-91porn.com###wrapper~*,[class^="footer"]:remove()
-91porn.com##script:has-text(/adsbyjuicy|jads.js|beforeunload/)
-91porn.com##[href="ad.html"]:upward(1)
-! 91porn.com##+js(set-attr, video, controls, true)
+||mp4.blkj58.com/fh.mp4
+91porn.com###videodetails:has-text(/举报/):remove()
+91porn.com###videodetails-content>.title>div,[src*="jads"],#linkForm2,.submenu:remove()
+91porn.com##iframe,#useraction,.clear,#videodetails:first-of-type >*:not(.video-container,h4,link):remove()
+91porn.com##video-container>*:not(video,.vjs-control-bar)
+
 
 
 xbookcn.net##script,footer:remove()
@@ -1162,7 +1164,7 @@ internetchicks.com##script,.title-area,.live-cams,.tpd-link-desktop,.footer-widg
 ! ||bilibili.com$removeparam=/^(bvid)/
 
 !==URL净化===跟踪参数================================================================================-******************
-91porn.com##+js(set-attr, video, controls, true)
+! 91porn.com##+js(set-attr, video, controls, true)
 
 !==显示视频控件================================================================================-******************
 
