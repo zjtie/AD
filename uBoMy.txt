@@ -553,6 +553,8 @@ redgifs.com##.globalSearch~*,[aria-label="Upload"],.left.side,.right.side
 redgifs.com##:xpath(/html/body/div[1]/div/div[1]/div/div[1])
 redgifs.com##script:has-text(/notifications /):remove()
 redgifs.com##html:remove-attr(translate)
+redgifs.com###portal-root,.PulseCircle
+
 
 
 
