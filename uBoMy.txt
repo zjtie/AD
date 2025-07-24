@@ -612,15 +612,13 @@ hentai-witch.com##meta,#header-container,[id*="_ad-"],#content-top,#content~*,#p
 
 nijisenmon.work##.ad,footer,#menu-item-71060,#menu-item-71094,#headbox-bg,#interstitialAd,#video_inst_area,.adbox
 
+jmdw7.com##body>center,.logo,.footer
+
 ! ! 2024年4月25日 https://18comic.vip
 18comic.vip##[data-group^="all_albums"]:remove()
 18comic.vip##[data-group^="list"]:remove()
 18comic.vip##[data-group^="all_bottom"]:remove()
 ||18comic.vip/templates/frontend/airav/js/jquery.avs-0.2.js$important
-
-
-
-
 ||a.magsrv.com/ad-provider.js
 ||www.google-analytics.com^$domain=18comic.vip
 18comic.vip###guide-modal,#billboard-modal,div.hidden-lg[style],[class^="float"],.footer-container,li#sns,[title="AI chat"],.top-nav:remove()
