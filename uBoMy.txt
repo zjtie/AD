@@ -372,6 +372,8 @@ haijiaolove.xyz##+js(window.open-defuser.js)
 haijiaolove.xyz##+js(window.name-defuser)
 edfe8.vfdpvzzi.cc##.xqbj-component-advertises,.xqbj-footer,.is-desktop1,.tags-group,.text-wrap,.link-wrapper,.comment-enter:remove()
 edfe8.vfdpvzzi.cc##.xqbj-list-rows-placard:upward(1)
+edfe8.vfdpvzzi.cc###h5-publish-button,.item.is-mobile,.ad-banners,.dplayer-bezel
+! 移动端：发布,分享,广告
 
 
 ! ||haijiao.com^$header=user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
