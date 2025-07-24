@@ -676,11 +676,8 @@ ichinuke.com##script,[rel="icon"]:remove()
 ichinuke.com##ul.wpp-list:remove-class(wpp-list)
 
 ! 2024-05-09 https://oreno-erohon.com
-oreno-erohon.com##[class*="comment"],#text-20,.page-title,.blog-title-inner,footer:remove()
+oreno-erohon.com##[class*="comment"],#text-20,#text-50,.page-title,.blog-title-inner,footer,.sp_footer:remove()
 oreno-erohon.com##body:remove-attr(style)
-
-! oreno-erohon.com##meta,footer,.page-title,.blog-title-inner,[href="/about"],[href="/?feed=rss2"],[href="/contact"],#shimi_comment_widget-2,#article-options
-! oreno-erohon.com##header,.sp_head_box,.sp_footer,.comment_area
 
 ! 2023-09-14 https://www.177pica.com
 ||www.177pica.com/js/google.js
