@@ -436,9 +436,13 @@ castbox.fm##.footer-wrapper
 #======播客===========================================================================
 ! 2024-05-06 https://zh.xhamster.com
 wikixh.world,xhamster.com##[data-nav-item-id="cams"],[data-nav-item-id="premium"],[data-nav-item-id="flirtify"],[data-nav-item-id="dating"],[data-nav-item-id="priority-vpn"],[data-nav-item-id="lusty-heroes"],[data-nav-item-id="ai-friend"],[data-role="promo-messages-wrapper"],header+nav
+! 导航
 wikixh.world,xhamster.com##[data-role="footer"],[data-role="layoutPage"]>aside+aside,[data-role="ZBL-QVadbottom"],[data-role="ZBL-QVadtop"],[data-role="fp_link_dynamic"],[data-role="promo-messages-unpin"]
 wikixh.world,xhamster.com##.middle-mobile-horizontal,.xgJs-hJC--bottom,[data-role="xgJs-hJCtop"],.xgJs-hJCpremium-n-overlay
 wikixh.world,xhamster.com##[class^="WLTeD"],.thumb-list-mobile-item--widget,ul.right
+wikixh.world,xhamster.com##.Ela-vlKPunder-player-banner-wrapper,div[class^="container"][eid1],[data-role="video-controls"],.subscribe-block__info+div,a.button-cdbbb[href*="fanclub"]
+! 播放页广告
+wikixh.world,xhamster.com##li.user-dropdown-item :has-text(/Hide Ads|帖子/)
 ||static-ah.xhcdn.com/xh-shared/$domain=static-ah.xhcdn.com
 ||static-nss.xhcdn.com^
 
