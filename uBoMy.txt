@@ -549,7 +549,7 @@ madou.club##meta,ins,script,footer,#shareimage,.clearfix:remove()
 
 
 ! 2024年4月30日 https://www.redgifs.com 
-redgifs.com##.mainLogo,[class^="_burgerButton"],.adSearchLink,.TabLink_isUpload
+redgifs.com##.mainLogo,[class^="_burgerButton"],.adSearchLink,.TabLink_isUpload,.bannerWrapper
 ! 移动端：#logo,打开菜单AD,搜索AD,上传视频
 redgifs.com###portal-root,.PulseCircle,[aria-label="Report"],[aria-label="Flag Irrelevant Tags"],[aria-label="Share"],.MetaInfo-LiveButton
 ! 移动端：标签问题,标签动效,报告,标记不相关的标签,分享,直播
