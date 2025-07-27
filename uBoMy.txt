@@ -1135,3 +1135,5 @@ account.microsoft.com###uhf-footer
 ! iflyrec.com##.no-transfer-tips
 ! iflyrec.com##.locked:remove-attr(locked)
 
+! 2025年7月28日 https://www.freebuf.com
+www.freebuf.com##[href="/report"],.floating-view:remove()
