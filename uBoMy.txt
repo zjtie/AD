@@ -424,8 +424,8 @@ dbro.news##li[id]:has-text(/站務|娛樂城|推薦/):remove() { display: none !
 ||mc.chunsise.bar/ad/newbbs/$important
 ||images.touechi0.com/$important
 ||sex8.cc/static/image/$important
-! 图片图标AD
-||sex8.cc/forum.php
+! ! 图片图标AD
+! ||sex8.cc/forum.php
 ||sex8.cc/static/js/antiblock.js^
 ||sex8.cc/static/js/clipboard.min.js^
 ||sex8.cc/static/js/upload.js^
@@ -448,7 +448,7 @@ sex8.cc###my_video_1>*:not(video,button,.vjs-control-bar):remove()
 ! sex8.cc##.bm.b_sxc:remove()
 ! ! sex8.cc/forum.php
 ! !#else
-xfuliji.com##.slide-up,p.mb-6
+! xfuliji.com##.slide-up,p.mb-6
 sex8.cc##[id^="download"],[class^="download"],[class*="VIP"],[class^="wapAbcd"],.hdTit.cfix>a,.trioCarousel,#yingyong_href :remove()
 sex8.cc##[href="#sub_forum_122"],[href="#sub_forum_272"],[href="#sub_forum_160"],.window-read-tip:remove()
 sex8.cc###page:remove-attr(style)
@@ -457,6 +457,16 @@ sex8.cc##.threadlist li:has-text(/全局置顶/):remove()
 sex8.cc###p_btn,.god-container,.btViewpost
 sex8.cc##.postListCon>div:nth-of-type(1),.postListCon>div:nth-of-type(2)
 ! !#endif
+
+m.sex8.cc##[src="/logo.png"],[src="/icon/camera.png"],[href="https://fcc.pg6901.cc"],.download-bg,.justify-content-between,.bg-steel-gray:remove()
+m.sex8.cc##.m-3:has-text(/广告|杏博/):remove()
+m.sex8.cc##.flex-fill:has-text(/赢钱|贵宾/):remove()
+m.sex8.cc##.border-tuna:has-text(/广告/):remove()
+m.sex8.cc##.flex-center:has-text(/分享好友升级赚钱/):remove()
+
+
+
+
 
 #======新片场视频===========================================================================
 apple.com,skypixel.com,vimeo.com,cnu.cc##body:remove-attr(style)
