@@ -30,7 +30,7 @@
 ||popmagicldr^
 ||exosrv.com^
 ||exoclick.com^
-
+||pagead2.googlesyndication.com^
 ! ===全域广告网址===================================================
 
 !==URL净化===跟踪参数===============================================
@@ -40,8 +40,11 @@
 ||www.pixiv.net^$removeparam=/^(utm_|st_|ref=|via=)/
 ||douyinpic.com^$removeparam=/^(from)/
 ! ||bilibili.com$removeparam=/^(bvid)/
-
 !==URL净化===跟踪参数===============================================
+
+! sex8.cc##+js(set-attr, video, controls)
+! 显示视频控件
+
 
 
 #======国内社交平台=====================================================================================================
@@ -417,32 +420,43 @@ dbro.news##section:has-text(優選品牌):remove() { display: none !important; }
 dbro.news##li[id]:has-text(/站務|娛樂城|推薦/):remove() { display: none !important; }
 
 
-! 论坛:杏吧
-||sex8.cc/redirect.js
-||sex8.cc/static/js/common.js
-
-! ||sex8.cc/static/js/antiblock.js^
-! ||sex8.cc/static/js/app/app.js^,important
-! ||ex8.cc/api/member_order_notice/list.php^
-! ||ex8.cc/yi.php^
-! ||google.*^$important,domain=sex8.cc
-! ||googlesyndication.*^$important,domain=sex8.cc
-! ||doubleclick.*^$important,domain=sex8.cc
-
-! sex8.cc##+js(noop, /google/)
-! sex8.cc##script,.ad  {display: none !important; }
-! sex8.cc##[id^="container"] [class^="ifocus_"],[id^="container"] .row2 >td+td+td:remove()
-! sex8.cc##.trioCarousel,.bm_h>span[style="float:right;"],#location_list,.j-index_domain:remove()
-! sex8.cc##.header,.uk-wrapper,#location_list,.title-content,.pic-nav,.margin-top.border-blue,[id^="container"],#wp:others():remove()
-! sex8.cc##.site-guide>a:has-text(/杏博门户|加入VIP|杏吧APP|杏彩体育|欧洲足球赛|美国NBA|后宮導航|影吧下载/):remove()
-! sex8.cc##[data-id="bc"],#bc,.uk-header,[class^="hot-news"],.area-s8-domain,.zxy,.newsbanner,#ifocus+div,#ifocus:remove()
-! sex8.cc##[data-id="bc"],#ft,.ad,#foot,meta,script:remove()
-! sex8.cc##:matches-path("/thread") #wp>*:not(#pt,#ct):remove()
-! sex8.cc##:matches-path("/thread") #ct>*:not(#postlist):remove()
-! sex8.cc##[id^="post_"]~*,#share-modal,#postlist>link,.plhin tr~*,[id^="postmessage"]>div:remove()
-! sex8.cc##.uk-margin-small+div,#toAppPage,.ap_app,div.uk-alert,#share-button~*,#share-button,[onclick^="showWindow"]:remove()
-! ! ! 保存单网页开关
-! sex8.cc##:matches-path("/thread") #pt,.pls[rowspan="2"],.pi:remove()
+! 论坛:杏吧  ex8.cc/forum.php
+||mc.chunsise.bar/ad/newbbs/$important
+||images.touechi0.com/$important
+||sex8.cc/static/image/$important
+! 图片图标AD
+||sex8.cc/forum.php
+||sex8.cc/static/js/antiblock.js^
+||sex8.cc/static/js/clipboard.min.js^
+||sex8.cc/static/js/upload.js^
+||sex8.cc/static/js/seditor.js^
+sex8.cc##+js(set-constant, content_video_url, "")
+sex8.cc##video:remove-attr(poster)
+sex8.cc###my_video_1>*:not(video,button,.vjs-control-bar):remove()
+! 视频：倒计时，广告链接，隐藏 logo 链接，视频暂停AD，开启 VIP 加速，播放器左右两侧广告
+!#if !env_mobile
+sex8.cc##.ad,table.plhin>tbody>tr~*,.t_fsz~*,.j-notice-go,iframe,#ft,.zxy,#f_pst,.tip.tip_4,#toptb,#shortcut:remove()
+sex8.cc##.t_f[id^="postmessage"]>*:not(ignore_js_op,div[data-high],font,br):remove()
+sex8.cc##li[id^="mn_N"]:has-text(/加入VIP|广告合作|APP下载|分享赚钱/):remove()
+sex8.cc##div[style="text-align:center; font-size:13px"],div[style="padding-top: 16px;"]:remove()
+! 正文：ad
+sex8.cc##.b_oscar2,.bottom,[href*="plugin.php"],[src*="dasp.php"],[href^="/dasp.php"].ranking,#carousel1,.uk-header-left:remove()
+sex8.cc##a:has-text(/杏博门户|杏吧APP|后宫导航|杏彩体育|世界杯|PG电子|影吧下载|加入VIP|1元畅游杏吧|举报广告获得积分奖励/):remove()
+sex8.cc##.b_oscar1,.read-domain:remove()
+! 资源导航：遮罩层
+sex8.cc##.bm.bmw.flg.cl:has-text(/杏博 | 综合讨论区 | General Discussion/):remove()
+sex8.cc##.bm.b_sxc:remove()
+! sex8.cc/forum.php
+!#else
+xfuliji.com##.slide-up,p.mb-6
+sex8.cc##[id^="download"],[class^="download"],[class*="VIP"],[class^="wapAbcd"],.hdTit.cfix>a,.trioCarousel,#yingyong_href :remove()
+sex8.cc##[href="#sub_forum_122"],[href="#sub_forum_272"],[href="#sub_forum_160"],.window-read-tip:remove()
+sex8.cc###page:remove-attr(style)
+sex8.cc##script:has-text(/getuserAgent|pushState|alertDialg/):remove()
+sex8.cc##.threadlist li:has-text(/全局置顶/):remove()
+sex8.cc###p_btn,.god-container,.btViewpost
+sex8.cc##.postListCon>div:nth-of-type(1),.postListCon>div:nth-of-type(2)
+!#endif
 
 #======新片场视频===========================================================================
 apple.com,skypixel.com,vimeo.com,cnu.cc##body:remove-attr(style)
@@ -920,6 +934,18 @@ jjpicss.com##.ad,[src="jads"],iframe,.fbpage,footer,[href="https://list.jjpicss.
 jjpicss.com##script:has-text(/adsbyjuicy|updateFooterAD /):remove()
 
 
+! 2025年7月27日 16K 图片资源库
+16k.club###message,footer,.justify-content-between~*:remove()
+16k.club##script:has-text(/custad|adsbyjuicy /):remove()
+asmrhub.site##.mt-10[style="max-width:500px;"]:remove()
+
+
+! 2025年7月27日 性感美女写真
+xinggan5.top##a:remove-attr(target)
+xinggan5.top##.footer,div.widget.widget_text,.focusbox,.speedbar,[src="/img/zz1.gif"],[alt="点此赞助本站"]:remove()
+! footer,footer,首图，navAD
+
+
 ! 2024-01-21 图片-摄影：Porn Pics
 pornpics.com##footer,.footer-push,.gallery-buttons,.comm-from-section,#sBottomLine,.vjs-spot-line,.r-container-mob,.left-nav-sponsor,#fb-button,.site-lang~*:remove()
 
@@ -958,6 +984,11 @@ youngpussypic.com##meta,[rel="alternate"],.last-searches+div
 ! 2024年6月24日 图片-摄影：metarthunter
 metarthunter.com##.list-triple,.link-d,.image-banner:remove()
 
+
+! 2025年7月27日 图片-二次元：次世代涩图 Nekon - ≡ω≡
+nekon.app##.q-ma-md,.q-px-md:remove()
+
+
 ! 2024-05-07 图片-二次元：彩虹恋物癖
 nijifeti.com##footer,.comment,[id^="im-"],.pagetopwrap,.osu2,.adbox,[class="300250box"],#main-content>ol~*,.sitemenu:remove()
 nijifeti.com##div[align="center"]:has-text(おすすめ記事):upward(2):remove()
@@ -975,6 +1006,18 @@ ichinuke.com###comments,#custom_html-13,.w-beforeRelated,.c-shareBtns,#custom_ht
 ! 2023-09-15 图片-二次元：萌色博客
 moeimg.net##meta,[rel="icon"],[id*="_ad_"],[id*="-ad-"],[class*="_ad_"],#header,.intro,#pickup-header_frame,.news_footer,[id*="footer"],#side-2,.pc_only,.share,.entry-footer~*:remove()
 moeimg.net##.searchbyimage,br
+
+
+! 2025年7月27日 图片-二次元：游戏和动漫人物
+hentai-witch.com###header-container,[id*="ad-"],[class*="ad-"],#content-top,#pc_text-2,#linkcat-293,footer,#mobile_text-2,#comment-area:remove()
+
+
+! 2025年7月27日 图片-二次元：萌同人图集
+||https://widget-view.dmm.co.jp/js/placement.js
+adaman-ero.com##script:has-text(/-ad-/):remove()
+adaman-ero.com###footer-ad-box,#header-full,footer,#execphp-11,.st-sns-top,[class*="_ad_"],#nocopy~*,.sns,#comments,.side-topad :remove()
+adaman-ero.com###st-header-under-widgets-box>*:not(#search-5,#execphp-8)
+adaman-ero.com##.banner:has-text(FANZAのアカウントは無料です)
 
 
 ! 2024-05-10 图片-二次元： 3D社区
