@@ -434,20 +434,20 @@ sex8.cc##+js(set-constant, content_video_url, "")
 sex8.cc##video:remove-attr(poster)
 sex8.cc###my_video_1>*:not(video,button,.vjs-control-bar):remove()
 ! 视频：倒计时，广告链接，隐藏 logo 链接，视频暂停AD，开启 VIP 加速，播放器左右两侧广告
-!#if !env_mobile
-sex8.cc##.ad,table.plhin>tbody>tr~*,.t_fsz~*,.j-notice-go,iframe,#ft,.zxy,#f_pst,.tip.tip_4,#toptb,#shortcut:remove()
-sex8.cc##.t_f[id^="postmessage"]>*:not(ignore_js_op,div[data-high],font,br):remove()
-sex8.cc##li[id^="mn_N"]:has-text(/加入VIP|广告合作|APP下载|分享赚钱/):remove()
-sex8.cc##div[style="text-align:center; font-size:13px"],div[style="padding-top: 16px;"]:remove()
-! 正文：ad
-sex8.cc##.b_oscar2,.bottom,[href*="plugin.php"],[src*="dasp.php"],[href^="/dasp.php"].ranking,#carousel1,.uk-header-left:remove()
-sex8.cc##a:has-text(/杏博门户|杏吧APP|后宫导航|杏彩体育|世界杯|PG电子|影吧下载|加入VIP|1元畅游杏吧|举报广告获得积分奖励/):remove()
-sex8.cc##.b_oscar1,.read-domain:remove()
-! 资源导航：遮罩层
-sex8.cc##.bm.bmw.flg.cl:has-text(/杏博 | 综合讨论区 | General Discussion/):remove()
-sex8.cc##.bm.b_sxc:remove()
-! sex8.cc/forum.php
-!#else
+! !#if !env_mobile
+! sex8.cc##.ad,table.plhin>tbody>tr~*,.t_fsz~*,.j-notice-go,iframe,#ft,.zxy,#f_pst,.tip.tip_4,#toptb,#shortcut:remove()
+! sex8.cc##.t_f[id^="postmessage"]>*:not(ignore_js_op,div[data-high],font,br):remove()
+! sex8.cc##li[id^="mn_N"]:has-text(/加入VIP|广告合作|APP下载|分享赚钱/):remove()
+! sex8.cc##div[style="text-align:center; font-size:13px"],div[style="padding-top: 16px;"]:remove()
+! ! 正文：ad
+! sex8.cc##.b_oscar2,.bottom,[href*="plugin.php"],[src*="dasp.php"],[href^="/dasp.php"].ranking,#carousel1,.uk-header-left:remove()
+! sex8.cc##a:has-text(/杏博门户|杏吧APP|后宫导航|杏彩体育|世界杯|PG电子|影吧下载|加入VIP|1元畅游杏吧|举报广告获得积分奖励/):remove()
+! sex8.cc##.b_oscar1,.read-domain:remove()
+! ! 资源导航：遮罩层
+! sex8.cc##.bm.bmw.flg.cl:has-text(/杏博 | 综合讨论区 | General Discussion/):remove()
+! sex8.cc##.bm.b_sxc:remove()
+! ! sex8.cc/forum.php
+! !#else
 xfuliji.com##.slide-up,p.mb-6
 sex8.cc##[id^="download"],[class^="download"],[class*="VIP"],[class^="wapAbcd"],.hdTit.cfix>a,.trioCarousel,#yingyong_href :remove()
 sex8.cc##[href="#sub_forum_122"],[href="#sub_forum_272"],[href="#sub_forum_160"],.window-read-tip:remove()
@@ -456,7 +456,7 @@ sex8.cc##script:has-text(/getuserAgent|pushState|alertDialg/):remove()
 sex8.cc##.threadlist li:has-text(/全局置顶/):remove()
 sex8.cc###p_btn,.god-container,.btViewpost
 sex8.cc##.postListCon>div:nth-of-type(1),.postListCon>div:nth-of-type(2)
-!#endif
+! !#endif
 
 #======新片场视频===========================================================================
 apple.com,skypixel.com,vimeo.com,cnu.cc##body:remove-attr(style)
