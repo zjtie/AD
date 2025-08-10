@@ -246,7 +246,9 @@ shimo.im##[class*="StyledUpgradeEntrance"],[class*="StyledTipTooltip"]
 
 ! 2023-07-27 https://www.yuque.com 语雀文档
 yuque.com##script:has-text(error)
-yuque.com###footer,[class^="like-module_"],#siteTipGuide,.dashboard-sidebar-scrollbar+div
+yuque.com###footer,[class^="like-module_"],#siteTipGuide,.dashboard-sidebar-scrollbar+div,#openInAppBtn
+yuque.com##[class^="H5DocReader-module_meta"],[class^="H5DocReader-module_actions"]
+yuque.com##[data-testid="h5-page-toolbar"]>div+div~*:remove()
 
 ! 2022-11-21 https://www.jianguoyun.com  坚果云盘
 jianguoyun.com##.teaser-container,.isActive.account-type,.active.bar-item,div.bar-item:nth-of-type(4)
