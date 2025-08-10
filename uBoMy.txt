@@ -338,6 +338,12 @@ artstation.com##.ad,script,.productPage-description-col,.report-section,.share-g
 ! sspai.com##:matches-path(/post/) .app_toolbar,.related-read-box,.article-side,.right-side-directory,.greyBgBox,.bgGrey,#app>header,#root~*,#app~*,.article-copyrights~*:remove()
 
 #======论坛===========================================================================
+! 2025年8月10日 第一会所
+sis001.com###header,#footercontainer,[id^="ad_"],.postratings,.replybtn,.postbtn:remove()
+sis001.com##.alert,[href="pay.php"],.header,.viewthreadMenu,#post_btns
+! 移动端：会员提示
+
+
 ! 2024年5月6日  论坛:草榴社區
 ! t66y.com##+js(setTimeout-defuser, tpcHt0ml, 1006)
 ! t66y.com##+js(setTimeout-defuser, adhtml, 10006)
