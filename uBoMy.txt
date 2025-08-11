@@ -343,6 +343,13 @@ sis001.com###header,#footercontainer,[id^="ad_"],.postratings,.replybtn,.postbtn
 sis001.com##.alert,[href="pay.php"],.header,.viewthreadMenu,#post_btns
 ! 移动端：会员提示
 
+! 2025年8月11日 UAA
+www.uaa004.com##.fade-in-top,.foot_box,.note_box,#chat-widget-minimized,.shortcut_box,.button_link_box,#comment_list,#reward_box,.dialog_mask,#comment_item_template:remove()
+www.uaa004.com##[onclick="toggleReward()"],[onclick="hrefToComment()"],[onclick="share()"],[onclick="toggleReport()"]:remove()
+www.uaa004.com##.hide:not(.login_box,.item_menu_box,.menu_box):remove()
+! 注册，举报，评论，反馈
+www.uaa004.com##a:remove-attr(target)
+
 
 ! 2024年5月6日  论坛:草榴社區
 ! t66y.com##+js(setTimeout-defuser, tpcHt0ml, 1006)
@@ -656,6 +663,9 @@ huannengxny.com##script:has-text(/fullPageAds/):remove()
 ! 2023-05-05  视频-成人-中国:麻豆社
 madou.club##meta,ins,script,footer,#shareimage,.clearfix:remove()
 
+! 2025年8月11日 视频-成人-中国:playav.tv
+playav.tv###colophon,[id^="block-"]
+
 
 ! 2023-05-05 视频-成人-中国:JAVDAY   
 javday.app###footer,[rel*="icon"]
@@ -780,6 +790,10 @@ hentaifreak.org##li.current-menu-item~*:not(.menu-item-18782):remove()
 ! 2024-05-08 视频-成人-番剧：H次元
 h-ciyuan.com###wp-custom-css,#gridview-header-end,#gridview-header,.gridview-top-wrapper-outer,#floating-ad,#comments,[id^="block-"],#menu-item-55765,#menu-item-25315:remove()
 h-ciyuan.com##.widget gridview-grid-posts-widget:has-text(/热门系列推荐 /):remove()
+
+! 2025年8月11日 视频-成人-番剧：H次元hanime1.me
+||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=hanime1.me
+hanime1.me##[class*="footer"]
 
 #======ASMR===========================================================================
 
@@ -928,6 +942,9 @@ tsumino.com###tab-comments,#liComments,[href="/chat"],[href="/about"]:remove()
 
 #======图片===========================================================================
 
+! 2025年8月11日 图片：cosplay
+cosplaytele.com##.small-text-center,[href="https://shorturl.at/bIMCS"],.page-title
+
 ! 2024年6月24日 图片-综合：Luscious
 members.luscious.net##meta:remove()
 members.luscious.net##script:has-text(/SliderAdConfig|adMoxyCtrl|adn):remove()
@@ -974,16 +991,14 @@ wsgmzt.com##.interestline + .nav ~ *:remove()
 wsgmzt.com##span,#d5tig,#divpsg,[id^="xtjp"],#divpsgx,li[id^="list"]:remove()
 wsgmzt.com###picg ~ *:remove()
 
+! 2025年8月10日 爱看INS
+www.ikanins.com###footer,.group.entry-footer
 
 ! 2024年4月24日 图片-摄影：4kHD
 4khd.com##script,.centbtd,footer:remove()
 4khd.com##body>*:not(.wp-site-blocks,style):remove()
 ! 4khd.com##script:has-text(targetStrings):remove()
 
-
-! 2024年4月24日 图片-摄影：LOIBUS洛丽塔 
-loibus505.top##script,.v-snack,.v-dialog__content,.col-md-2.col-12.align-self-center,footer:remove()
-loibus505.top##button.red--text,.v-list-item.theme--dark:remove()
 
 
 ! 2024-05-08 图片-摄影：日本艺术裸体
@@ -1145,3 +1160,8 @@ account.microsoft.com###uhf-footer
 
 ! 2025年7月28日 https://www.freebuf.com
 www.freebuf.com##[href="/report"],.floating-view:remove()
+
+! 2025年8月11日 厂长资源  |  超清视频站
+www.cz4k.com##.ad,.comments,.shuoming,#minigonggaop
+www.cz4k.com##.xiluxue,.swiper-wrapper > div:nth-of-type(2),#menu-item-12859,#menu-item-13714
+
