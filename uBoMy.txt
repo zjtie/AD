@@ -46,7 +46,6 @@
 ! 显示视频控件
 
 
-
 #======国内社交平台=====================================================================================================
 lofter.com###appdownloadbanner4noAppLogin,.m-side-download-tip,#j-tagser-app-down,#m-bottom-banner2
 lofter.com##[href*="com/app?"],#application~*:remove()
@@ -590,13 +589,13 @@ xvideos.com##:xpath(/html/body/div[2]/div/div/nav/ul/li[5]):remove()
 xvideos.com###tabReport,#tabShareAndEmbed,.share,.report,[data-style="desktop-text-red"],#mobile-header-links,[data-is-premium="1"],.full-video-link
 
 
-! 2024年4月29日 视频-成人-国际:scrolller
-scrolller.com##[href="/upload-content"],[class^="Header_buttonsContainer"],[data-test-id="search-banner"],.popup--dark,[class^="CTAHandler_container"]
-! 上传,加入社区,搜索广告,弹出广告,广告
-scrolller.com##[class^="QuickAccessButtons_container"]
-! 浮动菜单
-scrolller.com##[aria-label="Comment"],[aria-label="Share"],[aria-label="Download"],[aria-label="More options"]+button,[aria-label="More options"]
-! 播放菜单按钮
+! 2024年4月29日 视频-成人-国际:scrolller 【不能移除，有脚本检测】
+||scrolller.com/_next/static/chunks/app/not-found*.js^
+||scrolller.com/_next/static/chunks/app/main-app*.js^
+scrolller.com##.popup--sticky,[aria-label="Home"]+div,[aria-label="live-models"],[class^="Live"],[class^="Header_buttonsContainer"],[href="/upload-content"]
+! 弹窗，logo18+，真人模特，LIVE按钮，加入社区，上传
+scrolller.com##[class*="Comment"],[aria-label="Comment"],[aria-label="Share"],[aria-label="Download"],.cxita-d,[class^="CTAHandler"]
+! 评论，评论,分享,LIVE
 
 
 ! 2024年4月30日 视频-成人-国际:redgifs 
