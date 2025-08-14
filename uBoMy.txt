@@ -63,10 +63,13 @@ www.zhihu.com##footer
 ||zhihu.com/api/v4/creators/analysis^
 ||mcs.volceapplog.com^
 ! ! 保存网页，正文内容净化开关
-zhihu.com##:matches-path(/p/) #root~*:remove()
-zhihu.com##:matches-path(/p/) main:others():remove()
-zhihu.com##:matches-path(/p/) article.Post-Main:others():remove()
-zhihu.com##:matches-path(/p/) div.ContentItem-time~*:remove()
+zhihu.com##.WriteArea,.css-19idom,.KfeCollection-CreateSaltCard,.QuestionButtonGroup,.ShareMenu :remove()
+! 发布，开启你的知乎创作之旅，盐言作者平台,写回答，分享
+
+! zhihu.com##:matches-path(/p/) #root~*:remove()
+! zhihu.com##:matches-path(/p/) main:others():remove()
+! zhihu.com##:matches-path(/p/) article.Post-Main:others():remove()
+! zhihu.com##:matches-path(/p/) div.ContentItem-time~*:remove()
 
 
 ! 2022-11-20 https://www.youtube.com
@@ -599,6 +602,10 @@ scrolller.com##[class*="Comment"],[aria-label="Comment"],[aria-label="Share"],[a
 
 
 ! 2024年4月30日 视频-成人-国际:redgifs 
+redgifs.com##div:remove-class(censored)
+! 遮罩层级
+redgifs.com##html:remove-attr(translate)
+! 取消翻译禁用
 redgifs.com##.mainLogo,[class^="_burgerButton"],.adSearchLink,.TabLink_isUpload,.bannerWrapper 
 ! 移动端：#logo,打开菜单AD,搜索AD,上传视频
 redgifs.com###portal-root,.PulseCircle,[aria-label="Report"],[aria-label="Flag Irrelevant Tags"],[aria-label="Share"],.MetaInfo-LiveButton
