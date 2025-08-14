@@ -549,16 +549,21 @@ wikixh.world,xhamster.com##li.user-dropdown-item :has-text(/Hide Ads|帖子/)
 
 
 ! 2024年5月5日 视频-成人-国际:PornHub
-pornhub.com##+js(pornhub-popup-defuser.js)
-pornhub.com##+js(pornhub-sanitizer.js)
-pornhub.com##+js(abort-on-property-read.js, userABMessage)
-pornhub.com###credential_picker_container,.networkBarWrapper,#countryRedirectMessage,#welcome,.footerContentWrapper,.uploadBtnContent:remove()
-! 首页:Google登入,导肮AD,语言提示,Shop ,footer,上传
-pornhub.com##[href="/gayporn"],#communitySubmenu~*,.js-pwaPrompt:remove()
-! 导航
-pornhub.com##iframe,.footerThumbs~*,noscript,#signinModal,#js-underageModal,#gateway-modal,#premium-modal,.adsbytrafficjunky,.ad-tabSplit,.eudsaLink,#rateWrapper~*:remove()
-! 移动端
-pornhub.com##script:has-text(/abAlert|ads/):remove()
+||google-analytics.com/analytics.js$important,script,domain=pornhub.com
+||phncdn.com/iframe
+||hubt.pornhub.com/js/ht.js?site_
+||pornhub.com/_xa/ads?zone_id=
+||ci.phncdn.com/pics/skins/000/002/361/2361_large.png
+||cbbp1.com^$document
+||cbbp1.com^$popup
+pornhub.*##+js(aeld, DOMContentLoaded, [native code])
+! 在 DOM 加载完成后立即插入广告
+pornhub.com##body>*:not(.wrapper,#mobileHeader,#searchSection,#leftMenu,#mobileContainer,footer,link):remove() 
+pornhub.com##script,.abAlertShown,.modalWrapper,#welcome,#topRightProfileMenu,[class^="uploadBtnContent"],.communityNavigation~*,.sideAds,#under-player-comments:remove()
+! 脚本，禁用 Adblock，优惠，欢迎，登入，上传，播客，侧边栏广告，评论
+pornhub.com###welcomeVideoMsg,.adsbytrafficjunky,.js-pwaPrompt,[href="/gayporn"],.footerThumbs~*,#headerUserIcon,.becomePartnerWrapper:remove()
+pornhub.com###rateWrapper~*,.fanClubButtons:remove()
+
 
 
 ! 2024年5月5日 视频-成人-国际:spankbang
