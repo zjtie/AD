@@ -653,6 +653,8 @@ porn7f.com##[href*="789free"],[href*="aii.life"],[href="/games"],.fix-right-bott
 ||fans.91selfie.com^
 ||poweredby.jads.co^
 ||mp4.blkj58.com/fh.mp4
+
+
 91porn.com##body>div>div[align="center"],.top-nav:remove()
 91porn.com##.navbar:remove-class(navbar)
 91porn.com##.navbar-right li:has-text(/上传|美女视频|电影中心|VIP会员/)
