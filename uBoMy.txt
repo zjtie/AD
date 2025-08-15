@@ -196,6 +196,13 @@ douyin.com##:xpath(/html/body/div[2]/div[1]/div[4]/div[1]/div[1]/header/div/div/
 
 
 
+tiktok.com##[data-e2e="nav-upload"],#top-right-action-bar,[data-e2e="LivePage-GetCoin"],.css-behvuc-DivModalContainer,[class^="e1dsngob"],.matrix-smart-wrapper
+
+
+patreon.com##a:remove-attr(target)
+
+
+
 ! 2023-02-11 https://www.douban.com 豆瓣
 douban.com##.nav-open-app,.talion-nav-footer,.download-app
 douban.com##[rel*="icon"],#footer,.lnk-doubanapp
@@ -348,11 +355,12 @@ sis001.com##li.ItemDiscussion:has-text(/版务/):remove()
 ! 移动端：会员提示
 
 ! 2025年8月11日 UAA
-www.uaa004.com##.fade-in-top,.foot_box,.note_box,#chat-widget-minimized,.shortcut_box,.button_link_box,#comment_list,#reward_box,.dialog_mask,#comment_item_template:remove()
-www.uaa004.com##[onclick="toggleReward()"],[onclick="hrefToComment()"],[onclick="share()"],[onclick="toggleReport()"]:remove()
-www.uaa004.com##.hide:not(.login_box,.item_menu_box,.menu_box):remove()
+||cdn.livechatinc.com^
+uaa004.com##.fade-in-top,.foot_box,.note_box,#chat-widget-minimized,.shortcut_box,.button_link_box,#comment_list,#reward_box,.dialog_mask,#comment_item_template,.dizhi,.login_box:remove()
+uaa004.com##[onclick="toggleReward()"],[onclick="hrefToComment()"],[onclick="share()"],[onclick="toggleReport()"]:remove()
+uaa004.com##.hide:not(.login_box,.item_menu_box,.menu_box):remove()
 ! 注册，举报，评论，反馈
-www.uaa004.com##a:remove-attr(target)
+uaa004.com##a:remove-attr(target)
 
 
 ! 2024年5月6日  论坛:草榴社區
@@ -399,12 +407,13 @@ hjd2048.com##:matches-path(/2048/read) #main~*,.t5~*,tr.r_one,.promo-container:r
 51cg1.com##.post-content>p:has-text(/官方TG群下载|关键词：|欢迎加入51吃瓜|下载51吃瓜APP/):remove()
 ! 正文：广告
 51cg1.com##.post-card-info:matches-css(height: 0px):upward(2):remove() { display: none !important; }
+51cg1.com##p:has-text(/版权声明：本文著作权归|关注51吃瓜邮箱回家不迷路|官方邮箱即可获取最新地址|最全的吃瓜网：/):remove()
 
 
 !  论坛:海角
 edfe8.vfdpvzzi.cc##.xqbj-component-advertises,.xqbj-footer,.is-desktop1,.tags-group,.text-wrap,.link-wrapper,.comment-enter:remove()
 edfe8.vfdpvzzi.cc##.xqbj-list-rows-placard:upward(1)
-edfe8.vfdpvzzi.cc###h5-publish-button,.item.is-mobile,.ad-banners,.dplayer-bezel
+edfe8.vfdpvzzi.cc###h5-publish-button,.item.is-mobile,.ad-banners,.dplayer-bezel,.xqbj-icon-header-user:remove()
 ! 移动端：发布,分享,广告
 
 
@@ -441,18 +450,39 @@ dbro.news##li[id]:has-text(/站務|娛樂城|推薦/):remove() { display: none !
 
 
 ! 论坛:杏吧  ex8.cc/forum.php
-||mc.chunsise.bar/ad/newbbs/$important
-||images.touechi0.com/$important
-||sex8.cc/static/image/$important
-! ! 图片图标AD
-! ||sex8.cc/forum.php
-||sex8.cc/static/js/antiblock.js^
-||sex8.cc/static/js/clipboard.min.js^
-||sex8.cc/static/js/upload.js^
-||sex8.cc/static/js/seditor.js^
-sex8.cc##+js(set-constant, content_video_url, "")
-sex8.cc##video:remove-attr(poster)
-sex8.cc###my_video_1>*:not(video,button,.vjs-control-bar):remove()
+! sex8.cc##body>*:not(#hd,#wp):remove()
+! sex8.cc##.bm.b_sxc,.trioCarousel,.bm_h.cl>span[style],.bm_h.cl>script:remove()
+! sex8.cc##.bm_h.cl>h2>a:has-text(/招聘区|公告区|杏博/):upward(3):remove()
+! sex8.cc##[data-id="272"],[data-id="354"]:remove()
+! WEB首页
+! sex8.cc##.bm_c.cl.pbn,#f_pst,#newspecial,#newspecialtmp,#post_replytmp,#post_reply:remove()
+! 列表
+! sex8.cc##.ad,.b_pr,.po.hin,.tshuz_time,.a_oscar,#reported,.js-share-button,[href*="v8f0x.top"],[style^="float: left"]:remove()
+! sex8.cc##[href^="/misc.php?mod=faq&action=faq"]:upward(3):remove()
+! sex8.cc##.t_fsz:remove-attr(class)
+
+
+! sex8.cc###my_video_1>*:not(video,.vjs-control-bar):remove()
+
+
+
+! ||mc.chunsise.bar/ad/newbbs/$important
+! ||images.touechi0.com/$important
+! ||sex8.cc/static/image/$important
+! ! ! 图片图标AD
+! ! ||sex8.cc/forum.php
+! ||sex8.cc/static/js/antiblock.js^
+! ||sex8.cc/static/js/clipboard.min.js^
+! ||sex8.cc/static/js/upload.js^
+! ||sex8.cc/static/js/seditor.js^
+
+! ||sex8.cc/static/js/mobile/common.js^
+! ||sex8.cc/static/js/mobile/emoji.js^
+
+! sex8.cc##script:remove()
+! ! sex8.cc##+js(set-constant, content_video_url, "")
+! ! sex8.cc##video:remove-attr(poster)
+! ! sex8.cc###my_video_1>*:not(video,button,.vjs-control-bar):remove()
 ! 视频：倒计时，广告链接，隐藏 logo 链接，视频暂停AD，开启 VIP 加速，播放器左右两侧广告
 ! !#if !env_mobile
 ! sex8.cc##.ad,table.plhin>tbody>tr~*,.t_fsz~*,.j-notice-go,iframe,#ft,.zxy,#f_pst,.tip.tip_4,#toptb,#shortcut:remove()
@@ -468,21 +498,21 @@ sex8.cc###my_video_1>*:not(video,button,.vjs-control-bar):remove()
 ! sex8.cc##.bm.b_sxc:remove()
 ! ! sex8.cc/forum.php
 ! !#else
-! xfuliji.com##.slide-up,p.mb-6
-sex8.cc##[id^="download"],[class^="download"],[class*="VIP"],[class^="wapAbcd"],.hdTit.cfix>a,.trioCarousel,#yingyong_href :remove()
-sex8.cc##[href="#sub_forum_122"],[href="#sub_forum_272"],[href="#sub_forum_160"],.window-read-tip:remove()
-sex8.cc###page:remove-attr(style)
-sex8.cc##script:has-text(/getuserAgent|pushState|alertDialg/):remove()
-sex8.cc##.threadlist li:has-text(/全局置顶/):remove()
-sex8.cc###p_btn,.god-container,.btViewpost
-sex8.cc##.postListCon>div:nth-of-type(1),.postListCon>div:nth-of-type(2)
-! !#endif
+! xfuliji.com##.slide-up,p.mb-6***********
+! sex8.cc##[id^="download"],[class^="download"],[class*="VIP"],[class^="wapAbcd"],.hdTit.cfix>a,.trioCarousel,#yingyong_href :remove()
+! sex8.cc##[href="#sub_forum_122"],[href="#sub_forum_272"],[href="#sub_forum_160"],.window-read-tip:remove()
+! sex8.cc###page:remove-attr(style)
+! sex8.cc##script:has-text(/getuserAgent|pushState|alertDialg/):remove()
+! sex8.cc##.threadlist li:has-text(/全局置顶/):remove()
+! sex8.cc###p_btn,.god-container,.btViewpost
+! sex8.cc##.postListCon>div:nth-of-type(1),.postListCon>div:nth-of-type(2)
+! ! !#endif
 
-m.sex8.cc##[src="/logo.png"],[src="/icon/camera.png"],[href="https://fcc.pg6901.cc"],.download-bg,.justify-content-between,.bg-steel-gray:remove()
-m.sex8.cc##.m-3:has-text(/广告|杏博/):remove()
-m.sex8.cc##.flex-fill:has-text(/赢钱|贵宾/):remove()
-m.sex8.cc##.border-tuna:has-text(/广告/):remove()
-m.sex8.cc##.flex-center:has-text(/分享好友升级赚钱/):remove()
+! m.sex8.cc##[src="/logo.png"],[src="/icon/camera.png"],[href="https://fcc.pg6901.cc"],.download-bg,.justify-content-between,.bg-steel-gray:remove()
+! m.sex8.cc##.m-3:has-text(/广告|杏博/):remove()
+! m.sex8.cc##.flex-fill:has-text(/赢钱|贵宾/):remove()
+! m.sex8.cc##.border-tuna:has-text(/广告/):remove()
+! m.sex8.cc##.flex-center:has-text(/分享好友升级赚钱/):remove()
 
 
 
@@ -563,6 +593,7 @@ pornhub.com##script,.abAlertShown,.modalWrapper,#welcome,#topRightProfileMenu,[c
 ! 脚本，禁用 Adblock，优惠，欢迎，登入，上传，播客，侧边栏广告，评论
 pornhub.com###welcomeVideoMsg,.adsbytrafficjunky,.js-pwaPrompt,[href="/gayporn"],.footerThumbs~*,#headerUserIcon,.becomePartnerWrapper:remove()
 pornhub.com###rateWrapper~*,.fanClubButtons:remove()
+
 
 
 
@@ -896,6 +927,7 @@ asmhentai.com##.navbar_links li:nth-of-type(8)~*:remove()
 kimootoko.net##script:has-text(/createElement/):remove()
 kimootoko.net##.widget_text.header-widget,.p-spHeadMenu>li~*,[id^="custom_html-"],.menu-item-home~*:remove()
 kimootoko.net##.p-termContent:remove-class(p-termContent)
+kimootoko.net##.widget_text.widget,.fanzakiji-hako,.pickup,.bigkugirisen
 
 
 ! 2024-05-07 漫画-成人-日本：熟女、人妻、NTR 
@@ -1075,21 +1107,31 @@ slushe.com##.reportPost,.easy-share,#comment-form:remove()
 
 
 ! 2024-04-14 https://accounts.pixiv.net pixiv是提供插画等作品的投稿、阅览服务的「插画交流网站」
-pixiv.net##noscript,iframe,next-route-announcer:remove()
-pixiv.net##+js(nosiif)
-pixiv.net##:xpath(/html/body/div[1]/div/div[2]/div[3]/div/div[1]/div/div[3]/div[1]/div[1])
-pixiv.net##[class*="grid-rows-"],.sticky.bottom-0,.gamwqe,.charcoal-token,.premium-lead-t-footer:remove()
-!======================网页端
-pixiv.net##:xpath(/html/body/div[5]/div/div/div[2]/div/div/div[1]/a[2])
-pixiv.net##:xpath(/html/body/div[5]/div/div/div[2]/div/div/div[3]/div)
-pixiv.net##:xpath(/html/body/div[5]/div/div/div[2]/div/div/div[3]/ul[3])
-pixiv.net##:xpath(/html/body/div[5]/div/div/div[2]/div/div/div[3]/ul[9])
-pixiv.net##:xpath(/html/body/div[5]/div/div/div[2]/div/div/div[3]/ul[10])
-pixiv.net##:xpath(/html/body/div[5]/div/div/div[2]/div/div/div[3]/ul[11]/li[2])
-pixiv.net##:xpath(/html/body/div[5]/div/div/div[2]/div/div/div[3]/ul[11]/li[5])
-pixiv.net##:xpath(/html/body/div[5]/div/div/div[2]/div/div/div[3]/ul[12])
-pixiv.net##:xpath(/html/body/div[5]/div/div/div[2]/div/div/div[3]/ul[11]/li[3])
-!======================移动端
+||lc-event.pixiv.net/log/
+pixiv.net##[id^="adsdk"],[data-nscript="beforeInteractive"].iframe:remove()
+pixiv.net##footer,.uploaded-image-container,.segment-top,.work-share-box :remove()
+! pixiv.net##.wc-menu>div:remove()
+pixiv.net##.dDAgDy>ul:has-text(/退出登录|金钱管理|用户企划|数据分析/):remove()
+pixiv.net##.wc-menu>ul:has-text(/退出登录|金钱管理|用户企划|数据分析/):remove()
+pixiv.net##.dDAgDy>div,.gap-4:remove()
+pixiv.net##.gamwqe:remove()
+
+
+! pixiv.net##noscript,iframe,next-route-announcer:remove()
+! pixiv.net##+js(nosiif)
+! pixiv.net##:xpath(/html/body/div[1]/div/div[2]/div[3]/div/div[1]/div/div[3]/div[1]/div[1])
+! pixiv.net##[class*="grid-rows-"],.sticky.bottom-0,.gamwqe,.charcoal-token,.premium-lead-t-footer:remove()
+! !======================网页端
+! pixiv.net##:xpath(/html/body/div[5]/div/div/div[2]/div/div/div[1]/a[2])
+! pixiv.net##:xpath(/html/body/div[5]/div/div/div[2]/div/div/div[3]/div)
+! pixiv.net##:xpath(/html/body/div[5]/div/div/div[2]/div/div/div[3]/ul[3])
+! pixiv.net##:xpath(/html/body/div[5]/div/div/div[2]/div/div/div[3]/ul[9])
+! pixiv.net##:xpath(/html/body/div[5]/div/div/div[2]/div/div/div[3]/ul[10])
+! pixiv.net##:xpath(/html/body/div[5]/div/div/div[2]/div/div/div[3]/ul[11]/li[2])
+! pixiv.net##:xpath(/html/body/div[5]/div/div/div[2]/div/div/div[3]/ul[11]/li[5])
+! pixiv.net##:xpath(/html/body/div[5]/div/div/div[2]/div/div/div[3]/ul[12])
+! pixiv.net##:xpath(/html/body/div[5]/div/div/div[2]/div/div/div[3]/ul[11]/li[3])
+! !======================移动端
 
 
 
