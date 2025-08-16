@@ -306,8 +306,7 @@ apkmirror.com###bottom-slider,.footer,.desktopTitle
 
 
 ! 2024年8月6日 https://rebang.today 新闻资讯热榜
-rebang.today##footer,noscript
-rebang.today##footer,aside>div>.border.border-border-100 
+
 zhihu.com##.Button--primary,.MobileModal-wrapper
 ithome.com##.open-app,.ruanmei-footer
 hupu.com##.tabs-component-search-app
@@ -1151,18 +1150,26 @@ xbookcn.net##body:remove-attr(style)
 ! ======Telegram ===========================================================================
 t.me##.tgme_head_right_btn
 ! 下载APP
-telegram.org##button.chat-join,div.popup-send-gift,.popup-premium,.is-centering-to-control:remove()
-! 加入,送礼,加入频道
+telegram.org##.chatlist-bottom:remove()
+! 左侧 联系方式
+telegram.org###new-menu:remove()
+! 新建 新频道/群组/私人聊天
+telegram.org##.badge-primary:remove()
+! 顶部 未读数量
+telegram.org##div.chat-input:remove()
+! 申请加入小组 
+telegram.org##.chat-join,.btn-primary:remove()
+! 加入
 telegram.org##.media-viewer-buttons .hide:remove-class(hide)
 telegram.org##.media-viewer-buttons:style(display: flex !important; justify-content: flex-end !important; align-items: center !important; position: fixed !important; right: 20px !important; top: 40px !important;)
 ! 移除视频控件的隐藏；再之后移动端不显示，视频播放按钮改为Flexbox浮动，固定在屏幕距离
-telegram.org##.animated-super.pinned-message-media-container~div:remove()
-! 公告，固定消息部分的隐藏
-telegram.org##+js(set-attribute, div.progress-line__filled, style, width: 100%;)
-! 音量设置100%
+! ======Telegram ===========================================================================
 telegram.org##.message span:has-text(/OverWall加速器|酒馆AI|绅士玩具屋|樱川爱|特价|支付|新用户|信誉|USDT|免费|SoulAI|游玩|体育/):nth-ancestor(4)
 telegram.org##blockquote:has-text(/付费/):remove()
 ! ======Telegram ===========================================================================
+
+
+
 
 ! PODCAST 播客
 player.soundon.fm##.so-footer,.so-app-download-button,.so-podcast-header__listen-on-apps,[rel="apple-touch-startup-image"],[rel="apple-touch-icon"]:remove()
@@ -1222,4 +1229,44 @@ www.freebuf.com##[href="/report"],.floating-view:remove()
 ! 2025年8月11日 厂长资源  |  超清视频站
 www.cz4k.com##.ad,.comments,.shuoming,#minigonggaop
 www.cz4k.com##.xiluxue,.swiper-wrapper > div:nth-of-type(2),#menu-item-12859,#menu-item-13714
+
+! 2025年8月16日 MBA智库百科
+wiki.mbalib.com##.hid.bg,fieldset,#footer,.download-app,.topbar-vip,#ke-lay-in-wiki,#recommend-bar,i.not-i:remove()
+wiki.mbalib.com###bodyContent:remove-class(unfold-content)
+wiki.mbalib.com##[id*="ad-"],.download_app,.unfold-field-download,.box-app-tip:remove()
+wiki.mbalib.com##script:has-text(/box-app-tip|download_app/):remove()
+
+! 2025年8月16日 中国大百科全书简体
+www.zgbk.com##.footer,.footer_new,.codebox:remove()
+www.zgbk.com##script:has-text(/_ZMemberName/):remove()
+www.zgbk.com##a:remove-attr(target)
+
+! 2025年8月16日 萌娘百科
+moegirl.org.cn##[class*="notification"],footer,.user-area,#moe-open-in-app,.mainpage-title,.wiki-page-comments-quick-input,#moe-mobile-toolbar,.report-article-footer:remove()
+moegirl.org.cn##.n-message-container,#moe-global-toolbar,.nav-links-group+div,.nav-topbar-dropdown+div,iframe,.banner-slider-container,.site-statistics,.social-links:remove()
+
+! 2025年8月16日 Quora
+quora.com##div[animation],.qu-pr--small>.qu-mr--small
+
+! 2025年8月16日 medium
+! ||medium.com^$script
+medium.com##a:has-text(/Open in app/):upward(1)
+medium.com##a:has-text(/Become a member/):upward(5)
+medium.com##.he.hd
+
+! 2025年8月16日 https://tophub.today
+tophub.today###vip-button,[data-key="sidebar"],[href="/pay"],.follow-official-account
+
+! 2025年8月16日 第一财经导航地图
+yicai.com##.g-ft,.cmt-submit,.crystalAD,#appdownload,.linkapp,[class*="share"]:remove()
+yicai.com###multi-text:remove-attr(class)
+
+
+! 2025年8月16日 https://xueqiu.com
+xueqiu.com##script:has-text(/charCodeAt/):remove()
+xueqiu.com##.js-shown,footer,ul.account,.user__follow,.article__widget>div,.lite-editor,[class^="index_header_container"],form[class]+ul
+
+! 2025年8月16日 https://rebang.today
+rebang.today##div.flex-col.w-full.flex:nth-of-type(4)
+rebang.today##footer
 
