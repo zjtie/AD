@@ -117,7 +117,7 @@
   </main>
 
   <script>
-    const PASSWORD = "123456"; // 访问密码，可修改
+    const PASSWORD = "pixel"; // 访问密码，可修改
 
     function checkPassword() {
       const input = document.getElementById("passwordInput").value;
@@ -129,26 +129,53 @@
       }
     }
 
-    const resources = [
-      {
-        type: "nonAdult",
-        sites: [
-          { name: "金鹰资源ll", url: "https://jyzyapi.com/provide/vod" },
-          { name: "非凡资源ll", url: "http://ffzy5.tv/api.php/provide/vod/api.php/provide/vod" },
-          { name: "樱花资源ll", url: "https://yhzy.cc/api.php/provide/vod" }
-          // ...可以继续添加其他非成人
-        ]
-      },
-      {
-        type: "adult",
-        sites: [
-          { name: "森林资源", url: "https://slapibf.com/api.php/provide/vod" },
-          { name: "麻豆资源", url: "https://www.bt4.cc/api.php/provide/vod" },
-          { name: "91资源", url: "https://91md.me/api.php/provide/vod" }
-          // ...可以继续添加其他成人
-        ]
-      }
-    ];
+const resources = [
+  {
+    type: "nonAdult",
+    sites: [
+      { name: "金鹰资源ll", url: "https://jyzyapi.com/provide/vod" },
+      { name: "非凡资源ll", url: "http://ffzy5.tv/api.php/provide/vod/api.php/provide/vod" },
+      { name: "樱花资源ll", url: "https://yhzy.cc/api.php/provide/vod" },
+      { name: "暴风资源ll", url: "https://bfzyapi.com/api.php/provide/vod" },
+      { name: "电影天堂", url: "https://caiji.dyttzyapi.com/api.php/provide/vod" },
+      { name: "如意资源", url: "https://cj.rycjapi.com/api.php/provide/vod" },
+      { name: "360资源ll", url: "https://360zy.com/api.php/provide/vod" },
+      { name: "极速资源ll", url: "https://jszyapi.com/api.php/provide/vod" },
+      { name: "魔爪资源xxx", url: "https://mozhuazy.com/api.php/provide/vod" },
+      { name: "最大资源ll", url: "https://api.zuidapi.com/api.php/provide/vod" },
+      { name: "无尽资源ll", url: "https://api.wujinapi.me/api.php/provide/vod" },
+      { name: "iKun资源ll", url: "https://ikunzyapi.com/api.php/provide/vod" },
+      { name: "CK资源ll", url: "https://ckzy.me/api.php/provide/vod" },
+      { name: "茅台资源ll", url: "https://caiji.maotaizy.cc/api.php/provide/vod" },
+      { name: "猫眼资源ll", url: "https://api.maoyanapi.top/api.php/provide/vod" }
+    ]
+  },
+  {
+    type: "adult",
+    sites: [
+      { name: "森林资源", url: "https://slapibf.com/api.php/provide/vod" },
+      { name: "麻豆资源", url: "https://www.bt4.cc/api.php/provide/vod" },
+      { name: "91资源", url: "https://91md.me/api.php/provide/vod" },
+      { name: "辣椒资源", url: "https://apilj.com/api.php/provide/vod" },
+      { name: "souav资源", url: "https://api.souavzy.vip/api.php/provide/vod" },
+      { name: "jkun资源", url: "https://jkunzyapi.com/api.php/provide/vod" },
+      { name: "百万资源", url: "https://api.bwzyz.com/api.php/provide/vod" },
+      { name: "155资源", url: "https://155api.com/api.php/provide/vod" },
+      { name: "lsb资源", url: "https://apilsbzy1.com/api.php/provide/vod" },
+      { name: "黄色仓库", url: "https://hsckzy.vip/api.php/provide/vod" },
+      { name: "玉兔资源成人版", url: "https://yutuzy10.com/api.php/provide/vod" },
+      { name: "快播资源", url: "https://gayapi.com/api.php/provide/vod" },
+      { name: "杏吧资源", url: "https://xingba222.com/api.php/provide/vod" },
+      { name: "91jpzyw", url: "https://91jpzyw.com/api.php/provide/vod" },
+      { name: "大奶资源", url: "https://apidanaizi.com/api.php/provide/vod" },
+      { name: "细胞资源", url: "https://www.xxibaozyw.com/api.php/provide/vod" },
+      { name: "鲨鱼资源", url: "https://shayuzy.com/api.php/provide/vod" },
+      { name: "小鸡资源", url: "https://api.xiaojizy.live/provide/vod" },
+      { name: "木瓜AC", url: "https://www.fczy907.com/api.php/provide/vod" }
+    ]
+  }
+];
+
 
     function renderSites(containerId, sites) {
       const container = document.getElementById(containerId);
