@@ -31,7 +31,7 @@ h2 { margin-top:2rem; color:#333; border-left:6px solid #4CAF50; padding-left:0.
 
 /* 管理面板 */
 #adminPanel {
-  position: fixed; bottom: 80px; right: 20px; width: 300px; max-height: 500px;
+  position: fixed; bottom: 80px; right: 20px; width: 300px; max-height: 400px;
   background:white; border-radius:10px; box-shadow:0 4px 8px rgba(0,0,0,0.2);
   padding:1rem; overflow-y:auto; display:none; z-index:10000;
 }
@@ -78,21 +78,8 @@ h2 { margin-top:2rem; color:#333; border-left:6px solid #4CAF50; padding-left:0.
 </div>
 
 <script>
-// ====== 密码验证 ======
 const PASSWORD = "123456"; // 可修改
-if(localStorage.getItem("libretvPwd")===PASSWORD) showMainContent();
-function checkPassword(){
-  const input=document.getElementById("passwordInput").value;
-  if(input===PASSWORD){ localStorage.setItem("libretvPwd",PASSWORD); showMainContent(); }
-  else alert("密码错误");
-}
-function showMainContent(){
-  document.getElementById("loginOverlay").style.display="none";
-  document.getElementById("mainContent").style.display="block";
-  renderAllSites();
-}
-
-// ====== 默认资源列表 ======
+// 默认网址列表
 const defaultResources = [
   { type:"nonAdult", sites:[
       { name:"金鹰资源", url:"https://jyzyapi.com/" },
@@ -134,20 +121,39 @@ const defaultResources = [
   ]}
 ];
 
-// ====== 本地资源缓存 ======
+// 初始化
 let resources = JSON.parse(localStorage.getItem("libretvResources") || "null") || defaultResources;
 
-// ====== 渲染 ======
+// 密码验证
+if(localStorage.getItem("libretvPwd") === PASSWORD){
+  showMainContent();
+}
+function checkPassword(){
+  const input = document.getElementById("passwordInput").value;
+  if(input===PASSWORD){
+    localStorage.setItem("libretvPwd", PASSWORD);
+    showMainContent();
+  } else { alert("密码错误"); }
+}
+function showMainContent(){
+  document.getElementById("loginOverlay").style.display = "none";
+  document.getElementById("mainContent").style.display = "block";
+  renderAllSites();
+}
+
+// 渲染网站
 function renderSites(containerId, sites){
-  const container=document.getElementById(containerId);
-  container.innerHTML="";
-  sites.forEach(site=>{
-    const card=document.createElement("div");
-    card.className="card";
-    card.innerHTML=`<a href="${site.url}" target="_blank">${site.name}</a>`;
+  const container = document.getElementById(containerId);
+  container.innerHTML = "";
+  sites.forEach((site,i)=>{
+    const card = document.createElement("div");
+    card.className = "card";
+    card.innerHTML = `<a href="${site.url}" target="_blank">${site.name}</a>`;
     container.appendChild(card);
   });
 }
+
+// 渲染全部
 function renderAllSites(){
   resources.forEach(group=>{
     if(group.type==="nonAdult") renderSites("nonAdult", group.sites);
@@ -156,20 +162,20 @@ function renderAllSites(){
   renderAdminList();
 }
 
-// ====== 管理按钮 ======
-const adminBtn=document.getElementById("adminBtn");
-const adminPanel=document.getElementById("adminPanel");
-adminBtn.onclick=()=>{ adminPanel.style.display = adminPanel.style.display==='block'?'none':'block'; }
+// 管理按钮
+const adminBtn = document.getElementById("adminBtn");
+const adminPanel = document.getElementById("adminPanel");
+adminBtn.onclick = ()=>{ adminPanel.style.display = adminPanel.style.display==='block'?'none':'block'; }
 
-// ====== 管理功能 ======
+// 管理面板功能
 function renderAdminList(){
-  const list=document.getElementById("siteList");
+  const list = document.getElementById("siteList");
   list.innerHTML="";
   resources.forEach(group=>{
     group.sites.forEach((site,i)=>{
-      const div=document.createElement("div");
+      const div = document.createElement("div");
       div.className="siteItem";
-      div.innerHTML=`<span>[${group.type}] ${site.name} - ${site.url}</span>
+      div.innerHTML = `<span>[${group.type}] ${site.name} - ${site.url}</span>
       <button onclick="editSite('${group.type}',${i})">编辑</button>
       <button onclick="deleteSite('${group.type}',${i})">删除</button>`;
       list.appendChild(div);
@@ -178,19 +184,19 @@ function renderAdminList(){
 }
 
 function addSite(){
-  const name=document.getElementById("siteName").value.trim();
-  const url=document.getElementById("siteURL").value.trim();
+  const name = document.getElementById("siteName").value.trim();
+  const url = document.getElementById("siteURL").value.trim();
   if(!name || !url){ alert("请填写完整"); return; }
-  const type=prompt("请输入类型: nonAdult 或 adult","nonAdult");
+  const type = prompt("请输入类型: nonAdult 或 adult","nonAdult");
   if(type!=="nonAdult" && type!=="adult"){ alert("类型错误"); return; }
-  const group=resources.find(g=>g.type===type);
+  const group = resources.find(g=>g.type===type);
   group.sites.push({name,url});
   localStorage.setItem("libretvResources", JSON.stringify(resources));
   renderAllSites();
 }
 
 function deleteSite(type, idx){
-  const group=resources.find(g=>g.type===type);
+  const group = resources.find(g=>g.type===type);
   if(confirm("确定删除吗？")){
     group.sites.splice(idx,1);
     localStorage.setItem("libretvResources", JSON.stringify(resources));
@@ -199,47 +205,50 @@ function deleteSite(type, idx){
 }
 
 function editSite(type, idx){
-  const group=resources.find(g=>g.type===type);
-  const site=group.sites[idx];
-  const newName=prompt("修改名称", site.name);
-  const newURL=prompt("修改网址", site.url);
+  const group = resources.find(g=>g.type===type);
+  const site = group.sites[idx];
+  const newName = prompt("修改名称", site.name);
+  const newURL = prompt("修改网址", site.url);
   if(newName && newURL){
-    site.name=newName; site.url=newURL;
+    site.name = newName; site.url = newURL;
     localStorage.setItem("libretvResources", JSON.stringify(resources));
     renderAllSites();
   }
-}
-
-// ====== 导入/导出 JSON ======
+  // 导出 JSON
 function exportJSON(){
-  const dataStr=JSON.stringify(resources,null,2);
-  const blob=new Blob([dataStr],{type:"application/json"});
-  const url=URL.createObjectURL(blob);
-  const a=document.createElement("a");
-  a.href=url;
-  a.download="libretv_sites.json";
+  const dataStr = JSON.stringify(resources, null, 2);
+  const blob = new Blob([dataStr], {type: "application/json"});
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = "libretv_sites.json";
   a.click();
   URL.revokeObjectURL(url);
 }
 
+// 导入 JSON
 function importJSON(event){
-  const file=event.target.files[0];
+  const file = event.target.files[0];
   if(!file) return;
-  const reader=new FileReader();
-  reader.onload=function(e){
-    try{
-      const importedData=JSON.parse(e.target.result);
+  const reader = new FileReader();
+  reader.onload = function(e){
+    try {
+      const importedData = JSON.parse(e.target.result);
       if(!Array.isArray(importedData)){
         alert("文件格式不正确！");
         return;
       }
-      resources=importedData;
+      resources = importedData;
       localStorage.setItem("libretvResources", JSON.stringify(resources));
       renderAllSites();
       alert("导入成功！");
-    } catch(err){ alert("JSON解析失败：" + err); }
+    } catch(err){
+      alert("JSON解析失败：" + err);
+    }
   };
   reader.readAsText(file);
+}
+
 }
 </script>
 </body>
