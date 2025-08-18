@@ -49,12 +49,6 @@
       transform: translateY(-5px);
       box-shadow: 0 8px 16px rgba(0,0,0,0.2);
     }
-    .card img {
-      width: 48px;
-      height: 48px;
-      object-fit: contain;
-      margin-bottom: 0.5rem;
-    }
     .card a {
       text-decoration: none;
       color: #333;
@@ -63,16 +57,58 @@
       margin-top: 0.5rem;
       word-break: break-word;
     }
-    .adult-note {
-      color: red;
-      font-size: 0.9rem;
-      margin-top: 0.3rem;
+    #loginOverlay {
+      position: fixed;
+      top:0;
+      left:0;
+      width:100%;
+      height:100%;
+      background: rgba(0,0,0,0.7);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 9999;
+    }
+    #loginBox {
+      background: white;
+      padding: 2rem;
+      border-radius: 12px;
+      text-align: center;
+      width: 300px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    }
+    #loginBox input[type="password"] {
+      width: 100%;
+      padding: 0.5rem;
+      margin-top: 1rem;
+      font-size: 1rem;
+    }
+    #loginBox button {
+      margin-top: 1rem;
+      padding: 0.5rem 1rem;
+      font-size: 1rem;
+      background: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    #loginBox button:hover {
+      background: #45a049;
     }
   </style>
 </head>
 <body>
+  <div id="loginOverlay">
+    <div id="loginBox">
+      <h3>请输入访问密码</h3>
+      <input type="password" id="passwordInput" placeholder="密码">
+      <button onclick="checkPassword()">进入</button>
+    </div>
+  </div>
+
   <header>视频资源导航</header>
-  <main>
+  <main id="mainContent" style="display:none;">
     <h2>🚫 非成人资源</h2>
     <div class="grid" id="nonAdult"></div>
 
@@ -81,26 +117,26 @@
   </main>
 
   <script>
-    // 数据
+    const PASSWORD = "123456"; // 访问密码，可修改
+
+    function checkPassword() {
+      const input = document.getElementById("passwordInput").value;
+      if(input === PASSWORD) {
+        document.getElementById("loginOverlay").style.display = "none";
+        document.getElementById("mainContent").style.display = "block";
+      } else {
+        alert("密码错误，请重试！");
+      }
+    }
+
     const resources = [
       {
         type: "nonAdult",
         sites: [
           { name: "金鹰资源ll", url: "https://jyzyapi.com/provide/vod" },
           { name: "非凡资源ll", url: "http://ffzy5.tv/api.php/provide/vod/api.php/provide/vod" },
-          { name: "樱花资源ll", url: "https://yhzy.cc/api.php/provide/vod" },
-          { name: "暴风资源ll", url: "https://bfzyapi.com/api.php/provide/vod" },
-          { name: "电影天堂", url: "https://caiji.dyttzyapi.com/api.php/provide/vod" },
-          { name: "如意资源", url: "https://cj.rycjapi.com/api.php/provide/vod" },
-          { name: "360资源ll", url: "https://360zy.com/api.php/provide/vod" },
-          { name: "极速资源ll", url: "https://jszyapi.com/api.php/provide/vod" },
-          { name: "魔爪资源xxx", url: "https://mozhuazy.com/api.php/provide/vod" },
-          { name: "最大资源ll", url: "https://api.zuidapi.com/api.php/provide/vod" },
-          { name: "无尽资源ll", url: "https://api.wujinapi.me/api.php/provide/vod" },
-          { name: "iKun资源ll", url: "https://ikunzyapi.com/api.php/provide/vod" },
-          { name: "CK资源ll", url: "https://ckzy.me/api.php/provide/vod" },
-          { name: "茅台资源ll", url: "https://caiji.maotaizy.cc/api.php/provide/vod" },
-          { name: "猫眼资源ll", url: "https://api.maoyanapi.top/api.php/provide/vod" }
+          { name: "樱花资源ll", url: "https://yhzy.cc/api.php/provide/vod" }
+          // ...可以继续添加其他非成人
         ]
       },
       {
@@ -108,23 +144,8 @@
         sites: [
           { name: "森林资源", url: "https://slapibf.com/api.php/provide/vod" },
           { name: "麻豆资源", url: "https://www.bt4.cc/api.php/provide/vod" },
-          { name: "91资源", url: "https://91md.me/api.php/provide/vod" },
-          { name: "辣椒资源", url: "https://apilj.com/api.php/provide/vod" },
-          { name: "souav资源", url: "https://api.souavzy.vip/api.php/provide/vod" },
-          { name: "jkun资源", url: "https://jkunzyapi.com/api.php/provide/vod" },
-          { name: "百万资源", url: "https://api.bwzyz.com/api.php/provide/vod" },
-          { name: "155资源", url: "https://155api.com/api.php/provide/vod" },
-          { name: "lsb资源", url: "https://apilsbzy1.com/api.php/provide/vod" },
-          { name: "黄色仓库", url: "https://hsckzy.vip/api.php/provide/vod" },
-          { name: "玉兔资源", url: "https://yutuzy10.com/api.php/provide/vod" },
-          { name: "快播资源", url: "https://gayapi.com/api.php/provide/vod" },
-          { name: "杏吧资源", url: "https://xingba222.com/api.php/provide/vod" },
-          { name: "91jpzyw", url: "https://91jpzyw.com/api.php/provide/vod" },
-          { name: "大奶资源", url: "https://apidanaizi.com/api.php/provide/vod" },
-          { name: "细胞资源", url: "https://www.xxibaozyw.com/api.php/provide/vod" },
-          { name: "鲨鱼资源", url: "https://shayuzy.com/api.php/provide/vod" },
-          { name: "小鸡资源", url: "https://api.xiaojizy.live/provide/vod" },
-          { name: "木瓜AC", url: "https://www.fczy907.com/api.php/provide/vod" }
+          { name: "91资源", url: "https://91md.me/api.php/provide/vod" }
+          // ...可以继续添加其他成人
         ]
       }
     ];
@@ -134,14 +155,11 @@
       sites.forEach(site => {
         const card = document.createElement("div");
         card.className = "card";
-        card.innerHTML = `
-          <a href="${site.url}" target="_blank">${site.name}</a>
-        `;
+        card.innerHTML = `<a href="${site.url}" target="_blank">${site.name}</a>`;
         container.appendChild(card);
       });
     }
 
-    // 渲染
     resources.forEach(group => {
       if(group.type === "nonAdult") renderSites("nonAdult", group.sites);
       else renderSites("adult", group.sites);
