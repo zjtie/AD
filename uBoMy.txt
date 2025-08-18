@@ -245,10 +245,18 @@ www.coolapk.com##.navbar-contact
 woiso.com##.myui-foot
 
 ! 2023-12-15 https://m.agedm.org AGE动漫
-agedm.org##[rel*="icon"],.modal-footer,#notice_box,.extra-box,.foot_content_wrapper,.col-md-12,.nav-download-link,.comment-box-wrapper
-agedm.org##.global_notice_wrapper,.video-comments-box,.van-dialog:remove()
-agedm.org##.van-overlay:remove-class(van-overlay)
+! agedm.org##[rel*="icon"],.modal-footer,#notice_box,.extra-box,.foot_content_wrapper,.col-md-12,.nav-download-link,.comment-box-wrapper
+! agedm.org##.global_notice_wrapper,.video-comments-box,.van-dialog:remove()
+! agedm.org##.van-overlay:remove-class(van-overlay)
 
+agedm.org,agedm.vip##.comment-box-wrapper,.watch-qrcode-popover,.float-end,small:remove()
+agedm.org,agedm.vip##.video-comments-box,.video-feedback-box,.hd,[class*="dialog"],.go-marketing:remove()
+agedm.org,agedm.vip##.van-overlay:remove-class(van-overlay)
+agedm.org,agedm.vip###notice_box,.extra-box,.nav-download-link,.foot_content_wrapper:remove()
+
+
+
+foot-container
 #======文档工具==========================================================================
 ! 2023-06-06 https://shimo.im 石墨文档
 shimo.im##[class*="StyledUpgradeEntrance"],[class*="StyledTipTooltip"]
@@ -592,7 +600,7 @@ pornhub.com##script,.abAlertShown,.modalWrapper,#welcome,#topRightProfileMenu,[c
 ! 脚本，禁用 Adblock，优惠，欢迎，登入，上传，播客，侧边栏广告，评论
 pornhub.com###welcomeVideoMsg,.adsbytrafficjunky,.js-pwaPrompt,[href="/gayporn"],.footerThumbs~*,#headerUserIcon,.becomePartnerWrapper:remove()
 pornhub.com###rateWrapper~*,.fanClubButtons:remove()
-
+pornhub.com###countryRedirectMessage
 
 
 
@@ -1227,8 +1235,10 @@ account.microsoft.com###uhf-footer
 www.freebuf.com##[href="/report"],.floating-view:remove()
 
 ! 2025年8月11日 厂长资源  |  超清视频站
-www.cz4k.com##.ad,.comments,.shuoming,#minigonggaop
-www.cz4k.com##.xiluxue,.swiper-wrapper > div:nth-of-type(2),#menu-item-12859,#menu-item-13714
+cz4k.com##.ad,.comments,.shuoming,#minigonggaop
+cz4k.com##.xiluxue,.swiper-wrapper > div:nth-of-type(2),#menu-item-12859,#menu-item-13714
+cz4k.com##[class*="-ads"]
+
 
 ! 2025年8月16日 MBA智库百科
 wiki.mbalib.com##.hid.bg,fieldset,#footer,.download-app,.topbar-vip,#ke-lay-in-wiki,#recommend-bar,i.not-i:remove()
@@ -1270,3 +1280,140 @@ xueqiu.com##.js-shown,footer,ul.account,.user__follow,.article__widget>div,.lite
 rebang.today##div.flex-col.w-full.flex:nth-of-type(4)
 rebang.today##footer
 
+! 2025年8月17日 百度学术
+xueshu.baidu.com##[class*="foot"], .btn-accessibility.batch-btn, #content_right, .mjLoginDialog, .paper-banner-link:remove()
+
+! 2025年8月17日 https://s.wanfangdata.com.cn
+wanfangdata.com.cn###zkFooter, #wfpub_vip, .ad-container
+
+
+cnki.net##+js(set-constant, initData.product, "WBFD")
+
+! 2025年8月17日 555电影
+5wwcdf80.life,si4kjw4wug.wiki##.small-icon-container,.footer,.share-btn,.small-icon-container,.fixedGroup
+5wwcdf80.life,si4kjw4wug.wiki##a[title="回家地址"],a[title="午夜蓝光"],a[onclick="location='/gbook.html'"],a[href*="d1.55p6d7.com"]
+
+! 2025年8月17日 https://www.yszzq.com
+www.yszzq.com##.date,.footer.vip
+
+! 2025年8月17日 采集站 茅台资源站
+mtzy5.com##.footer_bg, .notice_bg, .right.fr
+
+! 2025年8月17日 采集站 快播资源网
+kbzy1.com##.main,.topbg+div.tablenotice,.topbg,.rainbowcontent~.rainbowcontent,.foot,#floatDivBoxs,.top-center,.overlay:remove()
+
+! 2025年8月17日 采集站 杏吧资源站
+sex8zy8.com##.logo, .search > p, .head-right, .nav1, .bread-crumbs, .bottom, .on-window
+
+! 2025年8月17日 采集站 百度资源
+bdzy.tv##.popup, .hidden-xs.clearfix.stui-pannel, .clearfix.stui-foot
+
+! 2025年8月17日 采集站 豆瓣资源站
+dbzy1.com##.stui-notice-box, .stui-notice-bg, .index-header, .nvc, #floatDivBoxs, .foot, .liketitle.playBar
+
+! 2025年8月17日 采集站 91精品资源网
+91jpzyw.com##.wn_banner, .hidden-xs.clearfix.wnui-pannel, .clearfix.wnui-foot:remove()
+
+! 2025年8月17日 采集站 大奶子资源
+danaizizy1.com##.rainbowcontent, .footer, .txtguanggao, .header_left, .head-right:remove()
+
+! 2025年8月17日 采集站 猫眼资源站
+www.maoyanzy.com##.shoutu-notice, .shoutu-window-bj, .shoutu-banner, .shoutu-banner-nav, .shoutu-gbook-tip, .contact, .shoutu-foot, a.shoutu-this-link:remove()
+
+! 2025年8月17日 采集站 魔爪资源采集
+mzzy.me##body>div[style],.wrap>p,.wrap>h3:remove()
+
+! 2025年8月17日 采集站 细胞网
+xxibaozyw.com##.hidden-xs.clearfix.stui-pannel, .clearfix.stui-foot, .hidden-xs.hidden-sm.stui-header__more, .wybc.pull-right.text-muted:remove()
+
+! 2025年8月17日 采集站 鲨鱼资源
+shayuzy.com##tr, .footer, .header_left, .header_list:remove()
+
+! 2025年8月17日 采集站 小鸡资源
+xiaojizy.live##.banner,.main-div.mt-3~*,.main-div.mt-3,[alt="logo"],div[style^="margin-top: 30px;"],.mb-4.mt-4>a:remove()
+
+! 2025年8月17日 木瓜AV
+fczy907.com###site-footer
+
+! 2025年8月18日 麻豆资源
+91md.me,bt4.cc##.footer,.detail_right_div > p,.navs+.video-body
+||91md.me/template/ym005_wap/images/logo.png
+
+! 2025年8月18日 https://apilj.com
+apilj.com##.footer, .header.width1200 [href="/"], .header_list
+apilj.com##div.width1200:nth-of-type(2)
+
+! 2025年8月18日 https://api.souavzy.vip
+api.souavzy.vip##.hidden-xs.clearfix.stui-pannel,.clearfix.stui-foot
+
+! 2025年8月18日 https://jkunzyapi.com
+jkunzyapi.com##.hidden-xs.clearfix.stui-pannel, .clearfix.stui-foot,div[style^="background: #c1c1c1;width"]
+
+! 2025年8月18日 https://api.bwzyz.com
+api.bwzyz.com##.popup-box, .clearfix.stui-pannel, .footer, .header_left, .head-right
+
+! 2025年8月18日 https://hsckzy.vip
+hsckzy.vip##.index-header, .foot, .popup, .flash-text
+
+! 2025年8月18日 https://yutuzy10.com
+yutuzy10.com##div.head_box > .head_box, .clearfix.stui-pannel, .footer
+
+! 2025年8月18日 https://gayapi.com
+gayapi.com##.overlay, .topbg, body > div > .tablenotice, div.rainbowcontent > [href], .foot
+
+! 2025年8月18日 https://xingba222.com
+xingba222.com##.nav1, .bottom
+xingba222.com##.bread-crumbs>*:not(.limit)
+
+! 2025年8月18日 https://thzy4.me
+thzy4.me##.clearfix.stui-pannel, .footer
+
+! 2025年8月18日 https://laosebizy.com
+laosebizy.com##.index-header, [href="https://yutucms.com"], .nav1, .bottom, .logo
+
+! 2025年8月18日 http://fhzy10.com
+fhzy10.com##.head, .banner1, .foot, .yq, [src="/template/default_pc/html/style/img/huo.gif"]
+
+! 2025年8月18日 https://dadizy11.com
+dadizy11.com##table, .qy, [src="/template/zy/html/style/img/huo.gif"], .foot
+
+! 2025年8月18日 https://www.yyzywcj.com
+www.yyzywcj.com##footer
+
+! 2025年8月18日 http://ffzy5.tv
+ffzy5.tv##.index-header, .header_left, .header_fl, .header_list [href], .footer
+
+! 2025年8月18日 https://yhzy.cc
+xyhzy.cc##table, .xing_top_left, .foot
+yhzy.cc##.topright > ul:nth-of-type(3) > li
+
+! 2025年8月18日 https://caiji.dyttzyapi.com
+caiji.dyttzyapi.com##[href="/"], .m-4.shadow.rounded-lg.bg-extra-sage.mx-auto.container
+
+! 2025年8月18日 https://www.ryzyw.com
+ryzyw.com##.index-header, .header_left, .header_fl, .footer, .bugs
+
+! 2025年8月18日 https://jszyapi.com
+jszyapi.com##.topbg, .top-logo, .linkimg, .chat, .foot
+
+! 2025年8月18日 https://mozhuazy.com
+mozhuazy.com##[src="/1200.gif"],.wrap>p
+
+! 2025年8月18日 https://ikunzyapi.com
+
+! 2025年8月18日 https://ikunzyapi.com
+ikunzyapi.com##.bottomcount
+ikunzyapi.com##.contact
+! ikunzyapi.com##.indextop
+ikunzyapi.com##[href] > .btn-primary.btn
+
+! 2025年8月18日 https://ikunzyapi.com
+ikunzyapi.com##.justify-content-md-center.row.notice, .money_item, div.justify-content-center.btn, .tdimg,.index-top-long,div[style="width: 100%;height: 160px;"]
+ikunzyapi.com##.col.index > div:nth-of-type(1)
+
+! 2025年8月18日 https://ckzy.me
+ckzy.me##div.clearfix.stui-pannel:nth-of-type(2)
+ckzy.me##.clearfix.stui-foot, .clearfix.stui-pannel__head
+
+! 2025年8月18日 https://caiji.maotaizy.cc
+caiji.maotaizy.cc##.ad-box,.notice_bg, .right.fr, .footer_bg, .chat-item
