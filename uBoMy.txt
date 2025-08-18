@@ -267,6 +267,7 @@ yuque.com###footer,[class^="like-module_"],#siteTipGuide,.dashboard-sidebar-scro
 yuque.com##[class^="H5DocReader-module_meta"],[class^="H5DocReader-module_actions"]
 yuque.com##[data-testid="h5-page-toolbar"]>div+div~*:remove()
 
+
 ! 2022-11-21 https://www.jianguoyun.com  坚果云盘
 jianguoyun.com##.teaser-container,.isActive.account-type,.active.bar-item,div.bar-item:nth-of-type(4)
 
@@ -750,7 +751,7 @@ porcore.com##.navbar,[class*="-block"],[rel*="-icon"],meta,[rel="icon"],[href^="
 ! 2024-05-09  视频-成人-3D：rule34video
 rule34video.com,rule34gen.com##.footer,.spot_under,[href="#tab_comments"],[href="#tab_report_rrror"],.button_fav.ai,.button_fav.theporndude:remove()
 ! footer,视频下方AD，评论，报告错误
-rule34video.com,rule34gen.com##.box.mobile-box,[href="https://www.stopkillinggames.com/"]:remove()
+rule34video.com,rule34gen.com##.box.mobile-box,[href="https://www.stopkillinggames.com/"],[data-name="Gay"]:remove()
 
 
 ! 2024-04-14 视频-成人-3D：3dsexanime
@@ -765,8 +766,8 @@ porn3dx.com##button:has-text(/Report/):remove()
 
 
 ! 2024-05-15 视频-成人-3D：3D Dude
-3dporndude.com##footer,section#list_videos_most_recent_videos~*,.header-links,li.spot,.fp-logo.fade,.fp-brand,[href="#tab5"],.asside-link,.bottom-adv:remove()
-! footer,footer,导航AD,首页AD,视频AD,视频AD,举报,侧边栏AD,底部AD
+3dporndude.com##footer,section#list_videos_most_recent_videos~*,.header-links,li.spot,.fp-logo.fade,.fp-brand,[href="#tab5"],.asside-link,.bottom-adv,.upload-holder,.logo:remove()
+! footer,footer,导航AD,首页AD,视频AD,视频AD,举报,侧边栏AD,底部AD,上传
 3dporndude.com##.block-tabs~*:not(#list_videos_related_videos):remove()
 3dporndude.com##a:has-text(/AI PORN|TikTok Porn|AI Sex Slave|FapHouse|ThePornDude/):remove()
 3dporndude.com##script:has-text(/AdProvider|FapHouse|fapcash-videos|creatives|TsMasterSpot|spot|userLanguage/):remove()
@@ -785,9 +786,8 @@ xanimu.com###comment_link,.hero,[ID*="-boxes-mobile"],.vid-report,meta,script,#b
 
 
 ! 2024-04-02 视频-成人-3D：SFM 编译
-sfmcompile.club##[rel='dns-prefetch'],[rel="preconnect"],[as="font"],noscript
-sfmcompile.club##aside.mashsb-container,.g1-body-inner ~ *,body > script,aside.g1-more-from ~ *,.g1-footer,#menu-item-2815,#menu-item-36768
-
+sfmcompile.club##.mashsb-box,.g1-footer,#primary~*,#comments,.snax-post-container,#mashsb-js-extra
+! 分享，footer,footer
 
 ! 2024年6月26日 视频-成人-3D：ohentai.org
 ohentai.org##.hometitle,footer,script,.sortadtext,.sidecontainertitle,.adtitle,.sidebaradlinkcontainer,#topleaderboard,.detailsortadtext,.reportbutton,#tagcont:remove()
@@ -799,13 +799,6 @@ ohentai.org##[href*="porngameshub.com"],[href*="xxxelf.tv"],[class*="ads"]:remov
 the-joi-database.com###report-video,footer,.advertisement :remove()
 
 
-! 2024年12月1日 视频-成人-3D：iwara
-oreno3d.com##footer,.material-icons,[class^="ad-"],script:remove()
-oreno3d.com##figure > .pop_separate + div:remove()
-oreno3d.com##body > *:not(.container)
-oreno3d.com##figure + p,[href^="https://go.rmhfrtnd.com"]
-iwara.tv###modal-root,noscript,footer,.shareButton,section.content>div>.justify-content-center:remove()
-iwara.tv##[href="/page/links"],[href="/account/premium"],[href="/dashboard"],[href="/page/faq"]
 
 #======动漫-番剧===========================================================================
 
@@ -844,6 +837,10 @@ hentaifreak.org##li.current-menu-item~*:not(.menu-item-18782):remove()
 ! 2024-05-08 视频-成人-番剧：H次元
 h-ciyuan.com###wp-custom-css,#gridview-header-end,#gridview-header,.gridview-top-wrapper-outer,#floating-ad,#comments,[id^="block-"],#menu-item-55765,#menu-item-25315:remove()
 h-ciyuan.com##.widget gridview-grid-posts-widget:has-text(/热门系列推荐 /):remove()
+||h-ciyuan.com/wp-content/uploads/2025/03/背景3.webp
+h-ciyuan.com##[title*="『Ad』Ai"]:upward(3):remove()
+h-ciyuan.com##footer,#gridview-copyright-area,.entry-header
+h-ciyuan.com##.has-text-color:has-text(/下载链接|压缩包密码/):remove()
 
 ! 2025年8月11日 视频-成人-番剧：H次元hanime1.me
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=hanime1.me
@@ -1417,3 +1414,16 @@ ckzy.me##.clearfix.stui-foot, .clearfix.stui-pannel__head
 
 ! 2025年8月18日 https://caiji.maotaizy.cc
 caiji.maotaizy.cc##.ad-box,.notice_bg, .right.fr, .footer_bg, .chat-item
+
+! 2025年8月19日 ACG漫画网
+acgmhn.com##+js(set-constant, pub_btn_word, '')
+! 去收藏“最新网址发布页
+acgmhn.com##.footer, .links, .adbox,.ads,.other,#pages:remove()
+
+! 2025年8月19日 https://mmdhentai.com
+mmdhentai.com##.footer,[class^="ad-"],.show__figure>div:remove()
+
+! 2025年8月19日 https://www.iwara.tv
+iwara.tv##footer:remove()
+iwara.tv##button.button--ghost.button--primary.button:nth-of-type(1)
+iwara.tv##.justify-content-center.row, form.menu__form.form, .premium, .wura, .active.undefined,[href="/dashboard"],[href="/account/premium"],[href="/create"],[href="/page/links"]
