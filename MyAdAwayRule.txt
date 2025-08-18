@@ -1,4 +1,4 @@
-#这是一个自用的hosts文件
+####  自用hosts
 0.0.0.0 livehdcams.com
 0.0.0.0 xurm98495.top
 0.0.0.0 umzu9379.vip
