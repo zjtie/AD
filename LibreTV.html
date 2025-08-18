@@ -150,11 +150,11 @@
     </div>
     <div class="container" id="mainContainer">
         <div class="section" id="nonAdultSection">
-            <h2>非成人</h2>
+            <h2>二级战损</h2>
             <div class="site-list" id="nonAdultList"></div>
         </div>
         <div class="section" id="adultSection">
-            <h2>成人</h2>
+            <h2>三级战损</h2>
             <div class="site-list" id="adultList"></div>
         </div>
     </div>
@@ -172,8 +172,8 @@
             <input type="text" id="addName" placeholder="网站名称">
             <input type="text" id="addUrl" placeholder="网站地址">
             <select id="addType">
-                <option value="nonAdult">二级战损</option>
-                <option value="adult">级战损</option>
+                <option value="nonAdult">非成人</option>
+                <option value="adult">成人</option>
             </select>
             <button onclick="addSite()">添加</button>
         </div>
@@ -247,6 +247,7 @@
                 ]
             }
         ];
+
 
         // Check if already logged in
         if (localStorage.getItem('isLoggedIn') === 'true') {
