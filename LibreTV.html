@@ -1,197 +1,246 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>视频资源导航</title>
-  <style>
-    body {
-      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-      background: #f5f5f5;
-      margin: 0;
-      padding: 0;
-    }
-    header {
-      background: #4CAF50;
-      color: white;
-      text-align: center;
-      padding: 1rem;
-      font-size: 1.8rem;
-      font-weight: bold;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    }
-    main {
-      max-width: 1200px;
-      margin: 2rem auto;
-      padding: 0 1rem;
-    }
-    h2 {
-      margin-top: 2rem;
-      color: #333;
-      border-left: 6px solid #4CAF50;
-      padding-left: 0.5rem;
-    }
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-      gap: 1rem;
-      margin-top: 1rem;
-    }
-    .card {
-      background: white;
-      border-radius: 10px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-      padding: 1rem;
-      text-align: center;
-      transition: transform 0.2s, box-shadow 0.2s;
-    }
-    .card:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 8px 16px rgba(0,0,0,0.2);
-    }
-    .card a {
-      text-decoration: none;
-      color: #333;
-      font-weight: bold;
-      display: block;
-      margin-top: 0.5rem;
-      word-break: break-word;
-    }
-    #loginOverlay {
-      position: fixed;
-      top:0;
-      left:0;
-      width:100%;
-      height:100%;
-      background: rgba(0,0,0,0.7);
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      z-index: 9999;
-    }
-    #loginBox {
-      background: white;
-      padding: 2rem;
-      border-radius: 12px;
-      text-align: center;
-      width: 300px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
-    }
-    #loginBox input[type="password"] {
-      width: 100%;
-      padding: 0.5rem;
-      margin-top: 1rem;
-      font-size: 1rem;
-    }
-    #loginBox button {
-      margin-top: 1rem;
-      padding: 0.5rem 1rem;
-      font-size: 1rem;
-      background: #4CAF50;
-      color: white;
-      border: none;
-      border-radius: 6px;
-      cursor: pointer;
-    }
-    #loginBox button:hover {
-      background: #45a049;
-    }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LibreTV 视频导航</title>
+<style>
+body { font-family:"Segoe UI",Tahoma,Geneva,Verdana,sans-serif; background:#f5f5f5; margin:0; padding:0; }
+header { background:#4CAF50; color:white; text-align:center; padding:1rem; font-size:1.8rem; font-weight:bold; box-shadow:0 2px 4px rgba(0,0,0,0.1);}
+main { max-width:1200px; margin:2rem auto; padding:0 1rem; }
+h2 { margin-top:2rem; color:#333; border-left:6px solid #4CAF50; padding-left:0.5rem; }
+.grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(220px,1fr)); gap:1rem; margin-top:1rem; }
+.card { background:white; border-radius:10px; box-shadow:0 4px 8px rgba(0,0,0,0.1); padding:1rem; text-align:center; transition: transform 0.2s, box-shadow 0.2s; }
+.card:hover { transform:translateY(-5px); box-shadow:0 8px 16px rgba(0,0,0,0.2); }
+.card a { text-decoration:none; color:#333; font-weight:bold; display:block; margin-top:0.5rem; word-break:break-word; }
+
+/* 登录 */
+#loginOverlay { position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.7); display:flex; justify-content:center; align-items:center; z-index:9999; }
+#loginBox { background:white; padding:2rem; border-radius:12px; text-align:center; width:300px; box-shadow:0 4px 10px rgba(0,0,0,0.3);}
+#loginBox input[type="password"] { width:100%; padding:0.5rem; margin-top:1rem; font-size:1rem; }
+#loginBox button { margin-top:1rem; padding:0.5rem 1rem; font-size:1rem; background:#4CAF50; color:white; border:none; border-radius:6px; cursor:pointer; }
+#loginBox button:hover { background:#45a049; }
+
+/* 管理按钮 */
+#adminBtn {
+  position: fixed; bottom: 20px; right: 20px; width: 50px; height: 50px;
+  background:#4CAF50; color:white; border-radius:50%; text-align:center; line-height:50px;
+  cursor:pointer; opacity:0.3; transition: opacity 0.3s;
+}
+#adminBtn:hover { opacity:1; }
+
+/* 管理面板 */
+#adminPanel {
+  position: fixed; bottom: 80px; right: 20px; width: 300px; max-height: 500px;
+  background:white; border-radius:10px; box-shadow:0 4px 8px rgba(0,0,0,0.2);
+  padding:1rem; overflow-y:auto; display:none; z-index:10000;
+}
+#adminPanel input { width:100%; padding:0.4rem; margin:0.2rem 0; box-sizing:border-box; }
+#adminPanel button { margin:0.2rem 0; padding:0.4rem 0.8rem; background:#4CAF50; color:white; border:none; border-radius:6px; cursor:pointer; }
+#adminPanel button:hover { background:#45a049; }
+.siteItem { display:flex; justify-content:space-between; align-items:center; margin:0.2rem 0; padding:0.2rem 0; border-bottom:1px solid #ddd; }
+.siteItem span { word-break:break-word; flex:1; }
+.siteItem button { margin-left:5px; }
+</style>
 </head>
 <body>
-  <div id="loginOverlay">
-    <div id="loginBox">
-      <h3>请输入访问密码</h3>
-      <input type="password" id="passwordInput" placeholder="密码">
-      <button onclick="checkPassword()">进入</button>
-    </div>
+<div id="loginOverlay">
+  <div id="loginBox">
+    <h3>请输入访问密码</h3>
+    <input type="password" id="passwordInput" placeholder="密码">
+    <button onclick="checkPassword()">进入</button>
   </div>
+</div>
 
-  <header>视频资源导航</header>
-  <main id="mainContent" style="display:none;">
-    <h2>🚫 非成人资源</h2>
-    <div class="grid" id="nonAdult"></div>
+<header>LibreTV 视频导航</header>
+<main id="mainContent" style="display:none;">
+  <h2>🚫 非成人资源</h2>
+  <div class="grid" id="nonAdult"></div>
 
-    <h2>🔞 成人资源</h2>
-    <div class="grid" id="adult"></div>
-  </main>
+  <h2>🔞 成人资源</h2>
+  <div class="grid" id="adult"></div>
+</main>
 
-  <script>
-    const PASSWORD = "pixel"; // 访问密码，可修改
+<!-- 管理按钮 -->
+<div id="adminBtn">⚙️</div>
 
-    function checkPassword() {
-      const input = document.getElementById("passwordInput").value;
-      if(input === PASSWORD) {
-        document.getElementById("loginOverlay").style.display = "none";
-        document.getElementById("mainContent").style.display = "block";
-      } else {
-        alert("密码错误，请重试！");
-      }
-    }
+<!-- 管理面板 -->
+<div id="adminPanel">
+  <h3>网址管理</h3>
+  <input type="text" id="siteName" placeholder="名称">
+  <input type="url" id="siteURL" placeholder="网址">
+  <button onclick="addSite()">新增</button>
+  <div id="siteList"></div>
+  <hr>
+  <h4>数据备份与恢复</h4>
+  <button onclick="exportJSON()">导出 JSON</button>
+  <input type="file" id="importFile" accept=".json" onchange="importJSON(event)">
+</div>
 
-const resources = [
-  {
-    type: "nonAdult",
-    sites: [
-      { name: "金鹰资源", url: "https://jyzyapi.com/" },
-      { name: "非凡资源", url: "http://ffzy5.tv/" },
-      { name: "樱花资源", url: "https://yhzy.cc/" },
-      { name: "暴风资源", url: "https://bfzyapi.com/" },
-      { name: "电影天堂", url: "https://caiji.dyttzyapi.com/" },
-      { name: "如意资源", url: "https://cj.rycjapi.com/" },
-      { name: "360资源", url: "https://360zy.com/" },
-      { name: "极速资源", url: "https://jszyapi.com/" },
-      { name: "魔爪资源", url: "https://mozhuazy.com/" },
-      { name: "最大资源", url: "https://api.zuidapi.com/" },
-      { name: "无尽资源", url: "https://api.wujinapi.me/" },
-      { name: "iKun资源", url: "https://ikunzyapi.com/" },
-      { name: "CK资源", url: "https://ckzy.me/" },
-      { name: "茅台资源", url: "https://caiji.maotaizy.cc/" },
-      { name: "猫眼资源", url: "https://api.maoyanapi.top/" }
-    ]
-  },
-  {
-    type: "adult",
-    sites: [
-      { name: "森林资源", url: "https://slapibf.com/" },
-      { name: "麻豆资源", url: "https://www.bt4.cc/" },
-      { name: "91资源", url: "https://91md.me/" },
-      { name: "辣椒资源", url: "https://apilj.com/" },
-      { name: "souav资源", url: "https://api.souavzy.vip/" },
-      { name: "jkun资源", url: "https://jkunzyapi.com/" },
-      { name: "百万资源", url: "https://api.bwzyz.com/" },
-      { name: "155资源", url: "https://155api.com/" },
-      { name: "lsb资源", url: "https://apilsbzy1.com/" },
-      { name: "黄色仓库", url: "https://hsckzy.vip/" },
-      { name: "玉兔资源成人版", url: "https://yutuzy10.com/" },
-      { name: "快播资源", url: "https://gayapi.com/" },
-      { name: "杏吧资源", url: "https://xingba222.com/" },
-      { name: "91jpzyw", url: "https://91jpzyw.com/" },
-      { name: "大奶资源", url: "https://apidanaizi.com/" },
-      { name: "细胞资源", url: "https://www.xxibaozyw.com/" },
-      { name: "鲨鱼资源", url: "https://shayuzy.com/" },
-      { name: "小鸡资源", url: "https://api.xiaojizy.live/" },
-      { name: "木瓜AC", url: "https://www.fczy907.com/" }
-    ]
-  }
+<script>
+// ====== 密码验证 ======
+const PASSWORD = "123456"; // 可修改
+if(localStorage.getItem("libretvPwd")===PASSWORD) showMainContent();
+function checkPassword(){
+  const input=document.getElementById("passwordInput").value;
+  if(input===PASSWORD){ localStorage.setItem("libretvPwd",PASSWORD); showMainContent(); }
+  else alert("密码错误");
+}
+function showMainContent(){
+  document.getElementById("loginOverlay").style.display="none";
+  document.getElementById("mainContent").style.display="block";
+  renderAllSites();
+}
+
+// ====== 默认资源列表 ======
+const defaultResources = [
+  { type:"nonAdult", sites:[
+      { name:"金鹰资源", url:"https://jyzyapi.com/" },
+      { name:"非凡资源", url:"http://ffzy5.tv/" },
+      { name:"樱花资源", url:"https://yhzy.cc/" },
+      { name:"暴风资源", url:"https://bfzyapi.com/" },
+      { name:"电影天堂", url:"https://caiji.dyttzyapi.com/" },
+      { name:"如意资源", url:"https://cj.rycjapi.com/" },
+      { name:"360资源", url:"https://360zy.com/" },
+      { name:"极速资源", url:"https://jszyapi.com/" },
+      { name:"魔爪资源", url:"https://mozhuazy.com/" },
+      { name:"最大资源", url:"https://api.zuidapi.com/" },
+      { name:"无尽资源", url:"https://api.wujinapi.me/" },
+      { name:"iKun资源", url:"https://ikunzyapi.com/" },
+      { name:"CK资源", url:"https://ckzy.me/" },
+      { name:"茅台资源", url:"https://caiji.maotaizy.cc/" },
+      { name:"猫眼资源", url:"https://api.maoyanapi.top/" }
+  ]},
+  { type:"adult", sites:[
+      { name:"森林资源", url:"https://slapibf.com/" },
+      { name:"麻豆资源", url:"https://www.bt4.cc/" },
+      { name:"91资源", url:"https://91md.me/" },
+      { name:"辣椒资源", url:"https://apilj.com/" },
+      { name:"souav资源", url:"https://api.souavzy.vip/" },
+      { name:"jkun资源", url:"https://jkunzyapi.com/" },
+      { name:"百万资源", url:"https://api.bwzyz.com/" },
+      { name:"155资源", url:"https://155api.com/" },
+      { name:"lsb资源", url:"https://apilsbzy1.com/" },
+      { name:"黄色仓库", url:"https://hsckzy.vip/" },
+      { name:"玉兔资源成人版", url:"https://yutuzy10.com/" },
+      { name:"快播资源", url:"https://gayapi.com/" },
+      { name:"杏吧资源", url:"https://xingba222.com/" },
+      { name:"91jpzyw", url:"https://91jpzyw.com/" },
+      { name:"大奶资源", url:"https://apidanaizi.com/" },
+      { name:"细胞资源", url:"https://www.xxibaozyw.com/" },
+      { name:"鲨鱼资源", url:"https://shayuzy.com/" },
+      { name:"小鸡资源", url:"https://api.xiaojizy.live/" },
+      { name:"木瓜AC", url:"https://www.fczy907.com/" }
+  ]}
 ];
 
+// ====== 本地资源缓存 ======
+let resources = JSON.parse(localStorage.getItem("libretvResources") || "null") || defaultResources;
 
+// ====== 渲染 ======
+function renderSites(containerId, sites){
+  const container=document.getElementById(containerId);
+  container.innerHTML="";
+  sites.forEach(site=>{
+    const card=document.createElement("div");
+    card.className="card";
+    card.innerHTML=`<a href="${site.url}" target="_blank">${site.name}</a>`;
+    container.appendChild(card);
+  });
+}
+function renderAllSites(){
+  resources.forEach(group=>{
+    if(group.type==="nonAdult") renderSites("nonAdult", group.sites);
+    else renderSites("adult", group.sites);
+  });
+  renderAdminList();
+}
 
-    function renderSites(containerId, sites) {
-      const container = document.getElementById(containerId);
-      sites.forEach(site => {
-        const card = document.createElement("div");
-        card.className = "card";
-        card.innerHTML = `<a href="${site.url}" target="_blank">${site.name}</a>`;
-        container.appendChild(card);
-      });
-    }
+// ====== 管理按钮 ======
+const adminBtn=document.getElementById("adminBtn");
+const adminPanel=document.getElementById("adminPanel");
+adminBtn.onclick=()=>{ adminPanel.style.display = adminPanel.style.display==='block'?'none':'block'; }
 
-    resources.forEach(group => {
-      if(group.type === "nonAdult") renderSites("nonAdult", group.sites);
-      else renderSites("adult", group.sites);
+// ====== 管理功能 ======
+function renderAdminList(){
+  const list=document.getElementById("siteList");
+  list.innerHTML="";
+  resources.forEach(group=>{
+    group.sites.forEach((site,i)=>{
+      const div=document.createElement("div");
+      div.className="siteItem";
+      div.innerHTML=`<span>[${group.type}] ${site.name} - ${site.url}</span>
+      <button onclick="editSite('${group.type}',${i})">编辑</button>
+      <button onclick="deleteSite('${group.type}',${i})">删除</button>`;
+      list.appendChild(div);
     });
-  </script>
+  });
+}
+
+function addSite(){
+  const name=document.getElementById("siteName").value.trim();
+  const url=document.getElementById("siteURL").value.trim();
+  if(!name || !url){ alert("请填写完整"); return; }
+  const type=prompt("请输入类型: nonAdult 或 adult","nonAdult");
+  if(type!=="nonAdult" && type!=="adult"){ alert("类型错误"); return; }
+  const group=resources.find(g=>g.type===type);
+  group.sites.push({name,url});
+  localStorage.setItem("libretvResources", JSON.stringify(resources));
+  renderAllSites();
+}
+
+function deleteSite(type, idx){
+  const group=resources.find(g=>g.type===type);
+  if(confirm("确定删除吗？")){
+    group.sites.splice(idx,1);
+    localStorage.setItem("libretvResources", JSON.stringify(resources));
+    renderAllSites();
+  }
+}
+
+function editSite(type, idx){
+  const group=resources.find(g=>g.type===type);
+  const site=group.sites[idx];
+  const newName=prompt("修改名称", site.name);
+  const newURL=prompt("修改网址", site.url);
+  if(newName && newURL){
+    site.name=newName; site.url=newURL;
+    localStorage.setItem("libretvResources", JSON.stringify(resources));
+    renderAllSites();
+  }
+}
+
+// ====== 导入/导出 JSON ======
+function exportJSON(){
+  const dataStr=JSON.stringify(resources,null,2);
+  const blob=new Blob([dataStr],{type:"application/json"});
+  const url=URL.createObjectURL(blob);
+  const a=document.createElement("a");
+  a.href=url;
+  a.download="libretv_sites.json";
+  a.click();
+  URL.revokeObjectURL(url);
+}
+
+function importJSON(event){
+  const file=event.target.files[0];
+  if(!file) return;
+  const reader=new FileReader();
+  reader.onload=function(e){
+    try{
+      const importedData=JSON.parse(e.target.result);
+      if(!Array.isArray(importedData)){
+        alert("文件格式不正确！");
+        return;
+      }
+      resources=importedData;
+      localStorage.setItem("libretvResources", JSON.stringify(resources));
+      renderAllSites();
+      alert("导入成功！");
+    } catch(err){ alert("JSON解析失败：" + err); }
+  };
+  reader.readAsText(file);
+}
+</script>
 </body>
 </html>
