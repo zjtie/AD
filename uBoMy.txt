@@ -140,18 +140,20 @@ x.com##:xpath(/html/body/div[1]/div/div/div[2]/main/div/div/div/div[1]/div/div[3
 ! 亮点，文章，你尚未通过认证
 
 ! 2024-08-03 https://www.reddit.com
+||ad-delivery.net
 ||reddit.com/ads/*
 ||redditmedia.com/ads/*
 ||redditstatic.com/ads/*
 ||reddit.com/track/*
 ||redditmedia.com/track/*
 ||redditstatic.com/track/*
+
 reddit.com###xpromo-bottom-sheet,create-post-entry-point-wrapper,shreddit-comments-page-ad,shreddit-comment-tree-ad,[data-part="advertise"]:remove()
 ! APP中打开，发布内容
 reddit.com##.block.w-100.h-100+div:remove()
 reddit.com##img[loading="lazy"]:remove-attr(style)
  ! 移除模糊样式
-reddit.com##script:remove()
+! reddit.com##script:remove()
 reddit.com##[noun="about_reddit_menu"],[noun="advertise_menu"],[noun="reddit_pro_menu"],[noun="help_menu"],[noun="blog_menu"],[noun="careers_menu"],[noun="press_menu"]:remove()
 reddit.com##[noun="content_policy_menu"],[noun="privacy_policy_menu"],[noun="user_agreement_menu"],[noun="accessibility_menu"]:remove()
 reddit.com##[noun="advertise"],[noun="try_reddit_pro"],[noun="entrypoint"]:remove()
@@ -1427,3 +1429,15 @@ mmdhentai.com##.footer,[class^="ad-"],.show__figure>div:remove()
 iwara.tv##footer:remove()
 iwara.tv##button.button--ghost.button--primary.button:nth-of-type(1)
 iwara.tv##.justify-content-center.row, form.menu__form.form, .premium, .wura, .active.undefined,[href="/dashboard"],[href="/account/premium"],[href="/create"],[href="/page/links"]
+
+! 2025年8月19日 https://vocus.cc
+vocus.cc##.iMAnpv:upward(4)
+vocus.cc##[href="/terms/member"]:upward(3)
+vocus.cc##footer,.iNaeGM
+
+! 2025年8月19日 https://castbox.fm
+castbox.fm##.main-footer,.main-body-banner,.ep-info-ctrls,.ctaBtn,#channelAppBar
+
+! 2025年8月19日 https://pocketcasts.com
+pocketcasts.com##[kind="primary"]
+
