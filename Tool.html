@@ -3,65 +3,94 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>导航页</title>
+    <title>在线工具导航</title>
     <style>
         body {
+            background: #f0f2f5;
             font-family: Arial, sans-serif;
-            background-color: #f0f2f5;
             margin: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            transition: all 0.3s ease;
+            padding: 0;
         }
         .container {
             max-width: 1200px;
-            width: 90%;
-            padding: 20px;
+            margin: 30px auto;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.09);
+            padding: 30px 20px;
         }
-        .section {
-            margin-bottom: 30px;
+        h1 {
+            text-align: center;
+            margin-bottom: 35px;
+            color: #444;
         }
-        .section h2 {
-            color: #333;
-            font-size: 24px;
+        .category {
+            margin-bottom: 40px;
+        }
+        .category-title {
+            font-size: 1.3em;
+            font-weight: bold;
             margin-bottom: 15px;
+            padding: 7px 15px;
+            border-radius: 6px;
+            display: inline-block;
         }
+        .search-engine {background: #F297CC;}
+        .study {background: #F1A2AB;}
+        .file {background: #F8B881;}
+        .cloud {background: #F8B881;}
+        .doc {background: #F5D480;}
+        .mail {background: #FCE75A;}
+        .query {background: #C1E77E;}
+        .law {background: #81DFE4;}
+        .resource {background: #96A7FD;}
+        .parser {background: #81DFE4;}
+        .node {background: #81DFE4;}
         .site-list {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            grid-template-columns: repeat(4, 1fr);
             gap: 15px;
         }
-        @media (max-width: 768px) {
-            .site-list {
-                grid-template-columns: repeat(4, 1fr);
-            }
-            .site-item a {
-                font-size: 14px;
-                white-space: nowrap;
-                overflow: hidden;
-                text-overflow: ellipsis;
-            }
-        }
         .site-item {
-            background-color: white;
-            padding: 15px;
-            border-radius: 8px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-            text-align: center;
-            transition: transform 0.2s;
+			background: #fafafa;
+			border-radius: 8px;
+			/* 新增描边样式 */
+			border: 1.5px solid #e0e5ea;
+			/* 新增阴影样式，柔和且适合长时间阅读 */
+			box-shadow: 0 2px 8px rgba(60, 80, 120, 0.07), 0 1px 0px rgba(60,80,120,0.03);
+			padding: 15px 10px;
+			text-align: center;
+			transition: transform 0.2s, box-shadow 0.2s;
         }
         .site-item:hover {
-            transform: translateY(-3px);
+            transform: translateY(-4px);
+			/* 悬停时阴影略加强，但不刺眼 */
+			box-shadow: 0 6px 24px rgba(60, 80, 120, 0.14), 0 2px 4px rgba(60,80,120,0.07);
         }
         .site-item a {
             color: #007bff;
             text-decoration: none;
             font-size: 16px;
+            font-weight: bold;
         }
-        .site-item a:hover {
-            text-decoration: underline;
+        .site-item img {
+            max-height: 36px;
+            max-width: 90px;
+            margin-bottom: 8px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        @media (max-width: 1024px) {
+            .site-list {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+        @media (max-width: 640px) {
+            .site-list {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            h1 { font-size: 1.2em;}
         }
         .manage-btn {
             position: fixed;
@@ -75,6 +104,7 @@
             opacity: 0.3;
             transition: opacity 0.3s;
             box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            z-index: 999;
         }
         .manage-btn:hover {
             opacity: 1;
@@ -91,6 +121,7 @@
             box-shadow: 0 4px 10px rgba(0,0,0,0.3);
             width: 90%;
             max-width: 500px;
+            z-index: 1000;
         }
         .manage-panel h3 {
             margin-top: 0;
@@ -121,14 +152,8 @@
 </head>
 <body>
     <div class="container" id="mainContainer">
-        <div class="section" id="nonAdultSection">
-            <h2>二级战损</h2>
-            <div class="site-list" id="nonAdultList"></div>
-        </div>
-        <div class="section" id="adultSection">
-            <h2>三级战损</h2>
-            <div class="site-list" id="adultList"></div>
-        </div>
+        <h1>在线工具 & 资源导航</h1>
+        <div id="categories"></div>
     </div>
     <div class="manage-btn" id="manageBtn" onclick="openManagePanel()">管理</div>
     <div class="manage-panel" id="managePanel">
@@ -143,9 +168,7 @@
         <div id="addForm">
             <input type="text" id="addName" placeholder="网站名称">
             <input type="text" id="addUrl" placeholder="网站地址">
-            <select id="addType">
-                <option value="nonAdult">非成人</option>
-                <option value="adult">成人</option>
+            <select id="addCategory">
             </select>
             <button onclick="addSite()">添加</button>
         </div>
@@ -154,10 +177,7 @@
             <button onclick="searchSite()">搜索</button>
             <input type="text" id="editName" placeholder="新网站名称">
             <input type="text" id="editUrl" placeholder="新网站地址">
-            <select id="editType">
-                <option value="nonAdult">非成人</option>
-                <option value="adult">成人</option>
-            </select>
+            <select id="editCategory"></select>
             <button onclick="editSite()">修改</button>
         </div>
         <div id="deleteForm" style="display: none;">
@@ -171,60 +191,167 @@
         </div>
         <button class="close-btn" onclick="closeManagePanel()">关闭</button>
     </div>
-
     <script>
-        const resources = [
-            {
-                type: "nonAdult",
-                sites: [
-                    { name: " AGE动漫", url: "https://www.agedm.vip" }
-
-                ]
-            },
-            {
-                type: "adult",
-                sites: [
-                    { name:"森林资源", url:"https://slapibf.com/" }
-
-                ]
-            }
+        // 分类和初始数据
+        const categoriesData = [
+            { key: "search-engine", name: "搜索引擎", style: "search-engine", sites: [
+                { name: "安娜的档案", url: "https://zh.annas-archive.org/" },
+                { name: "图书馆创世纪", url: "https://libgen.li/" },
+                { name: "ZLibrary", url: "https://zh.z-lib.fm/" },
+                { name: "谷歌图书馆", url: "https://books.google.com/advanced_book_search" },
+                { name: "谷歌图片", url: "https://www.google.com/advanced_image_search" },
+                { name: "羚羊阁", url: "https://files.ptger.cn/" },
+            ]},
+            { key: "study", name: "学习升级", style: "study", sites: [
+                { name: "💕私藏", url: "https://www.207788.xyz/ziyuan" },
+                { name: "反向词典", url: "https://wantwords.net/" },
+                { name: "Excel函数", url: "http://hanshu.xuewps.com/" },
+                { name: "Linux命令", url: "https://wangchujiang.com/linux-command/?&postID=90" },
+                { name: "墨星写作", url: "https://www.mx-xz.com/" },
+                { name: "简答题", url: "https://www.jiandati.com/" },
+                { name: "生存手册", url: "https://survivesjtu.gitbook.io/survivesjtumanual" },
+                { name: "大牛技术文档", url: "https://github.com/0voice/from_coder_to_expert" },
+                { name: "SM大师", url: "https://supermemo.guru/wiki/SuperMemo_Guru" },
+                { name: "技术分享", url: "https://app.daily.dev/" },
+                { name: "实验楼", url: "https://www.lanqiao.cn/" },
+                { name: "只读导航", url: "https://www.rdonly.com/tags" },
+                { name: "重塑信息", url: "https://alleyread.com/discover" }
+            ]},
+            { key: "file", name: "文件操作", style: "file", sites: [
+                { name: "文件转换", url: "https://www.aconvert.com/cn/" },
+                { name: "文件叔叔", url: "https://www.wenshushu.cn/" },
+                { name: "视频共享", url: "https://streamvi.com/" },
+                { name: "epub 阅读器", url: "https://epub.yunser.com/" }
+            ]},
+            { key: "cloud", name: "云盘", style: "cloud", sites: [
+                { name: "阿里云盘", url: "https://www.aliyundrive.com/drive" },
+                { name: "坚果云", url: "https://www.jianguoyun.com/d/home#/safety" },
+                { name: "蓝奏云", url: "https://up.woozooo.com/mydisk.php" },
+                { name: "谷歌硬盘", url: "https://drive.google.com/drive/mobile/my-drive?pli=1" },
+                { name: "MEGA", url: "https://mega.nz/fm/9NwmxLJB" },
+                { name: "临时网盘", url: "https://sendfilesencrypted.com/" },
+                { name: "天翼云盘", url: "https://cloud.189.cn/web/main/file/folder/-11" },
+                { name: "小米相册", url: "https://i.mi.com/gallery/h5#/" },
+                { name: "百度网盘", url: "https://pan.baidu.com/disk/main?_at_=1742142953428#/index?category=all" }
+            ]},
+            { key: "doc", name: "在线文档", style: "doc", sites: [
+                { name: "石墨文档", url: "https://shimo.im/desktop" },
+                { name: "语雀文档", url: "https://www.yuque.com/dashboard/books" },
+                { name: "小米笔记", url: "https://i.mi.com/note/h5#/" }
+            ]},
+            { key: "mail", name: "邮箱", style: "mail", sites: [
+                { name: "proton邮箱", url: "https://mail.proton.me/u/1/inbox" },
+                { name: "谷歌邮箱", url: "https://mail.google.com/mail/u/0/#inbox" },
+                { name: "QQ邮箱", url: "https://mail.qq.com/cgi-bin/frame_html?sid=r5FfH8hdYPYRWglq" },
+                { name: "临时谷歌", url: "https://smailpro.com/temp-gmail" },
+                { name: "云短信", url: "https://www.storytrain.info/" },
+                { name: "短信压力", url: "https://run.ialtone.xyz/message/index.php" },
+                { name: "Relay", url: "https://relay.firefox.com/accounts/profile/?" },
+                { name: "地址生成", url: "https://www.meiguodizhi.com/" }
+            ]},
+            { key: "query", name: "查询", style: "query", sites: [
+                { name: "薪酬查询", url: "https://www.zhipin.com/salaryxc/" },
+                { name: "大学查询", url: "https://www.shanghairanking.cn/" },
+                { name: "车标查询", url: "https://www.ip138.com/chebiao/" },
+                { name: "花语查询", url: "https://www.ip138.com/huayu/" },
+                { name: "车牌查询", url: "https://www.ip138.com/carlist.htm" },
+                { name: "营养成分", url: "https://yingyang.911cha.com/" },
+                { name: "职称对标", url: "https://duibiao.info/" },
+                { name: "邮编查询", url: "https://www.youbianku.com/%E9%A6%96%E9%A1%B5" },
+                { name: "报告查询", url: "https://www.seedhangyan.com/index" }
+            ]},
+            { key: "law", name: "法律法规", style: "law", sites: [
+                { name: "劳动法", url: "https://www.gov.cn/banshi/2005-05/25/content_905.htm" }
+            ]},
+            { key: "resource", name: "网络资源", style: "resource", sites: [
+                { name: "磁力资源", url: "https://magnet-vip.com/discover" },
+                { name: "33台词", url: "https://33.agilestudio.cn/" },
+                { name: "书源资源", url: "https://github.com/shidahuilang/shuyuan" },
+                { name: "质量改变", url: "https://alteredqualia.com/" },
+                { name: "zlibrary图书", url: "https://al.chirmyram.com/doc/%E5%B9%B3%E5%8F%B0/zlibrary-cn" },
+                { name: "壹起共享", url: "https://docs.qq.com/sheet/DSlZmRHNtREpnaFFO?tab=BB08J2" },
+                { name: "题目自拟书库", url: "https://book.tmzn.top/baizi" },
+                { name: "阅读书单", url: "https://www.yuque.com/yuqueyonghun8txcr/psb8yc" }
+            ]},
+            { key: "parser", name: "解析", style: "parser", sites: [
+                { name: "Youtube解析1", url: "https://keepv.id/62/" },
+                { name: "Youtube解析2", url: "https://www.y2mate.com/zh-cn842" },
+                { name: "m3u8解析", url: "https://m3u8player.org/" },
+                { name: "CSDN解析", url: "https://csdn.zeroai.chat/" },
+                { name: "小红书解析", url: "https://xiaohongshu.day/zh/" },
+                { name: "My IP", url: "https://browserleaks.com/ip" },
+                { name: "分享泄露", url: "https://uid.ejfkdev.com/" },
+                { name: "Instagram解析", url: "https://www.pixwox.com/" },
+                { name: "Twitter解析", url: "https://tweeload.com/" }
+            ]},
+            { key: "node", name: "网络节点", style: "node", sites: [
+                { name: "oneClash", url: "https://oneclash.cc/" },
+                { name: "ClashNode", url: "https://clashnode.cc/" },
+                { name: "MLNode", url: "https://www.miluonode.com/" },
+                { name: "FreeClashNode", url: "https://www.freeclashnode.com/" },
+                { name: "警告", url: "https://nodefree.net/" },
+                { name: "v2rayShare", url: "https://v2rayshare.net/" }
+            ]}
         ];
 
-        // 直接显示主内容，无需登录
-        showMainContent();
-
-        function showMainContent() {
-            document.getElementById('mainContainer').style.display = 'block';
-            renderSites();
+        // 加载本地数据
+        function getCategories() {
+            const saved = localStorage.getItem('onlineToolsCategories');
+            if (!saved) return JSON.parse(JSON.stringify(categoriesData));
+            try {
+                return JSON.parse(saved);
+            } catch (e) {
+                return JSON.parse(JSON.stringify(categoriesData));
+            }
         }
 
-        function renderSites() {
-            const nonAdultList = document.getElementById('nonAdultList');
-            const adultList = document.getElementById('adultList');
-            nonAdultList.innerHTML = '';
-            adultList.innerHTML = '';
+        let categories = getCategories();
 
-            resources.forEach(section => {
-                const list = section.type === 'nonAdult' ? nonAdultList : adultList;
-                section.sites.forEach(site => {
+        // 渲染所有分类
+        function renderCategories() {
+            const categoriesDiv = document.getElementById('categories');
+            categoriesDiv.innerHTML = "";
+            categories.forEach(cat => {
+                const catBlock = document.createElement('div');
+                catBlock.className = 'category';
+                catBlock.innerHTML = `<div class="category-title ${cat.style}">${cat.name}</div>
+                    <div class="site-list" id="site-list-${cat.key}">
+                    </div>`;
+                categoriesDiv.appendChild(catBlock);
+
+                const siteList = catBlock.querySelector('.site-list');
+                cat.sites.forEach(site => {
                     const div = document.createElement('div');
                     div.className = 'site-item';
                     div.innerHTML = `<a href="${site.url}" target="_blank">${site.name}</a>`;
-                    list.appendChild(div);
+                    siteList.appendChild(div);
                 });
             });
         }
+        renderCategories();
 
+        // 管理表单选项动态生成
+        function updateCategorySelects() {
+            const addSelect = document.getElementById('addCategory');
+            const editSelect = document.getElementById('editCategory');
+            addSelect.innerHTML = '';
+            editSelect.innerHTML = '';
+            categories.forEach(cat => {
+                addSelect.innerHTML += `<option value="${cat.key}">${cat.name}</option>`;
+                editSelect.innerHTML += `<option value="${cat.key}">${cat.name}</option>`;
+            });
+        }
+        updateCategorySelects();
+
+        // 管理面板逻辑
         function openManagePanel() {
             document.getElementById('managePanel').style.display = 'block';
             document.getElementById('actionSelect').addEventListener('change', toggleForm);
             toggleForm();
         }
-
         function closeManagePanel() {
             document.getElementById('managePanel').style.display = 'none';
         }
-
         function toggleForm() {
             const action = document.getElementById('actionSelect').value;
             document.getElementById('addForm').style.display = action === 'add' ? 'block' : 'none';
@@ -233,84 +360,104 @@
             document.getElementById('importExportForm').style.display = action === 'import' || action === 'export' ? 'block' : 'none';
         }
 
+        function saveCategories() {
+            localStorage.setItem('onlineToolsCategories', JSON.stringify(categories));
+        }
+
         function addSite() {
-            const name = document.getElementById('addName').value;
-            const url = document.getElementById('addUrl').value;
-            const type = document.getElementById('addType').value;
+            const name = document.getElementById('addName').value.trim();
+            const url = document.getElementById('addUrl').value.trim();
+            const catKey = document.getElementById('addCategory').value;
             if (name && url) {
-                const section = resources.find(r => r.type === type);
-                section.sites.push({ name, url });
-                renderSites();
+                const cat = categories.find(c => c.key === catKey);
+                cat.sites.push({ name, url });
+                saveCategories();
+                renderCategories();
+                alert('添加成功');
                 document.getElementById('addName').value = '';
                 document.getElementById('addUrl').value = '';
-                alert('添加成功！');
             } else {
                 alert('请填写完整信息！');
             }
         }
 
+        // 搜索用于编辑
+        let searchedEditSite = null;
         function searchSite() {
-            const name = document.getElementById('searchName').value.toLowerCase();
-            const site = resources.flatMap(r => r.sites).find(s => s.name.toLowerCase() === name);
-            if (site) {
-                document.getElementById('editName').value = site.name;
-                document.getElementById('editUrl').value = site.url;
-                document.getElementById('editType').value = resources.find(r => r.sites.includes(site)).type;
-            } else {
-                alert('未找到该网站！');
+            const name = document.getElementById('searchName').value.trim().toLowerCase();
+            searchedEditSite = null;
+            for (let cat of categories) {
+                for (let site of cat.sites) {
+                    if (site.name.trim().toLowerCase() === name) {
+                        document.getElementById('editName').value = site.name;
+                        document.getElementById('editUrl').value = site.url;
+                        document.getElementById('editCategory').value = cat.key;
+                        searchedEditSite = {catKey: cat.key, siteName: site.name};
+                        return;
+                    }
+                }
             }
+            alert('未找到该网站');
         }
 
         function editSite() {
-            const searchName = document.getElementById('searchName').value.toLowerCase();
-            const newName = document.getElementById('editName').value;
-            const newUrl = document.getElementById('editUrl').value;
-            const newType = document.getElementById('editType').value;
-            if (newName && newUrl) {
-                const section = resources.find(r => r.sites.some(s => s.name.toLowerCase() === searchName));
-                if (section) {
-                    const site = section.sites.find(s => s.name.toLowerCase() === searchName);
-                    if (site) {
-                        section.sites = section.sites.filter(s => s.name.toLowerCase() !== searchName);
-                        resources.find(r => r.type === newType).sites.push({ name: newName, url: newUrl });
-                        renderSites();
-                        document.getElementById('searchName').value = '';
-                        document.getElementById('editName').value = '';
-                        document.getElementById('editUrl').value = '';
-                        alert('修改成功！');
-                    }
-                } else {
-                    alert('未找到该网站！');
-                }
-            } else {
-                alert('请填写完整信息！');
+            if (!searchedEditSite) {
+                alert('请先搜索网站！');
+                return;
             }
+            const newName = document.getElementById('editName').value.trim();
+            const newUrl = document.getElementById('editUrl').value.trim();
+            const newCatKey = document.getElementById('editCategory').value;
+            if (!newName || !newUrl) {
+                alert('请填写完整信息！');
+                return;
+            }
+            // 删除旧的
+            let oldCat = categories.find(c => c.key === searchedEditSite.catKey);
+            oldCat.sites = oldCat.sites.filter(site => site.name !== searchedEditSite.siteName);
+            // 添加新的
+            let newCat = categories.find(c => c.key === newCatKey);
+            newCat.sites.push({ name: newName, url: newUrl });
+            saveCategories();
+            renderCategories();
+            alert('修改成功');
+            document.getElementById('searchName').value = '';
+            document.getElementById('editName').value = '';
+            document.getElementById('editUrl').value = '';
+            searchedEditSite = null;
         }
 
         function deleteSite() {
-            const name = document.getElementById('deleteName').value.toLowerCase();
-            const section = resources.find(r => r.sites.some(s => s.name.toLowerCase() === name));
-            if (section) {
-                section.sites = section.sites.filter(s => s.name.toLowerCase() !== name);
-                renderSites();
+            const name = document.getElementById('deleteName').value.trim().toLowerCase();
+            let found = false;
+            for (let cat of categories) {
+                let index = cat.sites.findIndex(site => site.name.trim().toLowerCase() === name);
+                if (index !== -1) {
+                    cat.sites.splice(index, 1);
+                    found = true;
+                    break;
+                }
+            }
+            if (found) {
+                saveCategories();
+                renderCategories();
+                alert('删除成功');
                 document.getElementById('deleteName').value = '';
-                alert('删除成功！');
             } else {
-                alert('未找到该网站！');
+                alert('未找到该网站');
             }
         }
 
         function exportData() {
-            const dataStr = JSON.stringify(resources, null, 2);
+            const dataStr = JSON.stringify(categories, null, 2);
             const blob = new Blob([dataStr], { type: 'application/json' });
             const url = URL.createObjectURL(blob);
             const a = document.createElement('a');
             a.href = url;
-            a.download = 'navigation_data.json';
+            a.download = 'online_tools_data.json';
             a.click();
             URL.revokeObjectURL(url);
         }
-
         function importData() {
             const fileInput = document.getElementById('importFile');
             const file = fileInput.files[0];
@@ -319,10 +466,11 @@
                 reader.onload = function(e) {
                     try {
                         const importedData = JSON.parse(e.target.result);
-                        if (Array.isArray(importedData) && importedData.every(r => r.type && Array.isArray(r.sites))) {
-                            resources.length = 0;
-                            resources.push(...importedData);
-                            renderSites();
+                        if (Array.isArray(importedData) && importedData.every(r => r.key && Array.isArray(r.sites))) {
+                            categories = importedData;
+                            saveCategories();
+                            renderCategories();
+                            updateCategorySelects();
                             alert('导入成功！');
                         } else {
                             alert('无效的JSON格式！');
@@ -337,7 +485,7 @@
             }
         }
 
-        // Fade out manage button when not in use
+        // 管理按钮淡出
         let timeout;
         document.getElementById('manageBtn').addEventListener('mouseenter', () => {
             clearTimeout(timeout);
@@ -348,6 +496,10 @@
                 document.getElementById('manageBtn').style.opacity = '0.3';
             }, 2000);
         });
+
+        // 面板打开时刷新下拉
+        document.getElementById('manageBtn').addEventListener('click', updateCategorySelects);
+
     </script>
 </body>
 </html>
