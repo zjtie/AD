@@ -1157,16 +1157,21 @@ xbookcn.net##body:remove-attr(style)
 ! ======Telegram ===========================================================================
 t.me##.tgme_head_right_btn
 ! 下载APP
-telegram.org##.chatlist-bottom:remove()
+! telegram.org##.chatlist-bottom:remove()
 ! 左侧 联系方式
 telegram.org###new-menu:remove()
 ! 新建 新频道/群组/私人聊天
 telegram.org##.badge-primary:remove()
 ! 顶部 未读数量
-telegram.org##div.chat-input:remove()
-! 申请加入小组 
 telegram.org##.chat-join,.btn-primary:remove()
 ! 加入
+telegram.org##.chat-input-control.chat-input-wrapper:remove()
+! 开始 解除封锁 申请加入小组 小组名称 不显示固定消息 打开聊天 
+telegram.org##.new-message-wrapper.rows-wrapper-row>*:remove-class(hide)
+! 取消聊天输入框的隐藏选项
+telegram.org##.popup-send-gift:remove()
+telegram.org##.menu-open div.btn-menu-item:has-text(Send a Gift):remove()
+! 送礼物
 telegram.org##.media-viewer-buttons .hide:remove-class(hide)
 telegram.org##.media-viewer-buttons:style(display: flex !important; justify-content: flex-end !important; align-items: center !important; position: fixed !important; right: 20px !important; top: 40px !important;)
 ! 移除视频控件的隐藏；再之后移动端不显示，视频播放按钮改为Flexbox浮动，固定在屏幕距离
@@ -1175,7 +1180,7 @@ telegram.org##.message span:has-text(/OverWall加速器|酒馆AI|绅士玩具屋
 telegram.org##blockquote:has-text(/付费/):remove()
 ! ======Telegram ===========================================================================
 
-
+btn-primary btn-transparent
 
 
 ! PODCAST 播客
@@ -1440,4 +1445,12 @@ castbox.fm##.main-footer,.main-body-banner,.ep-info-ctrls,.ctaBtn,#channelAppBar
 
 ! 2025年8月19日 https://pocketcasts.com
 pocketcasts.com##[kind="primary"]
+
+! 2025年8月20日 https://bbs.zsxwz.com
+bbs.zsxwz.com##.adsbygoogle
+bbs.zsxwz.com##.Tp1
+bbs.zsxwz.com###footer
+bbs.zsxwz.com##.social-share
+bbs.zsxwz.com##.media.newpost.post
+bbs.zsxwz.com##.mt-3.small.justify-content-between.d-flex
 
