@@ -129,15 +129,9 @@ twitter.com,x.com,~platform.twitter.com##+js(json-prune-xhr-response, data.immer
 
 x.com##script:has-text(/block/):remove()
 x.com##noscript,#nonce-csp,.errorContainer:remove()
-x.com##[data-testid="super-upsell-UpsellCardRenderProperties"],[aria-label="页脚"],____,[data-testid="jobs-tab-item"],[data-testid="premium-signup-tab"],[data-testid="vo-signup-tab"],___,[href="/i/monetization"],[href*="twitter-ads-rweb"]:remove()
 x.com##:matches-path(/home) .r-1h8ys4a
-! 发现新鲜事情，订阅Premium，页脚_____,工作,premium,认证组织,----盈利，广告
-x.com##:xpath(/html/body/div[1]/div/div/div[2]/header/div/div/div/div[1]/div[1])
-x.com##:xpath(/html/body/div[1]/div/div/div[2]/header/div/div/div/div[1]/div[3])
-! logo，发布，其他
-x.com##:xpath(/html/body/div[1]/div/div/div[2]/main/div/div/div/div[1]/div/div[3]/div/div/div[2]/nav/div/div[2]/div/div[position()=3 or position()=4])
-x.com##:xpath(/html/body/div[1]/div/div/div[2]/main/div/div/div/div[1]/div/div[3]/div/div/div[1]/div[2])
-! 亮点，文章，你尚未通过认证
+! 发帖
+
 
 ! 2024-08-03 https://www.reddit.com
 ||ad-delivery.net
