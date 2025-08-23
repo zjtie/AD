@@ -1,5 +1,6 @@
 ! Title: RM40 uBlock Origin
 ! Homepage: https://github.com/zjtie/AD
+! 修饰运算符：https://github.com/gorhill/uBlock/wiki/Procedural-cosmetic-filters
 
 ! 作用：节省流量  屏蔽使用 CDN/PCDN 内容交付/分发网络
 ! 右键->视频统计信息 查看视频域名信息
@@ -1179,6 +1180,10 @@ telegram.org##.media-viewer-buttons:style(display: flex !important; justify-cont
 ! ======Telegram ===========================================================================
 telegram.org##.message span:has-text(/OverWall加速器|酒馆AI|绅士玩具屋|樱川爱|特价|支付|新用户|信誉|USDT|免费|SoulAI|游玩|体育/):nth-ancestor(4)
 telegram.org##blockquote:has-text(/付费/):remove()
+
+telegram.org##span.reply-markup-button-text:has-text(/6G国际娱乐/):upward(3):remove()
+! 正文卡片 下方的广告按钮【通用】
+
 ! ======Telegram ===========================================================================
 
 btn-primary btn-transparent
