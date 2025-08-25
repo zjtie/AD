@@ -1,0 +1,1225 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的行为记录日志</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.0.0"></script>
+    <style>
+        :root {
+            --primary-color: #3b82f6; /* 蓝色 */
+            --secondary-color: #60a5fa; /* 浅蓝 */
+            --bg-light: #f3f4f6; /* 浅灰 */
+            --bg-white: #ffffff; /* 白色 */
+            --text-dark: #1f2937; /* 深灰 */
+            --text-medium: #4b5563; /* 中灰 */
+            --border-color: #e5e7eb; /* 边框色 */
+            --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+            --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-light);
+            color: var(--text-dark);
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            min-height: 100vh;
+            padding: 2rem 1rem;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            background-color: var(--bg-white);
+            border-radius: 1rem;
+            box-shadow: var(--shadow-md);
+            padding: 2rem;
+            display: grid;
+            gap: 2rem;
+            grid-template-columns: 1fr;
+            min-height: 80vh; /* 确保容器有足够高度 */
+        }
+
+        @media (min-width: 1024px) {
+            .container {
+                grid-template-columns: 2fr 3fr; /* 左侧占2/5，右侧占3/5 */
+            }
+        }
+
+        h1 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--primary-color);
+            margin-top: 0;
+            margin-bottom: 1rem;
+        }
+
+        h2 {
+            font-size: 1.25rem;
+            font-weight: 500;
+            color: var(--text-dark);
+            margin-top: 0;
+        }
+        
+        h3 {
+            font-size: 1rem;
+            font-weight: 600;
+            margin-top: 0;
+            margin-bottom: 1rem;
+        }
+
+        form {
+            display: grid;
+            gap: 1.5rem;
+        }
+
+        .form-group {
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            font-size: 0.875rem;
+            font-weight: 500;
+            color: var(--text-medium);
+            margin-bottom: 0.5rem;
+        }
+
+        input[type="text"],
+        input[type="date"],
+        input[type="time"] {
+            padding: 0.75rem 1rem;
+            border: 1px solid var(--border-color);
+            border-radius: 0.5rem;
+            font-size: 1rem;
+            color: var(--text-dark);
+            transition: border-color 0.3s, box-shadow 0.3s;
+        }
+
+        input:focus {
+            outline: none;
+            border-color: var(--primary-color);
+            box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.25);
+        }
+        
+        .type-button-group {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.75rem;
+            margin-top: -0.5rem;
+        }
+
+        .btn {
+            padding: 0.75rem 1.5rem;
+            border: none;
+            border-radius: 0.5rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.1s;
+        }
+
+        .btn-primary {
+            background-color: var(--primary-color);
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background-color: var(--secondary-color);
+        }
+
+        .btn-type {
+            background-color: var(--bg-light);
+            color: var(--text-medium);
+            border: 1px solid var(--border-color);
+            flex-grow: 1;
+            text-align: center;
+        }
+        
+        .btn-type.active {
+            background-color: var(--primary-color);
+            color: white;
+            border-color: var(--primary-color);
+        }
+
+        .btn-type:hover {
+            background-color: var(--border-color);
+        }
+        
+        .btn-type.active:hover {
+            background-color: var(--secondary-color);
+        }
+
+        .btn-secondary {
+            background-color: var(--bg-light);
+            color: var(--text-medium);
+            border: 1px solid var(--border-color);
+        }
+
+        .btn-secondary:hover {
+            background-color: var(--border-color);
+        }
+        
+        .btn-gemini {
+            background-color: #000;
+            color: #fff;
+            border: none;
+        }
+
+        .btn-gemini:hover {
+            background-color: #333;
+        }
+
+        .progress-container {
+            position: relative;
+            height: 1rem;
+            border-radius: 9999px;
+            background-color: var(--bg-light);
+            overflow: hidden;
+            margin-top: 0.5rem;
+        }
+
+        .progress-bar {
+            height: 100%;
+            transition: width 0.3s, background-color 0.3s;
+        }
+
+        input[type="range"] {
+            -webkit-appearance: none;
+            width: 100%;
+            height: 1.5rem;
+            cursor: pointer;
+            background: transparent;
+            margin-top: 0.5rem;
+        }
+
+        input[type="range"]::-webkit-slider-runnable-track {
+            width: 100%;
+            height: 0.5rem;
+            background: transparent;
+            border-radius: 9999px;
+        }
+
+        input[type="range"]::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            height: 1rem;
+            width: 1rem;
+            background: var(--primary-color);
+            border-radius: 50%;
+            border: none;
+            margin-top: -0.25rem;
+            box-shadow: var(--shadow-sm);
+            transition: background-color 0.3s;
+        }
+
+        #progress-score {
+            text-align: right;
+            font-size: 0.875rem;
+            color: var(--text-medium);
+            margin-top: 0.5rem;
+        }
+
+        .left-panel {
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+            min-width: 0; /* 允许面板在grid中收缩 */
+        }
+        
+        .data-panel {
+            grid-column: 1 / -1;
+            display: flex;
+            flex-direction: column;
+            min-width: 0; /* 允许面板在grid中收缩 */
+        }
+
+        @media (min-width: 1024px) {
+            .data-panel {
+                grid-column: 2 / 3;
+            }
+        }
+        
+        .filter-options {
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+            margin-bottom: 1rem;
+        }
+
+        .month-switcher {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-grow: 1;
+        }
+
+        .month-switcher .btn {
+            font-size: 1.5rem;
+            padding: 0.25rem 0.75rem;
+        }
+        
+        #date-filter {
+            flex-grow: 1;
+        }
+
+        .event-list-container {
+            flex-grow: 1;
+            overflow-y: auto; /* 添加滚动条 */
+            padding-right: 0.5rem; /* 为滚动条留出空间 */
+        }
+
+        #event-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: grid;
+            gap: 0.5rem;
+        }
+
+        .event-item {
+            display: flex;
+            flex-direction: column;
+            padding: 1rem;
+            background-color: var(--bg-light);
+            border-radius: 0.75rem;
+            box-shadow: var(--shadow-sm);
+            cursor: pointer;
+            transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+        }
+        
+        .event-item:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-md);
+        }
+
+        .event-item-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 0.5rem;
+        }
+
+        .event-item h3 {
+            font-size: 1rem;
+            font-weight: 600;
+            color: var(--primary-color);
+            margin: 0;
+        }
+
+        .event-item-meta {
+            font-size: 0.875rem;
+            color: var(--text-medium);
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.25rem 1rem;
+        }
+
+        .export-import-panel {
+            display: flex;
+            gap: 1rem;
+            margin-top: 1rem;
+            flex-wrap: wrap;
+        }
+        
+        .charts-container {
+            display: grid;
+            /* 调整为单列布局，使图表垂直排列 */
+            grid-template-columns: 1fr;
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        
+        .chart-card {
+            background-color: var(--bg-white);
+            padding: 1rem;
+            border-radius: 0.75rem;
+            box-shadow: var(--shadow-sm);
+        }
+        
+        .ai-panel {
+            margin-top: 2rem;
+            padding: 1.5rem;
+            background-color: #f0f4f8;
+            border-radius: 1rem;
+            box-shadow: var(--shadow-sm);
+        }
+        
+        .ai-buttons {
+            display: flex;
+            gap: 1rem;
+            margin-top: 1rem;
+            flex-wrap: wrap;
+        }
+        
+        #ai-results {
+            margin-top: 1.5rem;
+            white-space: pre-wrap;
+            line-height: 1.8;
+            background-color: var(--bg-white);
+            padding: 1rem;
+            border-radius: 0.75rem;
+            border: 1px solid var(--border-color);
+        }
+        
+        @media (min-width: 768px) {
+            /* 移除了此处的图表两列布局 */
+        }
+        
+        .message-box {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 1.5rem;
+            background-color: var(--bg-white);
+            border-radius: 0.75rem;
+            box-shadow: var(--shadow-md);
+            z-index: 1000;
+            text-align: center;
+            display: none;
+        }
+
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1001;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0,0,0,0.4);
+        }
+        
+        .modal-content {
+            background-color: var(--bg-white);
+            margin: 15% auto;
+            padding: 2rem;
+            border-radius: 1rem;
+            width: 80%;
+            max-width: 400px;
+            box-shadow: var(--shadow-md);
+            animation: fadeIn 0.3s;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: scale(0.9); }
+            to { opacity: 1; transform: scale(1); }
+        }
+
+        .close-btn {
+            color: var(--text-medium);
+            float: right;
+            font-size: 1.5rem;
+            font-weight: bold;
+            cursor: pointer;
+            transition: color 0.3s;
+        }
+        
+        .close-btn:hover {
+            color: var(--text-dark);
+        }
+        
+        .modal .form-group {
+            margin-bottom: 1rem;
+        }
+
+        .modal-buttons {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 1.5rem;
+            gap: 1rem;
+        }
+        
+        @media (max-width: 767px) {
+            .container {
+                padding: 1rem;
+            }
+            .event-item-meta {
+                flex-direction: column;
+                gap: 0.25rem;
+            }
+            .modal-content {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- 左侧面板：记录表单和图表 -->
+        <div class="left-panel">
+            <!-- 记录表单区域 -->
+            <div>
+                <h1>记录新事件</h1>
+                <form id="record-form">
+                    <div class="form-group">
+                        <label for="event-name">事件</label>
+                        <input type="text" id="event-name" name="event-name" placeholder="输入事件名称，例如：完成报告" required>
+                    </div>
+                    <div class="type-button-group" id="type-button-group">
+                        <button type="button" class="btn btn-type" data-type="工作">工作</button>
+                        <button type="button" class="btn btn-type" data-type="学习">学习</button>
+                        <button type="button" class="btn btn-type" data-type="娱乐">娱乐</button>
+                        <button type="button" class="btn btn-type" data-type="休息">休息</button>
+                    </div>
+                    <div class="form-group">
+                        <label for="progress-score-input">自我满意程度(0-100)</label>
+                        <input type="range" id="progress-score-input" min="0" max="100" value="50">
+                        <div class="progress-container">
+                            <div class="progress-bar" id="progress-bar"></div>
+                        </div>
+                        <span id="progress-score">50</span>
+                    </div>
+                    <button type="submit" class="btn btn-primary" id="save-btn" disabled>保存记录</button>
+                </form>
+            </div>
+            
+            <div class="charts-container">
+                <div class="chart-card">
+                    <h3>每日平均满意度趋势</h3>
+                    <canvas id="efficiency-chart"></canvas>
+                </div>
+                <div class="chart-card">
+                    <h3>各类型耗时趋势</h3>
+                    <canvas id="type-line-chart"></canvas>
+                </div>
+                <div class="chart-card">
+                    <h3>各类型耗时比例</h3>
+                    <canvas id="type-chart"></canvas>
+                </div>
+            </div>
+
+            <!-- 新增 AI 洞察面板 -->
+            <div class="ai-panel">
+                <h3>✨ AI 洞察与建议</h3>
+                <div class="ai-buttons">
+                    <button type="button" class="btn btn-gemini" id="generate-insights-btn">生成洞察与建议</button>
+                    <button type="button" class="btn btn-gemini" id="breakdown-task-btn">拆解任务</button>
+                </div>
+                <div id="ai-results"></div>
+            </div>
+        </div>
+
+        <!-- 右侧面板：数据展示区域 -->
+        <div class="data-panel">
+            <div class="filter-options">
+                <input type="date" id="date-filter">
+                <div class="month-switcher">
+                    <button class="btn btn-secondary" id="prev-month-btn">上一月</button>
+                    <h2 id="current-month"></h2>
+                    <button class="btn btn-secondary" id="next-month-btn">下一月</button>
+                </div>
+            </div>
+            <div class="event-list-container">
+                <ul id="event-list"></ul>
+            </div>
+            <div class="export-import-panel">
+                <button type="button" class="btn btn-secondary" id="export-btn">导出数据</button>
+                <input type="file" id="import-file-input" style="display: none;">
+                <button type="button" class="btn btn-secondary" id="import-btn">导入数据</button>
+            </div>
+        </div>
+    </div>
+    
+    <!-- 编辑/删除模态框 -->
+    <div id="edit-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2>修改事件</h2>
+            <form id="edit-form">
+                <input type="hidden" id="edit-event-id">
+                <div class="form-group">
+                    <label for="edit-event-name">事件</label>
+                    <input type="text" id="edit-event-name" required>
+                </div>
+                <div class="form-group">
+                    <label for="edit-event-type">事件类型</label>
+                    <select id="edit-event-type">
+                        <option value="工作">工作</option>
+                        <option value="学习">学习</option>
+                        <option value="娱乐">娱乐</option>
+                        <option value="休息">休息</option>
+                        <option value="其他">其他</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="edit-event-date">日期</label>
+                    <input type="date" id="edit-event-date" required>
+                </div>
+                <div class="form-group">
+                    <label for="edit-start-time">开始时间</label>
+                    <input type="time" id="edit-start-time" required>
+                </div>
+                <div class="form-group">
+                    <label for="edit-end-time">结束时间</label>
+                    <input type="time" id="edit-end-time" required>
+                </div>
+                <div class="form-group">
+                    <label for="edit-progress-score">自我满意程度 (0-100)</label>
+                    <input type="range" id="edit-progress-score" min="0" max="100">
+                    <span id="edit-progress-score-display"></span>
+                </div>
+                <div class="modal-buttons">
+                    <button type="button" class="btn btn-secondary" id="delete-btn">删除</button>
+                    <button type="submit" class="btn btn-primary">保存修改</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+    <!-- 消息提示框 -->
+    <div id="message-box" class="message-box" style="display:none;"></div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // 获取 DOM 元素
+            const recordForm = document.getElementById('record-form');
+            const eventNameInput = document.getElementById('event-name');
+            const typeButtonGroup = document.getElementById('type-button-group');
+            const typeButtons = document.querySelectorAll('.btn-type');
+            const saveBtn = document.getElementById('save-btn');
+            const progressScoreInput = document.getElementById('progress-score-input');
+            const progressScoreSpan = document.getElementById('progress-score');
+            const progressBar = document.getElementById('progress-bar');
+            const eventList = document.getElementById('event-list');
+            const dateFilterInput = document.getElementById('date-filter');
+            const currentMonthHeader = document.getElementById('current-month');
+            const prevMonthBtn = document.getElementById('prev-month-btn');
+            const nextMonthBtn = document.getElementById('next-month-btn');
+            const exportBtn = document.getElementById('export-btn');
+            const importBtn = document.getElementById('import-btn');
+            const importFileInput = document.getElementById('import-file-input');
+            const typeChartCanvas = document.getElementById('type-chart');
+            const efficiencyChartCanvas = document.getElementById('efficiency-chart');
+            const typeLineChartCanvas = document.getElementById('type-line-chart');
+            
+            // 新增的 AI 相关元素
+            const generateInsightsBtn = document.getElementById('generate-insights-btn');
+            const breakdownTaskBtn = document.getElementById('breakdown-task-btn');
+            const aiResultsDiv = document.getElementById('ai-results');
+
+            // 编辑模态框相关
+            const editModal = document.getElementById('edit-modal');
+            const closeBtn = editModal.querySelector('.close-btn');
+            const editForm = document.getElementById('edit-form');
+            const editEventId = document.getElementById('edit-event-id');
+            const editEventName = document.getElementById('edit-event-name');
+            const editEventType = document.getElementById('edit-event-type');
+            const editEventDate = document.getElementById('edit-event-date');
+            const editStartTime = document.getElementById('edit-start-time');
+            const editEndTime = document.getElementById('edit-end-time');
+            const editProgressScore = document.getElementById('edit-progress-score');
+            const editProgressScoreDisplay = document.getElementById('edit-progress-score-display');
+            const deleteBtn = document.getElementById('delete-btn');
+            
+            // 消息提示框
+            const messageBox = document.getElementById('message-box');
+
+            // 全局变量
+            let events = []; // 存储所有事件记录的数组
+            let currentMonth = new Date(); // 当前显示的月份，用于按月过滤
+            let selectedDate = null; // 当前选择的日期，用于按日过滤
+            let startTimestamp = null; // 用于计算耗时的开始时间戳
+            let currentEventData = {}; // 用于存储当前事件的临时数据
+
+            let typeChart = null; // 用于存储饼图实例
+            let efficiencyChart = null; // 用于存储满意度折线图实例
+            let typeLineChart = null; // 用于存储耗时折线图实例
+            
+            // 注册 Chart.js 数据标签插件
+            Chart.register(ChartDataLabels);
+
+            // 显示消息提示框
+            const showMessage = (message) => {
+                messageBox.textContent = message;
+                messageBox.style.display = 'block';
+                setTimeout(() => {
+                    messageBox.style.display = 'none';
+                }, 2000);
+            };
+
+            // 从本地存储加载数据
+            const loadEvents = () => {
+                const storedEvents = localStorage.getItem('procrastination-log-events');
+                if (storedEvents) {
+                    events = JSON.parse(storedEvents);
+                }
+            };
+
+            // 保存数据到本地存储
+            const saveEvents = () => {
+                localStorage.setItem('procrastination-log-events', JSON.stringify(events));
+            };
+
+            // 渲染事件列表
+            const renderEvents = () => {
+                const filteredEvents = events.filter(event => {
+                    // 按日期或月份过滤
+                    if (selectedDate) {
+                        return event.date === selectedDate;
+                    } else {
+                        const eventDate = new Date(event.date);
+                        return eventDate.getFullYear() === currentMonth.getFullYear() &&
+                               eventDate.getMonth() === currentMonth.getMonth();
+                    }
+                });
+
+                filteredEvents.sort((a, b) => {
+                    const dateA = new Date(`${a.date}T${a.startTime}`);
+                    const dateB = new Date(`${b.date}T${b.startTime}`);
+                    return dateB - dateA;
+                });
+
+                eventList.innerHTML = '';
+                if (filteredEvents.length === 0) {
+                    eventList.innerHTML = '<li style="text-align:center; color: var(--text-medium);">本月/日暂无记录</li>';
+                    return;
+                }
+
+                filteredEvents.forEach(event => {
+                    const li = document.createElement('li');
+                    li.classList.add('event-item');
+                    li.dataset.id = event.id; // 添加data-id属性用于编辑/删除
+                    li.innerHTML = `
+                        <div class="event-item-header">
+                            <h3>${event.event}</h3>
+                            <span>(${event.type})</span>
+                        </div>
+                        <div class="event-item-meta">
+                            <span>日期: ${event.date}</span>
+                            <span>时间: ${event.startTime} - ${event.endTime}</span>
+                            <span>耗时: ${event.duration} 分钟</span>
+                            <span>满意度: ${event.progress} 分</span>
+                        </div>
+                    `;
+                    eventList.appendChild(li);
+                });
+            };
+
+            // 渲染图表
+            const renderCharts = () => {
+                renderEfficiencyLineChart();
+                renderTypeLineChart();
+                renderTypePieChart();
+            };
+
+            // 1. 各类型耗时比例饼图
+            const renderTypePieChart = () => {
+                const typeData = {};
+                events.forEach(event => {
+                    const type = event.type || '其他';
+                    typeData[type] = (typeData[type] || 0) + parseInt(event.duration, 10);
+                });
+
+                const typeLabels = Object.keys(typeData);
+                const typeValues = Object.values(typeData);
+                const typeColors = [
+                    '#3b82f6', '#ef4444', '#f59e0b', '#10b981', '#6366f1', '#6b7280'
+                ];
+
+                if (typeChart) {
+                    typeChart.destroy();
+                }
+                typeChart = new Chart(typeChartCanvas, {
+                    type: 'pie',
+                    data: {
+                        labels: typeLabels,
+                        datasets: [{
+                            data: typeValues,
+                            backgroundColor: typeColors.slice(0, typeLabels.length),
+                            hoverOffset: 4
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        plugins: {
+                            legend: { position: 'top' },
+                            datalabels: {
+                                formatter: (value, context) => {
+                                    const total = context.dataset.data.reduce((sum, current) => sum + current, 0);
+                                    if (total === 0) return '0%';
+                                    const percentage = ((value / total) * 100).toFixed(1);
+                                    return `${percentage}%`;
+                                },
+                                color: '#fff',
+                                font: {
+                                    weight: 'bold',
+                                    size: 14
+                                }
+                            }
+                        }
+                    }
+                });
+            };
+
+            // 2. 每日平均满意度趋势折线图
+            const renderEfficiencyLineChart = () => {
+                const efficiencyData = {};
+                events.forEach(event => {
+                    const date = event.date;
+                    if (!efficiencyData[date]) {
+                        efficiencyData[date] = [];
+                    }
+                    efficiencyData[date].push(parseInt(event.progress, 10));
+                });
+                
+                const efficiencyLabels = Object.keys(efficiencyData).sort();
+                const efficiencyValues = efficiencyLabels.map(date => {
+                    const scores = efficiencyData[date];
+                    const sum = scores.reduce((a, b) => a + b, 0);
+                    return Math.round(sum / scores.length);
+                });
+
+                if (efficiencyChart) {
+                    efficiencyChart.destroy();
+                }
+                efficiencyChart = new Chart(efficiencyChartCanvas, {
+                    type: 'line',
+                    data: {
+                        labels: efficiencyLabels,
+                        datasets: [{
+                            label: '平均满意度',
+                            data: efficiencyValues,
+                            borderColor: '#3b82f6',
+                            tension: 0.1,
+                            backgroundColor: 'rgba(59, 130, 246, 0.2)',
+                            fill: true
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        plugins: {
+                            legend: { display: false }
+                        },
+                        scales: {
+                            y: {
+                                beginAtZero: true,
+                                max: 100,
+                                title: {
+                                    display: true,
+                                    text: '满意度得分'
+                                }
+                            },
+                            x: {
+                                title: {
+                                    display: true,
+                                    text: '日期'
+                                }
+                            }
+                        }
+                    }
+                });
+            };
+            
+            // 3. 各类型耗时趋势折线图
+            const renderTypeLineChart = () => {
+                const typeColors = {
+                    '工作': '#3b82f6', '学习': '#ef4444', '娱乐': '#f59e0b', '休息': '#10b981', '其他': '#6366f1'
+                };
+                const types = Object.keys(typeColors);
+                const dailyData = {};
+                const allDates = new Set();
+                
+                events.forEach(event => {
+                    const date = event.date;
+                    allDates.add(date);
+                    if (!dailyData[date]) {
+                        dailyData[date] = {};
+                    }
+                    const type = event.type || '其他';
+                    dailyData[date][type] = (dailyData[date][type] || 0) + parseInt(event.duration, 10);
+                });
+                
+                const sortedDates = Array.from(allDates).sort();
+                
+                const datasets = types.map(type => {
+                    return {
+                        label: type,
+                        data: sortedDates.map(date => dailyData[date]?.[type] || 0),
+                        borderColor: typeColors[type],
+                        tension: 0.1,
+                        fill: false
+                    };
+                });
+
+                if (typeLineChart) {
+                    typeLineChart.destroy();
+                }
+                
+                typeLineChart = new Chart(typeLineChartCanvas, {
+                    type: 'line',
+                    data: {
+                        labels: sortedDates,
+                        datasets: datasets
+                    },
+                    options: {
+                        responsive: true,
+                        plugins: {
+                            legend: { position: 'top' }
+                        },
+                        scales: {
+                            y: {
+                                beginAtZero: true,
+                                title: {
+                                    display: true,
+                                    text: '总耗时 (分钟)'
+                                }
+                            },
+                            x: {
+                                title: {
+                                    display: true,
+                                    text: '日期'
+                                }
+                            }
+                        }
+                    }
+                });
+            };
+
+
+            // 更新月份显示
+            const updateMonthDisplay = () => {
+                const year = currentMonth.getFullYear();
+                const month = currentMonth.getMonth() + 1;
+                currentMonthHeader.textContent = `${year}年${month}月`;
+            };
+            
+            const clearDateFilter = () => {
+                selectedDate = null;
+                dateFilterInput.value = '';
+                currentMonthHeader.style.display = 'block';
+                prevMonthBtn.style.display = 'block';
+                nextMonthBtn.style.display = 'block';
+            };
+
+            // 设置进度条颜色
+            const updateProgressBar = (score) => {
+                let color;
+                if (score <= 30) {
+                    color = '#f87171'; // 红色
+                } else if (score <= 70) {
+                    color = '#facc15'; // 黄色
+                } else {
+                    color = '#4ade80'; // 绿色
+                }
+                progressBar.style.width = `${score}%`;
+                progressBar.style.backgroundColor = color;
+            };
+
+            // 事件处理函数
+            typeButtons.forEach(button => {
+                button.addEventListener('click', () => {
+                    // 检查事件名称是否已输入
+                    if (eventNameInput.value.trim() === '') {
+                        showMessage('请先输入事件名称！');
+                        return;
+                    }
+
+                    // 禁用所有类型按钮并激活当前点击的按钮
+                    typeButtons.forEach(btn => btn.disabled = true);
+                    button.classList.add('active');
+                    
+                    const now = new Date();
+                    currentEventData.type = button.dataset.type;
+                    currentEventData.date = now.toISOString().split('T')[0];
+                    currentEventData.startTime = now.toTimeString().substring(0, 5);
+                    startTimestamp = now.getTime();
+                    
+                    // 启用保存按钮
+                    saveBtn.disabled = false;
+                });
+            });
+
+            recordForm.addEventListener('submit', (e) => {
+                e.preventDefault();
+                
+                if (!startTimestamp) {
+                    showMessage('请先点击一个事件类型按钮来开始计时！');
+                    return;
+                }
+
+                const now = new Date();
+                const endTimestamp = now.getTime();
+                const durationMinutes = Math.round((endTimestamp - startTimestamp) / 60000);
+                
+                const newEvent = {
+                    date: currentEventData.date,
+                    startTime: currentEventData.startTime,
+                    endTime: now.toTimeString().substring(0, 5),
+                    duration: durationMinutes,
+                    type: currentEventData.type,
+                    event: eventNameInput.value,
+                    progress: progressScoreInput.value,
+                    id: Date.now() // 使用时间戳作为唯一ID
+                };
+
+                events.push(newEvent);
+                saveEvents();
+                renderEvents();
+                renderCharts(); // 重新渲染图表
+                recordForm.reset();
+                updateProgressBar(progressScoreInput.value); // 重置进度条颜色
+                showMessage('记录保存成功！');
+
+                // 重置按钮状态
+                typeButtons.forEach(btn => {
+                    btn.disabled = false;
+                    btn.classList.remove('active');
+                });
+                saveBtn.disabled = true;
+                startTimestamp = null;
+                currentEventData = {};
+            });
+            
+            // 列表点击事件，用于编辑/删除
+            eventList.addEventListener('click', (e) => {
+                const item = e.target.closest('.event-item');
+                if (item) {
+                    const eventId = parseInt(item.dataset.id);
+                    const eventToEdit = events.find(event => event.id === eventId);
+                    
+                    if (eventToEdit) {
+                        editEventId.value = eventToEdit.id;
+                        editEventName.value = eventToEdit.event;
+                        editEventType.value = eventToEdit.type;
+                        editEventDate.value = eventToEdit.date;
+                        editStartTime.value = eventToEdit.startTime;
+                        editEndTime.value = eventToEdit.endTime;
+                        editProgressScore.value = eventToEdit.progress;
+                        editProgressScoreDisplay.textContent = eventToEdit.progress;
+                        
+                        editModal.style.display = 'block';
+                    }
+                }
+            });
+
+            // 模态框关闭按钮
+            closeBtn.addEventListener('click', () => {
+                editModal.style.display = 'none';
+            });
+
+            window.addEventListener('click', (e) => {
+                if (e.target === editModal) {
+                    editModal.style.display = 'none';
+                }
+            });
+
+            // 模态框进度条更新
+            editProgressScore.addEventListener('input', () => {
+                editProgressScoreDisplay.textContent = editProgressScore.value;
+            });
+
+            // 模态框保存修改
+            editForm.addEventListener('submit', (e) => {
+                e.preventDefault();
+                const eventId = parseInt(editEventId.value);
+                const eventToUpdate = events.find(event => event.id === eventId);
+                
+                if (eventToUpdate) {
+                    const newDate = editEventDate.value;
+                    const newStartTime = editStartTime.value;
+                    const newEndTime = editEndTime.value;
+                    
+                    // 重新计算耗时
+                    const start = new Date(`${newDate}T${newStartTime}:00`);
+                    const end = new Date(`${newDate}T${newEndTime}:00`);
+                    const newDuration = Math.round((end - start) / 60000);
+
+                    eventToUpdate.event = editEventName.value;
+                    eventToUpdate.type = editEventType.value;
+                    eventToUpdate.date = newDate;
+                    eventToUpdate.startTime = newStartTime;
+                    eventToUpdate.endTime = newEndTime;
+                    eventToUpdate.duration = newDuration;
+                    eventToUpdate.progress = editProgressScore.value;
+                    
+                    saveEvents();
+                    renderEvents();
+                    renderCharts();
+                    editModal.style.display = 'none';
+                    showMessage('事件修改成功！');
+                }
+            });
+
+            // 模态框删除事件
+            deleteBtn.addEventListener('click', () => {
+                const eventId = parseInt(editEventId.value);
+                if (confirm('确定要删除这条记录吗？')) {
+                    events = events.filter(event => event.id !== eventId);
+                    saveEvents();
+                    renderEvents();
+                    renderCharts();
+                    editModal.style.display = 'none';
+                    showMessage('事件删除成功！');
+                }
+            });
+
+            progressScoreInput.addEventListener('input', () => {
+                const score = progressScoreInput.value;
+                progressScoreSpan.textContent = score;
+                updateProgressBar(score);
+            });
+
+            // 按月查看
+            prevMonthBtn.addEventListener('click', () => {
+                clearDateFilter();
+                currentMonth.setMonth(currentMonth.getMonth() - 1);
+                updateMonthDisplay();
+                renderEvents();
+                renderCharts(); // 重新渲染图表
+            });
+
+            nextMonthBtn.addEventListener('click', () => {
+                clearDateFilter();
+                currentMonth.setMonth(currentMonth.getMonth() + 1);
+                updateMonthDisplay();
+                renderEvents();
+                renderCharts(); // 重新渲染图表
+            });
+            
+            // 按日期查看
+            dateFilterInput.addEventListener('change', () => {
+                selectedDate = dateFilterInput.value;
+                if (selectedDate) {
+                    currentMonthHeader.style.display = 'none';
+                    prevMonthBtn.style.display = 'none';
+                    nextMonthBtn.style.display = 'none';
+                } else {
+                    clearDateFilter();
+                }
+                renderEvents();
+            });
+
+            exportBtn.addEventListener('click', () => {
+                const dataStr = JSON.stringify(events, null, 2);
+                const blob = new Blob([dataStr], { type: 'application/json' });
+                const url = URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = `procrastination-log-${new Date().toISOString().split('T')[0]}.json`;
+                a.click();
+                URL.revokeObjectURL(url);
+            });
+
+            importBtn.addEventListener('click', () => {
+                importFileInput.click();
+            });
+
+            importFileInput.addEventListener('change', (e) => {
+                const file = e.target.files[0];
+                if (file) {
+                    const reader = new FileReader();
+                    reader.onload = (event) => {
+                        try {
+                            const importedEvents = JSON.parse(event.target.result);
+                            if (Array.isArray(importedEvents)) {
+                                events = importedEvents;
+                                saveEvents();
+                                renderEvents();
+                                renderCharts();
+                                showMessage('数据导入成功！');
+                            } else {
+                                showMessage('文件格式不正确，请确保它是一个有效的JSON数组。');
+                            }
+                        } catch (err) {
+                            showMessage('文件解析失败，请检查文件内容。');
+                        }
+                    };
+                    reader.readAsText(file);
+                }
+            });
+            
+            // 新增 Gemini API 调用逻辑
+            const geminiApiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent?key=`;
+            
+            // 生成洞察与建议
+            generateInsightsBtn.addEventListener('click', async () => {
+                if (events.length === 0) {
+                    aiResultsDiv.textContent = '请先记录一些事件，才能生成洞察和建议哦！';
+                    return;
+                }
+
+                aiResultsDiv.textContent = '正在分析数据，请稍候...';
+                
+                // 构造 API 请求的 prompt
+                const prompt = `请分析以下用户的行为记录数据，并根据数据提供一些关于效率和满意度的洞察，最后给出一些可行的建议。请扮演一个经验丰富的生产力教练。
+数据格式: [{"event": "事件名称", "type": "事件类型", "duration": "耗时(分钟)", "progress": "满意度(0-100)"}, ...]
+以下是数据:
+${JSON.stringify(events, null, 2)}`;
+
+                try {
+                    const payload = { contents: [{ role: "user", parts: [{ text: prompt }] }] };
+                    const response = await fetch(geminiApiUrl, {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify(payload)
+                    });
+
+                    if (!response.ok) {
+                        throw new Error(`API error: ${response.statusText}`);
+                    }
+
+                    const result = await response.json();
+                    const text = result.candidates[0].content.parts[0].text;
+                    aiResultsDiv.textContent = text;
+                } catch (error) {
+                    console.error('API调用失败:', error);
+                    aiResultsDiv.textContent = '生成洞察失败，请稍后重试。';
+                }
+            });
+
+            // 拆解任务
+            breakdownTaskBtn.addEventListener('click', async () => {
+                const task = eventNameInput.value.trim();
+                if (task === '') {
+                    showMessage('请输入一个事件名称再点击拆解任务！');
+                    return;
+                }
+
+                aiResultsDiv.textContent = '正在为您拆解任务，请稍候...';
+                
+                // 构造 API 请求的 prompt
+                const prompt = `请扮演一个生产力教练，将以下大型任务拆解成5-10个具体、可执行的小任务列表，每项任务都以序号开头。
+任务: ${task}`;
+                
+                try {
+                    const payload = { contents: [{ role: "user", parts: [{ text: prompt }] }] };
+                    const response = await fetch(geminiApiUrl, {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify(payload)
+                    });
+
+                    if (!response.ok) {
+                        throw new Error(`API error: ${response.statusText}`);
+                    }
+                    
+                    const result = await response.json();
+                    const text = result.candidates[0].content.parts[0].text;
+                    aiResultsDiv.textContent = text;
+                } catch (error) {
+                    console.error('API调用失败:', error);
+                    aiResultsDiv.textContent = '拆解任务失败，请稍后重试。';
+                }
+            });
+
+            // 初始化
+            loadEvents();
+            updateMonthDisplay();
+            renderEvents();
+            renderCharts(); // 初始渲染图表
+            updateProgressBar(progressScoreInput.value);
+            saveBtn.disabled = true; // 初始禁用保存按钮
+        });
+    </script>
+</body>
+</html>
