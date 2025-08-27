@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>时间追踪与任务管理</title>
+    <!-- 加载 Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- 引入 Font Awesome 图标 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- 引入 Inter 字体 -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+        /* 隐藏滚动条但保留功能 */
+        .hide-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .hide-scrollbar {
+            -ms-overflow-style: none;  /* IE and Edge */
+            scrollbar-width: none;  /* Firefox */
+        }
+    </style>
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen p-2 sm:p-4 md:p-6">
+
+    <!-- 主容器，响应式双列布局，更适应移动端 -->
+    <div id="app" class="w-full max-w-7xl flex flex-col md:flex-row gap-4 sm:gap-6 p-4 rounded-2xl">
+        
+        <!-- 左侧操作区，在移动端占据全宽 -->
+        <div id="left-panel" class="w-full md:w-1/2 bg-white p-6 rounded-2xl shadow-xl flex flex-col items-center">
+            <h1 class="text-2xl sm:text-3xl font-bold text-gray-800 mb-6 text-center">开始新任务</h1>
+            
+            <!-- 加载状态 -->
+            <div id="loading-spinner" class="hidden flex flex-col items-center justify-center text-center">
+                <i class="fas fa-spinner fa-spin text-4xl text-blue-500 mb-4"></i>
+                <p class="text-gray-600">正在加载...</p>
+            </div>
+
+            <!-- 应用内容 -->
+            <div id="main-content" class="w-full hidden">
+                <!-- 任务记录表单 (主动式) -->
+                <div id="taskForm" class="w-full bg-gray-50 p-4 sm:p-6 rounded-xl mb-4 sm:mb-6 shadow-inner">
+                    <h2 class="text-xl font-semibold text-gray-700 mb-4">记录任务详情</h2>
+                    <label for="labelInput" class="block text-gray-600 font-medium mb-1">标记:</label>
+                    <select id="labelInput" class="w-full p-2 mb-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                        <option value="学习">学习</option>
+                        <option value="工作">工作</option>
+                        <option value="娱乐">娱乐</option>
+                        <option value="休息">休息</option>
+                    </select>
+
+                    <label for="targetInput" class="block text-gray-600 font-medium mb-1">目标:</label>
+                    <input type="text" id="targetInput" class="w-full p-2 mb-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="例如：完成报告草稿">
+
+                    <label for="quantityInput" class="block text-gray-600 font-medium mb-1">量化:</label>
+                    <input type="text" id="quantityInput" class="w-full p-2 mb-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="例如：200字">
+
+                    <label for="motivationInput" class="block text-gray-600 font-medium mb-1">原因:</label>
+                    <textarea id="motivationInput" rows="3" class="w-full p-2 mb-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="例如：为了提升项目进度"></textarea>
+                    
+                    <button id="planAndStartButton" class="w-full bg-blue-500 text-white font-bold py-3 rounded-xl shadow-lg hover:bg-blue-600 transition-colors duration-300 transform hover:scale-105 active:scale-95">
+                        <i class="fas fa-play mr-2"></i>计划并开始
+                    </button>
+                </div>
+            
+                <!-- 计时器与完成操作 -->
+                <div id="timer-section" class="hidden flex flex-col items-center mb-6">
+                    <div class="text-6xl font-mono text-gray-900 mb-4 font-extrabold tracking-tight">
+                        <span id="timer-display">00:00:00</span>
+                    </div>
+
+                    <!-- 更改为滑动输入 -->
+                    <div id="completion-input-container" class="hidden w-full flex flex-col items-center mt-4">
+                        <div class="flex items-center w-full mb-2 px-4">
+                            <label for="completionInput" class="flex-grow text-left text-gray-600 font-medium">完成度:</label>
+                            <span id="completionDisplay" class="font-bold text-blue-600 w-16 text-right">100%</span>
+                        </div>
+                        <input type="range" id="completionInput" class="w-full h-2 rounded-lg appearance-none cursor-pointer bg-gray-300" min="0" max="100" value="100">
+                    </div>
+
+                    <button id="finishButton" class="w-full bg-red-500 text-white font-bold py-3 px-6 rounded-xl shadow-lg hover:bg-red-600 transition-colors duration-300 transform hover:scale-105 active:scale-95">
+                        <i class="fas fa-stop mr-2"></i>完成任务
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- 右侧历史任务区，在移动端占据全宽 -->
+        <div class="w-full md:w-1/2 bg-white p-6 rounded-2xl shadow-xl border border-gray-200">
+            <div class="flex flex-col sm:flex-row justify-between items-center mb-4">
+                <h2 class="text-xl font-semibold text-gray-700 mb-2 sm:mb-0">历史任务</h2>
+                <div class="flex space-x-2">
+                    <button id="filterDay" class="px-3 py-1 text-sm rounded-lg text-gray-800 bg-gray-200 hover:bg-gray-300 transition-colors duration-200">日</button>
+                    <button id="filterMonth" class="px-3 py-1 text-sm rounded-lg text-gray-800 bg-gray-200 hover:bg-gray-300 transition-colors duration-200">月</button>
+                    <button id="filterYear" class="px-3 py-1 text-sm rounded-lg text-gray-800 bg-gray-200 hover:bg-gray-300 transition-colors duration-200">年</button>
+                    <button id="exportButton" class="px-3 py-1 text-sm rounded-lg bg-blue-500 text-white hover:bg-blue-600"><i class="fas fa-download mr-1"></i>导出</button>
+                </div>
+            </div>
+            <!-- 添加固定高度和滚动条 -->
+            <ul id="taskList" class="space-y-2 h-96 overflow-y-auto pr-2">
+                <!-- 任务将在这里动态加载 -->
+            </ul>
+        </div>
+    </div>
+
+    <!-- 自定义模态框 -->
+    <div id="custom-modal" class="hidden fixed inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full flex items-center justify-center z-50">
+        <div class="relative p-8 bg-white w-96 max-w-sm m-4 rounded-lg shadow-xl text-center">
+            <p id="modal-message" class="text-xl font-semibold text-gray-800 mb-4">确定要删除这条记录吗？</p>
+            <div class="flex justify-center space-x-4">
+                <button id="modal-confirm" class="px-4 py-2 bg-blue-500 text-white font-bold rounded-lg hover:bg-blue-600">确定</button>
+                <button id="modal-cancel" class="px-4 py-2 bg-gray-300 text-gray-800 font-bold rounded-lg hover:bg-gray-400">取消</button>
+            </div>
+        </div>
+    </div>
+
+    <script type="module">
+        // UI 元素
+        const loadingSpinner = document.getElementById('loading-spinner');
+        const mainContent = document.getElementById('main-content');
+        const taskForm = document.getElementById('taskForm');
+        const planAndStartButton = document.getElementById('planAndStartButton');
+        const timerSection = document.getElementById('timer-section');
+        const finishButton = document.getElementById('finishButton');
+        const taskList = document.getElementById('taskList');
+        const timerDisplay = document.getElementById('timer-display');
+        const exportButton = document.getElementById('exportButton');
+        const filterDay = document.getElementById('filterDay');
+        const filterMonth = document.getElementById('filterMonth');
+        const filterYear = document.getElementById('filterYear');
+
+        // 表单输入
+        const labelInput = document.getElementById('labelInput');
+        const targetInput = document.getElementById('targetInput');
+        const quantityInput = document.getElementById('quantityInput');
+        const motivationInput = document.getElementById('motivationInput');
+        const completionInputContainer = document.getElementById('completion-input-container');
+        const completionInput = document.getElementById('completionInput');
+        const completionDisplay = document.getElementById('completionDisplay');
+
+        // 应用状态
+        let currentTaskId = null;
+        let timerInterval = null;
+        let currentFilter = 'day';
+        let isFinishing = false;
+
+        /**
+         * 初始化应用
+         */
+        async function initializeApp() {
+            loadingSpinner.classList.remove('hidden');
+            // 本地存储不需要网络，直接显示内容
+            setTimeout(() => {
+                loadingSpinner.classList.add('hidden');
+                mainContent.classList.remove('hidden');
+                setupEventListeners();
+                updateFilterButtons(); // 初始设置筛选按钮状态
+                setupDataListener(currentFilter);
+            }, 500); // 模拟加载时间
+        }
+
+        /**
+         * 启动计时器
+         */
+        function startTimer() {
+            const startTime = Date.now();
+            timerInterval = setInterval(() => {
+                const elapsed = Date.now() - startTime;
+                const seconds = Math.floor(elapsed / 1000) % 60;
+                const minutes = Math.floor(elapsed / (1000 * 60)) % 60;
+                const hours = Math.floor(elapsed / (1000 * 60 * 60));
+
+                timerDisplay.textContent = `${String(hours).padStart(2, '0')}:${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
+            }, 1000);
+            return startTime;
+        }
+
+        /**
+         * 停止计时器
+         */
+        function stopTimer() {
+            clearInterval(timerInterval);
+        }
+
+        /**
+         * 渲染任务列表
+         * @param {Array<Object>} tasks - 任务数据数组
+         */
+        function renderTasks(tasks) {
+            taskList.innerHTML = '';
+            if (tasks.length === 0) {
+                taskList.innerHTML = `<li class="text-gray-500 text-center py-4">暂无记录，快开始第一个任务吧！</li>`;
+                return;
+            }
+
+            tasks.forEach(task => {
+                const listItem = document.createElement('li');
+                listItem.className = 'bg-gray-50 p-3 rounded-lg shadow-sm border border-gray-200 flex flex-col space-y-1 hover:bg-gray-100 transition-colors duration-200 cursor-pointer';
+                listItem.dataset.taskId = task.id;
+                
+                let durationText = '进行中...';
+                if (task.duration != null) { // 检查是否非空
+                    const hours = Math.floor(task.duration / 60);
+                    const minutes = task.duration % 60;
+                    durationText = `用时: ${hours > 0 ? hours + '小时' : ''} ${minutes}分钟`;
+                }
+
+                // 格式化时间
+                const startTimeFormatted = new Date(task.startTime).toLocaleTimeString('zh-CN', { hour: '2-digit', minute: '2-digit' });
+                const endTimeFormatted = task.endTime ? new Date(task.endTime).toLocaleTimeString('zh-CN', { hour: '2-digit', minute: '2-digit' }) : '';
+                const dateFormatted = new Date(task.startTime).toLocaleDateString('zh-CN');
+
+                // 根据完成度显示不同文本
+                let completionText = '进行中';
+                if (task.completion != null) {
+                    completionText = `${task.completion}%`;
+                }
+
+                // 使用 innerHTML 来设置不同颜色和操作按钮
+                listItem.innerHTML = `
+                    <div class="flex justify-between items-center text-sm text-gray-500">
+                        <span>${dateFormatted} ${startTimeFormatted} - ${endTimeFormatted}</span>
+                        <div class="flex space-x-2">
+                            <button class="edit-btn text-blue-500 hover:text-blue-600"><i class="fas fa-edit"></i></button>
+                            <button class="delete-btn text-red-500 hover:text-red-600"><i class="fas fa-trash-alt"></i></button>
+                        </div>
+                    </div>
+                    <div class="font-bold text-base text-gray-800">
+                        <span class="text-red-500">标记:</span> ${task.label || '未设置'}
+                        <span class="text-red-500 ml-2">目标:</span> ${task.target || '未设置'}
+                    </div>
+                    <div class="text-gray-700 text-sm">
+                        <span class="text-red-500">量化:</span> ${task.quantity || '无'}
+                    </div>
+                    <div class="text-blue-600 font-medium text-sm">
+                        ${durationText} <span class="text-gray-500 ml-2">完成度:</span> ${completionText}
+                    </div>
+                `;
+                taskList.appendChild(listItem);
+            });
+            // 为新渲染的按钮添加事件监听器
+            document.querySelectorAll('.edit-btn').forEach(button => {
+                button.addEventListener('click', handleEditClick);
+            });
+            document.querySelectorAll('.delete-btn').forEach(button => {
+                button.addEventListener('click', handleDeleteClick);
+            });
+        }
+
+        /**
+         * 获取所有本地存储的任务
+         * @returns {Array<Object>} - 任务数据数组
+         */
+        function getLocalTasks() {
+            try {
+                const tasks = JSON.parse(localStorage.getItem('tasks')) || [];
+                return tasks;
+            } catch (e) {
+                console.error("解析本地存储数据失败:", e);
+                return [];
+            }
+        }
+
+        /**
+         * 将任务数据保存到本地存储
+         * @param {Array<Object>} tasks - 任务数据数组
+         */
+        function saveLocalTasks(tasks) {
+            localStorage.setItem('tasks', JSON.stringify(tasks));
+        }
+
+        /**
+         * 模拟实时数据监听
+         */
+        function setupDataListener(filter) {
+            let tasks = getLocalTasks();
+            
+            if (filter === 'day') {
+                const startOfToday = new Date(new Date().getFullYear(), new Date().getMonth(), new Date().getDate()).getTime();
+                tasks = tasks.filter(task => task.startTime >= startOfToday);
+            } else if (filter === 'month') {
+                const startOfMonth = new Date(new Date().getFullYear(), new Date().getMonth(), 1).getTime();
+                tasks = tasks.filter(task => task.startTime >= startOfMonth);
+            } else if (filter === 'year') {
+                const startOfYear = new Date(new Date().getFullYear(), 0, 1).getTime();
+                tasks = tasks.filter(task => task.startTime >= startOfYear);
+            }
+            tasks.sort((a, b) => b.startTime - a.startTime);
+            renderTasks(tasks);
+        }
+        
+        /**
+         * 更新筛选按钮的激活状态
+         */
+        function updateFilterButtons() {
+            const buttons = [filterDay, filterMonth, filterYear];
+            buttons.forEach(btn => {
+                btn.classList.remove('bg-blue-500', 'text-white');
+                btn.classList.add('bg-gray-200', 'text-gray-800');
+            });
+
+            if (currentFilter === 'day') {
+                filterDay.classList.add('bg-blue-500', 'text-white');
+                filterDay.classList.remove('bg-gray-200', 'text-gray-800');
+            } else if (currentFilter === 'month') {
+                filterMonth.classList.add('bg-blue-500', 'text-white');
+                filterMonth.classList.remove('bg-gray-200', 'text-gray-800');
+            } else if (currentFilter === 'year') {
+                filterYear.classList.add('bg-blue-500', 'text-white');
+                filterYear.classList.remove('bg-gray-200', 'text-gray-800');
+            }
+        }
+
+        /**
+         * 处理编辑按钮点击
+         */
+        function handleEditClick(event) {
+            event.stopPropagation(); // 阻止事件冒泡到父级li元素
+            const taskId = event.currentTarget.closest('li').dataset.taskId;
+            const tasks = getLocalTasks();
+            const taskToEdit = tasks.find(task => task.id === taskId);
+            
+            if (taskToEdit) {
+                // 填充表单
+                labelInput.value = taskToEdit.label || '学习';
+                targetInput.value = taskToEdit.target || '';
+                quantityInput.value = taskToEdit.quantity || '';
+                motivationInput.value = taskToEdit.motivation || '';
+                
+                // 填充完成度（如果存在）
+                const completionValue = taskToEdit.completion != null ? taskToEdit.completion : 100;
+                completionInput.value = completionValue;
+                completionDisplay.textContent = `${completionValue}%`; // 更新显示值
+                
+                // 隐藏计时器，显示表单
+                timerSection.classList.add('hidden');
+                taskForm.classList.remove('hidden');
+
+                // 显示完成度输入框
+                completionInputContainer.classList.remove('hidden');
+                planAndStartButton.textContent = '更新任务';
+                planAndStartButton.classList.remove('bg-blue-500');
+                planAndStartButton.classList.add('bg-green-500');
+
+                // 临时存储任务ID，用于更新
+                currentTaskId = taskId;
+            }
+        }
+
+        /**
+         * 处理删除按钮点击
+         */
+        function handleDeleteClick(event) {
+            event.stopPropagation(); // 阻止事件冒泡到父级li元素
+            const taskId = event.currentTarget.closest('li').dataset.taskId;
+            // 使用自定义模态框代替 window.confirm
+            showModal('确定要删除这条记录吗？', () => {
+                let tasks = getLocalTasks();
+                tasks = tasks.filter(task => task.id !== taskId);
+                saveLocalTasks(tasks);
+                setupDataListener(currentFilter); // 重新渲染列表
+                console.log("任务已删除:", taskId);
+            });
+        }
+        
+        // 自定义模态框函数
+        function showModal(message, onConfirm) {
+            const modal = document.getElementById('custom-modal');
+            const modalMessage = document.getElementById('modal-message');
+            const confirmBtn = document.getElementById('modal-confirm');
+            const cancelBtn = document.getElementById('modal-cancel');
+            
+            modalMessage.textContent = message;
+            modal.classList.remove('hidden');
+
+            const handleConfirm = () => {
+                if (onConfirm) onConfirm();
+                modal.classList.add('hidden');
+                confirmBtn.removeEventListener('click', handleConfirm);
+                cancelBtn.removeEventListener('click', handleCancel);
+            };
+
+            const handleCancel = () => {
+                modal.classList.add('hidden');
+                confirmBtn.removeEventListener('click', handleConfirm);
+                cancelBtn.removeEventListener('click', handleCancel);
+            };
+
+            confirmBtn.addEventListener('click', handleConfirm);
+            cancelBtn.addEventListener('click', handleCancel);
+        }
+
+        /**
+         * 启动按钮点击事件
+         */
+        planAndStartButton.addEventListener('click', () => {
+            const label = labelInput.value;
+            const target = targetInput.value;
+            const quantity = quantityInput.value;
+            const motivation = motivationInput.value;
+            const completion = currentTaskId ? parseInt(completionInput.value, 10) : null;
+
+            // 检查是否正在编辑现有任务
+            if (currentTaskId) {
+                let tasks = getLocalTasks();
+                const taskIndex = tasks.findIndex(task => task.id === currentTaskId);
+                if (taskIndex !== -1) {
+                    tasks[taskIndex].label = label;
+                    tasks[taskIndex].target = target;
+                    tasks[taskIndex].quantity = quantity;
+                    tasks[taskIndex].motivation = motivation;
+                    tasks[taskIndex].completion = completion; // 更新完成度
+                    saveLocalTasks(tasks);
+                    setupDataListener(currentFilter);
+                    console.log("任务已更新:", currentTaskId);
+                }
+                resetApp();
+            } else {
+                // 启动新任务
+                const now = Date.now();
+                const newId = `task_${now}`; // 简单的唯一ID
+                const newTask = {
+                    id: newId,
+                    startTime: now,
+                    endTime: null,
+                    duration: null,
+                    completion: null, // 新增完成度属性
+                    label: label,
+                    target: target,
+                    quantity: quantity,
+                    motivation: motivation
+                };
+                let tasks = getLocalTasks();
+                tasks.push(newTask);
+                saveLocalTasks(tasks);
+                currentTaskId = newId;
+                startTimer();
+                taskForm.classList.add('hidden');
+                timerSection.classList.remove('hidden');
+                console.log("新任务已创建，ID: ", currentTaskId);
+            }
+        });
+
+        /**
+         * 完成按钮点击事件
+         */
+        finishButton.addEventListener('click', () => {
+            if (!currentTaskId) return;
+
+            if (!isFinishing) {
+                // 第一次点击：显示完成度输入框
+                isFinishing = true;
+                completionInputContainer.classList.remove('hidden');
+                finishButton.textContent = '确认完成';
+                return;
+            }
+
+            // 第二次点击：完成任务并保存数据
+            stopTimer();
+            const now = Date.now();
+            let tasks = getLocalTasks();
+            const taskIndex = tasks.findIndex(task => task.id === currentTaskId);
+            
+            if (taskIndex !== -1) {
+                const startTime = tasks[taskIndex].startTime;
+                const durationMinutes = Math.floor((now - startTime) / (1000 * 60));
+                
+                tasks[taskIndex].endTime = now;
+                tasks[taskIndex].duration = durationMinutes;
+                tasks[taskIndex].completion = parseInt(completionInput.value, 10); // 保存完成度
+                saveLocalTasks(tasks);
+                setupDataListener(currentFilter);
+                console.log("任务已完成:", currentTaskId);
+            }
+
+            resetApp();
+        });
+
+        /**
+         * 导出数据按钮点击事件
+         */
+        exportButton.addEventListener('click', () => {
+            const tasks = getLocalTasks();
+            const exportData = tasks.map(task => ({
+                id: task.id,
+                开始时间: new Date(task.startTime).toLocaleString(),
+                结束时间: task.endTime ? new Date(task.endTime).toLocaleString() : '进行中',
+                用时_分钟: task.endTime != null ? task.duration : '进行中',
+                完成度: task.completion != null ? `${task.completion}%` : '进行中', // 新增导出完成度
+                标记: task.label || '无',
+                目标: task.target || '无',
+                量化: task.quantity || '无',
+                原因: task.motivation || '无'
+            }));
+
+            const json = JSON.stringify(exportData, null, 2);
+            const blob = new Blob([json], { type: 'application/json' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `tasks_export_${new Date().toISOString()}.json`;
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+        });
+
+        /**
+         * 重置应用状态
+         */
+        function resetApp() {
+            currentTaskId = null;
+            isFinishing = false; // 重置完成状态
+            timerDisplay.textContent = '00:00:00';
+            timerSection.classList.add('hidden');
+            taskForm.classList.remove('hidden');
+            completionInputContainer.classList.add('hidden'); // 隐藏完成度输入
+            finishButton.textContent = '完成任务';
+
+            // 清空表单
+            labelInput.value = '学习';
+            targetInput.value = '';
+            quantityInput.value = '';
+            motivationInput.value = '';
+            
+            // 重置编辑状态UI
+            planAndStartButton.textContent = '计划并开始';
+            planAndStartButton.classList.remove('bg-green-500');
+            planAndStartButton.classList.add('bg-blue-500');
+            
+            // 重置滑动条
+            completionInput.value = 100;
+            completionDisplay.textContent = '100%';
+        }
+
+        /**
+         * 设置筛选按钮事件监听器
+         */
+        function setupEventListeners() {
+            filterDay.addEventListener('click', () => {
+                currentFilter = 'day';
+                updateFilterButtons();
+                setupDataListener(currentFilter);
+            });
+            filterMonth.addEventListener('click', () => {
+                currentFilter = 'month';
+                updateFilterButtons();
+                setupDataListener(currentFilter);
+            });
+            filterYear.addEventListener('click', () => {
+                currentFilter = 'year';
+                updateFilterButtons();
+                setupDataListener(currentFilter);
+            });
+            
+            // 新增：监听滑动条输入
+            completionInput.addEventListener('input', (event) => {
+                completionDisplay.textContent = `${event.target.value}%`;
+            });
+        }
+        
+        // 页面加载完成后初始化应用
+        window.onload = initializeApp;
+    </script>
+</body>
+</html>
