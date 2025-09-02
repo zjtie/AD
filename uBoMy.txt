@@ -427,6 +427,8 @@ hjd2048.com##:matches-path(/2048/read) #main~*,.t5~*,tr.r_one,.promo-container:r
 ! 2025年8月29日 
 91暗网-成人暗网吃瓜黑料平台ww.awtb.cloud##.joe_index__banner,.advert,[class*="ads"],.mobile-notice,.joe_comment__respond,.joe_detail__operate-share:remove()
 91暗网-成人暗网吃瓜黑料平台ww.awtb.cloud##script:has-text(/button-ads/):remove()
+91暗网-成人暗网吃瓜黑料平台ww.awtb.cloud##.thumbnail[title="同城约炮"],.thumbnail[title*="棋牌"]:upward(1)
+
 
 
 ! 2024-05-17 论坛: 51吃瓜
