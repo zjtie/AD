@@ -189,7 +189,8 @@ douyin.com^$header=user-agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWeb
 ! !关于抖音， 充钻石|快捷访问|投稿|客户端|壁纸
 
 
-
+douyin.com##.dZZJWTJL,.JdGgM3r6
+,.Xu0nlrYh
 
 
 ! douyin.com##.mode-search div[id^="douyin-header-menu"] > div > div > div:has(a[download^="douyin-downloader"])
@@ -359,20 +360,34 @@ artstation.com##.ad,script,.productPage-description-col,.report-section,.share-g
 ! sspai.com##:matches-path(/post/) .app_toolbar,.related-read-box,.article-side,.right-side-directory,.greyBgBox,.bgGrey,#app>header,#root~*,#app~*,.article-copyrights~*:remove()
 
 #======论坛===========================================================================
+! 2025年8月29日 小黄书
+||xchina.fit/scripts/ads.js
+||xchina.fit/scripts/push.js
+xchina.fit##.push-bottom > .media,footer,.fiction-content~*,[class^="static-container-"],.banner-sexgps,[href="/comments.html"]~*,.fiction-banner,.item.auto-height,.submit-comment,.hero-section.index:remove()
+xchina.fit##+js(set, Swal, true)
+xchina.fit##+js(set, googleAdsInstance, true)
+xchina.fit##+js(rmnt, script, adModal )
+
+
+! 2025年8月29日 留园网  https://www.cool18.com/parks.php
+cool18.com##[class^=adv],iframe,.td2[valign="top"],[bordercolor="#99CC00"]+[bgcolor="#fbfeea"]:remove()
+cool18.com##.comment-section,.view-gift,.bottom-nav,.vote-section,.ad-container,[href="#postfp"],[href$="con2.htm"],.nav-actions:remove()
+cool18.com##.ad_list_top,.ad_float:remove()
+cool18.com##li[class^="l-m"]:has-text(/ 给 /)
+
 ! 2025年8月10日 第一会所
 sis001.com###header,#footercontainer,[id^="ad_"],.postratings,.replybtn,.postbtn:remove()
 sis001.com##.alert,[href="pay.php"],.header,.viewthreadMenu,#post_btns
 sis001.com##li.ItemDiscussion:has-text(/版务/):remove()
 
-! 移动端：会员提示
 
 ! 2025年8月11日 UAA
 ||cdn.livechatinc.com^
-uaa004.com##.fade-in-top,.foot_box,.note_box,#chat-widget-minimized,.shortcut_box,.button_link_box,#comment_list,#reward_box,.dialog_mask,#comment_item_template,.dizhi,.login_box:remove()
-uaa004.com##[onclick="toggleReward()"],[onclick="hrefToComment()"],[onclick="share()"],[onclick="toggleReport()"]:remove()
-uaa004.com##.hide:not(.login_box,.item_menu_box,.menu_box):remove()
+uaa004.com,uaa.com##.fade-in-top,.foot_box,.note_box,#chat-widget-minimized,.shortcut_box,.button_link_box,#comment_list,#reward_box,.dialog_mask,#comment_item_template,.dizhi,.login_box:remove()
+uaa004.com,uaa.com##[onclick="toggleReward()"],[onclick="hrefToComment()"],[onclick="share()"],[onclick="toggleReport()"]:remove()
+uaa004.com,uaa.com##.hide:not(.login_box,.item_menu_box,.menu_box):remove()
 ! 注册，举报，评论，反馈
-uaa004.com##a:remove-attr(target)
+uaa004.com,uaa.com##a:remove-attr(target)
 
 
 ! 2024年5月6日  论坛:草榴社區
@@ -408,6 +423,10 @@ hjd2048.com##:matches-path(/2048/thread)  tr:has-text(/匿名|A大|系統消息/
 hjd2048.com##:matches-path(/2048/read) #main~*,.t5~*,tr.r_one,.promo-container:remove()
 ! ! 正文-保存网页开关
 ! hjd2048.com##:matches-path(/2048/read) body script,#main > [id], #main > [class],.r_two,.tiptop :remove()
+
+! 2025年8月29日 
+91暗网-成人暗网吃瓜黑料平台ww.awtb.cloud##.joe_index__banner,.advert,[class*="ads"],.mobile-notice,.joe_comment__respond,.joe_detail__operate-share:remove()
+91暗网-成人暗网吃瓜黑料平台ww.awtb.cloud##script:has-text(/button-ads/):remove()
 
 
 ! 2024-05-17 论坛: 51吃瓜
@@ -461,71 +480,54 @@ dbro.news##section:has-text(優選品牌):remove() { display: none !important; }
 dbro.news##li[id]:has-text(/站務|娛樂城|推薦/):remove() { display: none !important; }
 
 
-! 论坛:杏吧  ex8.cc/forum.php
-! sex8.cc##body>*:not(#hd,#wp):remove()
-! sex8.cc##.bm.b_sxc,.trioCarousel,.bm_h.cl>span[style],.bm_h.cl>script:remove()
-! sex8.cc##.bm_h.cl>h2>a:has-text(/招聘区|公告区|杏博/):upward(3):remove()
-! sex8.cc##[data-id="272"],[data-id="354"]:remove()
-! WEB首页
-! sex8.cc##.bm_c.cl.pbn,#f_pst,#newspecial,#newspecialtmp,#post_replytmp,#post_reply:remove()
-! 列表
-! sex8.cc##.ad,.b_pr,.po.hin,.tshuz_time,.a_oscar,#reported,.js-share-button,[href*="v8f0x.top"],[style^="float: left"]:remove()
-! sex8.cc##[href^="/misc.php?mod=faq&action=faq"]:upward(3):remove()
-! sex8.cc##.t_fsz:remove-attr(class)
 
 
-! sex8.cc###my_video_1>*:not(video,.vjs-control-bar):remove()
+! ! 论坛:杏吧  sex8.cc/forum.php
+sex8.cc##meta,[src*="googletagmanager"],.ad:remove()
+! ===  门户页面  ===
+sex8.cc##[class^="b_oscar"],.bm.b_sxc,#fixed-bottom-modal,.j-notice-go,.zxy,#ft.wp.cl,#toptb:remove()
+! 开屏菠菜广告，门户导航菠菜广告,浮窗广告，活动推广浮窗，页面尾部广告,地址发布器
+sex8.cc##.bm_h.cl>h2>a:has-text(/招聘区|公告区|杏博/):upward(3):remove()
+sex8.cc##[data-id="272"],[data-id="354"],.bm_h.cl>span[style],.trioCarousel:remove()
+sex8.cc##script:has-text(/is_login|dataLayer|j-notice-go|GoogleAnaly/):remove()
+! 签到脚本，GA跟踪代码，活动推广浮窗
+! ===  门户页面  ===
 
+! ===  板块细分  ===
+sex8.cc##.bm_c.cl.pbn,#f_pst,#newspecialtmp,#newspecial:remove()
+sex8.cc##.showhide.y:upward(3):remove()
+! ===  板块细分  ===
 
+! ===  正文内容  ===
+sex8.cc###shortcut,#post_reply,.b_pr,div[style="text-align:center; font-size:13px"],div[style="padding-top: 16px;"],#p_btn,.pob.cl,#post_replytmp:remove()
+sex8.cc##iframe,.a_oscar,.promotion-mask:remove()
+sex8.cc##+js(set-constant.js, checkVideoFloat, noopFunc)
+! 浮动的、自动播放的视频来强制展示广告
+! ===  正文内容  ===
 
-! ||mc.chunsise.bar/ad/newbbs/$important
-! ||images.touechi0.com/$important
-! ||sex8.cc/static/image/$important
-! ! ! 图片图标AD
-! ! ||sex8.cc/forum.php
-! ||sex8.cc/static/js/antiblock.js^
-! ||sex8.cc/static/js/clipboard.min.js^
-! ||sex8.cc/static/js/upload.js^
-! ||sex8.cc/static/js/seditor.js^
+! ===  正文-视频 内容  ===
+||googlesyndication_adsbygoogle.js:
+||sex8.cc/static/js/upload.js?dI8
+||adv.huydwwai0.live^
+! ：阻止广告视频请求。
+||sex8.cc*/dasp.php^
+! 阻止数据上报请求。
+||sex8.cc*/api.php?mod=e6^
+! 阻止获取分享链接及数据上报的请求。
+sex8.cc##+js(set-constant.js, player.ads, undefined)
+! 屏蔽视频广告注入插件
+sex8.cc##+js(override.js, eventTester, no-op-script.js)
+! 屏蔽暂停时弹出的广告蒙层，直接修改 eventTester 函数的行为，让它在 pause 事件时不执行 show()
+sex8.cc##.t_f>div[style^="float"],.vjs-poster,.logo-link,.show_img:remove()
+! 视频作左右AD，视频遮罩层AD,视频logoAD，隐藏AD
+sex8.cc##div.video-js,video:remove-attr(poster)
+! ===  正文-视频 内容  ===
 
-! ||sex8.cc/static/js/mobile/common.js^
-! ||sex8.cc/static/js/mobile/emoji.js^
-
-! sex8.cc##script:remove()
-! ! sex8.cc##+js(set-constant, content_video_url, "")
-! ! sex8.cc##video:remove-attr(poster)
-! ! sex8.cc###my_video_1>*:not(video,button,.vjs-control-bar):remove()
-! 视频：倒计时，广告链接，隐藏 logo 链接，视频暂停AD，开启 VIP 加速，播放器左右两侧广告
-! !#if !env_mobile
-! sex8.cc##.ad,table.plhin>tbody>tr~*,.t_fsz~*,.j-notice-go,iframe,#ft,.zxy,#f_pst,.tip.tip_4,#toptb,#shortcut:remove()
-! sex8.cc##.t_f[id^="postmessage"]>*:not(ignore_js_op,div[data-high],font,br):remove()
-! sex8.cc##li[id^="mn_N"]:has-text(/加入VIP|广告合作|APP下载|分享赚钱/):remove()
-! sex8.cc##div[style="text-align:center; font-size:13px"],div[style="padding-top: 16px;"]:remove()
-! ! 正文：ad
-! sex8.cc##.b_oscar2,.bottom,[href*="plugin.php"],[src*="dasp.php"],[href^="/dasp.php"].ranking,#carousel1,.uk-header-left:remove()
-! sex8.cc##a:has-text(/杏博门户|杏吧APP|后宫导航|杏彩体育|世界杯|PG电子|影吧下载|加入VIP|1元畅游杏吧|举报广告获得积分奖励/):remove()
-! sex8.cc##.b_oscar1,.read-domain:remove()
-! ! 资源导航：遮罩层
-! sex8.cc##.bm.bmw.flg.cl:has-text(/杏博 | 综合讨论区 | General Discussion/):remove()
-! sex8.cc##.bm.b_sxc:remove()
-! ! sex8.cc/forum.php
-! !#else
-! xfuliji.com##.slide-up,p.mb-6***********
-! sex8.cc##[id^="download"],[class^="download"],[class*="VIP"],[class^="wapAbcd"],.hdTit.cfix>a,.trioCarousel,#yingyong_href :remove()
-! sex8.cc##[href="#sub_forum_122"],[href="#sub_forum_272"],[href="#sub_forum_160"],.window-read-tip:remove()
-! sex8.cc###page:remove-attr(style)
-! sex8.cc##script:has-text(/getuserAgent|pushState|alertDialg/):remove()
-! sex8.cc##.threadlist li:has-text(/全局置顶/):remove()
-! sex8.cc###p_btn,.god-container,.btViewpost
-! sex8.cc##.postListCon>div:nth-of-type(1),.postListCon>div:nth-of-type(2)
-! ! !#endif
-
-! m.sex8.cc##[src="/logo.png"],[src="/icon/camera.png"],[href="https://fcc.pg6901.cc"],.download-bg,.justify-content-between,.bg-steel-gray:remove()
-! m.sex8.cc##.m-3:has-text(/广告|杏博/):remove()
-! m.sex8.cc##.flex-fill:has-text(/赢钱|贵宾/):remove()
-! m.sex8.cc##.border-tuna:has-text(/广告/):remove()
-! m.sex8.cc##.flex-center:has-text(/分享好友升级赚钱/):remove()
-
+! ===  导航Nav  ===
+||sex8.cc/static/image//common/head
+sex8.cc###nv>div,.hdc.cl>h2,.avt.y
+sex8.cc###nv>ul>li:has-text(/VIP|APP|广告合作|分享赚钱|五大联赛|世界杯|杏彩|体育/):remove()
+! ===  导航Nav  ===
 
 
 
@@ -697,12 +699,28 @@ porn7f.com##[href*="789free"],[href*="aii.life"],[href="/games"],.fix-right-bott
 ! 移动端:导航,浮动下载app,评论
 
 
+
+dnaav.com##[class^="b300"],.footer,.container[align="center"]:remove()
+dnaav.com##[id^="dnaav_a"]:upward(1)
+! ||vip5.3sybf.com/*/EmDVkYmM/2000kb/*.ts
+! 在线视频采用 HLS（HTTP Live Streaming）协议
+
+91rb.net###tb_top_banner,.header-links,footer
+91porna.com##.ad-dialog,.my-2,.text-mini.mb-3,footer,[class="text-sm md:text-default"]:remove()
+91porna.com##.index-content>div.flex,.bg-base1.text-default,.grid-cols-5,.aspect-h-2,[rel="external nofollow"]
+91porna.com###tip_modal,.relative.h-\[80px\].dx-pwa-dialog.z-50.hidden:remove()
+
+
+! 2025年8月29日 91视频
+||poweredby.jads.co/js/jads.js
+91pinse.com##script:has-text(/DistanceMeter|adsbyjuicy /):remove()
+91pinse.com##footer,.rounded.w-full,.p-4.flex,.group.flex :remove()
+
+
 ! 2025-3-9  视频-成人-中国:91Porn
 ||fans.91selfie.com^
 ||poweredby.jads.co^
 ||mp4.blkj58.com/fh.mp4
-
-
 91porn.com##body>div>div[align="center"],.top-nav:remove()
 91porn.com##.navbar:remove-class(navbar)
 91porn.com##.navbar-right li:has-text(/上传|美女视频|电影中心|VIP会员/)
@@ -711,6 +729,14 @@ porn7f.com##[href*="789free"],[href*="aii.life"],[href="/games"],.fix-right-bott
 91porn.com###videodetails-content>.title>div,[src*="jads"],#linkForm2,.submenu:remove()
 91porn.com##iframe,#useraction,.clear,#videodetails:first-of-type >*:not(.video-container,h4,link):remove()
 91porn.com##video-container>*:not(video,.vjs-control-bar)
+
+
+! 2025年8月29日 https://91porny.com
+91porny.com^$header=user-agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.7103.48 Safari/537.36
+||cdnh.jiuse3.cloud/hlsd/js10/index.m3u8
+91porny.com##[id^="po-s"],[href="/premium"],[href="/app"],.container-fluid.mb-3,[id^="po-link"],[href$="vbvno1044.com"]
+91porny.com##.video-elem>a:has-text(/送888元|顶尖博彩|PG娱乐城/):upward(2)
+91porny.com##.alert-danger,.noticeLayer,[href="#videoShowTabDownload"],[href="#videoShowTabShare"]
 
 
 ! 2025年7月25日 视频-成人-中国:傻傻视频
@@ -750,6 +776,8 @@ porcore.com##body > *:not(#center_container):remove()
 porcore.com###login-now ~ *:remove()
 porcore.com##.navbar,[class*="-block"],[rel*="-icon"],meta,[rel="icon"],[href^="https://join.cityofsin3d.com"]:remove()
 ! 页面头部
+porcore.com##script:has-text(/Ads/):remove()
+||porcore.com/tpl/pc/js/mg_flipbook-1.0.0.js
 
 
 ! 2024-05-09  视频-成人-3D：rule34video
@@ -776,11 +804,11 @@ porn3dx.com##button:has-text(/Report/):remove()
 3dporndude.com##a:has-text(/AI PORN|TikTok Porn|AI Sex Slave|FapHouse|ThePornDude/):remove()
 3dporndude.com##script:has-text(/AdProvider|FapHouse|fapcash-videos|creatives|TsMasterSpot|spot|userLanguage/):remove()
 ||cdn-fc.com/creatives/$domain=3dporndude.com
-
+3dporndude.com##a[title="City Of Sins"]:upward(1)
 
 ! 2024-05-15 视频-成人-3D：Nsfw 34
 nsfwr34.com##meta,#site-footer,script,[id^="share_box"],.button-group-share,.button-group-report,.comments-list-lg,#menu-item-38436:remove()
-nsfwr34.com###menu-item-34 ~ *,#site-footer:remove()
+nsfwr34.com###menu-item-34 ~ *,#site-footer,[id^="block-"]:remove()
 
 
 ! 2024-05-15 视频-成人-3D：xanimu
@@ -806,14 +834,26 @@ the-joi-database.com###report-video,footer,.advertisement :remove()
 
 #======动漫-番剧===========================================================================
 
+hentaicity.com##.ads,.ads-mobile,footer,.webcam-link,[title="Live Cams"],[title="Games"],[title="Dating"],._1024plus:remove()
+
+hstream.moe##h2[class]:has-text(/Quality Hentai for free in 4k!/):upward(2)
+hstream.moe##footer
+
 ! 2024-05-12 视频-成人-番剧：hanime.tv 
 ||hanime.tv/dist/s/exoclick.ads.1.0.0.js
-hanime.tv##footer,.site-description,.parallax-container,[href="/apps"]:remove()
-! footer,网站概述尾部，网站概述头部
-hanime.tv##.nav-drawer-list:has-text(/RESOURCES|CONNECT|ACCOUNT/):remove()
-hanime.tv##.htvad,.htvnad,.htvnad1,.mdi-flag
+! hanime.tv##footer,.site-description,.parallax-container,[href="/apps"]:remove()
+! ! footer,网站概述尾部，网站概述头部
+hanime.tv##.htvad,.htvnad,.htvnad1,.mdi-flag,.list.nav-drawer-list~*,[href="/apps"],footer
 hanime.tv##+js(acis, deferredLoad)
 hanime.tv##main.content:style(padding-top: 55px !important;)
+hanime.tv##script:has-text(/LoadTimeData/):remove()
+hanime.tv###turnstileRoot:remove()
+
+hanime.tv##.inter
+||rapi_base_url/rapi/v7/interstitial_base_data$xhr
+hanime.tv##+js(cookie-set, in_m4)
+
+
 
 
 ! 2025-3-10 视频-成人-番剧：hentaigasm.
@@ -911,6 +951,8 @@ ahri8.top##[src*="ads"],#gallery+div~*,.page-footer,#content>.col-lg-12,#widget-
 web.nicecat.cc##button:has-text( 安装NiceCat):upward(2):remove()
 web.nicecat.cc##.w-auto.h-auto:has-text(书架)~*:remove()
 web.nicecat.cc##.home_div,#home-bulletin
+
+
 
 
 ! 2022-11-20 漫画-成人-多语言：Nhentai同人志
@@ -1158,8 +1200,8 @@ xbookcn.net##script,footer:remove()
 xbookcn.net##body:remove-attr(style)
 ! ======Telegram ===========================================================================
 t.me##.tgme_head_right_btn
-! 下载APP
-! telegram.org##.chatlist-bottom:remove()
+下载APP
+telegram.org##.chatlist-bottom:remove()
 ! 左侧 联系方式
 telegram.org###new-menu:remove()
 ! 新建 新频道/群组/私人聊天
@@ -1173,16 +1215,27 @@ telegram.org##.new-message-wrapper.rows-wrapper-row>*:remove-class(hide)
 ! 取消聊天输入框的隐藏选项
 telegram.org##.popup-send-gift:remove()
 telegram.org##.menu-open div.btn-menu-item:has-text(Send a Gift):remove()
-! 送礼物
+送礼物
 telegram.org##.media-viewer-buttons .hide:remove-class(hide)
 telegram.org##.media-viewer-buttons:style(display: flex !important; justify-content: flex-end !important; align-items: center !important; position: fixed !important; right: 20px !important; top: 40px !important;)
 ! 移除视频控件的隐藏；再之后移动端不显示，视频播放按钮改为Flexbox浮动，固定在屏幕距离
+telegram.org##section.bubbles-date-group .bubble-content-wrapper .service-msg:has-text(/joined the group/):upward(4)
+! 用户加入的消息显示
+telegram.org##i.data-saved-from:has-text(/SOSO搜搜/):upward(6):remove()
+! 用户加入的消息显示 正文下方
+
+
 ! ======Telegram ===========================================================================
 telegram.org##.message span:has-text(/OverWall加速器|酒馆AI|绅士玩具屋|樱川爱|特价|支付|新用户|信誉|USDT|免费|SoulAI|游玩|体育/):nth-ancestor(4)
 telegram.org##blockquote:has-text(/付费/):remove()
 
 telegram.org##span.reply-markup-button-text:has-text(/6G国际娱乐/):upward(3):remove()
-! 正文卡片 下方的广告按钮【通用】
+! 匹配按钮，屏蔽正文卡片 下方的广告按钮【通用】
+
+telegram.org##span.reply-markup-button-text:has-text(/赞助|保证金/):upward(2):remove()
+! 匹配按钮，屏蔽按钮 下方的广告按钮【通用】
+
+
 
 ! ======Telegram ===========================================================================
 
