@@ -1,8 +1,10 @@
 ! Homepage: https://github.com
 ! Title: Pixel uBlock Origin
-! Expires: 5 days
 ! Version: 1.0
 !#include uBOAdultVideo.txt
+!#include uBOAdultPic.txt
+!#include uBOAdultPlatform.txt
+!#include uBoroutine.txt
 
 # Homepage:  该过滤规则列表 首页
 # Title：    该过滤规则列表 标题
