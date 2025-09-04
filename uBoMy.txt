@@ -1517,3 +1517,11 @@ bbs.zsxwz.com##.social-share
 bbs.zsxwz.com##.media.newpost.post
 bbs.zsxwz.com##.mt-3.small.justify-content-between.d-flex
 
+grok.com##div.upsell-small
+
+! ||v2025.ddcdnbf.com/20250831/kjWXSONS/2000kb/hls/*.ts$xhr
+
+! 2025年9月4日 https://www.dnaav.com
+||v2025.ddcdnbf.com/20250831/kjWXSONS/2000kb/hls/MceFtIBK.ts$xhr,domain=www.dnaav.com
+
+crushon.ai##[href*=".apk"],.relative.mb-4
