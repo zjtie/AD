@@ -64,5 +64,6 @@
 !#include uBOAdultPlatform.txt
 !#include uBOAdultVideo.txt
 !#include uBOAdultPic.txt
+!#include uBoTelegram.txt
 !#include uBoOther.txt
 
