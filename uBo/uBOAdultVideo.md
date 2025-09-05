@@ -1,4 +1,4 @@
-#======视频===========================================================================
+#======视频#======
 
 ! 2022-11-20 视频-成人-国际:bellesa
 #作为快乐的主体，而不是征服的对象 #性应该是有趣的、充满力量的
@@ -213,7 +213,7 @@ javtiful.com###navList,.video-comments,script,#header-info,.offer-box:remove()
 javtiful.com##[href^="https://r.trackwilltrk.com"]:nth-ancestor(2)
 7mmtv.sx##footer:remove()
 
-#======动漫-3D===========================================================================
+#======动漫-3D#======
 
 ! 2024年11月27日 视频-成人-3D：porcore
 ||porcore.com/lib/players/vjs/plugins/videojs.ads.min.js$1p
@@ -261,7 +261,7 @@ xanimu.com##body > *:not(#page):remove()
 xanimu.com###page > *:not(#wrapper-navbar,#single-wrapper,.header,#content):remove()
 xanimu.com###comment_link,.hero,[ID*="-boxes-mobile"],.vid-report,meta,script,#box-txtovka-con,#menu-item-25725~*,.mobile-menu-all>ul~*,[href="/donate/"],.vid-comments:remove()
 
-
+# Markdown 
 ! 2024-04-02 视频-成人-3D：SFM 编译
 sfmcompile.club##.mashsb-box,.g1-footer,#primary~*,#comments,.snax-post-container,#mashsb-js-extra
 ! 分享，footer,footer
@@ -277,7 +277,7 @@ the-joi-database.com###report-video,footer,.advertisement :remove()
 
 
 
-#======动漫-番剧===========================================================================
+#======动漫-番剧========
 
 hentaicity.com##.ads,.ads-mobile,footer,.webcam-link,[title="Live Cams"],[title="Games"],[title="Dating"],._1024plus:remove()
 
@@ -335,7 +335,7 @@ h-ciyuan.com##.has-text-color:has-text(/下载链接|压缩包密码/):remove()
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=hanime1.me
 hanime1.me##[class*="footer"]
 
-#======ASMR===========================================================================
+#======ASMR#======
 
 ! 2024-05-08  音频-成人-ASMR：Hentai ASMR
 hentaiasmr.moe##footer,.pagination~*,.top-bar,#menu-item-56521,#menu-item-78676,.happy-under-player-mobile,.comments-container,#delayed-ad,[class^="ad-"],[class$="ads"]:remove()

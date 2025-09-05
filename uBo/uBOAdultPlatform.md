@@ -29,7 +29,7 @@ uaa004.com,uaa.com##.hide:not(.login_box,.item_menu_box,.menu_box):remove()
 uaa004.com,uaa.com##a:remove-attr(target)
 
 
-! 2024年5月6日  论坛:草榴社區
+! 2024年5月6日  论坛:草榴社區 
 ! t66y.com##+js(setTimeout-defuser, tpcHt0ml, 1006)
 ! t66y.com##+js(setTimeout-defuser, adhtml, 10006)
 t66y.com##center.gray,#header,#footer,form,.tips,.tiptop,.tipad,#main>div.t3+div.t,a[name="#tpc"]+div~*,tr.do_not_catch>th[rowspan="2"],#conttpc~*,[rel*="icon"],[href="post.php?fid=7"],.ftad-ct:remove()

@@ -1,4 +1,7 @@
-#======漫画===========================================================================
+[TOC]
+
+
+### 漫画
 
 ! 2024-05-06 漫画-成人-韩漫：禁漫大王
 jmdw6.org,jmdw7.com##footer,body>center,.logo:remove()
@@ -120,7 +123,7 @@ tsumino.com###tab-comments,#liComments,[href="/chat"],[href="/about"]:remove()
 18comic.vip##:matches-path("/movie/"):xpath(/html/body/div[10]/div[5]/div[6])
 18comic.vip##:xpath(/html/body/div[10]/div[7]/div[12])
 
-#======图片===========================================================================
+### 图片
 
 ! 2025年8月11日 图片：cosplay
 cosplaytele.com##.small-text-center,[href="https://shorturl.at/bIMCS"],.page-title
@@ -251,7 +254,7 @@ pixiv.net##.gamwqe:remove()
 
 
 
-#======小说===========================================================================
+### 小说
 69story.com##table:remove-class(table)
 69story.com###primary:style(margin-bottom:100px !important;)
 69story.com##[rel="icon"],[rel="dns-prefetch"],footer,.site-branding,.nav-tabs,.panel-primary,#primary>#main>table~div.row,#secondary>#text-2
