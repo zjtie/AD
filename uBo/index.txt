@@ -2,7 +2,6 @@
 ! Title: Pixel uBlock Origin
 ! Version: 1.0
 
-
 # Homepage:  该过滤规则列表 首页
 # Title：    该过滤规则列表 标题
 # Expires：  该过滤规则列表 更新间隔，以减少服务器负载
