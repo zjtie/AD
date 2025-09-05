@@ -74,6 +74,8 @@
 #常用于通过收集用户设备的各种信息（如浏览器插件、屏幕分辨率、字体列表等）来生成一个独特的用户指纹
 
 
+! sex8.cc##+js(set-attr, video, controls)
+! 显示视频控件
 
 
 !#include uBoroutine.txt
@@ -82,5 +84,3 @@
 !#include uBOAdultPic.txt
 
 
-! sex8.cc##+js(set-attr, video, controls)
-! 显示视频控件
