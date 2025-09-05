@@ -11,7 +11,7 @@
 *##+js(fingerprint2.js)
 # FingerprintJS2 第三方库，设备指纹，用于跟踪，识别唯一用户
 
-! ===全域广告网址===================================================
+# ===全域广告网址===================================================
 ||ad-nex.com^
 ||adapf.com^
 ||adtng.com^
@@ -26,20 +26,20 @@
 ||exosrv.com^
 ||exoclick.com^
 ||pagead2.googlesyndication.com^
-! ===全域广告网址===================================================
+# ===全域广告网址===================================================
 
 
-!==URL净化===跟踪参数===============================================
+# ==URL净化===跟踪参数===============================================
 ||www.xiaohongshu.com/*$removeparam=/^(app_platform|ignoreEngage|app_version|share_from_user_hidden|xsec_source|type|author_share|xhsshare|shareRedId|apptime|share_id|appuid)/
 ||weixin.qq.com*$removeparam=scene
 ||youtube.com^$removeparam=/^(pp|si)/
 ||www.pixiv.net^$removeparam=/^(utm_|st_|ref=|via=)/
 ||douyinpic.com^$removeparam=/^(from)/
 ! ||bilibili.com$removeparam=/^(bvid)/
-!==URL净化===跟踪参数===============================================
+# ==URL净化===跟踪参数===============================================
 
 
-!== PCDN ==============================================
+# == PCDN ==============================================
 ＃  拦截PCDN，利用用户闲置网络资源（如带宽）来分发内容的技术
 #   节省上传流量,不影响下载速度
 ||*pcdn.*^$important
@@ -50,13 +50,13 @@
 ||cn-*.bilivideo.com
 #  哔哩哔哩技术文章: https://itdong.me/bilibili_pcdn/
 #  nodeseek技术文章:  https://www.nodeseek.com/post-204579-1
-!== PCDN ==============================================
+# == PCDN ==============================================
 
 
 
-!== 显示视频控件 ==============================================
+# == 显示视频控件 ==============================================
 ! sex8.cc##+js(set-attr, video, controls)
-!== 显示视频控件 ==============================================
+# == 显示视频控件 ==============================================
 
 
 
@@ -66,4 +66,8 @@
 !#include uBOAdultPic.txt
 !#include uBoTelegram.txt
 !#include uBoOther.txt
+
+
+
+
 
