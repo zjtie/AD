@@ -249,22 +249,6 @@ pixiv.net##.dDAgDy>div,.gap-4:remove()
 pixiv.net##.gamwqe:remove()
 
 
-! pixiv.net##noscript,iframe,next-route-announcer:remove()
-! pixiv.net##+js(nosiif)
-! pixiv.net##:xpath(/html/body/div[1]/div/div[2]/div[3]/div/div[1]/div/div[3]/div[1]/div[1])
-! pixiv.net##[class*="grid-rows-"],.sticky.bottom-0,.gamwqe,.charcoal-token,.premium-lead-t-footer:remove()
-! !======================网页端
-! pixiv.net##:xpath(/html/body/div[5]/div/div/div[2]/div/div/div[1]/a[2])
-! pixiv.net##:xpath(/html/body/div[5]/div/div/div[2]/div/div/div[3]/div)
-! pixiv.net##:xpath(/html/body/div[5]/div/div/div[2]/div/div/div[3]/ul[3])
-! pixiv.net##:xpath(/html/body/div[5]/div/div/div[2]/div/div/div[3]/ul[9])
-! pixiv.net##:xpath(/html/body/div[5]/div/div/div[2]/div/div/div[3]/ul[10])
-! pixiv.net##:xpath(/html/body/div[5]/div/div/div[2]/div/div/div[3]/ul[11]/li[2])
-! pixiv.net##:xpath(/html/body/div[5]/div/div/div[2]/div/div/div[3]/ul[11]/li[5])
-! pixiv.net##:xpath(/html/body/div[5]/div/div/div[2]/div/div/div[3]/ul[12])
-! pixiv.net##:xpath(/html/body/div[5]/div/div/div[2]/div/div/div[3]/ul[11]/li[3])
-! !======================移动端
-
 
 
 #======小说===========================================================================
