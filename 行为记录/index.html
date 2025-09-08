@@ -1,0 +1,410 @@
+  <!DOCTYPE html>
+<html lang="zh-CN" class="h-full">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <title>行为记录 · Behavior Journal</title>
+  <link rel="stylesheet" href="assets/style.css">
+  <!--网页样式文件 -->
+
+  <!-- Tailwind CDN（开发/本地预览足够，正式可改 CLI） -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: { ink: { 800:'#222326', 900:'#17181a' } },
+          boxShadow: { soft: '0 1px 2px rgba(0,0,0,0.08), 0 8px 24px rgba(0,0,0,0.12)' }
+        }
+      }
+    };
+  </script>
+  <style>
+    ::selection{ background:#c7d2fe; color:#111827; }
+    .thin-scrollbar::-webkit-scrollbar{ width:8px; height:8px; }
+    .thin-scrollbar::-webkit-scrollbar-thumb{ background:rgba(100,116,139,.45); border-radius:9999px; }
+    .dark .thin-scrollbar::-webkit-scrollbar-thumb{ background:rgba(148,163,184,.35); }
+    .frost { backdrop-filter: saturate(140%) blur(10px); -webkit-backdrop-filter: saturate(140%) blur(10px); }
+    /* 可选 blur 值：✨ 磨砂模糊效果（可选增强）
+    - blur(6px)：轻微模糊
+    - blur(10px)：标准模糊 ✅ 推荐
+    - blur(14px)：增强磨砂
+    - blur(20px)：极致模糊
+  */
+    .glass { background: rgba(255,255,255,0.95); }
+    /* 可选值：🌤 浅色模式下的磨砂面板背景（如表单、卡片、弹窗）
+    - 0.60：通透磨砂（默认）
+    - 0.75：适中磨砂
+    - 0.85：偏实色磨砂 ✅ 推荐
+    - 1.00：纯白不透明
+    */
+    .glass-dark { background: rgba(23,24,26,0.95); }
+    /* 可选值：🌑 暗色模式下的磨砂面板背景
+        - 0.50：通透暗黑（默认）
+        - 0.65：适中暗黑
+        - 0.75：沉稳暗黑 ✅ 推荐
+        - 0.90：接近纯黑
+      */
+    .card-actions{ opacity:0; transition:opacity .15s ease; }
+    .record-card:hover .card-actions, .record-card:focus-within .card-actions{ opacity:1; }
+    .btn { @apply px-3 py-1.5 text-sm rounded-lg border border-white/60 dark:border-white/10 glass dark:glass-dark hover:bg-white/70 dark:hover:bg-white/10 text-zinc-800 dark:text-zinc-100; }
+    .btn-primary { @apply px-3 py-1.5 text-sm rounded-lg bg-zinc-900/90 text-white dark:bg-white/90 dark:text-zinc-900 hover:opacity-90 shadow-soft; }
+    .btn-icon { @apply p-2 rounded-lg border border-white/60 dark:border-white/10 glass dark:glass-dark hover:bg-white/70 dark:hover:bg-white/10; }
+    .btn-sm { @apply px-2 py-1 text-xs rounded border border-white/60 dark:border-white/10 glass dark:glass-dark hover:bg-white/70 dark:hover:bg-white/10; }
+  </style>
+
+  <!-- Vue 3 -->
+  <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
+
+  <!-- Favicon 占位避免 404 -->
+  <link rel="icon" href="data:,">
+</head>
+
+<body class="h-full bg-[url('https://images.unsplash.com/photo-1496307042754-b4aa456c4a2d?q=80&w=1600&auto=format&fit=crop')] bg-cover bg-fixed">
+  <!-- 背景图片 -->
+
+  <div id="app" class="min-h-full flex flex-col bg-white/60 dark:bg-black/50 frost">
+
+    <!-- 顶栏（浮动面板入口） -->
+    <header class="sticky top-0 z-30 border-b border-white/40 dark:border-white/10 frost">
+      <div class="mx-auto max-w-[1400px] px-3 sm:px-6 lg:px-8 py-3 flex items-center gap-3">
+        <div class="flex items-center gap-2">
+          <div class="h-8 w-8 rounded-lg glass dark:glass-dark flex items-center justify-center shadow-soft border border-white/60 dark:border-white/10">
+            <span class="text-sm font-bold text-zinc-800 dark:text-zinc-100">BJ</span>
+          </div>
+          <h1 class="text-lg font-semibold tracking-tight text-zinc-800 dark:text-zinc-100">行为记录</h1>
+        </div>
+
+        <div class="ml-auto flex flex-wrap items-center gap-2">
+          <!-- 浮动面板触发按钮 -->
+          <button @click="ui.showDataPanel = !ui.showDataPanel" class="btn">数据工具</button>
+          <button @click="ui.showCalendarPanel = !ui.showCalendarPanel" class="btn">筛选 / 日历</button>
+
+          <button @click="toggleDark()" class="btn-icon" :title="settings.dark ? '切换为亮色' : '切换为暗色'">
+            <svg v-if="!settings.dark" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-zinc-800" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 3v2m0 14v2m9-9h-2M5 12H3m15.364 6.364-1.414-1.414M7.05 7.05 5.636 5.636m12.728 0L16.95 7.05M7.05 16.95l-1.414 1.414M16 12a4 4 0 1 1-8 0 4 0 0 1 8 0z" />
+            </svg>
+            <svg v-else xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-zinc-100" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M21.64 13.64A9 9 0 1 1 10.36 2.36a7 7 0 1 0 11.28 11.28z"/>
+            </svg>
+          </button>
+          <button @click="syncNow" class="btn-primary">同步</button>
+          <button @click="ui.showSettings = true" class="btn">设置</button>
+        </div>
+      </div>
+    </header>
+
+    <!-- 浮动面板：数据工具 -->
+    <div v-show="ui.showDataPanel" class="fixed top-14 right-3 z-40 w-[min(92vw,480px)]">
+      <div class="rounded-2xl glass dark:glass-dark border border-white/60 dark:border-white/10 p-3 shadow-soft">
+        <div class="flex items-center justify-between mb-2">
+          <div class="text-sm font-medium text-zinc-800 dark:text-zinc-100">数据操作</div>
+          <button class="btn-sm" @click="ui.showDataPanel=false">关闭</button>
+        </div>
+        <div class="grid grid-cols-2 gap-2">
+          <button @click="exportJSON" class="btn">导出 JSON</button>
+          <button @click="exportCSV" class="btn">导出 CSV</button>
+          <input ref="importInput" type="file" accept=".json" class="hidden" @change="importJSON">
+          <button @click="$refs.importInput.click()" class="btn">导入 JSON</button>
+          <button @click="backupAll" class="btn">备份</button>
+          <input ref="restoreInput" type="file" accept=".bjbak,.json" class="hidden" @change="restoreBackup">
+          <button @click="$refs.restoreInput.click()" class="btn">恢复</button>
+          <button @click="clearAll" class="btn text-red-600 border-red-300">清空</button>
+        </div>
+        <div class="mt-2 text-xs text-zinc-700 dark:text-zinc-300">
+          提示：CSV 含 UTF-8 BOM，支持中文；JSON 导入支持 \uXXXX 解码。
+        </div>
+      </div>
+    </div>
+
+    <!-- 浮动面板：筛选 + 日历（小视图） -->
+    <div v-show="ui.showCalendarPanel" class="fixed top-14 left-1/2 -translate-x-1/2 z-40 w-[min(96vw,820px)]">
+      <div class="rounded-2xl glass dark:glass-dark border border-white/60 dark:border-white/10 p-3 shadow-soft">
+        <div class="flex items-center justify-between">
+          <div class="text-sm font-medium text-zinc-800 dark:text-zinc-100">筛选 / 日历</div>
+          <button class="btn-sm" @click="ui.showCalendarPanel=false">关闭</button>
+        </div>
+        <div class="mt-2 grid grid-cols-1 md:grid-cols-4 gap-2">
+          <div class="flex items-center gap-2">
+            <label class="text-xs text-zinc-700 dark:text-zinc-300">开始</label>
+            <input type="date" v-model="filters.startDate" class="w-full rounded-lg glass dark:glass-dark border border-white/60 dark:border-white/10 px-2 py-1.5 text-sm text-zinc-800 dark:text-zinc-100">
+          </div>
+          <div class="flex items-center gap-2">
+            <label class="text-xs text-zinc-700 dark:text-zinc-300">结束</label>
+            <input type="date" v-model="filters.endDate" class="w-full rounded-lg glass dark:glass-dark border border-white/60 dark:border-white/10 px-2 py-1.5 text-sm text-zinc-800 dark:text-zinc-100">
+          </div>
+          <div>
+            <input placeholder="行为类型" v-model.trim="filters.type" class="w-full rounded-lg glass dark:glass-dark border border-white/60 dark:border-white/10 px-2 py-1.5 text-sm text-zinc-800 dark:text-zinc-100">
+          </div>
+          <div class="flex gap-2">
+            <input placeholder="标签关键词（逗号分隔）" v-model.trim="filters.tagKeywords" class="flex-1 rounded-lg glass dark:glass-dark border border-white/60 dark:border-white/10 px-2 py-1.5 text-sm text-zinc-800 dark:text-zinc-100">
+            <button @click="applyFilters" class="btn-primary">筛选</button>
+          </div>
+        </div>
+
+        <!-- 日历：小视图，自适应 -->
+        <div class="mt-3 rounded-xl p-3 glass dark:glass-dark border border-white/60 dark:border-white/10">
+          <div class="flex justify-between items-center mb-2">
+            <div class="text-sm font-medium text-zinc-800 dark:text-zinc-100">{{ calendar.year }} 年 {{ calendar.month+1 }} 月</div>
+            <div class="flex gap-1">
+              <button @click="calendarPrev" class="btn-sm">←</button>
+              <button @click="calendarNext" class="btn-sm">→</button>
+              <button @click="calendarToday" class="btn-sm">今天</button>
+            </div>
+          </div>
+          <div class="grid grid-cols-7 gap-1 text-xs text-zinc-600 dark:text-zinc-300">
+            <div class="py-1 text-center">一</div><div class="py-1 text-center">二</div><div class="py-1 text-center">三</div>
+            <div class="py-1 text-center">四</div><div class="py-1 text-center">五</div><div class="py-1 text-center">六</div><div class="py-1 text-center">日</div>
+          </div>
+          <div class="grid grid-cols-7 gap-1 mt-1">
+            <button v-for="cell in calendar.cells" :key="cell.key"
+                    @click="selectCalendarDay(cell)"
+                    :class="[
+                      'aspect-square rounded-lg border text-sm flex flex-col items-center justify-center relative',
+                      'hover:bg-white/60 dark:hover:bg-white/10',
+                      cell.out ? 'opacity-40' : '',
+                      cell.selected ? 'ring-2 ring-blue-400/70' : '',
+                      'glass dark:glass-dark border-white/60 dark:border-white/10'
+                    ]">
+              <span class="text-zinc-900 dark:text-zinc-100">{{ cell.day }}</span>
+              <span v-if="cell.count>0" class="absolute bottom-1.5 inline-flex items-center justify-center text-[10px] px-1.5 py-0.5 rounded-full bg-zinc-900/90 text-white dark:bg-white/90 dark:text-zinc-900">
+                {{ cell.count }}
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 主体 -->
+    <main class="mx-auto max-w-[1400px] w-full flex-1 px-3 sm:px-6 lg:px-8 py-6 grid grid-cols-1 xl:grid-cols-2 gap-6">
+
+      <!-- 左：表单 -->
+      <section class="space-y-4">
+        <div class="rounded-2xl glass dark:glass-dark border border-white/60 dark:border-white/10 overflow-hidden shadow-soft">
+          <!-- 组A -->
+          <div class="p-4 sm:p-6 bg-white/50 dark:bg-black/30">
+            <div class="grid grid-cols-3 gap-2 sm:gap-3">
+              <div class="flex items-center gap-2 min-w-0">
+                <button type="button" class="text-xs text-zinc-600 dark:text-zinc-300 select-none" @click="fillNow('start')">开始</button>
+                <input type="time" v-model="form.startTime" @change="recomputeDuration" class="w-full rounded-lg glass dark:glass-dark border border-white/60 dark:border-white/10 px-2 py-2 text-zinc-800 dark:text-zinc-100">
+              </div>
+              <div class="flex items-center gap-2 min-w-0">
+                <button type="button" class="text-xs text-zinc-600 dark:text-zinc-300 select-none" @click="fillNow('end')">结束</button>
+                <input type="time" v-model="form.endTime" @change="recomputeDuration" class="w-full rounded-lg glass dark:glass-dark border border-white/60 dark:border-white/10 px-2 py-2 text-zinc-800 dark:text-zinc-100">
+              </div>
+              <div class="flex items-center gap-2 min-w-0">
+                <span class="text-xs text-zinc-600 dark:text-zinc-300">耗时</span>
+                <input type="text" :value="humanDurationText" readonly class="w-full rounded-lg glass dark:glass-dark border border-white/60 dark:border-white/10 px-2 py-2 text-zinc-800 dark:text-zinc-100">
+              </div>
+            </div>
+
+            <div class="grid grid-cols-2 gap-2 sm:gap-3 mt-3">
+              <div>
+                <label class="text-xs text-zinc-600 dark:text-zinc-300">行为类型</label>
+                <select v-model="form.type" class="mt-1 w-full rounded-lg glass dark:glass-dark border border-white/60 dark:border-white/10 px-2 py-2 text-zinc-800 dark:text-zinc-100">
+                  <option>学习</option><option>工作</option><option>娱乐</option><option>反思</option>
+                </select>
+              </div>
+              <div>
+                <label class="text-xs text-zinc-600 dark:text-zinc-300">标签（逗号分隔，自动补全）</label>
+                <input v-model="form.tagsInput" @input="onTagsInput" list="tag-suggest" placeholder="如：英语, 阅读"
+                       class="mt-1 w-full rounded-lg glass dark:glass-dark border border-white/60 dark:border-white/10 px-2 py-2 text-zinc-800 dark:text-zinc-100">
+                <datalist id="tag-suggest"><option v-for="t in tagSuggestions" :key="t" :value="t"></option></datalist>
+              </div>
+            </div>
+
+            <div class="grid grid-cols-2 gap-2 sm:gap-3 mt-3">
+              <div>
+                <label class="text-xs text-zinc-600 dark:text-zinc-300">日期</label>
+                <input type="date" v-model="form.date" class="mt-1 w-full rounded-lg glass dark:glass-dark border border-white/60 dark:border-white/10 px-2 py-2 text-zinc-800 dark:text-zinc-100">
+              </div>
+              <div class="flex items-end">
+                <button @click="ui.showEventModal = true" class="w-full rounded-lg glass dark:glass-dark border border-white/60 dark:border-white/10 px-2 py-2 hover:bg-white/60 dark:hover:bg-white/10 text-left">
+                  <div class="text-xs text-zinc-600 dark:text-zinc-300">事件信息</div>
+                  <div class="text-sm truncate text-zinc-800 dark:text-zinc-100">
+                    <span v-if="form.event.main || form.event.goal">{{ form.event.main || '—' }} · {{ form.event.goal || '—' }}</span>
+                    <span v-else class="text-zinc-400">点击录入（标记 / 目标 / 量化 / 原因）</span>
+                  </div>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- 组B -->
+          <div class="p-4 sm:p-6 bg-white/60 dark:bg-black/35">
+            <div>
+              <div class="flex items-center justify-between">
+                <label class="text-xs text-zinc-600 dark:text-zinc-300">完成度</label>
+                <span class="text-sm font-medium text-zinc-800 dark:text-zinc-100">{{ form.progress }}%</span>
+              </div>
+              <input type="range" min="0" max="100" v-model.number="form.progress" class="w-full mt-2">
+            </div>
+
+            <div class="mt-4">
+              <label class="text-xs text-zinc-600 dark:text-zinc-300">回顾总结</label>
+              <textarea v-model="form.review" rows="5" placeholder="记录关键过程、反思点、情绪波动等（支持 Markdown 简单语法）"
+                        class="mt-1 w-full rounded-lg glass dark:glass-dark border border-white/60 dark:border-white/10 px-3 py-2 text-zinc-800 dark:text-zinc-100"></textarea>
+            </div>
+
+            <div class="mt-4">
+              <button @click="ui.showImage = !ui.showImage" class="btn"> {{ ui.showImage ? '收起图片上传' : '展开图片上传' }} </button>
+              <div v-show="ui.showImage" class="mt-3">
+                <div @dragover.prevent="onDragOver" @dragleave.prevent="onDragLeave" @drop.prevent="onDropFiles"
+                     :class="['rounded-xl border border-dashed p-4 text-sm text-zinc-700 dark:text-zinc-300', drag.isOver ? 'border-blue-400' : 'border-white/60 dark:border-white/10', 'glass dark:glass-dark']">
+                  支持点击选择与拖拽上传
+                  <input ref="imageInput" type="file" accept="image/*" multiple class="hidden" @change="onSelectFiles">
+                  <button @click="$refs.imageInput.click()" class="ml-2 btn-sm">选择图片</button>
+                </div>
+
+                <div v-if="form.images.length" class="mt-3 grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-3">
+                  <div v-for="(img,idx) in form.images" :key="img.localId" class="relative group">
+                    <img :src="img.preview" class="w-full h-24 object-cover rounded-lg border border-white/60 dark:border-white/10 glass dark:glass-dark cursor-zoom-in" @click="openLightbox(img.preview)">
+                    <div class="absolute inset-0 rounded-lg bg-black/0 group-hover:bg-black/35 transition flex items-center justify-center gap-2 opacity-0 group-hover:opacity-100">
+                      <button @click="removeImage(idx)" class="px-2 py-1 text-xs rounded bg-white/90 text-zinc-900">删除</button>
+                      <button @click="replaceImage(idx)" class="px-2 py-1 text-xs rounded bg-white/90 text-zinc-900">替换</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="mt-6 flex flex-wrap gap-3">
+              <button @click="submitRecord" class="btn-primary">保存（Ctrl+Enter）</button>
+              <button @click="resetForm" class="btn">重置</button>
+              <div class="ml-auto flex items-center gap-2 text-xs text-zinc-700 dark:text-zinc-300">
+                <span class="kbd">Ctrl</span> + <span class="kbd">Enter</span> 提交
+                <span class="mx-2">|</span>
+                <span class="kbd">Esc</span> 关闭弹窗
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 右：记录列表 -->
+      <section class="space-y-4">
+        <!-- 概览 -->
+        <div class="rounded-2xl glass dark:glass-dark border border-white/60 dark:border-white/10 p-4 sm:p-6 shadow-soft">
+          <div class="grid grid-cols-2 sm:grid-cols-4 gap-4">
+            <div><div class="text-xs text-zinc-700 dark:text-zinc-300">记录总数</div><div class="text-2xl font-semibold mt-1 text-zinc-900 dark:text-zinc-100">{{ records.length }}</div></div>
+            <div><div class="text-xs text-zinc-700 dark:text-zinc-300">本周耗时</div><div class="text-2xl font-semibold mt-1 text-zinc-900 dark:text-zinc-100">{{ weeklyHours }}</div></div>
+            <div><div class="text-xs text-zinc-700 dark:text-zinc-300">标签数</div><div class="text-2xl font-semibold mt-1 text-zinc-900 dark:text-zinc-100">{{ uniqueTags.size }}</div></div>
+            <div><div class="text-xs text-zinc-700 dark:text-zinc-300">上次同步</div><div class="text-sm mt-1 truncate text-zinc-900 dark:text-zinc-100">{{ sync.lastSync ? formatDateTime(sync.lastSync) : '—' }}</div></div>
+          </div>
+        </div>
+
+        <!-- 列表 -->
+        <div class="rounded-2xl glass dark:glass-dark border border-white/60 dark:border-white/10 p-2 sm:p-4 shadow-soft">
+          <div v-if="filteredRecords.length === 0" class="p-6 text-sm text-zinc-700 dark:text-zinc-300 text-center">暂无记录</div>
+
+          <article v-for="r in filteredRecords" :key="r.id"
+                   class="record-card rounded-xl glass dark:glass-dark border border-white/60 dark:border-white/10 p-3 sm:p-4 mb-2 focus-within:ring-2 ring-white/60 dark:ring-white/20">
+            <!-- 第一行 -->
+            <div class="flex flex-wrap items-center gap-x-3 gap-y-1 cursor-pointer" @click="r._expanded = !r._expanded">
+              <div class="text-sm text-zinc-700 dark:text-zinc-300">{{ r.date }}</div>
+              <div class="text-sm text-zinc-900 dark:text-zinc-100">{{ r.startTime }} - {{ r.endTime }}</div>
+              <div class="text-sm text-zinc-500">·</div>
+              <div class="text-sm text-zinc-900 dark:text-zinc-100">{{ durationText(r.durationMs) }}</div>
+              <div class="text-sm text-zinc-500">·</div>
+              <div class="text-sm px-2 py-0.5 rounded border border-white/60 dark:border-white/10 glass dark:glass-dark text-zinc-900 dark:text-zinc-100">{{ r.type }}</div>
+              <div class="text-sm text-zinc-500">·</div>
+              <div class="text-sm text-zinc-900 dark:text-zinc-100">完成度 {{ r.progress }}%</div>
+
+              <div class="ml-auto flex items-center gap-2 card-actions">
+                <button @click.stop="startEdit(r)" class="btn-sm">编辑</button>
+                <button @click.stop="deleteRecord(r.id)" class="btn-sm text-red-600 border-red-300">删除</button>
+                <button @click.stop="r._expanded = !r._expanded" class="btn-sm">{{ r._expanded ? '收起' : '展开' }}</button>
+              </div>
+            </div>
+
+            <!-- 第二行：事件预览（8个字独立样式） -->
+            <div class="mt-2 text-sm space-y-1">
+              <div v-if="r.event?.main"><span class="font-semibold text-zinc-600 dark:text-zinc-300">标记：</span><span class="text-zinc-900 dark:text-zinc-100">{{ r.event.main }}</span></div>
+              <div v-if="r.event?.goal"><span class="font-semibold text-zinc-600 dark:text-zinc-300">目标：</span><span class="text-zinc-900 dark:text-zinc-100">{{ r.event.goal }}</span></div>
+              <div v-if="r.event?.metric"><span class="font-semibold text-zinc-600 dark:text-zinc-300">量化：</span><span class="text-zinc-900 dark:text-zinc-100">{{ r.event.metric }}</span></div>
+              <div v-if="r.event?.reason"><span class="font-semibold text-zinc-600 dark:text-zinc-300">原因：</span><span class="text-zinc-900 dark:text-zinc-100">{{ r.event.reason }}</span></div>
+            </div>
+
+            <!-- 展开详情 -->
+            <div v-show="r._expanded" class="mt-3 grid grid-cols-1 gap-3">
+              <div v-if="r.tags?.length" class="flex flex-wrap gap-1">
+                <span v-for="t in r.tags" :key="t" class="text-xs px-2 py-0.5 rounded-full border border-white/60 dark:border-white/10 glass dark:glass-dark text-zinc-800 dark:text-zinc-100">{{ t }}</span>
+              </div>
+
+              <div v-if="r.review" class="prose prose-zinc dark:prose-invert max-w-none text-sm">
+                <div class="text-zinc-600 dark:text-zinc-300">回顾总结</div>
+                <div class="mt-1 whitespace-pre-wrap text-zinc-900 dark:text-zinc-100">{{ r.review }}</div>
+              </div>
+
+              <div v-if="r.images && r.images.length" class="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-3">
+                <img v-for="img in r.images" :key="img.id" :src="img.preview || img.url"
+                     class="w-full h-24 object-cover rounded-lg border border-white/60 dark:border-white/10 glass dark:glass-dark cursor-zoom-in"
+                     @click="openLightbox(img.preview || img.url)" />
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <!-- 事件弹窗 -->
+    <div v-show="ui.showEventModal" class="fixed inset-0 z-40 flex items-center justify-center p-4" @keydown.esc="ui.showEventModal=false">
+      <div class="absolute inset-0 bg-black/40" @click="ui.showEventModal=false"></div>
+      <div class="relative w-full max-w-lg rounded-2xl glass dark:glass-dark border border-white/60 dark:border-white/10 p-4 sm:p-6 shadow-soft">
+        <div class="flex items-center justify-between">
+          <h3 class="text-lg font-semibold text-zinc-900 dark:text-zinc-100">事件信息</h3>
+          <button @click="ui.showEventModal=false" class="btn-sm">关闭（Esc）</button>
+        </div>
+        <div class="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-3">
+          <div><label class="text-sm text-zinc-600 dark:text-zinc-300">标记（主分类）</label><input v-model="form.event.main" class="mt-1 w-full rounded-lg glass dark:glass-dark border border-white/60 dark:border-white/10 px-3 py-2 text-zinc-900 dark:text-zinc-100"></div>
+          <div><label class="text-sm text-zinc-600 dark:text-zinc-300">目标（行为目的）</label><input v-model="form.event.goal" class="mt-1 w-full rounded-lg glass dark:glass-dark border border-white/60 dark:border-white/10 px-3 py-2 text-zinc-900 dark:text-zinc-100"></div>
+          <div><label class="text-sm text-zinc-600 dark:text-zinc-300">量化（可衡量指标）</label><input v-model="form.event.metric" class="mt-1 w-full rounded-lg glass dark:glass-dark border border-white/60 dark:border-white/10 px-3 py-2 text-zinc-900 dark:text-zinc-100"></div>
+          <div><label class="text-sm text-zinc-600 dark:text-zinc-300">原因（动机或背景）</label><input v-model="form.event.reason" class="mt-1 w-full rounded-lg glass dark:glass-dark border border-white/60 dark:border-white/10 px-3 py-2 text-zinc-900 dark:text-zinc-100"></div>
+        </div>
+        <div class="mt-4 flex items-center justify-end gap-2">
+          <button @click="ui.showEventModal=false" class="btn">完成</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- 设置弹窗（WebDAV） -->
+    <div v-show="ui.showSettings" class="fixed inset-0 z-40 flex items-center justify-center p-4" @keydown.esc="ui.showSettings=false">
+      <div class="absolute inset-0 bg-black/40" @click="ui.showSettings=false"></div>
+      <div class="relative w-full max-w-2xl rounded-2xl glass dark:glass-dark border border-white/60 dark:border-white/10 p-4 sm:p-6 shadow-soft">
+        <div class="flex items-center justify-between">
+          <h3 class="text-lg font-semibold text-zinc-900 dark:text-zinc-100">云同步设置（WebDAV · AList）</h3>
+          <button @click="ui.showSettings=false" class="btn-sm">关闭</button>
+        </div>
+        <div class="mt-4 grid grid-cols-1 md:grid-cols-2 gap-3">
+          <div><label class="text-sm text-zinc-600 dark:text-zinc-300">WebDAV 地址</label><input v-model="settings.webdav.url" placeholder="https://your-alist.example/webdav" class="mt-1 w-full rounded-lg glass dark:glass-dark border border-white/60 dark:border-white/10 px-3 py-2 text-zinc-900 dark:text-zinc-100"></div>
+          <div><label class="text-sm text-zinc-600 dark:text-zinc-300">根目录</label><input v-model="settings.webdav.root" placeholder="/behavior-journal/" class="mt-1 w-full rounded-lg glass dark:glass-dark border border-white/60 dark:border-white/10 px-3 py-2 text-zinc-900 dark:text-zinc-100"></div>
+          <div><label class="text-sm text-zinc-600 dark:text-zinc-300">用户名</label><input v-model="settings.webdav.username" class="mt-1 w-full rounded-lg glass dark:glass-dark border border-white/60 dark:border-white/10 px-3 py-2 text-zinc-900 dark:text-zinc-100"></div>
+          <div><label class="text-sm text-zinc-600 dark:text-zinc-300">密码或 Token</label><input v-model="settings.webdav.password" type="password" class="mt-1 w-full rounded-lg glass dark:glass-dark border border-white/60 dark:border-white/10 px-3 py-2 text-zinc-900 dark:text-zinc-100"></div>
+          <div><label class="text-sm text-zinc-600 dark:text-zinc-300">设备标识（UUID）</label><input v-model="settings.deviceId" readonly class="mt-1 w-full rounded-lg bg-white/40 dark:bg-black/30 border border-white/60 dark:border-white/10 px-3 py-2 text-zinc-900 dark:text-zinc-100"></div>
+          <div><label class="text-sm text-zinc-600 dark:text-zinc-300">同步模式</label><select v-model="settings.syncMode" class="mt-1 w-full rounded-lg glass dark:glass-dark border border-white/60 dark:border-white/10 px-3 py-2 text-zinc-900 dark:text-zinc-100"><option value="manual">手动</option><option value="onSave">保存即同步</option><option value="interval">定时同步</option></select></div>
+          <div class="flex items-center gap-2 md:col-span-2">
+            <input id="remember" type="checkbox" v-model="settings.remember" class="rounded border-white/60 dark:border-white/10">
+            <label for="remember" class="text-sm text-zinc-700 dark:text-zinc-300">记住我（将凭据保存到 localStorage）</label>
+          </div>
+          <div><label class="text-sm text-zinc-600 dark:text-zinc-300">定时间隔（分钟）</label><input type="number" min="5" v-model.number="settings.intervalMinutes" class="mt-1 w-full rounded-lg glass dark:glass-dark border border-white/60 dark:border-white/10 px-3 py-2 text-zinc-900 dark:text-zinc-100"></div>
+        </div>
+        <div class="mt-4 flex items-center gap-2">
+          <button @click="testWebDAV" class="btn">测试连接</button>
+          <button @click="ui.showSettings=false" class="btn-primary">保存</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- 图片查看 Lightbox -->
+    <div v-show="lightbox.show" class="fixed inset-0 z-50 flex items-center justify-center bg-black/70" @click="closeLightbox">
+      <img :src="lightbox.src" class="max-w-[92vw] max-h-[92vh] rounded-xl border border-white/20 shadow-soft" @click.stop>
+    </div>
+
+  </div>
+
+  <script src="main.js"></script>
+  <script>(function(){ if(localStorage.getItem('bj.dark')==='1') document.documentElement.classList.add('dark'); })();</script>
+</body>
+</html>
