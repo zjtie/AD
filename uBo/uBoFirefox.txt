@@ -1,2 +1,9 @@
 ! Title: uBoFirefox Pixel
 ! Homepage: https://raw.githubusercontent.com/zjtie/AD/refs/heads/main/uBo/uBoFirefox.txt
+
+
+
+! NSFW  论坛  uaa
+uaa.com##^.banner_box,.shortcut_box,.divider,.foot_box,.note_box,.dizhi,.comment_btn:remove()
+uaa.com##^.head_menu_box > div:nth-of-type(5)~*:remove()
+uaa.com##^.menu_box > div:nth-of-type(4)~*:remove()
