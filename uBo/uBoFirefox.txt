@@ -1,2 +1,2 @@
 ! Title: uBoFirefox Pixel
-! Homepage: https://github.com/zjtie/AD
+! Homepage: https://raw.githubusercontent.com/zjtie/AD/refs/heads/main/uBo/uBoFirefox.txt
