@@ -2,6 +2,7 @@
 ! Homepage: https://github.com/zjtie/AD
 ! 修饰运算符：https://github.com/gorhill/uBlock/wiki/Procedural-cosmetic-filters
 
+
 ! 作用：节省流量  屏蔽使用 CDN/PCDN 内容交付/分发网络
 ! 右键->视频统计信息 查看视频域名信息
 ||stun.*^$important
@@ -9,7 +10,7 @@
 ! 全局禁用WebRTC
 ||mcdn.*.com^$important
 ||pcdn*.com^$important
-全局拦截PCDN
+! 全局拦截PCDN
 ||szbdyd.com^$important
 ! 使用CDN/PCDN 内容交付/分发网络 https://itdong.me/bilibili_pcdn/
 
@@ -389,6 +390,11 @@ uaa004.com,uaa.com##.hide:not(.login_box,.item_menu_box,.menu_box):remove()
 ! 注册，举报，评论，反馈
 uaa004.com,uaa.com##a:remove-attr(target)
 
+! uaa.com##^.banner_box,.shortcut_box,.divider,.foot_box,.note_box:remove()
+! uaa.com##^.head_menu_box > div:nth-of-type(5)~*:remove()
+! uaa.com##^.menu_box > div:nth-of-type(4)~*:remove()
+
+
 
 ! 2024年5月6日  论坛:草榴社區
 ! t66y.com##+js(setTimeout-defuser, tpcHt0ml, 1006)
@@ -592,24 +598,26 @@ wikixh.world,xhamster.com##[class^="WLTeD"],.thumb-list-mobile-item--widget,ul.r
 wikixh.world,xhamster.com##.Ela-vlKPunder-player-banner-wrapper,div[class^="container"][eid1],[data-role="video-controls"],.subscribe-block__info+div,a.button-cdbbb[href*="fanclub"]
 ! 播放页广告
 wikixh.world,xhamster.com##li.user-dropdown-item :has-text(/Hide Ads|帖子/)
+wikixh.world,xhamster.com##noscript:remove()
 
 
 ! 2024年5月5日 视频-成人-国际:PornHub
-||google-analytics.com/analytics.js$important,script,domain=pornhub.com
-||phncdn.com/iframe
-||hubt.pornhub.com/js/ht.js?site_
-||pornhub.com/_xa/ads?zone_id=
-||ci.phncdn.com/pics/skins/000/002/361/2361_large.png
-||cbbp1.com^$document
-||cbbp1.com^$popup
-pornhub.*##+js(aeld, DOMContentLoaded, [native code])
-! 在 DOM 加载完成后立即插入广告
-pornhub.com##body>*:not(.wrapper,#mobileHeader,#searchSection,#leftMenu,#mobileContainer,footer,link):remove() 
-pornhub.com##script,.abAlertShown,.modalWrapper,#welcome,#topRightProfileMenu,[class^="uploadBtnContent"],.communityNavigation~*,.sideAds,#under-player-comments:remove()
-! 脚本，禁用 Adblock，优惠，欢迎，登入，上传，播客，侧边栏广告，评论
-pornhub.com###welcomeVideoMsg,.adsbytrafficjunky,.js-pwaPrompt,[href="/gayporn"],.footerThumbs~*,#headerUserIcon,.becomePartnerWrapper:remove()
-pornhub.com###rateWrapper~*,.fanClubButtons:remove()
-pornhub.com###countryRedirectMessage
+! ||google-analytics.com/analytics.js$important,script,domain=pornhub.com
+! ||phncdn.com/iframe
+! ||hubt.pornhub.com/js/ht.js?site_
+! ||pornhub.com/_xa/ads?zone_id=
+! ||ci.phncdn.com/pics/skins/000/002/361/2361_large.png
+! ||cbbp1.com^$document
+! ||cbbp1.com^$popup
+! pornhub.*##+js(aeld, DOMContentLoaded, [native code])
+! ! 在 DOM 加载完成后立即插入广告
+! pornhub.com##body>*:not(.wrapper,#mobileHeader,#searchSection,#leftMenu,#mobileContainer,footer,link):remove() 
+! pornhub.com##script,.abAlertShown,.modalWrapper,#welcome,#topRightProfileMenu,[class^="uploadBtnContent"],.communityNavigation~*,.sideAds,#under-player-comments:remove()
+! ! 脚本，禁用 Adblock，优惠，欢迎，登入，上传，播客，侧边栏广告，评论
+! pornhub.com###welcomeVideoMsg,.adsbytrafficjunky,.js-pwaPrompt,[href="/gayporn"],.footerThumbs~*,#headerUserIcon,.becomePartnerWrapper:remove()
+! pornhub.com###rateWrapper~*,.fanClubButtons:remove()
+! pornhub.com###countryRedirectMessage
+! pornhub.com##^#footer,.footerContentWrapper:remove()
 
 
 
@@ -620,6 +628,7 @@ spankbang.com##.info>.user_uploads~*,.video-inline-ads:remove()
 
 ! 2023-08-20 视频-成人-国际:HQporner
 ||mydaddy.cc/ads/banner.js
+||fastporndelivery.hqporner.com/new/live_search/
 hqporner.com##li:has-text(/Live Sex|SEX GAMES/):remove()
 hqporner.com##script:has-text(/adtng/):remove()
 hqporner.com##.footer-bg,.adbg,.container-300x100,[href*="adtng"],.footerWrapper,[href*="reebr.com"],.color2,.color8,noscript:remove()
@@ -707,10 +716,11 @@ dnaav.com##[id^="dnaav_a"]:upward(1)
 ! ||vip5.3sybf.com/*/EmDVkYmM/2000kb/*.ts
 ! 在线视频采用 HLS（HTTP Live Streaming）协议
 
-91rb.net###tb_top_banner,.header-links,footer
+91rb.net###tb_top_banner,.header-links,footer,#index_tips,[href="https://rbsp.app"]
 91porna.com##.ad-dialog,.my-2,.text-mini.mb-3,footer,[class="text-sm md:text-default"]:remove()
 91porna.com##.index-content>div.flex,.bg-base1.text-default,.grid-cols-5,.aspect-h-2,[rel="external nofollow"]
 91porna.com###tip_modal,.relative.h-\[80px\].dx-pwa-dialog.z-50.hidden:remove()
+91porna.com##script:has-text(/css_assets_version|play_ads_url /):remove()
 
 
 ! 2025年8月29日 91视频
@@ -1012,6 +1022,23 @@ tsumino.com###tab-comments,#liComments,[href="/chat"],[href="/about"]:remove()
 
 
 ! ! 2024年4月25日 https://18comic.vip
+!#if env_firefox
+18comic.vip##^.top-nav,.div-bf-pv,.footer-container,img.img-circle,.group-notice,.footer-pad,[data-group="album_detail"],[data-group^="photo_center_games"],.spnotice,.btn-primary.hidden-xs,#sns,[title="AI chat"]:remove()
+18comic.vip##^.ph-bottom.switch-group.visible-xs.visible-sm > ul > li.ph-active:nth-child(1)
+! AI chat
+18comic.vip##^.ph-bottom.switch-group.visible-xs.visible-sm > ul > li.ph-active:nth-child(4)
+! 游戏
+! PC端：顶部导航，滚动图片
+18comic.vip##^[data-group^="all_albums"],[data-group^="album_related"],[data-group^="list"],[data-group^="content_page"],[data-group^="animeplay_bottom"],[data-group^="anime"],[data-group^="video"]:upward(2):remove()
+18comic.vip##^[data-group^="all_bottom"]:remove()
+18comic.vip##^.pull-none>*:not(#accordion-menu):remove()
+! 移动端：侧边栏
+18comic.vip##^#guide-modal:remove()
+! 移动端：登入窗口
+18comic.vip##.thewayhome:remove()
+18comic.vip###Comic_Top_Nav:remove-class(navbar)
+! ! 去除顶部空白部分的移除
+!#else
 ||18comic.vip/ajax/ad_check^
 ||18comic.vip/templates/frontend/airav/js/jquery.avs-0.2.js$important
 ||www.google-analytics.com^$domain=18comic.vip
@@ -1039,6 +1066,9 @@ tsumino.com###tab-comments,#liComments,[href="/chat"],[href="/about"]:remove()
 18comic.vip##:matches-path("/movie/"):xpath(/html/body/div[10]/div[5]/div[4])
 18comic.vip##:matches-path("/movie/"):xpath(/html/body/div[10]/div[5]/div[6])
 18comic.vip##:xpath(/html/body/div[10]/div[7]/div[12])
+!#endif
+
+
 
 #======图片===========================================================================
 
@@ -1525,3 +1555,12 @@ grok.com##div.upsell-small
 ||v2025.ddcdnbf.com/20250831/kjWXSONS/2000kb/hls/MceFtIBK.ts$xhr,domain=www.dnaav.com
 
 crushon.ai##[href*=".apk"],.relative.mb-4
+
+! 2025年9月4日 https://krx18.com
+krx18.com##footer,#menu-item-65625~*,#comments,[id^="dtw_socialbox"],.menu-item-has-children~*
+
+! 2025年9月4日 https://cat3movie.org
+cat3movie.org###footer
+cat3movie.org##.footer-credit
+cat3movie.org###goog-gt-tt
+
