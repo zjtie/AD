@@ -2,7 +2,7 @@
 ! Homepage: https://raw.githubusercontent.com/zjtie/AD/refs/heads/main/uBo/uBoFirefox.txt
 
 
-## NSFW论坛
+## NSFW 论坛
 #### NSFW  论坛  uaa
 uaa.com##^.banner_box,.shortcut_box,.divider,.foot_box,.note_box,.dizhi,.comment_btn:remove()
 uaa.com##^.head_menu_box > div:nth-of-type(5)~*:remove()
@@ -32,7 +32,7 @@ edfe8.vfdpvzzi.cc##^#h5-publish-button,.header,.van-nav-bar__title:remove()
 
 
 
-## NSFW漫画
+## NSFW 漫画
 #### NSFW  漫画  禁漫天堂
 18comic.vip##^.top-nav,.div-bf-pv,.footer-container,img.img-circle,.group-notice,.footer-pad,.spnotice,#sns:remove()
 18comic.vip##^[data-group="album_detail"],[data-group^="photo_center_games"],.btn-primary.hidden-xs,[title="AI chat"]:remove()
@@ -51,3 +51,21 @@ edfe8.vfdpvzzi.cc##^#h5-publish-button,.header,.van-nav-bar__title:remove()
 18comic.vip##.thewayhome:remove()
 18comic.vip###Comic_Top_Nav:remove-class(navbar)
 ! ! 去除顶部空白部分的移除
+
+
+## NSFW 视频
+#### NSFW  视频  xHamster
+||static-ah.xhcdn.com/xh-desktop/js/
+xhamster.com##^.footer-wrapper,.hasBorder-66ca4,[class*="skeleton"]:remove()
+xhamster.com##^[data-nav-item-id="cams"],[data-nav-item-id="dating"]:remove()
+xhamster.com##header+nav[class^="root-"],[href*="xh.lustyheroes.com"]:remove()
+
+#### NSFW  视频  91porny
+91porna.com##^.ad-dialog,.my-2,footer,.dx-backtop,.text-mini,.index-content~*:remove()
+91porna.com##^li.mr-6.flex:nth-of-type(5)~*:remove()
+91porna.com##^[data-id="5"],[data-id="7"],[data-id="8"],[data-id="4"],[data-id="12"]:remove()
+91porna.com##^.bg-base1.text-default:remove()
+91porna.com##^.video-item.checkNum:upward(1):remove()
+
+
+
