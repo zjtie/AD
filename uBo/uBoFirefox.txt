@@ -7,3 +7,10 @@
 uaa.com##^.banner_box,.shortcut_box,.divider,.foot_box,.note_box,.dizhi,.comment_btn:remove()
 uaa.com##^.head_menu_box > div:nth-of-type(5)~*:remove()
 uaa.com##^.menu_box > div:nth-of-type(4)~*:remove()
+
+! NSFW  论坛  第一会所
+sis001.com##^#header,#wrapper #menu,#footercontainer,#append_parent,#ajaxwaitid:remove()
+sis001.com##^#menu>ul>li:not(#css5,#css8,#css9,#css17,#css6):remove()
+sis001.com##^#ad_text,[id^="ad_intercat"],.legend,[id^="ad_thread"]:remove()
+sis001.com##^#newspecial,.replybtn,#newspecialtmp,[id^="ad_footerbanner"]:remove()
+sis001.com##^.mainbox.forumlist:has-text(/赞助特别服务区|公告区|新手学习区|活动与推广中心|团队交流区|交易中心|后花园/):remove()
