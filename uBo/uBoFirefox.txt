@@ -69,3 +69,13 @@ xhamster.com##header+nav[class^="root-"],[href*="xh.lustyheroes.com"]:remove()
 
 
 
+
+## NSFW 图片
+####  NSFW  二次元  萌色博客Moeimg
+moeimg.net##^#header,.intro,[class*="_ad"],[id*="_ad"],#footer,#pickup-header_frame:remove()
+moeimg.net##^#pickup-footer_frame,.post.pc_only,#side-2,[class*="pickup-random"],.share :remove()
+moeimg.net##^[class^="news_"],#respond:remove()
+
+
+
+
