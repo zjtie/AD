@@ -14,3 +14,11 @@ sis001.com##^#menu>ul>li:not(#css5,#css8,#css9,#css17,#css6):remove()
 sis001.com##^#ad_text,[id^="ad_intercat"],.legend,[id^="ad_thread"]:remove()
 sis001.com##^#newspecial,.replybtn,#newspecialtmp,[id^="ad_footerbanner"]:remove()
 sis001.com##^.mainbox.forumlist:has-text(/赞助特别服务区|公告区|新手学习区|活动与推广中心|团队交流区|交易中心|后花园/):remove()
+
+! NSFW  论坛  51吃瓜
+51cg1.com##^.horizontal-banner,#foot-menu,#footer,#masthead,.side-toolbar-list:remove()
+51cg1.com##^#more-menu-dropdown-35,#more-menu-dropdown-37:remove()
+51cg1.com##^blockquote,.line,.content-tabs,.flash,.post-content[style],.respond:remove()
+51cg1.com##^p:has-text(/51吃瓜|获取最新地址/):remove()
+51cg1.com##^a[onclick*="Ad Click"]:upward(1):remove()
+51cg1.com##^.post-card-ads:upward(3):remove()
