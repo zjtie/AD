@@ -54,6 +54,12 @@ xchina.fit##^a[role="button"][subid="9"]~*,#anchor-comment,.comments>div[class]:
 xchina.fit##^.auto-height:remove()
 xchina.fit##.not-found:remove()
 
+#### NSFW  论坛   留园网  https://www.cool18.com/parks.php
+cool18.com##^[class^=adv],iframe,.td2[valign="top"],[bordercolor="#99CC00"]+[bgcolor="#fbfeea"]:remove()
+cool18.com##^.comment-section,.view-gift,.bottom-nav,.vote-section,.ad-container:remove()
+cool18.com##^.ad_list_top,.ad_float,[href="#postfp"],[href$="con2.htm"],.nav-actions:remove()
+cool18.com##li[class^="l-m"]:has-text(/给|谢分享/)
+
 
 
 ## NSFW 漫画
