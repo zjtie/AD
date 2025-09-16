@@ -86,6 +86,11 @@ cool18.com##li[class^="l-m"]:has-text(/给|谢分享/)
 ! 列表
 *##:matches-path(/pw/read) .t:remove()
 
+#### NSFW  论坛   2048
+hjd2048.com##^#header,.header_up_sign,.footer-modern,#nav-login,.header_down_sign,[name="temp_ad_adcontrol"]:remove()
+hjd2048.com##^.forum-notice,.promo-container,[onmouseout="this.className='tr3 t_one'"]:remove()
+hjd2048.com##:matches-path(/2048/thread)  tr:has-text(/匿名|A大|系統消息/):remove()
+hjd2048.com##^.movie-banner,.tipad.cc,div.c,.post_new,#anchor:remove()
 
 
 ## NSFW 漫画
