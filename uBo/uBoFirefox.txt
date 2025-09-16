@@ -74,6 +74,18 @@ cool18.com##^.comment-section,.view-gift,.bottom-nav,.vote-section,.ad-container
 cool18.com##^.ad_list_top,.ad_float,[href="#postfp"],[href$="con2.htm"],.nav-actions:remove()
 cool18.com##li[class^="l-m"]:has-text(/给|谢分享/)
 
+#### NSFW  论坛   1024
+*##:matches-path(/pw/) meta,span.fr,.tips,tr.r_one :remove()
+*##:matches-path(/pw/) #cate_1>tr:not([id]):remove()
+*##:matches-path(/pw/) .main-wrap:others():remove()
+*##:matches-path(/pw/) script:has-text(/colors|qrcodeContainer|bbsNoticePlay/):remove()
+! 首页
+*##:matches-path(/pw/thread) [onmouseover]:remove()
+*##:matches-path(/pw/thread) .t3,.t.z[style="margin:auto"]:others():remove()
+*##:matches-path(/pw/thread) tr:has-text(/admin|自拍核工厂|系统消息/):remove()
+! 列表
+*##:matches-path(/pw/read) .t:remove()
+
 
 
 ## NSFW 漫画
