@@ -43,6 +43,18 @@ t66y.com##:matches-path(/htm_mob/) .tpc_icon.fl+div[style],.tpc_icon.fl:remove()
 t66y.com##^#ajaxtable ~ .list.t_one:not(:is(.tac ~ .list.t_one))
 !#endif
 
+#### NSFW  论坛   小黄书
+||xchina.fit/scripts/ads.js
+||xchina.fit/scripts/push.js
+xchina.fit##+js(set, Swal, true)
+xchina.fit##+js(set, googleAdsInstance, true)
+xchina.fit##+js(rmnt, script, adModal )
+xchina.fit##^.hero-section,footer,[class^="static-container"],.topMenu>.menu~*:remove()
+xchina.fit##^a[role="button"][subid="9"]~*,#anchor-comment,.comments>div[class]:remove()
+xchina.fit##^.auto-height:remove()
+xchina.fit##.not-found:remove()
+
+
 
 ## NSFW 漫画
 #### NSFW  漫画  禁漫天堂
