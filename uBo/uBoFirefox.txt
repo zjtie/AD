@@ -29,6 +29,20 @@ edfe8.vfdpvzzi.cc##^.xqbj-list-rows-placard,.is-desktop1,.publish-btn:remove()
 edfe8.vfdpvzzi.cc##^.ad-banners,.tags-group,.text-wrap,.butns,.link-wrapper,.comment-enter:remove()
 edfe8.vfdpvzzi.cc##^#h5-publish-button,.header,.van-nav-bar__title:remove()
 
+#### NSFW  论坛  海角社区
+haijiao.com###app~div,#hj-toolbar+div~*,.custom_carousel:remove()
+haijiao.com##.scroll-btn,.containeradvertising,.overflow-hidden,.newpages[style]~*:remove()
+haijiao.com##.ql-editor~*:remove()
+haijiao.com##.tab-bbs-list tr:has-text(/海角管理|海角小助手|海角mingL/):remove()
+haijiao.com##.introduction:upward(5):remove()
+haijiao.com##body:remove-attr(class)
+!#if !env_mobile	
+haijiao.com##.indexbox>div:not([class]),.addbox,.btnbox,.van-loading:remove()
+haijiao.com##.send-topic-btn,.download-btn,.page-container:remove()
+haijiao.com##.html-bottom-box,.floor-bottom:remove()
+haijiao.com##.ishide:remove-class(ishide)
+!#endif
+
 #### NSFW  论坛   草榴社區
 t66y.com##^#header,#footer,[href^="post.php"],form[name="FORM"],.tips,.tiptop,.t_like:remove()
 t66y.com##^form[action="login.php"]:upward(5):remove()
