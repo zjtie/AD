@@ -92,6 +92,31 @@ hjd2048.com##^.forum-notice,.promo-container,[onmouseout="this.className='tr3 t_
 hjd2048.com##:matches-path(/2048/thread)  tr:has-text(/匿名|A大|系統消息/):remove()
 hjd2048.com##^.movie-banner,.tipad.cc,div.c,.post_new,#anchor:remove()
 
+#### NSFW  论坛   杏吧
+sex8.cc##^script:has-text(/廣告被屏蔽|签到次数|qdQrcode|adv_name|promotion-mask|回复奖励/):remove()
+sex8.cc##^[class^="b_oscar"],[id="fixed-"],.j-notice-go,#toptb,#sslct_menu,#hd:remove()
+sex8.cc##^.trioCarousel,.bm.b_sxc,.zxy,#ft,[style*="float"],#location_list:remove()
+sex8.cc##^.bm_h.cl>h2>a:has-text(/招聘区|公告区|杏博/):upward(3):remove()
+! 首页
+sex8.cc##^[id^="shortcut"],#f_pst,[id^="newspecial"],.bm_c.cl.pbn:remove()
+sex8.cc##^#threadlisttableid > tbody:not(:is(script ~ tbody)):remove()
+! 目录
+sex8.cc##^[class*="float"],.md_ctrl,.ad,[id^="_postposition"]+tr,[id^="post_reply"]:remove()
+sex8.cc##^#reported,.js-share-button,.a_oscar,[class^="tip tip_"],iframe:remove()
+sex8.cc##^[id^="postmessage"]>*:not(:is(ignore_js_op ~ *,#my_video_1)):remove()
+! 正文
+sex8.cc##+js(set-constant.js, checkVideoFloat, noopFunc)
+sex8.cc##+js(set-constant.js, player.ads, undefined)
+! ! 屏蔽视频广告注入插件
+sex8.cc##+js(override.js, eventTester, no-op-script.js)
+! 屏蔽暂停时弹出的广告蒙层，直接修改 eventTester 函数的行为，让它在 pause 事件时不执行 show()
+sex8.cc##.t_f>div[style^="float"],.vjs-poster,.logo-link,.show_img:remove()
+! 视频作左右AD，视频遮罩层AD,视频logoAD，隐藏AD
+sex8.cc##div.video-js,video:remove-attr(poster)
+sex8.cc###vipMask,.vipswitch,.adsLink:remove()
+! 视频
+
+
 
 ## NSFW 漫画
 #### NSFW  漫画  禁漫天堂
