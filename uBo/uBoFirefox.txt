@@ -29,7 +29,19 @@ edfe8.vfdpvzzi.cc##^.xqbj-list-rows-placard,.is-desktop1,.publish-btn:remove()
 edfe8.vfdpvzzi.cc##^.ad-banners,.tags-group,.text-wrap,.butns,.link-wrapper,.comment-enter:remove()
 edfe8.vfdpvzzi.cc##^#h5-publish-button,.header,.van-nav-bar__title:remove()
 
-
+#### NSFW  论坛   草榴社區
+t66y.com##^#header,#footer,[href^="post.php"],form[name="FORM"],.tips,.tiptop,.t_like:remove()
+t66y.com##^form[action="login.php"]:upward(5):remove()
+t66y.com##^#cate_thread:upward(2):remove()
+t66y.com##^#ajaxtable > tbody:first-of-type > .tr3.t_one.tac:remove()
+t66y.com##^div.tpc_content:has-text(/谢分享|1024/):upward(9):remove()
+t66y.com##.ftad-ct:remove()
+!#if env_mobile	
+t66y.com##:matches-path(/thread0806.php) .tpc_cont,.line:remove()
+t66y.com##^div.tpc_cont:has-text(/谢分享|1024/):upward(1):remove()
+t66y.com##:matches-path(/htm_mob/) .tpc_icon.fl+div[style],.tpc_icon.fl:remove()
+t66y.com##^#ajaxtable ~ .list.t_one:not(:is(.tac ~ .list.t_one))
+!#endif
 
 
 ## NSFW 漫画
