@@ -153,7 +153,9 @@ xhamster.com##header+nav[class^="root-"],[href*="xh.lustyheroes.com"]:remove()
 91porna.com##^.bg-base1.text-default:remove()
 91porna.com##^.video-item.checkNum:upward(1):remove()
 
-
+#### NSFW  视频  PornHub
+pornhub.com##^.networkBarWrapper,#countryRedirectMessage,.wrapper~div,[class^="uploadBtn"]:remove()
+pornhub.com##^.communityNavigation~*,#under-player-comments,#jsShare,#video_flag,[class*="Ads"]:remove()
 
 
 ## NSFW 图片
