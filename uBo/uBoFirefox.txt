@@ -170,6 +170,14 @@ moeimg.net##^[class^="news_"],#respond:remove()
 #### NSFW 漫画 nhentai
 web.nicecat.cc###home-bulletin,.home_div
 
+#### NSFW 漫画 宅宅愛動漫
+18h.animezilla.com##^#manga-top,.notice,#my-video,#btn-footer,#btn-swiper
+18h.animezilla.com##^footer,#main-manga-footer,#h-parody,.shiftnav-toggle-main-block
+18h.animezilla.com##^#menu-item-114~*,#btn-toy,.swiper-container
+18h.animezilla.com##^.yarpp-related,#related-entries,#manga-below
+!#if !env_mobile	
+18h.animezilla.com##^#mega-menu-item-338~*,#bk1,#wpp-3~*
+!#endif
 
 
 
