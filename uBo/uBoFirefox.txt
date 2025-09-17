@@ -9,7 +9,6 @@ reddit.com###expand-search-button~*,[noun="topics_menu"]~*:remove()
 reddit.com###资源>*:not([noun="communities_menu"],[noun="rereddit_menu"],[noun^="rereddit_translated"],[noun="topics_menu"]):remove()
 reddit.com##left-nav-top-section~hr:remove()
 
-
 ## NSFW 论坛
 #### NSFW  论坛  uaa
 uaa.com##^.banner_box,.shortcut_box,.divider,.foot_box,.note_box,.dizhi,.comment_btn:remove()
@@ -122,9 +121,6 @@ sex8.cc##.t_f>div[style^="float"],.vjs-poster,.logo-link,.show_img:remove()
 ! 视频作左右AD，视频遮罩层AD,视频logoAD，隐藏AD
 sex8.cc##div.video-js,video:remove-attr(poster)
 sex8.cc###vipMask,.vipswitch,.adsLink:remove()
-! 视频
-
-
 
 ## NSFW 漫画
 #### NSFW  漫画  禁漫天堂
@@ -146,7 +142,6 @@ sex8.cc###vipMask,.vipswitch,.adsLink:remove()
 18comic.vip###Comic_Top_Nav:remove-class(navbar)
 ! ! 去除顶部空白部分的移除
 
-
 ## NSFW 视频
 #### NSFW  视频  xHamster
 ||static-ah.xhcdn.com/xh-desktop/js/
@@ -164,7 +159,6 @@ xhamster.com##header+nav[class^="root-"],[href*="xh.lustyheroes.com"]:remove()
 #### NSFW  视频  PornHub
 pornhub.com##^.networkBarWrapper,#countryRedirectMessage,.wrapper~div,[class^="uploadBtn"]:remove()
 pornhub.com##^.communityNavigation~*,#under-player-comments,#jsShare,#video_flag,[class*="Ads"]:remove()
-
 
 ## NSFW 图片
 ####  NSFW  二次元  萌色博客Moeimg
