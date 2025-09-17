@@ -2,6 +2,14 @@
 ! Homepage: https://raw.githubusercontent.com/zjtie/AD/refs/heads/main/uBo/uBoFirefox.txt
 
 
+## 社交平台 
+#### 社交平台 国家  Reddit
+reddit.com##span.text-secondary-weak:has-text(/定制信息流/):upward(9):remove()
+reddit.com###expand-search-button~*,[noun="topics_menu"]~*:remove()
+reddit.com###资源>*:not([noun="communities_menu"],[noun="rereddit_menu"],[noun^="rereddit_translated"],[noun="topics_menu"]):remove()
+reddit.com##left-nav-top-section~hr:remove()
+
+
 ## NSFW 论坛
 #### NSFW  论坛  uaa
 uaa.com##^.banner_box,.shortcut_box,.divider,.foot_box,.note_box,.dizhi,.comment_btn:remove()
