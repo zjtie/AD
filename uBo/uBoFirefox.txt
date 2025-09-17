@@ -184,9 +184,17 @@ wnacg.com##^script:has-text(/tips|videoID|parentNode/)
 wnacg.com##^#control_block,.footer,.result
 wnacg.com##^div.autoHeight+div
 
+#### NSFW 漫画 ACG漫画
+acgmhn.com##^.footer, .links, .adbox,.ads,.other,#pages:remove()
+acgmhn.com##+js(set-constant, pub_btn_word, '')
+! 去收藏“最新网址发布页
+
 #### NSFW 漫画 韩漫
 aammhh.com##^script:has-text(/Swiper/)
 aammhh.com##^.swiper,[title="韩漫之家"],.book-desc>p
+jmdw7.com##^footer,body>center,.logo
+jmdw7.com##^script:has-text(/dialog/)
 
-
-
+#### NSFW 漫画 被男陵辱【日】
+kimootoko.net##^script:has-text(/createElement/):remove()
+kimootoko.net##^footer,#custom_html-72,.arasuji~hr,.arasuji~div
