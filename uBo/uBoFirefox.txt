@@ -179,5 +179,10 @@ web.nicecat.cc###home-bulletin,.home_div
 18h.animezilla.com##^#mega-menu-item-338~*,#bk1,#wpp-3~*
 !#endif
 
+#### NSFW 漫画 绅士漫画
+wnacg.com##^script:has-text(/tips|videoID|parentNode/)
+wnacg.com##^#control_block,.footer,.result
+wnacg.com##^div.autoHeight+div
+
 
 
