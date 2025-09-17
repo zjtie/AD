@@ -184,5 +184,9 @@ wnacg.com##^script:has-text(/tips|videoID|parentNode/)
 wnacg.com##^#control_block,.footer,.result
 wnacg.com##^div.autoHeight+div
 
+#### NSFW 漫画 韩漫
+aammhh.com##^script:has-text(/Swiper/)
+aammhh.com##^.swiper,[title="韩漫之家"],.book-desc>p
+
 
 
