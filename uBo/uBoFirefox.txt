@@ -166,6 +166,10 @@ moeimg.net##^#header,.intro,[class*="_ad"],[id*="_ad"],#footer,#pickup-header_fr
 moeimg.net##^#pickup-footer_frame,.post.pc_only,#side-2,[class*="pickup-random"],.share :remove()
 moeimg.net##^[class^="news_"],#respond:remove()
 
+## NSFW 漫画
+#### NSFW 漫画 nhentai
+web.nicecat.cc###home-bulletin,.home_div
+
 
 
 
