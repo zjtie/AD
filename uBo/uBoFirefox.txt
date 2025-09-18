@@ -198,3 +198,11 @@ jmdw7.com##^script:has-text(/dialog/)
 #### NSFW 漫画 被男陵辱【日】
 kimootoko.net##^script:has-text(/createElement/):remove()
 kimootoko.net##^footer,#custom_html-72,.arasuji~hr,.arasuji~div
+
+#### NSFW 漫画 NyaHentai【日】
+||js.ssp.bance.jp/bnctag.js
+nyahentai.re##+js(nano-stb, bnctag)
+nyahentai.re##^script:has-text(/_ad_|bnctag|xlirdr|video_inst_area/)
+nyahentai.re##^[src$="bnctag.js"],[id^="bnc_ad_"],.home-h+div[style],footer,iframe,
+nyahentai.re##^#container>#main>div[style],[href*="/contact/"],[href*="stripchat"],#video_inst_area
+nyahentai.re##^.home-h:has-text(/ライブ配信中/)
