@@ -206,3 +206,8 @@ nyahentai.re##^script:has-text(/_ad_|bnctag|xlirdr|video_inst_area/)
 nyahentai.re##^[src$="bnctag.js"],[id^="bnc_ad_"],.home-h+div[style],footer,iframe,
 nyahentai.re##^#container>#main>div[style],[href*="/contact/"],[href*="stripchat"],#video_inst_area
 nyahentai.re##^.home-h:has-text(/ライブ配信中/)
+
+#### NSFW 漫画 エロ漫画【日】
+oreno-erohon.com##^[class*="comment"],#text-20,#text-50,.page-title,.archive-title
+oreno-erohon.com##^.blog-title-inner,footer,.sp_footer,.sp_head_box,.section-box
+oreno-erohon.com##^li:has-text(/サイトについて|RSS|問い合わせ/)
