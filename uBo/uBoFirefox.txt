@@ -226,3 +226,10 @@ eahentai.com##[class*="_ad_"],.footer
 
 #### NSFW 漫画  Tsumino【英】
 tsumino.com###tab-comments,#liComments,[href="/chat"],[href="/about"]:remove()
+
+#### NSFW 漫画  Luscious【英】
+members.luscious.net##meta:remove()
+members.luscious.net##^script:has-text(/SliderAdConfig|adMoxyCtrl|adn)
+members.luscious.net##footer:has-text(/Experimental Settings|Twitter|manga, doujinshi, and /):remove()
+members.luscious.net##div[role="article"]:has-text(Leave a comment)
+members.luscious.net##.page-footer,.site-banner,.o-bgcolor--grey-7,[href*="theporndude"],.o-link-no-decoration:remove()
