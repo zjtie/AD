@@ -211,3 +211,18 @@ nyahentai.re##^.home-h:has-text(/ライブ配信中/)
 oreno-erohon.com##^[class*="comment"],#text-20,#text-50,.page-title,.archive-title
 oreno-erohon.com##^.blog-title-inner,footer,.sp_footer,.sp_head_box,.section-box
 oreno-erohon.com##^li:has-text(/サイトについて|RSS|問い合わせ/)
+
+#### NSFW 漫画 NTR【日】
+eromanga-kai.com##^footer,#header-container,#comment-area
+eromanga-kai.com##^.sns-share,#custom_html-2,#content-top
+
+#### NSFW 漫画 咖啡厅【日】
+eromanga-cafe.com##^script:has-text(/createElement/)
+eromanga-cafe.com##^iframe,noscript,#footer,#text-64
+eromanga-cafe.com##^#comments-thread,.loop-single-widget,.rss~*,.rss
+
+#### NSFW 漫画  EAHentai同人【英】
+eahentai.com##[class*="_ad_"],.footer
+
+#### NSFW 漫画  Tsumino【英】
+tsumino.com###tab-comments,#liComments,[href="/chat"],[href="/about"]:remove()
