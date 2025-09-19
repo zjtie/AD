@@ -1,6 +1,6 @@
 ! Title: RM40 uBlock Origin
-! Homepage: https://github.com/zjtie/AD
-! 修饰运算符：https://github.com/gorhill/uBlock/wiki/Procedural-cosmetic-filters
+! Homepage: https://raw.githubusercontent.com/zjtie/AD/refs/heads/main/uBoMy.txt
+
 
 
 ! 作用：节省流量  屏蔽使用 CDN/PCDN 内容交付/分发网络
