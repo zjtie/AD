@@ -226,6 +226,7 @@ eahentai.com##[class*="_ad_"],.footer
 
 #### NSFW 漫画  Tsumino【英】
 tsumino.com###tab-comments,#liComments,[href="/chat"],[href="/about"]:remove()
+hentaifox.com##^.footer,.main_section,.top_buttons,.comments
 
 #### NSFW 漫画  Luscious【英】
 members.luscious.net##meta:remove()
