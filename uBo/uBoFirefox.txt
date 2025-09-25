@@ -160,6 +160,24 @@ xhamster.com##header+nav[class^="root-"],[href*="xh.lustyheroes.com"]:remove()
 pornhub.com##^.networkBarWrapper,#countryRedirectMessage,.wrapper~div,[class^="uploadBtn"]:remove()
 pornhub.com##^.communityNavigation~*,#under-player-comments,#jsShare,#video_flag,[class*="Ads"]:remove()
 
+#### NSFW  视频  采集
+155zy.com##^.footer,.stui-pannel
+naixxzy.com##^#popup_mask,.index-top-long,.footer,.stui-pannel,.clear,.txtguanggao,body>div[style*="z-index"]
+naixxzy.com##.head_box>div:remove-attr(style)
+senlinzy.com##^.footer,.stui-pannel,.clear,.header_left,.head_box>div[style]
+aosikazy.com##.popup
+aosikazy.com##^.index-header,.index-top-long,body>[style],.bottom,.nav1,.logo
+dadizy.com##^.foot,.head>table
+lajiaozy.com##^.footer,#footerAdv,.header+.width1200,.header>h1
+didizy.com##^.stui-foot,.stui-pannel.clearfix.hidden-xs
+||ad.niuniuzs.cc
+||semaozy5.com/template/svpro/img/new.gif
+||semaozy5.com/ad/
+semaozy5.com##.footer,#uas-port,.nav~center,.header_left
+shayuzy5.com##.footer,table
+yutuzy.com##^.footer,.stui-pannel,.width1200+div,.header_left
+
+
 ## NSFW 图片
 ####  NSFW  二次元  萌色博客Moeimg
 moeimg.net##^#header,.intro,[class*="_ad"],[id*="_ad"],#footer,#pickup-header_frame:remove()
