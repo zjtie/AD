@@ -51,7 +51,7 @@ haijiao.com##.ishide:remove-class(ishide)
 !#endif
 
 #### NSFW  论坛   草榴社區
-hyaa18.com###bottom,.links
+hyaa18.com,okaa18.com###ads,#tags,.fp-logo
 t66y.com##^#header,#footer,[href^="post.php"],form[name="FORM"],.tips,.tiptop,.t_like:remove()
 t66y.com##^form[action="login.php"]:upward(5):remove()
 t66y.com##^#cate_thread:upward(2):remove()
