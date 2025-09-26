@@ -123,6 +123,15 @@ sex8.cc##.t_f>div[style^="float"],.vjs-poster,.logo-link,.show_img:remove()
 sex8.cc##div.video-js,video:remove-attr(poster)
 sex8.cc###vipMask,.vipswitch,.adsLink:remove()
 
+#### NSFW  论坛   sexinsex
+||sexinsex.net/bbs/include/javascript/adblock.js
+sexinsex.net##[class^="ad"],[id^="ad"],#header,#footercontainer,#StranLink:remove()
+sexinsex.net##form[name="moderate"] > table:not(:last-of-type):remove()
+sexinsex.net##[href="contact.php"],[href="vip.php"],#siscustchat-buttom:remove()
+sexinsex.net##.avatar
+
+
+
 ## NSFW 漫画
 #### NSFW  漫画  禁漫天堂
 18comic.vip##^.top-nav,.div-bf-pv,.footer-container,img.img-circle,.group-notice,.footer-pad,.spnotice,#sns:remove()
