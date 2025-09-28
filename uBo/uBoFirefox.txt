@@ -153,13 +153,29 @@ sexinsex.net##.avatar
 ! ! 去除顶部空白部分的移除
 
 ## NSFW 视频
+### NSFW 视频  中文
+#### NSFW  视频  xHamster
+hsex.icu##^footer,.alert ,.btn-danger,.btn-info,.col-xs-12 
+
+91porna.com##^li.mr-6.flex:nth-of-type(4)~*
+91porna.com##^[data-id="9"]~*
+91porna.com##^.ad-dialog,footer,.my-2,.text-mini,.dx-backtop
+91porna.com##^.aspect-w-10,.cursor-pointer,.dx-tab-list+div+div,.pb-4>div~*,.px-3.absolute 
+91porna.com##^[title$="新葡京"],[title="51直播"],[title="杏吧直播"]:upward(1)
+
+91porn.com##^#footer-container,script[src*="jads"],br,ins,iframe,.clear
+91porn.com##^script:has-text(/adsbyjuicy|google/)
+91porn.com##.comment-body>a
+
+dnaav.com##^.footer,[class^="b300"],hr,[src*="juicyads"],.share,[type="share"],.comment
+dnaav.com##^script:has-text(/adsbyjuicy|juicy|iframe/)
+dnaav.com##[id^="dnaav_a"]:upward(1)
+
 #### NSFW  视频  xHamster
 ||static-ah.xhcdn.com/xh-desktop/js/
 xhamster.com##^.footer-wrapper,.hasBorder-66ca4,[class*="skeleton"]:remove()
 xhamster.com##^[data-nav-item-id="cams"],[data-nav-item-id="dating"]:remove()
 xhamster.com##header+nav[class^="root-"],[href*="xh.lustyheroes.com"]:remove()
-
-#### NSFW  视频  91porny
 
 #### NSFW  视频  PornHub
 pornhub.com##^.networkBarWrapper,#countryRedirectMessage,.wrapper~div,[class^="uploadBtn"]:remove()
@@ -182,7 +198,6 @@ semaozy5.com##.footer,#uas-port,.nav~center,.header_left
 shayuzy5.com##.footer,table
 yutuzy.com##^.footer,.stui-pannel,.width1200+div,.header_left
 
-## NSFW 视频
 ### NSFW 视频 3D动漫
 ### NSFW 3D  rule34video
 rule34comic.party,rule34video.com##^.footer,.emger,.logo+div,.logo,[data-name="Gay"]
