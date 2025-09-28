@@ -190,8 +190,8 @@ yutuzy.com##^.footer,.stui-pannel,.width1200+div,.header_left
 ## NSFW 视频
 ### NSFW 视频 3D动漫
 ### NSFW 3D  rule34video
-rule34video.com##^.footer,.emger,.logo+div,.logo,[data-name="Gay"]
-rule34video.com##^li.tab_first~li,#add_fav_0 span
+rule34comic.party,rule34video.com##^.footer,.emger,.logo+div,.logo,[data-name="Gay"]
+rule34comic.party,rule34video.com##^li.tab_first~li,#add_fav_0 span
 
 
 
