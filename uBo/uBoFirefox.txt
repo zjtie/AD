@@ -1,7 +1,6 @@
 ! Title: uBoFirefox Pixel
 ! Homepage: https://raw.githubusercontent.com/zjtie/AD/refs/heads/main/uBo/uBoFirefox.txt
 
-
 ## 社交平台 
 #### 社交平台 国家  Reddit
 reddit.com##span.text-secondary-weak:has-text(/定制信息流/):upward(9):remove()
@@ -130,8 +129,6 @@ sexinsex.net##form[name="moderate"] > table:not(:last-of-type):remove()
 sexinsex.net##[href="contact.php"],[href="vip.php"],#siscustchat-buttom:remove()
 sexinsex.net##.avatar
 
-
-
 ## NSFW 漫画
 #### NSFW  漫画  禁漫天堂
 18comic.vip##^.top-nav,.div-bf-pv,.footer-container,img.img-circle,.group-notice,.footer-pad,.spnotice,#sns:remove()
@@ -202,8 +199,6 @@ yutuzy.com##^.footer,.stui-pannel,.width1200+div,.header_left
 ### NSFW 3D  rule34video
 rule34comic.party,rule34video.com##^.footer,.emger,.logo+div,.logo,[data-name="Gay"]
 rule34comic.party,rule34video.com##^li.tab_first~li,#add_fav_0 span
-
-
 
 ## NSFW 图片
 ####  NSFW  二次元  萌色博客Moeimg
