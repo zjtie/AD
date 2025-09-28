@@ -132,28 +132,7 @@ sexinsex.net##form[name="moderate"] > table:not(:last-of-type):remove()
 sexinsex.net##[href="contact.php"],[href="vip.php"],#siscustchat-buttom:remove()
 sexinsex.net##.avatar
 
-## NSFW 漫画
-#### NSFW  漫画  禁漫天堂
-18comic.vip##^.top-nav,.div-bf-pv,.footer-container,img.img-circle,.group-notice,.footer-pad,.spnotice,#sns:remove()
-18comic.vip##^[data-group="album_detail"],[data-group^="photo_center_games"],.btn-primary.hidden-xs,[title="AI chat"]:remove()
-18comic.vip##^.ph-bottom.switch-group.visible-xs.visible-sm > ul > li.ph-active:nth-child(1)
-18comic.vip##^.ph-bottom.switch-group.visible-xs.visible-sm > ul > li.ph-active:nth-child(4)
-! 游戏 ! AI chat
-18comic.vip##^script:has-text(/td_ga_tracker.doga_event|getexoloader/):remove()
-! PC端：顶部导航，滚动图片
-18comic.vip##^[data-group^="all_albums"],[data-group^="album_related"],[data-group^="list"]:upward(2):remove()
-18comic.vip##^[data-group^="content_page"],[data-group^="animeplay_bottom"],[data-group^="anime"],[data-group^="video"]:upward(2):remove()
-18comic.vip##^[data-group^="all_bottom"]:remove()
-18comic.vip##^.pull-none>*:not(#accordion-menu):remove()
-! 移动端：侧边栏
-18comic.vip##^#guide-modal:remove()
-! 移动端：登入窗口
-18comic.vip##.thewayhome:remove()
-18comic.vip###Comic_Top_Nav:remove-class(navbar)
-! ! 去除顶部空白部分的移除
-
-## NSFW 视频
-### 中文
+### NSFW视频 🇨🇳 🇨🇳 🇨🇳
 ####  好色TV
 hsex.icu##^footer,.alert ,.btn-danger,.btn-info,.col-xs-12 
 
@@ -178,20 +157,7 @@ dnaav.com##[id^="dnaav_a"]:upward(1)
 playav.tv##^footer,[src*="pemsrv"],[src*="magsrv"],ins,.logo
 playav.tv##^script:has-text(/AdProvider/)
 
-
-
-###  国际
-####  xHamster
-||static-ah.xhcdn.com/xh-desktop/js/
-xhamster.com##^.footer-wrapper,.hasBorder-66ca4,[class*="skeleton"]:remove()
-xhamster.com##^[data-nav-item-id="cams"],[data-nav-item-id="dating"]:remove()
-xhamster.com##header+nav[class^="root-"],[href*="xh.lustyheroes.com"]:remove()
-
-####  PornHub
-pornhub.com##^.networkBarWrapper,#countryRedirectMessage,.wrapper~div,[class^="uploadBtn"]:remove()
-pornhub.com##^.communityNavigation~*,#under-player-comments,#jsShare,#video_flag,[class*="Ads"]:remove()
-
-#### NSFW  视频  采集
+#### 视频采集
 155zy.com##^.footer,.stui-pannel
 naixxzy.com##^#popup_mask,.index-top-long,.footer,.stui-pannel,.clear,.txtguanggao,body>div[style*="z-index"]
 naixxzy.com##.head_box>div:remove-attr(style)
@@ -208,22 +174,31 @@ semaozy5.com##.footer,#uas-port,.nav~center,.header_left
 shayuzy5.com##.footer,table
 yutuzy.com##^.footer,.stui-pannel,.width1200+div,.header_left
 
-### NSFW 视频 3D动漫
-### NSFW 3D  rule34video
+###  NSFW视频 🇺🇸 🇺🇸 🇺🇸
+####  xHamster
+||static-ah.xhcdn.com/xh-desktop/js/
+xhamster.com##^.footer-wrapper,.hasBorder-66ca4,[class*="skeleton"]:remove()
+xhamster.com##^[data-nav-item-id="cams"],[data-nav-item-id="dating"]:remove()
+xhamster.com##header+nav[class^="root-"],[href*="xh.lustyheroes.com"]:remove()
+
+####  PornHub
+pornhub.com##^.networkBarWrapper,#countryRedirectMessage,.wrapper~div,[class^="uploadBtn"]:remove()
+pornhub.com##^.communityNavigation~*,#under-player-comments,#jsShare,#video_flag,[class*="Ads"]:remove()
+
+### NSFW视频 3D动漫
+####  Rule34video
 rule34comic.party,rule34video.com##^.footer,.emger,.logo+div,.logo,[data-name="Gay"]
 rule34comic.party,rule34video.com##^li.tab_first~li,#add_fav_0 span
 
-## NSFW 图片
-####  NSFW  二次元  萌色博客Moeimg
+## NSFW图片 🇯🇵 🇯🇵 🇯🇵
+####  萌色博客Moeimg
 moeimg.net##^#header,.intro,[class*="_ad"],[id*="_ad"],#footer,#pickup-header_frame:remove()
 moeimg.net##^#pickup-footer_frame,.post.pc_only,#side-2,[class*="pickup-random"],.share :remove()
 moeimg.net##^[class^="news_"],#respond:remove()
 
-## NSFW 漫画
-#### NSFW 漫画 nhentai
-web.nicecat.cc###home-bulletin,.home_div
-
-#### NSFW 漫画 宅宅愛動漫
+## NSFW漫画 
+### 🇨🇳 🇨🇳 🇨🇳
+####  宅宅愛動漫
 18h.animezilla.com##^#manga-top,.notice,#my-video,#btn-footer,#btn-swiper
 18h.animezilla.com##^footer,#main-manga-footer,#h-parody,.shiftnav-toggle-main-block
 18h.animezilla.com##^#menu-item-114~*,#btn-toy,.swiper-container
@@ -232,27 +207,48 @@ web.nicecat.cc###home-bulletin,.home_div
 18h.animezilla.com##^#mega-menu-item-338~*,#bk1,#wpp-3~*
 !#endif
 
-#### NSFW 漫画 绅士漫画
+####  绅士漫画
 wnacg.com##^script:has-text(/tips|videoID|parentNode/)
 wnacg.com##^#control_block,.footer,.result
 wnacg.com##^div.autoHeight+div
 
-#### NSFW 漫画 ACG漫画
+####  ACG漫画
 acgmhn.com##^.footer, .links, .adbox,.ads,.other,#pages:remove()
 acgmhn.com##+js(set-constant, pub_btn_word, '')
 ! 去收藏“最新网址发布页
 
-#### NSFW 漫画 韩漫
+####  禁漫天堂
+18comic.vip##^.top-nav,.div-bf-pv,.footer-container,img.img-circle,.group-notice,.footer-pad,.spnotice,#sns:remove()
+18comic.vip##^[data-group="album_detail"],[data-group^="photo_center_games"],.btn-primary.hidden-xs,[title="AI chat"]:remove()
+18comic.vip##^.ph-bottom.switch-group.visible-xs.visible-sm > ul > li.ph-active:nth-child(1)
+18comic.vip##^.ph-bottom.switch-group.visible-xs.visible-sm > ul > li.ph-active:nth-child(4)
+! 游戏 ! AI chat
+18comic.vip##^script:has-text(/td_ga_tracker.doga_event|getexoloader/):remove()
+! PC端：顶部导航，滚动图片
+18comic.vip##^[data-group^="all_albums"],[data-group^="album_related"],[data-group^="list"]:upward(2):remove()
+18comic.vip##^[data-group^="content_page"],[data-group^="animeplay_bottom"],[data-group^="anime"],[data-group^="video"]:upward(2):remove()
+18comic.vip##^[data-group^="all_bottom"]:remove()
+18comic.vip##^.pull-none>*:not(#accordion-menu):remove()
+! 移动端：侧边栏
+18comic.vip##^#guide-modal:remove()
+! 移动端：登入窗口
+18comic.vip##.thewayhome:remove()
+18comic.vip###Comic_Top_Nav:remove-class(navbar)
+! ! 去除顶部空白部分的移除
+
+### 🇰🇷 🇰🇷 🇰🇷
+####  韩漫之家
 aammhh.com##^script:has-text(/Swiper/)
 aammhh.com##^.swiper,[title="韩漫之家"],.book-desc>p
 jmdw7.com##^footer,body>center,.logo
 jmdw7.com##^script:has-text(/dialog/)
 
-#### NSFW 漫画 被男陵辱【日】
+### 🇯🇵 🇯🇵 🇯🇵
+####【日】  被男陵辱
 kimootoko.net##^script:has-text(/createElement/):remove()
 kimootoko.net##^footer,#custom_html-72,.arasuji~hr,.arasuji~div
 
-#### NSFW 漫画 NyaHentai【日】
+####【日】  NyaHentai
 ||js.ssp.bance.jp/bnctag.js
 nyahentai.re##+js(nano-stb, bnctag)
 nyahentai.re##^script:has-text(/_ad_|bnctag|xlirdr|video_inst_area/)
@@ -260,28 +256,32 @@ nyahentai.re##^[src$="bnctag.js"],[id^="bnc_ad_"],.home-h+div[style],footer,ifra
 nyahentai.re##^#container>#main>div[style],[href*="/contact/"],[href*="stripchat"],#video_inst_area
 nyahentai.re##^.home-h:has-text(/ライブ配信中/)
 
-#### NSFW 漫画 エロ漫画【日】
+####【日】  エロ漫画
 oreno-erohon.com##^[class*="comment"],#text-20,#text-50,.page-title,.archive-title
 oreno-erohon.com##^.blog-title-inner,footer,.sp_footer,.sp_head_box,.section-box
 oreno-erohon.com##^li:has-text(/サイトについて|RSS|問い合わせ/)
 
-#### NSFW 漫画 NTR【日】
+####【日】  NTR
 eromanga-kai.com##^footer,#header-container,#comment-area
 eromanga-kai.com##^.sns-share,#custom_html-2,#content-top
 
-#### NSFW 漫画 咖啡厅【日】
+####【日】  咖啡厅
 eromanga-cafe.com##^script:has-text(/createElement/)
 eromanga-cafe.com##^iframe,noscript,#footer,#text-64
 eromanga-cafe.com##^#comments-thread,.loop-single-widget,.rss~*,.rss
 
-#### NSFW 漫画  EAHentai同人【英】
+###  🇺🇸 🇺🇸 🇺🇸
+####【英】  nhentai
+web.nicecat.cc###home-bulletin,.home_div
+
+####【英】  EAHentai同人
 eahentai.com##[class*="_ad_"],.footer
 
-#### NSFW 漫画  Tsumino【英】
+####【英】  Tsumino
 tsumino.com###tab-comments,#liComments,[href="/chat"],[href="/about"]:remove()
 hentaifox.com##^.footer,.main_section,.top_buttons,.comments
 
-#### NSFW 漫画  Luscious【英】
+####【英】  Luscious
 members.luscious.net##meta:remove()
 members.luscious.net##^script:has-text(/SliderAdConfig|adMoxyCtrl|adn)
 members.luscious.net##footer:has-text(/Experimental Settings|Twitter|manga, doujinshi, and /):remove()
