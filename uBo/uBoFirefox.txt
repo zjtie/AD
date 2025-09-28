@@ -1,5 +1,8 @@
 ! Title: uBoFirefox Pixel
 ! Homepage: https://raw.githubusercontent.com/zjtie/AD/refs/heads/main/uBo/uBoFirefox.txt
+||jads.co
+||juicyads.com
+
 
 ## 社交平台 
 #### 社交平台 国家  Reddit
@@ -150,31 +153,41 @@ sexinsex.net##.avatar
 ! ! 去除顶部空白部分的移除
 
 ## NSFW 视频
-### NSFW 视频  中文
-#### NSFW  视频  xHamster
+### 中文
+####  好色TV
 hsex.icu##^footer,.alert ,.btn-danger,.btn-info,.col-xs-12 
 
+####  91porny
 91porna.com##^li.mr-6.flex:nth-of-type(4)~*
 91porna.com##^[data-id="9"]~*
 91porna.com##^.ad-dialog,footer,.my-2,.text-mini,.dx-backtop
 91porna.com##^.aspect-w-10,.cursor-pointer,.dx-tab-list+div+div,.pb-4>div~*,.px-3.absolute 
 91porna.com##^[title$="新葡京"],[title="51直播"],[title="杏吧直播"]:upward(1)
 
+####  91porn
 91porn.com##^#footer-container,script[src*="jads"],br,ins,iframe,.clear
 91porn.com##^script:has-text(/adsbyjuicy|google/)
 91porn.com##.comment-body>a
 
+#### DanAV
 dnaav.com##^.footer,[class^="b300"],hr,[src*="juicyads"],.share,[type="share"],.comment
 dnaav.com##^script:has-text(/adsbyjuicy|juicy|iframe/)
 dnaav.com##[id^="dnaav_a"]:upward(1)
 
-#### NSFW  视频  xHamster
+####  PLAYav
+playav.tv##^footer,[src*="pemsrv"],[src*="magsrv"],ins,.logo
+playav.tv##^script:has-text(/AdProvider/)
+
+
+
+###  国际
+####  xHamster
 ||static-ah.xhcdn.com/xh-desktop/js/
 xhamster.com##^.footer-wrapper,.hasBorder-66ca4,[class*="skeleton"]:remove()
 xhamster.com##^[data-nav-item-id="cams"],[data-nav-item-id="dating"]:remove()
 xhamster.com##header+nav[class^="root-"],[href*="xh.lustyheroes.com"]:remove()
 
-#### NSFW  视频  PornHub
+####  PornHub
 pornhub.com##^.networkBarWrapper,#countryRedirectMessage,.wrapper~div,[class^="uploadBtn"]:remove()
 pornhub.com##^.communityNavigation~*,#under-player-comments,#jsShare,#video_flag,[class*="Ads"]:remove()
 
