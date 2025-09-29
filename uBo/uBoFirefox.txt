@@ -207,6 +207,9 @@ rule34comic.party,rule34video.com##^li.tab_first~li,#add_fav_0 span
 japaneseasmr.com##^#site-footer-credit,ins,#respond,#site-logo
 japaneseasmr.com##^script:has-text(/adConfig/) 
 
+####  Eroon纯音频
+erovoice-ch.com##^#headerLine,#topContents+section,#topContents,#commentArea,#menu-item-4842
+
 
 ## NSFW图片 🇯🇵 🇯🇵 🇯🇵
 ####  萌色博客Moeimg
