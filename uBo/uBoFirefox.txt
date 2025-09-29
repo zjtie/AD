@@ -184,6 +184,8 @@ laosebizy.com##.index-header,.bottom,.header_list,.head.container>a,#searchbutto
 ! 老色逼资源
 thzy4.me##^.footer,.stui-pannel,.header_left,.videoName>img
 ! 桃花资源
+thzy4.me##^.footer,.stui-pannel,.header_left,.videoName>img
+! 桃花资源
 
 ###  NSFW视频 🇺🇸 🇺🇸 🇺🇸
 ####  SpankBang
