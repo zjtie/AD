@@ -202,6 +202,12 @@ pornhub.com##^.communityNavigation~*,#under-player-comments,#jsShare,#video_flag
 rule34comic.party,rule34video.com##^.footer,.emger,.logo+div,.logo,[data-name="Gay"]
 rule34comic.party,rule34video.com##^li.tab_first~li,#add_fav_0 span
 
+## NSFW ASMR
+####  日本ASMR
+japaneseasmr.com##^#site-footer-credit,ins,#respond,#site-logo
+japaneseasmr.com##^script:has-text(/adConfig/) 
+
+
 ## NSFW图片 🇯🇵 🇯🇵 🇯🇵
 ####  萌色博客Moeimg
 moeimg.net##^#header,.intro,[class*="_ad"],[id*="_ad"],#footer,#pickup-header_frame:remove()
