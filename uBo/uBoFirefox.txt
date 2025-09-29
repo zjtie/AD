@@ -211,6 +211,8 @@ siwazyw.tv##body>[id],footer,header+.wrapped,.left-block,.action-log,.thumb_img+
 ! 155资源
 senlinzy.com##^.footer,.stui-pannel,.clear,.header_left,.head_box>div[style],.header_list,.videoName>img,.bugs[onclick]
 ! 森林资源
+danaizizy1.com##^.footer,.rainbowcontent,.txtguanggao,.header_left,.header_submit~*,.videoName>img,.bugs[onclick]
+! 大奶子资源
 
 ###  NSFW视频 🇺🇸 🇺🇸 🇺🇸
 ####  SpankBang
