@@ -190,6 +190,8 @@ shayuzy.com##^.footer,table,.header_left,.header_list,#content~#content~*
 ! 鲨鱼资源
 xxibaozyw.com##^.stui-foot,.stui-pannel.hidden-xs,.stui-header__search+ul,.wybc
 ! 细胞资源
+91jpzyw.com##^.wnui-foot,.link_recommend,.link_app,.desktop-only,.mobile-only,.wnui-pannel.hidden-xs,.wnui-header__logo
+! 91精品资源网
 
 ###  NSFW视频 🇺🇸 🇺🇸 🇺🇸
 ####  SpankBang
