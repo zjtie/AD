@@ -162,7 +162,7 @@ playav.tv##^script:has-text(/AdProvider/)
 
 
 
-lajiaozy.com##^.footer,#footerAdv,.header+.width1200,.header>h1
+
 
 ||ad.niuniuzs.cc
 ||semaozy5.com/template/svpro/img/new.gif
@@ -171,6 +171,8 @@ semaozy5.com##.footer,#uas-port,.nav~center,.header_left
 shayuzy5.com##.footer,table
 yutuzy.com##^.footer,.stui-pannel,.width1200+div,.header_left
 
+lajiaozy.com##^.footer,#footerAdv,.header+.width1200,.header>h1,.header_list,.videoName>img
+! 辣椒资源
 yyzywcj.com##footer,#backToTopBtn
 ! 优优资源
 dadizy.com##^.foot,#today+div+div,table,.qy,.kfs+.kfs,.name+img
