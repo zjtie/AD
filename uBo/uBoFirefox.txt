@@ -167,8 +167,7 @@ playav.tv##^script:has-text(/AdProvider/)
 ||ad.niuniuzs.cc
 ||semaozy5.com/template/svpro/img/new.gif
 ||semaozy5.com/ad/
-semaozy5.com##.footer,#uas-port,.nav~center,.header_left
-shayuzy5.com##.footer,table
+
 yutuzy.com##^.footer,.stui-pannel,.width1200+div,.header_left
 
 lajiaozy.com##^.footer,#footerAdv,.header+.width1200,.header>h1,.header_list,.videoName>img
@@ -193,7 +192,7 @@ xxibaozyw.com##^.stui-foot,.stui-pannel.hidden-xs,.stui-header__search+ul,.wybc
 ! 91精品资源网
 xingba222.com##^.bottom,.bread-crumbs,.nav1,.head.container>a,#searchbutton+p,.on-window
 ! 杏吧资源
-yutuzy10.com##^.footer,.header+div,.stui-pannel,.header_left,.videoName>img,.header_list,.bugs+.bugs
+yutuzy.com##^.footer,.header+div,.stui-pannel,.header_left,.videoName>img,.header_list,.bugs+.bugs
 ! 玉兔资源
 hsckzy.vip##^.foot,.index-header,.xing_top_left,#notifyPopup
 ! 黄色仓库
