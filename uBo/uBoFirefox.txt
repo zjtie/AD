@@ -209,6 +209,8 @@ api.zuiseapi.com##^.footer,.stui-pannel,.header_left,marquee,.header_list
 ! 最色资源
 naixxzy.com##^#popup_mask,.footer,.stui-pannel,.header_left,.index-top-long+div,.index-top-long,div[style*="background: #c1c1c1;"],.txtguanggao
 ! 奶香香资源
+aosikazy.com##^.popup,.bottom,.index-header,.index-top-long,[style*="background: #c1c1c1"],.nav1,.head.container>a,#searchbutton+p,.on-window
+! 奥斯卡资源
 
 
 ###  NSFW视频 🇺🇸 🇺🇸 🇺🇸
