@@ -212,9 +212,6 @@ siwazyw.tv##body>[id],footer,header+.wrapped,.left-block,.action-log,.thumb_img+
 senlinzy.com##^.footer,.stui-pannel,.clear,.header_left,.head_box>div[style],.header_list,.videoName>img,.bugs[onclick]
 ! 森林资源
 
-
-
-
 ###  NSFW视频 🇺🇸 🇺🇸 🇺🇸
 ####  SpankBang
 spankbang.com##^footer,.my-6,[class^="ad-"],.fl,.video-inline-ads
