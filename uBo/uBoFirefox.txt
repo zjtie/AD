@@ -194,6 +194,8 @@ xxibaozyw.com##^.stui-foot,.stui-pannel.hidden-xs,.stui-header__search+ul,.wybc
 ! 91精品资源网
 xingba222.com##^.bottom,.bread-crumbs,.nav1,.head.container>a,#searchbutton+p,.on-window
 ! 杏吧资源
+yutuzy10.com##^.footer,.header+div,.stui-pannel,.header_left,.videoName>img,.header_list,.bugs+.bugs
+! 玉兔资源
 
 ###  NSFW视频 🇺🇸 🇺🇸 🇺🇸
 ####  SpankBang
