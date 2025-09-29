@@ -157,7 +157,7 @@ dnaav.com##[id^="dnaav_a"]:upward(1)
 playav.tv##^footer,[src*="pemsrv"],[src*="magsrv"],ins,.logo
 playav.tv##^script:has-text(/AdProvider/)
 
-#### 视频采集
+#### 视频采集NSFW
 ||ad.niuniuzs.cc
 ||semaozy5.com/template/svpro/img/new.gif
 ||semaozy5.com/ad/
@@ -213,6 +213,11 @@ senlinzy.com##^.footer,.stui-pannel,.clear,.header_left,.head_box>div[style],.he
 ! 森林资源
 danaizizy1.com##^.footer,.rainbowcontent,.txtguanggao,.header_left,.header_submit~*,.videoName>img,.bugs[onclick]
 ! 大奶子资源
+
+#### 视频采集NSF
+caiji.dyttzyapi.com##^footer,section,.mr-3 
+电影天堂资源
+
 
 ###  NSFW视频 🇺🇸 🇺🇸 🇺🇸
 ####  SpankBang
