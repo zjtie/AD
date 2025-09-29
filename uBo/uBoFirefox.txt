@@ -202,6 +202,8 @@ bwzyz.com##^.footer,#popup_mask,.stui-pannel,.header_left,.header_submit~*,.vide
 ! 百万资源
 jkunzyapi.com##^.stui-foot,.stui-pannel.hidden-xs,div[style*="background"],br
 ! jkun资源
+api.souavzy.vip##.stui-foot,.stui-pannel.hidden-xs,.stui-header__logo
+! 搜av资源
 
 ###  NSFW视频 🇺🇸 🇺🇸 🇺🇸
 ####  SpankBang
