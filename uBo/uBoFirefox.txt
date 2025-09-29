@@ -200,6 +200,8 @@ hsckzy.vip##^.foot,.index-header,.xing_top_left,#notifyPopup
 ! 黄色仓库
 bwzyz.com##^.footer,#popup_mask,.stui-pannel,.header_left,.header_submit~*,.videoName>img,.bugs[onclick]
 ! 百万资源
+jkunzyapi.com##^.stui-foot,.stui-pannel.hidden-xs,div[style*="background"],br
+! jkun资源
 
 ###  NSFW视频 🇺🇸 🇺🇸 🇺🇸
 ####  SpankBang
