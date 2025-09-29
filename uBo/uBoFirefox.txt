@@ -204,6 +204,8 @@ jkunzyapi.com##^.stui-foot,.stui-pannel.hidden-xs,div[style*="background"],br
 ! jkun资源
 api.souavzy.vip##.stui-foot,.stui-pannel.hidden-xs,.stui-header__logo
 ! 搜av资源
+apilj.com##^.footer,.width1200.header+div,.width1200.header>h1,.header_list,.videoName>img
+! 辣椒资源
 
 ###  NSFW视频 🇺🇸 🇺🇸 🇺🇸
 ####  SpankBang
