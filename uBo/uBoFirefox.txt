@@ -188,6 +188,8 @@ thzy4.me##^.footer,.stui-pannel,.header_left,.videoName>img
 ! 桃花资源
 shayuzy.com##^.footer,table,.header_left,.header_list,#content~#content~*
 ! 鲨鱼资源
+xxibaozyw.com##^.stui-foot,.stui-pannel.hidden-xs,.stui-header__search+ul,.wybc
+! 细胞资源
 
 ###  NSFW视频 🇺🇸 🇺🇸 🇺🇸
 ####  SpankBang
