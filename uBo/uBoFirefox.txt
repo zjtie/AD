@@ -158,18 +158,9 @@ playav.tv##^footer,[src*="pemsrv"],[src*="magsrv"],ins,.logo
 playav.tv##^script:has-text(/AdProvider/)
 
 #### 视频采集
-
-
-
-
-
-
 ||ad.niuniuzs.cc
 ||semaozy5.com/template/svpro/img/new.gif
 ||semaozy5.com/ad/
-
-yutuzy.com##^.footer,.stui-pannel,.width1200+div,.header_left
-
 lajiaozy.com##^.footer,#footerAdv,.header+.width1200,.header>h1,.header_list,.videoName>img
 ! 辣椒资源
 yyzywcj.com##footer,#backToTopBtn
