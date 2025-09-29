@@ -208,7 +208,8 @@ apilj.com##^.footer,.width1200.header+div,.width1200.header>h1,.header_list,.vid
 ! 麻豆视频
 api.zuiseapi.com##^.footer,.stui-pannel,.header_left,marquee,.header_list
 ! 最色资源
-
+naixxzy.com##^#popup_mask,.footer,.stui-pannel,.header_left,.index-top-long+div,.index-top-long,div[style*="background: #c1c1c1;"],.txtguanggao
+! 奶香香资源
 
 
 ###  NSFW视频 🇺🇸 🇺🇸 🇺🇸
