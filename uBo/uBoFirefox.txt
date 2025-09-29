@@ -181,7 +181,9 @@ dadizy11.com##^.foot,#today+div+div,table,.qy,.kfs+.kfs,.name+img
 fhzy10.com##^.foot,#today+div+div,.name+img,.banner1,table,.qy,.kfs+.kfs,.vodAd
 ! 番号资源
 laosebizy.com##.index-header,.bottom,.header_list,.head.container>a,#searchbutton+p,.nav1,.on-window
-! 老色逼
+! 老色逼资源
+thzy4.me##^.footer,.stui-pannel,.header_left,.videoName>img
+! 桃花资源
 
 ###  NSFW视频 🇺🇸 🇺🇸 🇺🇸
 ####  SpankBang
