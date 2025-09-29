@@ -217,7 +217,6 @@ danaizizy1.com##^.footer,.rainbowcontent,.txtguanggao,.header_left,.header_submi
 #### 视频采集NSF
 caiji.dyttzyapi.com##^footer,section,.mr-3 
 电影天堂资源
-
 wyav.tv,iyf.tv##.van-tabbar-item:nth-of-type(3)
 wyav.tv,iyf.tv##.download-title:upward(1)
 wyav.tv,iyf.tv##.ad-tag,.van-nav-bar__left,.to_top_el,.ad_img,.pause_ad:remove()
