@@ -198,6 +198,8 @@ yutuzy10.com##^.footer,.header+div,.stui-pannel,.header_left,.videoName>img,.hea
 ! 玉兔资源
 hsckzy.vip##^.foot,.index-header,.xing_top_left,#notifyPopup
 ! 黄色仓库
+bwzyz.com##^.footer,#popup_mask,.stui-pannel,.header_left,.header_submit~*,.videoName>img,.bugs[onclick]
+! 百万资源
 
 ###  NSFW视频 🇺🇸 🇺🇸 🇺🇸
 ####  SpankBang
