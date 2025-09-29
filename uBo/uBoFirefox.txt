@@ -203,6 +203,10 @@ rule34comic.party,rule34video.com##^.footer,.emger,.logo+div,.logo,[data-name="G
 rule34comic.party,rule34video.com##^li.tab_first~li,#add_fav_0 span
 
 ## NSFW ASMR
+####  HentaiASMR
+hentaiasmr.moe##^script:has-text(/adContainer|adsbyjuicy /)
+hentaiasmr.moe##^footer,#content>center,.aside-cats+div,.comments-container
+
 ####  日本ASMR
 japaneseasmr.com##^#site-footer-credit,ins,#respond,#site-logo
 japaneseasmr.com##^script:has-text(/adConfig/) 
