@@ -208,6 +208,9 @@ apilj.com##^.footer,.width1200.header+div,.width1200.header>h1,.header_list,.vid
 ! 辣椒资源
 91md.me##^.footer,.v-top,.detail_left>ul~*
 ! 麻豆视频
+api.zuiseapi.com##^.footer,.stui-pannel,.header_left,marquee,.header_list
+! 最色资源
+
 
 
 ###  NSFW视频 🇺🇸 🇺🇸 🇺🇸
