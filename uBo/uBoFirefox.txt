@@ -160,8 +160,7 @@ playav.tv##^script:has-text(/AdProvider/)
 #### 视频采集
 155zy.com##^.footer,.stui-pannel
 senlinzy.com##^.footer,.stui-pannel,.clear,.header_left,.head_box>div[style]
-aosikazy.com##.popup
-aosikazy.com##^.index-header,.index-top-long,body>[style],.bottom,.nav1,.logo
+
 dadizy.com##^.foot,.head>table
 lajiaozy.com##^.footer,#footerAdv,.header+.width1200,.header>h1
 didizy.com##^.stui-foot,.stui-pannel.clearfix.hidden-xs
