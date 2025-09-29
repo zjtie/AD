@@ -178,7 +178,8 @@ yyzywcj.com##footer,#backToTopBtn
 ! 优优资源
 dadizy11.com##^.foot,#today+div+div,table,.qy,.kfs+.kfs,.name+img
 ! 大地资源
-
+fhzy10.com##^.foot,#today+div+div,.name+img,.banner1,table,.qy,.kfs+.kfs,.vodAd
+! 番号资源
 
 ###  NSFW视频 🇺🇸 🇺🇸 🇺🇸
 ####  SpankBang
