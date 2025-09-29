@@ -163,7 +163,7 @@ senlinzy.com##^.footer,.stui-pannel,.clear,.header_left,.head_box>div[style]
 
 
 lajiaozy.com##^.footer,#footerAdv,.header+.width1200,.header>h1
-didizy.com##^.stui-foot,.stui-pannel.clearfix.hidden-xs
+
 ||ad.niuniuzs.cc
 ||semaozy5.com/template/svpro/img/new.gif
 ||semaozy5.com/ad/
