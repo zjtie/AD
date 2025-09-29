@@ -211,7 +211,8 @@ naixxzy.com##^#popup_mask,.footer,.stui-pannel,.header_left,.index-top-long+div,
 ! 奶香香资源
 aosikazy.com##^.popup,.bottom,.index-header,.index-top-long,[style*="background: #c1c1c1"],.nav1,.head.container>a,#searchbutton+p,.on-window
 ! 奥斯卡资源
-
+semaozy5.com##.footer~*,.footer,.nav~center,.header_left,.header_list,.header_fl,.playlist+a
+! 色猫资源
 
 ###  NSFW视频 🇺🇸 🇺🇸 🇺🇸
 ####  SpankBang
