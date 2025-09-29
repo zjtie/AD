@@ -206,6 +206,9 @@ api.souavzy.vip##.stui-foot,.stui-pannel.hidden-xs,.stui-header__logo
 ! 搜av资源
 apilj.com##^.footer,.width1200.header+div,.width1200.header>h1,.header_list,.videoName>img
 ! 辣椒资源
+91md.me##^.footer,.v-top,.detail_left>ul~*
+! 麻豆视频
+
 
 ###  NSFW视频 🇺🇸 🇺🇸 🇺🇸
 ####  SpankBang
