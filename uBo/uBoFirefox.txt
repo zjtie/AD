@@ -210,6 +210,8 @@ japaneseasmr.com##^script:has-text(/adConfig/)
 ####  Eroon纯音频
 erovoice-ch.com##^#headerLine,#topContents+section,#topContents,#commentArea,#menu-item-4842
 
+####  ASMR+18
+asmr18.fans##^footer,#comments,.home-h+div[style],.book18-post-list,#menu-link
 
 ## NSFW图片 🇯🇵 🇯🇵 🇯🇵
 ####  萌色博客Moeimg
