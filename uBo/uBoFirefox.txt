@@ -175,6 +175,10 @@ shayuzy5.com##.footer,table
 yutuzy.com##^.footer,.stui-pannel,.width1200+div,.header_left
 
 ###  NSFW视频 🇺🇸 🇺🇸 🇺🇸
+####  SpankBang
+spankbang.com##^footer,.my-6,[class^="ad-"],.fl,.video-inline-ads
+spankbang.com###ad-bar,.link-wrapper:remove()
+
 ####  Eporner
 eporner.com##^script:has-text(/ADBp/)
 eporner.com##^footer,#mainphotos~*,[href="/cams4/"],[href="/upload/"]
