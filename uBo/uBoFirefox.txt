@@ -159,7 +159,7 @@ playav.tv##^script:has-text(/AdProvider/)
 
 #### 视频采集
 
-senlinzy.com##^.footer,.stui-pannel,.clear,.header_left,.head_box>div[style]
+
 
 
 lajiaozy.com##^.footer,#footerAdv,.header+.width1200,.header>h1
@@ -217,6 +217,9 @@ siwazyw.tv##body>[id],footer,header+.wrapped,.left-block,.action-log,.thumb_img+
 ! 丝袜资源
 155zy.com##^.footer,.stui-pannel,.header_left,.header_list,.videoName>img
 ! 155资源
+senlinzy.com##^.footer,.stui-pannel,.clear,.header_left,.head_box>div[style],.header_list,.videoName>img,.bugs[onclick]
+! 森林资源
+
 
 
 
