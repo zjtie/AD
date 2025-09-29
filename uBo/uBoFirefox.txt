@@ -213,6 +213,9 @@ aosikazy.com##^.popup,.bottom,.index-header,.index-top-long,[style*="background:
 ! 奥斯卡资源
 semaozy5.com##.footer~*,.footer,.nav~center,.header_left,.header_list,.header_fl,.playlist+a
 ! 色猫资源
+siwazyw.tv##body>[id],footer,header+.wrapped,.left-block,.action-log,.thumb_img+span
+! 丝袜资源
+
 
 ###  NSFW视频 🇺🇸 🇺🇸 🇺🇸
 ####  SpankBang
