@@ -175,6 +175,12 @@ shayuzy5.com##.footer,table
 yutuzy.com##^.footer,.stui-pannel,.width1200+div,.header_left
 
 ###  NSFW视频 🇺🇸 🇺🇸 🇺🇸
+####  Eporner
+eporner.com##^script:has-text(/ADBp/)
+eporner.com##^footer,#mainphotos~*,[href="/cams4/"],[href="/upload/"]
+eporner.com##^#infopopup,.uvmspn6,.uvmspn4,#commentdivleft,#admobilefoot
+eporner.com##.vjs-docker
+
 ####  xHamster
 ||static-ah.xhcdn.com/xh-desktop/js/
 xhamster.com##^.footer-wrapper,.hasBorder-66ca4,[class*="skeleton"]:remove()
