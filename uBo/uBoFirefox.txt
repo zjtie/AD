@@ -223,6 +223,8 @@ wyav.tv,iyf.tv##.ad-tag,.van-nav-bar__left,.to_top_el,.ad_img,.pause_ad:remove()
 wyav.tv,iyf.tv##[class^="ad"],.van-toast,.no_vip:remove()
 wyav.tv,iyf.tv##.sec4,.box.justify-content-end,app-footer,app-sticky-block:remove()
 wyav.tv,iyf.tv##.dabf,.pggf>.ng-star-inserted,#commentBox:remove()
+wyav.tv,iyf.tv##[app-preview-purchase-required-dialog],.app-download-block,iframe,.app-hover:remove()
+||wyav.tv/assets/prebid-ads.js
 ! 爱壹帆
 
 
