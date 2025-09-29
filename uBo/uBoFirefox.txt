@@ -183,9 +183,11 @@ eporner.com##.vjs-docker
 
 ####  xHamster
 ||static-ah.xhcdn.com/xh-desktop/js/
-xhamster.com##^.footer-wrapper,.hasBorder-66ca4,[class*="skeleton"]:remove()
-xhamster.com##^[data-nav-item-id="cams"],[data-nav-item-id="dating"]:remove()
-xhamster.com##header+nav[class^="root-"],[href*="xh.lustyheroes.com"]:remove()
+xhamster.com##^.footer-wrapper,.hasBorder-66ca4,[class*="skeleton"]
+xhamster.com##^[data-nav-item-id="cams"],[data-nav-item-id="dating"]
+xhamster.com##header+nav[class^="root-"],[href*="xh.lustyheroes.com"]
+xhamster.com##iframe,#commentToggle~*:remove()
+
 
 ####  PornHub
 pornhub.com##^.networkBarWrapper,#countryRedirectMessage,.wrapper~div,[class^="uploadBtn"]:remove()
