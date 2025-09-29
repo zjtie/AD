@@ -158,7 +158,7 @@ playav.tv##^footer,[src*="pemsrv"],[src*="magsrv"],ins,.logo
 playav.tv##^script:has-text(/AdProvider/)
 
 #### 视频采集
-155zy.com##^.footer,.stui-pannel
+
 senlinzy.com##^.footer,.stui-pannel,.clear,.header_left,.head_box>div[style]
 
 
@@ -215,6 +215,9 @@ semaozy5.com##.footer~*,.footer,.nav~center,.header_left,.header_list,.header_fl
 ! 色猫资源
 siwazyw.tv##body>[id],footer,header+.wrapped,.left-block,.action-log,.thumb_img+span
 ! 丝袜资源
+155zy.com##^.footer,.stui-pannel,.header_left,.header_list,.videoName>img
+! 155资源
+
 
 
 ###  NSFW视频 🇺🇸 🇺🇸 🇺🇸
