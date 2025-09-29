@@ -192,6 +192,8 @@ xxibaozyw.com##^.stui-foot,.stui-pannel.hidden-xs,.stui-header__search+ul,.wybc
 ! 细胞资源
 91jpzyw.com##^.wnui-foot,.link_recommend,.link_app,.desktop-only,.mobile-only,.wnui-pannel.hidden-xs,.wnui-header__logo
 ! 91精品资源网
+xingba222.com##^.bottom,.bread-crumbs,.nav1,.head.container>a,#searchbutton+p,.on-window
+! 杏吧资源
 
 ###  NSFW视频 🇺🇸 🇺🇸 🇺🇸
 ####  SpankBang
