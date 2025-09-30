@@ -227,6 +227,31 @@ wyav.tv,iyf.tv##[app-preview-purchase-required-dialog],.app-download-block,ifram
 ||wyav.tv/assets/prebid-ads.js
 ! 爱壹帆
 
+5wwcdf80.life##.footer,.small-icon-container,.fixedGroup,.notice-box
+5wwcdf80.life##.swiper-slide.navbar-item:last-of-type
+5wwcdf80.life##+js(trusted-set-attr, a[title="福利"], href, https://www.5wwcdf80.life/vodtype/124.html)
+5wwcdf80.life##.header-box,.container-slide,.is_mb:remove()
+shop##div.ka-wrapper ~div,.ka-wrapper .h-24,.ka-wrapper .gap-2.px-2,.ka-wrapper .tooltip-container
+shop##.ka-wrapper .mb-4
+shop##[_nk="G2Pa11"]+div,.animate-fadeInUpStagger-1,.animate-fadeInUpStagger-2,.animate-fadeInUpStagger-6>button
+shop##.animate-fadeInUpStagger-3 .plyr__controls
+||beijing2.xstore.qihu.com^$image
+||zm-cloud.oss-cn-beijing.aliyuncs.com^
+||fluvc.cn/
+vip##.py-2.justify-center.items-center.flex.w-full.ads-btn:upward(3):remove()
+! 移除视频广告
+vip##+js(trusted-set-attr,.art-layer.art-layer-layer3, style ,"position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 999; display: none;" )
+! 自动播放
+vip##.p-2.rounded-full.z-\[9999\].left-1.bottom-\[12rem\].fixed:remove()
+! 浮窗
+vip##.opacity-1.z-\[1900\].relative.px-3
+vip##.mt-14.pb-\[100px\].px-\[10px.items-cente.justify-center.flex-col.flex.w-full.explore_sec > div[class^="py"]
+vip##h1.px-1.text-white:has-text(/热门应用/):upward(1):remove()
+vip##div.text-white\/60.gap-1.items-center.flex-col.flex:has-text(/应用推荐/):remove()
+vip##.flex.items-center.gap-1:has-text(/创作/):remove()
+vip##h1.font-\[400\].text-\[14px\].ad_update.text-white:has-text(/官方推荐|电子|棋牌/):upward(3):remove()
+! 555电影
+
 
 ###  NSFW视频 🇺🇸 🇺🇸 🇺🇸
 ####  SpankBang
