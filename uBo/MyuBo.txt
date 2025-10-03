@@ -1,3 +1,4 @@
-
+! Title: Pixel uBlock Origin
+! Homepage: https://raw.githubusercontent.com/zjtie/AD/refs/heads/main/uBo/MyuBo.txt
 !#include uBoFirefox.txt
 !#include uBoChrome.txt
