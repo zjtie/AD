@@ -13,3 +13,9 @@ shop##.ka-wrapper .mb-4
 shop##[_nk="G2Pa11"]+div,.animate-fadeInUpStagger-1,.animate-fadeInUpStagger-2,.animate-fadeInUpStagger-6>button
 shop##.animate-fadeInUpStagger-3 .plyr__controls
 ! 笔盒
+
+5wwcdf80.life##.footer,.small-icon-container,.fixedGroup,.notice-box
+5wwcdf80.life##.swiper-slide.navbar-item:last-of-type
+5wwcdf80.life##+js(trusted-set-attr, a[title="福利"], href, https://www.5wwcdf80.life/vodtype/124.html)
+5wwcdf80.life##.header-box,.container-slide,.is_mb:remove()
+! 555电影
