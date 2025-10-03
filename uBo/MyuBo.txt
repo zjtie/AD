@@ -1,1 +1,2 @@
-!#include [文件名]
+!#include uBoChrome.txt
+!#include uBoFirefox.txt
