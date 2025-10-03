@@ -1,2 +1,2 @@
 0.0.0.0 fluvc.cn
-0.0.0.0 beijing2.xstore.qihu.com
+0.0.0.0 qihu.com
