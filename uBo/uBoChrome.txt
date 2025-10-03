@@ -19,3 +19,13 @@ shop##.animate-fadeInUpStagger-3 .plyr__controls
 5wwcdf80.life##+js(trusted-set-attr, a[title="福利"], href, https://www.5wwcdf80.life/vodtype/124.html)
 5wwcdf80.life##.header-box,.container-slide,.is_mb:remove()
 ! 555电影
+
+wyav.tv,iyf.tv##.van-tabbar-item:nth-of-type(3)
+wyav.tv,iyf.tv##.download-title:upward(1)
+wyav.tv,iyf.tv##.ad-tag,.van-nav-bar__left,.to_top_el,.ad_img,.pause_ad:remove()
+wyav.tv,iyf.tv##[class^="ad"],.van-toast,.no_vip:remove()
+wyav.tv,iyf.tv##.sec4,.box.justify-content-end,app-footer,app-sticky-block:remove()
+wyav.tv,iyf.tv##.dabf,.pggf>.ng-star-inserted,#commentBox:remove()
+wyav.tv,iyf.tv##[app-preview-purchase-required-dialog],.app-download-block,iframe,.app-hover:remove()
+||wyav.tv/assets/prebid-ads.js
+! 爱壹帆影视
