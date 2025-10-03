@@ -1,3 +1,6 @@
 0.0.0.0 fluvc.cn
 0.0.0.0 qihu.com
 0.0.0.0 shenglinyiyang.cn
+
+0.0.0.0 jads.co
+0.0.0.0 juicyads.com
