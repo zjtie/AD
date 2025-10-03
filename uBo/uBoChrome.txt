@@ -7,3 +7,4 @@ vip##.flex.flex-col.items-center.gap-1:nth-of-type(3)
 vip##.flex.items-center.gap-1:has-text(/创作/)
 vip##[class="flex flex-col justify-center items-center gap-[4px]"]:has-text(/情趣三国/):upward(1)
 vip##[class="py-[20px] relative"],[class=" pt-[20px] px-[10px]"]
+vip##[class="absolute top-[2vh] right-[2vh] cursor-pointer"]
