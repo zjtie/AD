@@ -1,2 +1,3 @@
-!#include uBoChrome.txt
+
 !#include uBoFirefox.txt
+!#include uBoChrome.txt
