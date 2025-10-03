@@ -1,3 +1,8 @@
+bilibili.com##^script:has-text(/isHeaderBannerReported|isSpider|browser-tip/)
+bilibili.com##^[nomodule],.open-app
+bilibili.com##.download-entry,.right-entry-item,.vip-wrap,.ad-report,.slide-ad-exp,m-open-app,.desc
+! 视频 哔哩哔哩
+
 
 yuque.com###openInAppBtn:upward(1)
 yuque.com##[data-testid="like-btn"]:upward(3)
