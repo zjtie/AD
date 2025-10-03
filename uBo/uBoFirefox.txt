@@ -1,7 +1,4 @@
 
-||jads.co
-||juicyads.com
-
 yuque.com###openInAppBtn:upward(1)
 yuque.com##[data-testid="like-btn"]:upward(3)
 yuque.com##^script:has-text(/parentNode|Object.fromEntries|监控事件|反馈信息|MaxErrorReportLimit/)
