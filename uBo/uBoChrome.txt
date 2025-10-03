@@ -1,0 +1,9 @@
+vip##.w-full.h-full.relative.overflow-hidden
+vip##.initial_popup_ad_box:upward(2):remove()
+vip##.initial_popup_ad_box_close:upward(2):remove()
+vip##button.absolute.top-1.right-2.bg-red.rounded-full.w-5.h-5.flex:upward(2):remove()
+vip##.flex.flex-col.items-center.gap-1:nth-of-type(2)
+vip##.flex.flex-col.items-center.gap-1:nth-of-type(3)
+vip##.flex.items-center.gap-1:has-text(/创作/)
+vip##[class="flex flex-col justify-center items-center gap-[4px]"]:has-text(/情趣三国/):upward(1)
+vip##[class="py-[20px] relative"],[class=" pt-[20px] px-[10px]"]
