@@ -15,9 +15,9 @@
 
   （部分代码已进行压缩，若查看格式化代码内容，请浏览 [`main.html`](https://github.com/wugeng20/openlist-glassmorphism-theme/blob/main/main.html)和 [`style.scss`](https://github.com/wugeng20/openlist-glassmorphism-theme/blob/main/style.scss)文件）：  
   将以下内容添加到对应位置  
-  局域网内使用关闭签名  
+  局域网内使用关闭 '签名'  
 
-进入「设置」→「全局」→「自定义头部」
+进入「设置」→「全局」→「'自定义头部'」
 
 ```html
 <style type="text/css">
@@ -32,7 +32,7 @@ body {
 ```
 
 
-进入「设置」→「全局」→「自定义内容」
+进入「设置」→「全局」→「'自定义内容'」
 
 ```html
 <!-- 视频背景 -->
