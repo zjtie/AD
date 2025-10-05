@@ -8,6 +8,7 @@ vip##.flex.items-center.gap-1:has-text(/创作/)
 vip##[class="flex flex-col justify-center items-center gap-[4px]"]:has-text(/情趣三国/):upward(1)
 vip##[class="py-[20px] relative"],[class=" pt-[20px] px-[10px]"]
 vip##[class="absolute top-[2vh] right-[2vh] cursor-pointer"]
+vip##.ads-btn>span:has-text(/立即领取/):upward(4):remove()
 shop##div.ka-wrapper ~div,.ka-wrapper .h-24,.ka-wrapper .gap-2.px-2,.ka-wrapper .tooltip-container
 shop##.ka-wrapper .mb-4
 shop##[_nk="G2Pa11"]+div,.animate-fadeInUpStagger-1,.animate-fadeInUpStagger-2,.animate-fadeInUpStagger-6>button
