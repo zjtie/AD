@@ -13,7 +13,7 @@
 
 ### 在 OpenList 中使用主题
 
-  （部分代码已进行压缩，若查看格式化代码内容，请浏览 `main.html`和 `style.scss`文件）：  
+  （部分代码已进行压缩，若查看格式化代码内容，请浏览 [`main.html`](https://github.com/wugeng20/openlist-glassmorphism-theme/blob/main/main.html)和 [`style.scss`](https://github.com/wugeng20/openlist-glassmorphism-theme/blob/main/style.scss)文件）：  
   将以下内容添加到对应位置  
   局域网内使用关闭签名  
 
