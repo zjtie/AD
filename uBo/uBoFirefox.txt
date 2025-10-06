@@ -10,7 +10,7 @@ yxssp.com##^.td-animation-stack:has-text(/大流量手机卡/)
 
 ahhhhfs.com##^footer,#ri_home_slider_widget-2,#ri_home_background_widget-2
 ahhhhfs.com##^.site-addswarp.pc ,.entry-social
-! A姐分享
+! 导航 A姐分享
 
 yuque.com###openInAppBtn:upward(1)
 yuque.com##[data-testid="like-btn"]:upward(3)
