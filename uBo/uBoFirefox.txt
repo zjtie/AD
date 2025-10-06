@@ -8,6 +8,10 @@ yxssp.com##^[alt="微信扫一扫，关注我们"],#respond
 yxssp.com##^.td-animation-stack:has-text(/大流量手机卡/)
 ! 软件 异星软件空间
 
+ahhhhfs.com##^footer,#ri_home_slider_widget-2,#ri_home_background_widget-2
+ahhhhfs.com##^.site-addswarp.pc ,.entry-social
+! A姐分享
+
 yuque.com###openInAppBtn:upward(1)
 yuque.com##[data-testid="like-btn"]:upward(3)
 yuque.com##^script:has-text(/parentNode|Object.fromEntries|监控事件|反馈信息|MaxErrorReportLimit/)
