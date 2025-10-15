@@ -37,3 +37,4 @@ redgifs.com##.TabLink_isUpload,.aTab.Button_s.Button_tertiary.Button
 ! Video RedGif
 
 scrolller.com##[href="/upload-content"],#main-header>[class^="Header_"]
+! Video scrolller
