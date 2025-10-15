@@ -147,6 +147,7 @@ sexinsex.net##.avatar
 ### NSFW视频 🇨🇳 🇨🇳 🇨🇳
 ####  好色TV
 hsex.icu##^footer,.alert ,.btn-danger,.btn-info,.col-xs-12 
+madou.club##^.article-actions,.widget-textasst,.widget-asst
 
 ####  91porny
 91porna.com##^li.mr-6.flex:nth-of-type(4)~*
