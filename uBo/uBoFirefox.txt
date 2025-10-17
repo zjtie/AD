@@ -3,6 +3,10 @@ bilibili.com##^[nomodule],.open-app
 bilibili.com##.download-entry,.right-entry-item,.vip-wrap,.ad-report,.slide-ad-exp,m-open-app,.desc
 ! 视频 哔哩哔哩
 
+hentaicity.com##^.modal-box,.main.ac~*
+hentaicity.com##^footer,._1024plus:remove()
+! NSFW 番剧
+
 yxssp.com##^.td-footer-outer-wrapper,.td-header-top-menu,.td-header-logo-wrap,.widget_search+div
 yxssp.com##^[alt="微信扫一扫，关注我们"],#respond
 yxssp.com##^.td-animation-stack:has-text(/大流量手机卡/)
