@@ -5,11 +5,6 @@ telegram.org##span.reply-markup-button-text:has-text(/6G国际娱乐/):upward(3)
 telegram.org##span.reply-markup-button-text:has-text(/赞助|保证金/):upward(2):remove()
 ! 匹配按钮，屏蔽按钮 下方的广告按钮【通用】
 
-
-
-
-
-
 vip##.w-full.h-full.relative.overflow-hidden
 vip##.initial_popup_ad_box:upward(2):remove()
 vip##.initial_popup_ad_box_close:upward(2):remove()
