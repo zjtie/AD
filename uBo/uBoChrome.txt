@@ -1,9 +1,12 @@
-telegram.org##.message span:has-text(/OverWall加速器|酒馆AI|绅士玩具屋|樱川爱|特价|支付|新用户|信誉|USDT|免费|SoulAI|游玩|体育/):nth-ancestor(4)
-telegram.org##blockquote:has-text(/付费/):remove()
-telegram.org##span.reply-markup-button-text:has-text(/6G国际娱乐/):upward(3):remove()
-! 匹配按钮，屏蔽正文卡片 下方的广告按钮【通用】
-telegram.org##span.reply-markup-button-text:has-text(/赞助|保证金/):upward(2):remove()
-! 匹配按钮，屏蔽按钮 下方的广告按钮【通用】
+telegram.org##.media-viewer-buttons .hide:remove-class(hide)
+telegram.org##.media-viewer-buttons:style(color: #fff !important;display: flex !important;)
+! 移除视频控件的隐藏
+telegram.org##.btn-primary.btn-color-primary,.popup-peer
+telegram.org##.service-msg:has-text(/pinned|joined/):nth-ancestor(4)
+telegram.org##.message span:has-text(/OverWall加速器|酒馆AI|成人版|绅士玩具屋|樱川爱|特价|支付|新用户|信誉|USDT|免费|SoulAI|游玩|体育|棋牌|必备的搜索引擎/):nth-ancestor(4)
+! 整个卡片
+telegram.org##.reply-markup-button:has-text(/娱乐/):nth-ancestor(2)
+! 整个卡片 下方的按钮
 
 vip##.w-full.h-full.relative.overflow-hidden
 vip##.initial_popup_ad_box:upward(2):remove()
