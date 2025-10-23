@@ -7,6 +7,10 @@ hentaicity.com##^.modal-box,.main.ac~*
 hentaicity.com##^footer,._1024plus:remove()
 ! NSFW 番剧
 
+nsfwr34.com##^.site-footer,.comments-list-lg,.button-group-share,.button-group-report,#menu-item-108~*,[id^="block-"]
+nsfwr34.com##[id^="share_box"]:remove()
+! NSFW 视频 3D动漫 
+
 yxssp.com##^.td-footer-outer-wrapper,.td-header-top-menu,.td-header-logo-wrap,.widget_search+div
 yxssp.com##^[alt="微信扫一扫，关注我们"],#respond
 yxssp.com##^.td-animation-stack:has-text(/大流量手机卡/)
