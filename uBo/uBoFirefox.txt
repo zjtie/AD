@@ -13,6 +13,8 @@ comicbox.xyz##.global-navbar:remove()
 
 hentaienvy.com##^.footer,.footer_bar,.gallery_comments,.bblocktop
 ! NSFW 漫画 🇺🇸 HentaiEnvy
+hentaiera.com##^#footer_bar,#bar,#comments_div,.bblocktop
+! NSFW 漫画 🇺🇸 HentaiEra
 
 nsfwr34.com##^.site-footer,.comments-list-lg,.button-group-share,.button-group-report,#menu-item-108~*,[id^="block-"]
 nsfwr34.com##[id^="share_box"]:remove()
