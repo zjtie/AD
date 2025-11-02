@@ -165,7 +165,7 @@ madou.club##^.article-actions,.widget-textasst,.widget-asst
 ####  91porny
 91porna.com##^li.mr-6.flex:nth-of-type(4)~*
 91porna.com##^[data-id="9"]~*
-91porna.com##^.ad-dialog,footer,.my-2,.text-mini,.dx-backtop
+91porna.com##^.ad-dialog,footer,.my-2,.text-mini,.dx-backtop,#tip_modal
 91porna.com##^.aspect-w-10,.cursor-pointer,.dx-tab-list+div+div,.pb-4>div~*,.px-3.absolute 
 91porna.com##^[title$="新葡京"],[title="51直播"],[title="杏吧直播"]:upward(1)
 
