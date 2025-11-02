@@ -347,6 +347,7 @@ acgmhn.com##+js(set-constant, pub_btn_word, '')
 ! 移动端：登入窗口
 18comic.vip##.thewayhome:remove()
 18comic.vip###Comic_Top_Nav:remove-class(navbar)
+18comic.vip##.float_right
 ! ! 去除顶部空白部分的移除
 
 ### 🇰🇷 🇰🇷 🇰🇷
