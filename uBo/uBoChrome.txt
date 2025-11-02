@@ -52,4 +52,6 @@ redgifs.com##.TabLink_isUpload,.aTab.Button_s.Button_tertiary.Button,.liveAdButt
 ! Video RedGif
 
 scrolller.com##[href="/upload-content"],#main-header>[class^="Header_"]
+scrolller.com##.popup,[class^="LiveCircleButton_wrapper"]
+scrolller.com##[class^="IframeLiveAd"]:upward(1):remove-attr(style)
 ! Video scrolller
