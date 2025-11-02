@@ -11,6 +11,9 @@ comicbox.xyz##^#block-Z,.pc_gg_div,.banner-static,.view-comment,.CarouselView
 comicbox.xyz##.global-navbar:remove()
 ! NSFW 漫画 🇨🇳 污污漫画
 
+hentaienvy.com##^.footer,.footer_bar,.gallery_comments,.bblocktop
+! NSFW 漫画 🇺🇸 HentaiEnvy
+
 nsfwr34.com##^.site-footer,.comments-list-lg,.button-group-share,.button-group-report,#menu-item-108~*,[id^="block-"]
 nsfwr34.com##[id^="share_box"]:remove()
 ! NSFW 视频 3D动漫 
