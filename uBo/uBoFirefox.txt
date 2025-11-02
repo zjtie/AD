@@ -9,7 +9,7 @@ hentaicity.com##^footer,._1024plus:remove()
 
 comicbox.xyz##^#block-Z,.pc_gg_div,.banner-static,.view-comment,.CarouselView 
 comicbox.xyz##.global-navbar:remove()
-! NSFW漫画 🇨🇳 污污漫画
+! NSFW 漫画 🇨🇳 污污漫画
 
 nsfwr34.com##^.site-footer,.comments-list-lg,.button-group-share,.button-group-report,#menu-item-108~*,[id^="block-"]
 nsfwr34.com##[id^="share_box"]:remove()
