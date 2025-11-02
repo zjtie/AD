@@ -48,7 +48,7 @@ wyav.tv,iyf.tv##[app-preview-purchase-required-dialog],.app-download-block,ifram
 
 redgifs.com##html:remove-attr(translate)
 redgifs.com##.burgerMenuWrapper,.globalSearch~button,.side,#portal-root,nav.legalLinks
-redgifs.com##.TabLink_isUpload,.aTab.Button_s.Button_tertiary.Button
+redgifs.com##.TabLink_isUpload,.aTab.Button_s.Button_tertiary.Button,.liveAdButton
 ! Video RedGif
 
 scrolller.com##[href="/upload-content"],#main-header>[class^="Header_"]
