@@ -16,6 +16,9 @@ nsfwr34.com##[id^="share_box"]:remove()
 3dporndude.com##[href^="https://mirbeko.pro"],[href^="https://xxxelf.app"],[href^="https://landing"],[href^="https://tsyndicate.com"],[href^="https://fhgte.com"],[href^="https://theporndude.com"]
 ! NSFW 视频 3D动漫
 
+7mmtv.sx##^footer
+! NSFW 视频 🇯🇵 🇯🇵 🇯🇵7MM
+
 yxssp.com##^.td-footer-outer-wrapper,.td-header-top-menu,.td-header-logo-wrap,.widget_search+div
 yxssp.com##^[alt="微信扫一扫，关注我们"],#respond
 yxssp.com##^.td-animation-stack:has-text(/大流量手机卡/)
