@@ -16,6 +16,9 @@ hentaienvy.com##^.footer,.footer_bar,.gallery_comments,.bblocktop
 hentaiera.com##^#footer_bar,#bar,#comments_div,.bblocktop
 ! NSFW 漫画 🇺🇸 HentaiEra
 
+hentaisea.com##^footer,#menu-item-43610,#menu-item-45464,#custom_html-9
+! NSFW 视频 3D HentaiEra
+
 nsfwr34.com##^.site-footer,.comments-list-lg,.button-group-share,.button-group-report,#menu-item-108~*,[id^="block-"]
 nsfwr34.com##[id^="share_box"]:remove()
 ! NSFW 视频 3D动漫 
