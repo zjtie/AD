@@ -387,11 +387,6 @@ aammhh.com##^.swiper,[title="韩漫之家"],.book-desc>p
 jmdw7.com##^footer,body>center,.logo
 jmdw7.com##^script:has-text(/dialog/)
 
-### 🇯🇵 🇯🇵 🇯🇵
-####【日】  被男陵辱
-kimootoko.net##^script:has-text(/createElement/):remove()
-kimootoko.net##^footer,#custom_html-72,.arasuji~hr,.arasuji~div
-
 ####【日】  NyaHentai
 ||js.ssp.bance.jp/bnctag.js
 nyahentai.re##+js(nano-stb, bnctag)
