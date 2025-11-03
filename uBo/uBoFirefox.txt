@@ -3,6 +3,13 @@ bilibili.com##^[nomodule],.open-app
 bilibili.com##.download-entry,.right-entry-item,.vip-wrap,.ad-report,.slide-ad-exp,m-open-app,.desc
 ! 视频 哔哩哔哩
 
+thatpervert.com##^#tagList,.uhead,.unregistered,.topbar_wr,#header
+! NSFW 图片 thatpervert
+
+kimootoko.net##^script:has-text(/createElement/)
+kimootoko.net##^#header,.widget_text.header-widget,#sidebar>div~*,#custom_html-42,.w-frontTop,.w-frontBottom
+! NSFW 漫画 被男陵辱
+
 jjpicss.com##^.fbpage,.ad 
 ! NSFW 图片 JJPICSS
 
