@@ -305,9 +305,9 @@ asmr18.fans##^footer,#comments,.home-h+div[style],.book18-post-list,#menu-link
 
 ## NSFW图片 🇯🇵 🇯🇵 🇯🇵
 ####  萌色博客Moeimg
-moeimg.net##^#header,.intro,[class*="_ad"],[id*="_ad"],#footer,#pickup-header_frame:remove()
-moeimg.net##^#pickup-footer_frame,.post.pc_only,#side-2,[class*="pickup-random"],.share :remove()
-moeimg.net##^[class^="news_"],#respond:remove()
+moeimg.net##^#header,.intro,[class*="_ad"],[id*="_ad"],#footer,#pickup-header_frame
+moeimg.net##^#pickup-footer_frame,.post.pc_only,#side-2,[class*="pickup-random"],.share
+moeimg.net##^[class^="news_"],#respond,##page-pickup-link_frame
 
 ## NSFW漫画 
 ### 🇨🇳 🇨🇳 🇨🇳
