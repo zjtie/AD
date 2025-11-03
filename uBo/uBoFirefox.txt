@@ -3,6 +3,39 @@ bilibili.com##^[nomodule],.open-app
 bilibili.com##.download-entry,.right-entry-item,.vip-wrap,.ad-report,.slide-ad-exp,m-open-app,.desc
 ! 视频 哔哩哔哩
 
+jjpicss.com##^.fbpage,.ad 
+! NSFW 图片 JJPICSS
+
+ikanins.com##^#comments,footer,.sharrre-container
+! NSFW 图片 爱看INS
+
+ichinuke.com##^footer,[id*="_ad_"],#custom_html-18,iframe,#custom_html-25,#custom_html-47,#text-4,#text-11
+ichinuke.com##^.c-shareBtns,#custom_html-59,#comments,#custom_html-13,.w-beforeRelated,#slide_wrap
+! NSFW 图片二次元 Ichinuke 
+
+moeimg.net##^[id*="pickup"],[class*="pickup"],[class*="_ad"],[id*="_ad"],#footer,#header,.share,.entryblock,#side-2,.pc_only,#respond
+! NSFW 图片二次元 萌色博客Moeimg
+
+hentai-witch.com##^#header-container,#content-top,[id*="_ad"],footer,[id^="linkcat"],#pc_text-2,#comment-area,#mobile_text-2
+! NSFW 图片二次元 witch
+
+adaman-ero.com##^#header-full,footer,[id^="execphp"],.pc_topAd,[id*="_ad"],[id*="-ad"],.side-topad,#custom_html-6
+adaman-ero.com##^.st-sns-top,.banner,#comments,.sns,#custom_html-12,.adbox,#custom_html-14,#custom_html-16
+! NSFW 图片二次元 Adaman 
+
+nijifeti.com##^footer,.breadcrumbs,.pagetopwrap,.sidebox>div,#text-2,#text-3,.adbox,.osu2,.comment,.ts40box+div,.aksmbox,#header
+nijifeti.com##^.pagination,div.posts__item
+! NSFW 图片二次元 nijifeti
+
+slushe.com##^footer,.header-top-block,.comments,.easy-share,.reportPost
+! NSFW 图片3D Slushe 
+
+a-hadaka.jp##^.overray,address,footer,#pr_dxlive,#commentarea,.col-md-6+div,#page-content>aside
+! NSFW 图片 太平天香
+
+pornpics.com##^footer,#onTop3,#fb-button,.left-nav-sponsor
+! NSFW 图片  pornpics 
+
 hentaicity.com##^.modal-box,.main.ac~*
 hentaicity.com##^footer,._1024plus:remove()
 ! NSFW 番剧
