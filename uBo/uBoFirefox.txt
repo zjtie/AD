@@ -6,6 +6,19 @@ bilibili.com##.download-entry,.right-entry-item,.vip-wrap,.ad-report,.slide-ad-e
 thatpervert.com##^#tagList,.uhead,.unregistered,.topbar_wr,#header
 ! NSFW 图片 thatpervert
 
+jpxzt.com,wsgmzt.com###xzappsq,#dasoa,#dasob,#listp,#listja,#divpsgx,[id^="listmt"],.interestline+div.nav
+jpxzt.com,wsgmzt.com###bdssy,#d4a,#apptur,#app,#a163,#bzs3,#xtjpb,#xtjpp,#apic,#d5tig,#d5a
+! NSFW 图片 无圣光
+
+canovel.com##^footer,#nav_menu-3,.sidebar-top,#nav-topbar+div,.page-title
+canovel.com##^.entry-inner>div,.entry-inner a
+! NSFW 小说 CA
+
+69story.com##^footer,[colspan="2"],#primary~*,.btn-18h,.site-branding,[href*="gay"],#menu-item-1197,#menu-item-1196
+69story.com##^#read-more,#bkat,.panel+div,#menu-item-212
+69story.com###primary:style(margin-bottom:100px !important;)
+! NSFW 小说 69成人
+
 kimootoko.net##^script:has-text(/createElement/)
 kimootoko.net##^#header,.widget_text.header-widget,#sidebar>div~*,#custom_html-42,.w-frontTop,.w-frontBottom
 ! NSFW 漫画 被男陵辱
