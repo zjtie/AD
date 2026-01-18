@@ -1,7 +1,8 @@
 so.douyin.com##[data-is-ad="true"]
 fuliba2023.net,fuliba2025.net##.branding,.footer,.widget_ui_textorbui,.shares,.no_webshot,[href="http://www.dashutiyu.xyz/"]
 castbox.fm##.main-footer
-
+pocketcasts.com##[kind="primary"]
+open.spotify.com##[href="/download"],[data-testid="footer-div"]
 
 telegram.org##.media-viewer-buttons .hide:remove-class(hide)
 telegram.org##.media-viewer-buttons:style(color: #fff !important;display: flex !important;)
@@ -61,6 +62,7 @@ scrolller.com##.popup,[class^="LiveCircleButton_wrapper"]
 scrolller.com##[class^="IframeLiveAd"]:upward(1):remove-attr(style)
 
 ! Video scrolller
+
 
 
 
