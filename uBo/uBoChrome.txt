@@ -1,5 +1,5 @@
 so.douyin.com##[data-is-ad="true"]
-fuliba2023.net,fuliba2025.net##.branding,.footer,.widget_ui_textorbui,.shares,.no_webshot
+fuliba2023.net,fuliba2025.net##.branding,.footer,.widget_ui_textorbui,.shares,.no_webshot,[href="http://www.dashutiyu.xyz/"]
 telegram.org##.media-viewer-buttons .hide:remove-class(hide)
 telegram.org##.media-viewer-buttons:style(color: #fff !important;display: flex !important;)
 ! 移除视频控件的隐藏
@@ -58,4 +58,5 @@ scrolller.com##.popup,[class^="LiveCircleButton_wrapper"]
 scrolller.com##[class^="IframeLiveAd"]:upward(1):remove-attr(style)
 
 ! Video scrolller
+
 
