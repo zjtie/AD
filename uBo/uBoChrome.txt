@@ -1,3 +1,5 @@
+so.douyin.com##[data-is-ad="true"]
+
 telegram.org##.media-viewer-buttons .hide:remove-class(hide)
 telegram.org##.media-viewer-buttons:style(color: #fff !important;display: flex !important;)
 ! 移除视频控件的隐藏
@@ -54,4 +56,5 @@ redgifs.com##.TabLink_isUpload,.aTab.Button_s.Button_tertiary.Button,.liveAdButt
 scrolller.com##[href="/upload-content"],#main-header>[class^="Header_"]
 scrolller.com##.popup,[class^="LiveCircleButton_wrapper"]
 scrolller.com##[class^="IframeLiveAd"]:upward(1):remove-attr(style)
+
 ! Video scrolller
