@@ -124,6 +124,7 @@ sis001.com##^.mainbox.forumlist:has-text(/赞助特别服务区|公告区|新手
 51cg1.com##^p:has-text(/51吃瓜|获取最新地址/):remove()
 51cg1.com##^a[onclick*="Ad Click"]:upward(1):remove()
 51cg1.com##^.post-card-ads:upward(3):remove()
+51cg1.com##.addbox,#adFloat,.btn-download,[data-xuid="29"]
 
 #### NSFW  论坛  海角网
 edfe8.vfdpvzzi.cc##^.xqbj-component-advertises,.relate-container,.xqbj-footer:remove()
