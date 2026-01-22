@@ -106,9 +106,7 @@ reddit.com##left-nav-top-section~hr:remove()
 
 ## NSFW 论坛
 #### NSFW  论坛  uaa
-uaa.com##^.banner_box,.shortcut_box,.divider,.foot_box,.note_box,.dizhi,.comment_btn:remove()
-uaa.com##^.head_menu_box > div:nth-of-type(5)~*:remove()
-uaa.com##^.menu_box > div:nth-of-type(4)~*:remove()
+uaa.com##^.foot_box,.banner_box>div,.note_box
 
 #### NSFW  论坛  第一会所
 sis001.com##^#header,#wrapper #menu,#footercontainer,#append_parent,#ajaxwaitid:remove()
